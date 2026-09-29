@@ -1,0 +1,218 @@
+{
+  "master_fingerprint": {
+    "master_dir": "data\\master",
+    "monthly_path": "data\\master\\v1_monthly.parquet",
+    "quarterly_path": "data\\master\\gdp_quarterly.parquet",
+    "registry_path": "registry\\uzbekistan_nowcasting_v1.2_registry.xlsx",
+    "monthly_sha256": "78a7c51b97247d3ccbd72cbcb03b89f6f52f0f091201956bba85c0373856ba7c",
+    "quarterly_sha256": "36793699e48de74ecfe31eeb7eb8f23cf3eb6f2ab9ca929cdd4bb240c1bdfbac",
+    "registry_sha256": "0659713cea0fea42c3823a3be26dd116ba15f2b292f269ba5f7e1c7b99abbb33",
+    "monthly_rows": 801,
+    "monthly_predictor_columns": 28,
+    "monthly_first_period": "1960-01-31",
+    "monthly_last_period": "2026-09-30",
+    "quarterly_rows": 34,
+    "quarterly_first_quarter": "2018Q1",
+    "quarterly_last_quarter": "2026Q2"
+  },
+  "tier_resolutions": [
+    {
+      "tier": "A",
+      "kind": "production",
+      "configured_keys": [
+        "ppi",
+        "usd_uzs",
+        "rub_uzs",
+        "gold_price",
+        "m2",
+        "fx_reserves_ex_gold"
+      ],
+      "found_keys": [
+        "ppi",
+        "usd_uzs",
+        "rub_uzs",
+        "gold_price",
+        "m2",
+        "fx_reserves_ex_gold"
+      ],
+      "missing_keys": [],
+      "excluded_keys": [],
+      "found_fields": [
+        "ppi_mom_log",
+        "usd_uzs_mom_dlog",
+        "rub_uzs_mom_dlog",
+        "gold_price_mom_dlog",
+        "m2_yoy_log",
+        "fx_reserves_exgold_yoy_log"
+      ]
+    },
+    {
+      "tier": "B",
+      "kind": "production",
+      "configured_keys": [
+        "ppi",
+        "usd_uzs",
+        "rub_uzs",
+        "gold_price",
+        "m2",
+        "fx_reserves_ex_gold",
+        "industrial_production",
+        "manufacturing",
+        "mining",
+        "electricity_gas",
+        "retail_trade",
+        "wholesale_trade"
+      ],
+      "found_keys": [
+        "ppi",
+        "usd_uzs",
+        "rub_uzs",
+        "gold_price",
+        "m2",
+        "fx_reserves_ex_gold",
+        "industrial_production",
+        "manufacturing",
+        "mining",
+        "electricity_gas",
+        "retail_trade",
+        "wholesale_trade"
+      ],
+      "missing_keys": [],
+      "excluded_keys": [],
+      "found_fields": [
+        "ppi_mom_log",
+        "usd_uzs_mom_dlog",
+        "rub_uzs_mom_dlog",
+        "gold_price_mom_dlog",
+        "m2_yoy_log",
+        "fx_reserves_exgold_yoy_log",
+        "ind_prod_yoy_log",
+        "manufacturing_yoy_log",
+        "mining_yoy_log",
+        "utilities_yoy_log",
+        "retail_yoy_log",
+        "wholesale_yoy_log"
+      ]
+    },
+    {
+      "tier": "C",
+      "kind": "production",
+      "configured_keys": [
+        "ppi",
+        "usd_uzs",
+        "rub_uzs",
+        "gold_price",
+        "m2",
+        "fx_reserves_ex_gold",
+        "industrial_production",
+        "manufacturing",
+        "mining",
+        "electricity_gas",
+        "retail_trade",
+        "wholesale_trade",
+        "construction",
+        "cpi_headline",
+        "cpi_food",
+        "cpi_services",
+        "exports_total",
+        "exports_non_gold",
+        "imports_total",
+        "gold_exports_proxy"
+      ],
+      "found_keys": [
+        "ppi",
+        "usd_uzs",
+        "rub_uzs",
+        "gold_price",
+        "m2",
+        "fx_reserves_ex_gold",
+        "industrial_production",
+        "manufacturing",
+        "mining",
+        "electricity_gas",
+        "retail_trade",
+        "wholesale_trade",
+        "construction",
+        "cpi_headline",
+        "cpi_food",
+        "cpi_services",
+        "exports_total",
+        "exports_non_gold",
+        "imports_total",
+        "gold_exports_proxy"
+      ],
+      "missing_keys": [],
+      "excluded_keys": [],
+      "found_fields": [
+        "ppi_mom_log",
+        "usd_uzs_mom_dlog",
+        "rub_uzs_mom_dlog",
+        "gold_price_mom_dlog",
+        "m2_yoy_log",
+        "fx_reserves_exgold_yoy_log",
+        "ind_prod_yoy_log",
+        "manufacturing_yoy_log",
+        "mining_yoy_log",
+        "utilities_yoy_log",
+        "retail_yoy_log",
+        "wholesale_yoy_log",
+        "construction_yoy_log",
+        "cpi_headline_mom_log",
+        "cpi_food_mom_log",
+        "cpi_services_mom_log",
+        "exports_total_yoy_log",
+        "exports_non_gold_yoy_log",
+        "imports_total_yoy_log",
+        "gold_exports_proxy_usd_m"
+      ]
+    },
+    {
+      "tier": "experimental",
+      "kind": "informational",
+      "configured_keys": [
+        "household_deposits",
+        "corporate_deposits",
+        "household_credit",
+        "corporate_credit",
+        "pos_turnover",
+        "instant_payments",
+        "interbank_payments"
+      ],
+      "found_keys": [
+        "household_deposits",
+        "corporate_deposits",
+        "household_credit",
+        "corporate_credit",
+        "pos_turnover",
+        "instant_payments",
+        "interbank_payments"
+      ],
+      "missing_keys": [],
+      "excluded_keys": [],
+      "found_fields": [
+        "hh_deposits_yoy_log",
+        "corp_deposits_yoy_log",
+        "hh_credit_yoy_log",
+        "corp_credit_yoy_log",
+        "pos_turnover_yoy_log",
+        "instant_payments_yoy_log",
+        "interbank_payments_yoy_log"
+      ]
+    },
+    {
+      "tier": "excluded",
+      "kind": "informational",
+      "configured_keys": [
+        "russia_ipi"
+      ],
+      "found_keys": [
+        "russia_ipi"
+      ],
+      "missing_keys": [],
+      "excluded_keys": [],
+      "found_fields": [
+        "russia_ipi_yoy_pct"
+      ]
+    }
+  ]
+}

@@ -31,7 +31,7 @@ The completion test command and final count are recorded after the final offline
 | usd_uzs | 2013-01-31 | 2013-02-28 | 2026-09-30 | 165 | automated | extreme_log_change; missing_growth_input; partial_month |
 | rub_uzs | 2013-01-31 | 2013-02-28 | 2026-09-30 | 165 | automated | extreme_log_change; missing_growth_input; partial_month |
 | gold_price | 1960-01-31 | 1960-02-29 | 2026-08-31 | 800 | automated | missing_growth_input |
-| russia_ipi |  |  |  | 0 | unresolved | ValueError: Offline cache missing: https://rosstat.gov.ru/enterprise_industrial |
+| russia_ipi |  |  |  | 0 | unresolved | SSLError: HTTPSConnectionPool(host='rosstat.gov.ru', port=443): Max retries exceeded with url: /enterprise_industrial (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))) |
 | m2 | 2013-01-31 | 2014-01-31 | 2026-08-31 | 164 | automated | missing_growth_input |
 | household_deposits | 2022-07-31 | 2023-07-31 | 2026-06-30 | 28 | automated | missing_growth_input |
 | corporate_deposits | 2022-07-31 | 2023-07-31 | 2026-06-30 | 28 | automated | missing_growth_input |
@@ -52,7 +52,7 @@ household_deposits, corporate_deposits, household_credit, corporate_credit, pos_
 
 ## 6. External-series status
 
-gold_price: automated, russia_ipi: ValueError: Offline cache missing: https://rosstat.gov.ru/enterprise_industrial.
+gold_price: automated, russia_ipi: SSLError: HTTPSConnectionPool(host='rosstat.gov.ru', port=443): Max retries exceeded with url: /enterprise_industrial (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))).
 
 ## 7. Derived-series status
 
@@ -127,7 +127,7 @@ See `docs/phase2c_registry_recommendations.md`. Changes require explicit approva
 ## 17. Unresolved risks
 
 {
-  "russia_ipi": "ValueError: Offline cache missing: https://rosstat.gov.ru/enterprise_industrial"
+  "russia_ipi": "SSLError: HTTPSConnectionPool(host='rosstat.gov.ru', port=443): Max retries exceeded with url: /enterprise_industrial (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))"
 }
 
 Historical release timing is incomplete for current-snapshot sources. Archive dates are not treated as fabricated first-release dates. External-source TLS/schema availability remains an operational risk.

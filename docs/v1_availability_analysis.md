@@ -21,7 +21,7 @@
 | USD/UZS official exchange rate | 2013-01-31 | 2013-02-28 | 2026-09-30 | Daily | 0 | automated | extreme_log_change; missing_growth_input; partial_month |
 | RUB/UZS official exchange rate | 2013-01-31 | 2013-02-28 | 2026-09-30 | Daily | 0 | automated | extreme_log_change; missing_growth_input; partial_month |
 | World gold price | 1960-01-31 | 1960-02-29 | 2026-08-31 | Monthly | 0 | automated | missing_growth_input |
-| Russia industrial production index |  |  |  | Monthly | 0 | unresolved | ValueError: Offline cache missing: https://rosstat.gov.ru/enterprise_industrial |
+| Russia industrial production index |  |  |  | Monthly | 0 | unresolved | SSLError: HTTPSConnectionPool(host='rosstat.gov.ru', port=443): Max retries exceeded with url: /enterprise_industrial (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))) |
 | Broad money (M2 / broad money liabilities) | 2013-01-31 | 2014-01-31 | 2026-08-31 | Monthly | 0 | automated | missing_growth_input |
 | Household deposits | 2022-07-31 | 2023-07-31 | 2026-06-30 | Monthly | 20 | automated | missing_growth_input |
 | Corporate/legal-entity deposits | 2022-07-31 | 2023-07-31 | 2026-06-30 | Monthly | 20 | automated | missing_growth_input |

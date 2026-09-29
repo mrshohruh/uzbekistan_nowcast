@@ -1,0 +1,17 @@
+{
+  "gdp_real_yoy": {
+    "source_url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3698.json",
+    "retrieved_at": "2026-09-29T05:23:09.317967+00:00",
+    "checksum": "c37f3bcdaa2c34d941454056b571251203ddfdf15c20358f6baebe121ee4a142"
+  },
+  "industrial_production": {
+    "source_url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_590.json",
+    "retrieved_at": "2026-09-29T05:23:10.236438+00:00",
+    "checksum": "3f489fb005b5a55df71fc7009422a35d9c1c96fb9af6d682c52500af2974c9c0"
+  },
+  "cbu_usd": {
+    "source_url": "https://cbu.uz/uz/arkhiv-kursov-valyut/json/USD/2026-09-29/",
+    "retrieved_at": "2026-09-29T05:22:40.944055+00:00",
+    "checksum": "dd7628a027d03c2a641564e6c47e4b69a047cd4798c6e4996a72d995161916f6"
+  }
+}

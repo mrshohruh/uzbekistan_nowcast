@@ -127,3 +127,36 @@ Run one build writer at a time. Output replacement is not a transaction across a
 See [Phase 2B live results](docs/phase2b_results.md),
 [registry recommendations](docs/phase2b_registry_recommendations.md), and the retained
 [Phase 2A results](docs/phase2a_results.md).
+
+## Phase 2C / 2C.1 / 3B
+
+Phase 2C attempted all 29 V1 series, kept the panel ragged, and produced live
+per-variable coverage in [`docs/phase2c_results.md`](docs/phase2c_results.md) and
+recommendations in [`docs/phase2c_registry_recommendations.md`](docs/phase2c_registry_recommendations.md).
+Phase 2C.1 diagnosed the Rosstat `russia_ipi` TLS failure and left it unresolved
+under a documented `UZNOWCAST_USE_SYSTEM_TRUST=1` opt-in path
+([`docs/phase2c1_results.md`](docs/phase2c1_results.md)).
+
+Phase 3B applied the approved source-maintenance corrections into
+[`registry/uzbekistan_nowcasting_v1.2_registry.xlsx`](registry/uzbekistan_nowcasting_v1.2_registry.xlsx)
+(V1.0 and V1.1 are archived under `registry/archive/`), audited the sparse
+banking/payment series, diagnosed the June-2026 negative `gold_exports_proxy`
+flow, and defined model-readiness tiers. Highlights:
+
+- [Phase 3B results](docs/phase3b_results.md)
+- [Model-readiness tiers](docs/model_readiness_tiers.md)
+- [Historical extension audit](docs/historical_extension_audit.md)
+- [Sparse-series audit](docs/sparse_series_audit.md)
+- [Gold-proxy diagnostic](docs/gold_proxy_diagnostic.md)
+- [Registry changelog](registry/CHANGELOG.md)
+
+### Prospective vintage collection
+
+`python -m uznowcast.cli collect-vintage --root <checkout>` runs the standard
+V1 build with `refresh=True`, preserving every earlier vintage, checksumming
+each payload, and writing an immutable per-run summary to
+`metadata/vintage_runs/{collector_run_id}.json` (plus a mirror at
+`metadata/vintage_collection_latest.json`). The command never overwrites raw
+files, never modifies the OS trust store, and never installs a scheduler.
+See [`docs/phase3b_results.md`](docs/phase3b_results.md) §10 for the Windows
+Task Scheduler instructions the operator runs manually.

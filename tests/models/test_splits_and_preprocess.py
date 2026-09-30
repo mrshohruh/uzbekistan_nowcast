@@ -78,6 +78,16 @@ def test_training_slice_respects_train_end():
     assert slice_.index.max() == pd.Timestamp('2020-09-30')
 
 
+def test_training_slice_begins_at_first_gdp_training_quarter():
+    monthly = pd.DataFrame(
+        {'x': range(732)},
+        index=pd.date_range('1960-01-31', periods=732, freq='ME'))
+    slice_ = training_slice(monthly, ('2018-Q1', '2018-Q2', '2018-Q3'))
+    assert slice_.index.min() == pd.Timestamp('2018-01-31')
+    assert slice_.index.max() == pd.Timestamp('2018-09-30')
+    assert not (slice_.index.year == 1960).any()
+
+
 def test_training_slice_empty_when_no_quarters():
     monthly = pd.DataFrame({'x': [1, 2]}, index=pd.date_range('2020-01-31', periods=2, freq='ME'))
     monthly.index.name = 'date'

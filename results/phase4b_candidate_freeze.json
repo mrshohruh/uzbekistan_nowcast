@@ -1,0 +1,260 @@
+{
+  "phase": "4B",
+  "status": "CANDIDATE_ARCHITECTURE_FROZEN_BEFORE_HOLDOUT",
+  "holdout_outcomes_used": false,
+  "model_layer_version": "4b.0",
+  "primary_candidate_models": [
+    "ar1",
+    "ar2",
+    "umidas_usd_uzs_mom_dlog",
+    "ensemble_ar2_umidas_usd"
+  ],
+  "retained_benchmarks": [
+    "historical_mean",
+    "ar1",
+    "ar2"
+  ],
+  "secondary_robustness_models": [
+    "almon_usd_uzs_mom_dlog"
+  ],
+  "diagnostic_models": [
+    "dfm_tierA_k1",
+    "dfm_tierB_k1",
+    "dfm_tierC_k1"
+  ],
+  "specifications": {
+    "historical_mean": {
+      "equation": "mean(y_s for all development training quarters s < t)",
+      "predictor_fields": [],
+      "lag_lengths": {}
+    },
+    "ar1": {
+      "equation": "y_t = alpha + beta_1*y_(t-1) + error_t",
+      "predictor_fields": [
+        "gdp_real_yoy_pct"
+      ],
+      "lag_lengths": {
+        "quarterly_gdp": 1
+      }
+    },
+    "ar2": {
+      "equation": "y_t = alpha + beta_1*y_(t-1) + beta_2*y_(t-2) + error_t",
+      "predictor_fields": [
+        "gdp_real_yoy_pct"
+      ],
+      "lag_lengths": {
+        "quarterly_gdp": 2
+      }
+    },
+    "umidas_usd_uzs_mom_dlog": {
+      "equation": "y_t = alpha + beta*y_(t-1) + sum_{l=0..2} gamma_l*x_(m(t,h)-l) + error_t",
+      "predictor_fields": [
+        "usd_uzs_mom_dlog"
+      ],
+      "lag_lengths": {
+        "monthly": 3,
+        "quarterly_gdp": 1
+      },
+      "polynomial_order": null
+    },
+    "almon_usd_uzs_mom_dlog": {
+      "equation": "U-MIDAS(3) with first-order Almon lag restriction",
+      "predictor_fields": [
+        "usd_uzs_mom_dlog"
+      ],
+      "lag_lengths": {
+        "monthly": 3,
+        "quarterly_gdp": 1
+      },
+      "polynomial_order": 1
+    },
+    "ensemble_ar2_umidas_usd": {
+      "equation": "0.5*AR2 prediction + 0.5*USD U-MIDAS(3) prediction",
+      "components": [
+        "ar2",
+        "umidas_usd_uzs_mom_dlog"
+      ],
+      "ensemble_weights": {
+        "ar2": 0.5,
+        "umidas_usd_uzs_mom_dlog": 0.5
+      }
+    },
+    "dfm_tierA_k1": {
+      "predictor_fields": [
+        "ppi_mom_log",
+        "usd_uzs_mom_dlog",
+        "rub_uzs_mom_dlog",
+        "gold_price_mom_dlog",
+        "m2_yoy_log",
+        "fx_reserves_exgold_yoy_log"
+      ],
+      "n_factors": 1,
+      "with_gdp_lag": true,
+      "em_max_iterations": 100,
+      "em_tolerance": 0.0001,
+      "min_observed_months": 12
+    },
+    "dfm_tierB_k1": {
+      "predictor_fields": [
+        "ppi_mom_log",
+        "usd_uzs_mom_dlog",
+        "rub_uzs_mom_dlog",
+        "gold_price_mom_dlog",
+        "m2_yoy_log",
+        "fx_reserves_exgold_yoy_log",
+        "ind_prod_yoy_log",
+        "manufacturing_yoy_log",
+        "mining_yoy_log",
+        "utilities_yoy_log",
+        "retail_yoy_log",
+        "wholesale_yoy_log"
+      ],
+      "n_factors": 1,
+      "with_gdp_lag": true,
+      "em_max_iterations": 100,
+      "em_tolerance": 0.0001,
+      "min_observed_months": 12
+    },
+    "dfm_tierC_k1": {
+      "predictor_fields": [
+        "ppi_mom_log",
+        "usd_uzs_mom_dlog",
+        "rub_uzs_mom_dlog",
+        "gold_price_mom_dlog",
+        "m2_yoy_log",
+        "fx_reserves_exgold_yoy_log",
+        "ind_prod_yoy_log",
+        "manufacturing_yoy_log",
+        "mining_yoy_log",
+        "utilities_yoy_log",
+        "retail_yoy_log",
+        "wholesale_yoy_log",
+        "construction_yoy_log",
+        "cpi_headline_mom_log",
+        "cpi_food_mom_log",
+        "cpi_services_mom_log",
+        "exports_total_yoy_log",
+        "exports_non_gold_yoy_log",
+        "imports_total_yoy_log",
+        "gold_exports_proxy_usd_m"
+      ],
+      "n_factors": 1,
+      "with_gdp_lag": true,
+      "em_max_iterations": 100,
+      "em_tolerance": 0.0001,
+      "min_observed_months": 12
+    }
+  },
+  "dfm_decision": {
+    "selected_dfm": null,
+    "gate": {
+      "minimum_matched_forecasts": 12,
+      "maximum_h3_relative_rmse_to_ar2": 1.05,
+      "minimum_convergence_rate": 0.8,
+      "minimum_median_loading_stability": 0.7,
+      "requires_nonzero_h2_to_h3_update": true
+    },
+    "assessments": [
+      {
+        "model": "dfm_tierA_k1",
+        "qualified": false,
+        "n_ok": true,
+        "accuracy_ok": false,
+        "convergence_ok": true,
+        "stability_ok": true,
+        "updating_ok": true,
+        "convergence_rate": 1.0,
+        "median_loading_stability": 0.9989123170140038,
+        "worst_h3_relative_rmse_to_ar2": 1.4803123041697948
+      },
+      {
+        "model": "dfm_tierB_k1",
+        "qualified": false,
+        "n_ok": true,
+        "accuracy_ok": false,
+        "convergence_ok": true,
+        "stability_ok": true,
+        "updating_ok": true,
+        "convergence_rate": 0.9907407407407407,
+        "median_loading_stability": 0.9936130889029928,
+        "worst_h3_relative_rmse_to_ar2": 1.3345405057080424
+      },
+      {
+        "model": "dfm_tierC_k1",
+        "qualified": false,
+        "n_ok": true,
+        "accuracy_ok": false,
+        "convergence_ok": true,
+        "stability_ok": true,
+        "updating_ok": true,
+        "convergence_rate": 0.8518518518518519,
+        "median_loading_stability": 0.9824143532279346,
+        "worst_h3_relative_rmse_to_ar2": 1.4209275855252934
+      }
+    ]
+  },
+  "horizons": [
+    "H1",
+    "H2",
+    "H3"
+  ],
+  "release_lag_assumptions": {
+    "standard": "end_of_reference_month + registry typical lag days",
+    "conservative": "end_of_reference_month + max(registry typical lag days + 15, 3)"
+  },
+  "preprocessing_variant": "variant_A_unmasked_verified_v1.2_master",
+  "dfm_convergence_settings": {
+    "max_iterations": 100,
+    "tolerance": 0.0001,
+    "tolerances_tested_on_development": [
+      0.0001,
+      1e-05,
+      1e-06
+    ],
+    "iteration_cap_is_convergence": false
+  },
+  "master_hashes": {
+    "monthly_sha256": "78a7c51b97247d3ccbd72cbcb03b89f6f52f0f091201956bba85c0373856ba7c",
+    "quarterly_sha256": "36793699e48de74ecfe31eeb7eb8f23cf3eb6f2ab9ca929cdd4bb240c1bdfbac",
+    "registry_sha256": "0659713cea0fea42c3823a3be26dd116ba15f2b292f269ba5f7e1c7b99abbb33"
+  },
+  "development_period_endpoint": "2025Q2",
+  "development_quarters": [
+    "2018Q1",
+    "2018Q2",
+    "2018Q3",
+    "2018Q4",
+    "2019Q1",
+    "2019Q2",
+    "2019Q3",
+    "2019Q4",
+    "2020Q1",
+    "2020Q2",
+    "2020Q3",
+    "2020Q4",
+    "2021Q1",
+    "2021Q2",
+    "2021Q3",
+    "2021Q4",
+    "2022Q1",
+    "2022Q2",
+    "2022Q3",
+    "2022Q4",
+    "2023Q1",
+    "2023Q2",
+    "2023Q3",
+    "2023Q4",
+    "2024Q1",
+    "2024Q2",
+    "2024Q3",
+    "2024Q4",
+    "2025Q1",
+    "2025Q2"
+  ],
+  "holdout_quarters": [
+    "2025Q3",
+    "2025Q4",
+    "2026Q1",
+    "2026Q2"
+  ]
+}

@@ -43,8 +43,9 @@ class DFMSpec:
     fields: tuple[str, ...]
     n_factors: int = 1
     with_gdp_lag: bool = True
-    em_iterations: int = 20
-    em_tolerance: float = 1e-6
+    em_iterations: int = 100
+    em_tolerance: float = 1e-4
+    min_observed_months: int = 12
 
 
 def _em_pca(matrix: np.ndarray, n_factors: int, *, max_iter: int, tol: float
@@ -56,30 +57,130 @@ def _em_pca(matrix: np.ndarray, n_factors: int, *, max_iter: int, tol: float
     """
     if matrix.size == 0:
         raise ValueError('EM PCA received an empty matrix')
+    if max_iter < 1:
+        raise ValueError('EM PCA max_iter must be positive')
+    if tol <= 0:
+        raise ValueError('EM PCA tolerance must be positive')
+    if n_factors < 1:
+        raise ValueError('EM PCA n_factors must be positive')
     mask = np.isnan(matrix)
+    observed = ~mask
+    if not observed.any():
+        raise ValueError('EM PCA received a fully missing matrix')
     working = matrix.copy()
     column_means = np.nanmean(matrix, axis=0)
     column_means = np.where(np.isnan(column_means), 0.0, column_means)
     for column in range(matrix.shape[1]):
         working[mask[:, column], column] = column_means[column]
-    prev_loss = np.inf
+    prev_loss: float | None = None
     iterations = 0
+    converged = False
+    relative_change = float('nan')
+    loss_path: list[float] = []
     for iterations in range(1, max_iter + 1):
         U, S, Vt = np.linalg.svd(working, full_matrices=False)
         k = min(n_factors, len(S))
         loadings = Vt[:k].T                    # (N, k)
         factors = U[:, :k] * S[:k]             # (T, k)
         reconstruction = factors @ loadings.T
-        loss = float(((working - reconstruction) ** 2).sum())
+        # Compare reconstruction only against genuinely observed cells.
+        # Imputed cells are latent state, not ground truth.
+        loss = float(np.mean((matrix[observed] - reconstruction[observed]) ** 2))
+        loss_path.append(loss)
         working[mask] = reconstruction[mask]
-        if abs(prev_loss - loss) < tol:
+        if prev_loss is not None:
+            relative_change = float(abs(prev_loss - loss) /
+                                    max(abs(prev_loss), np.finfo(float).eps))
+        if prev_loss is not None and relative_change <= tol:
+            converged = True
             break
         prev_loss = loss
-    else:
-        pass
-    return factors, loadings, dict(em_iterations=iterations,
-                                    reconstruction_loss=float(prev_loss),
-                                    fraction_missing=float(mask.mean()))
+    return factors, loadings, dict(
+        converged=converged,
+        iteration_count=iterations,
+        em_iterations=iterations,  # backward-compatible diagnostic label
+        max_iterations=max_iter,
+        tolerance=float(tol),
+        reconstruction_loss_path=loss_path,
+        final_loss=float(loss_path[-1]),
+        reconstruction_loss=float(loss_path[-1]),
+        relative_loss_change=relative_change,
+        fraction_missing=float(mask.mean()),
+    )
+
+
+def _resolve_factor_fields(
+        training: pd.DataFrame,
+        requested_fields: Sequence[str],
+        *,
+        min_observed_months: int,
+        field_to_key: dict[str, str] | None = None,
+        unavailable_fields: Sequence[str] = (),
+        ) -> tuple[pd.DataFrame, list[dict]]:
+    """Resolve every configured field before factor estimation.
+
+    The returned report contains one row per configured field, including
+    fields absent from the master.  A field must have at least
+    ``min_observed_months`` in-window observations and non-zero variance.
+    Nothing is silently removed.
+    """
+    field_to_key = field_to_key or {}
+    unavailable = set(unavailable_fields)
+    rows: list[dict] = []
+    included: list[str] = []
+    n_months = int(len(training))
+    for field in requested_fields:
+        base = dict(
+            variable_key=field_to_key.get(field, field),
+            clean_field=field,
+            total_months=n_months,
+        )
+        if field in unavailable or field not in training.columns:
+            rows.append(dict(
+                **base, status='unavailable', reason='field_not_in_monthly_master',
+                observed_months=0, missing_months=n_months,
+                coverage_fraction=0.0, unique_values=0,
+            ))
+            continue
+        series = training[field]
+        observed = int(series.notna().sum())
+        unique = int(series.nunique(dropna=True))
+        coverage = float(observed / n_months) if n_months else 0.0
+        detail = dict(
+            **base, observed_months=observed,
+            missing_months=n_months - observed,
+            coverage_fraction=coverage, unique_values=unique,
+        )
+        if observed < int(min_observed_months):
+            rows.append(dict(
+                **detail, status='excluded',
+                reason='insufficient_in_window_coverage',
+            ))
+            continue
+        if unique < 2 or float(series.std(skipna=True)) == 0.0:
+            rows.append(dict(
+                **detail, status='excluded', reason='zero_variance',
+            ))
+            continue
+        included.append(field)
+        rows.append(dict(**detail, status='included', reason='included'))
+    return training[included].copy(), rows
+
+
+def _panel_diagnostics(panel: pd.DataFrame) -> dict:
+    observed = int(panel.notna().sum().sum())
+    total = int(panel.shape[0] * panel.shape[1])
+    missing = total - observed
+    return dict(
+        first_month=(str(panel.index.min().date()) if len(panel) else None),
+        last_month=(str(panel.index.max().date()) if len(panel) else None),
+        n_months=int(panel.shape[0]),
+        n_variables=int(panel.shape[1]),
+        total_cells=total,
+        observed_cells=observed,
+        missing_cells=missing,
+        fraction_missing=(float(missing / total) if total else float('nan')),
+    )
 
 
 def _fit_gdp_regression(gdp_train: pd.Series, factor_quarterly: pd.Series,
@@ -109,27 +210,61 @@ def _fit_gdp_regression(gdp_train: pd.Series, factor_quarterly: pd.Series,
 def dfm_forecast(dataset: ModelingDataset, spec: DFMSpec,
                  train_quarters: Sequence[str], target_quarter: str, *,
                  horizon: str, mode: str) -> tuple[float, dict]:
-    fields = list(spec.fields)
+    requested_fields = list(spec.fields)
+    fields = [field for field in requested_fields if field in dataset.monthly.columns]
+    unavailable_fields = [field for field in requested_fields
+                          if field not in dataset.monthly.columns]
     # Information set at the *target-quarter* horizon covers every quarter
     # up to and including the target. Training-window observations are
     # then extracted from that panel; the target-quarter cells are used
     # only for the target quarter's forecast, not for standardization or
     # EM initialization.
+    if not fields:
+        resolutions = [dict(
+            variable_key=dataset.monthly_key_by_field.get(field, field),
+            clean_field=field, total_months=0, observed_months=0,
+            missing_months=0, coverage_fraction=0.0, unique_values=0,
+            status='unavailable', reason='field_not_in_monthly_master',
+        ) for field in requested_fields]
+        return float('nan'), dict(
+            failure='no_configured_fields_available',
+            field_resolutions=resolutions,
+            spec=dict(name=spec.name),
+        )
     full_info = build_information_set(dataset, target_quarter, horizon, fields, mode=mode)
-    train_end = train_quarters[-1] if train_quarters else None
     train_slice = training_slice(full_info, train_quarters)
     if train_slice.empty:
         return float('nan'), dict(failure='training_slice_empty', spec=dict(name=spec.name))
+    resolved_training, resolutions = _resolve_factor_fields(
+        train_slice, requested_fields,
+        min_observed_months=spec.min_observed_months,
+        field_to_key=dataset.monthly_key_by_field,
+        unavailable_fields=unavailable_fields,
+    )
+    panel = _panel_diagnostics(resolved_training)
+    if resolved_training.shape[1] < max(spec.n_factors, 2):
+        return float('nan'), dict(
+            failure='insufficient_resolved_factor_fields',
+            field_resolutions=resolutions,
+            panel_diagnostics=panel,
+            spec=dict(name=spec.name),
+        )
     try:
-        standardizer = Standardizer.fit(train_slice)
+        standardizer = Standardizer.fit(resolved_training)
     except ValueError as exc:
-        return float('nan'), dict(failure=f'standardizer_error:{exc}', spec=dict(name=spec.name))
-    standardized_all = standardizer.transform(full_info)
-    standardized_training = standardizer.transform(train_slice)
+        return float('nan'), dict(
+            failure=f'standardizer_error:{exc}', spec=dict(name=spec.name),
+            field_resolutions=resolutions, panel_diagnostics=panel,
+        )
+    included_fields = list(resolved_training.columns)
+    standardized_all = standardizer.transform(full_info[included_fields])
+    standardized_training = standardizer.transform(resolved_training)
     factors, loadings, em = _em_pca(standardized_training.to_numpy(),
                                     n_factors=spec.n_factors,
                                     max_iter=spec.em_iterations,
                                     tol=spec.em_tolerance)
+    loading_map = {field: loadings[i].tolist()
+                   for i, field in enumerate(included_fields)}
     train_factor_index = standardized_training.index
     train_factor_frame = pd.DataFrame(
         {f'factor_{k + 1}': factors[:, k] for k in range(spec.n_factors)},
@@ -148,18 +283,27 @@ def dfm_forecast(dataset: ModelingDataset, spec: DFMSpec,
         coef, columns, n_train, variance = _fit_gdp_regression(
             gdp, quarterly_factor, spec, list(train_quarters))
     except ValueError as exc:
-        return float('nan'), dict(failure=f'gdp_regression:{exc}',
-                                   spec=dict(name=spec.name))
+        return float('nan'), dict(
+            failure=f'gdp_regression:{exc}', spec=dict(name=spec.name),
+            field_resolutions=resolutions, panel_diagnostics=panel,
+            em_diagnostics=em, loadings=loading_map,
+        )
     factor_row = quarterly_factor.loc[target_quarter] if target_quarter in quarterly_factor.index else None
     if factor_row is None or factor_row.isna().any():
-        return float('nan'), dict(failure='missing_factor_at_target',
-                                   spec=dict(name=spec.name))
+        return float('nan'), dict(
+            failure='missing_factor_at_target', spec=dict(name=spec.name),
+            field_resolutions=resolutions, panel_diagnostics=panel,
+            em_diagnostics=em, loadings=loading_map,
+        )
     row = [1.0]
     if spec.with_gdp_lag:
         gdp_lag = float(gdp.get(train_quarters[-1], np.nan)) if train_quarters else np.nan
         if np.isnan(gdp_lag):
-            return float('nan'), dict(failure='missing_gdp_lag_at_target',
-                                       spec=dict(name=spec.name))
+            return float('nan'), dict(
+                failure='missing_gdp_lag_at_target', spec=dict(name=spec.name),
+                field_resolutions=resolutions, panel_diagnostics=panel,
+                em_diagnostics=em, loadings=loading_map,
+            )
         row.append(gdp_lag)
     for k in range(spec.n_factors):
         row.append(float(factor_row[f'factor_{k + 1}']))
@@ -168,10 +312,17 @@ def dfm_forecast(dataset: ModelingDataset, spec: DFMSpec,
         n_train=n_train, coefficients=[float(c) for c in coef],
         column_order=columns, residual_variance=variance,
         em_diagnostics=em,
-        loadings={field: loadings[i].tolist() for i, field in enumerate(fields)},
+        panel_diagnostics=panel,
+        field_resolutions=resolutions,
+        loadings=loading_map,
         n_factors=spec.n_factors,
-        spec=dict(name=spec.name, fields=fields, n_factors=spec.n_factors,
-                  with_gdp_lag=spec.with_gdp_lag))
+        spec=dict(name=spec.name, fields=requested_fields,
+                  resolved_fields=included_fields,
+                  n_factors=spec.n_factors,
+                  with_gdp_lag=spec.with_gdp_lag,
+                  em_iterations=spec.em_iterations,
+                  em_tolerance=spec.em_tolerance,
+                  min_observed_months=spec.min_observed_months))
 
 
 def _project_missing(standardized_all: pd.DataFrame,
@@ -220,11 +371,11 @@ def _aggregate_factor_to_quarter(factor_frame: pd.DataFrame,
 def default_dfm_specs(available_fields: list[str]) -> list[DFMSpec]:
     have = set(available_fields)
     tier_a = tuple(f for f in ['ppi_mom_log', 'usd_uzs_mom_dlog', 'rub_uzs_mom_dlog',
-                                'gold_price_yoy_log', 'm2_yoy_log',
+                                'gold_price_mom_dlog', 'm2_yoy_log',
                                 'fx_reserves_exgold_yoy_log'] if f in have)
     tier_b = tier_a + tuple(f for f in ['ind_prod_yoy_log', 'manufacturing_yoy_log',
-                                         'mining_yoy_log', 'electricity_gas_yoy_log',
-                                         'retail_trade_yoy_log', 'wholesale_trade_yoy_log']
+                                         'mining_yoy_log', 'utilities_yoy_log',
+                                         'retail_yoy_log', 'wholesale_yoy_log']
                              if f in have)
     tier_c = tier_b + tuple(f for f in ['construction_yoy_log', 'cpi_headline_mom_log',
                                          'cpi_food_mom_log', 'cpi_services_mom_log',

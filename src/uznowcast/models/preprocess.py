@@ -60,18 +60,24 @@ def apply_robust_variant(frame: pd.DataFrame, mask: pd.DataFrame) -> pd.DataFram
 
 
 def training_slice(monthly: pd.DataFrame, train_quarters: tuple[str, ...]) -> pd.DataFrame:
-    """Restrict a monthly panel to months strictly inside the training set.
+    """Restrict a monthly panel to the GDP training-window months.
 
-    A month belongs to the training slice if its calendar quarter appears
-    in ``train_quarters`` OR if it precedes the earliest training quarter.
-    This lets standardization use the long left-hand history of long-run
-    series (e.g. PPI back to 2013) while still forbidding any future
-    information.
+    The first month is the first month of the earliest GDP training quarter;
+    the last month is the final month of the latest GDP training quarter.
+    Long union-panel histories before the GDP sample are deliberately
+    excluded.  This is especially important for factor estimation: one
+    external series beginning decades earlier must not create an almost
+    entirely missing pre-GDP panel.
     """
     if not train_quarters:
         return monthly.iloc[:0].copy()
+    train_start_quarter = min(train_quarters)
+    start_year, start_q = int(train_start_quarter[:4]), int(train_start_quarter[-1])
+    start_month = 3 * (start_q - 1) + 1
+    start = pd.Timestamp(year=start_year, month=start_month, day=1)
     train_end_quarter = max(train_quarters)
     year, q = int(train_end_quarter[:4]), int(train_end_quarter[-1])
     end_month = 3 * q
     cutoff = pd.Timestamp(year=year, month=end_month, day=1) + pd.offsets.MonthEnd(0)
-    return monthly.loc[monthly.index <= cutoff.normalize()].copy()
+    return monthly.loc[(monthly.index >= start) &
+                       (monthly.index <= cutoff.normalize())].copy()

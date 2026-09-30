@@ -1,4 +1,45 @@
-# Uzbekistan Nowcasting Database — Phase 2B
+# Uzbekistan Nowcasting Database
+
+## Current production state
+
+- **Target:** 2026Q3, operational stage **H2**
+- **Nowcast:** **7.6239786595896035%**
+- **Model:** 0.5 × AR(2) + 0.5 × USD/UZS U-MIDAS(3)
+- **Latest official GDP:** 2026Q2 = 8.5% YoY
+- **Frozen through:** Phase 5B.1
+- **Canonical current outputs:** [`results/production/`](results/production/) and [`dashboard/current/uzbekistan_nowcast.html`](dashboard/current/uzbekistan_nowcast.html)
+- **Historical archives:** kept in place — `results/phase4*_*`, `results/phase5b/`, `results/phase5b1/`, `dashboard/phase5*_uzbekistan_nowcast.html` (see [`results/archive/README.md`](results/archive/README.md))
+
+See [`PROJECT_STATE.md`](PROJECT_STATE.md) for the operator status page and [`docs/PROJECT_HISTORY.md`](docs/PROJECT_HISTORY.md) for the phase-by-phase history.
+
+## Quick start
+
+1. **Environment.** Python 3.11+; pinned on 3.12.10 (Windows).
+   ```powershell
+   python -m venv .venv
+   .\.venv\Scripts\python.exe -m pip install -r requirements.txt
+   .\.venv\Scripts\python.exe -m pip install -e . --no-deps
+   ```
+2. **Tests.**
+   ```powershell
+   .\.venv\Scripts\python.exe -m pytest
+   ```
+3. **Ingestion (offline replay from cached raw payloads).**
+   ```powershell
+   .\.venv\Scripts\python.exe -m uznowcast.cli build --scope pilot8 --offline --fx-end 2026-09-29
+   ```
+   Use `--refresh` (mutually exclusive with `--offline`) to hit official sources and discover revisions.
+4. **Operational nowcast (Phase 5A entry point; Phase 5B.1 module used for the frozen headline).**
+   ```powershell
+   .\.venv\Scripts\python.exe -m uznowcast.operational --as-of-date 2026-09-30
+   ```
+5. **Outputs.** Ingestion writes to `data/{raw,processed,master}/`. The current operational headline is at `results/production/current_nowcast.json` and the current dashboard is `dashboard/current/uzbekistan_nowcast.html`. Historical phase outputs remain under `results/phase4*_*`, `results/phase5b/`, `results/phase5b1/`.
+6. **Status codes.** `SUCCESS` = every gate green; `SUCCESS_WITH_WARNINGS` = the run completed but at least one non-blocking warning was raised (data-quality AMBER, publication-readiness blocker, or model-monitoring flag). The Phase 5B.1 publication gate additionally blocks official publication when the git working tree is dirty.
+7. **Frozen historical results.** Phase 4A → Phase 5B.1 evidence is immutable; the file list is in `results/phase5b2/protected_artifact_manifest_before.csv` and every hash was re-verified after Phase 5B.2 (see `results/phase5b2/protected_artifact_hash_comparison.csv`).
+
+---
+
+## Legacy Phase 2B documentation
 
 Registry-driven data infrastructure for quarterly GDP and seven monthly predictors:
 industrial production, construction, headline CPI, exports, imports, USD/UZS and M2.

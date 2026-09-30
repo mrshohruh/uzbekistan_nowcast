@@ -1,0 +1,57 @@
+PHASE 5B.2 — GIT STATUS AUDIT
+tests_passed=218
+tests_failed=0
+baseline_reproduced=True
+git_commit=fa1036e3df68ead5a31cc200b948a853dbf1dd17
+git_branch=main
+
+Raw porcelain:
+ M .gitignore
+ M README.md
+ D python
+?? PROJECT_STATE.md
+?? dashboard/current/
+?? docs/PROJECT_HISTORY.md
+?? docs/REPOSITORY_MAP.md
+?? docs/modeling/phase5b2_repository_cleanup.md
+?? results/archive/
+?? results/phase5b2/
+?? results/production/
+?? scripts/phase5b2_cleanup.py
+?? scripts/phase5b2_finalize.py
+?? tests/operational/test_phase5b2.py
+
+
+Classification (code | category | path):
+ M	EXPECTED_CLEANUP_CHANGE	.gitignore
+ M	EXPECTED_CLEANUP_CHANGE	README.md
+ D	EXPECTED_CLEANUP_CHANGE	python
+??	NEW_DOCUMENTATION	PROJECT_STATE.md
+??	NEW_PHASE5B2_OUTPUT	dashboard/current/
+??	NEW_DOCUMENTATION	docs/PROJECT_HISTORY.md
+??	NEW_DOCUMENTATION	docs/REPOSITORY_MAP.md
+??	NEW_DOCUMENTATION	docs/modeling/phase5b2_repository_cleanup.md
+??	NEW_PHASE5B2_OUTPUT	results/archive/
+??	NEW_PHASE5B2_OUTPUT	results/phase5b2/
+??	NEW_PHASE5B2_OUTPUT	results/production/
+??	NEW_PHASE5B2_OUTPUT	scripts/phase5b2_cleanup.py
+??	NEW_PHASE5B2_OUTPUT	scripts/phase5b2_finalize.py
+??	NEW_PHASE5B2_OUTPUT	tests/operational/test_phase5b2.py
+
+Files to include in the eventual cleanup commit (NOT staged automatically):
+  .gitignore
+  README.md
+  python
+  PROJECT_STATE.md
+  dashboard/current/
+  docs/PROJECT_HISTORY.md
+  docs/REPOSITORY_MAP.md
+  docs/modeling/phase5b2_repository_cleanup.md
+  results/archive/
+  results/phase5b2/
+  results/production/
+  scripts/phase5b2_cleanup.py
+  scripts/phase5b2_finalize.py
+  tests/operational/test_phase5b2.py
+
+Unexpected changes: 0

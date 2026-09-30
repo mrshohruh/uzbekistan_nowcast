@@ -1,0 +1,6 @@
+model,variable,transformation,lags_used,latest_usable_observation,exact_latest_monthly_observations,number_of_usable_regressors_or_components,effective_estimation_observations,fallback_used,fallback_method,operational_stage,model_passed_production_gate,current_forecast
+ar1,gdp_real_yoy_pct,official real GDP YoY,quarterly lag 1,2026Q2,,1,33,False,,H2,True,8.037443796835966
+ar2,gdp_real_yoy_pct,official real GDP YoY,quarterly lags 1 and 2,2026Q2,,2,32,False,,H2,True,7.333857441688032
+umidas_usd_uzs_mom_dlog,gdp_real_yoy_pct,official real GDP YoY,quarterly lag 1,2026Q2,,1,33,False,,H2,True,7.914099877491175
+umidas_usd_uzs_mom_dlog,usd_uzs_mom_dlog,100 × monthly log change in monthly-mean USD/UZS,last 3 available monthly observations,2026-08-31,"[{""reference_period"": ""2026-06-30"", ""value"": -0.16979297648802572}, {""reference_period"": ""2026-07-31"", ""value"": 0.08447726493994168}, {""reference_period"": ""2026-08-31"", ""value"": -1.186813571286116}]",3,33,False,,H2,True,7.914099877491175
+ensemble_ar2_umidas_usd,ar2 + umidas_usd_uzs_mom_dlog,fixed forecast combination,0.5 / 0.5,2026-08-31,,2,32,False,,H2,True,7.6239786595896035

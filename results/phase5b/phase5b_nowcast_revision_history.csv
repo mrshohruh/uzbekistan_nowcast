@@ -1,0 +1,5 @@
+run_timestamp_utc,run_date,target_quarter,operational_stage,model,previous_forecast,new_forecast,absolute_revision,revision_percentage_points,new_data_releases_since_previous_run,revised_historical_data_since_previous_run,model_availability_changes,model_weight_or_selection_changes
+2026-09-30T07:10:50.029421Z,2026-09-30,2026Q3,H2,ar1,8.037443796835966,8.037443796835966,0.0,0.0,none; input hashes unchanged,none detected,none,none; frozen 0.5/0.5 policy retained
+2026-09-30T07:10:50.029421Z,2026-09-30,2026Q3,H2,ar2,7.333857441688032,7.333857441688032,0.0,0.0,none; input hashes unchanged,none detected,none,none; frozen 0.5/0.5 policy retained
+2026-09-30T07:10:50.029421Z,2026-09-30,2026Q3,H2,umidas_usd_uzs_mom_dlog,9.26590047879983,7.914099877491175,1.3518006013086552,-1.3518006013086552,none; input hashes unchanged,none detected,none,none; frozen 0.5/0.5 policy retained
+2026-09-30T07:10:50.029421Z,2026-09-30,2026Q3,H2,ensemble_ar2_umidas_usd,8.29987896024393,7.6239786595896035,0.6759003006543267,-0.6759003006543267,none; input hashes unchanged,none detected,none,none; frozen 0.5/0.5 policy retained

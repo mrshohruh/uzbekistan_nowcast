@@ -1,0 +1,27 @@
+{
+  "run_status": "SUCCESS_WITH_WARNINGS",
+  "publication_ready": false,
+  "working_tree_dirty": true,
+  "code_reproducibility_complete": false,
+  "data_gate_passed": true,
+  "cutoff_integrity_passed": true,
+  "headline_model_available": true,
+  "immutable_upstream_artifacts_preserved": true,
+  "revision_decomposition_residual_within_tolerance": true,
+  "model_specific_input_warnings": {
+    "ar1": false,
+    "ar2": false,
+    "umidas_usd_uzs_mom_dlog": true,
+    "ensemble_ar2_umidas_usd": true
+  },
+  "system_warnings": [
+    "Calendar suggests H3, but complete production-signal data support only H2.",
+    "required series is AMBER: usd_uzs (stale_by_1_months|latest_expected_month_is_partial_and_deliberately_excluded|1_missing_expected_observations_in_recent_window|1_unexpected_gaps_from_own_start)",
+    "non-production series is RED: russia_ipi (failed_data_retrieval|no_usable_observation|transformation_infeasible)",
+    "One or more model-monitoring flags require review; no model was automatically removed."
+  ],
+  "publication_blockers": [
+    "working_tree_dirty: git working tree contains uncommitted or untracked files; commit or stash before an official publication run"
+  ],
+  "policy": "Publication readiness is stricter than analytical run success. An analytical run may complete as SUCCESS_WITH_WARNINGS with a dirty working tree, but a run intended for official publication requires a clean working tree so the git commit alone identifies the code that produced the numbers, plus a passing data gate, an available headline model, cutoff integrity, and preserved upstream artifacts."
+}

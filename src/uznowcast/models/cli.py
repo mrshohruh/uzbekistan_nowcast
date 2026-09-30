@@ -1,4 +1,4 @@
-"""python -m uznowcast.models evaluate --phase {4a,4a1,4b}."""
+"""python -m uznowcast.models evaluate --phase {4a,4a1,4b,4c}."""
 from __future__ import annotations
 
 import argparse
@@ -13,6 +13,10 @@ from uznowcast.models.data import load_dataset
 from uznowcast.models.evaluate import evaluate, write_results
 from uznowcast.models.evaluate_v11 import run_phase_4a1, write_phase_4a1_results
 from uznowcast.models.phase4b import run_phase4b, write_phase4b_results
+from uznowcast.models.phase4c import (
+    PROTOCOL_PATH, prepare_phase4c_protocol, run_phase4c,
+    write_phase4c_results,
+)
 
 
 def _run_phase_4a(args, logger) -> int:
@@ -74,11 +78,31 @@ def _run_phase_4b(args, logger) -> int:
     return 0
 
 
+def _run_phase_4c(args, logger) -> int:
+    protocol_path = args.root.resolve() / PROTOCOL_PATH
+    if not protocol_path.exists():
+        prepare_phase4c_protocol(args.root)
+    results = run_phase4c(
+        args.root,
+        master_dir=args.master_dir,
+        registry_relative=args.registry,
+    )
+    counts = write_phase4c_results(args.root, results)
+    logger.info(json.dumps(dict(
+        status='frozen_holdout_evaluated',
+        **counts,
+        holdout_quarters=results['protocol']['evaluation_rules'][
+            'holdout_quarters'],
+        architecture_changed=False,
+    ), indent=2, default=str))
+    return 0
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     sub = parser.add_subparsers(dest='command', required=True)
     ev = sub.add_parser('evaluate', help='Run a Phase 4 model evaluator')
-    ev.add_argument('--phase', choices=['4a', '4a1', '4b'], default='4a1',
+    ev.add_argument('--phase', choices=['4a', '4a1', '4b', '4c'], default='4a1',
                     help="'4a' is the original fixture-permissive framework; "
                          "'4a1' is the production evaluator that refuses the "
                          "fixture rehearsal directory and enforces matched-quarter "
@@ -116,6 +140,8 @@ def main() -> int:
         return _run_phase_4a1(args, logger)
     if args.phase == '4b':
         return _run_phase_4b(args, logger)
+    if args.phase == '4c':
+        return _run_phase_4c(args, logger)
     raise SystemExit(f'Unknown phase: {args.phase}')
 
 

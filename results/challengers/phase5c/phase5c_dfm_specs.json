@@ -1,0 +1,27 @@
+{
+  "frozen_before_evaluation": true,
+  "maximum_factors": 1,
+  "specifications": [
+    {
+      "name": "dfm_tight_shortlist_k1",
+      "fields": [
+        "usd_uzs_mom_dlog",
+        "ppi_mom_log",
+        "m2_yoy_log",
+        "rub_uzs_mom_dlog",
+        "fx_reserves_exgold_yoy_log"
+      ],
+      "n_factors": 1,
+      "with_gdp_lag": true
+    },
+    {
+      "name": "dfm_tight_top2_k1",
+      "fields": [
+        "usd_uzs_mom_dlog",
+        "ppi_mom_log"
+      ],
+      "n_factors": 1,
+      "with_gdp_lag": true
+    }
+  ]
+}

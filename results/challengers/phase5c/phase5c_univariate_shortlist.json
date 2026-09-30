@@ -1,0 +1,97 @@
+{
+  "selection_basis": "development pseudo-OOS matched mean horizon RMSE; coverage and block diversity; not an untouched-holdout selection",
+  "selected": [
+    {
+      "model": "challenger_umidas_usd_uzs_mom_dlog_l1",
+      "variable_key": "usd_uzs",
+      "predictors": "usd_uzs_mom_dlog",
+      "monthly_lags": 1,
+      "rmse": 1.1910785225881864,
+      "relative": 1.5313011815144388,
+      "min_n": 17,
+      "horizons": 3,
+      "economic_block": "FX / external",
+      "reason": "advanced only for parsimonious family stress-testing because it is the best high-coverage specification for this predictor; it does not satisfy an accuracy promotion gate and cannot become a shadow challenger on that basis"
+    },
+    {
+      "model": "challenger_umidas_ppi_mom_log_l1",
+      "variable_key": "ppi",
+      "predictors": "ppi_mom_log",
+      "monthly_lags": 1,
+      "rmse": 1.2618078099665437,
+      "relative": 1.6189215169813898,
+      "min_n": 17,
+      "horizons": 3,
+      "economic_block": "Prices",
+      "reason": "advanced only for parsimonious family stress-testing because it is the best high-coverage specification for this predictor; it does not satisfy an accuracy promotion gate and cannot become a shadow challenger on that basis"
+    },
+    {
+      "model": "challenger_umidas_m2_yoy_log_l1",
+      "variable_key": "m2",
+      "predictors": "m2_yoy_log",
+      "monthly_lags": 1,
+      "rmse": 1.303192194821158,
+      "relative": 1.6732645081376465,
+      "min_n": 17,
+      "horizons": 3,
+      "economic_block": "Money / credit",
+      "reason": "advanced only for parsimonious family stress-testing because it is the best high-coverage specification for this predictor; it does not satisfy an accuracy promotion gate and cannot become a shadow challenger on that basis"
+    },
+    {
+      "model": "challenger_umidas_rub_uzs_mom_dlog_l1",
+      "variable_key": "rub_uzs",
+      "predictors": "rub_uzs_mom_dlog",
+      "monthly_lags": 1,
+      "rmse": 1.317449447571381,
+      "relative": 1.6792408479321868,
+      "min_n": 17,
+      "horizons": 3,
+      "economic_block": "FX / external",
+      "reason": "advanced only for parsimonious family stress-testing because it is the best high-coverage specification for this predictor; it does not satisfy an accuracy promotion gate and cannot become a shadow challenger on that basis"
+    },
+    {
+      "model": "challenger_umidas_fx_reserves_exgold_yoy_log_l1",
+      "variable_key": "fx_reserves_ex_gold",
+      "predictors": "fx_reserves_exgold_yoy_log",
+      "monthly_lags": 1,
+      "rmse": 1.3317815518771545,
+      "relative": 1.7182868735732688,
+      "min_n": 17,
+      "horizons": 3,
+      "economic_block": "Reserves",
+      "reason": "advanced only for parsimonious family stress-testing because it is the best high-coverage specification for this predictor; it does not satisfy an accuracy promotion gate and cannot become a shadow challenger on that basis"
+    }
+  ],
+  "rejected_strong_or_available": [
+    {
+      "variable_key": "mining",
+      "best_model": "challenger_umidas_mining_yoy_log_l2",
+      "reason": "limited_to_five_predictors",
+      "relative_rmse": 1.786169670744447
+    },
+    {
+      "variable_key": "gold_price",
+      "best_model": "challenger_umidas_gold_price_mom_dlog_l1",
+      "reason": "limited_to_five_predictors",
+      "relative_rmse": 1.8255470752627092
+    },
+    {
+      "variable_key": "electricity_gas",
+      "best_model": "challenger_umidas_utilities_yoy_log_l1",
+      "reason": "limited_to_five_predictors",
+      "relative_rmse": 2.481982488174149
+    },
+    {
+      "variable_key": "industrial_production",
+      "best_model": "challenger_umidas_ind_prod_yoy_log_l1",
+      "reason": "limited_to_five_predictors",
+      "relative_rmse": 2.9729888225364576
+    },
+    {
+      "variable_key": "manufacturing",
+      "best_model": "challenger_umidas_manufacturing_yoy_log_l1",
+      "reason": "limited_to_five_predictors",
+      "relative_rmse": 3.789301714945273
+    }
+  ]
+}

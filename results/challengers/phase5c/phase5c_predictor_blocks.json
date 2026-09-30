@@ -1,0 +1,161 @@
+{
+  "source": "V1.2 registry Block column",
+  "blocks": {
+    "REAL ACTIVITY": [
+      {
+        "variable_key": "construction",
+        "clean_model_field": "construction_yoy_log",
+        "eligibility": "ELIGIBLE_SECONDARY"
+      },
+      {
+        "variable_key": "electricity_gas",
+        "clean_model_field": "utilities_yoy_log",
+        "eligibility": "ELIGIBLE_SECONDARY"
+      },
+      {
+        "variable_key": "industrial_production",
+        "clean_model_field": "ind_prod_yoy_log",
+        "eligibility": "ELIGIBLE_SECONDARY"
+      },
+      {
+        "variable_key": "manufacturing",
+        "clean_model_field": "manufacturing_yoy_log",
+        "eligibility": "ELIGIBLE_SECONDARY"
+      },
+      {
+        "variable_key": "mining",
+        "clean_model_field": "mining_yoy_log",
+        "eligibility": "ELIGIBLE_SECONDARY"
+      },
+      {
+        "variable_key": "retail_trade",
+        "clean_model_field": "retail_yoy_log",
+        "eligibility": "ELIGIBLE_SECONDARY"
+      },
+      {
+        "variable_key": "wholesale_trade",
+        "clean_model_field": "wholesale_yoy_log",
+        "eligibility": "ELIGIBLE_SECONDARY"
+      }
+    ],
+    "MONEY / CREDIT": [
+      {
+        "variable_key": "corporate_credit",
+        "clean_model_field": "corp_credit_yoy_log",
+        "eligibility": "DIAGNOSTIC_ONLY"
+      },
+      {
+        "variable_key": "corporate_deposits",
+        "clean_model_field": "corp_deposits_yoy_log",
+        "eligibility": "DIAGNOSTIC_ONLY"
+      },
+      {
+        "variable_key": "household_credit",
+        "clean_model_field": "hh_credit_yoy_log",
+        "eligibility": "DIAGNOSTIC_ONLY"
+      },
+      {
+        "variable_key": "household_deposits",
+        "clean_model_field": "hh_deposits_yoy_log",
+        "eligibility": "DIAGNOSTIC_ONLY"
+      },
+      {
+        "variable_key": "m2",
+        "clean_model_field": "m2_yoy_log",
+        "eligibility": "ELIGIBLE_PRIMARY"
+      }
+    ],
+    "PRICES": [
+      {
+        "variable_key": "cpi_food",
+        "clean_model_field": "cpi_food_mom_log",
+        "eligibility": "ELIGIBLE_SECONDARY"
+      },
+      {
+        "variable_key": "cpi_headline",
+        "clean_model_field": "cpi_headline_mom_log",
+        "eligibility": "ELIGIBLE_SECONDARY"
+      },
+      {
+        "variable_key": "cpi_services",
+        "clean_model_field": "cpi_services_mom_log",
+        "eligibility": "ELIGIBLE_SECONDARY"
+      },
+      {
+        "variable_key": "ppi",
+        "clean_model_field": "ppi_mom_log",
+        "eligibility": "ELIGIBLE_PRIMARY"
+      }
+    ],
+    "EXTERNAL TRADE": [
+      {
+        "variable_key": "exports_non_gold",
+        "clean_model_field": "exports_non_gold_yoy_log",
+        "eligibility": "ELIGIBLE_SECONDARY"
+      },
+      {
+        "variable_key": "exports_total",
+        "clean_model_field": "exports_total_yoy_log",
+        "eligibility": "ELIGIBLE_SECONDARY"
+      },
+      {
+        "variable_key": "gold_exports_proxy",
+        "clean_model_field": "gold_exports_proxy_usd_m",
+        "eligibility": "ELIGIBLE_SECONDARY"
+      },
+      {
+        "variable_key": "imports_total",
+        "clean_model_field": "imports_total_yoy_log",
+        "eligibility": "ELIGIBLE_SECONDARY"
+      }
+    ],
+    "RESERVES": [
+      {
+        "variable_key": "fx_reserves_ex_gold",
+        "clean_model_field": "fx_reserves_exgold_yoy_log",
+        "eligibility": "ELIGIBLE_PRIMARY"
+      }
+    ],
+    "GLOBAL / EXTERNAL": [
+      {
+        "variable_key": "gold_price",
+        "clean_model_field": "gold_price_mom_dlog",
+        "eligibility": "ELIGIBLE_PRIMARY"
+      },
+      {
+        "variable_key": "russia_ipi",
+        "clean_model_field": "russia_ipi_yoy_pct",
+        "eligibility": "INELIGIBLE"
+      }
+    ],
+    "PAYMENTS": [
+      {
+        "variable_key": "instant_payments",
+        "clean_model_field": "instant_payments_yoy_log",
+        "eligibility": "DIAGNOSTIC_ONLY"
+      },
+      {
+        "variable_key": "interbank_payments",
+        "clean_model_field": "interbank_payments_yoy_log",
+        "eligibility": "DIAGNOSTIC_ONLY"
+      },
+      {
+        "variable_key": "pos_turnover",
+        "clean_model_field": "pos_turnover_yoy_log",
+        "eligibility": "DIAGNOSTIC_ONLY"
+      }
+    ],
+    "FX / EXTERNAL": [
+      {
+        "variable_key": "rub_uzs",
+        "clean_model_field": "rub_uzs_mom_dlog",
+        "eligibility": "ELIGIBLE_PRIMARY"
+      },
+      {
+        "variable_key": "usd_uzs",
+        "clean_model_field": "usd_uzs_mom_dlog",
+        "eligibility": "ELIGIBLE_PRIMARY"
+      }
+    ]
+  }
+}

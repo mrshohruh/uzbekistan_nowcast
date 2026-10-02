@@ -1,0 +1,82 @@
+[
+  {
+    "source_url": "https://cbu.uz/en/statistics/buleten/134397/",
+    "response_url": "https://cbu.uz/en/statistics/buleten/134397/",
+    "retrieved_at": "2026-10-02T07:25:38.333321+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/cbu_bulletins/20261002T072538333321Z_5113de917ead.html",
+    "checksum": "ff55943b49c1a020aa4690476666516b024000ea4e208a049f4d7c550b787e5a"
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/c0b/Statistical-bulletin-of-the-Central-bank-_-January_December-2019.pdf",
+    "response_url": "https://cbu.uz/upload/medialibrary/c0b/Statistical-bulletin-of-the-Central-bank-_-January_December-2019.pdf",
+    "retrieved_at": "2026-10-02T07:25:47.750039+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/cbu_bulletins/20261002T072547750039Z_22006df28475.pdf",
+    "checksum": "0327ba4466e5475e0a3126c1c033f7edf0b37cd8fd33803d5e1998bdb0beec67"
+  },
+  {
+    "source_url": "https://cbu.uz/ru/press_center/reviews/847782/",
+    "response_url": "https://cbu.uz/ru/press_center/reviews/847782/",
+    "retrieved_at": "2026-10-02T07:26:23.996625+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/receipts_evidence/20261002T072623996625Z_5f2411384bb9.html",
+    "checksum": "a691be4f10176a7752e000d7e42120da3b47bc11f4b95ccb5b4df61d6131b6a9"
+  },
+  {
+    "source_url": "https://cbu.uz/ru/press_center/news/403913/",
+    "response_url": "https://cbu.uz/ru/press_center/news/403913/",
+    "retrieved_at": "2026-10-02T07:26:26.717881+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/receipts_evidence/20261002T072626717881Z_dbf83202642f.html",
+    "checksum": "4a46013b816154eff9ffa3ff438a14619ec012b8d79591f8decb218de55d0814"
+  },
+  {
+    "source_url": "https://cbu.uz/ru/press_center/news/118085/",
+    "response_url": "https://cbu.uz/ru/press_center/news/118085/",
+    "retrieved_at": "2026-10-02T07:26:30.198549+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/receipts_evidence/20261002T072630198549Z_078ee25d9633.html",
+    "checksum": "170968cbc6956eeb7ef9deef69523768f4d12a65f25fd23c59029057d98a33f7"
+  },
+  {
+    "source_url": "https://cbu.uz/ru/press_center/reviews/430110/",
+    "response_url": "https://cbu.uz/ru/press_center/reviews/430110/",
+    "retrieved_at": "2026-10-02T07:26:33.145004+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/receipts_evidence/20261002T072633145004Z_577d440bc2f4.html",
+    "checksum": "7f7161dba6e4d57f5fc73745eb85451456dd5bddc29f44373a6a68c5795d4f07"
+  },
+  {
+    "source_url": "https://cbu.uz/ru/research/economic/",
+    "response_url": "https://cbu.uz/ru/research/economic/",
+    "retrieved_at": "2026-10-02T07:26:36.285676+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/receipts_evidence/20261002T072636285676Z_dc3de8204065.html",
+    "checksum": "56cf8d290f0255fab9729ccfe3b2b9aad70a7b2cfff48f26c025133a0ade824f"
+  },
+  {
+    "source_url": "https://cbu.uz/uz/statistics/paysistem/3318993/",
+    "response_url": "https://cbu.uz/uz/statistics/paysistem/3318993/",
+    "retrieved_at": "2026-10-02T07:26:39.528480+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/receipts_evidence/20261002T072639528480Z_1f97e92a48ed.html",
+    "checksum": "66d39effd5dd94521c27af1f2a47eef827947929ce73665de9003e344f88c49e"
+  }
+]

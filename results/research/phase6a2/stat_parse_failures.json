@@ -1,0 +1,248 @@
+[
+  {
+    "source_url": "https://stat.uz/uploads/docs/prom-noy181-en.pdf",
+    "variable": "industrial_production",
+    "error": "No national industrial headline",
+    "stage": "parse"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/\u043f\u0440\u043e\u043c \u041f\u0440\u0435\u0441\u0441 \u0440\u0435\u043b\u0438\u043709 (ang)13 10.pdf",
+    "variable": "industrial_production",
+    "error": "No national industrial headline",
+    "stage": "parse"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/prom-iyul-2018-en.pdf",
+    "variable": "industrial_production",
+    "error": "No national industrial headline",
+    "stage": "parse"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/prom-yan-mart-2018-en.pdf",
+    "variable": "industrial_production",
+    "error": "No national industrial headline",
+    "stage": "parse"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/Analitika-za-yanvar2018-en.pdf",
+    "variable": "industrial_production",
+    "error": "No national industrial headline",
+    "stage": "parse"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/invest-sen-18en.pdf",
+    "variable": "construction",
+    "error": "No national construction headline",
+    "stage": "parse"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/stroy_avgust_2018_en.pdf",
+    "variable": "construction",
+    "error": "No explicit January-to-month reference period in document",
+    "stage": "parse"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/stroy_iyul_2018_en.pdf",
+    "variable": "construction",
+    "error": "Index year 2018 differs from document 2017-07",
+    "stage": "parse"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/iyun_qurilish_2018_en.pdf",
+    "variable": "construction",
+    "error": "No explicit January-to-month reference period in document",
+    "stage": "parse"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/qurilish-yan-2018-en.pdf",
+    "variable": "construction",
+    "error": "No national construction headline",
+    "stage": "parse"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/torg-okt-2018-en.pdf",
+    "variable": "retail_trade",
+    "error": "404 Client Error: Not Found for url: https://stat.uz/uploads/docs/torg-okt-2018-en.pdf",
+    "stage": "download"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/tashqi-savdo-sen-18en.pdf",
+    "variable": "foreign_trade",
+    "error": "No strictly selected trade headline or commodity row",
+    "stage": "parse"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/ichki-savdo-yan-avg-2018-en.pdf",
+    "variable": "retail_trade",
+    "error": "No national retail headline",
+    "stage": "parse"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/Tashqi_sav_avg-18-en.pdf",
+    "variable": "foreign_trade",
+    "error": "No strictly selected trade headline or commodity row",
+    "stage": "parse"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/savdo_iyul_2018_en.pdf",
+    "variable": "retail_trade",
+    "error": "404 Client Error: Not Found for url: https://stat.uz/uploads/docs/savdo_iyul_2018_en.pdf",
+    "stage": "download"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/tashqi-savdo-2018-iyul-en-last1.pdf",
+    "variable": "foreign_trade",
+    "error": "404 Client Error: Not Found for url: https://stat.uz/uploads/docs/tashqi-savdo-2018-iyul-en-last1.pdf",
+    "stage": "download"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/ishki-savdo-iyun-2018-en.pdf",
+    "variable": "retail_trade",
+    "error": "404 Client Error: Not Found for url: https://stat.uz/uploads/docs/ishki-savdo-iyun-2018-en.pdf",
+    "stage": "download"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/tashqi-savdo-iyun-2018-en.pdf",
+    "variable": "foreign_trade",
+    "error": "404 Client Error: Not Found for url: https://stat.uz/uploads/docs/tashqi-savdo-iyun-2018-en.pdf",
+    "stage": "download"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/ichki_savdo_yanvar_may_2018_en.pdf",
+    "variable": "retail_trade",
+    "error": "404 Client Error: Not Found for url: https://stat.uz/uploads/docs/ichki_savdo_yanvar_may_2018_en.pdf",
+    "stage": "download"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/tashqi_savdo_yanvar_mart_2018_en.pdf",
+    "variable": "foreign_trade",
+    "error": "404 Client Error: Not Found for url: https://stat.uz/uploads/docs/tashqi_savdo_yanvar_mart_2018_en.pdf",
+    "stage": "download"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/tashqi-savdo-yan-aprel-2018-en.pdf",
+    "variable": "foreign_trade",
+    "error": "404 Client Error: Not Found for url: https://stat.uz/uploads/docs/tashqi-savdo-yan-aprel-2018-en.pdf",
+    "stage": "download"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/ichki-savdo-yan-aprel-2018-en.pdf",
+    "variable": "retail_trade",
+    "error": "404 Client Error: Not Found for url: https://stat.uz/uploads/docs/ichki-savdo-yan-aprel-2018-en.pdf",
+    "stage": "download"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/tashqi-savdo-yan-mart-en1.pdf",
+    "variable": "foreign_trade",
+    "error": "404 Client Error: Not Found for url: https://stat.uz/uploads/docs/tashqi-savdo-yan-mart-en1.pdf",
+    "stage": "download"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/ichki-savdo-yan-mart-en1.pdf",
+    "variable": "retail_trade",
+    "error": "404 Client Error: Not Found for url: https://stat.uz/uploads/docs/ichki-savdo-yan-mart-en1.pdf",
+    "stage": "download"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/ichki-savdo-pres-2018-en.pdf",
+    "variable": "retail_trade",
+    "error": "404 Client Error: Not Found for url: https://stat.uz/uploads/docs/ichki-savdo-pres-2018-en.pdf",
+    "stage": "download"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/tashqi-savdo-pres-2018-en.pdf",
+    "variable": "foreign_trade",
+    "error": "404 Client Error: Not Found for url: https://stat.uz/uploads/docs/tashqi-savdo-pres-2018-en.pdf",
+    "stage": "download"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/Ichki-savdo-yan-en.pdf",
+    "variable": "retail_trade",
+    "error": "404 Client Error: Not Found for url: https://stat.uz/uploads/docs/Ichki-savdo-yan-en.pdf",
+    "stage": "download"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/Tashqi-savdo-yan-en.pdf",
+    "variable": "foreign_trade",
+    "error": "404 Client Error: Not Found for url: https://stat.uz/uploads/docs/Tashqi-savdo-yan-en.pdf",
+    "stage": "download"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/stroy_mart_2019_en.pdf",
+    "variable": "construction",
+    "error": "No explicit January-to-month reference period in document",
+    "stage": "parse"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/ichki_savdo_oktabr_eng_19.11.2019.pdf",
+    "variable": "retail_trade",
+    "error": "No national retail headline",
+    "stage": "parse"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/ichki_savdo_eng_21.10.2019.pdf",
+    "variable": "retail_trade",
+    "error": "404 Client Error: Not Found for url: https://stat.uz/uploads/docs/ichki_savdo_eng_21.10.2019.pdf",
+    "stage": "download"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/ichki_savdo_20.7.2109_eng.pdf",
+    "variable": "retail_trade",
+    "error": "404 Client Error: Not Found for url: https://stat.uz/uploads/docs/ichki_savdo_20.7.2109_eng.pdf",
+    "stage": "download"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/.pdf",
+    "variable": "foreign_trade",
+    "error": "404 Client Error: Not Found for url: https://stat.uz/uploads/docs/.pdf",
+    "stage": "download"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/press_reliz_ichki savdo_aprel_eng.pdf",
+    "variable": "retail_trade",
+    "error": "No national retail headline",
+    "stage": "parse"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/docs/qurilish_yanvar_dekabr_en.pdf",
+    "variable": "construction",
+    "error": "No national construction headline",
+    "stage": "parse"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/qurilish_en_yanvar.pdf",
+    "variable": "construction",
+    "error": "Stream has ended unexpectedly",
+    "stage": "download"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/tashqi_savdo_aprel_en.pdf",
+    "variable": "foreign_trade",
+    "error": "Stream has ended unexpectedly",
+    "stage": "download"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/ichki_savdo_en_aprel_2020.pdf",
+    "variable": "retail_trade",
+    "error": "Stream has ended unexpectedly",
+    "stage": "download"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/tashqi_savdo_en_fevral.pdf",
+    "variable": "foreign_trade",
+    "error": "No strictly selected trade headline or commodity row",
+    "stage": "parse"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/ichki_savdo_en_yanvar.pdf",
+    "variable": "retail_trade",
+    "error": "Stream has ended unexpectedly",
+    "stage": "download"
+  },
+  {
+    "source_url": "https://stat.uz/files/212/qrJanuary-december-2019/820/Foreign-economic-activity.pdf",
+    "variable": "foreign_trade",
+    "error": "No explicit January-to-month reference period in document",
+    "stage": "parse"
+  }
+]

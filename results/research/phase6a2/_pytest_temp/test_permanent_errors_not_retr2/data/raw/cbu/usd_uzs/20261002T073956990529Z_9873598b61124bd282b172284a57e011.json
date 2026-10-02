@@ -1,0 +1,18 @@
+{
+  "run_id": "run",
+  "variable_key": "usd_uzs",
+  "provider": "CBU",
+  "source_id": "4-009-0009 + official FX JSON archive",
+  "source_url": "https://cbu.uz/test",
+  "response_url": "https://cbu.uz/test",
+  "retrieved_at": "2026-10-02T07:39:56.988735+00:00",
+  "source_release_date": null,
+  "source_release_basis": null,
+  "http_status": 200,
+  "content_type": "application/json",
+  "raw_file_path": "data/raw/cbu/usd_uzs/20261002T073956990529Z_9873598b61124bd282b172284a57e011.payload",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "schema_fingerprint": "a944660576414e1c1f933cbf4bce8afdae4bff84c5c11fba35353eb705f532ee",
+  "parser_version": "0.1.0",
+  "rows_raw": null
+}

@@ -1,0 +1,18 @@
+{
+  "code_commit_hash": "5b033d560bd84a88685deda9469cba963e1904c5",
+  "forecast_timestamp": "2026-09-30T11:22:03.588014Z",
+  "horizon": "H3",
+  "information_cutoff": "2026-09-30T00:00:00Z",
+  "last_available_month_by_predictor": {
+    "usd_uzs_mom_dlog": "2026-08-31"
+  },
+  "model_specification_hash": "52fdf8d4a921ef01f9550ab7fe58391045583c78a216d70e32db454fea433c85",
+  "monthly_panel_hash": "78a7c51b97247d3ccbd72cbcb03b89f6f52f0f091201956bba85c0373856ba7c",
+  "provenance_limitation": "Inherited Phase 5C information convention; row-level historical release vintages unavailable",
+  "quarterly_target_hash": "36793699e48de74ecfe31eeb7eb8f23cf3eb6f2ab9ca929cdd4bb240c1bdfbac",
+  "registry_lag_assumption": "Frozen Phase 5C standard registry timing",
+  "source_information_file": "results/phase5b1/phase5b1_information_set.csv",
+  "source_information_hash": "8bc08e9216c85068fd048dcbd40c6d3b7f35dd865c16276c25613025ff1e3f4a",
+  "source_publication_cutoff": "2026-09-30",
+  "target_quarter": "2026Q3"
+}

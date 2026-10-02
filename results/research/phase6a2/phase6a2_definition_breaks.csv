@@ -1,0 +1,10 @@
+﻿variable_key,break_month,type,evidence,action
+services_output,2024-09,DEFINITION_BREAK,"SIAT metadata: from September 2024, informal and hidden economic activity survey results are included",retain published observations with explicit regime flag; do not assume cross-regime comparability
+pos_turnover,2025-01,DEFINITION_BREAK,Official Uzbek December 2025 article labels January–December POS (E-POS); prior definition equivalence and start date not confirmed,"2025-01 is a conservative boundary for the reported YTD window, NOT a verified system launch date; withhold YoY crossing boundary"
+industrial_production,2019-01,UNVERIFIED,2018 archived growth headlines vs SIAT physical-volume definition; historical universe not reconciled,retain 2018 under distinct historical candidate key
+construction,2021-01,UNVERIFIED,Historical headline universe and revised current SIAT coverage not reconciled,retain 2018–2020 historical candidates separately
+retail_trade,2020-01,UNVERIFIED,Catering/retail coverage and revision differences in historical reports,retain 2018–2019 candidates separately; compare overlap
+imports_total,2018-06,DEFINITION_BREAK,2018 trade release reports recalculation of 2017/first-half 2018 with inbound/outbound tourism survey,imports are goods AND services; goods-only series remains separate definition gap
+exports_ex_gold_exact,2024-03,UNVERIFIED,Direct no-gold total and subtraction disagree in March/April 2024 and other releases; both candidates retained,both inconsistent versions excluded from exact research key
+exports_ex_gold_exact,2026-08,UNVERIFIED,August 2026 release states that precious metals other than non-monetary gold are assigned to non-ferrous metals; effective change date not specified,"date marks observed metadata, not an invented effective break; subtract explicitly labelled non-monetary gold only"
+job_search_index,2024-01,DEFINITION_BREAK,CBU Q4 2025 labour review notes 2024–2025 shift toward social networks/apps,do not assume stable Google Trends interpretation; exact protocol still unknown

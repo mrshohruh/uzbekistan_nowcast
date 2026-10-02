@@ -3,10 +3,10 @@
 | Variable | First raw observation | First usable transformed observation | Last observation | Frequency | Missing periods | Current status | Warnings |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Real GDP growth (quarterly) | 2018-03-31 | 2018-03-31 | 2026-06-30 | Quarterly | 0 | automated |  |
-| Industrial production | 2019-01-31 | 2020-01-31 | 2026-07-31 | Monthly | 0 | automated | extreme_log_change; missing_growth_input |
-| Manufacturing output | 2019-01-31 | 2020-01-31 | 2026-07-31 | Monthly | 0 | automated | extreme_log_change; missing_growth_input |
-| Mining and quarrying output | 2019-01-31 | 2020-01-31 | 2026-07-31 | Monthly | 0 | automated | extreme_log_change; missing_growth_input |
-| Electricity, gas, steam and air-conditioning supply | 2019-01-31 | 2020-01-31 | 2026-07-31 | Monthly | 0 | automated | extreme_log_change; extreme_monthly_increment; missing_growth_input |
+| Industrial production | 2019-01-31 | 2020-01-31 | 2026-08-31 | Monthly | 0 | automated | extreme_log_change; missing_growth_input |
+| Manufacturing output | 2019-01-31 | 2020-01-31 | 2026-08-31 | Monthly | 0 | automated | extreme_log_change; missing_growth_input |
+| Mining and quarrying output | 2019-01-31 | 2020-01-31 | 2026-08-31 | Monthly | 0 | automated | extreme_log_change; missing_growth_input |
+| Electricity, gas, steam and air-conditioning supply | 2019-01-31 | 2020-01-31 | 2026-08-31 | Monthly | 0 | automated | extreme_log_change; extreme_monthly_increment; missing_growth_input |
 | Construction works | 2021-01-31 | 2022-01-31 | 2026-08-31 | Monthly | 0 | automated | extreme_log_change; extreme_monthly_increment; missing_growth_input |
 | Retail trade turnover | 2020-01-31 | 2021-01-31 | 2026-08-31 | Monthly | 0 | automated | extreme_log_change; extreme_monthly_increment; missing_growth_input |
 | Wholesale trade turnover | 2020-01-31 | 2021-01-31 | 2026-08-31 | Monthly | 0 | automated | extreme_log_change; extreme_monthly_increment; missing_growth_input; nonpositive_growth_input; nonpositive_monthly_flow |
@@ -18,8 +18,8 @@
 | Non-gold exports (derived) | 2021-01-31 | 2022-01-31 | 2026-08-31 | Monthly | 0 | automated | extreme_log_change; extreme_monthly_increment; missing_growth_input; nonpositive_monthly_flow |
 | Total imports | 2021-01-31 | 2022-01-31 | 2026-08-31 | Monthly | 0 | automated | extreme_log_change; missing_growth_input |
 | Gold / precious-metals export proxy | 2021-01-31 | 2021-01-31 | 2026-08-31 | Monthly | 0 | automated | extreme_monthly_increment; nonpositive_monthly_flow |
-| USD/UZS official exchange rate | 2013-01-31 | 2013-02-28 | 2026-09-30 | Daily | 0 | automated | extreme_log_change; missing_growth_input; partial_month |
-| RUB/UZS official exchange rate | 2013-01-31 | 2013-02-28 | 2026-09-30 | Daily | 0 | automated | extreme_log_change; missing_growth_input; partial_month |
+| USD/UZS official exchange rate | 2013-01-31 | 2013-02-28 | 2026-10-31 | Daily | 0 | automated | extreme_log_change; missing_growth_input; partial_month |
+| RUB/UZS official exchange rate | 2013-01-31 | 2013-02-28 | 2026-10-31 | Daily | 0 | automated | extreme_log_change; missing_growth_input; partial_month |
 | World gold price | 1960-01-31 | 1960-02-29 | 2026-08-31 | Monthly | 0 | automated | missing_growth_input |
 | Russia industrial production index |  |  |  | Monthly | 0 | unresolved | SSLError: HTTPSConnectionPool(host='rosstat.gov.ru', port=443): Max retries exceeded with url: /enterprise_industrial (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))) |
 | Broad money (M2 / broad money liabilities) | 2013-01-31 | 2014-01-31 | 2026-08-31 | Monthly | 0 | automated | missing_growth_input |
@@ -115,7 +115,7 @@
 
 ## Latest-month ragged edge
 
-Latest union month: 2026-09-30. 0 of 28 predictors have usable transformed values.
+Latest union month: 2026-10-31. 0 of 28 predictors have usable transformed values.
 
 Available: .
 

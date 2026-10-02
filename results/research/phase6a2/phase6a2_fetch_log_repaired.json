@@ -1,0 +1,142 @@
+[
+  {
+    "source_url": "https://cbu.uz/upload/statistics/paymentsystems/dec/BC_POS_ATM_TURNOVER%2001.12.xls",
+    "raw_file_path": "data/raw/research/phase6a2/pos_turnover/20261002T070843776287Z_d2105b3aa009.html",
+    "checksum": "6cf37c8a158609fa1302683354b7e9288abceb0b168b48f17819d2a9771aea4d",
+    "retrieved_at": "2026-10-02T07:08:43.776287+00:00",
+    "http_status": null,
+    "content_type": null,
+    "cache_note": "URL verified by SHA256 URL hash; original HTTP headers unavailable after concurrent log writes",
+    "reused_existing_raw": false
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/ichki_savdo_en_aprel_2020.pdf",
+    "raw_file_path": "data/raw/research/phase6a2/retail_trade/20261002T071707112583Z_c5caf7400655.pdf",
+    "checksum": "89b8026fd33797fc616811f99334a6583fb6e02c755e1bb4ec57623796b3066c",
+    "retrieved_at": "2026-10-02T07:17:07.112583+00:00",
+    "http_status": null,
+    "content_type": null,
+    "cache_note": "URL verified by SHA256 URL hash; original HTTP headers unavailable after concurrent log writes",
+    "reused_existing_raw": false
+  },
+  {
+    "source_url": "https://siat.stat.uz/data/2403/?lang=en",
+    "raw_file_path": "data/raw/research/phase6a2/siat_2403/20261002T070839567811Z_215daf46d64c.html",
+    "checksum": "ee91a2ba36003a8c3b781fa06ccf6122e659972c7ede60a6dd254b35418a66c0",
+    "retrieved_at": "2026-10-02T07:08:39.567811+00:00",
+    "http_status": null,
+    "content_type": null,
+    "cache_note": "URL verified by SHA256 URL hash; original HTTP headers unavailable after concurrent log writes",
+    "reused_existing_raw": false
+  },
+  {
+    "source_url": "https://siat.stat.uz/data/2699/?lang=en",
+    "raw_file_path": "data/raw/research/phase6a2/siat_2699/20261002T070840968195Z_a29d1c68c1ab.html",
+    "checksum": "f28928d2d782be6d102280de75084134fee9f5e97fddee057b0e9f6cdf4ebba2",
+    "retrieved_at": "2026-10-02T07:08:40.968195+00:00",
+    "http_status": null,
+    "content_type": null,
+    "cache_note": "URL verified by SHA256 URL hash; original HTTP headers unavailable after concurrent log writes",
+    "reused_existing_raw": false
+  },
+  {
+    "source_url": "https://siat.stat.uz/data/2700/?lang=en",
+    "raw_file_path": "data/raw/research/phase6a2/siat_2700/20261002T070825176829Z_ab405f81e854.html",
+    "checksum": "38f2cefe9afd1b1f1a12c3467f6ed50aa28a5cfc56ccf7c4e4c68cac12ab842d",
+    "retrieved_at": "2026-10-02T07:08:25.176829+00:00",
+    "http_status": null,
+    "content_type": null,
+    "cache_note": "URL verified by SHA256 URL hash; original HTTP headers unavailable after concurrent log writes",
+    "reused_existing_raw": false
+  },
+  {
+    "source_url": "https://api.siat.stat.uz/sdmx/2700/table/download/?download_format=json",
+    "raw_file_path": "data/raw/research/phase6a2/siat_2700/20261002T070826746247Z_aaa6e5e63b4c.json",
+    "checksum": "3d2bf6e1a8af62475ccbb3d5509a7dc3a8213669c0f3af6b43f64703c78b0f6a",
+    "retrieved_at": "2026-10-02T07:08:26.746247+00:00",
+    "http_status": null,
+    "content_type": null,
+    "cache_note": "URL verified by SHA256 URL hash; original HTTP headers unavailable after concurrent log writes",
+    "reused_existing_raw": false
+  },
+  {
+    "source_url": "https://siat.stat.uz/data/3083/?lang=en",
+    "raw_file_path": "data/raw/research/phase6a2/siat_3083/20261002T070845284355Z_2cbdd36c5c36.html",
+    "checksum": "2dcd894d98b371759b21a9c2e62c0752583ab6cdafb27dfcc639e78fdb3f0b7a",
+    "retrieved_at": "2026-10-02T07:08:45.284355+00:00",
+    "http_status": null,
+    "content_type": null,
+    "cache_note": "URL verified by SHA256 URL hash; original HTTP headers unavailable after concurrent log writes",
+    "reused_existing_raw": false
+  },
+  {
+    "source_url": "https://api.siat.stat.uz/sdmx/3083/table/download/?download_format=json",
+    "raw_file_path": "data/raw/research/phase6a2/siat_3083/20261002T070922593951Z_b70de3ff5713.json",
+    "checksum": "0201919f8035c8a38831cddefe708e4338c1d96b9d1bca94115d1fbaf658c4f7",
+    "retrieved_at": "2026-10-02T07:09:22.593951+00:00",
+    "http_status": null,
+    "content_type": null,
+    "cache_note": "URL verified by SHA256 URL hash; original HTTP headers unavailable after concurrent log writes",
+    "reused_existing_raw": false
+  },
+  {
+    "source_url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3083.json",
+    "raw_file_path": "data/raw/research/phase6a2/siat_3083/20261002T070923893010Z_dc9b7b9094f6.json",
+    "checksum": "1622624f9240f67c6f13ece6687c8b59cd3106c3df8c4f1521196c2aa25ebc88",
+    "retrieved_at": "2026-10-02T07:09:23.893010+00:00",
+    "http_status": null,
+    "content_type": null,
+    "cache_note": "URL verified by SHA256 URL hash; original HTTP headers unavailable after concurrent log writes",
+    "reused_existing_raw": false
+  },
+  {
+    "source_url": "https://siat.stat.uz/data/3218/?lang=en",
+    "raw_file_path": "data/raw/research/phase6a2/siat_3218/20261002T070829305325Z_63d682d71358.html",
+    "checksum": "45430c8e8fb447f7df83e9244b9d5173ab016e7d45e03a2abdc289cdca2df24b",
+    "retrieved_at": "2026-10-02T07:08:29.305325+00:00",
+    "http_status": null,
+    "content_type": null,
+    "cache_note": "URL verified by SHA256 URL hash; original HTTP headers unavailable after concurrent log writes",
+    "reused_existing_raw": false
+  },
+  {
+    "source_url": "https://api.siat.stat.uz/sdmx/3218/table/download/?download_format=json",
+    "raw_file_path": "data/raw/research/phase6a2/siat_3218/20261002T070831658633Z_c126528509d7.json",
+    "checksum": "bc02515fca23710af1d915f26f5c47d490362ce2442eae31e14f7f3aeb07d87e",
+    "retrieved_at": "2026-10-02T07:08:31.658633+00:00",
+    "http_status": null,
+    "content_type": null,
+    "cache_note": "URL verified by SHA256 URL hash; original HTTP headers unavailable after concurrent log writes",
+    "reused_existing_raw": false
+  },
+  {
+    "source_url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3218.json",
+    "raw_file_path": "data/raw/research/phase6a2/siat_3218/20261002T070832835833Z_26213ec6f126.json",
+    "checksum": "890c304d4682fe0bd02189b2d8b5474ff54b580c1e14d3396893d3289f4b2e3f",
+    "retrieved_at": "2026-10-02T07:08:32.835833+00:00",
+    "http_status": null,
+    "content_type": null,
+    "cache_note": "URL verified by SHA256 URL hash; original HTTP headers unavailable after concurrent log writes",
+    "reused_existing_raw": false
+  },
+  {
+    "source_url": "https://siat.stat.uz/data/556/?lang=en",
+    "raw_file_path": "data/raw/research/phase6a2/siat_556/20261002T070834460776Z_61647f215627.html",
+    "checksum": "5f96e9f0a8d31ab9d1e81b6db81f23b5c7bd8ba1eb316c8440f7295e665d813e",
+    "retrieved_at": "2026-10-02T07:08:34.460776+00:00",
+    "http_status": null,
+    "content_type": null,
+    "cache_note": "URL verified by SHA256 URL hash; original HTTP headers unavailable after concurrent log writes",
+    "reused_existing_raw": false
+  },
+  {
+    "source_url": "https://api.siat.stat.uz/sdmx/556/table/download/?download_format=json",
+    "raw_file_path": "data/raw/research/phase6a2/siat_556/20261002T070836547851Z_a7c414621739.json",
+    "checksum": "43330891124d85a437d1bab9d9d2432a419918b919a3cf7462725eb8b1dd846f",
+    "retrieved_at": "2026-10-02T07:08:36.547851+00:00",
+    "http_status": null,
+    "content_type": null,
+    "cache_note": "URL verified by SHA256 URL hash; original HTTP headers unavailable after concurrent log writes",
+    "reused_existing_raw": false
+  }
+]

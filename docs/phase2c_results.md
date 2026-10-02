@@ -13,10 +13,10 @@ The completion test command and final count are recorded after the final offline
 | variable_key | first_raw_observation | first_usable_transformed_observation | last_observation | observations | current_status | warnings |
 | --- | --- | --- | --- | --- | --- | --- |
 | gdp_real_yoy | 2018-03-31 | 2018-03-31 | 2026-06-30 | 34 | automated |  |
-| industrial_production | 2019-01-31 | 2020-01-31 | 2026-07-31 | 91 | automated | extreme_log_change; missing_growth_input |
-| manufacturing | 2019-01-31 | 2020-01-31 | 2026-07-31 | 91 | automated | extreme_log_change; missing_growth_input |
-| mining | 2019-01-31 | 2020-01-31 | 2026-07-31 | 91 | automated | extreme_log_change; missing_growth_input |
-| electricity_gas | 2019-01-31 | 2020-01-31 | 2026-07-31 | 91 | automated | extreme_log_change; extreme_monthly_increment; missing_growth_input |
+| industrial_production | 2019-01-31 | 2020-01-31 | 2026-08-31 | 92 | automated | extreme_log_change; missing_growth_input |
+| manufacturing | 2019-01-31 | 2020-01-31 | 2026-08-31 | 92 | automated | extreme_log_change; missing_growth_input |
+| mining | 2019-01-31 | 2020-01-31 | 2026-08-31 | 92 | automated | extreme_log_change; missing_growth_input |
+| electricity_gas | 2019-01-31 | 2020-01-31 | 2026-08-31 | 92 | automated | extreme_log_change; extreme_monthly_increment; missing_growth_input |
 | construction | 2021-01-31 | 2022-01-31 | 2026-08-31 | 68 | automated | extreme_log_change; extreme_monthly_increment; missing_growth_input |
 | retail_trade | 2020-01-31 | 2021-01-31 | 2026-08-31 | 80 | automated | extreme_log_change; extreme_monthly_increment; missing_growth_input |
 | wholesale_trade | 2020-01-31 | 2021-01-31 | 2026-08-31 | 80 | automated | extreme_log_change; extreme_monthly_increment; missing_growth_input; nonpositive_growth_input; nonpositive_monthly_flow |
@@ -28,8 +28,8 @@ The completion test command and final count are recorded after the final offline
 | exports_non_gold | 2021-01-31 | 2022-01-31 | 2026-08-31 | 68 | automated | extreme_log_change; extreme_monthly_increment; missing_growth_input; nonpositive_monthly_flow |
 | imports_total | 2021-01-31 | 2022-01-31 | 2026-08-31 | 68 | automated | extreme_log_change; missing_growth_input |
 | gold_exports_proxy | 2021-01-31 | 2021-01-31 | 2026-08-31 | 68 | automated | extreme_monthly_increment; nonpositive_monthly_flow |
-| usd_uzs | 2013-01-31 | 2013-02-28 | 2026-09-30 | 165 | automated | extreme_log_change; missing_growth_input; partial_month |
-| rub_uzs | 2013-01-31 | 2013-02-28 | 2026-09-30 | 165 | automated | extreme_log_change; missing_growth_input; partial_month |
+| usd_uzs | 2013-01-31 | 2013-02-28 | 2026-10-31 | 166 | automated | extreme_log_change; missing_growth_input; partial_month |
+| rub_uzs | 2013-01-31 | 2013-02-28 | 2026-10-31 | 166 | automated | extreme_log_change; missing_growth_input; partial_month |
 | gold_price | 1960-01-31 | 1960-02-29 | 2026-08-31 | 800 | automated | missing_growth_input |
 | russia_ipi |  |  |  | 0 | unresolved | SSLError: HTTPSConnectionPool(host='rosstat.gov.ru', port=443): Max retries exceeded with url: /enterprise_industrial (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))) |
 | m2 | 2013-01-31 | 2014-01-31 | 2026-08-31 | 164 | automated | missing_growth_input |
@@ -60,11 +60,11 @@ exports_non_gold: automated.
 
 ## 8. Missingness analysis
 
-The union panel spans 1960-01-31 to 2026-09-30. Threshold dates: {"25": "2019-12-31", "50": "2021-01-31", "75": "2022-01-31", "90": "2025-09-30"}. Missingness is preserved, not filled.
+The union panel spans 1960-01-31 to 2026-10-31. Threshold dates: {"25": "2019-12-31", "50": "2021-01-31", "75": "2022-01-31", "90": "2025-09-30"}. Missingness is preserved, not filled.
 
 ## 9. Ragged-edge analysis
 
-At 2026-09-30, 0 of 28 predictors are usable. Missing: industrial_production, manufacturing, mining, electricity_gas, construction, retail_trade, wholesale_trade, cpi_headline, cpi_food, cpi_services, ppi, exports_total, exports_non_gold, imports_total, gold_exports_proxy, usd_uzs, rub_uzs, gold_price, russia_ipi, m2, household_deposits, corporate_deposits, household_credit, corporate_credit, fx_reserves_ex_gold, pos_turnover, instant_payments, interbank_payments.
+At 2026-10-31, 0 of 28 predictors are usable. Missing: industrial_production, manufacturing, mining, electricity_gas, construction, retail_trade, wholesale_trade, cpi_headline, cpi_food, cpi_services, ppi, exports_total, exports_non_gold, imports_total, gold_exports_proxy, usd_uzs, rub_uzs, gold_price, russia_ipi, m2, household_deposits, corporate_deposits, household_credit, corporate_credit, fx_reserves_ex_gold, pos_turnover, instant_payments, interbank_payments.
 
 ## 10. Structural breaks
 
@@ -76,45 +76,45 @@ All quality flags remain in processed data. Existing industrial-production outli
 
 ## 12. Revision behavior
 
-1 revision records are stored in `metadata/revisions.parquet`. Parser/schema changes are classified separately by the revision utility.
+5 revision records are stored in `metadata/revisions.parquet`. Parser/schema changes are classified separately by the revision utility.
 
 ## 13. Release-date availability
 
 | variable_key | classification | source_release_dates_observed |
 | --- | --- | --- |
-| gdp_real_yoy | current release/update timestamp only | 68 |
-| industrial_production | current release/update timestamp only | 182 |
-| manufacturing | current release/update timestamp only | 91 |
-| mining | current release/update timestamp only | 91 |
-| electricity_gas | current release/update timestamp only | 91 |
-| construction | current release/update timestamp only | 68 |
-| retail_trade | current release/update timestamp only | 80 |
-| wholesale_trade | current release/update timestamp only | 80 |
-| cpi_headline | current release/update timestamp only | 68 |
-| cpi_food | current release/update timestamp only | 68 |
-| cpi_services | current release/update timestamp only | 68 |
-| ppi | current release/update timestamp only | 164 |
-| exports_total | current release/update timestamp only | 68 |
-| exports_non_gold | current release/update timestamp only | 68 |
-| imports_total | current release/update timestamp only | 68 |
-| gold_exports_proxy | current release/update timestamp only | 68 |
+| gdp_real_yoy | current release/update timestamp only | 102 |
+| industrial_production | current release/update timestamp only | 274 |
+| manufacturing | current release/update timestamp only | 183 |
+| mining | current release/update timestamp only | 183 |
+| electricity_gas | current release/update timestamp only | 183 |
+| construction | current release/update timestamp only | 136 |
+| retail_trade | current release/update timestamp only | 160 |
+| wholesale_trade | current release/update timestamp only | 160 |
+| cpi_headline | current release/update timestamp only | 136 |
+| cpi_food | current release/update timestamp only | 136 |
+| cpi_services | current release/update timestamp only | 136 |
+| ppi | current release/update timestamp only | 328 |
+| exports_total | current release/update timestamp only | 136 |
+| exports_non_gold | current release/update timestamp only | 136 |
+| imports_total | current release/update timestamp only | 136 |
+| gold_exports_proxy | current release/update timestamp only | 136 |
 | usd_uzs | retrieval timestamp only | 0 |
 | rub_uzs | retrieval timestamp only | 0 |
-| gold_price | current release/update timestamp only | 800 |
+| gold_price | current release/update timestamp only | 1600 |
 | russia_ipi | no reliable historical release timing | 0 |
-| m2 | current release/update timestamp only | 164 |
-| household_deposits | archive-date proxy available | 28 |
-| corporate_deposits | archive-date proxy available | 28 |
-| household_credit | archive-date proxy available | 28 |
-| corporate_credit | archive-date proxy available | 28 |
-| fx_reserves_ex_gold | current release/update timestamp only | 164 |
-| pos_turnover | archive-date proxy available | 58 |
-| instant_payments | archive-date proxy available | 39 |
-| interbank_payments | archive-date proxy available | 31 |
+| m2 | current release/update timestamp only | 328 |
+| household_deposits | archive-date proxy available | 56 |
+| corporate_deposits | archive-date proxy available | 56 |
+| household_credit | archive-date proxy available | 56 |
+| corporate_credit | archive-date proxy available | 56 |
+| fx_reserves_ex_gold | current release/update timestamp only | 328 |
+| pos_turnover | archive-date proxy available | 116 |
+| instant_payments | archive-date proxy available | 78 |
+| interbank_payments | archive-date proxy available | 62 |
 
 ## 14. Master dataset dimensions
 
-`v1_monthly`: 801 rows × 29 columns. `v1_observations_long`: 6739 rows × 20 columns. GDP is separate in `gdp_quarterly`.
+`v1_monthly`: 802 rows × 29 columns. `v1_observations_long`: 13359 rows × 20 columns. GDP is separate in `gdp_quarterly`.
 
 ## 15. Source discrepancies
 

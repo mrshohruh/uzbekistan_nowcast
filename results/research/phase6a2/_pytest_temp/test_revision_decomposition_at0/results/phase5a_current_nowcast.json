@@ -1,0 +1,1 @@
+{"predictions": [{"model": "ar1", "prediction": 7.0}, {"model": "ar2", "prediction": 7.1}, {"model": "umidas_usd_uzs_mom_dlog", "prediction": 8.0}, {"model": "ensemble_ar2_umidas_usd", "prediction": 7.55}], "run": {"horizon_detection": {"horizon": "H3"}}}

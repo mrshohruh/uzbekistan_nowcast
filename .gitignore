@@ -1,6 +1,8 @@
 .venv/
 venv/
 .tmp/
+.phase5d_test_tmp/
+results/shadow/phase5d/input_snapshots/
 __pycache__/
 .pytest_cache/
 pytest-cache-files-*/

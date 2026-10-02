@@ -1,0 +1,122 @@
+[
+  {
+    "source_url": "https://stat.uz/uploads/docs/uslugi_dekabr_2018_en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/uslugi_dekabr_2018_en.pdf",
+    "retrieved_at": "2026-10-02T07:26:03.959598+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T072603959598Z_bde9f5b45acc.pdf",
+    "checksum": "5261d3c93f5f8ba2a658c03c6e1b5df3fd727497fe78bc98ebcd763d599f0958"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/usluga-yan-noy-18en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/usluga-yan-noy-18en.pdf",
+    "retrieved_at": "2026-10-02T07:26:07.748870+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T072607748870Z_39f3a15e79b0.pdf",
+    "checksum": "62a8e22b7dd31febc152c690d69a2b98af3c960335832013a6d26777bccbfdd7"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/usluga-noy18-en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/usluga-noy18-en.pdf",
+    "retrieved_at": "2026-10-02T07:26:13.421797+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T072613421797Z_3bc98636901c.pdf",
+    "checksum": "bd34b8391cd00e07acdfe1d268fa8b1441f27d77500065b8dbfd2ff29c6170df"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/uslugi_sentabr_en_2018.pdf",
+    "response_url": "https://stat.uz/uploads/docs/uslugi_sentabr_en_2018.pdf",
+    "retrieved_at": "2026-10-02T07:26:16.177325+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T072616177325Z_532af79ca52a.pdf",
+    "checksum": "1d5ea9516d04e9f3ef446063fc008495eb987ac32e26890a34eec83effcda738"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/uslugi_avgust_en_2018.pdf",
+    "response_url": "https://stat.uz/uploads/docs/uslugi_avgust_en_2018.pdf",
+    "retrieved_at": "2026-10-02T07:26:18.978863+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T072618978863Z_e2600a87d52e.pdf",
+    "checksum": "271bb040e7036289405c348dffa6f44c2e83d90f2b4025d2fbedd150d54709dc"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/uslugi_iyul_2018_en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/uslugi_iyul_2018_en.pdf",
+    "retrieved_at": "2026-10-02T07:26:22.489872+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T072622489872Z_1aad0c74e0b6.pdf",
+    "checksum": "9107c5a110ed9b4484e4e0e649f5fcf28f8436a9255cf55ed80a279965f58380"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/usluga-iyun-2018-en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/usluga-iyun-2018-en.pdf",
+    "retrieved_at": "2026-10-02T07:26:24.436809+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T072624436809Z_6db44067aa5b.pdf",
+    "checksum": "a2a112f80be8d867e9a4a0abc92df07c04758ef6f7b6a820c0d06301959f63b1"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/docs/xizmatlar_2018_may_en.pdf",
+    "response_url": "https://stat.uz/images/uploads/docs/xizmatlar_2018_may_en.pdf",
+    "retrieved_at": "2026-10-02T07:26:26.462175+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T072626462175Z_234e8b36a1be.pdf",
+    "checksum": "fc13b6ce9638c338732eb99406a6ca5d33a04891aa61adddd4886423cfb26cd3"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/usluga-aprel-2018-en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/usluga-aprel-2018-en.pdf",
+    "retrieved_at": "2026-10-02T07:26:28.908026+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T072628908026Z_2aedc65708e6.pdf",
+    "checksum": "7e07a42f5afe2768137d5f4dae1afeb8c89930ed16d45d52d6bdb36d9ff10374"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/usluga-yan-mart-en2.pdf",
+    "response_url": "https://stat.uz/uploads/docs/usluga-yan-mart-en2.pdf",
+    "retrieved_at": "2026-10-02T07:26:30.673241+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T072630673241Z_7b8d32f1eeed.pdf",
+    "checksum": "7cdbb6986f999750d8747e39b01b1e919ec03ed0cf043f46e34f4ca735f41c6e"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/usluga-fev-18-en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/usluga-fev-18-en.pdf",
+    "retrieved_at": "2026-10-02T07:26:32.726666+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T072632726666Z_feb1f6e59b81.pdf",
+    "checksum": "0bf5b28316d9a2c301756223a4c8f0762e908b7df1b90b13edf3eea302163cca"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/usluga-yan-2018-en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/usluga-yan-2018-en.pdf",
+    "retrieved_at": "2026-10-02T07:26:35.617361+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T072635617361Z_7218771e2156.pdf",
+    "checksum": "c6d5d38fce3be1938f5410cc1878bc312d300c892fc094be855e9574d4645400"
+  }
+]

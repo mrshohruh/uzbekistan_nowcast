@@ -1,0 +1,5 @@
+target_quarter,model,release_lag_mode,H1_H2_revision,H2_H3_revision,H1_H3_revision
+2026Q3,combination_equal_weight,standard,,,
+2026Q3,combination_inverse_past_rmse,standard,,,
+2026Q3,combination_nonnegative_past_stack,standard,,,
+2026Q3,production_ensemble_ar2_usd,standard,,,

@@ -1,0 +1,9 @@
+model,release_lag_mode,influence_flag,minimum_relative_rmse,maximum_relative_rmse,dropped_quarter_results
+production_ensemble_ar2_usd,standard,INSUFFICIENT_PROSPECTIVE_EVIDENCE,,,{}
+combination_equal_weight,standard,INSUFFICIENT_PROSPECTIVE_EVIDENCE,,,{}
+combination_inverse_past_rmse,standard,INSUFFICIENT_PROSPECTIVE_EVIDENCE,,,{}
+combination_nonnegative_past_stack,standard,INSUFFICIENT_PROSPECTIVE_EVIDENCE,,,{}
+production_ensemble_ar2_usd,conservative,INSUFFICIENT_PROSPECTIVE_EVIDENCE,,,{}
+combination_equal_weight,conservative,INSUFFICIENT_PROSPECTIVE_EVIDENCE,,,{}
+combination_inverse_past_rmse,conservative,INSUFFICIENT_PROSPECTIVE_EVIDENCE,,,{}
+combination_nonnegative_past_stack,conservative,INSUFFICIENT_PROSPECTIVE_EVIDENCE,,,{}

@@ -1,0 +1,3653 @@
+[
+  {
+    "source_url": "https://cbu.uz/upload/iblock/3d6/6kbvfiumraqdb4ejh0qrzkc6y4pbr3vi/MIDAS_WP.pdf",
+    "response_url": "https://cbu.uz/upload/iblock/3d6/6kbvfiumraqdb4ejh0qrzkc6y4pbr3vi/MIDAS_WP.pdf",
+    "retrieved_at": "2026-10-02T06:59:44.031609+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/original_paper/20261002T065944031609Z_df5a08b81755.pdf",
+    "checksum": "be61ee67dad0eda153f3aa6058805bf91f1c066a52e5a0131e3babcbc0672837"
+  },
+  {
+    "source_url": "https://cbu.uz/ru/research/economic/2525870/",
+    "response_url": "https://cbu.uz/ru/research/economic/2525870/",
+    "retrieved_at": "2026-10-02T06:59:46.592533+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/paper_landing/20261002T065946592533Z_53b9de03e30b.html",
+    "checksum": "40c4eb7d947f484e38c2d80267fe33f803cadcbc5fd1df909c47071d6c7e7070"
+  },
+  {
+    "source_url": "https://siat.stat.uz/data/3215/?lang=en",
+    "response_url": "https://siat.stat.uz/data/3215/?lang=en",
+    "retrieved_at": "2026-10-02T06:59:48.355889+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_3215/20261002T065948355889Z_6ce95b0f39b6.html",
+    "checksum": "88d4fea000610d57b8c78f5be952e60b323844b41b4cfde24bb83d8c6a447796"
+  },
+  {
+    "source_url": "https://siat.stat.uz/data/3217/?lang=en",
+    "response_url": "https://siat.stat.uz/data/3217/?lang=en",
+    "retrieved_at": "2026-10-02T06:59:49.545849+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_3217/20261002T065949545849Z_8d652a254a84.html",
+    "checksum": "f85f8a0227513cec1b4ba118215bb1b2c43c56a7b6e14ee30c2273987a742791"
+  },
+  {
+    "source_url": "https://siat.stat.uz/data/?lang=en",
+    "response_url": "https://siat.stat.uz/data/?lang=en",
+    "retrieved_at": "2026-10-02T07:01:24.291603+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/catalogue/20261002T070124291603Z_93f54dca7337.html",
+    "checksum": "6d448846deb32a299d0219cdc202faafddd0232d4f517b71a55897043ad3dfc0"
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/?arFilter_ff%5BSECTION_ID%5D=3499&year=2018&set_filter=Y",
+    "response_url": "https://cbu.uz/en/statistics/paysistem/?arFilter_ff%5BSECTION_ID%5D=3499&year=2018&set_filter=Y",
+    "retrieved_at": "2026-10-02T07:02:34.977971+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/pos_listing/20261002T070234977971Z_763517d67e35.html",
+    "checksum": "bb14eda7c2f385d46db1ba9133cb8ab49307713ba389d021d4fdbb7680180061"
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/?arFilter_ff%5BSECTION_ID%5D=3499&year=2020&set_filter=Y",
+    "response_url": "https://cbu.uz/en/statistics/paysistem/?arFilter_ff%5BSECTION_ID%5D=3499&year=2020&set_filter=Y",
+    "retrieved_at": "2026-10-02T07:02:37.509558+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/pos_listing/20261002T070237509558Z_6a1f3e70c9c2.html",
+    "checksum": "50c3fcca8dfb5974f669bd9e56c318750953fcbb80cba2382315bfbad20b28d6"
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/?arFilter_ff%5BSECTION_ID%5D=3499&year=2026&set_filter=Y",
+    "response_url": "https://cbu.uz/en/statistics/paysistem/?arFilter_ff%5BSECTION_ID%5D=3499&year=2026&set_filter=Y",
+    "retrieved_at": "2026-10-02T07:02:39.777283+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/pos_listing/20261002T070239777283Z_63ad8188c022.html",
+    "checksum": "cdea84739e20ad25861b0be82871008a68f4698271e58408c6ff66913fc3c6cd"
+  },
+  {
+    "source_url": "https://siat.stat.uz/data/577/?lang=en",
+    "response_url": "https://siat.stat.uz/data/577/?lang=en",
+    "retrieved_at": "2026-10-02T07:03:06.737460+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/siat_577/20261002T070306737460Z_3e3ad8022843.html",
+    "checksum": "429e41a11367a95f90405679ad969d7907407b712b1286fd62bbd385cfd219ee"
+  },
+  {
+    "source_url": "https://api.siat.stat.uz/sdmx/577/table/download/?download_format=json",
+    "response_url": "https://api.siat.stat.uz/sdmx/577/table/download/?download_format=json",
+    "retrieved_at": "2026-10-02T07:03:10.584604+00:00",
+    "http_status": 200,
+    "content_type": "application/json",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/siat_577/20261002T070310584604Z_25e1a1659bf0.json",
+    "checksum": "d8fb22cfc34d61e496278802cd1970e2c01536e20d01eba9293eb07e714e8d7d"
+  },
+  {
+    "source_url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_577.json",
+    "response_url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_577.json",
+    "retrieved_at": "2026-10-02T07:03:12.139096+00:00",
+    "http_status": 200,
+    "content_type": "application/json",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/siat_577/20261002T070312139096Z_c50ca4e3894a.json",
+    "checksum": "ebb3a4ba569a44d726cf7790a616bbcb8e7965f2c775c276165b38e42e13f25c"
+  },
+  {
+    "source_url": "https://siat.stat.uz/data/2406/?lang=en",
+    "response_url": "https://siat.stat.uz/data/2406/?lang=en",
+    "retrieved_at": "2026-10-02T07:03:13.312296+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/siat_2406/20261002T070313312296Z_94c28b8575f7.html",
+    "checksum": "8857d7fb2ef0afa1a89ea6cfaa93a79f53d886b249a46f594a77bc0b295e0b19"
+  },
+  {
+    "source_url": "https://api.siat.stat.uz/sdmx/2406/table/download/?download_format=json",
+    "response_url": "https://api.siat.stat.uz/sdmx/2406/table/download/?download_format=json",
+    "retrieved_at": "2026-10-02T07:03:15.964775+00:00",
+    "http_status": 200,
+    "content_type": "application/json",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/siat_2406/20261002T070315964775Z_67a6c21e5421.json",
+    "checksum": "d4d96ac988e1cb9638e0eadba0a56a1d5c2a10d1a324ac5caa313b2813acaf8f"
+  },
+  {
+    "source_url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_2406.json",
+    "response_url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_2406.json",
+    "retrieved_at": "2026-10-02T07:03:17.125757+00:00",
+    "http_status": 200,
+    "content_type": "application/json",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/siat_2406/20261002T070317125757Z_39f6f60dad2b.json",
+    "checksum": "d9d783783ef193801b0f11ed79d13637982325d86b67b9a967f32b8f4911546e"
+  },
+  {
+    "source_url": "https://siat.stat.uz/data/3216/?lang=en",
+    "response_url": "https://siat.stat.uz/data/3216/?lang=en",
+    "retrieved_at": "2026-10-02T07:03:18.339701+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/siat_3216/20261002T070318339701Z_4591a49250ec.html",
+    "checksum": "5d91f246136ac1573e6ae012fab5f628e3a9f9687331529425a148198d9e6b7d"
+  },
+  {
+    "source_url": "https://api.siat.stat.uz/sdmx/3216/table/download/?download_format=json",
+    "response_url": "https://api.siat.stat.uz/sdmx/3216/table/download/?download_format=json",
+    "retrieved_at": "2026-10-02T07:03:19.609393+00:00",
+    "http_status": 200,
+    "content_type": "application/json",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/siat_3216/20261002T070319609393Z_cbe11f1cbede.json",
+    "checksum": "27c719bc341bfa32b2785afb06d9468ee20638b225957607fc30cd6d7dbb81f7"
+  },
+  {
+    "source_url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3216.json",
+    "response_url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3216.json",
+    "retrieved_at": "2026-10-02T07:03:20.756913+00:00",
+    "http_status": 200,
+    "content_type": "application/json",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/siat_3216/20261002T070320756913Z_ffc7faf7f335.json",
+    "checksum": "0c15134068a6ddf7855f8091e0268ade3d9bf10388275645d144de7f81b3f827"
+  },
+  {
+    "source_url": "https://api.siat.stat.uz/sdmx/3215/table/download/?download_format=json",
+    "response_url": "https://api.siat.stat.uz/sdmx/3215/table/download/?download_format=json",
+    "retrieved_at": "2026-10-02T07:03:21.954734+00:00",
+    "http_status": 200,
+    "content_type": "application/json",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/siat_3215/20261002T070321954734Z_c46a6b63e91a.json",
+    "checksum": "c09be4a31bc60b13fccc8954a5a3157c8ef952b9a48bc70463a7fcf2340f1ae3"
+  },
+  {
+    "source_url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3215.json",
+    "response_url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3215.json",
+    "retrieved_at": "2026-10-02T07:03:23.112805+00:00",
+    "http_status": 200,
+    "content_type": "application/json",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/siat_3215/20261002T070323112805Z_dd8b880ef0b8.json",
+    "checksum": "bc7010e4a4a9e1711367c4e141d9cb6117c9ad7d93745e7845f9c1d26f64ab0e"
+  },
+  {
+    "source_url": "https://siat.stat.uz/data/2414/?lang=en",
+    "response_url": "https://siat.stat.uz/data/2414/?lang=en",
+    "retrieved_at": "2026-10-02T07:03:24.625270+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/siat_2414/20261002T070324625270Z_68c6b0880a3a.html",
+    "checksum": "3b8fa2fe95b2f9a013f4cef89ae999f0b3a4d0a55518a6e0b397021eaccdb948"
+  },
+  {
+    "source_url": "https://api.siat.stat.uz/sdmx/2414/table/download/?download_format=json",
+    "response_url": "https://api.siat.stat.uz/sdmx/2414/table/download/?download_format=json",
+    "retrieved_at": "2026-10-02T07:03:26.405749+00:00",
+    "http_status": 200,
+    "content_type": "application/json",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/siat_2414/20261002T070326405749Z_a39b3e22d25d.json",
+    "checksum": "0cafb05fee9718e65afabadd660439378f81bb4daa14a1b4b32f3ad47b26451e"
+  },
+  {
+    "source_url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_2414.json",
+    "response_url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_2414.json",
+    "retrieved_at": "2026-10-02T07:03:28.351409+00:00",
+    "http_status": 200,
+    "content_type": "application/json",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/siat_2414/20261002T070328351409Z_da97ec356804.json",
+    "checksum": "a9ea35375cecc3fefdfdd9d4e0f9a27827d2f1f8650c882727c1a9e034736770"
+  },
+  {
+    "source_url": "https://stat.uz/en/press-releases/5827-for-2018-year",
+    "response_url": "https://stat.uz/en/press-releases/5827-for-2018-year",
+    "retrieved_at": "2026-10-02T07:05:17.337758+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/historical_discovery/20261002T070517337758Z_a9d3a5097ca8.html",
+    "checksum": "449989dc6905747af9ee6bbbece3952e6750a27e9de14991957e8cd4d5b2693d"
+  },
+  {
+    "source_url": "https://stat.uz/en/press-releases/5826-for-2019-year",
+    "response_url": "https://stat.uz/en/press-releases/5826-for-2019-year",
+    "retrieved_at": "2026-10-02T07:05:18.877169+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/historical_discovery/20261002T070518877169Z_1ec7c01b0d6c.html",
+    "checksum": "4a6993b91655e8ea3b9796f24e21e691729407d9c2bff72135ac8e9bc0b8463b"
+  },
+  {
+    "source_url": "https://stat.uz/en/quarterly-reports/5871-2017",
+    "response_url": "https://stat.uz/en/quarterly-reports/5871-2017",
+    "retrieved_at": "2026-10-02T07:05:23.910274+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/historical_discovery/20261002T070523910274Z_ce6994782cc0.html",
+    "checksum": "24e1e83ed2e22dd39e9b575e4c4e6e91eeffbe3112dd90a891ca10acc81ab30a"
+  },
+  {
+    "source_url": "https://cbu.uz/upload/iblock/6d1/ztibodg8w0rorc8xp2dsn4xln5k0r6l1/Labor-Market-review-full-review_-_2_-_2_.pdf",
+    "response_url": "https://cbu.uz/upload/iblock/6d1/ztibodg8w0rorc8xp2dsn4xln5k0r6l1/Labor-Market-review-full-review_-_2_-_2_.pdf",
+    "retrieved_at": "2026-10-02T07:06:22.395495+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/historical_discovery/20261002T070622395495Z_3d536239ebb7.pdf",
+    "checksum": "ba5d56ca5eeb76fa4e56d874eeaf5066d8a53d5f084bb8877042080015044cc8"
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/1068517/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045501450686Z_2d8084fa1b6d4c53927ed04c29d48b8e.payload",
+    "checksum": "f0346fcbf4b94ad67e9b73adbf66346f8ac98d4590cf6b3e41612e04db5fc877",
+    "retrieved_at": "2026-10-02T04:55:01.449451+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/b10/s6kt1b724mav11f3m5ldl3630i4jf2zw/BC_POS_ATM_TURNOVER-01.05..2023.xlsx",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045502011676Z_7489b357cb104a82aa434b519d743106.payload",
+    "checksum": "53872cf369d18f2b60c541a31ee849023d8931fb2fef6241a09b392028cf97ae",
+    "retrieved_at": "2026-10-02T04:55:02.011676+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/117941/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045503369649Z_ad7b148df38946619f538eb73d5d9ee5.payload",
+    "checksum": "de8a59c4e93f7420ce0785a096ad6a0babfae4288d0c4546e0acf313dcf5a958",
+    "retrieved_at": "2026-10-02T04:55:03.354041+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/d78/BC_POS_ATM_TURNOVER-01.01.2020.xls",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045503876241Z_3cb6fc99c9824ec3a317e9fc36c211f2.payload",
+    "checksum": "37c430bd265a5d8fad90594d3b6a30e8fff8619c9e8eb8be6a5a4f14ded1bfdf",
+    "retrieved_at": "2026-10-02T04:55:03.876241+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.ms-excel",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/121687/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045504963532Z_d03767d5708a448fa18376916a96dd57.payload",
+    "checksum": "f6ab98626a4ecbe13ac814f3f591a0f3b14645405ad4c4378a47cfaffd4f7cde",
+    "retrieved_at": "2026-10-02T04:55:04.961337+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/260/BC_POS_ATM_TURNOVER-01.02.2020-_3_.xls",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045505512842Z_6b918b5529b142cdab52498d03d9093b.payload",
+    "checksum": "80f31c107e074a341aeb059079184b0d344311eb477b34dee6d8bc8d13281b4c",
+    "retrieved_at": "2026-10-02T04:55:05.512842+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.ms-excel",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/1222302/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045506915719Z_4690465d3fd04b9bb57dad2fbb8be680.payload",
+    "checksum": "405da4b99d27cb53c70484b478658ad19b6d6ccb9ce109deb078d55473ee29dd",
+    "retrieved_at": "2026-10-02T04:55:06.914432+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/24e/6yvp48ask0uln4j4xapxqoupea91pfh6/BC_POS_ATM_TURNOVER-01.08.2023.xlsx",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045507416259Z_37d97086781e490088c7e80d344b1e72.payload",
+    "checksum": "db0b9b3225a6102ea9f0a0629a97199733e4af179f7fc21d366f76c2d619a8cd",
+    "retrieved_at": "2026-10-02T04:55:07.416259+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/134678/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045508539107Z_dbf1bedf4bb040c7b19e54632c95a773.payload",
+    "checksum": "60a330bc12980c993a6f59afefe11a800ab4f0898630ffebd92d0805980a6203",
+    "retrieved_at": "2026-10-02T04:55:08.538104+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/1372635/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045509941092Z_3bcb48f25fb44286a921b0d7385eaa59.payload",
+    "checksum": "c3518caeb2e74bd77ba0f8ad175218c6769c176cd9b2c0db8d8a8a6e8d7c8b9f",
+    "retrieved_at": "2026-10-02T04:55:09.941092+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/afc/chn65cbyqq7qlvl5sevpbf1d8jytfl6z/BC_POS_ATM_TURNOVER-01.09.2023.xlsx",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045510431961Z_d4e89e41d3c9432198cf9f716be7c393.payload",
+    "checksum": "a26392dc446998703a85118cf715c288699851abf6f49296459041fa01c68606",
+    "retrieved_at": "2026-10-02T04:55:10.431961+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/1451487/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045511517954Z_01129716645744299cd01d3b41df23ef.payload",
+    "checksum": "d26cf2305ea63602186182d7ef24f4cef6048935048e90c5a55537f562e67baa",
+    "retrieved_at": "2026-10-02T04:55:11.517954+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/1af/uwbt1z5oshdypk2kct8qa8aby7uquwcu/BC_POS_ATM_TURNOVER-01.10.2023.xlsx",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045512017771Z_a4b219daf55745d680e932d5180e289f.payload",
+    "checksum": "5f66c3d10a92751775b6477c5aeac17e45e33cfedaae5f1056699c932cdbbdfb",
+    "retrieved_at": "2026-10-02T04:55:12.017771+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/1512279/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045513120640Z_2d9e12fea6c6491d8a8ed5333344b530.payload",
+    "checksum": "6db380643710b4496062c9063ff21eaf108af3aa2465a08faed5ae5c8bed65fd",
+    "retrieved_at": "2026-10-02T04:55:13.119635+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/a9a/0bz2t7x54os505xbedg3bhx1y1jq7cd5/BC_POS_ATM_TURNOVER-01.11.2023.xlsx",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045513643383Z_bae99959aa40429d91d556981dcf2dac.payload",
+    "checksum": "2c9d69ab792c2cd8e45185fd9619f94ba8a56f7424e21b0a577ef212cc18f67a",
+    "retrieved_at": "2026-10-02T04:55:13.642342+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/1545365/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045514764011Z_3c93b6f92b4f463d816d46768a63136c.payload",
+    "checksum": "8ec6c48869a2c3caf68143bd449d502ea5b83a543770990d94299ff99cb87217",
+    "retrieved_at": "2026-10-02T04:55:14.763012+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/5af/99n3ns30x22cclx6v90b2cjrp92m8ppo/BC_POS_ATM_TURNOVER-01.12.2023.xlsx",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045515281070Z_13a8a5fb728347e7badf1f5da9edcaa8.payload",
+    "checksum": "e5839fb587b885f655049471b3eff1e35eef3deaf3c24f7cecd6fad4adc5f76a",
+    "retrieved_at": "2026-10-02T04:55:15.278825+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/1575073/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045516350330Z_1c77a00d4ad5459db9d0e2d5690bd43f.payload",
+    "checksum": "ea22455c72eb2559e6f9cef335e8d988e99cb9e326d3f619c099b2d89051f54b",
+    "retrieved_at": "2026-10-02T04:55:16.349333+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/2c1/oy9fvxkqvz699wghf72or4d4ull1kt0g/BC_POS_ATM_TURNOVER-01.01.2024.xlsx",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045516887544Z_1533f8c690af48f69414217ac5e4e95e.payload",
+    "checksum": "885e16e040211b94a93655bf84e3d282ea08ad83078e1b46b6ffc648714bb27c",
+    "retrieved_at": "2026-10-02T04:55:16.886539+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/1616183/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045517907410Z_4f878a1ffa7e48f0839c67009de5f5dd.payload",
+    "checksum": "09a572df344523f521e4da178f3dd412b6aea92ce4966613b27d5627588c3e44",
+    "retrieved_at": "2026-10-02T04:55:17.906418+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/fd0/il5ueko5gpr2k8cbzrtd0r7mnriqt18t/BC_POS_ATM_TURNOVER-01.02.2024.xlsx",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045518412975Z_1dc56ba658d84509b86dbc9bb282acc2.payload",
+    "checksum": "0fe355eca6aa2b4ee09e35175cc0552bd7fb97097527e7a0b52f079dc98fa9bd",
+    "retrieved_at": "2026-10-02T04:55:18.411969+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/1661975/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045519487116Z_12b57637bb7e40bbac1c125d728545f2.payload",
+    "checksum": "080270dbd7bf605740d544c4523545bd19efe895c043bff7e22489b081eb682b",
+    "retrieved_at": "2026-10-02T04:55:19.487116+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/86d/jxhl0jvmerwm9aekfvlv5tkqdbe0up9o/BC_POS_ATM_TURNOVER-01.03.2024.xlsx",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045520002249Z_3b3dba63c889455b90c535725eb8e632.payload",
+    "checksum": "55679784f35aa9f701e5607cbf655f623324336e3fb8cbf470c42f007dca8d13",
+    "retrieved_at": "2026-10-02T04:55:20.000812+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/1704226/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045521085911Z_982e2b6d52f944c39d44f2841eaeba93.payload",
+    "checksum": "cfee02a194a2e36607d549791abf4f5d1d34b219bdb69999b0a914416ffb21f3",
+    "retrieved_at": "2026-10-02T04:55:21.085911+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/ef2/mh4zyanugd3297655hg0a4pz0vwajljy/BC_POS_ATM_TURNOVER-01.04.2024.xlsx",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045521582920Z_183cfe1e77ff43abad19d3a9ade99017.payload",
+    "checksum": "5dadd8a30484e6b74f5138c35dd6c62425d9bf60479e7bcd76dbecebf951077a",
+    "retrieved_at": "2026-10-02T04:55:21.582920+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/1712311/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045522781763Z_ba3cb9187d694ca38a89768cf5f0b2b0.payload",
+    "checksum": "b4a7753db0fc31e7d9eb3f7913f0f78d6099f85cca742d5b00e7773bb50ae201",
+    "retrieved_at": "2026-10-02T04:55:22.781763+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/304/ycz1htufq5vh5k4tzj724g4thnpd2xmj/BC_POS_ATM_TURNOVER-01.05.2024.xlsx",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045523567541Z_32fd0291065f4be1b1ceef9cf5b8a879.payload",
+    "checksum": "d975cf7bb3874ade7c461921228006e29d8406dbbe21c4df6353bfc63c875586",
+    "retrieved_at": "2026-10-02T04:55:23.566505+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/1753178/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045524759017Z_11e075974097418ebd5e7a1a63ac4a1f.payload",
+    "checksum": "1ce6e71a0148adecabf99718764ee0e47465933f6228abd20f68e8cc4bb88e48",
+    "retrieved_at": "2026-10-02T04:55:24.758020+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/099/kqoitaxd8m1r7pgjppidu0jg1493oh36/BC_POS_ATM_TURNOVER-01.06.2024.xlsx",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045525311034Z_4b09bff10973442b8d6706888b630ebc.payload",
+    "checksum": "60d3d3af54e0532565a4cbb0e747d4c24aba6b80a4eab835ff674b84d4b78c6d",
+    "retrieved_at": "2026-10-02T04:55:25.310508+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/1762689/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045526401954Z_b5dcf04831bf485dbb9698ae976df9f0.payload",
+    "checksum": "c2e3ce0bb6fce77ed674d8c568c9d52145401e56829ae411222a83a52d00e811",
+    "retrieved_at": "2026-10-02T04:55:26.401954+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/289/dhnrqneg6yl5bo00e1nku1vyamuudk9t/BC_POS_ATM_TURNOVER-01.07.2024.xls",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045526936659Z_02b56e7e4798402487e8fb82c0d6b08a.payload",
+    "checksum": "e1631245c33b31a31c1fae19a0014146eca956f27d5a810834985a48f5640632",
+    "retrieved_at": "2026-10-02T04:55:26.936659+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.ms-excel",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/1843091/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045528057613Z_e2284e3ff35042239475b3f3681a27ec.payload",
+    "checksum": "7cc0cf74fd55aeeff13ed4f509f64e91b729ec68d78c5e710c63120f0bf29283",
+    "retrieved_at": "2026-10-02T04:55:28.057613+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/602/5lrvknynrjt6750zn5e7tv0lszz18kwe/BC_POS_ATM_TURNOVER-01.08.2024.xlsx",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045528672640Z_fa17b88784714492b38bff7eeb44b160.payload",
+    "checksum": "355e8939558087cb6fdbd394fe8266a1d54f06f88a4898abc609759e0a4ed381",
+    "retrieved_at": "2026-10-02T04:55:28.672640+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/1878093/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045529861834Z_2bf457b1851547a2a364057508ed5df7.payload",
+    "checksum": "cd538a2aa112b87d5f729c427b20043176d06d9d1baf6c4721995e70e7242dfe",
+    "retrieved_at": "2026-10-02T04:55:29.860837+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/f60/clqlvmpmvk38u80mu264hijq4bccfiw5/BC_POS_ATM_TURNOVER-01.09.2024.xlsx",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045530395024Z_def82f3f34dc4068a3a8c80b87ca1f46.payload",
+    "checksum": "bdc04efc8b8277fca6e49e9f45a841163b7afc67528b399120d016ae036f81b2",
+    "retrieved_at": "2026-10-02T04:55:30.395024+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/1931732/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045531512800Z_5ddfdfe1cd524cd19e77a47db0f59531.payload",
+    "checksum": "7fbcb6d1571bf618c1cab4df4ac0522647fdea3535df814e901491c2aee0d6b5",
+    "retrieved_at": "2026-10-02T04:55:31.511795+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/f09/5lg8qph8tdsecpvznvokn5ejw7iwrsgf/BC_POS_ATM_TURNOVER-01.10.2024.xlsx",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045532313682Z_42e3e04bfd6a4ff3a410c319903a685e.payload",
+    "checksum": "555939f8b136b9fd88a8013fa94634eccd364f1c63d8642c27f63154736d8ea0",
+    "retrieved_at": "2026-10-02T04:55:32.312634+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/1950676/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045533489116Z_eb850a680e424fd5a3c26fd053562a75.payload",
+    "checksum": "1bf90c727d8cba77a2dcd6f9e9e4c4c8d0dbcadd4448436e4a8ffbf4649e5e71",
+    "retrieved_at": "2026-10-02T04:55:33.489116+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/30d/ykbbg63x4xnc8hyul3k8najn12hm500z/BC_POS_ATM_TURNOVER-01.11.2024.xlsx",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045534286564Z_865ae1c9b95041e6b28509df3396590d.payload",
+    "checksum": "73845ad7b24fff4a74c31e819a6b510f3316b2efa90e00cc042b708f1ae408b1",
+    "retrieved_at": "2026-10-02T04:55:34.285556+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/2050976/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045535451601Z_62e33dd552954f52aa21a38dfa71d691.payload",
+    "checksum": "f4538fba90d4343e87e398e795fd2af1150c31cfce1ae996ddb36a01ecd5a5a4",
+    "retrieved_at": "2026-10-02T04:55:35.450610+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/41e/rvagkstm08ezxsvaho5t64p2xyd6ij07/BC_POS_ATM_TURNOVER-01.12.2024.xls",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045536306428Z_ae08dad52c024aa3a27ebc5a49583806.payload",
+    "checksum": "22cbd18c79e5e877926657081cb30d75782598f5ad7e9817836c80da0b2e7379",
+    "retrieved_at": "2026-10-02T04:55:36.305381+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.ms-excel",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/2135462/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045537491215Z_a53f822b50aa4a059d74634ea07445f3.payload",
+    "checksum": "11253f9cee6a126c4f6dfbec75df967c514b3a6c43229001a5e71c2b39f89354",
+    "retrieved_at": "2026-10-02T04:55:37.491215+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/60f/mee4slose3615n6n6x28k0zzvb1y74ed/BC_POS_ATM_TURNOVER-01.01.2025.xlsx",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045538045560Z_049fdf0bb8274813847be1202428d8d6.payload",
+    "checksum": "9338fc4a3ce1a762ba233f6f4541ba0a47e4522de72a9b45910e309e25b41fdd",
+    "retrieved_at": "2026-10-02T04:55:38.045560+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/2210067/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045539231715Z_4485d4d60de447e1a54b3c544921a039.payload",
+    "checksum": "0bb82c84fece7e3ecceac5d6364e733d345dd0f71371d4348e8ff9b108afc116",
+    "retrieved_at": "2026-10-02T04:55:39.230716+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/5c8/jqg0hqcvemo2xl70x4twswnm29e0a60z/BC_POS_ATM_TURNOVER-01.02.2025.xlsx",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045539778084Z_68b2473a00ef46b28dcc0c07796aa23a.payload",
+    "checksum": "1994fe933a2305a8b2e5254fe2bacd080683e13b80b06ea4c3e090ebf8328512",
+    "retrieved_at": "2026-10-02T04:55:39.762454+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/2241847/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045540961432Z_4b49d2df44a748858c66076554f0482b.payload",
+    "checksum": "93198984bfff74450ecb3f846a4ca33927698e6574816ea9f2a90283a4987f4d",
+    "retrieved_at": "2026-10-02T04:55:40.960432+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/a04/cr63fyesk0iav97ofzq4e6hyi45qf25n/BC_POS_ATM_TURNOVER-01.03.2025.xlsx",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045541514478Z_8f139093bdff421c91cf64dafb98db3f.payload",
+    "checksum": "5b5b413402aae27c598d4112aec1f7d33bc7c7d5014b0166ac510c96a4bb83d3",
+    "retrieved_at": "2026-10-02T04:55:41.514478+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/2348894/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045542730357Z_d7e711faac40421c91005a9d333b44ae.payload",
+    "checksum": "678aabb69984c79e5c60d9cc3e2e91e45d884f95f8b19010c388a3dcc7bb0260",
+    "retrieved_at": "2026-10-02T04:55:42.729359+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/2ca/wn9zvzyxmonq4mjgmz5300h3bnrt93ka/BC_POS_ATM_TURNOVER-01.04.2025.xlsx",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045543271619Z_86be53ad943449f786ccc4ba43d2c20c.payload",
+    "checksum": "8ca9a887bfa3797977172afe49480e755646c09bd129e3a93ba778cf16861966",
+    "retrieved_at": "2026-10-02T04:55:43.271619+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/2463044/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045544579420Z_e94f0daa838b4bca93f3c5a2c9546f5a.payload",
+    "checksum": "84d7eb15da28ebbe63cf29faeb8d48d68148c6838a28c2f298d71b7819f1c736",
+    "retrieved_at": "2026-10-02T04:55:44.578423+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/6ae/yr5ne8zxx889qxnp154squor8728mvrg/BC_POS_ATM_TURNOVER-01.05.2025.xlsx",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045545134067Z_5de0fb080fea4c6d944219f89c56abdd.payload",
+    "checksum": "6bb3e8fef4bf5d1865bbbd25c2dc89e5ff201708947853bc43155f29955ee57f",
+    "retrieved_at": "2026-10-02T04:55:45.134067+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/2550450/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045546403257Z_702089535f5b44d88c32d93b53f83d28.payload",
+    "checksum": "4603ea78a603c60449e68c1c8db1eb860fe97f703e0dc916062a9d6baaecedbf",
+    "retrieved_at": "2026-10-02T04:55:46.403257+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/fe9/j2a4tolg9b8ho9xxop3btsgsx2e7n49e/BC_POS_ATM_TURNOVER-01.06.2025.xlsx",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045546934117Z_0b025c30c17448948f06b6bc37ba92e2.payload",
+    "checksum": "3c8e58d046c0436cd991659f801e42c1e2ca6c9142949ac99d63423ac72b3838",
+    "retrieved_at": "2026-10-02T04:55:46.934117+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/262451/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045548918031Z_87b3f00322684b18be3c8a535fdbdfbd.payload",
+    "checksum": "23032b384f0dc7ec83cd0ad6d8fa51fe931b4797d954b1a10e34f0a0fc9f260f",
+    "retrieved_at": "2026-10-02T04:55:48.918031+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/d69/BC_POS_ATM_TURNOVER-01.04.2020.xls",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045549486487Z_b82a3de7a54b4466b2747fd8e5e4a92c.payload",
+    "checksum": "c9a0c475394930f7a68c2d25a6fdc11fd64a6a24d9dd905791fb8771e3bde05d",
+    "retrieved_at": "2026-10-02T04:55:49.486487+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.ms-excel",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/2650212/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045551425215Z_48a0d31b310f49c8865191e9966e8f92.payload",
+    "checksum": "c821885fc6667be9443c33f67479946e3b8f8862c2ea4eaabbc3290894c9a264",
+    "retrieved_at": "2026-10-02T04:55:51.425215+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/2cd/f3ycfr130uum7jp93xaab3k36waruwth/BC_POS_ATM_TURNOVER-01.07.2025.xlsx",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045551939227Z_b962f9e284744c6dbc68dd1250b6798c.payload",
+    "checksum": "12e74b22633d55c02769d6c0f6923465a426ceccdcf19e1ebb64e4a47fca3df8",
+    "retrieved_at": "2026-10-02T04:55:51.939227+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/265587/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045553080648Z_a82b21539a764af599a873dc5a1efdc7.payload",
+    "checksum": "5b4573fefcbb83178ad332af74b311c1d087028f3f268136cc1153a4f38cfbc5",
+    "retrieved_at": "2026-10-02T04:55:53.080648+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/62b/BC_POS_ATM_TURNOVER-01.05.2020.xls",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045554407552Z_021875b478cb451ba6737b7823e5881b.payload",
+    "checksum": "333c790019040f6d0a52000dc39b4863e8594973615c91501c9b75903ba874f3",
+    "retrieved_at": "2026-10-02T04:55:54.407552+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.ms-excel",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/2697246/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045555530714Z_a0c6104032f9402fad39210f2150fd63.payload",
+    "checksum": "614767e16e5cfe3e9260499f75d51cd245aac677f06b25e8a1238d35bad3b3fa",
+    "retrieved_at": "2026-10-02T04:55:55.530714+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/8d3/8w10uej4zercu7k36b15xs6xhub2w6oj/BC_POS_ATM_TURNOVER-01.08.2025.xlsx",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045556095176Z_d5c56afed2cd49db99bc503730d330c5.payload",
+    "checksum": "e690020d199786b09e20b267138872eed47fb6ed75502f23ca2c62ce485a2ac8",
+    "retrieved_at": "2026-10-02T04:55:56.095176+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/2847348/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045557390256Z_98aadcee38bc4150b2b6f3256223f007.payload",
+    "checksum": "3024bd44f159ff089838c757cc358969e0de13d1eaf68acaa7f59ea63de74e46",
+    "retrieved_at": "2026-10-02T04:55:57.390256+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/805/b1kl8avkhkgu16au522pkqnd1pt8hbno/BC_POS_ATM_TURNOVER-01.09.2025.xlsx",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045557948593Z_fda7b7a492934cca8bcdb959415de683.payload",
+    "checksum": "6ea7934fcc45b12fc9c0e55c39a94adc10eda48ec63ca29c931cf3cc2106fffd",
+    "retrieved_at": "2026-10-02T04:55:57.948593+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/2941874/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045559421540Z_fed3e359b94346d591fa948c4113ccac.payload",
+    "checksum": "68c3cc81348772c3a39416a0ed5bb51c781b76fda5204bdf63640d5899d9a1c2",
+    "retrieved_at": "2026-10-02T04:55:59.421540+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/aac/xvn1e6vl3inexctv8i80yuvkplhswp2e/BC_POS_ATM_TURNOVER-01.09.2025.xlsx",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045600185953Z_398be8495f5f4aa99d6fe4cdc29061e1.payload",
+    "checksum": "5fbd1fe1493e79b0bfe3a1ad2687ac76181a4b6ceacffce89b580c729ea6ef52",
+    "retrieved_at": "2026-10-02T04:56:00.185953+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/2990195/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045601610669Z_c1741ee0e0b741a8abad916945ef5ce4.payload",
+    "checksum": "5a6c81dc3155405db6cbb829a02ac15aa5d254f3993f2a239798507cc5bd422a",
+    "retrieved_at": "2026-10-02T04:56:01.610669+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/648/wvsnk7nh0n5q1skatomulu9bxer1dyrm/BC_POS_ATM_TURNOVER-01.11.2025.xls",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045602156387Z_d668c020483c4a8ba94145d0bcbab8e6.payload",
+    "checksum": "6a3f7aefe5597be119b3d571a9aed0c994c9c339de546f5d77f80869ae4e4573",
+    "retrieved_at": "2026-10-02T04:56:02.156387+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.ms-excel",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/3318961/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045603604108Z_d5cedd4fd9544920b54900bfe4b26e1b.payload",
+    "checksum": "29b9524ef2729fe931804544e17996f6cd873b08658b2f9b2fbbe930991bb9ff",
+    "retrieved_at": "2026-10-02T04:56:03.604108+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/2c3/04sovh8z724gur9sat3n0uncr2g6gh7l/BC_POS_ATM_TURNOVER-01.12.2025.xls",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045604149364Z_804f89063fc24d269fd2813638da4b40.payload",
+    "checksum": "0db647a846fd55334d210bf2ef0b7f4f811e9aef3899911f455343eaa7202849",
+    "retrieved_at": "2026-10-02T04:56:04.149364+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.ms-excel",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/336554/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045605379416Z_6f832e08b5544b918bbf27cb890b305f.payload",
+    "checksum": "1cda55a3b7cb6aac1b76a2cb7fbbe3bb6e5a1b9b3cfe9c88326451eee1fe76ab",
+    "retrieved_at": "2026-10-02T04:56:05.379416+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/592/BC_POS_ATM_TURNOVER-01.06.2020.xls",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045605925142Z_03399dd5239e478aa38dd6a2df05ca9a.payload",
+    "checksum": "7e783931b9194bf21c17be96a695b0c036061e13105aefc3c479f6b6dac51766",
+    "retrieved_at": "2026-10-02T04:56:05.925142+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.ms-excel",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/3465043/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045607217153Z_1eeb4ec700154e059fbc2648693c70c8.payload",
+    "checksum": "61ddcc9e517d381dc6fd059a30a3e5b5f0258ea677ec97c6a48f5143b6b13e68",
+    "retrieved_at": "2026-10-02T04:56:07.217153+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/f57/0xs7o15ehgg3my6t297pe6jba679absa/BC_POS_ATM_TURNOVER-anglizkiy.xls",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045607752294Z_a3594f7fd9494fa095dff043da0dd3b9.payload",
+    "checksum": "90df7aad04ecec90cbf62c300f18a0716c81758ce85ed7ae7e8d91b29c1cb761",
+    "retrieved_at": "2026-10-02T04:56:07.752294+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.ms-excel",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/3618604/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045609015093Z_c3d0a85c75674e9b9b570df36219469a.payload",
+    "checksum": "2c89842801064d7ebdffeac5ef52a2b3abea90c8219c20a4e8ee763988724935",
+    "retrieved_at": "2026-10-02T04:56:09.015093+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/763/4ktmxx83sh93xe3kpdbcfcjp9oiqachk/BC_POS_ATM_TURNOVER-anglizkiy.xls",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045609562937Z_66321560ea1945dfb4f8012575d32f9a.payload",
+    "checksum": "89aad5da82f1431b8eeb68dedca65b8bf0b43fe9fcda816a726118cf4814f28e",
+    "retrieved_at": "2026-10-02T04:56:09.562937+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.ms-excel",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/365928/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045611065681Z_29532441e9ae4164a61a6c323bef42fa.payload",
+    "checksum": "ee0d44933fbc63bb53a3ff3060eee0b3e614fc533f3bda860ee4080a661524da",
+    "retrieved_at": "2026-10-02T04:56:11.050126+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/32b/BC_POS_ATM_TURNOVER_en_01.07.2020.xlsx",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045611577198Z_d7059db86f854f6c879dc8a97562a315.payload",
+    "checksum": "73c01ae83de177f9bd0a2b39b71590af89b403caff6b1c04f99de05ed56bf5a5",
+    "retrieved_at": "2026-10-02T04:56:11.577198+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/3744584/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045612779510Z_884caab178aa4bf5863d157e41c8c030.payload",
+    "checksum": "0bdd1d075aa72ad5617305bf96a3ab02477fbefad704d481f62319dfbaef425a",
+    "retrieved_at": "2026-10-02T04:56:12.779510+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/5b3/ydzcvw3f8eonkcfee18avt1yirmrte9m/BC_POS_ATM_TURNOVER-angliz.xls",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045613311195Z_4aed03ab1f7147a7b24e24b516b55052.payload",
+    "checksum": "2331602c66a0946c549c4d5cd2795ee774c2c1692103b110f3fba4669babf4fc",
+    "retrieved_at": "2026-10-02T04:56:13.311195+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.ms-excel",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/374461/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045614549624Z_bab2d052c9fb490f814d23d370cc3519.payload",
+    "checksum": "4922601ccd0d500153a6a1fad945e83d0e7bc720d1dda720d77564dd6a4146d3",
+    "retrieved_at": "2026-10-02T04:56:14.549624+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/529/BC_POS_ATM_TURNOVER-01.09.2020_eng.xlsx",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045615056551Z_2afdf47f50b344d1be88ffba238bda75.payload",
+    "checksum": "51f313f3a1e0351714afa49069bad024da1e46aa8c74a5e21823c09b2132d04f",
+    "retrieved_at": "2026-10-02T04:56:15.056551+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/3874158/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045616226133Z_de36f25756ed4a3b96f89000009bdd0c.payload",
+    "checksum": "c55f792ede10f49e90f8428efb2da9a1265d982b59006565166ac9f9995a6b19",
+    "retrieved_at": "2026-10-02T04:56:16.226133+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/cd3/3yo8kpy9xag6mg154ptvi6gohs3at38o/BC_POS_ATM_TURNOVER-01.05.2026-angliz.xls",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045616713527Z_b20b8d1cb48642a9bf515064110b201e.payload",
+    "checksum": "91f240ae57d7d50f4cb009597dae0b63e79018f44e2ab3072b21919a8dbc081e",
+    "retrieved_at": "2026-10-02T04:56:16.713527+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.ms-excel",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/3966843/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045617987953Z_93cc070a16db45ea9310baed2c6b00a1.payload",
+    "checksum": "28a09c833ee56e4df9843473b4d4a6b7d61eb9a961d27e3e12d627b8c1e608bf",
+    "retrieved_at": "2026-10-02T04:56:17.972370+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/bea/lhv1rrojdvkhzo9ry3o34y8nj0gtqk1p/BC_POS_ATM_TURNOVER-01.06.2026-anglizkiy.xls",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045618508548Z_a3084eeb80c343d2996ae6438149d9c8.payload",
+    "checksum": "66f73a8e735003dadf72d748b31ae65f1b70d988da8f095a7cdb94bf77037ad5",
+    "retrieved_at": "2026-10-02T04:56:18.508548+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.ms-excel",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/411281/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045619935642Z_9b6193dd730a4b4b90d8ef66dfdc8fe8.payload",
+    "checksum": "eab4bfd2a23e818dcab4b2afdb87ff13bdc2c3e794c3b77855c46ff557825a74",
+    "retrieved_at": "2026-10-02T04:56:19.935642+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/0b1/inglish.xlsx",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045620465737Z_62b4a127e67a4bb6a9b918351dea01f3.payload",
+    "checksum": "3e25c2f6b186507d54ed9c65b425bddf4bdfdb46f5e49dcea752c9f15bc67899",
+    "retrieved_at": "2026-10-02T04:56:20.465737+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/4174657/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045621846002Z_03202e5f402d4cec982edf3bca6d4d9c.payload",
+    "checksum": "09c70ab63a4631b9b10197f5230dcdbff43e1f27e2a9ea1336eff6ec7b18b907",
+    "retrieved_at": "2026-10-02T04:56:21.846002+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/2e1/euwy6kh0u6ms42umxqucfgxpwuovprno/BC_POS_ATM_TURNOVER-01.07.2026-engg.xls",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045622411506Z_e9b30fc6546047d09003ef9d78817c1f.payload",
+    "checksum": "4cc5991f63889b7009060b1f3655b1940c059d9f62e9134f3ab24c2f8bf23f66",
+    "retrieved_at": "2026-10-02T04:56:22.411506+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.ms-excel",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/418772/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045624355575Z_fc260a6be38a45fe828b8d772356996b.payload",
+    "checksum": "f2115df0bb4a85d1a6a0443b3a882764574b3a0697e3d1577223d2b161c1d0b3",
+    "retrieved_at": "2026-10-02T04:56:24.355575+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/294/BC_POS_ATM_TURNOVER-01.12.2020.xlsx",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045624850920Z_41c4238b404b4a0cb4f447e6ed233f8b.payload",
+    "checksum": "fa6143ccf2930633b5fd3f900b70bead61df5034a9850aabb49ad373d189c6ca",
+    "retrieved_at": "2026-10-02T04:56:24.850920+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/429279/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045626377933Z_0578ea5b81d748c2a63be9583e8a1047.payload",
+    "checksum": "6fe75936f5d49b7a4b8e01bd06259354b1858d60f3eda2e4077ce3920720fcb2",
+    "retrieved_at": "2026-10-02T04:56:26.377933+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/b4c/BC_POS_ATM_TURNOVER_01.01.2021.xlsx",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045626886948Z_b52c864c396a46db8196df4a37b7996c.payload",
+    "checksum": "b1aa414c317a4a95b7986312a671b5fd0a6ff35d66681293fb581f8e82a149a3",
+    "retrieved_at": "2026-10-02T04:56:26.886948+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/4334752/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045628141714Z_8e26a45e25ee4f349b2f80af69cea2fe.payload",
+    "checksum": "bec0bdd74b08ecf5ab461143c4f123064e893ffd0d9e41b327846f46afd2dea7",
+    "retrieved_at": "2026-10-02T04:56:28.141714+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/467/ptk9mzip3aobq0swh268g3wvghsqhyep/BC_POS_ATM_TURNOVER-01.08.2026-eng.xls",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045628632469Z_ed44caf4c7a04691aa048e0960100758.payload",
+    "checksum": "dc87b09641c7766504a0ddae8f194877e9ad6469930c35d6c80a684a659f0cfd",
+    "retrieved_at": "2026-10-02T04:56:28.632469+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.ms-excel",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/442735/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045630716549Z_d0ed035bc5dd4981aa985527d419fdaf.payload",
+    "checksum": "01ebf8de367f9662452a149053123322fa8de43673232061c16d84fae1ee07a8",
+    "retrieved_at": "2026-10-02T04:56:30.716549+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/ae4/BC_POS_ATM_TURNOVER-01.02.2021.xlsx",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045631219521Z_3f3ac205e6e241da8b5e6dfa1c208cea.payload",
+    "checksum": "b932a672173d491c8b7aa74f9cb5062d6cfc17ae17706364019f9deba252099b",
+    "retrieved_at": "2026-10-02T04:56:31.219521+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/477207/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045632482925Z_113c375994e347cf9b9d651e99ea4e41.payload",
+    "checksum": "4b4cced2fc40539a183ae1e8c11da1499f489c382432af8f58662d06ff4ce260",
+    "retrieved_at": "2026-10-02T04:56:32.482925+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/0f1/BC_POS_ATM_TURNOVER-01.04.2021.xlsx",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045632999952Z_20579807fc1041ee97be4556b4c69552.payload",
+    "checksum": "e8efc1579965c19d4f2887e68e37650e56b5c446141e6852599948aa6dbc2704",
+    "retrieved_at": "2026-10-02T04:56:32.999952+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/499218/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045634281482Z_c1e0ab0b1f124ca5a4b23e6bfb7f453c.payload",
+    "checksum": "54b6d265297514a33f6345f83404976d55d57d379c478cedb32ff0ae59c3aadb",
+    "retrieved_at": "2026-10-02T04:56:34.281482+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/06f/BC_POS_ATM_TURNOVER-01.05.2021.xlsx",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045634811756Z_ef37501da4b443698e14408f8c68022d.payload",
+    "checksum": "cad0e41b46a1c3650c7b9ce7e3b78118d0cf4b92ee3cd406172b84705cd48918",
+    "retrieved_at": "2026-10-02T04:56:34.810043+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/520931/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045635999563Z_e135d9ca8a0842e380ad50765938c942.payload",
+    "checksum": "5714578c30527f90e99cd7e0df21612bf2424f8615ff0c4909f3aefcab00f3d8",
+    "retrieved_at": "2026-10-02T04:56:35.998566+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/642/BC_POS_ATM_TURNOVER-01.06.2021.xlsx",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045636714959Z_14c3d527a72148ceb4d5abbd5dffffdf.payload",
+    "checksum": "3526d4be51ea75b4f364a2c83a58ce6e323ede7611160ca68c9adac080512322",
+    "retrieved_at": "2026-10-02T04:56:36.714959+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/539293/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045637852140Z_d93e4596e4d84d6f81c35ccf9c7c7f47.payload",
+    "checksum": "c219d0a98db81a98849dafee00e771c6143f147eb151ca1e4c5d9c4eede2072a",
+    "retrieved_at": "2026-10-02T04:56:37.852140+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/f01/BC_POS_ATM_TURNOVER-01.07.2021.xlsx",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045638365889Z_c9f770cbc3594a87ab8e342494647882.payload",
+    "checksum": "109913423c6c72658ffe29691b85cb027d711589a6f0af8be4bb0f1eb349550f",
+    "retrieved_at": "2026-10-02T04:56:38.364516+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/546473/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045639418271Z_3facc2020bee4e9a9c4e957f72565e6e.payload",
+    "checksum": "fd943b0ca2ea3082d09fb04acbcd8daa7504d1014f8e8c9172fac6517ab19bc0",
+    "retrieved_at": "2026-10-02T04:56:39.417274+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/c5d/BC_POS_ATM_TURNOVER-01.08.2021.xlsx",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045640292280Z_5f299c95518b4719a89d23343d09a9da.payload",
+    "checksum": "8886dd1662e373aae994f8c18764e3a921cc082d6be14af353f52b12a7b85969",
+    "retrieved_at": "2026-10-02T04:56:40.291277+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/552464/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045641459906Z_e06e1fd7c3f74420886ff6b5679c42f5.payload",
+    "checksum": "dfe8863f621414baf062c10c6fd4e4864a301c7913eecdd26f09cf5ba243a635",
+    "retrieved_at": "2026-10-02T04:56:41.458908+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/cc6/BC_POS_ATM_TURNOVER-01.09.2021.xlsx",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045642471831Z_10825b18548843c1926c9d96f222f8f2.payload",
+    "checksum": "ab86a4bc2a01def2db313fcac0f8714e2fff5995b5fae66bcb89a963fd0ea43d",
+    "retrieved_at": "2026-10-02T04:56:42.471522+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/559789/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045643759847Z_7064f12afeb74a29a64eb1eda0546a14.payload",
+    "checksum": "4d676827e7144a471f35e5ddfa3e40a4549b1d78ac7a3c4f8923271fa73d8c67",
+    "retrieved_at": "2026-10-02T04:56:43.758849+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/prom-yan-2019-en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/prom-yan-2019-en.pdf",
+    "retrieved_at": "2026-10-02T07:08:13.042294+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/industrial_production/20261002T070813042294Z_f3856ac1d468.pdf",
+    "checksum": "0d6fa7dab0fa7bcbef27076bf0af36a98cfd9f2dc894de2e7f45bd45841b63c2"
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/b00/BC_POS_ATM_TURNOVER-01.02.2022.xlsx",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045652053504Z_ef246063d09645dabaafef1ad90dff55.payload",
+    "checksum": "5ae776c33b8075d284e6c406a6f7b6f4ead4fadfb2732a039b85923f7a4846a6",
+    "retrieved_at": "2026-10-02T04:56:52.053504+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/622203/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045653140986Z_d7e2e540c4e74d5ab353e329a537822e.payload",
+    "checksum": "8259fd259fa777db98ffbebd161536f2b3d43720b9577c390c635efd846fa391",
+    "retrieved_at": "2026-10-02T04:56:53.140986+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/daf/BC_POS_ATM_TURNOVER-01.03.2022.xlsx",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045653904118Z_23077cb4fd2f43e580dd55f228506b87.payload",
+    "checksum": "68ead0b551e56c1d9f6b343ae90727400a8f553a7a995d838e22c9c6fbbc0da5",
+    "retrieved_at": "2026-10-02T04:56:53.904051+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/prom_yan_noy18_en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/prom_yan_noy18_en.pdf",
+    "retrieved_at": "2026-10-02T07:08:15.539348+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/industrial_production/20261002T070815539348Z_cb63268a1131.pdf",
+    "checksum": "fb5aa1444a16ed359242c063d54547ea22fe9d0c26597047bb5463cdb336a191"
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/679234/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045700005911Z_58a70dd7097543a9818bc1c7de41fa4f.payload",
+    "checksum": "70fa528999a48c85f05800109a344d4fc8c32d019e96e5d0c9920d3edb6c3d75",
+    "retrieved_at": "2026-10-02T04:57:00.005911+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/ad9/n2zf4xd0j4a4gm1pyntndcd6mnh98yyf/BC_POS_ATM_TURNOVER_01.08.2022-_6_.xlsx",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045700542136Z_9673a3e39e37458a911b44fc966bb7c6.payload",
+    "checksum": "938b39eb96ae21af72b0ddcfe993ae61c73b610f880ee2ddb927d1b48e3ff728",
+    "retrieved_at": "2026-10-02T04:57:00.542136+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/687911/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045701670591Z_bb7151789d2246d78f9a1648b361c98c.payload",
+    "checksum": "2518fab419cdf2e3ff25d97652f0d05af08d1f234cad090882e2f70a6d6ab74c",
+    "retrieved_at": "2026-10-02T04:57:01.670591+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/045/vdtbl1a95jn8gtmyqchx4luos1l38ewh/BC_POS_ATM_TURNOVER_01.09.2022.xlsx",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045702226532Z_4ff90c00ec2b4c919e3245879b021514.payload",
+    "checksum": "877938d8aff4858c261e772b185ac083a8db60a1cf58ddcb0b0445d5fff5f0c8",
+    "retrieved_at": "2026-10-02T04:57:02.226532+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/prom-noy181-en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/prom-noy181-en.pdf",
+    "retrieved_at": "2026-10-02T07:08:18.473162+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/industrial_production/20261002T070818473162Z_f1ec30caff22.pdf",
+    "checksum": "92e778fbe29a5522c3fe3ef6b1371e7a9ddfa9a3c9e35bc8331d695429856425"
+  },
+  {
+    "source_url": "https://cbu.uz/upload/statistics/paymentsystems/feb/3/BC-ATM-TERM-TURNOVER%20Eng.xlsx",
+    "response_url": "https://cbu.uz/upload/statistics/paymentsystems/feb/3/BC-ATM-TERM-TURNOVER%20Eng.xlsx",
+    "retrieved_at": "2026-10-02T07:08:20.042621+00:00",
+    "http_status": 404,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/pos_turnover/20261002T070820042621Z_35e56ce39c8b.html",
+    "checksum": "6fd59928aabe7a9ae3812c130782554009f0e43fb9114bb6bbd5cc8329901c6e"
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/71774/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045707926310Z_7ccc75d6638540619861f6ae7ae6e075.payload",
+    "checksum": "6c7060a9e0d21d4ec8bb5e35167276a83f2906ce9062643321a666c3df457c68",
+    "retrieved_at": "2026-10-02T04:57:07.925312+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/statistics/paymentsystems/mar/3/BC_POS_ATM_TURNOVER%2001.03.eng.xlsx",
+    "response_url": "https://cbu.uz/upload/statistics/paymentsystems/mar/3/BC_POS_ATM_TURNOVER%2001.03.eng.xlsx",
+    "retrieved_at": "2026-10-02T07:08:22.476879+00:00",
+    "http_status": 404,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/pos_turnover/20261002T070822476879Z_708c9e882f06.html",
+    "checksum": "031a34bb0187c1f2b0f3f7675d061401821cdf681f61b70fca919bc7440b1b53"
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/71778/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045710601204Z_75417c4f4f71444284bc96201b133bed.payload",
+    "checksum": "132d0a83851fb69fdbb5f7b6abb39a5f6a66e518e4f19a5d2b98e0e51c7f08c5",
+    "retrieved_at": "2026-10-02T04:57:10.601204+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/statistics/paymentsystems/apr/3/BC_POS_ATM_TURNOVER%20ENG%2001.04.18.xls",
+    "response_url": "https://cbu.uz/upload/statistics/paymentsystems/apr/3/BC_POS_ATM_TURNOVER%20ENG%2001.04.18.xls",
+    "retrieved_at": "2026-10-02T07:08:25.145633+00:00",
+    "http_status": 404,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/pos_turnover/20261002T070825145633Z_dbe3af765f5e.html",
+    "checksum": "dd0527da873a1f1a0a0c1f32af0f64c10e77ecfac54439ec79268d20ce055244"
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/71782/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045713803932Z_bc5aea213a9c4505bbcf22428f9726df.payload",
+    "checksum": "eb617f733ed52bbde3f448e6979e6884cf0a13eec77224af18a9d6ab12ecdb90",
+    "retrieved_at": "2026-10-02T04:57:13.803932+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/statistics/paymentsystems/may/3/BC_POS_ATM_TURNOVER_ENG.xlsx",
+    "response_url": "https://cbu.uz/upload/statistics/paymentsystems/may/3/BC_POS_ATM_TURNOVER_ENG.xlsx",
+    "retrieved_at": "2026-10-02T07:08:27.148548+00:00",
+    "http_status": 404,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/pos_turnover/20261002T070827148548Z_d0d972557341.html",
+    "checksum": "e1887a534f74a08b1912758471670fac62c77a9d14d7a64beaf1632f16e968f7"
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/71786/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045716367567Z_e4eebb33e84b4abd9b0d5c1ee0e3df32.payload",
+    "checksum": "e439bdb0a870b47669e48e71d1cce7a5de2341c4b94ba1517ec22968c2816b19",
+    "retrieved_at": "2026-10-02T04:57:16.367567+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/statistics/paymentsystems/jun/3/BC_POS_ATM_TURNOVER_\u0435\u043d\u0433.xlsx",
+    "response_url": "https://cbu.uz/upload/statistics/paymentsystems/jun/3/BC_POS_ATM_TURNOVER_%D0%B5%D0%BD%D0%B3.xlsx",
+    "retrieved_at": "2026-10-02T07:08:29.146277+00:00",
+    "http_status": 404,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/pos_turnover/20261002T070829146277Z_1ae0bddf6831.html",
+    "checksum": "3d993586ab90b6592d48f33e0341184655d00541408e77c8a8ac19823302926f"
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/71790/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045719163426Z_a502d66ab6464baabe01fec8cdddac87.payload",
+    "checksum": "3e531e1b544fc3dc00ab7cdca511419e9605e849f73846d508ea36d5411f3ae2",
+    "retrieved_at": "2026-10-02T04:57:19.163426+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/statistics/paymentsystems/july/BC_POS_ATM_TURNOVER_eng.xls",
+    "response_url": "https://cbu.uz/upload/statistics/paymentsystems/july/BC_POS_ATM_TURNOVER_eng.xls",
+    "retrieved_at": "2026-10-02T07:08:32.663997+00:00",
+    "http_status": 404,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/pos_turnover/20261002T070832663997Z_d30f2318817f.html",
+    "checksum": "f129a79d6da86aff1c7866f27d82dbb9894cd7b305cedff3604420f8767e945a"
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/71794/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045721525342Z_d30fc98b619c464097046938d696947a.payload",
+    "checksum": "2997e5a9910e4f29042ef86305e4be9edcdd3bf556b0ed607366ddd079b380c5",
+    "retrieved_at": "2026-10-02T04:57:21.525342+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/statistics/paymentsystems/aug/BC_POS_ATM_TURNOVER%2001.08_eng.xls",
+    "response_url": "https://cbu.uz/upload/statistics/paymentsystems/aug/BC_POS_ATM_TURNOVER%2001.08_eng.xls",
+    "retrieved_at": "2026-10-02T07:08:35.862658+00:00",
+    "http_status": 404,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/pos_turnover/20261002T070835862658Z_e92011db13a4.html",
+    "checksum": "9a0a078278d0bf05b8dbcf8956e4d8fe2928ec910bc2daab6fb39f3987a4e0fe"
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/71798/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045723203755Z_196f33993b064570bf10a7c0a0f02d3a.payload",
+    "checksum": "f5538967ab1e96c5744adee370ace78016e5e67bd2e226adaf95138da90a5ea5",
+    "retrieved_at": "2026-10-02T04:57:23.203755+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/statistics/paymentsystems/oct/BC_POS_ATM_TURNOVER%2001.10_eng.xls",
+    "response_url": "https://cbu.uz/upload/statistics/paymentsystems/oct/BC_POS_ATM_TURNOVER%2001.10_eng.xls",
+    "retrieved_at": "2026-10-02T07:08:38.424624+00:00",
+    "http_status": 404,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/pos_turnover/20261002T070838424624Z_a9e3a2411eeb.html",
+    "checksum": "6b8fa8aef33a830ed7ff18d64ee92038048846b13353c09c4ac60eab8f0ec3e4"
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/paysistem/71802/",
+    "raw_file_path": "data/raw/cbu/pos_turnover/20261002T045725542681Z_9e9594ff1df042f9969dd8745591b5a6.payload",
+    "checksum": "33be73763a28ca43bebc1284fecf51e97945952ff80eb76fc720fb3bc267ea10",
+    "retrieved_at": "2026-10-02T04:57:25.541680+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://cbu.uz/upload/statistics/paymentsystems/nov/BC_POS_ATM_TURNOVER%2001.11.xls",
+    "response_url": "https://cbu.uz/upload/statistics/paymentsystems/nov/BC_POS_ATM_TURNOVER%2001.11.xls",
+    "retrieved_at": "2026-10-02T07:08:41.015058+00:00",
+    "http_status": 404,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/pos_turnover/20261002T070841015058Z_8bca1f35b983.html",
+    "checksum": "993bcc7ab4c92021b8e87b220e7c7780452c2695ef6144360ca6f2f226c505e6"
+  },
+  {
+    "source_url": "https://api.siat.stat.uz/sdmx/2699/table/download/?download_format=json",
+    "raw_file_path": "data/raw/siat/retail_trade/20261002T050544009575Z_8566847613a345fa9a98c4a6dc49785a.payload",
+    "checksum": "24b388e0d6f7310c5c746cbee6fab7937b4b0ddb9b71ca5c638d1b047db5fc10",
+    "retrieved_at": "2026-10-02T05:05:44.009575+00:00",
+    "http_status": 200,
+    "content_type": "application/json",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_2699.json",
+    "raw_file_path": "data/raw/siat/retail_trade/20261002T050544240885Z_0fa7112034de446f9088d0543490efa3.payload",
+    "checksum": "656b43c71a2d74ebfcad261cc31b0e10c37a5eb2a4c94b020e4d32f8b2020c4f",
+    "retrieved_at": "2026-10-02T05:05:44.240885+00:00",
+    "http_status": 200,
+    "content_type": "application/json",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://siat.stat.uz/data/1162/?lang=en",
+    "response_url": "https://siat.stat.uz/data/1162/?lang=en",
+    "retrieved_at": "2026-10-02T07:08:42.394094+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/siat_1162/20261002T070842394094Z_59d5ff3df6e3.html",
+    "checksum": "24f751955e2cb87bd5adfeceabe7a41e29e09888de0cf6aff9ebdec65955a121"
+  },
+  {
+    "source_url": "https://api.siat.stat.uz/sdmx/1162/table/download/?download_format=json",
+    "raw_file_path": "data/raw/siat/imports_total/20261002T050548481517Z_4ac5795a5ddb42d4ac87a622be5496a7.payload",
+    "checksum": "98df021efe035f0eaa163c3c96ea61862c1a17352dee59ba69a96c8f314f7169",
+    "retrieved_at": "2026-10-02T05:05:48.481517+00:00",
+    "http_status": 200,
+    "content_type": "application/json",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1162.json",
+    "raw_file_path": "data/raw/siat/imports_total/20261002T050548728512Z_e84743e0f00c48c5880dd882a99cb92f.payload",
+    "checksum": "6c4ec167fa3b14c98de62c35ac606834f1c82e30d89c9239fafbafc7f445b815",
+    "retrieved_at": "2026-10-02T05:05:48.728512+00:00",
+    "http_status": 200,
+    "content_type": "application/json",
+    "reused_existing_raw": true
+  },
+  {
+    "source_url": "https://siat.stat.uz/data/3082/?lang=en",
+    "response_url": "https://siat.stat.uz/data/3082/?lang=en",
+    "retrieved_at": "2026-10-02T07:08:43.776287+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/siat_3082/20261002T070843776287Z_557459022332.html",
+    "checksum": "96382b9375d5807a1862dfacb1ea2b6b00567e0b886a513997c385462579d00a"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/prom-iyul-2018-en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/prom-iyul-2018-en.pdf",
+    "retrieved_at": "2026-10-02T07:09:42.544082+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/industrial_production/20261002T070942544082Z_8dfd9dadc8f3.pdf",
+    "checksum": "c128ff8b60341798b8a322bd839e13f6a8050c7b05c27de4d718d4d4b57047b5"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/prom-yan-iyun-18-en1.pdf",
+    "response_url": "https://stat.uz/uploads/docs/prom-yan-iyun-18-en1.pdf",
+    "retrieved_at": "2026-10-02T07:09:45.154823+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/industrial_production/20261002T070945154823Z_dbbaa8762fd3.pdf",
+    "checksum": "8b267bf6727230e48b246ce01ff223bab28ede357dca9ad476028856d4c92293"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/prom-yan-may-18-en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/prom-yan-may-18-en.pdf",
+    "retrieved_at": "2026-10-02T07:09:47.273865+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/industrial_production/20261002T070947273865Z_e43f8d4fede7.pdf",
+    "checksum": "90eba81dfb980187d2cefd79ba861db183fcf5851e3b9b4d16541569231be227"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/sanoat-aprel-2018-en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/sanoat-aprel-2018-en.pdf",
+    "retrieved_at": "2026-10-02T07:09:49.342196+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/industrial_production/20261002T070949342196Z_1e77a5f22227.pdf",
+    "checksum": "fb0b428a0b218a88a7085f84959e6440381a701283427838ec85e6baceb5bfb6"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/prom-yan-mart-2018-en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/prom-yan-mart-2018-en.pdf",
+    "retrieved_at": "2026-10-02T07:09:50.881510+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/industrial_production/20261002T070950881510Z_4b7c394b0310.pdf",
+    "checksum": "ce5a23a9e153dfbfa99f8d6ce910d49cf15f0eaf423ed5774b32f6ae2e1af0f6"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/analitika-yan-fev-18-en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/analitika-yan-fev-18-en.pdf",
+    "retrieved_at": "2026-10-02T07:09:53.346887+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/industrial_production/20261002T070953346887Z_eda7aa4cf2c2.pdf",
+    "checksum": "1e2d938f3bb08f5168d8661396ca3927cc7b9694b5c737067002e565beec09c2"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/Analitika-za-yanvar2018-en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/Analitika-za-yanvar2018-en.pdf",
+    "retrieved_at": "2026-10-02T07:09:55.544082+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/industrial_production/20261002T070955544082Z_639fc0f9f2cd.pdf",
+    "checksum": "219483b25b41521f69a8b6b2617f9d8abe139b4d8ba31cda3a126d58cb851a0a"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/stroy-yan-dek-2018-en-.pdf",
+    "response_url": "https://stat.uz/uploads/docs/stroy-yan-dek-2018-en-.pdf",
+    "retrieved_at": "2026-10-02T07:09:57.553702+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/construction/20261002T070957553702Z_5fd662dfcc8d.pdf",
+    "checksum": "0b4523d950b045ab9f9dbc975bdc286cde4a3bc9e1254dd9d8e2fd83b686624a"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/qurilish-yan-noy18-en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/qurilish-yan-noy18-en.pdf",
+    "retrieved_at": "2026-10-02T07:09:58.967903+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/construction/20261002T070958967903Z_4451aa735bf8.pdf",
+    "checksum": "0a029c1b32045fa0d910970f1b67fce5e951c5543ec3bc881a355d48d8ca275c"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/qurilish-noy18-en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/qurilish-noy18-en.pdf",
+    "retrieved_at": "2026-10-02T07:10:00.994780+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/construction/20261002T071000994780Z_09997729a03a.pdf",
+    "checksum": "1277a8afaf0b5b554edee08d13a1103774a1dda89c13d3cb774454e2e04fa2b8"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/invest-sen-18en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/invest-sen-18en.pdf",
+    "retrieved_at": "2026-10-02T07:10:03.061564+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/construction/20261002T071003061564Z_f7c3c9f6dec0.pdf",
+    "checksum": "e44885145dad1af2003074eac64bd6a58c4284ed3c335daeb71b87b9640505ed"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/stroy_avgust_2018_en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/stroy_avgust_2018_en.pdf",
+    "retrieved_at": "2026-10-02T07:10:05.463775+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/construction/20261002T071005463775Z_a22d4791c0e2.pdf",
+    "checksum": "bfa6e5e04e447b3ed5acd7c4f94a8353474925890cf7ab0d396a492d10cd3270"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/stroy_iyul_2018_en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/stroy_iyul_2018_en.pdf",
+    "retrieved_at": "2026-10-02T07:10:07.490802+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/construction/20261002T071007490802Z_d54880158d40.pdf",
+    "checksum": "93e13306bce143cc78ae2cd2067b7f83c4fba468da471f16a4e2addf27420e22"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/iyun_qurilish_2018_en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/iyun_qurilish_2018_en.pdf",
+    "retrieved_at": "2026-10-02T07:10:14.806387+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/construction/20261002T071014806387Z_2bd330c72d65.pdf",
+    "checksum": "9c71c7313ff42a77c22876ce0abc6f86f9efff0e1256594c0bc97e94159e035d"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/qurilish-aprel-2018-en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/qurilish-aprel-2018-en.pdf",
+    "retrieved_at": "2026-10-02T07:10:20.988871+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/construction/20261002T071020988871Z_d532dfb67383.pdf",
+    "checksum": "f829ffc72e3c3a46e1a6481fa6279942357ed9a176370e9deee87145c5985566"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/qurilish-yan-mart-en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/qurilish-yan-mart-en.pdf",
+    "retrieved_at": "2026-10-02T07:10:23.610627+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/construction/20261002T071023610627Z_0a775aacce79.pdf",
+    "checksum": "e0ac27fd46d15a51280c0ec73c71eb82a65fb6b3a06ef98c8932ffd16acee95c"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/qurilish-fevral-18-en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/qurilish-fevral-18-en.pdf",
+    "retrieved_at": "2026-10-02T07:10:24.961296+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/construction/20261002T071024961296Z_ec555d2e4f6b.pdf",
+    "checksum": "6f9aab674331ddb63724a27f5f0a797bfb03c1b7740c0279745861b8f15039b6"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/qurilish-yan-2018-en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/qurilish-yan-2018-en.pdf",
+    "retrieved_at": "2026-10-02T07:10:26.624502+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/construction/20261002T071026624502Z_ebaefa7cea14.pdf",
+    "checksum": "38f2453c95eb84b9053724b571b5394fc56a5b3d0d309f9d77ace4280dd3cd8b"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/ves-yan-dek18-en2.pdf",
+    "response_url": "https://stat.uz/uploads/docs/ves-yan-dek18-en2.pdf",
+    "retrieved_at": "2026-10-02T07:10:28.022221+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T071028022221Z_56d8b71da8db.pdf",
+    "checksum": "ce38ea9e2e9d3aafc70fd61366f28987b9fef05689d3911714289447369a42d1"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/ichki_dekabr_2019_en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/ichki_dekabr_2019_en.pdf",
+    "retrieved_at": "2026-10-02T07:10:32.040093+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/retail_trade/20261002T071032040093Z_f389006814c2.pdf",
+    "checksum": "4fa647fc99ed32c1a649c7f87d12c59c0226c8d876631c9209b95d46abfd49e7"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/torg-noy-2018-en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/torg-noy-2018-en.pdf",
+    "retrieved_at": "2026-10-02T07:10:34.361812+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/retail_trade/20261002T071034361812Z_b27bee790292.pdf",
+    "checksum": "f09a61d4ef2c3c5d09f563558e4415268d7f779c63004e35e0a45e8e35e95d98"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/ves-noy-2018-en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/ves-noy-2018-en.pdf",
+    "retrieved_at": "2026-10-02T07:10:36.246573+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T071036246573Z_1d8e469b7908.pdf",
+    "checksum": "6a1da7fad7bed0d4c812632edd9ae5f8e497e695f21766b841c42abcadcc6481"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/torg-okt-2018-en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/torg-okt-2018-en.pdf",
+    "retrieved_at": "2026-10-02T07:10:39.245942+00:00",
+    "http_status": 404,
+    "content_type": "text/html",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/retail_trade/20261002T071039245942Z_75982e26867e.html",
+    "checksum": "55f7d9e99b8e2d4e0e193b2f0275501e6d9c1ebd29cadbea6a0da48a8587e3e0"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/ves-okt-2018-en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/ves-okt-2018-en.pdf",
+    "retrieved_at": "2026-10-02T07:10:40.343938+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T071040343938Z_da76eadb0091.pdf",
+    "checksum": "8e25ec7f15f3ca261b231da8b870489c4f52e063a35936dbb6d3d95ab0c22d8a"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/ichki-savdo-sen-18en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/ichki-savdo-sen-18en.pdf",
+    "retrieved_at": "2026-10-02T07:10:43.059344+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/retail_trade/20261002T071043059344Z_1d1b2c55cf41.pdf",
+    "checksum": "0d7f1f6bb9d00c51e7d1ece833ec1831353804b74f81c4a4c487c74d227108dd"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/tashqi-savdo-sen-18en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/tashqi-savdo-sen-18en.pdf",
+    "retrieved_at": "2026-10-02T07:10:44.992923+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T071044992923Z_1b6f101828e2.pdf",
+    "checksum": "bd592752d6f62851e9563c62313c3e922f206ac11cfa7e2c237e5b1e8f3a429d"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/ichki-savdo-yan-avg-2018-en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/ichki-savdo-yan-avg-2018-en.pdf",
+    "retrieved_at": "2026-10-02T07:10:47.266131+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/retail_trade/20261002T071047266131Z_eacab3b66e0e.pdf",
+    "checksum": "c676f0958c5663dfb11a84451d19da7ee555a797260b897ab36028ff1ecf96cb"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/Tashqi_sav_avg-18-en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/Tashqi_sav_avg-18-en.pdf",
+    "retrieved_at": "2026-10-02T07:10:48.789855+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T071048789855Z_45a5f4d969d4.pdf",
+    "checksum": "820240bdb2f861c41146c46110923152c3cf4ecea4398007429b987e881dc1b8"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/savdo_iyul_2018_en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/savdo_iyul_2018_en.pdf",
+    "retrieved_at": "2026-10-02T07:10:50.907827+00:00",
+    "http_status": 404,
+    "content_type": "text/html",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/retail_trade/20261002T071050907827Z_be06cef2198b.html",
+    "checksum": "55f7d9e99b8e2d4e0e193b2f0275501e6d9c1ebd29cadbea6a0da48a8587e3e0"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/tashqi-savdo-2018-iyul-en-last1.pdf",
+    "response_url": "https://stat.uz/uploads/docs/tashqi-savdo-2018-iyul-en-last1.pdf",
+    "retrieved_at": "2026-10-02T07:10:51.876693+00:00",
+    "http_status": 404,
+    "content_type": "text/html",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T071051876693Z_ba29682b88bd.html",
+    "checksum": "55f7d9e99b8e2d4e0e193b2f0275501e6d9c1ebd29cadbea6a0da48a8587e3e0"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/ishki-savdo-iyun-2018-en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/ishki-savdo-iyun-2018-en.pdf",
+    "retrieved_at": "2026-10-02T07:10:52.775098+00:00",
+    "http_status": 404,
+    "content_type": "text/html",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/retail_trade/20261002T071052775098Z_4b367bd7e403.html",
+    "checksum": "55f7d9e99b8e2d4e0e193b2f0275501e6d9c1ebd29cadbea6a0da48a8587e3e0"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/tashqi-savdo-iyun-2018-en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/tashqi-savdo-iyun-2018-en.pdf",
+    "retrieved_at": "2026-10-02T07:10:53.810753+00:00",
+    "http_status": 404,
+    "content_type": "text/html",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T071053810753Z_017358f0957e.html",
+    "checksum": "55f7d9e99b8e2d4e0e193b2f0275501e6d9c1ebd29cadbea6a0da48a8587e3e0"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/ichki_savdo_yanvar_may_2018_en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/ichki_savdo_yanvar_may_2018_en.pdf",
+    "retrieved_at": "2026-10-02T07:10:54.706603+00:00",
+    "http_status": 404,
+    "content_type": "text/html",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/retail_trade/20261002T071054706603Z_e9064452a87f.html",
+    "checksum": "55f7d9e99b8e2d4e0e193b2f0275501e6d9c1ebd29cadbea6a0da48a8587e3e0"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/tashqi_savdo_yanvar_mart_2018_en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/tashqi_savdo_yanvar_mart_2018_en.pdf",
+    "retrieved_at": "2026-10-02T07:10:55.601513+00:00",
+    "http_status": 404,
+    "content_type": "text/html",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T071055601513Z_265eed7c08c9.html",
+    "checksum": "55f7d9e99b8e2d4e0e193b2f0275501e6d9c1ebd29cadbea6a0da48a8587e3e0"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/tashqi-savdo-yan-aprel-2018-en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/tashqi-savdo-yan-aprel-2018-en.pdf",
+    "retrieved_at": "2026-10-02T07:10:56.619640+00:00",
+    "http_status": 404,
+    "content_type": "text/html",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T071056619640Z_4c4960da7923.html",
+    "checksum": "55f7d9e99b8e2d4e0e193b2f0275501e6d9c1ebd29cadbea6a0da48a8587e3e0"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/ichki-savdo-yan-aprel-2018-en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/ichki-savdo-yan-aprel-2018-en.pdf",
+    "retrieved_at": "2026-10-02T07:10:57.547095+00:00",
+    "http_status": 404,
+    "content_type": "text/html",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/retail_trade/20261002T071057547095Z_358772d1ca24.html",
+    "checksum": "55f7d9e99b8e2d4e0e193b2f0275501e6d9c1ebd29cadbea6a0da48a8587e3e0"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/tashqi-savdo-yan-mart-en1.pdf",
+    "response_url": "https://stat.uz/uploads/docs/tashqi-savdo-yan-mart-en1.pdf",
+    "retrieved_at": "2026-10-02T07:10:58.488801+00:00",
+    "http_status": 404,
+    "content_type": "text/html",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T071058488801Z_f9e1afcc0797.html",
+    "checksum": "55f7d9e99b8e2d4e0e193b2f0275501e6d9c1ebd29cadbea6a0da48a8587e3e0"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/ichki-savdo-yan-mart-en1.pdf",
+    "response_url": "https://stat.uz/uploads/docs/ichki-savdo-yan-mart-en1.pdf",
+    "retrieved_at": "2026-10-02T07:10:59.389224+00:00",
+    "http_status": 404,
+    "content_type": "text/html",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/retail_trade/20261002T071059389224Z_187926e071c3.html",
+    "checksum": "55f7d9e99b8e2d4e0e193b2f0275501e6d9c1ebd29cadbea6a0da48a8587e3e0"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/ichki-savdo-pres-2018-en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/ichki-savdo-pres-2018-en.pdf",
+    "retrieved_at": "2026-10-02T07:11:00.344825+00:00",
+    "http_status": 404,
+    "content_type": "text/html",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/retail_trade/20261002T071100344825Z_327ca5f99777.html",
+    "checksum": "55f7d9e99b8e2d4e0e193b2f0275501e6d9c1ebd29cadbea6a0da48a8587e3e0"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/tashqi-savdo-pres-2018-en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/tashqi-savdo-pres-2018-en.pdf",
+    "retrieved_at": "2026-10-02T07:11:01.304892+00:00",
+    "http_status": 404,
+    "content_type": "text/html",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T071101304892Z_66987f329ce1.html",
+    "checksum": "55f7d9e99b8e2d4e0e193b2f0275501e6d9c1ebd29cadbea6a0da48a8587e3e0"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/Ichki-savdo-yan-en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/Ichki-savdo-yan-en.pdf",
+    "retrieved_at": "2026-10-02T07:11:02.259130+00:00",
+    "http_status": 404,
+    "content_type": "text/html",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/retail_trade/20261002T071102259130Z_b6096560cb34.html",
+    "checksum": "55f7d9e99b8e2d4e0e193b2f0275501e6d9c1ebd29cadbea6a0da48a8587e3e0"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/Tashqi-savdo-yan-en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/Tashqi-savdo-yan-en.pdf",
+    "retrieved_at": "2026-10-02T07:11:03.182689+00:00",
+    "http_status": 404,
+    "content_type": "text/html",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T071103182689Z_1807a9a5006d.html",
+    "checksum": "55f7d9e99b8e2d4e0e193b2f0275501e6d9c1ebd29cadbea6a0da48a8587e3e0"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/qurilish_dekabr_en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/qurilish_dekabr_en.pdf",
+    "retrieved_at": "2026-10-02T07:11:04.814532+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/construction/20261002T071104814532Z_188861f3a15d.pdf",
+    "checksum": "c7a65051534980c3071e1479d3c9dd8da388c36b77eb4bb2c1a878b0371a9714"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/qurilish_eng_20.11.2019.pdf",
+    "response_url": "https://stat.uz/uploads/docs/qurilish_eng_20.11.2019.pdf",
+    "retrieved_at": "2026-10-02T07:11:06.865238+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/construction/20261002T071106865238Z_9e7b7789bdc4.pdf",
+    "checksum": "2d0bf3988c86c20093fcccbab2211b3631e307dc1a64920095271a680e361dc2"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/qurilish_eng_21.10.2019.pdf",
+    "response_url": "https://stat.uz/uploads/docs/qurilish_eng_21.10.2019.pdf",
+    "retrieved_at": "2026-10-02T07:11:08.897510+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/construction/20261002T071108897510Z_04c0eae3917c.pdf",
+    "checksum": "f70f7382e904f77a1775acac36af19c1ba76e0598c5dde57a4380c62673379cd"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/pressqurilisheng_1111-02.10.2019.pdf",
+    "response_url": "https://stat.uz/uploads/docs/pressqurilisheng_1111-02.10.2019.pdf",
+    "retrieved_at": "2026-10-02T07:11:10.935559+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/construction/20261002T071110935559Z_5d098d4eac15.pdf",
+    "checksum": "8d358d98991a326571710b3bf5412fab9edaba85f443be6a6b30caa305eff70f"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/Stroitelstvo_pressreliz(eng)07.pdf",
+    "response_url": "https://stat.uz/uploads/docs/Stroitelstvo_pressreliz(eng)07.pdf",
+    "retrieved_at": "2026-10-02T07:11:13.007564+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/construction/20261002T071113007564Z_b6decfb0d7b8.pdf",
+    "checksum": "29a78788be43e40253daebf44080e5c02a05d314899ec71464de370e6b91c2d5"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/qurilish_eng_23.07.2019.pdf",
+    "response_url": "https://stat.uz/uploads/docs/qurilish_eng_23.07.2019.pdf",
+    "retrieved_at": "2026-10-02T07:11:15.441948+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/construction/20261002T071115441948Z_14c21d0c2c53.pdf",
+    "checksum": "0e6a57ef055e09ac88412b4236f0afd7dbc264168920eda4a24aa04e48ef4a2d"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/qurilish_eng.pdf",
+    "response_url": "https://stat.uz/uploads/docs/qurilish_eng.pdf",
+    "retrieved_at": "2026-10-02T07:11:17.607805+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/construction/20261002T071117607805Z_48c366d39185.pdf",
+    "checksum": "a10cad4266a27c6e972434fbfefecdfc68f2691df78b94c15999e33d0ceae0f6"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/aprel_stroy_2019_en223.pdf",
+    "response_url": "https://stat.uz/uploads/docs/aprel_stroy_2019_en223.pdf",
+    "retrieved_at": "2026-10-02T07:11:19.130274+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/construction/20261002T071119130274Z_cd100e2781c8.pdf",
+    "checksum": "cd210ee526c3f426a997ffefe0a3ad458aa682e44366aa66e04bb7e2c6c194f3"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/stroy_mart_2019_en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/stroy_mart_2019_en.pdf",
+    "retrieved_at": "2026-10-02T07:11:21.552341+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/construction/20261002T071121552341Z_25e1f1612874.pdf",
+    "checksum": "5d4866a804678963d3ba2da5f528e76bbf5b8aa1b59f790d251f17d705fcc4c1"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/stroy_fevral_en_2019.pdf",
+    "response_url": "https://stat.uz/uploads/docs/stroy_fevral_en_2019.pdf",
+    "retrieved_at": "2026-10-02T07:11:28.611442+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/construction/20261002T071128611442Z_bf506d1817a5.pdf",
+    "checksum": "07905aeeca6d500d7b05c03823596cf1c330cdd07f09467dd09bf61b4681f5c6"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/stroy_yan_2019_en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/stroy_yan_2019_en.pdf",
+    "retrieved_at": "2026-10-02T07:11:30.384386+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/construction/20261002T071130384386Z_80af39e356c3.pdf",
+    "checksum": "f7843af86c164128470fc9f697b649e435272570225b4eb1d94c2261d46ffa76"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/xizmatlar_dekabr_en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/xizmatlar_dekabr_en.pdf",
+    "retrieved_at": "2026-10-02T07:11:32.268963+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T071132268963Z_634c4640f149.pdf",
+    "checksum": "c3c211ed424aa4fc1c888677245ac38bbc85c8365aa35db8064ab134ccf1c120"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/xizmatlar_nayabr_eng.pdf",
+    "response_url": "https://stat.uz/uploads/docs/xizmatlar_nayabr_eng.pdf",
+    "retrieved_at": "2026-10-02T07:11:34.881694+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T071134881694Z_0a2f62a4f3ef.pdf",
+    "checksum": "ca99091a496d19e3669da7b56e20eafe3ea6f633dfb55cde24e959c0ac3663fa"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/uslugi_18.11.2019_en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/uslugi_18.11.2019_en.pdf",
+    "retrieved_at": "2026-10-02T07:11:37.259671+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T071137259671Z_899fbf896286.pdf",
+    "checksum": "4945f59eaecbf59e937384b9cab71a8b913bf6898e657db1e194eb8b3be54aee"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/xizmatlar_eng_21.10.2019.pdf",
+    "response_url": "https://stat.uz/uploads/docs/xizmatlar_eng_21.10.2019.pdf",
+    "retrieved_at": "2026-10-02T07:11:40.679678+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T071140679678Z_a209dd9055ee.pdf",
+    "checksum": "c83ecdb19db749182be840f80c6bc1523088b172ff3a2137c812ee4911573889"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/uslugi-02.10.2019 press-reliz.pdf",
+    "response_url": "https://stat.uz/uploads/docs/uslugi-02.10.2019%20press-reliz.pdf",
+    "retrieved_at": "2026-10-02T07:11:43.637391+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T071143637391Z_1b7db2a05825.pdf",
+    "checksum": "4ca64df610cfb7c18e4bcec469704457d2e9347b8aa7ef2054d75f48e6e969e6"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/xizmatlar_press_eng.pdf",
+    "response_url": "https://stat.uz/uploads/docs/xizmatlar_press_eng.pdf",
+    "retrieved_at": "2026-10-02T07:11:46.441562+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T071146441562Z_89ff077e8d3c.pdf",
+    "checksum": "c5cd8fd0d84b4f89849906093d5e7fceff19c99538b47937ef70bc0feba0b61d"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/uslugi_20.7.2019 (eng).pdf",
+    "response_url": "https://stat.uz/uploads/docs/uslugi_20.7.2019%20(eng).pdf",
+    "retrieved_at": "2026-10-02T07:11:48.595589+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T071148595589Z_f8511e564f87.pdf",
+    "checksum": "86d9ba01a39a300800d58310905994289247e3ae023132333946394b2f1aaf4c"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/xizmatlar_sohasi_eng_19.06.2019.pdf",
+    "response_url": "https://stat.uz/uploads/docs/xizmatlar_sohasi_eng_19.06.2019.pdf",
+    "retrieved_at": "2026-10-02T07:11:51.119665+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T071151119665Z_b02ae34e9196.pdf",
+    "checksum": "d5500bf94004acf79c75e0d9819971442d3546e6b11abdd7682b70408d65fd7b"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/xizmat_aprel_2019_en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/xizmat_aprel_2019_en.pdf",
+    "retrieved_at": "2026-10-02T07:11:53.491409+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T071153491409Z_8d0fae93e1e5.pdf",
+    "checksum": "a5b35505dd662b94e6d1010735f77fbaf7991f5ece152a6afd77d60b06e8f064"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/\u0423\u0441\u043b\u0443\u0433\u0438 \u0437\u0430 \u043c\u0430\u0440\u0442 2019 _\u0438\u043d\u0433 18.04.19_ +.pdf",
+    "response_url": "https://stat.uz/uploads/docs/%D0%A3%D1%81%D0%BB%D1%83%D0%B3%D0%B8%20%D0%B7%D0%B0%20%D0%BC%D0%B0%D1%80%D1%82%202019%20_%D0%B8%D0%BD%D0%B3%2018.04.19_%20+.pdf",
+    "retrieved_at": "2026-10-02T07:11:56.472483+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T071156472483Z_7f3a457dab77.pdf",
+    "checksum": "b1fe2818b3a9a37d7aa58c0eea06837134718855a4755cd1fb28589590528b3e"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/\u0423\u0441\u043b\u0443\u0433\u0438 \u0437\u0430 \u0444\u0435\u0432\u0440\u0430\u043b\u044c 2019 (\u0430\u043d\u0433\u043b)+.pdf",
+    "response_url": "https://stat.uz/uploads/docs/%D0%A3%D1%81%D0%BB%D1%83%D0%B3%D0%B8%20%D0%B7%D0%B0%20%D1%84%D0%B5%D0%B2%D1%80%D0%B0%D0%BB%D1%8C%202019%20(%D0%B0%D0%BD%D0%B3%D0%BB)+.pdf",
+    "retrieved_at": "2026-10-02T07:12:01.480465+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T071201480465Z_cc9bf6c7cc30.pdf",
+    "checksum": "5f8402974ea6abc087764444501c81ed8e326162f09eed36484b6680ed240d08"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/usluga_yan_2019_en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/usluga_yan_2019_en.pdf",
+    "retrieved_at": "2026-10-02T07:12:03.633774+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T071203633774Z_9059b974079c.pdf",
+    "checksum": "0fd674a794053c5ff19300113c0c853625cc239b758307170937e33bda29ec1c"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/ichki_savdo_dekabr_en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/ichki_savdo_dekabr_en.pdf",
+    "retrieved_at": "2026-10-02T07:12:06.475832+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/retail_trade/20261002T071206475832Z_2dccca36f50a.pdf",
+    "checksum": "63acfb71fa5d123e1b373320cd2635a755390044eee7e1f78da2146279fabd68"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/tashqi_savdo_noyabr_en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/tashqi_savdo_noyabr_en.pdf",
+    "retrieved_at": "2026-10-02T07:12:09.139622+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T071209139622Z_6f1f92507108.pdf",
+    "checksum": "71223a2e5c15fe7d80da759ffc4e5ec9d2728328514e134c8b8e8dead1928e79"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/ichki_savdo_noyabr_en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/ichki_savdo_noyabr_en.pdf",
+    "retrieved_at": "2026-10-02T07:12:13.018347+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/retail_trade/20261002T071213018347Z_a7c6e1dcab23.pdf",
+    "checksum": "23e13a9eb85f213365f085b7e7994c302c83dcbd274deb115d7a35c6f065f126"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/tashqi savdo_18.11.2019_eng.pdf",
+    "response_url": "https://stat.uz/uploads/docs/tashqi%20savdo_18.11.2019_eng.pdf",
+    "retrieved_at": "2026-10-02T07:12:15.480992+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T071215480992Z_e92bb48832b0.pdf",
+    "checksum": "a8acdc78512ae002e1b74622851fa99edcaa07042fc6bba6dad1b6b1c5d6df33"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/ichki_savdo_oktabr_eng_19.11.2019.pdf",
+    "response_url": "https://stat.uz/uploads/docs/ichki_savdo_oktabr_eng_19.11.2019.pdf",
+    "retrieved_at": "2026-10-02T07:12:20.206121+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/retail_trade/20261002T071220206121Z_50e2f36c6cb8.pdf",
+    "checksum": "3e135eb5ab7350a188fa40aa37e55e0e529dc0d88e1ea9aa492b5b7653ec183f"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/tashqi_savdo_eng_21.10.2019.pdf",
+    "response_url": "https://stat.uz/uploads/docs/tashqi_savdo_eng_21.10.2019.pdf",
+    "retrieved_at": "2026-10-02T07:12:28.008598+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T071228008598Z_dc5d3ee733fb.pdf",
+    "checksum": "4f4e3636539785c410c011d4298ebebe1e65e937b7a197468632b945e1dd598b"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/ichki_savdo_eng_21.10.2019.pdf",
+    "response_url": "https://stat.uz/uploads/docs/ichki_savdo_eng_21.10.2019.pdf",
+    "retrieved_at": "2026-10-02T07:12:31.288110+00:00",
+    "http_status": 404,
+    "content_type": "text/html",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/retail_trade/20261002T071231288110Z_81d018a906aa.html",
+    "checksum": "55f7d9e99b8e2d4e0e193b2f0275501e6d9c1ebd29cadbea6a0da48a8587e3e0"
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/",
+    "response_url": "https://cbu.uz/en/statistics/",
+    "retrieved_at": "2026-10-02T07:12:33.532031+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/cbu_bulletin_index/20261002T071233532031Z_f663cce2cb6d.html",
+    "checksum": "89da052fb97140a10a3a3c66b189c38950d568b20d535ca69e8a3369efaac6b0"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/ichkisavdo_press_eng.pdf",
+    "response_url": "https://stat.uz/uploads/docs/ichkisavdo_press_eng.pdf",
+    "retrieved_at": "2026-10-02T07:12:35.981980+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/retail_trade/20261002T071235981980Z_5c9899ccdd7a.pdf",
+    "checksum": "fb64db6600b1c1afe34ff20cc809ac6bb9a9448e70b4b17cf29b83f53d20bf97"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/pres_reliz_tashqi savdo_iyul_27.08.2019.pdf",
+    "response_url": "https://stat.uz/uploads/docs/pres_reliz_tashqi%20savdo_iyul_27.08.2019.pdf",
+    "retrieved_at": "2026-10-02T07:12:39.529927+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T071239529927Z_350acb4667df.pdf",
+    "checksum": "03fe7b5329da09703d100d858819f93134b5b9d3f410baf484bdb5b6df4a2d00"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/ichki_savdo_eng_20.08.2019.pdf",
+    "response_url": "https://stat.uz/uploads/docs/ichki_savdo_eng_20.08.2019.pdf",
+    "retrieved_at": "2026-10-02T07:12:43.154037+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/retail_trade/20261002T071243154037Z_1989f34c21b1.pdf",
+    "checksum": "40ea55cf5771bb8faca92ab409e14f9b784088214d65c387bdca1c3f8a4db352"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/tashqi-savdo_iyun_eng_22.07.2019.pdf",
+    "response_url": "https://stat.uz/uploads/docs/tashqi-savdo_iyun_eng_22.07.2019.pdf",
+    "retrieved_at": "2026-10-02T07:12:46.393275+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T071246393275Z_69ebb3fceb99.pdf",
+    "checksum": "a77fc69f17ad940de8ce4069ce7b226c21cf4d299acf806c77307f4b25f61b7b"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/ichki_savdo_20.7.2109_eng.pdf",
+    "response_url": "https://stat.uz/uploads/docs/ichki_savdo_20.7.2109_eng.pdf",
+    "retrieved_at": "2026-10-02T07:12:49.276888+00:00",
+    "http_status": 404,
+    "content_type": "text/html",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/retail_trade/20261002T071249276888Z_d0c7ca088997.html",
+    "checksum": "55f7d9e99b8e2d4e0e193b2f0275501e6d9c1ebd29cadbea6a0da48a8587e3e0"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/pres_reliz_tashqi_savdo_eng_20.06.2019.pdf",
+    "response_url": "https://stat.uz/uploads/docs/pres_reliz_tashqi_savdo_eng_20.06.2019.pdf",
+    "retrieved_at": "2026-10-02T07:12:51.667038+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T071251667038Z_db39bbc512dd.pdf",
+    "checksum": "0c731feff90c4a6affe7dda69362f2ea5984a5bb507b15e02ad21954f9b22f2d"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/pres_reliz_ichki_savdo_eng_19.06.2019.pdf",
+    "response_url": "https://stat.uz/uploads/docs/pres_reliz_ichki_savdo_eng_19.06.2019.pdf",
+    "retrieved_at": "2026-10-02T07:12:54.991577+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/retail_trade/20261002T071254991577Z_afb93e4b55f1.pdf",
+    "checksum": "cac0ef904445ae4216013760b29314165dae0903d0e705db06071208f73a5bcb"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/.pdf",
+    "response_url": "https://stat.uz/uploads/docs/.pdf",
+    "retrieved_at": "2026-10-02T07:12:57.220026+00:00",
+    "http_status": 404,
+    "content_type": "text/html",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T071257220026Z_ed701428b854.html",
+    "checksum": "55f7d9e99b8e2d4e0e193b2f0275501e6d9c1ebd29cadbea6a0da48a8587e3e0"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/press_reliz_ichki savdo_aprel_eng.pdf",
+    "response_url": "https://stat.uz/uploads/docs/press_reliz_ichki%20savdo_aprel_eng.pdf",
+    "retrieved_at": "2026-10-02T07:12:58.332731+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/retail_trade/20261002T071258332731Z_6912fe624d9c.pdf",
+    "checksum": "0379230912a99d4e257bffc6ad7a58c56cd32beb0ce2e0d40e08cc3f1d28960c"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/\u041f\u0440\u0435\u0441\u0441-\u0440\u0435\u043b\u0438\u0437 \u0418\u0427\u041a\u0418 \u0421\u0410\u0412\u0414\u041e _eng_ \u043c\u0430\u0440\u0442 19.04.2019.pdf",
+    "response_url": "https://stat.uz/uploads/docs/%D0%9F%D1%80%D0%B5%D1%81%D1%81-%D1%80%D0%B5%D0%BB%D0%B8%D0%B7%20%D0%98%D0%A7%D0%9A%D0%98%20%D0%A1%D0%90%D0%92%D0%94%D0%9E%20_eng_%20%D0%BC%D0%B0%D1%80%D1%82%2019.04.2019.pdf",
+    "retrieved_at": "2026-10-02T07:13:04.525092+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/retail_trade/20261002T071304525092Z_7b8fc99265d0.pdf",
+    "checksum": "0545c021e85f545c675e1a5118e33a4355f9e33706886d321967f9ce01f8ed75"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/ves_yanvar_2019_en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/ves_yanvar_2019_en.pdf",
+    "retrieved_at": "2026-10-02T07:13:20.145101+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T071320145101Z_5f1fc8537896.pdf",
+    "checksum": "353ed371d915a4e452e0cff8342f99a887e90357a46ab48890765395c1a4d409"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/ichki_savdo_yanvar_2019_en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/ichki_savdo_yanvar_2019_en.pdf",
+    "retrieved_at": "2026-10-02T07:13:23.883300+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/retail_trade/20261002T071323883300Z_d144a946cea1.pdf",
+    "checksum": "2a19cdd8f06b48ebca47199b39ccf2c0dc49165dce9368976b70f75492e01ed7"
+  },
+  {
+    "source_url": "https://stat.uz/en/press-releases/5825-for-2020-year",
+    "response_url": "https://stat.uz/en/press-releases/5825-for-2020-year",
+    "retrieved_at": "2026-10-02T07:13:26.078425+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/stat_release_index/20261002T071326078425Z_9fa5f26fc96f.html",
+    "checksum": "72cc6098a780db577ffde136698527f5246df238a9542bbffb4c17fd6436eea3"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/docs/qurilish_yanvar_dekabr_en.pdf",
+    "response_url": "https://stat.uz/images/uploads/docs/qurilish_yanvar_dekabr_en.pdf",
+    "retrieved_at": "2026-10-02T07:13:35.044732+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/construction/20261002T071335044732Z_1d0d18b5286f.pdf",
+    "checksum": "e54d6326fe4b643e6029b5e616f98459329434d641e9ac28db1a9970f3b5ec3d"
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/buleten/4140520/",
+    "response_url": "https://cbu.uz/en/statistics/buleten/4140520/",
+    "retrieved_at": "2026-10-02T07:14:20.002962+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/cbu_bulletins/20261002T071420002962Z_4374a8387080.html",
+    "checksum": "12c45d04f31daee12929308992fa44c4b5357da52975d974ccb65aa982bbdb50"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/stroy_yanvar_oktabr_2020_en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/stroy_yanvar_oktabr_2020_en.pdf",
+    "retrieved_at": "2026-10-02T07:14:24.332421+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/construction/20261002T071424332421Z_8855202b1965.pdf",
+    "checksum": "f0b1464eaf1f330f5097c616ca43be4670160f29f85aa318e2ee9d666af323a5"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/qurilish_sentabr_en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/qurilish_sentabr_en.pdf",
+    "retrieved_at": "2026-10-02T07:14:29.572221+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/construction/20261002T071429572221Z_49aaaca5346b.pdf",
+    "checksum": "fde353d43d5c12635aeb33959c818a7927df9e510b667fa95b4bbe381f245389"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/qurilish_avg_en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/qurilish_avg_en.pdf",
+    "retrieved_at": "2026-10-02T07:14:33.342941+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/construction/20261002T071433342941Z_86236f77b155.pdf",
+    "checksum": "bc2665b416e39f0edd41b5145b8efc3fb84fcf1a3fb577c0d8be479ae266a6b4"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/qurilish_iyul_en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/qurilish_iyul_en.pdf",
+    "retrieved_at": "2026-10-02T07:14:37.132268+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/construction/20261002T071437132268Z_142459e127fe.pdf",
+    "checksum": "3694e816fcddb91fae7878d14370282bb55985dcd965ad5455ede6e099d6b304"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/qurilish_iyun_eng.pdf",
+    "response_url": "https://stat.uz/uploads/docs/qurilish_iyun_eng.pdf",
+    "retrieved_at": "2026-10-02T07:14:41.946077+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/construction/20261002T071441946077Z_a5e34180b462.pdf",
+    "checksum": "2f4a55a31dd4d3e3c0b20576246690baf72e94123cba831e46577f6d39030152"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/qurilish_may_en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/qurilish_may_en.pdf",
+    "retrieved_at": "2026-10-02T07:14:44.423974+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/construction/20261002T071444423974Z_eba9924c944a.pdf",
+    "checksum": "3640ec46bcf5bf358de680336c2ec5fdce6d034329b6f8e78d4bab5a387fc245"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/qurilish_aprel_en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/qurilish_aprel_en.pdf",
+    "retrieved_at": "2026-10-02T07:14:46.759868+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/construction/20261002T071446759868Z_a35798c3ad6e.pdf",
+    "checksum": "235c7b0cc6348bba25cb92988d1801ad0b1bc01cd1e0682915c419a1cba0b903"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/qurilish_mart_en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/qurilish_mart_en.pdf",
+    "retrieved_at": "2026-10-02T07:14:49.372330+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/construction/20261002T071449372330Z_8b428a77fada.pdf",
+    "checksum": "94a00dc6fb8eb3f8b9b1d0c2d7f243a1c761ae706eaf03a07664372ed26f9de5"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/qurilish_fevral_en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/qurilish_fevral_en.pdf",
+    "retrieved_at": "2026-10-02T07:14:55.926897+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/construction/20261002T071455926897Z_0ec844d1c749.pdf",
+    "checksum": "7fd0dacf56150a4194789c1bcb5ad9a67e4e386d003a85844b0411c2ff4c6f96"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/qurilish_en_yanvar.pdf",
+    "response_url": "https://stat.uz/uploads/docs/qurilish_en_yanvar.pdf",
+    "retrieved_at": "2026-10-02T07:14:58.094541+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/construction/20261002T071458094541Z_c5bceb9c31d3.pdf",
+    "checksum": "4f71a4e00c57ca32ca04f18601563100905820f7ff531f30a38691b5e685a7f5"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/docs/xizmatlar_sohasi_an_19012021.pdf",
+    "response_url": "https://stat.uz/images/uploads/docs/xizmatlar_sohasi_an_19012021.pdf",
+    "retrieved_at": "2026-10-02T07:15:00.424417+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T071500424417Z_483c5dc26642.pdf",
+    "checksum": "d4e0dd9c3378081f49487f226507b4b2ab9bd437f9654c1f24ab1c8d95f232a3"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/docs/xizmatlar_noyabr_en_2020.pdf",
+    "response_url": "https://stat.uz/images/uploads/docs/xizmatlar_noyabr_en_2020.pdf",
+    "retrieved_at": "2026-10-02T07:15:06.157281+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T071506157281Z_878398157162.pdf",
+    "checksum": "bbc1fcda932717d1ba565ca5c20f2192f667e38e7df3add7b5f2af69cb8ea6dc"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/xizmatlar_oktabr_en_18.11.2020.pdf",
+    "response_url": "https://stat.uz/uploads/docs/xizmatlar_oktabr_en_18.11.2020.pdf",
+    "retrieved_at": "2026-10-02T07:15:10.195454+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T071510195454Z_5db0e0b3857b.pdf",
+    "checksum": "b0020a019c17d939b4b4d6e0716cf2e8e248676663195c1fb773f78f71d1f517"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/docs/Xizmatlar_sentabr_2020_en.pdf",
+    "response_url": "https://stat.uz/images/uploads/docs/Xizmatlar_sentabr_2020_en.pdf",
+    "retrieved_at": "2026-10-02T07:15:13.614868+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T071513614868Z_2dc016b14324.pdf",
+    "checksum": "56819e6e0f15398cc6ca5c87397d45a1568b4cdf49102ca012efe8a29304e7ab"
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/5da/7t3hw2zf401bulh7xgdax66m7azqpp5z/Statistical-bulleten_01.04.2026.pdf",
+    "response_url": "https://cbu.uz/upload/medialibrary/5da/7t3hw2zf401bulh7xgdax66m7azqpp5z/Statistical-bulleten_01.04.2026.pdf",
+    "retrieved_at": "2026-10-02T07:15:19.300078+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/cbu_bulletins/20261002T071519300078Z_770401c50c77.pdf",
+    "checksum": "6960afde4b58f21ffa91cb1562b11bd04f9d19186dbb184e63dbfc1987c0f596"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/xizmatlar_en_iyul_2020.pdf",
+    "response_url": "https://stat.uz/uploads/docs/xizmatlar_en_iyul_2020.pdf",
+    "retrieved_at": "2026-10-02T07:15:21.462251+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T071521462251Z_da07bb8e743a.pdf",
+    "checksum": "f25594fce5f785b0ff63eaf1c52bdc916d59a8dfad7f2cf663e6abf1f70a0cab"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/xizmatlar_iyun_en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/xizmatlar_iyun_en.pdf",
+    "retrieved_at": "2026-10-02T07:15:25.149818+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T071525149818Z_f678fc2ad96c.pdf",
+    "checksum": "4d73146b7621d848114828ea465d63e540148fe6e401dfcdd7666f59d6f96632"
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/buleten/2156649/",
+    "response_url": "https://cbu.uz/en/statistics/buleten/2156649/",
+    "retrieved_at": "2026-10-02T07:15:29.199321+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/cbu_bulletins/20261002T071529199321Z_bab919667686.html",
+    "checksum": "f3c43b75e56d6aa85061d0f297d58dafc8b3a42653e8247fd85f51986c16af0d"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/xizmatlar_en_aprel.pdf",
+    "response_url": "https://stat.uz/uploads/docs/xizmatlar_en_aprel.pdf",
+    "retrieved_at": "2026-10-02T07:15:30.956115+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T071530956115Z_cf79ca4b0949.pdf",
+    "checksum": "e679d61a40781341894aa9b5c5289b562544923cea5db460a91e23bd485f39b2"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/xizmatlar_en_mart1.pdf",
+    "response_url": "https://stat.uz/uploads/docs/xizmatlar_en_mart1.pdf",
+    "retrieved_at": "2026-10-02T07:15:34.743519+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T071534743519Z_02278fe83a4a.pdf",
+    "checksum": "fb2ca4c65ac051ae43e6a38b7689bef3b5c4e76422941fc14e547eab3e49da4f"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/xizmatlar_en_fevral.pdf",
+    "response_url": "https://stat.uz/uploads/docs/xizmatlar_en_fevral.pdf",
+    "retrieved_at": "2026-10-02T07:15:37.328698+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T071537328698Z_cd37f3954718.pdf",
+    "checksum": "9f5f8966ff9a6d71eab33ceb34c6d2416dcc61e6a4a7c92131ebb78f6207dbfd"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/xizmatlar_en_yanvar.pdf",
+    "response_url": "https://stat.uz/uploads/docs/xizmatlar_en_yanvar.pdf",
+    "retrieved_at": "2026-10-02T07:15:39.859936+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T071539859936Z_c68d7e7c4fb5.pdf",
+    "checksum": "6d0e0ecedfa5457d8d41dde0cb22367655f1d566b369592945b45f1a1d800a0f"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/docs/tashqi_savdo_en_21012021.pdf",
+    "response_url": "https://stat.uz/images/uploads/docs/tashqi_savdo_en_21012021.pdf",
+    "retrieved_at": "2026-10-02T07:15:42.683391+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T071542683391Z_2670df0c55e0.pdf",
+    "checksum": "ca685adbc028ac42262cef4e3d71d4939f0025a5d49e6c96edd8d26839f9ae22"
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/buleten/1589798/",
+    "response_url": "https://cbu.uz/en/statistics/buleten/1589798/",
+    "retrieved_at": "2026-10-02T07:15:49.021235+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/cbu_bulletins/20261002T071549021235Z_821990c05bed.html",
+    "checksum": "05c8e761c4e3e711a705537bccd78aaee898a45100c71416eb993e42a47d35b5"
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/6c5/r4mfaursxaesmariup8yewg1calb1c7v/Statistical-bulletin-of-CBU-_-2023.pdf",
+    "response_url": "https://cbu.uz/upload/medialibrary/6c5/r4mfaursxaesmariup8yewg1calb1c7v/Statistical-bulletin-of-CBU-_-2023.pdf",
+    "retrieved_at": "2026-10-02T07:16:04.171792+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/cbu_bulletins/20261002T071604171792Z_8b682faac49f.pdf",
+    "checksum": "36359014f16bd1e6e50b9e2a8f2117149346632f98e7c50634f8a04e9bc080ba"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/docs/tashqi_savdo_noyabr_en_2020.pdf",
+    "response_url": "https://stat.uz/images/uploads/docs/tashqi_savdo_noyabr_en_2020.pdf",
+    "retrieved_at": "2026-10-02T07:16:11.913488+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T071611913488Z_0f84c3e15f40.pdf",
+    "checksum": "210c8a322722ea143fdd89a58ebfbb9b1b42e3b58b4191e966ab6e2724e42ad8"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/docs/ichki_savdo_en_noyabr_2020.pdf",
+    "response_url": "https://stat.uz/images/uploads/docs/ichki_savdo_en_noyabr_2020.pdf",
+    "retrieved_at": "2026-10-02T07:16:21.373080+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/retail_trade/20261002T071621373080Z_e935aa5233a2.pdf",
+    "checksum": "8dec6c30c522d6008894fa781b4d8dafac7f3b14a462777a900273b70fa417f2"
+  },
+  {
+    "source_url": "https://stat.uz/files/298/pdf/1159/20112020.pdf",
+    "response_url": "https://stat.uz/uz/?option=com_dropfiles&format=&task=frontfile.download&catid=298&id=1159&Itemid=1000000000000",
+    "retrieved_at": "2026-10-02T07:16:26.159389+00:00",
+    "http_status": 200,
+    "content_type": "application/octet-stream",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T071626159389Z_1577187af40b.pdf",
+    "checksum": "344b1c7bc8af13a3944d5641d4f7b0273c0191a42217770847ca893b5fb3c227"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/tashqi_savdo_en_sentabr_2020.pdf",
+    "response_url": "https://stat.uz/uploads/docs/tashqi_savdo_en_sentabr_2020.pdf",
+    "retrieved_at": "2026-10-02T07:16:30.448112+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T071630448112Z_02fc4ef05c55.pdf",
+    "checksum": "a683073af2ae734ddc41171bd1cfffb1285b02809004e59ac2e39e289363e440"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/ichki_savdo_en_sentabr_2020.pdf",
+    "response_url": "https://stat.uz/uploads/docs/ichki_savdo_en_sentabr_2020.pdf",
+    "retrieved_at": "2026-10-02T07:16:34.695763+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/retail_trade/20261002T071634695763Z_7eb7b73ad597.pdf",
+    "checksum": "d3769c1e809e75a116badace3709ea19d630fd83c2b86d3aa4cfe0b72b4d466a"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/tashqi_savdo_en_avg_2020.pdf",
+    "response_url": "https://stat.uz/uploads/docs/tashqi_savdo_en_avg_2020.pdf",
+    "retrieved_at": "2026-10-02T07:16:37.274874+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T071637274874Z_7dea3a21ec89.pdf",
+    "checksum": "7fb603fcb2e1977d1c0f554e0d9ad99745648eea8003748cfaaf97ba3cfe9d8d"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/ichki_savdo_en_avg_2020.pdf",
+    "response_url": "https://stat.uz/uploads/docs/ichki_savdo_en_avg_2020.pdf",
+    "retrieved_at": "2026-10-02T07:16:41.579369+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/retail_trade/20261002T071641579369Z_0412e7fa5370.pdf",
+    "checksum": "388040d170c520534dbc42ca7df4b8a40a501ba6d0e90c68daa1c9aee8546c40"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/tashqi_savdo_iyul_en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/tashqi_savdo_iyul_en.pdf",
+    "retrieved_at": "2026-10-02T07:16:44.505550+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T071644505550Z_b64fe9f5abb2.pdf",
+    "checksum": "f2c22aa1e5dc92a3eb6b20d9a9de735381cc8585a22e2cad79807e6c4453ff50"
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/buleten/858710/",
+    "response_url": "https://cbu.uz/en/statistics/buleten/858710/",
+    "retrieved_at": "2026-10-02T07:16:50.072824+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/cbu_bulletins/20261002T071650072824Z_e3ffc8394cfb.html",
+    "checksum": "d133d83b6b71aafdf89463176435411730c38b615bdb4a2b716f5406953460be"
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/80a/kmj1oboj5b95pwh8bpso8a1zr07j8jxa/Statistical-bulletin-of-CBU-_-2022.pdf",
+    "response_url": "https://cbu.uz/upload/medialibrary/80a/kmj1oboj5b95pwh8bpso8a1zr07j8jxa/Statistical-bulletin-of-CBU-_-2022.pdf",
+    "retrieved_at": "2026-10-02T07:16:53.636675+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/cbu_bulletins/20261002T071653636675Z_568ec8cd980a.pdf",
+    "checksum": "9dcc62b8a317fedd35817f0307341c1572fe95c4428404c17c96990c09cc881e"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/ichki_savdo_eng_iyun.pdf",
+    "response_url": "https://stat.uz/uploads/docs/ichki_savdo_eng_iyun.pdf",
+    "retrieved_at": "2026-10-02T07:16:56.642643+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/retail_trade/20261002T071656642643Z_6cef849e87bc.pdf",
+    "checksum": "5f15c82708152a945d852010ba21dd241afe0c3f17fc6c5505dbc57e5ff7e675"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/tashqi_savdo_may_en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/tashqi_savdo_may_en.pdf",
+    "retrieved_at": "2026-10-02T07:16:59.170890+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T071659170890Z_b672822a9deb.pdf",
+    "checksum": "5f798ec2198273f1c00ba1130f47a5c899b15cec6b05e45e3d9a30cc782241b9"
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/d6a/5z3hn5fc1ao3flewckbpqbqct810czl5/Statistical-bulletin-of-CBU-_-2022.xlsx",
+    "response_url": "https://cbu.uz/upload/medialibrary/d6a/5z3hn5fc1ao3flewckbpqbqct810czl5/Statistical-bulletin-of-CBU-_-2022.xlsx",
+    "retrieved_at": "2026-10-02T07:17:03.454805+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/cbu_bulletins/20261002T071703454805Z_37d4b40aeae6.xlsx",
+    "checksum": "9297180c529bb9e551a894f27b8a9ed1ca78fe90b3bf0f744e6a8ef2c8590d8d"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/tashqi_savdo_aprel_en.pdf",
+    "response_url": "https://stat.uz/uploads/docs/tashqi_savdo_aprel_en.pdf",
+    "retrieved_at": "2026-10-02T07:17:05.544122+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T071705544122Z_c927cb979988.pdf",
+    "checksum": "a3d57d2ac34268d9bdcf608a75ff1f8ff5c003fb22ed5ef739bb17c6e08aada3"
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/buleten/594521/",
+    "response_url": "https://cbu.uz/en/statistics/buleten/594521/",
+    "retrieved_at": "2026-10-02T07:17:07.779895+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/cbu_bulletins/20261002T071707779895Z_b1986310364c.html",
+    "checksum": "a18bd97a24099fae5e4b0e8978c772c03a41fff37e6b2e8088fb820c18782897"
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/440/Statistic-bulletin-of-Central-bank-_-2021.xlsx",
+    "response_url": "https://cbu.uz/upload/medialibrary/440/Statistic-bulletin-of-Central-bank-_-2021.xlsx",
+    "retrieved_at": "2026-10-02T07:17:09.700493+00:00",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/cbu_bulletins/20261002T071709700493Z_ca3786445d1a.xlsx",
+    "checksum": "135863eb15f5720ccfa7606d3c60da260bee04a11b1a0cc213709b81d05c49be"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/ichki_savdo_en_mart_2020.pdf",
+    "response_url": "https://stat.uz/uploads/docs/ichki_savdo_en_mart_2020.pdf",
+    "retrieved_at": "2026-10-02T07:17:13.736908+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/retail_trade/20261002T071713736908Z_52c97a82291b.pdf",
+    "checksum": "f6e21f5c8bb963f99f06c66993f11bf34c0216400c0f66bdd433bdf7649e4f37"
+  },
+  {
+    "source_url": "https://cbu.uz/upload/medialibrary/565/Statistical-bulletin-of-the-Central-bank-2021.pdf",
+    "response_url": "https://cbu.uz/upload/medialibrary/565/Statistical-bulletin-of-the-Central-bank-2021.pdf",
+    "retrieved_at": "2026-10-02T07:17:17.696717+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/cbu_bulletins/20261002T071717696717Z_59add188e1a9.pdf",
+    "checksum": "b8e91cf777cfd0cb18284dea1ae362851ede3e1ef4276d30a306fa94005ba0cc"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/ichki_savdo-eng_fevral.pdf",
+    "response_url": "https://stat.uz/uploads/docs/ichki_savdo-eng_fevral.pdf",
+    "retrieved_at": "2026-10-02T07:17:22.496443+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/retail_trade/20261002T071722496443Z_60d07d141607.pdf",
+    "checksum": "f1b74d5f754ad209e56a4c1cb309260edaf8d2a474a2e0cf2983a5f7f7ccdac5"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/tashqi_savdo_en_yanvar.pdf",
+    "response_url": "https://stat.uz/uploads/docs/tashqi_savdo_en_yanvar.pdf",
+    "retrieved_at": "2026-10-02T07:17:25.678519+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T071725678519Z_5b4b4e393190.pdf",
+    "checksum": "9f7af84061cf10fd592d2c906d86e66db00cbea70a2ebb8211312767d3ffa0b0"
+  },
+  {
+    "source_url": "https://stat.uz/uploads/docs/ichki_savdo_en_yanvar.pdf",
+    "response_url": "https://stat.uz/uploads/docs/ichki_savdo_en_yanvar.pdf",
+    "retrieved_at": "2026-10-02T07:17:29.237285+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/retail_trade/20261002T071729237285Z_35230ea2e0d7.pdf",
+    "checksum": "5462ce852822f7331be0fd1b715662dd25b2d56f113bd4d2568256bbe62539d3"
+  },
+  {
+    "source_url": "https://stat.uz/en/press-releases/7659-for-2021-year",
+    "response_url": "https://stat.uz/en/press-releases/7659-for-2021-year",
+    "retrieved_at": "2026-10-02T07:17:30.738741+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/stat_release_index/20261002T071730738741Z_ffa12377b025.html",
+    "checksum": "f7a7ec8e290bba892873b3a8c836f2b56427fefdb1f11ea5ebd49300295e760f"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz2021/xizmatlar200122en.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz2021/xizmatlar200122en.pdf",
+    "retrieved_at": "2026-10-02T07:17:32.907674+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T071732907674Z_0849b9688524.pdf",
+    "checksum": "822517a48493771219f01fd83fe46cab6a8b4bac4f9309c37d73d8b9459f7677"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz2021/xizmatlarpressreliz21en.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz2021/xizmatlarpressreliz21en.pdf",
+    "retrieved_at": "2026-10-02T07:17:43.055116+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T071743055116Z_b96a35346c90.pdf",
+    "checksum": "8d1b5cd7cc038067006808d55faa901dc91149bbd2216813a1d2706df94ff03a"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz2021/xizmat_en_oktabr_2021.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz2021/xizmat_en_oktabr_2021.pdf",
+    "retrieved_at": "2026-10-02T07:17:53.403597+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T071753403597Z_946ce535692c.pdf",
+    "checksum": "e952173ae416cfab06426f8a78a0627f542f91be124da4a77fc9bd175d10c49e"
+  },
+  {
+    "source_url": "https://cbu.uz/en/statistics/buleten/75393/",
+    "response_url": "https://cbu.uz/en/statistics/buleten/75393/",
+    "retrieved_at": "2026-10-02T07:17:59.744615+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/cbu_bulletins/20261002T071759744615Z_ac48e50a4c77.html",
+    "checksum": "74e612136fac1fdaefe642a9a13a7b26c4caa107f1eca8ea2c5be0974458de23"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz2021/Analitika_en.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz2021/Analitika_en.pdf",
+    "retrieved_at": "2026-10-02T07:18:05.312864+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T071805312864Z_8c4fe031d1aa.pdf",
+    "checksum": "1f48211d5b18579029a0e4ffa464c240e6509c3d3e7e43a236e8a9a3e69be3e0"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz2021/analetika_en.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz2021/analetika_en.pdf",
+    "retrieved_at": "2026-10-02T07:18:11.118550+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T071811118550Z_9bcbcfe6377f.pdf",
+    "checksum": "dcb9b1f1e11c3cf2b84258ae447adb688c012437a4977451761c2a71234c276a"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz2021/press_reliz19072021xizmat_en.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz2021/press_reliz19072021xizmat_en.pdf",
+    "retrieved_at": "2026-10-02T07:18:18.996448+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T071818996448Z_4ba0500d98e8.pdf",
+    "checksum": "5401bd293d6d16510cde66345614d20ecf45097dd200642d2084dc58393576aa"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz2021/xizmatlar_may_en_2021.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz2021/xizmatlar_may_en_2021.pdf",
+    "retrieved_at": "2026-10-02T07:18:26.381635+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T071826381635Z_17e04f8c1292.pdf",
+    "checksum": "af370fb3b72ba79b2524a9bf1458dd5c43e07170fcb8f80ead1e94197af40cb3"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz2021/xizmatlar_aprel_en.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz2021/xizmatlar_aprel_en.pdf",
+    "retrieved_at": "2026-10-02T07:18:31.906742+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T071831906742Z_bcf08445f673.pdf",
+    "checksum": "ff013032e4f9f4390c3a28fe25f497faef1d2e1a8c0ce93611317cb134345d9e"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz2021/xizmatlar_mart_en.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz2021/xizmatlar_mart_en.pdf",
+    "retrieved_at": "2026-10-02T07:18:36.445081+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T071836445081Z_f10b57e09bc7.pdf",
+    "checksum": "714393ab59f128f48d6ff78863c143401cccdda365b602b0f711215154953940"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz2021/xizmatlar_fevral_en.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz2021/xizmatlar_fevral_en.pdf",
+    "retrieved_at": "2026-10-02T07:18:41.016287+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T071841016287Z_8e145cbd1bc9.pdf",
+    "checksum": "a04b3f955776d2f4feea314a18613e2e6ac67b7f41364ceeb4c2c2972825f6a9"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz2021/xizmatlar_yanvar_en.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz2021/xizmatlar_yanvar_en.pdf",
+    "retrieved_at": "2026-10-02T07:18:46.527408+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T071846527408Z_69039f2b947a.pdf",
+    "checksum": "7d9ae6c3008660d05368b214941ad4e794dca22fa73ce20d63724b5984f38b6b"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz2021/tashqi-savdo_dekabr_210122en.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz2021/tashqi-savdo_dekabr_210122en.pdf",
+    "retrieved_at": "2026-10-02T07:18:51.729887+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T071851729887Z_ea9128a27896.pdf",
+    "checksum": "9b3eb5b442753e2ad97e4dcfa24293fea98a23a72ef8c038dfb6a687b746d35f"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz2021/tashqi_savdo_noyabr_en_2021.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz2021/tashqi_savdo_noyabr_en_2021.pdf",
+    "retrieved_at": "2026-10-02T07:18:59.439797+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T071859439797Z_22c8d57be985.pdf",
+    "checksum": "8160928558267eae49cf93cee4b87cc14d44de5fdcd1b12956d7011a908d4ade"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz2021/tashqi_savdo_oktyabr_en_2021.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz2021/tashqi_savdo_oktyabr_en_2021.pdf",
+    "retrieved_at": "2026-10-02T07:19:12.786281+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T071912786281Z_260294e32789.pdf",
+    "checksum": "0f795d13b6176f97f6c8e70b8493643f84415ca3e103ab52e17419d54b40976e"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz2021/tashqi_savdo_en_senatbr_21_10.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz2021/tashqi_savdo_en_senatbr_21_10.pdf",
+    "retrieved_at": "2026-10-02T07:19:18.475134+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T071918475134Z_7ff3667a4d25.pdf",
+    "checksum": "3ca77ff5ee4cff5418652a21e932080d13d6d0913a76c1ba1cadec53d62f97c0"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz2021/tashqi_savdo__sep_eng.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz2021/tashqi_savdo__sep_eng.pdf",
+    "retrieved_at": "2026-10-02T07:19:22.813469+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T071922813469Z_31b434149a8c.pdf",
+    "checksum": "8621520d62110e9ea457e33832edb3153f9b1a8a650c6a4bf140bdbf3d0a28ed"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz2021/tashki_savdo_en.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz2021/tashki_savdo_en.pdf",
+    "retrieved_at": "2026-10-02T07:19:28.764635+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T071928764635Z_c4f7c69aacee.pdf",
+    "checksum": "f8a883e3f3302f06c66e18b9d96e9abef328490956af3845e6c09c5346d29b57"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz2021/tashqi_savdo_iyun_uz.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz2021/tashqi_savdo_iyun_uz.pdf",
+    "retrieved_at": "2026-10-02T07:19:35.078822+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T071935078822Z_0b58258c6163.pdf",
+    "checksum": "01ebed10a17d6dacbe6e3c6f7be557a53fdffc6f37f725a9590b1107502aa76c"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz2021/tashqi_savdo_may_en_2021.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz2021/tashqi_savdo_may_en_2021.pdf",
+    "retrieved_at": "2026-10-02T07:19:41.251029+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T071941251029Z_b6c33ad1c6a3.pdf",
+    "checksum": "c3f0b57dd1db03878e06608c96597c13a2bb5aee00fe274e3e8a30c43ebe7f56"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz2021/tashqi_savdo_aprel_en.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz2021/tashqi_savdo_aprel_en.pdf",
+    "retrieved_at": "2026-10-02T07:19:48.613932+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T071948613932Z_7dd4fd5913ee.pdf",
+    "checksum": "647c622a127348775d2b1afe0c574c0d045e898278eba001522c034e02ae1290"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz2021/tashqi_savdo_mart_en.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz2021/tashqi_savdo_mart_en.pdf",
+    "retrieved_at": "2026-10-02T07:19:55.747795+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T071955747795Z_edcc236f8988.pdf",
+    "checksum": "74cda07e7fbb75ad211266c7e28056e6bf15324ef1d124c2e611c904109bd02f"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz2021/tashqi_savdo_fevral_en.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz2021/tashqi_savdo_fevral_en.pdf",
+    "retrieved_at": "2026-10-02T07:20:00.608201+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T072000608201Z_ac0b93ffcd9d.pdf",
+    "checksum": "36d7a06badee4b127e7b72c76f45c381538fed4f6cf527c60b048d9463092b36"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz2021/tashqi_savdo_yanvar_en.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz2021/tashqi_savdo_yanvar_en.pdf",
+    "retrieved_at": "2026-10-02T07:20:07.059341+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T072007059341Z_fe8d65e9339c.pdf",
+    "checksum": "3aee953674cd42ac9883ab02ed4094898029b8bd0865158dc0c4fc825d817aca"
+  },
+  {
+    "source_url": "https://stat.uz/en/press-releases/17513-2023",
+    "response_url": "https://stat.uz/en/press-releases/17513-2023",
+    "retrieved_at": "2026-10-02T07:20:11.564970+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/stat_release_index/20261002T072011564970Z_69302b992e8c.html",
+    "checksum": "730c03d11b4cbfe4686454294d9ba10403801e929ef13e27326bb42843df0ace"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/docs/xizmatlar12022pressen.pdf",
+    "response_url": "https://stat.uz/images/uploads/docs/xizmatlar12022pressen.pdf",
+    "retrieved_at": "2026-10-02T07:20:15.632040+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T072015632040Z_1ddd756b6bfc.pdf",
+    "checksum": "68498c71f7c8ac5baaa8b2c1673563b58b22c4b941b073ff74038eed427efdd8"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz2021/xizmatlar-yanvar-noyabr_2022yil_eng.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz2021/xizmatlar-yanvar-noyabr_2022yil_eng.pdf",
+    "retrieved_at": "2026-10-02T07:20:20.707670+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T072020707670Z_da050a575436.pdf",
+    "checksum": "fbe5ae26010047418290a08956f5d905a0e17bfe2f5c38f7ed9017f101ffbe0e"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz2021/hizmatlar_pressreliz_21_11_22_eng.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz2021/hizmatlar_pressreliz_21_11_22_eng.pdf",
+    "retrieved_at": "2026-10-02T07:20:23.955520+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T072023955520Z_2a3ca6dd68c3.pdf",
+    "checksum": "61a767e21260cb88b47a5b60987532791c30db9a7fb33c2708928e0ca6541d17"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz2021/xizmatlar_sentabr201022_ang.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz2021/xizmatlar_sentabr201022_ang.pdf",
+    "retrieved_at": "2026-10-02T07:20:27.154196+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T072027154196Z_059024bf6926.pdf",
+    "checksum": "ce2d8a4d5d2dcb01497c0d0a293a7737769c0691b0f6ffb260fd1f7c44b5cd00"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz2021/xizmatlar_200922_english.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz2021/xizmatlar_200922_english.pdf",
+    "retrieved_at": "2026-10-02T07:20:32.692105+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T072032692105Z_7b51eafada36.pdf",
+    "checksum": "26de50ec46da19846efd881a14e1690c246f3d045b04b3465c2e5b5dd3369886"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz2021/xizmatlar_190822_eng.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz2021/xizmatlar_190822_eng.pdf",
+    "retrieved_at": "2026-10-02T07:20:37.813943+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T072037813943Z_c38a15dc47fb.pdf",
+    "checksum": "42d6c3ed51da0ef3cf992411a542bdd6fe45d29243011e878b9ce1890a26c2b4"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/analitika-06_2022-ang.pdf",
+    "response_url": "https://stat.uz/images/uploads/analitika-06_2022-ang.pdf",
+    "retrieved_at": "2026-10-02T07:20:42.264775+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T072042264775Z_21ced2532dba.pdf",
+    "checksum": "c193e6ca54565315d2f1a8cb8a55e41f232a4a8ba69aefa1aee15a413e584ed1"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz2021/xizmat_20_06_22_en.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz2021/xizmat_20_06_22_en.pdf",
+    "retrieved_at": "2026-10-02T07:20:46.212985+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T072046212985Z_224d3adc335e.pdf",
+    "checksum": "d75547ea96a12791c17b6a383ab8319ec356edcdf3e7ac49841a6ce1db98ec65"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz2021/xizmat_20_05_22_en.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz2021/xizmat_20_05_22_en.pdf",
+    "retrieved_at": "2026-10-02T07:20:50.141280+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T072050141280Z_bade921ad4b2.pdf",
+    "checksum": "91c3c5e15624994914277a3513351264a7dec38afa706d1bffb4af2633257ca0"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz2021/xizmatlar_20_04_22_en.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz2021/xizmatlar_20_04_22_en.pdf",
+    "retrieved_at": "2026-10-02T07:20:54.340066+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T072054340066Z_a4f176eea9f3.pdf",
+    "checksum": "88dfa58c2d69717a2c52fe9817e7d81a9f3decf43811c094077fa6ba9896ef75"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz2021/xizmatlar_en_18_03_2022.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz2021/xizmatlar_en_18_03_2022.pdf",
+    "retrieved_at": "2026-10-02T07:21:00.579652+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T072100579652Z_94f2acc0f997.pdf",
+    "checksum": "eab8f36247782703f29f7ac70b195d4a13afaa59ff48431676bdde327ac2eb80"
+  },
+  {
+    "source_url": "https://stat.uz/images/Docs/analitika-01_2022-ang.pdf",
+    "response_url": "https://stat.uz/images/Docs/analitika-01_2022-ang.pdf",
+    "retrieved_at": "2026-10-02T07:21:04.533633+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T072104533633Z_eb28d66856e1.pdf",
+    "checksum": "5208f2861727b4aed04110b31bec9855e16fc8676d2cf898370ae035929be330"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/docs/pressreliztashqisavdo202212en.pdf",
+    "response_url": "https://stat.uz/images/uploads/docs/pressreliztashqisavdo202212en.pdf",
+    "retrieved_at": "2026-10-02T07:21:09.410891+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T072109410891Z_361f3062be43.pdf",
+    "checksum": "f481963ef449929b09560ae6c14c2bdeb149b4a6fce9fc12fe32f6f5cacaa9fc"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz2021/tashqi-savdo-samen_22_12_22_eng.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz2021/tashqi-savdo-samen_22_12_22_eng.pdf",
+    "retrieved_at": "2026-10-02T07:21:18.729693+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T072118729693Z_3b37f03ab98d.pdf",
+    "checksum": "af61f634991f7356bb11478514b9b8845d103c4492f1166acaf6523fc9e4ff79"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz2021/tashqi-savdo_21_11_22_igliz.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz2021/tashqi-savdo_21_11_22_igliz.pdf",
+    "retrieved_at": "2026-10-02T07:21:28.207483+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T072128207483Z_6f72ce777fc6.pdf",
+    "checksum": "4af1c31bfb12894c4109edcb61e9cf8dad157966fe2b118a805361c49abe1ab0"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz2021/tashqi-savdo_sentabr_201022_ang.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz2021/tashqi-savdo_sentabr_201022_ang.pdf",
+    "retrieved_at": "2026-10-02T07:21:35.473233+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T072135473233Z_4c2b48ab508a.pdf",
+    "checksum": "dfc0f11869c79386156ce7c6118a50fe0e65dd5a434bc7a2b42acff98da4aa75"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz2021/tashqi-savdo_200922_eng.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz2021/tashqi-savdo_200922_eng.pdf",
+    "retrieved_at": "2026-10-02T07:21:42.084416+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T072142084416Z_e17e025adfac.pdf",
+    "checksum": "bf8fb388a3352ca9d36f5dfda38965532b6c12882fb60516ffb141a119781bc4"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz2021/tashqisavdo_190822_eng.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz2021/tashqisavdo_190822_eng.pdf",
+    "retrieved_at": "2026-10-02T07:21:48.685813+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T072148685813Z_2dbbd87cbf28.pdf",
+    "checksum": "12f1555bd8742011fb8c67d8c9ad28404a6d0da413554bea69779a09e11b04a4"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz2021/tashqisavdoiyun_21_07_22_ang.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz2021/tashqisavdoiyun_21_07_22_ang.pdf",
+    "retrieved_at": "2026-10-02T07:21:57.046653+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T072157046653Z_4cdbbec88bb7.pdf",
+    "checksum": "9fac80265debd29cda6f54e4b57c7d2c132ee9449e0a626026498c1473896bb3"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz2021/tashqisadomay_20_06_22_en.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz2021/tashqisadomay_20_06_22_en.pdf",
+    "retrieved_at": "2026-10-02T07:22:03.036879+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T072203036879Z_f21405624198.pdf",
+    "checksum": "a0949d83d9fe5e6f3a191576268d80bfed6aa676b6ebd923c6bf162877ac89aa"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz2021/tashqi-250522.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz2021/tashqi-250522.pdf",
+    "retrieved_at": "2026-10-02T07:22:08.391457+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T072208391457Z_7f69b0c2507a.pdf",
+    "checksum": "acb74be481ec26a0d27935ea19234d6f1b24cb4d3254e9ca0bcf2f488626b6a4"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz2021/tashqi-savdo-mart_20_04_22_eng111.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz2021/tashqi-savdo-mart_20_04_22_eng111.pdf",
+    "retrieved_at": "2026-10-02T07:22:14.183089+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T072214183089Z_bcd97d64999d.pdf",
+    "checksum": "19985aba14256d8ceb96f1f30e591f4143bee125b6cb04d331d111968a1c7f91"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz2021/tashqisavdopres31822en.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz2021/tashqisavdopres31822en.pdf",
+    "retrieved_at": "2026-10-02T07:22:20.972787+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T072220972787Z_a091e7ced97b.pdf",
+    "checksum": "1461779d6680ce5747f7894ab7b408a617895182cd778db9187aac173d637b88"
+  },
+  {
+    "source_url": "https://stat.uz/images/press_reliz_tashi_savdo_ang_yanvar-18_02_2022.pdf",
+    "response_url": "https://stat.uz/images/press_reliz_tashi_savdo_ang_yanvar-18_02_2022.pdf",
+    "retrieved_at": "2026-10-02T07:22:26.829995+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T072226829995Z_37ce6fbe1fb0.pdf",
+    "checksum": "856193e69c2f05efce12789e331d0ab0fb7a6841739fbf955ada33491b6a5690"
+  },
+  {
+    "source_url": "https://stat.uz/en/press-releases/34346-2023-2",
+    "response_url": "https://stat.uz/en/press-releases/34346-2023-2",
+    "retrieved_at": "2026-10-02T07:22:32.131339+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/stat_release_index/20261002T072232131339Z_84cd71443504.html",
+    "checksum": "572b26486e41ae34d59e69599ee7236b07efe798227043658eed1517a42719b0"
+  },
+  {
+    "source_url": "https://stat.uz/img/analitika-12_2023-eng.pdf",
+    "response_url": "https://stat.uz/img/analitika-12_2023-eng.pdf",
+    "retrieved_at": "2026-10-02T07:22:34.443781+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T072234443781Z_951a4615f253.pdf",
+    "checksum": "7900b0e7eb81d5ac95554d482bfd78c7f47b27cda96c0c9862542c0a26d2a36e"
+  },
+  {
+    "source_url": "https://stat.uz/img/press-relizlar/xizmatlar_20_12_23__ang.pdf",
+    "response_url": "https://stat.uz/img/press-relizlar/xizmatlar_20_12_23__ang.pdf",
+    "retrieved_at": "2026-10-02T07:22:39.328100+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T072239328100Z_22f6559f3386.pdf",
+    "checksum": "25d3c0b351c4a22375ad816ced264e3cc3e6c3cf4c5e3b6c706cf7d40bc5403b"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz-2023/analitika-10_2023-ang_20_11_2023.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz-2023/analitika-10_2023-ang_20_11_2023.pdf",
+    "retrieved_at": "2026-10-02T07:22:43.557188+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T072243557188Z_8804cfc09d8b.pdf",
+    "checksum": "ad5c53ce6825be9b2e84bdde1c6aa195deb6639b00c9d0bea88cde80d58a865c"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz-2023/xizmatlar-qayta_02_11_2023_eeng.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz-2023/xizmatlar-qayta_02_11_2023_eeng.pdf",
+    "retrieved_at": "2026-10-02T07:22:47.991572+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T072247991572Z_22c0afa81b4f.pdf",
+    "checksum": "203c0d26949d7caa5215765003207e67d6e67b99101a1ccf192800eb4dc75abd"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz-2023/xizmat_20_09_2023_08_2023-ang.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz-2023/xizmat_20_09_2023_08_2023-ang.pdf",
+    "retrieved_at": "2026-10-02T07:22:53.245841+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T072253245841Z_50888ee0bb3b.pdf",
+    "checksum": "249a3b18f248e48a5ab4b60f82d73cdcd6b35eff2e929e37cced0b826e504c99"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz-2023/xizmatlar-sohasi-_21_08_2023_eng111.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz-2023/xizmatlar-sohasi-_21_08_2023_eng111.pdf",
+    "retrieved_at": "2026-10-02T07:22:57.756571+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T072257756571Z_d1558daf2a1c.pdf",
+    "checksum": "a738fbf0a6a059f63855fc92107eb33e22c70b72ebee09ced910c75ef921d3a5"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/docs/xizmatlar_yanavar-iyun_en_2023.pdf",
+    "response_url": "https://stat.uz/images/uploads/docs/xizmatlar_yanavar-iyun_en_2023.pdf",
+    "retrieved_at": "2026-10-02T07:23:02.221178+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T072302221178Z_370dee7e7b3e.pdf",
+    "checksum": "2e75a094385a81f9cb8253d78c78acf14be3afb28f9d6aa27c1bc3f8b5705464"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz-2023/xizmat05_2023-english_20_06_2023.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz-2023/xizmat05_2023-english_20_06_2023.pdf",
+    "retrieved_at": "2026-10-02T07:23:06.509597+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T072306509597Z_0ebfd6313d64.pdf",
+    "checksum": "fe53d48049e74ab3d3a33b3f96c27214351f2a8fee4a44cb8dcf5f9c4d92e3e8"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz-2023/analitika-04_2023-ang_xizmat_19_05_2023.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz-2023/analitika-04_2023-ang_xizmat_19_05_2023.pdf",
+    "retrieved_at": "2026-10-02T07:23:10.931376+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T072310931376Z_38c163b489ed.pdf",
+    "checksum": "a8b3594ae58ddf7fac7ef417238617097eaca408a8953df0893293c1fc1dec3e"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz-2023/analitika-03_2023-ang_xizmat_20_04_2023.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz-2023/analitika-03_2023-ang_xizmat_20_04_2023.pdf",
+    "retrieved_at": "2026-10-02T07:23:16.071614+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T072316071614Z_daaa4186c336.pdf",
+    "checksum": "2c0ed9c9911d5eae9cceb903c808eda9d04f7e79e028431e4fd0d722b5c5b189"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz2021/analitika-02_2023-ang17_03_2023.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz2021/analitika-02_2023-ang17_03_2023.pdf",
+    "retrieved_at": "2026-10-02T07:23:21.810982+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T072321810982Z_0e5d81071a1d.pdf",
+    "checksum": "3fd9e7c242b09e4c8d8cbf91f003d388660cd71676b8303ab4c2a95f15dc7d11"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz2021/xizmatlar-sohasi-_20_02_2023_ang.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz2021/xizmatlar-sohasi-_20_02_2023_ang.pdf",
+    "retrieved_at": "2026-10-02T07:23:24.948209+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/services_output/20261002T072324948209Z_a7e940e2606b.pdf",
+    "checksum": "637726104f1d30a36b77fd5a5f605e07c6c8ebfd07699851fe5552ce36d25352"
+  },
+  {
+    "source_url": "https://stat.uz/img/press_reliz_tashi_savdo_eng_yanvar_dekabr_20_12-engokok.pdf",
+    "response_url": "https://stat.uz/img/press_reliz_tashi_savdo_eng_yanvar_dekabr_20_12-engokok.pdf",
+    "retrieved_at": "2026-10-02T07:23:28.468652+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T072328468652Z_f427f2b6c744.pdf",
+    "checksum": "a1b1bf71e5d0189e944bc6bd58725399288042fa90b411f5de3fe9af7b6c21a2"
+  },
+  {
+    "source_url": "https://stat.uz/img/press-relizlar/tashqi-savdo_21_12_2023_ang.pdf",
+    "response_url": "https://stat.uz/img/press-relizlar/tashqi-savdo_21_12_2023_ang.pdf",
+    "retrieved_at": "2026-10-02T07:23:34.873846+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T072334873846Z_b57fdfd6f581.pdf",
+    "checksum": "ec85fd8fe74619f28d3aaa6b24f311953e19a18c6c4c6d9c7ef61ba9d09d49cf"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz-2023/tashqi-savdo_20_11_2023_ang.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz-2023/tashqi-savdo_20_11_2023_ang.pdf",
+    "retrieved_at": "2026-10-02T07:23:41.678610+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T072341678610Z_32a651809efa.pdf",
+    "checksum": "a820810bdbede242e4ac9588465ca1d02a3bc9e887fed87582c954b797a92855"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz-2023/press_reliz_tashi_savdo_eng_yanvar-centyabr_23_10.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz-2023/press_reliz_tashi_savdo_eng_yanvar-centyabr_23_10.pdf",
+    "retrieved_at": "2026-10-02T07:23:48.826246+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T072348826246Z_e715bc6b8455.pdf",
+    "checksum": "fd624e26812c73ca6d4b0e4ffd602bbf72317e0c63a6f29939f11940094a72a3"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz-2023/_tashi_savdo_ang__20_09_2023.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz-2023/_tashi_savdo_ang__20_09_2023.pdf",
+    "retrieved_at": "2026-10-02T07:23:56.101223+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T072356101223Z_7175b39aa0aa.pdf",
+    "checksum": "f56c2305487a3b7f829c7a4ac84e7ed03ade75734700679dba3ca544cdd6a1d8"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz-2023/tashqi-savdo_23_08___________2023_eng.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz-2023/tashqi-savdo_23_08___________2023_eng.pdf",
+    "retrieved_at": "2026-10-02T07:24:02.751063+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T072402751063Z_75a9944b8841.pdf",
+    "checksum": "91e4e29e4dc66026bd5ab02982d534dc8a605a9c93ea42abc15820406fd64692"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/docs/tashqi_savdo_en_2023_yanvar-iyun.pdf",
+    "response_url": "https://stat.uz/images/uploads/docs/tashqi_savdo_en_2023_yanvar-iyun.pdf",
+    "retrieved_at": "2026-10-02T07:24:10.067875+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T072410067875Z_d289e213ab6a.pdf",
+    "checksum": "f1340f55e26870cae96cf6a624ac709b918e14eca6900fe80914d8609b3f0cfe"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz-2023/tashqi-savdo_20_06_2023_enngng.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz-2023/tashqi-savdo_20_06_2023_enngng.pdf",
+    "retrieved_at": "2026-10-02T07:24:16.697866+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T072416697866Z_3aaebbfcd07f.pdf",
+    "checksum": "a39e4f1924d2e39cf1d2234658fe11c8f0cb49947f60e5334b2c2b7fbf400431"
+  },
+  {
+    "source_url": "https://stat.uz/images/press_reliz_tashi_savdo_ang_yanvar_aprel_19_05.pdf",
+    "response_url": "https://stat.uz/images/press_reliz_tashi_savdo_ang_yanvar_aprel_19_05.pdf",
+    "retrieved_at": "2026-10-02T07:24:24.266220+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T072424266220Z_b9b13a1023cb.pdf",
+    "checksum": "1e46a6f56c49a5863c2796cbcecf76a57d521f97fbf35748f2433bcf08fa5a73"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz-2023/press_reliz_tashi_savdo_ang_yanvar-mart_20_04.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz-2023/press_reliz_tashi_savdo_ang_yanvar-mart_20_04.pdf",
+    "retrieved_at": "2026-10-02T07:24:29.806248+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T072429806248Z_faa5f246e9fe.pdf",
+    "checksum": "837191c7767932a84f0f7a395becf2c83165ecfaf005e9a535f0e6232e05cdcd"
+  },
+  {
+    "source_url": "https://stat.uz/images/tashqisavdopressreliz03172023en.pdf",
+    "response_url": "https://stat.uz/images/tashqisavdopressreliz03172023en.pdf",
+    "retrieved_at": "2026-10-02T07:24:39.553731+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T072439553731Z_96f891d2d76b.pdf",
+    "checksum": "141f476d53129b16d18a6a9fc4b792e548bbc136b37a4e14dd2632d07af9a345"
+  },
+  {
+    "source_url": "https://stat.uz/images/uploads/reliz2021/presreliztashqisavdo2122023eng.pdf",
+    "response_url": "https://stat.uz/images/uploads/reliz2021/presreliztashqisavdo2122023eng.pdf",
+    "retrieved_at": "2026-10-02T07:24:47.559817+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/foreign_trade/20261002T072447559817Z_c0b724514476.pdf",
+    "checksum": "31757ed6697dea8a2f30dd661ef72cb3a582a15ab52fa7dd8d186699b9ab68c2"
+  }
+]

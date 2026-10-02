@@ -1,0 +1,67 @@
+{
+  "next_action": "COLLECT_MISSING_HIGH_PRIORITY_DATA_FIRST",
+  "conceptual_indicator_count": 8,
+  "primary_mapping_counts": {
+    "EXACT_MATCH": 0,
+    "CLOSE_MATCH": 1,
+    "ALTERNATIVE_PROXY": 2,
+    "AVAILABLE_BUT_SHORT": 3,
+    "MISSING": 2,
+    "NOT_REPRODUCIBLE": 0
+  },
+  "direct_concept_matches": 4,
+  "direct_concept_keys": [
+    "industrial_production",
+    "construction",
+    "retail_trade",
+    "imports_total"
+  ],
+  "strict_exact_confirmed_matches": 0,
+  "classification_note": "Four direct concepts; industrial nominal/volume distinction is CLOSE, three direct concepts AVAILABLE_BUT_SHORT. Study original selectors/units remain unverified.",
+  "CORE_CBU_REPLICATION": [
+    "industrial_production",
+    "construction",
+    "retail_trade",
+    "imports_total"
+  ],
+  "CBU_PROXY_EXTENSION": [
+    "exports_non_gold",
+    "pos_turnover"
+  ],
+  "OPTIONAL_EXTENSION": [
+    "instant_payments"
+  ],
+  "EXCLUDE_FROM_6A2": [
+    "services_output",
+    "job_search_activity",
+    "interbank_payments"
+  ],
+  "model_input_universe": {
+    "conditional_core_fields": [
+      "ind_prod_yoy_log",
+      "construction_yoy_log",
+      "retail_yoy_log",
+      "imports_total_yoy_log"
+    ],
+    "conditional_proxy_fields": [
+      "exports_non_gold_yoy_log",
+      "pos_turnover_yoy_log"
+    ],
+    "target": "gdp_real_yoy_pct (quarterly only)",
+    "dense_core_common_start": "2022-01-31",
+    "dense_core_common_end": "2026-08-31",
+    "dense_core_months": 56,
+    "payment_proxies_require_gap_repair": true,
+    "not_ready_for_full_eight_indicator_replication": true
+  },
+  "data_gaps_requiring_collection": [
+    "services_output",
+    "trade_paid_services_receipts",
+    "job_search_activity",
+    "pos_turnover",
+    "exports_non_gold"
+  ],
+  "models_estimated": false,
+  "phase5c_gate_changes": false,
+  "phase5d_eligibility_changes": false
+}

@@ -1,0 +1,11 @@
+{
+  "source_url": "https://stat.uz/en/press-center/news-of-committee?start=2808",
+  "response_url": "https://stat.uz/en/press-center/news-of-committee?start=2808",
+  "retrieved_at": "2026-10-02T11:18:26.245851+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "raw_file_path": "results/research/phase6b2/evidence/baa4ad18a32448f26785.html",
+  "sha256": "0ec9f3dd41965faed0a6c95369dfa7df7130044acfb6ef42ea9583a6aafbbec5",
+  "parser_version": "phase6b2-evidence-v1",
+  "source_title": "Committee news"
+}

@@ -1,0 +1,61 @@
+target_quarter,horizon,lag_mode,old_DFM_B_prediction,clean_DFM_B_prediction,old_combo_prediction,clean_combo_prediction,difference,GDP_availability_changed,prior_GDP_available_at_origin,notes
+2024Q1,H1,standard,6.57563003016,,6.39027955503,,,True,False,withdrawn: PRIOR_QUARTER_GDP_NOT_AVAILABLE; no forecast substituted
+2024Q1,H1,conservative,6.54081907742,,6.35629924735,,,True,False,withdrawn: PRIOR_QUARTER_GDP_NOT_AVAILABLE; no forecast substituted
+2024Q1,H2,standard,6.87668461008,6.87668461008,6.5384634172,6.5384634172,1.22568621919e-12,False,True,same eligible GDP information; numerical identity checked
+2024Q1,H2,conservative,6.55144954135,6.55144954135,6.37818931062,6.37818931062,-3.76854103479e-12,False,True,same eligible GDP information; numerical identity checked
+2024Q1,H3,standard,7.21272619048,7.21272619048,6.73460863612,6.73460863612,-8.8906659812e-13,False,True,same eligible GDP information; numerical identity checked
+2024Q1,H3,conservative,7.3130873928,7.3130873928,6.75666480856,6.75666480856,3.57935903139e-13,False,True,same eligible GDP information; numerical identity checked
+2024Q2,H1,standard,6.62949901985,,6.28736687659,,,True,False,withdrawn: PRIOR_QUARTER_GDP_NOT_AVAILABLE; no forecast substituted
+2024Q2,H1,conservative,6.72364496325,,6.46029363899,,,True,False,withdrawn: PRIOR_QUARTER_GDP_NOT_AVAILABLE; no forecast substituted
+2024Q2,H2,standard,6.59983759913,6.59983759913,6.23107667992,6.23107667992,-3.2054359167e-12,False,True,same eligible GDP information; numerical identity checked
+2024Q2,H2,conservative,6.56576035733,6.56576035733,6.25549754533,6.25549754533,-3.8005154579e-12,False,True,same eligible GDP information; numerical identity checked
+2024Q2,H3,standard,6.68541822604,6.68541822604,6.5688604451,6.5688604451,2.57394106029e-12,False,True,same eligible GDP information; numerical identity checked
+2024Q2,H3,conservative,6.70315606105,6.70315606105,6.28273591088,6.28273591088,-1.00008890058e-12,False,True,same eligible GDP information; numerical identity checked
+2024Q3,H1,standard,6.66703355708,,6.69626590789,,,True,False,withdrawn: PRIOR_QUARTER_GDP_NOT_AVAILABLE; no forecast substituted
+2024Q3,H1,conservative,6.65079315209,,6.52298315228,,,True,False,withdrawn: PRIOR_QUARTER_GDP_NOT_AVAILABLE; no forecast substituted
+2024Q3,H2,standard,6.70202107035,6.70202107035,6.71749826509,6.71749826509,-4.09983158534e-12,False,True,same eligible GDP information; numerical identity checked
+2024Q3,H2,conservative,6.65846247001,6.65846247001,6.69198036435,6.69198036435,8.881784197e-16,False,True,same eligible GDP information; numerical identity checked
+2024Q3,H3,standard,6.69580633898,6.69580633898,6.7773194674,6.7773194674,4.96047647403e-12,False,True,same eligible GDP information; numerical identity checked
+2024Q3,H3,conservative,6.65579716908,6.65579716908,6.69438631446,6.69438631446,4.10604883427e-12,False,True,same eligible GDP information; numerical identity checked
+2024Q4,H1,standard,6.65590100312,,6.60111419576,,,True,False,withdrawn: PRIOR_QUARTER_GDP_NOT_AVAILABLE; no forecast substituted
+2024Q4,H1,conservative,6.62812748757,,6.52636803884,,,True,False,withdrawn: PRIOR_QUARTER_GDP_NOT_AVAILABLE; no forecast substituted
+2024Q4,H2,standard,6.69033812725,6.69033812725,6.53447875829,6.53447875829,3.75699471533e-13,False,True,same eligible GDP information; numerical identity checked
+2024Q4,H2,conservative,6.63683402168,6.63683402168,6.59158070504,6.59158070504,2.79687384364e-12,False,True,same eligible GDP information; numerical identity checked
+2024Q4,H3,standard,6.68966926705,6.68966926705,6.505795131,6.505795131,-7.46069872548e-13,False,True,same eligible GDP information; numerical identity checked
+2024Q4,H3,conservative,6.6443808084,6.6443808084,6.51150009887,6.51150009887,-2.13162820728e-14,False,True,same eligible GDP information; numerical identity checked
+2025Q1,H1,standard,6.6934672934,,6.56662586047,,,True,False,withdrawn: PRIOR_QUARTER_GDP_NOT_AVAILABLE; no forecast substituted
+2025Q1,H1,conservative,6.66319622151,,6.52419409261,,,True,False,withdrawn: PRIOR_QUARTER_GDP_NOT_AVAILABLE; no forecast substituted
+2025Q1,H2,standard,6.80101847341,6.80101847341,6.54449392563,6.54449392563,-3.60600438398e-13,False,True,same eligible GDP information; numerical identity checked
+2025Q1,H2,conservative,6.66823783207,6.66823783207,6.5540111298,6.5540111298,-2.65210076122e-12,False,True,same eligible GDP information; numerical identity checked
+2025Q1,H3,standard,6.68260365325,6.68260365325,6.68258859203,6.68258859203,7.123190926e-13,False,True,same eligible GDP information; numerical identity checked
+2025Q1,H3,conservative,6.58007607608,6.58007607608,6.43402272696,6.43402272696,-4.4408920985e-14,False,True,same eligible GDP information; numerical identity checked
+2025Q2,H1,standard,6.73128995016,,6.7353706433,,,True,False,withdrawn: PRIOR_QUARTER_GDP_NOT_AVAILABLE; no forecast substituted
+2025Q2,H1,conservative,6.69501734242,,6.62533529449,,,True,False,withdrawn: PRIOR_QUARTER_GDP_NOT_AVAILABLE; no forecast substituted
+2025Q2,H2,standard,6.74913199284,6.74913199284,6.68753473709,6.68753473709,8.99724739156e-13,False,True,same eligible GDP information; numerical identity checked
+2025Q2,H2,conservative,6.70396319521,6.70396319521,6.72170726582,6.72170726582,1.50013335087e-12,False,True,same eligible GDP information; numerical identity checked
+2025Q2,H3,standard,6.73873010283,6.73873010283,7.55585936696,7.55585936696,-1.50546242139e-12,False,True,same eligible GDP information; numerical identity checked
+2025Q2,H3,conservative,6.70039880303,6.70039880303,6.66316814218,6.66316814218,1.53121959556e-12,False,True,same eligible GDP information; numerical identity checked
+2025Q3,H1,standard,6.89381334217,,6.81011724932,,,True,False,withdrawn: PRIOR_QUARTER_GDP_NOT_AVAILABLE; no forecast substituted
+2025Q3,H1,conservative,6.86292814702,,7.09955243836,,,True,False,withdrawn: PRIOR_QUARTER_GDP_NOT_AVAILABLE; no forecast substituted
+2025Q3,H2,standard,6.92132808803,6.92132808803,6.87316307545,6.87316307545,9.11271058612e-13,False,True,same eligible GDP information; numerical identity checked
+2025Q3,H2,conservative,6.86852031996,6.86852031996,6.79747073822,6.79747073822,1.52944323872e-12,False,True,same eligible GDP information; numerical identity checked
+2025Q3,H3,standard,6.92389738951,6.92389738951,7.48003136147,7.48003136147,4.44444481218e-12,False,True,same eligible GDP information; numerical identity checked
+2025Q3,H3,conservative,6.86995438834,6.86995438834,6.8474762256,6.8474762256,-4.0216718844e-12,False,True,same eligible GDP information; numerical identity checked
+2025Q4,H1,standard,7.10773408998,,8.0141149345,,,True,False,withdrawn: PRIOR_QUARTER_GDP_NOT_AVAILABLE; no forecast substituted
+2025Q4,H1,conservative,7.05461245254,,7.28490728081,,,True,False,withdrawn: PRIOR_QUARTER_GDP_NOT_AVAILABLE; no forecast substituted
+2025Q4,H2,standard,7.14147962426,7.14147962426,7.92764238357,7.92764238357,3.62110341712e-12,False,True,same eligible GDP information; numerical identity checked
+2025Q4,H2,conservative,7.06336568265,7.06336568265,7.99193073084,7.99193073084,9.50350909079e-13,False,True,same eligible GDP information; numerical identity checked
+2025Q4,H3,standard,7.13947235893,7.13947235893,7.88738409004,7.88738409004,2.89546164822e-13,False,True,same eligible GDP information; numerical identity checked
+2025Q4,H3,conservative,7.06723012764,7.06723012764,7.89051763526,7.89051763526,4.4320103143e-12,False,True,same eligible GDP information; numerical identity checked
+2026Q1,H1,standard,7.20139343031,,7.37569520381,,,True,False,withdrawn: PRIOR_QUARTER_GDP_NOT_AVAILABLE; no forecast substituted
+2026Q1,H1,conservative,7.17465834396,,7.33796123684,,,True,False,withdrawn: PRIOR_QUARTER_GDP_NOT_AVAILABLE; no forecast substituted
+2026Q1,H2,standard,7.22907588442,7.22907588442,7.29125626108,7.29125626108,-3.52606832621e-13,False,True,same eligible GDP information; numerical identity checked
+2026Q1,H2,conservative,7.1888590935,7.1888590935,7.36942803541,7.36942803541,4.77928807641e-12,False,True,same eligible GDP information; numerical identity checked
+2026Q1,H3,standard,7.25761906863,7.25761906863,7.8148183055,7.8148183055,2.0694557179e-13,False,True,same eligible GDP information; numerical identity checked
+2026Q1,H3,conservative,7.21123780862,7.21123780862,7.28233722318,7.28233722318,1.07469588784e-12,False,True,same eligible GDP information; numerical identity checked
+2026Q2,H1,standard,7.85142445145,,7.97275431534,,,True,False,withdrawn: PRIOR_QUARTER_GDP_NOT_AVAILABLE; no forecast substituted
+2026Q2,H1,conservative,7.72244290256,,8.05021530669,,,True,False,withdrawn: PRIOR_QUARTER_GDP_NOT_AVAILABLE; no forecast substituted
+2026Q2,H2,standard,7.86270628652,7.86270628652,8.11170676881,8.11170676881,2.13162820728e-13,False,True,same eligible GDP information; numerical identity checked
+2026Q2,H2,conservative,7.77044012707,7.77044012707,7.93226215315,7.93226215315,-4.41247038907e-12,False,True,same eligible GDP information; numerical identity checked
+2026Q2,H3,standard,7.86993877329,7.86993877329,8.14637705651,8.14637705651,1.81188397619e-13,False,True,same eligible GDP information; numerical identity checked
+2026Q2,H3,conservative,7.80372116474,7.80372116474,8.08221420792,8.08221420792,3.58202356665e-12,False,True,same eligible GDP information; numerical identity checked

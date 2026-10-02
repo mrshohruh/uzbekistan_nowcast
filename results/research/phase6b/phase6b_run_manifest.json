@@ -1,0 +1,203 @@
+{
+  "status": "COMPLETED_RESEARCH_ONLY",
+  "completed_at_utc": "2026-10-02T09:34:59.649261+00:00",
+  "label": "CALENDAR_PSEUDO_REAL_TIME_RESEARCH",
+  "python": "3.12.10",
+  "numpy": "2.5.3",
+  "pandas": "3.0.6",
+  "statsmodels": "0.14.6",
+  "monthly_sample": [
+    "2021-01",
+    "2026-08"
+  ],
+  "n_months": 68,
+  "GDP_evaluation_targets": [
+    "2024Q1",
+    "2024Q2",
+    "2024Q3",
+    "2024Q4",
+    "2025Q1",
+    "2025Q2",
+    "2025Q3",
+    "2025Q4",
+    "2026Q1",
+    "2026Q2"
+  ],
+  "GDP_source": "data/master/gdp_quarterly.parquet:gdp_real_yoy_pct",
+  "GDP_values_verified_against_frozen_forecasts": true,
+  "GDP_vintage_note": "current master retrieval metadata differs from original freeze; all target values equal frozen actuals",
+  "Phase5C_DFM_origin_predictions": "NOT_SAVED_BY_PHASE5C; metrics_only_not_origin_matched",
+  "eligible_origin_count": 324,
+  "failed_origin_records": 60,
+  "successful_forecasts": 528,
+  "protected_count": 457,
+  "protected_byte_identical": true,
+  "registry_amended": false,
+  "production_promoted": false,
+  "baseline_benchmark_sources": [
+    "results/phase4b_predictions.csv",
+    "results/phase4c_holdout_predictions.csv"
+  ],
+  "input_hashes": {
+    "data/research/phase6a2/cbu_midas_monthly_panel.csv": "5e94e50cbc95fdb22ec51c539711c9ab3b68a18b9321a47cd03b968a21f94bd7",
+    "data/master/gdp_quarterly.parquet": "196a8c980895163efc5fd9a25dca93523b1b25719057149a21637a2925457b51",
+    "results/frozen_validation_definition.json": "90c3c38bdb69eedb151cce85625daa8fa8b18e0515a1461f4149169082bb3d02",
+    "results/challengers/phase5c/phase5c_challenger_protocol.json": "39ec4367f2e7ea070ec670d52ffc84c8e577d45867ae5f2d26c1915fcb4154be",
+    "results/phase4b_predictions.csv": "8a6add6145d46c907ce5c5c74d3ef58d449c7f132baf6892393f17822005f1aa",
+    "results/phase4c_holdout_predictions.csv": "cea2fe0b4ecec76e47b16a57b19ed5036a0d830c1a961a627c63663588c48c04"
+  },
+  "code_hashes": {
+    "experiment.py": "72465bee482697d2b276a62f2be0900cc525cb195adc8fae41d95efbdf2f0243",
+    "finalize.py": "a4e0d6d8502f877d8d7dff18579f4fc713d50fc8f10e0f98266aaf7b5454ea30",
+    "report.py": "5c820e62cca28ead9e0984a1a8031dccce678091eea2aa8b2e6e973c3ab4b5e0",
+    "run.py": "3846a3c0026cf270576b68d6682fa7cb8db647a342718af785c32e128e9c7160",
+    "test_experiment.py": "5c3674667ad30e70a4fb1c15d78dce06fbfada40b1307b115ecc3c0da8a04719"
+  },
+  "test_results": {
+    "tests": 17,
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0
+  },
+  "determinism_verification": {
+    "numeric_tables_checked": 7,
+    "byte_identical": true
+  },
+  "two_factor_status": "NOT_ESTIMABLE_WITH_CURRENT_SAMPLE",
+  "phase6b_classification": "PROMISING_RESEARCH_CHALLENGER: primary equal-weight combination; standalone evidence mixed",
+  "model_classifications": [
+    {
+      "model": "DFM_DOMESTIC_3_IMPORTS__BRIDGE_A",
+      "classification": "NO_INCREMENTAL_VALUE",
+      "failure_rate": 0.0,
+      "successful_origins": 30,
+      "quarters": 10,
+      "rationale": "does not meet prespecified standalone gain criteria; combinations reported separately"
+    },
+    {
+      "model": "DFM_DOMESTIC_3_IMPORTS__BRIDGE_B",
+      "classification": "PROMISING_RESEARCH_CHALLENGER",
+      "failure_rate": 0.0,
+      "successful_origins": 30,
+      "quarters": 10,
+      "rationale": "pooled matched RMSE/MAE gains with gains in at least two horizons; only exploratory evidence"
+    },
+    {
+      "model": "DFM_DOMESTIC_3_SERVICES_RAW_BREAK__BRIDGE_A",
+      "classification": "NO_INCREMENTAL_VALUE",
+      "failure_rate": 0.0,
+      "successful_origins": 30,
+      "quarters": 10,
+      "rationale": "does not meet prespecified standalone gain criteria; combinations reported separately"
+    },
+    {
+      "model": "DFM_DOMESTIC_3_SERVICES_RAW_BREAK__BRIDGE_B",
+      "classification": "PROMISING_RESEARCH_CHALLENGER",
+      "failure_rate": 0.0,
+      "successful_origins": 30,
+      "quarters": 10,
+      "rationale": "pooled matched RMSE/MAE gains with gains in at least two horizons; only exploratory evidence"
+    },
+    {
+      "model": "DFM_DOMESTIC_3_SERVICES__BRIDGE_A",
+      "classification": "NO_INCREMENTAL_VALUE",
+      "failure_rate": 0.0,
+      "successful_origins": 30,
+      "quarters": 10,
+      "rationale": "does not meet prespecified standalone gain criteria; combinations reported separately"
+    },
+    {
+      "model": "DFM_DOMESTIC_3_SERVICES__BRIDGE_B",
+      "classification": "PROMISING_RESEARCH_CHALLENGER",
+      "failure_rate": 0.0,
+      "successful_origins": 30,
+      "quarters": 10,
+      "rationale": "pooled matched RMSE/MAE gains with gains in at least two horizons; only exploratory evidence"
+    },
+    {
+      "model": "DFM_DOMESTIC_3__BRIDGE_A",
+      "classification": "NO_INCREMENTAL_VALUE",
+      "failure_rate": 0.0,
+      "successful_origins": 30,
+      "quarters": 10,
+      "rationale": "does not meet prespecified standalone gain criteria; combinations reported separately"
+    },
+    {
+      "model": "DFM_DOMESTIC_3__BRIDGE_B",
+      "classification": "PROMISING_RESEARCH_CHALLENGER",
+      "failure_rate": 0.0,
+      "successful_origins": 30,
+      "quarters": 10,
+      "rationale": "pooled matched RMSE/MAE gains with gains in at least two horizons; only exploratory evidence"
+    },
+    {
+      "model": "DFM_POS_HISTORICAL_ROBUSTNESS_ONLY__BRIDGE_A",
+      "classification": "INSUFFICIENT_EVIDENCE",
+      "failure_rate": 0.0,
+      "successful_origins": 12,
+      "quarters": 4,
+      "rationale": "fewer than eight distinct evaluation quarters"
+    },
+    {
+      "model": "DFM_POS_HISTORICAL_ROBUSTNESS_ONLY__BRIDGE_B",
+      "classification": "INSUFFICIENT_EVIDENCE",
+      "failure_rate": 0.0,
+      "successful_origins": 12,
+      "quarters": 4,
+      "rationale": "fewer than eight distinct evaluation quarters"
+    },
+    {
+      "model": "DFM_TWO_FACTOR_IMPORTS__BRIDGE_A",
+      "classification": "UNSTABLE",
+      "failure_rate": 1.0,
+      "successful_origins": 0,
+      "quarters": 0,
+      "rationale": "100% origin failure rate"
+    },
+    {
+      "model": "DFM_TWO_FACTOR_IMPORTS__BRIDGE_B",
+      "classification": "UNSTABLE",
+      "failure_rate": 1.0,
+      "successful_origins": 0,
+      "quarters": 0,
+      "rationale": "100% origin failure rate"
+    }
+  ],
+  "output_hashes": {
+    "phase6b_benchmark_comparison.csv": "128d634cc54f535ac72c2accbe9e8379c94111b282bbe1e401ba44da307f157b",
+    "phase6b_classifications.csv": "e2cd81778db72228fedb27a6a0b3a51668eb5a73305c2ecd8017d49429a5e5a3",
+    "phase6b_combination_forecasts.csv": "fcb43db3c485da0635429b6a88fc98057f0307a742c78bdfe96596df2d720056",
+    "phase6b_combination_metrics.csv": "82733fbb386dc57e058a5cc0d1a3dd4aa2cae335b00cee49867306171e0ffd50",
+    "phase6b_common_origin_metrics.csv": "3a4654b78737a71b5502feb11a34fbcc5768addfdd4c974f779689e1e47379a1",
+    "phase6b_convergence_diagnostics.csv": "63e3be36aad357971c71ea45817d133b09a0beed89bde86ace080d97ad3c4fe0",
+    "phase6b_correlation_matrix.csv": "b01fbe48e22bc16cb37730584a6b0dbcc8e768ee3dccb7cad8ae1b077d5b53bf",
+    "phase6b_determinism_check.json": "596629c7d079e8e7d1f80743863ccd7b1f9be3b8ee032c9bcf2d6df33fde42c1",
+    "phase6b_determinism_reference.json": "4e4676297c200f6ddfe0cd7438d871123d08354d81e8ac9ab98fded911f1862f",
+    "phase6b_eligible_origins.csv": "66ad87cc12faa0d0c545bd894650a09cbe3cc1be204fc1e587434fb1f1d8cdc3",
+    "phase6b_factor_loadings.csv": "50bc4710ad1e855374021d8e9e7ead5c705ff72bf509667aeabbf89d65651ffa",
+    "phase6b_factor_series.csv": "768623040a434d29f55d5bdb7c95ff95e6791d14a127839b3c367d266b85e113",
+    "phase6b_factor_stability.csv": "c621effb41a337ddf3a6ac688fdbb67ac77f27a19738a370448f3e48af3a4e48",
+    "phase6b_factor_time_stability.csv": "810d9409aeb6adcf9ea6d860d7d86f2571fa43c9e91edbcd89fba769feed1658",
+    "phase6b_failed_origins.csv": "c5135ba22f28b7f9573a4a783dd8b6be24071508ece3645de1a82d47b2f08a3b",
+    "phase6b_forecasts.csv": "abe15cce5354e2176d8dd0b16004406418882c3500b5a199db641fda86203879",
+    "phase6b_frozen_umidas_identity_audit.csv": "4d7950b59f63f1342622e0f649777ae10fca376c029c67ef190d7c552db0c124",
+    "phase6b_horizon_metrics.csv": "5b2d6cea57c011de16328443ab1a96d57645f6520df02f32d6e44725f43fe520",
+    "phase6b_imports_diagnostics.csv": "c4822b4768049f2ba8e04114be9969d2fb635e2933af24ea3b80230505e5142e",
+    "phase6b_matched_forecasts.csv": "bc0ef7e1ab03223c584397dddc09dcf30bf9470b47489627aa585a35fa8ccab2",
+    "phase6b_model_metrics.csv": "482cc5ebe4e78c72dfe5c22fe85a552dad630ccfe09a2240da02c5609e5f2304",
+    "phase6b_model_specifications.json": "e668a67309a38ad5d50564d69358e0aae295181e6a2231ff74d97efbde2cac70",
+    "phase6b_origin_pca_diagnostics.csv": "31cc27ab6743e61bba5ff03e06f6d3dce1a65f4e74a7124b260f7277215276b2",
+    "phase6b_pca_diagnostics.csv": "50dffe02c04685653dbe78735a7c77c6ff3c7026564e9ed3982674225af0f43b",
+    "phase6b_pooled_metrics.csv": "a67dce6d7b275a4dee5725739ed3079dfbc5dc899c005004cc2a7d8c1ea06ec7",
+    "phase6b_protected_after.json": "b668f3eb8d8d4e6cbd559214ebb3e88bb48b61f555fe4e7584d1a4a7df7553ae",
+    "phase6b_protected_before.json": "b668f3eb8d8d4e6cbd559214ebb3e88bb48b61f555fe4e7584d1a4a7df7553ae",
+    "phase6b_quarter_level_errors.csv": "9317aa108cf602a8f24d4a0aaa981890fb6bceae60446a6596cc0ec8449cbb95",
+    "phase6b_results.md": "8d5b79d69837a37f8bd0b362c67d448797311bc9fdb1a4e9e3220e4c6de29899",
+    "phase6b_services_break_diagnostics.csv": "fc95b3c39376a8e8456540a40366cbcc88e2a8dcd9130c0b236991b898d2efe2",
+    "phase6b_services_descriptive_series.csv": "9bc21b494c7cf50595a07106a998c7db05d2055665650de9dfe72d4417b2f813",
+    "phase6b_standardization.csv": "099c59896810c00267724e78136059a41182b9fd769dc92ad1d230eb7c1aa13e",
+    "phase6b_test_results.xml": "aa773d7f1dc7a91572258bddefbd965ac34a4cc3ef12290a15eb1879f1d2ad5e"
+  },
+  "report_hash": "8d5b79d69837a37f8bd0b362c67d448797311bc9fdb1a4e9e3220e4c6de29899",
+  "dashboard_hash": "cc6101a36c34fca5b78f8a8bc5733ff2754ead3e513ac8f8a693d82777d7ccff"
+}

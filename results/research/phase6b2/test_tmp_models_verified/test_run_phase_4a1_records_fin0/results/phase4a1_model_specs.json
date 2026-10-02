@@ -1,0 +1,438 @@
+{
+  "model_layer_version": "4b.0",
+  "min_effective_training_rows_primary": 12,
+  "small_sample_sensitivity_min_train": 8,
+  "first_evaluation_quarter": "2021-Q1",
+  "last_evaluation_quarter": "2025-Q2",
+  "small_sample_summary": null,
+  "master_fingerprint": {
+    "master_dir": "data\\master",
+    "monthly_path": "data\\master\\v1_monthly.parquet",
+    "quarterly_path": "data\\master\\gdp_quarterly.parquet",
+    "registry_path": "registry\\uzbekistan_nowcasting_v1.2_registry.xlsx",
+    "monthly_sha256": "c191d4041be03b11390c269d7d365eaee407934a780d8bcd9348703f14ad6deb",
+    "quarterly_sha256": "0ea6dfc187c24a517ac4434608f5c77b77a0fa873a7ca8057dec95b3af81c098",
+    "registry_sha256": "0659713cea0fea42c3823a3be26dd116ba15f2b292f269ba5f7e1c7b99abbb33",
+    "monthly_rows": 102,
+    "monthly_predictor_columns": 5,
+    "monthly_first_period": "2018-01-31",
+    "monthly_last_period": "2026-06-30",
+    "quarterly_rows": 34,
+    "quarterly_first_quarter": "2018-Q1",
+    "quarterly_last_quarter": "2026-Q2"
+  },
+  "specs_variant_a": {
+    "historical_mean": {
+      "kind": "benchmark",
+      "description": "expanding mean of GDP"
+    },
+    "ar1": {
+      "kind": "benchmark",
+      "description": "OLS AR(1) on GDP"
+    },
+    "ar2": {
+      "kind": "benchmark",
+      "description": "OLS AR(2) on GDP"
+    },
+    "bridge_ppi_mom_log": {
+      "kind": "bridge",
+      "spec": {
+        "fields": [
+          "ppi_mom_log"
+        ],
+        "with_gdp_lag": true
+      }
+    },
+    "bridge_usd_uzs_mom_dlog": {
+      "kind": "bridge",
+      "spec": {
+        "fields": [
+          "usd_uzs_mom_dlog"
+        ],
+        "with_gdp_lag": true
+      }
+    },
+    "bridge_m2_yoy_log": {
+      "kind": "bridge",
+      "spec": {
+        "fields": [
+          "m2_yoy_log"
+        ],
+        "with_gdp_lag": true
+      }
+    },
+    "umidas_ppi_mom_log": {
+      "kind": "midas",
+      "spec": {
+        "field": "ppi_mom_log",
+        "monthly_lags": 3,
+        "polynomial_order": null,
+        "with_gdp_lag": true
+      }
+    },
+    "almon_ppi_mom_log": {
+      "kind": "midas",
+      "spec": {
+        "field": "ppi_mom_log",
+        "monthly_lags": 3,
+        "polynomial_order": 1,
+        "with_gdp_lag": true
+      }
+    },
+    "umidas_usd_uzs_mom_dlog": {
+      "kind": "midas",
+      "spec": {
+        "field": "usd_uzs_mom_dlog",
+        "monthly_lags": 3,
+        "polynomial_order": null,
+        "with_gdp_lag": true
+      }
+    },
+    "almon_usd_uzs_mom_dlog": {
+      "kind": "midas",
+      "spec": {
+        "field": "usd_uzs_mom_dlog",
+        "monthly_lags": 3,
+        "polynomial_order": 1,
+        "with_gdp_lag": true
+      }
+    },
+    "umidas_m2_yoy_log": {
+      "kind": "midas",
+      "spec": {
+        "field": "m2_yoy_log",
+        "monthly_lags": 3,
+        "polynomial_order": null,
+        "with_gdp_lag": true
+      }
+    },
+    "almon_m2_yoy_log": {
+      "kind": "midas",
+      "spec": {
+        "field": "m2_yoy_log",
+        "monthly_lags": 3,
+        "polynomial_order": 1,
+        "with_gdp_lag": true
+      }
+    },
+    "dfm_tierA_k1": {
+      "kind": "dfm",
+      "spec": {
+        "fields": [
+          "ppi_mom_log",
+          "usd_uzs_mom_dlog",
+          "m2_yoy_log"
+        ],
+        "n_factors": 1,
+        "with_gdp_lag": true
+      }
+    },
+    "dfm_tierB_k1": {
+      "kind": "dfm",
+      "spec": {
+        "fields": [
+          "ppi_mom_log",
+          "usd_uzs_mom_dlog",
+          "m2_yoy_log"
+        ],
+        "n_factors": 1,
+        "with_gdp_lag": true
+      }
+    },
+    "dfm_tierC_k1": {
+      "kind": "dfm",
+      "spec": {
+        "fields": [
+          "ppi_mom_log",
+          "usd_uzs_mom_dlog",
+          "m2_yoy_log"
+        ],
+        "n_factors": 1,
+        "with_gdp_lag": true
+      }
+    },
+    "dfm_tierB_k2": {
+      "kind": "dfm",
+      "spec": {
+        "fields": [
+          "ppi_mom_log",
+          "usd_uzs_mom_dlog",
+          "m2_yoy_log"
+        ],
+        "n_factors": 2,
+        "with_gdp_lag": true
+      }
+    },
+    "bridge_ind_prod_yoy_log": {
+      "kind": "bridge",
+      "spec": {
+        "fields": [
+          "ind_prod_yoy_log"
+        ],
+        "with_gdp_lag": true
+      }
+    },
+    "umidas_ind_prod_yoy_log": {
+      "kind": "midas",
+      "spec": {
+        "field": "ind_prod_yoy_log",
+        "monthly_lags": 3,
+        "polynomial_order": null,
+        "with_gdp_lag": true
+      }
+    },
+    "almon_ind_prod_yoy_log": {
+      "kind": "midas",
+      "spec": {
+        "field": "ind_prod_yoy_log",
+        "monthly_lags": 3,
+        "polynomial_order": 1,
+        "with_gdp_lag": true
+      }
+    },
+    "bridge_cpi_headline_mom_log": {
+      "kind": "bridge",
+      "spec": {
+        "fields": [
+          "cpi_headline_mom_log"
+        ],
+        "with_gdp_lag": true
+      }
+    },
+    "bridge_block_prices": {
+      "kind": "bridge",
+      "spec": {
+        "fields": [
+          "cpi_headline_mom_log",
+          "ppi_mom_log"
+        ],
+        "with_gdp_lag": true
+      }
+    },
+    "umidas_cpi_headline_mom_log": {
+      "kind": "midas",
+      "spec": {
+        "field": "cpi_headline_mom_log",
+        "monthly_lags": 3,
+        "polynomial_order": null,
+        "with_gdp_lag": true
+      }
+    },
+    "almon_cpi_headline_mom_log": {
+      "kind": "midas",
+      "spec": {
+        "field": "cpi_headline_mom_log",
+        "monthly_lags": 3,
+        "polynomial_order": 1,
+        "with_gdp_lag": true
+      }
+    }
+  },
+  "specs_variant_b": {
+    "historical_mean": {
+      "kind": "benchmark",
+      "description": "expanding mean of GDP"
+    },
+    "ar1": {
+      "kind": "benchmark",
+      "description": "OLS AR(1) on GDP"
+    },
+    "ar2": {
+      "kind": "benchmark",
+      "description": "OLS AR(2) on GDP"
+    },
+    "bridge_ppi_mom_log": {
+      "kind": "bridge",
+      "spec": {
+        "fields": [
+          "ppi_mom_log"
+        ],
+        "with_gdp_lag": true
+      }
+    },
+    "bridge_usd_uzs_mom_dlog": {
+      "kind": "bridge",
+      "spec": {
+        "fields": [
+          "usd_uzs_mom_dlog"
+        ],
+        "with_gdp_lag": true
+      }
+    },
+    "bridge_m2_yoy_log": {
+      "kind": "bridge",
+      "spec": {
+        "fields": [
+          "m2_yoy_log"
+        ],
+        "with_gdp_lag": true
+      }
+    },
+    "umidas_ppi_mom_log": {
+      "kind": "midas",
+      "spec": {
+        "field": "ppi_mom_log",
+        "monthly_lags": 3,
+        "polynomial_order": null,
+        "with_gdp_lag": true
+      }
+    },
+    "almon_ppi_mom_log": {
+      "kind": "midas",
+      "spec": {
+        "field": "ppi_mom_log",
+        "monthly_lags": 3,
+        "polynomial_order": 1,
+        "with_gdp_lag": true
+      }
+    },
+    "umidas_usd_uzs_mom_dlog": {
+      "kind": "midas",
+      "spec": {
+        "field": "usd_uzs_mom_dlog",
+        "monthly_lags": 3,
+        "polynomial_order": null,
+        "with_gdp_lag": true
+      }
+    },
+    "almon_usd_uzs_mom_dlog": {
+      "kind": "midas",
+      "spec": {
+        "field": "usd_uzs_mom_dlog",
+        "monthly_lags": 3,
+        "polynomial_order": 1,
+        "with_gdp_lag": true
+      }
+    },
+    "umidas_m2_yoy_log": {
+      "kind": "midas",
+      "spec": {
+        "field": "m2_yoy_log",
+        "monthly_lags": 3,
+        "polynomial_order": null,
+        "with_gdp_lag": true
+      }
+    },
+    "almon_m2_yoy_log": {
+      "kind": "midas",
+      "spec": {
+        "field": "m2_yoy_log",
+        "monthly_lags": 3,
+        "polynomial_order": 1,
+        "with_gdp_lag": true
+      }
+    },
+    "dfm_tierA_k1": {
+      "kind": "dfm",
+      "spec": {
+        "fields": [
+          "ppi_mom_log",
+          "usd_uzs_mom_dlog",
+          "m2_yoy_log"
+        ],
+        "n_factors": 1,
+        "with_gdp_lag": true
+      }
+    },
+    "dfm_tierB_k1": {
+      "kind": "dfm",
+      "spec": {
+        "fields": [
+          "ppi_mom_log",
+          "usd_uzs_mom_dlog",
+          "m2_yoy_log"
+        ],
+        "n_factors": 1,
+        "with_gdp_lag": true
+      }
+    },
+    "dfm_tierC_k1": {
+      "kind": "dfm",
+      "spec": {
+        "fields": [
+          "ppi_mom_log",
+          "usd_uzs_mom_dlog",
+          "m2_yoy_log"
+        ],
+        "n_factors": 1,
+        "with_gdp_lag": true
+      }
+    },
+    "dfm_tierB_k2": {
+      "kind": "dfm",
+      "spec": {
+        "fields": [
+          "ppi_mom_log",
+          "usd_uzs_mom_dlog",
+          "m2_yoy_log"
+        ],
+        "n_factors": 2,
+        "with_gdp_lag": true
+      }
+    },
+    "bridge_ind_prod_yoy_log": {
+      "kind": "bridge",
+      "spec": {
+        "fields": [
+          "ind_prod_yoy_log"
+        ],
+        "with_gdp_lag": true
+      }
+    },
+    "umidas_ind_prod_yoy_log": {
+      "kind": "midas",
+      "spec": {
+        "field": "ind_prod_yoy_log",
+        "monthly_lags": 3,
+        "polynomial_order": null,
+        "with_gdp_lag": true
+      }
+    },
+    "almon_ind_prod_yoy_log": {
+      "kind": "midas",
+      "spec": {
+        "field": "ind_prod_yoy_log",
+        "monthly_lags": 3,
+        "polynomial_order": 1,
+        "with_gdp_lag": true
+      }
+    },
+    "bridge_cpi_headline_mom_log": {
+      "kind": "bridge",
+      "spec": {
+        "fields": [
+          "cpi_headline_mom_log"
+        ],
+        "with_gdp_lag": true
+      }
+    },
+    "bridge_block_prices": {
+      "kind": "bridge",
+      "spec": {
+        "fields": [
+          "cpi_headline_mom_log",
+          "ppi_mom_log"
+        ],
+        "with_gdp_lag": true
+      }
+    },
+    "umidas_cpi_headline_mom_log": {
+      "kind": "midas",
+      "spec": {
+        "field": "cpi_headline_mom_log",
+        "monthly_lags": 3,
+        "polynomial_order": null,
+        "with_gdp_lag": true
+      }
+    },
+    "almon_cpi_headline_mom_log": {
+      "kind": "midas",
+      "spec": {
+        "field": "cpi_headline_mom_log",
+        "monthly_lags": 3,
+        "polynomial_order": 1,
+        "with_gdp_lag": true
+      }
+    }
+  }
+}

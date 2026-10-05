@@ -1,0 +1,2 @@
+model,horizon,operational_stage,n_forecasts,n_target_quarters,rmse,mae,bias,target_definition
+AR1,H3,POST_H3_LATE_INITIALIZATION,1,1,0.40000000000000036,0.40000000000000036,0.40000000000000036,VERIFIED_FIRST_RELEASE

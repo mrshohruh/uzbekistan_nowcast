@@ -1,0 +1,393 @@
+{
+  "active_bytes_after": 2413515976,
+  "active_core_guide_sha256": "13aefb483e6926cfea2652c09655fd952a0a9ed37080dc27b8234a683c4a84a4",
+  "active_files_after": 19669,
+  "archive_integrity_failures": 0,
+  "bytes_after": 2417261610,
+  "bytes_archived": 3745634,
+  "bytes_before": 2419259155,
+  "bytes_safely_deleted": 2013051,
+  "classification": "CLEANUP_PARTIAL",
+  "cleanup_artifact_hashes": {
+    "active_python_inventory.csv": "5f448aff0033220651c7371ae977b313cb9c175f45cacfca8b587ff4c697b267",
+    "after_imports.log": "732150618b38643db1266305552589f92bb046ee49e1a054f800ba9e101a86ec",
+    "after_phase6a2.log": "f51b56a5666668c78749b2f02e2cb52922d66919227d9370b1a9398efab9d948",
+    "after_phase6a2_tests.xml": "92f271d9940a6bba2a30c08d1a2d364a36a09e3cea1c77e22c0078e57a0d6e7c",
+    "after_phase6b.log": "127b9f9b28982c2bdee3d29d5c3f73ab74b67385f6eb4bfe730deee5dbb22e60",
+    "after_phase6b1.log": "de70eb9292eaacb785749a7e192677f3a82c8cec2d40542ecc0a0a598462930d",
+    "after_phase6b1_tests.xml": "2cf73c7f9d2b4dc9086619c476600aae53264fb85527ea6469014476c5d9a8ac",
+    "after_phase6b2.log": "61490057417c5248aa8fa6704d31874fea631b1c5a1213200c4f84b311da160f",
+    "after_phase6b2_tests.xml": "9bcf0256a95d5f72359b89664bd2c03d9e654479e177000d92a1ffd5d00dc9bf",
+    "after_phase6b_tests.xml": "8f8a8aa1a9f0567f5091909ecee84ca33f1ab16609a7ab7f6dd07a25907b809d",
+    "after_phase6c.log": "61490057417c5248aa8fa6704d31874fea631b1c5a1213200c4f84b311da160f",
+    "after_phase6c_tests.xml": "3327e8f43c55699c825673861cfdcd6c5d614fe0fe6b5cdb56a31f96dc7d2bc7",
+    "after_phase6d.log": "de70eb9292eaacb785749a7e192677f3a82c8cec2d40542ecc0a0a598462930d",
+    "after_phase6d_tests.xml": "d896eeaef3e871d1a4593ccb8678097ab6802b706c0ba84a291436900bce9152",
+    "after_production.log": "54cb639997cb73413525fdd2c0f122874781f8c69337000e2a9f59bf3d303c78",
+    "after_repository.log": "ae86e16ecd5a14bcd5b9533ae2ddfe092ff4b742790eddc864602892f10d30ea",
+    "after_repository_tests.xml": "c454810f8a824e1923c795467e097d528954c33117713c8fc6f3b5772846a1f2",
+    "after_shadow.log": "af7dfdac454fb7c093455f3de8f705a639a27221b3272f8813aceb467a5efd4c",
+    "archive_integrity.json": "2ca091265b025c227dcb0b02b4c1ed4c5b2da351d2f946a98fb898e71e9925ed",
+    "archived_files.csv": "138c5ca9ab8b2507e14aa78aedd84171ab3ee793a97d76bfd083acca9f293fa0",
+    "audit.log": "de49f042eb71585c20caa7d543b2c986ce6fe3da4668adab2709dc18f59a9537",
+    "audit_summary.json": "eafab01f472c4a77c13265b30cf4e1017f7b04e9fc733d3afc2c709ef50e236a",
+    "baseline_phase6a2_tests.log": "f51b56a5666668c78749b2f02e2cb52922d66919227d9370b1a9398efab9d948",
+    "baseline_phase6a2_tests.xml": "30b164803e21b567d86d9d0985e69fc16acd2e763863e0679578fc72be978f23",
+    "baseline_phase6b1_tests.log": "de70eb9292eaacb785749a7e192677f3a82c8cec2d40542ecc0a0a598462930d",
+    "baseline_phase6b1_tests.xml": "645e23554f90dd1f7ef5ea13b3e6cf7eb8629189bebdaa991a678c09d6b1d6c7",
+    "baseline_phase6b2_tests.log": "61490057417c5248aa8fa6704d31874fea631b1c5a1213200c4f84b311da160f",
+    "baseline_phase6b2_tests.xml": "0f8383dd2d6ca8bf7be7cde00e96db8f6b9182ad54272e6cd483c7a45806a950",
+    "baseline_phase6b_tests.log": "127b9f9b28982c2bdee3d29d5c3f73ab74b67385f6eb4bfe730deee5dbb22e60",
+    "baseline_phase6b_tests.xml": "38f834394135f48bed0e2aaeb2d490a2200a456842b9150bae2e7779d6697bfa",
+    "baseline_phase6c_tests.log": "61490057417c5248aa8fa6704d31874fea631b1c5a1213200c4f84b311da160f",
+    "baseline_phase6c_tests.xml": "7c019eb0933c342ffa343185b28862d361b581d45523be92bee13260e3938844",
+    "baseline_phase6d_tests.log": "de70eb9292eaacb785749a7e192677f3a82c8cec2d40542ecc0a0a598462930d",
+    "baseline_phase6d_tests.xml": "c1b9f1e6f9aceda50acd1e12aebec18ca055e633b6a4bad241230a2e9c1aeeaf",
+    "baseline_production.log": "54cb639997cb73413525fdd2c0f122874781f8c69337000e2a9f59bf3d303c78",
+    "baseline_production_reference.json": "6754118addaa2f7a07f4ffc17dd59db980cad9b1375d60802045e4fb8bdc261e",
+    "baseline_repository_tests.log": "ae86e16ecd5a14bcd5b9533ae2ddfe092ff4b742790eddc864602892f10d30ea",
+    "baseline_repository_tests.xml": "f68af5bfc8f276e8d729f184028b9f5e08f1e289a11b31b566b4fa5b6a2bc135",
+    "baseline_shadow.log": "af7dfdac454fb7c093455f3de8f705a639a27221b3272f8813aceb467a5efd4c",
+    "cleanup_console_summary.txt": "943b703daa83d824deefa8057d08d56f5f2d09b586eee007443a1a3eb6f8d8c5",
+    "cleanup_plan.csv": "1ec53c0ff19fb3fb6c5afb0b36334e177ae30c24d66c70051b9522b5aff481ef",
+    "cleanup_report.md": "3c4a2d910cb55c07fffb7f934261325f1b612b71b0e843524d5833437cd831d3",
+    "data_inventory.csv": "b1890c5e05ba4b259a84d77d5fb209b14e0c35104324c012768aa321d9069cfc",
+    "deleted_files.csv": "9e6049b69b70e90dba9afb259458fbce16431cb4975fc263d8bc7acaa37caf3b",
+    "dependency_edges.csv": "c616c96a86afb78a33211ab355bc7d3526baee239b3850efa2fe6931bf415994",
+    "duplicate_files.csv": "29fea7239d6a1c17f688c5e56614f3013852b292220e2a9d4a53a6c3a357cd65",
+    "final_verification.log": "fd6bdb40f76d6c94982fd3d5445e77c15a00645760427a8fbc572f82ab829d81",
+    "forecast_reproduction.csv": "d35a4426efcde809b71c2d16ec493f0e4a29f13446e2e70cb9d22e8dec91072d",
+    "manual_review.csv": "ecf468c6c9362ed92fc1b546a1b6dd1e2b25db07abebb0fcb753e6c3b56bb689",
+    "post_cleanup_git_status.txt": "0c8bfa88174513be71a8508e49adb361eadaa4f0d063cf6bc7526304e5df0a98",
+    "pre_cleanup_git_status.txt": "15704c0491ff9afaeec67cb1a212d512ac229c816bb4fb3a81c31fe5f5066463",
+    "production_historical_input_lookup.json": "33ebeb022d7bec7e5e80a66eb2d2f083af3bf5f732620481a669c3446011571d",
+    "protected_hash_comparison.csv": "0ed2a215cdf2388b0d1ff08ebd6bc6ec849d790696b1defadb4d436d8d28bcd5",
+    "protected_hashes_before.json": "e7f9a31e68b25bf1ec3cdbd387645d787c27bbf72a3bd84a73b5c72352f57608",
+    "quarantine.log": "1658a61a1764fbf4c8f715601a4bc6448998a2fcb87b35b5ba16848d78e7ad08",
+    "repository_inventory.csv": "7d3700c247cfef40cdd262ca35c6ce7405d7c109d4d999671e3901bd5698c6ba",
+    "result_artifact_inventory.csv": "a8d02af1b028565a6e4a8f12f430441c114e6a2235ed45904c0adc078ef1dd3f",
+    "test_inventory.csv": "1256b0f5856f1202d191c4bea980f0424e87ad9c5f82eb1aa33179efe1592369",
+    "unreadable_directories.csv": "2d2c9b0cf47e0cfd1fb9f055beb06607c578769c53e829a677f1411130d79391",
+    "validation_after_phase6a2_tests.json": "78809e1673e11475b0542dd02369ec888b5d6f4e60668c7a9d98f5aa2d6425ae",
+    "validation_after_phase6b1_tests.json": "a2c775a366e5ad894ca67ee1bf998e45233257ec6438d993839a587f3776334b",
+    "validation_after_phase6b2_tests.json": "b7f1af1ad242580ead2332825ab983f7cc12988a28955d3535d374f6fc995ddc",
+    "validation_after_phase6b_tests.json": "80ba4380f462d9c253c310d250acc1c5aad1559bba86d8b58da9b9e4620d8f34",
+    "validation_after_phase6c_tests.json": "3284a765d35b65c2764794aeba9ec1b30072d7e94ecb18a98be53bb1983847fa",
+    "validation_after_phase6d_tests.json": "4e7a787bbf446fa850f518f7e01f81a9afb172aa01a8919841c8b6767d8e2a30",
+    "validation_after_repository_tests.json": "2881ee677a27d0c5330b9c4ce3c51513bc6062f964aa7deb9688e87e0c0ae88f",
+    "validation_baseline_phase6a2_tests.json": "029dde580dda87479db086195d547bd04a2dc571c36cb01bea3699876a0978ae",
+    "validation_baseline_phase6b1_tests.json": "4a7469565da177f219388902a3b48f102848d9d8de0db72d8ff2a19c13e9f4c4",
+    "validation_baseline_phase6b2_tests.json": "936b21d45fc3935e3346c4b30fd23a42a3e4ec94d4b4f7f6bf9a09a69035db5d",
+    "validation_baseline_phase6b_tests.json": "035b080f27d331ee36d9a7d3b72a8bd8a3c958a4f7ab347296ad9e66dff63206",
+    "validation_baseline_phase6c_tests.json": "a8eca08edd5eb92330e502545ae430de57c422fc7fc57bdf2a8ea3cc10c2fef0",
+    "validation_baseline_phase6d_tests.json": "4dcb25f96aa0eb1646c7e55ca5a1fdb9e40be90c8fcfff89c5ea30f45f36892f",
+    "validation_baseline_repository_tests.json": "e042ad1b402abf9bf5d452d2ae316fd8e9f35532cf835c958acfa96f3ecdeb44",
+    "validation_imports.json": "bdabddc8cde718badabb151c1868f9d2922a026e4fd48ea28beccf200c0da2f8",
+    "validation_production.json": "6754118addaa2f7a07f4ffc17dd59db980cad9b1375d60802045e4fb8bdc261e",
+    "validation_shadow.json": "4840fb5e29c25d3dd43f01d68ba6318190f25d13fedc6fd199686bab36cb9814",
+    "validation_temporary_files_removed.csv": "e4231fe94b549f507a4af02d3f2233cab7780f40f84ca3132d0f75dce287e760"
+  },
+  "cleanup_timestamp": "2026-10-05T07:58:42.779985+00:00",
+  "duplicates_removed": 0,
+  "files_after": 19894,
+  "files_archived": 225,
+  "files_before": 20012,
+  "files_deleted": 119,
+  "files_kept": 19668,
+  "forecast_reproduction_passed": true,
+  "git_commit": "78eb713ad5cde087c0c9e20255b8c5e8dde40ebe",
+  "imports_passed": true,
+  "ledger_unchanged": true,
+  "maintenance_code_hashes": {
+    "cleanup_apply.ps1": "c1072031609d22a92dd1ceb2dfd9d75b29e679e3b6a732f1e20428988a3f97f5",
+    "cleanup_audit.py": "b1b728d7df117434a3531e47ada244b9c1589225b574bac965cf580e317ce588",
+    "cleanup_finalize.py": "441164b5baf8afaf185ec1b4edfecf654a0232747bb104024f3a9573d6213460",
+    "cleanup_seal_plan.py": "68cbd5520441f0b0822683dd0c3d4e7202366ba4f7c0c2c7d3aa3c03e40bcbbf",
+    "cleanup_validate.py": "3a08c8c7ca59ca53c537acbe98d897cb1216e63ef20a22500730f88c715b018c"
+  },
+  "manual_review_items": 147,
+  "net_space_reclaimed": 1997545,
+  "phase6d_forecast_reproduction_passed": true,
+  "pre_existing_blockers": [
+    "Pre-existing master hash drift: current inputs differ from saved production release; full frozen production CLI would reject its configuration. Do not retune or overwrite production evidence."
+  ],
+  "production_before_after_unchanged": true,
+  "production_configuration_gate_passed": false,
+  "production_forecast_reproduction_passed": true,
+  "protected_failure_details": [],
+  "protected_files_checked": 19521,
+  "protected_hash_failures": 0,
+  "protected_verification_timestamp": "2026-10-05T07:56:00.967744+00:00",
+  "python_files_active": 140,
+  "python_files_archived": 0,
+  "python_files_before": 158,
+  "python_files_deleted": 0,
+  "scope": "Project tree excluding .git, .venv, and cleanup audit/validation outputs; after-size includes archive",
+  "snapshots_unchanged": true,
+  "tests": [
+    {
+      "errors": 0,
+      "exit_code": 0,
+      "failures": 0,
+      "label": "after",
+      "passed": 15,
+      "scope": "phase6a2",
+      "skipped": 0,
+      "tests": 15
+    },
+    {
+      "errors": 0,
+      "exit_code": 0,
+      "failures": 0,
+      "label": "after",
+      "passed": 23,
+      "scope": "phase6b1",
+      "skipped": 0,
+      "tests": 23
+    },
+    {
+      "errors": 0,
+      "exit_code": 0,
+      "failures": 0,
+      "label": "after",
+      "passed": 20,
+      "scope": "phase6b2",
+      "skipped": 0,
+      "tests": 20
+    },
+    {
+      "errors": 0,
+      "exit_code": 0,
+      "failures": 0,
+      "label": "after",
+      "passed": 17,
+      "scope": "phase6b",
+      "skipped": 0,
+      "tests": 17
+    },
+    {
+      "errors": 0,
+      "exit_code": 0,
+      "failures": 0,
+      "label": "after",
+      "passed": 20,
+      "scope": "phase6c",
+      "skipped": 0,
+      "tests": 20
+    },
+    {
+      "errors": 0,
+      "exit_code": 0,
+      "failures": 0,
+      "label": "after",
+      "passed": 23,
+      "scope": "phase6d",
+      "skipped": 0,
+      "tests": 23
+    },
+    {
+      "errors": 0,
+      "exit_code": 0,
+      "failures": 0,
+      "label": "after",
+      "passed": 261,
+      "scope": "repository",
+      "skipped": 0,
+      "tests": 261
+    }
+  ],
+  "tests_failed": 0,
+  "tests_passed": 379,
+  "total_deletion_receipts": 681,
+  "unreadable_directories": [
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\.phase5d_test_tmp\\\\pytest-of-Sh.Nishonqulov'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\.phase5d_test_tmp\\pytest-of-Sh.Nishonqulov"
+    },
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\.pytest_cache'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\.pytest_cache"
+    },
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\.tmp\\\\pytest-cache-files-e_bgf97r'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\.tmp\\pytest-cache-files-e_bgf97r"
+    },
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\.tmp\\\\pytest-cache-files-r2q8zfb6'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\.tmp\\pytest-cache-files-r2q8zfb6"
+    },
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\.tmp\\\\pytest-phase2b-final'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\.tmp\\pytest-phase2b-final"
+    },
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\.tmp\\\\pytest-phase2b-run1'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\.tmp\\pytest-phase2b-run1"
+    },
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\.tmp\\\\pytest-phase2b-run2'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\.tmp\\pytest-phase2b-run2"
+    },
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\.tmp\\\\pytest-phase2c-run1'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\.tmp\\pytest-phase2c-run1"
+    },
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\.tmp\\\\pytest-phase4b'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\.tmp\\pytest-phase4b"
+    },
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\.tmp\\\\pytest-phase4b-final'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\.tmp\\pytest-phase4b-final"
+    },
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\.tmp\\\\pytest-phase4b-full'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\.tmp\\pytest-phase4b-full"
+    },
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\.tmp\\\\pytest-phase4c-full'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\.tmp\\pytest-phase4c-full"
+    },
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\.tmp\\\\pytest-phase5a'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\.tmp\\pytest-phase5a"
+    },
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\.tmp\\\\pytest-phase5a-focused-final'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\.tmp\\pytest-phase5a-focused-final"
+    },
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\.tmp\\\\pytest-phase5a-full-1'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\.tmp\\pytest-phase5a-full-1"
+    },
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\.tmp\\\\pytest-phase5a-full-final'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\.tmp\\pytest-phase5a-full-final"
+    },
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\.tmp\\\\pytest-phase5a-outside'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\.tmp\\pytest-phase5a-outside"
+    },
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\.tmp\\\\pytest-phase5a-outside-2'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\.tmp\\pytest-phase5a-outside-2"
+    },
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\.tmp\\\\pytest-phase5a-run2'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\.tmp\\pytest-phase5a-run2"
+    },
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\.tmp\\\\pytest-phase5b-focused-1'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\.tmp\\pytest-phase5b-focused-1"
+    },
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\.tmp\\\\pytest-phase5b-focused-2'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\.tmp\\pytest-phase5b-focused-2"
+    },
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\.tmp\\\\pytest-phase5b-full-1'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\.tmp\\pytest-phase5b-full-1"
+    },
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\.tmp\\\\pytest-phase5b-full-final'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\.tmp\\pytest-phase5b-full-final"
+    },
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\.tmp\\\\tmpymod7u1z'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\.tmp\\tmpymod7u1z"
+    },
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\data\\\\research\\\\phase6a2\\\\_vendor\\\\beautifulsoup4-4.15.0.dist-info'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\data\\research\\phase6a2\\_vendor\\beautifulsoup4-4.15.0.dist-info"
+    },
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\data\\\\research\\\\phase6a2\\\\_vendor\\\\bin'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\data\\research\\phase6a2\\_vendor\\bin"
+    },
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\data\\\\research\\\\phase6a2\\\\_vendor\\\\bs4'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\data\\research\\phase6a2\\_vendor\\bs4"
+    },
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\data\\\\research\\\\phase6a2\\\\_vendor\\\\fontTools'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\data\\research\\phase6a2\\_vendor\\fontTools"
+    },
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\data\\\\research\\\\phase6a2\\\\_vendor\\\\fonttools-4.66.1.dist-info'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\data\\research\\phase6a2\\_vendor\\fonttools-4.66.1.dist-info"
+    },
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\data\\\\research\\\\phase6a2\\\\_vendor\\\\pypdf'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\data\\research\\phase6a2\\_vendor\\pypdf"
+    },
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\data\\\\research\\\\phase6a2\\\\_vendor\\\\pypdf-6.19.0.dist-info'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\data\\research\\phase6a2\\_vendor\\pypdf-6.19.0.dist-info"
+    },
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\data\\\\research\\\\phase6a2\\\\_vendor\\\\share'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\data\\research\\phase6a2\\_vendor\\share"
+    },
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\data\\\\research\\\\phase6a2\\\\_vendor\\\\soupsieve'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\data\\research\\phase6a2\\_vendor\\soupsieve"
+    },
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\data\\\\research\\\\phase6a2\\\\_vendor\\\\soupsieve-2.10.dist-info'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\data\\research\\phase6a2\\_vendor\\soupsieve-2.10.dist-info"
+    },
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\data\\\\research\\\\phase6a2\\\\_vendor\\\\typing_extensions-4.16.0.dist-info'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\data\\research\\phase6a2\\_vendor\\typing_extensions-4.16.0.dist-info"
+    },
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\data\\\\research\\\\phase6a2\\\\_vendor\\\\xlrd'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\data\\research\\phase6a2\\_vendor\\xlrd"
+    },
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\data\\\\research\\\\phase6a2\\\\_vendor\\\\xlrd-2.0.2.dist-info'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\data\\research\\phase6a2\\_vendor\\xlrd-2.0.2.dist-info"
+    },
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\data\\\\research\\\\phase6a2\\\\_vendor\\\\__pycache__'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\data\\research\\phase6a2\\_vendor\\__pycache__"
+    },
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\results\\\\phase6c\\\\pytest-cache-files-6pmifj01'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\results\\phase6c\\pytest-cache-files-6pmifj01"
+    },
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\results\\\\phase6c\\\\pytest-cache-files-9cwgs6gb'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\results\\phase6c\\pytest-cache-files-9cwgs6gb"
+    },
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\results\\\\phase6c\\\\pytest-cache-files-b8v14r2k'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\results\\phase6c\\pytest-cache-files-b8v14r2k"
+    },
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\results\\\\phase6c\\\\pytest-cache-files-w5569raz'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\results\\phase6c\\pytest-cache-files-w5569raz"
+    },
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\results\\\\phase6c\\\\repository_test_tmp'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\results\\phase6c\\repository_test_tmp"
+    },
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\results\\\\research\\\\phase6a2\\\\_pytest_temp'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\results\\research\\phase6a2\\_pytest_temp"
+    },
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\results\\\\research\\\\phase6b2\\\\test_tmp_models'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\results\\research\\phase6b2\\test_tmp_models"
+    },
+    {
+      "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\results\\\\research\\\\phase6b2\\\\test_tmp_models_verified'",
+      "path": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\results\\research\\phase6b2\\test_tmp_models_verified"
+    }
+  ],
+  "unreadable_existing_files": [
+    "data/research/phase6a2/_vendor/typing_extensions.py"
+  ],
+  "validation_command": ".venv/Scripts/python.exe scripts/maintenance/cleanup_validate.py shadow",
+  "validation_temporary_files_deleted": 562
+}

@@ -1,0 +1,2 @@
+target_quarter,first_release_date,first_release_value,latest_revised_value,source,source_verified,ingested_timestamp,eligible_for_scoring,evidence_status
+2026Q3,2026-10-06,8.4000000000000004,8.4000000000000004,https://stat.uz/test,True,2026-10-06T10:00:00Z,True,REVIEWED_OFFICIAL_FIRST_RELEASE

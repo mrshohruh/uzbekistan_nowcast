@@ -1,0 +1,18 @@
+{
+  "run_id": "fixture",
+  "variable_key": "cpi_headline",
+  "provider": "SIAT",
+  "source_id": "1.11.01.0002",
+  "source_url": "https://api.siat.stat.uz/sdmx/1286/table/download/?download_format=json",
+  "response_url": "https://api.siat.stat.uz/sdmx/1286/table/download/?download_format=json",
+  "retrieved_at": "2026-10-05T09:02:52.506710+00:00",
+  "source_release_date": "2026-09-02T14:12:47.106082+05:00",
+  "source_release_basis": "dataset_update_timestamp; not historical first release",
+  "http_status": 200,
+  "content_type": "application/json",
+  "raw_file_path": "data/raw/siat/cpi_headline/20261005T090252506710Z_7114c41dcc3444a6bdd9f5be1396200f.payload",
+  "checksum": "9e375c429d1c046d8bc8673874b251e1de999c745b9a30cceaccabf77133c23a",
+  "schema_fingerprint": "752a9b4615dfe0332c9536587cec6f99b69eef70e752349fe7d3a34a018f1048",
+  "parser_version": "0.1.0",
+  "rows_raw": null
+}

@@ -1,0 +1,26 @@
+{
+  "artifacts": {
+    "fit.json": "fbcadb550301784dc3add195708fe1ceb2ae02f1095220fc760e95305c957092",
+    "forecasts.json": "4fc2f847425ea3d943c18a136914b41436be5980a8c6d4502c10bf50c884e400",
+    "inputs.json": "2f1c8d60e3533af021603ad26b5c1af3da785324a8ab2f6988b1dcbc30def9d0"
+  },
+  "code_hashes": {
+    "scripts/research/phase6b2/run.py": "12ec133c34069d8d828134553070d4951f4c6c0106099047d8221f59c086999f",
+    "scripts/research/phase6b2/vintages.py": "f25d195715001db703de6c18041096c3b56960f7f833370fa8ad592e67cb33e8",
+    "scripts/research/phase6c/kernel.py": "7302a0faa8fb7075bc75be043b8438f7957bd609e19a67352d44668ea75f35f7",
+    "scripts/research/phase6d/common.py": "f248c9ce39b026a969bb955ce92b859b4f1acea7dd938544a69cbbad434d7739",
+    "scripts/research/phase6d/evaluation.py": "df1e3a8f814e67ecf5afdc6919e7ba0a28b0997a939e4f176db166aa82babe9e",
+    "scripts/research/phase6d/frozen.py": "55e92694f997322323d177f1102ddea9b43649d899be2796ce52cdc8dda50cf1",
+    "scripts/research/phase6d/inputs.py": "439adac90f545adabe26539aeeffc8a9a4091c3cf22e0eb0cf8b357b536e947f",
+    "scripts/research/phase6d/monitor.py": "93e34d21dd7526d42c0d3f67765811214fdc059c3da9265b55d2fd59b821bdaa",
+    "scripts/research/phase6d/sources.py": "85dbb8a868d425b5262980f0baa8063913fb9b7eec8b8c165b32054ef48cb5a5",
+    "src/uznowcast/models/benchmarks.py": "ada2f22e69c8c920d065431d75dc0343ea92da0e9121f518b1b89a5e45ed5f9a",
+    "src/uznowcast/models/data.py": "5084a2bae25f9c2ef71caacf60c45af165ff0624b209b4774c6b865ad6fd943e",
+    "src/uznowcast/models/midas.py": "bfcf9608cce432eff8bab134dd4f4dadc3bb5fa4172c125f4d15d82ef4f7d21d",
+    "src/uznowcast/registry.py": "4ec23ef75882282c2bbe156a7eb4cf51ce829aa656679df61fb3c0504c1a5cd1",
+    "src/uznowcast/shadow/storage.py": "cbdbdf91130dd2a9142dce18e587e7a81cbfe92074414d3e821a336e4cfa4398"
+  },
+  "input_data_hash": "e434f7fb14b4e0de9cde14117b7a84ae735d8d07047d7897dc9e31e8c53d8f5b",
+  "snapshot_id": "ba536eba42aa879ded003f522d5465a5f61a6abc819b38f0431a983d7bb3f1c1",
+  "timestamp": "2026-10-05T06:24:03.030858+00:00"
+}

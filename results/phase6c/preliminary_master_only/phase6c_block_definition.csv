@@ -1,0 +1,29 @@
+variable,economic_block,eligible_for_long_core,eligible_for_ragged_panel,reason_for_exclusion_if_any
+industrial_production,PRODUCTION,False,True,
+manufacturing,PRODUCTION,False,True,
+mining,PRODUCTION,False,True,
+electricity_gas,PRODUCTION,False,True,
+construction,DOMESTIC_DEMAND,False,True,
+retail_trade,DOMESTIC_DEMAND,False,True,
+wholesale_trade,DOMESTIC_DEMAND,False,True,
+cpi_headline,PRICES,False,True,
+cpi_food,PRICES,False,False,redundant_CPI_subcomponents; retain_headline_and_PPI
+cpi_services,PRICES,False,False,redundant_CPI_subcomponents; retain_headline_and_PPI
+ppi,PRICES,True,True,
+exports_total,EXTERNAL,False,True,
+exports_non_gold,EXTERNAL,False,False,redundant_or_proxy_trade_measure; use_total_exports_only
+imports_total,EXTERNAL,False,True,
+gold_exports_proxy,EXTERNAL,False,False,redundant_or_proxy_trade_measure; use_total_exports_only
+usd_uzs,FINANCIAL,True,True,
+rub_uzs,FINANCIAL,True,True,
+gold_price,EXTERNAL,True,True,
+russia_ipi,EXTERNAL,False,False,no_validated_stored_Rosstat_observations; approved acquisition previously failed TLS
+m2,FINANCIAL,True,True,
+household_deposits,CREDIT_BANKING,False,False,fewer_than_24_pre_holdout_months
+corporate_deposits,CREDIT_BANKING,False,False,fewer_than_24_pre_holdout_months
+household_credit,CREDIT_BANKING,False,False,fewer_than_24_pre_holdout_months
+corporate_credit,CREDIT_BANKING,False,False,fewer_than_24_pre_holdout_months
+fx_reserves_ex_gold,FINANCIAL,True,True,
+pos_turnover,PAYMENTS,False,False,fewer_than_24_pre_holdout_months
+instant_payments,PAYMENTS,False,False,fewer_than_24_pre_holdout_months
+interbank_payments,PAYMENTS,False,False,fewer_than_24_pre_holdout_months

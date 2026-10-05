@@ -1,0 +1,18 @@
+{
+  "run_id": "fixture",
+  "variable_key": "imports_total",
+  "provider": "SIAT",
+  "source_id": "1.08.03.0022",
+  "source_url": "https://api.siat.stat.uz/sdmx/1162/table/download/?download_format=json",
+  "response_url": "https://api.siat.stat.uz/sdmx/1162/table/download/?download_format=json",
+  "retrieved_at": "2026-10-05T04:55:09.529086+00:00",
+  "source_release_date": "2026-09-02T14:12:47.106082+05:00",
+  "source_release_basis": "dataset_update_timestamp; not historical first release",
+  "http_status": 200,
+  "content_type": "application/json",
+  "raw_file_path": "data/raw/siat/imports_total/20261005T045509529086Z_9a4fc09650454b7b8f7934f9f0cf46f5.payload",
+  "checksum": "8e28640c2d294c2939de332ddebfa47eb6d3c59e7b159ba674430e06e05b0bc5",
+  "schema_fingerprint": "752a9b4615dfe0332c9536587cec6f99b69eef70e752349fe7d3a34a018f1048",
+  "parser_version": "0.1.0",
+  "rows_raw": null
+}

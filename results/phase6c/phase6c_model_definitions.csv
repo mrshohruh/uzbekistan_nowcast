@@ -1,0 +1,31 @@
+name,fields,factors,order,start,balanced,winsor,bridges,aggregation,experiment_stage
+DFM-1,"('industrial_production', 'ppi', 'usd_uzs', 'rub_uzs', 'gold_price', 'm2', 'fx_reserves_ex_gold')",1,1,2019-01-31,False,False,A,mean,DFM-1
+DFM-2_CORE,"('industrial_production', 'ppi', 'usd_uzs', 'rub_uzs', 'gold_price', 'm2', 'fx_reserves_ex_gold')",1,1,2019-01-31,True,False,A,mean,DFM-2
+DFM-2_PLUS_DOMESTIC_DEMAND,"('industrial_production', 'ppi', 'usd_uzs', 'rub_uzs', 'gold_price', 'm2', 'fx_reserves_ex_gold', 'construction', 'retail_trade')",1,1,2019-01-31,True,False,A,mean,DFM-2
+DFM-2_PLUS_PRICES,"('industrial_production', 'ppi', 'usd_uzs', 'rub_uzs', 'gold_price', 'm2', 'fx_reserves_ex_gold', 'cpi_headline')",1,1,2019-01-31,True,False,A,mean,DFM-2
+DFM-2_PLUS_EXTERNAL,"('industrial_production', 'ppi', 'usd_uzs', 'rub_uzs', 'gold_price', 'm2', 'fx_reserves_ex_gold', 'exports_total', 'imports_total')",1,1,2019-01-31,True,False,A,mean,DFM-2
+DFM-2_PLUS_PAYMENTS,"('industrial_production', 'ppi', 'usd_uzs', 'rub_uzs', 'gold_price', 'm2', 'fx_reserves_ex_gold', 'pos_turnover')",1,1,2019-01-31,True,False,A,mean,DFM-2
+DFM-2_COMBINED,"('industrial_production', 'construction', 'retail_trade', 'cpi_headline', 'ppi', 'exports_total', 'imports_total', 'usd_uzs', 'rub_uzs', 'gold_price', 'm2', 'fx_reserves_ex_gold', 'pos_turnover')",1,1,2019-01-31,True,False,A,mean,DFM-2
+DFM-3,"('industrial_production', 'ppi', 'usd_uzs', 'rub_uzs', 'gold_price', 'm2', 'fx_reserves_ex_gold', 'pos_turnover')",1,1,2019-01-31,False,False,A,mean,DFM-3
+DFM-3_COMBINED,"('industrial_production', 'construction', 'retail_trade', 'cpi_headline', 'ppi', 'exports_total', 'imports_total', 'usd_uzs', 'rub_uzs', 'gold_price', 'm2', 'fx_reserves_ex_gold', 'pos_turnover')",1,1,2019-01-31,False,False,A,mean,DFM-3
+DFM-4_R1_P1,"('industrial_production', 'ppi', 'usd_uzs', 'rub_uzs', 'gold_price', 'm2', 'fx_reserves_ex_gold', 'pos_turnover')",1,1,2019-01-31,True,False,A,mean,DFM-4
+DFM-4_R1_P2,"('industrial_production', 'ppi', 'usd_uzs', 'rub_uzs', 'gold_price', 'm2', 'fx_reserves_ex_gold', 'pos_turnover')",1,2,2019-01-31,True,False,A,mean,DFM-4
+DFM-4_R2_P1,"('industrial_production', 'ppi', 'usd_uzs', 'rub_uzs', 'gold_price', 'm2', 'fx_reserves_ex_gold', 'pos_turnover')",2,1,2019-01-31,True,False,A,mean,DFM-4
+DFM-4_R2_P2,"('industrial_production', 'ppi', 'usd_uzs', 'rub_uzs', 'gold_price', 'm2', 'fx_reserves_ex_gold', 'pos_turnover')",2,2,2019-01-31,True,False,A,mean,DFM-4
+DFM-4_R3_P1,"('industrial_production', 'ppi', 'usd_uzs', 'rub_uzs', 'gold_price', 'm2', 'fx_reserves_ex_gold', 'pos_turnover')",3,1,2019-01-31,True,False,A,mean,DFM-4
+DFM-4_R3_P2,"('industrial_production', 'ppi', 'usd_uzs', 'rub_uzs', 'gold_price', 'm2', 'fx_reserves_ex_gold', 'pos_turnover')",3,2,2019-01-31,True,False,A,mean,DFM-4
+DFM-4_R1_P2,"('industrial_production', 'ppi', 'usd_uzs', 'rub_uzs', 'gold_price', 'm2', 'fx_reserves_ex_gold', 'pos_turnover')",1,2,2019-01-31,True,False,"A,B,C",mean,DFM-5_BRIDGE_COMPARISON
+DFM-4_R1_P2,"('industrial_production', 'ppi', 'usd_uzs', 'rub_uzs', 'gold_price', 'm2', 'fx_reserves_ex_gold', 'pos_turnover')",1,2,2019-01-31,True,False,"A,B,C",end,DFM-5_BRIDGE_COMPARISON
+ROBUST_START_2020,"('industrial_production', 'ppi', 'usd_uzs', 'rub_uzs', 'gold_price', 'm2', 'fx_reserves_ex_gold', 'pos_turnover')",1,2,2020-01-31,True,False,B,mean,ROBUSTNESS
+ROBUST_WINSOR_1_99,"('industrial_production', 'ppi', 'usd_uzs', 'rub_uzs', 'gold_price', 'm2', 'fx_reserves_ex_gold', 'pos_turnover')",1,2,2019-01-31,True,True,B,mean,ROBUSTNESS
+ABLATE_EXTERNAL,"('industrial_production', 'ppi', 'usd_uzs', 'rub_uzs', 'm2', 'fx_reserves_ex_gold', 'pos_turnover')",1,2,2019-01-31,True,False,B,mean,ROBUSTNESS
+ABLATE_FINANCIAL,"('industrial_production', 'ppi', 'gold_price', 'pos_turnover')",1,2,2019-01-31,True,False,B,mean,ROBUSTNESS
+ABLATE_PAYMENTS,"('industrial_production', 'ppi', 'usd_uzs', 'rub_uzs', 'gold_price', 'm2', 'fx_reserves_ex_gold')",1,2,2019-01-31,True,False,B,mean,ROBUSTNESS
+ABLATE_PRICES,"('industrial_production', 'usd_uzs', 'rub_uzs', 'gold_price', 'm2', 'fx_reserves_ex_gold', 'pos_turnover')",1,2,2019-01-31,True,False,B,mean,ROBUSTNESS
+ABLATE_PRODUCTION,"('ppi', 'usd_uzs', 'rub_uzs', 'gold_price', 'm2', 'fx_reserves_ex_gold', 'pos_turnover')",1,2,2019-01-31,True,False,B,mean,ROBUSTNESS
+ROBUST_NO_GOLD,"('industrial_production', 'ppi', 'usd_uzs', 'rub_uzs', 'm2', 'fx_reserves_ex_gold', 'pos_turnover')",1,2,2019-01-31,True,False,B,mean,ROBUSTNESS
+ROBUST_NO_USD,"('industrial_production', 'ppi', 'rub_uzs', 'gold_price', 'm2', 'fx_reserves_ex_gold', 'pos_turnover')",1,2,2019-01-31,True,False,B,mean,ROBUSTNESS
+ROBUST_NO_RUB,"('industrial_production', 'ppi', 'usd_uzs', 'gold_price', 'm2', 'fx_reserves_ex_gold', 'pos_turnover')",1,2,2019-01-31,True,False,B,mean,ROBUSTNESS
+DFM-4_R1_P2,"('industrial_production', 'ppi', 'usd_uzs', 'rub_uzs', 'gold_price', 'm2', 'fx_reserves_ex_gold', 'pos_turnover')",1,2,2019-01-31,True,False,B,mean,DFM-4
+DFM-1_SHORT_HISTORY_CONTROL,"('industrial_production', 'ppi', 'usd_uzs', 'rub_uzs', 'gold_price', 'm2', 'fx_reserves_ex_gold')",1,1,2021-01-31,False,False,A,mean,DFM-1
+ROBUST_NO_FX,"('industrial_production', 'ppi', 'gold_price', 'm2', 'fx_reserves_ex_gold', 'pos_turnover')",1,2,2019-01-31,True,False,B,mean,ROBUSTNESS

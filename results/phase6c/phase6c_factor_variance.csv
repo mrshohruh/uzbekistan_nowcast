@@ -1,0 +1,26 @@
+specification,factor,factor_variance,variance_of_own_common_component,interpretation
+ABLATE_EXTERNAL,1,2.3480430406898232,1.4206341836954586,Own common-component variance; not additive explained variance if factors correlate
+ABLATE_FINANCIAL,1,2.0159290999207173,0.81515242755735773,Own common-component variance; not additive explained variance if factors correlate
+ABLATE_PAYMENTS,1,2.4736278467857229,1.0822417682757566,Own common-component variance; not additive explained variance if factors correlate
+ABLATE_PRICES,1,2.8561823146772927,1.4167263124358795,Own common-component variance; not additive explained variance if factors correlate
+ABLATE_PRODUCTION,1,3.4555298264065155,1.4209705815706211,Own common-component variance; not additive explained variance if factors correlate
+DFM-1,1,1.1422944773202821,0.71908356529585138,Own common-component variance; not additive explained variance if factors correlate
+DFM-2_CORE,1,1.1422944773202821,0.71908356529585138,Own common-component variance; not additive explained variance if factors correlate
+DFM-2_PLUS_PAYMENTS,1,2.8994935419416872,1.4488720400295174,Own common-component variance; not additive explained variance if factors correlate
+DFM-3,1,2.8994935419416872,1.4488720400295174,Own common-component variance; not additive explained variance if factors correlate
+DFM-3_COMBINED,1,3.4470273480038065,2.3407541322295802,Own common-component variance; not additive explained variance if factors correlate
+DFM-4_R1_P1,1,2.8994935419416872,1.4488720400295174,Own common-component variance; not additive explained variance if factors correlate
+DFM-4_R1_P2,1,3.2457746990873755,1.4215544997668923,Own common-component variance; not additive explained variance if factors correlate
+DFM-4_R2_P1,1,2.7167547557200802,1.4214774821692375,Own common-component variance; not additive explained variance if factors correlate
+DFM-4_R2_P1,2,4.1618969651570108,1.2617383658344248,Own common-component variance; not additive explained variance if factors correlate
+DFM-4_R2_P2,1,2.77795359727302,1.4059594608295067,Own common-component variance; not additive explained variance if factors correlate
+DFM-4_R2_P2,2,4.3165565810630406,1.2285864884803233,Own common-component variance; not additive explained variance if factors correlate
+DFM-4_R3_P2,1,1.8718492576877239,2.1668578085235857,Own common-component variance; not additive explained variance if factors correlate
+DFM-4_R3_P2,2,9.7186782946725003,0.64012584456436317,Own common-component variance; not additive explained variance if factors correlate
+DFM-4_R3_P2,3,4.5431656351645762,0.88884754011640676,Own common-component variance; not additive explained variance if factors correlate
+ROBUST_NO_FX,1,2.2051378482423933,1.3750368401250359,Own common-component variance; not additive explained variance if factors correlate
+ROBUST_NO_GOLD,1,2.3480430406898232,1.4206341836954586,Own common-component variance; not additive explained variance if factors correlate
+ROBUST_NO_RUB,1,3.0738737989161913,1.4174986814299952,Own common-component variance; not additive explained variance if factors correlate
+ROBUST_NO_USD,1,2.2228431940491644,1.3790753202929087,Own common-component variance; not additive explained variance if factors correlate
+ROBUST_START_2020,1,1.8418630330327281,1.3209161040289839,Own common-component variance; not additive explained variance if factors correlate
+ROBUST_WINSOR_1_99,1,3.00187946630466,1.4128434439038815,Own common-component variance; not additive explained variance if factors correlate

@@ -1,0 +1,10 @@
+{
+  "tests": 318,
+  "errors": 0,
+  "failures": 1,
+  "skipped": 2,
+  "passed": 315,
+  "exit_code": 1,
+  "scope": "all",
+  "Windows_temp_factory": "inherited ACL; test assertions unchanged"
+}

@@ -1,0 +1,5 @@
+lag_mode,evaluation_group,n,revision_correlation
+conservative,DEVELOPMENT,22,-0.7445604896875323
+conservative,HOLDOUT,8,-0.24878713639345126
+standard,DEVELOPMENT,22,0.021190785943815283
+standard,HOLDOUT,8,-0.54229695753502016

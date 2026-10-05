@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "snapshot_id": "d1a9e5c4426f706b2007d26299921f2b5c788ac67bea615d577627d737664614",
+  "forecasts": [
+    {
+      "model": "AR1",
+      "before": 8.114253474801604,
+      "after": 8.114253474801604,
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "AR2",
+      "before": 7.4573051855007195,
+      "after": 7.4573051855007195,
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "UMIDAS_USD",
+      "before": 8.060649795767965,
+      "after": 8.060649795767965,
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "PRODUCTION_ENSEMBLE",
+      "before": 7.758977490634342,
+      "after": 7.758977490634342,
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "PHASE6C_DFM",
+      "before": 8.301152885464585,
+      "after": 8.301152885464585,
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "COMBO_50_50",
+      "before": 8.180901340616275,
+      "after": 8.180901340616275,
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "COMBO_DEV_WEIGHT",
+      "before": 8.19145515840353,
+      "after": 8.19145515840353,
+      "absolute_difference": 0.0
+    }
+  ],
+  "ledger_unchanged": true,
+  "mode": "VALIDATION_ONLY_NO_WRITES_TO_PHASE6D",
+  "tolerance": 1e-08
+}

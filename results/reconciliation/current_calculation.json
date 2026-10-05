@@ -1,0 +1,81 @@
+{
+  "timestamp_utc": "2026-10-05T09:01:05.872217+00:00",
+  "as_of_date": "2026-10-05",
+  "target": {
+    "target_quarter": "2026Q3",
+    "latest_known_gdp_quarter": "2026Q2",
+    "latest_known_gdp_growth": 8.5,
+    "known_gdp_quarters": [
+      "2018Q1",
+      "2018Q2",
+      "2018Q3",
+      "2018Q4",
+      "2019Q1",
+      "2019Q2",
+      "2019Q3",
+      "2019Q4",
+      "2020Q1",
+      "2020Q2",
+      "2020Q3",
+      "2020Q4",
+      "2021Q1",
+      "2021Q2",
+      "2021Q3",
+      "2021Q4",
+      "2022Q1",
+      "2022Q2",
+      "2022Q3",
+      "2022Q4",
+      "2023Q1",
+      "2023Q2",
+      "2023Q3",
+      "2023Q4",
+      "2024Q1",
+      "2024Q2",
+      "2024Q3",
+      "2024Q4",
+      "2025Q1",
+      "2025Q2",
+      "2025Q3",
+      "2025Q4",
+      "2026Q1",
+      "2026Q2"
+    ],
+    "gdp_release_lag_days": 31,
+    "release_eligible_monthly_records_in_target_quarter": 38,
+    "latest_release_eligible_target_quarter_month": "2026-09-30",
+    "reason": "Saved production target retained for master-state reconciliation; availability and horizon are evaluated at the current as-of date."
+  },
+  "operational_stage": {
+    "horizon": "H3",
+    "operational_stage": "H3",
+    "calendar_stage": "H3",
+    "information_cutoff": "2026-10-05",
+    "complete_target_quarter_signal_months": [
+      "2026-07-31",
+      "2026-08-31",
+      "2026-09-30"
+    ],
+    "complete_target_quarter_signal_count": 3,
+    "next_missing_signal_month": null,
+    "stage_downgraded_from_calendar": false,
+    "reason": "H3 is the highest contiguous stage supported by 3 complete, release-eligible USD/UZS target-quarter monthly aggregate(s).",
+    "warnings": []
+  },
+  "input_hashes": {
+    "monthly_master_hash": "30bed04601df4010d0cf995892c8b4ac3cf211a46f61e2c8f5772e00fac30d04",
+    "quarterly_master_hash": "196a8c980895163efc5fd9a25dca93523b1b25719057149a21637a2925457b51",
+    "registry_hash": "0659713cea0fea42c3823a3be26dd116ba15f2b292f269ba5f7e1c7b99abbb33"
+  },
+  "forecasts": {
+    "ar1": 8.037443796835966,
+    "ar2": 7.333857441688032,
+    "umidas_usd_uzs_mom_dlog": 7.979937793462349,
+    "ensemble_ar2_umidas_usd": 7.65689761757519
+  },
+  "target_selection_mode": "SAVED_PRODUCTION_TARGET",
+  "calendar_detected_target": "2026Q4",
+  "scope": "CURRENT_OPERATIONAL_STATE",
+  "publication_ready": false,
+  "limitation": "Read-only calculation under unchanged operational availability policy; no official release or prospective snapshot."
+}

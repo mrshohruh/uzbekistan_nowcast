@@ -1,0 +1,3 @@
+variable,period,old_value,new_value,source,retrieval_timestamp,revision_reason_if_available
+usd_uzs,2026-10,,,CBU,2026-10-05T11:00:52.843420+00:00,Validated source observation
+rub_uzs,2026-10,,,CBU,2026-10-05T11:00:52.843420+00:00,Validated source observation

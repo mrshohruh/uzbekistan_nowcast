@@ -1,0 +1,18 @@
+{
+  "run_id": "fixture",
+  "variable_key": "construction",
+  "provider": "SIAT",
+  "source_id": "1.04.02.0002",
+  "source_url": "https://api.siat.stat.uz/sdmx/2403/table/download/?download_format=json",
+  "response_url": "https://api.siat.stat.uz/sdmx/2403/table/download/?download_format=json",
+  "retrieved_at": "2026-10-05T06:29:19.232007+00:00",
+  "source_release_date": "2026-09-02T14:12:47.106082+05:00",
+  "source_release_basis": "dataset_update_timestamp; not historical first release",
+  "http_status": 200,
+  "content_type": "application/json",
+  "raw_file_path": "data/raw/siat/construction/20261005T062919232007Z_04034f94c7dc4aceac27272915d374d0.payload",
+  "checksum": "e4f208c1e57b76b854b48bcc497cfef5d626958fd8b3d25c804cfc845156f6ed",
+  "schema_fingerprint": "752a9b4615dfe0332c9536587cec6f99b69eef70e752349fe7d3a34a018f1048",
+  "parser_version": "0.1.0",
+  "rows_raw": null
+}

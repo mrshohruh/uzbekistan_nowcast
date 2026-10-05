@@ -1,0 +1,156 @@
+{
+  "run_id": "d578046303d84c7898b7d39e0ddffe3f",
+  "started_at": "2026-10-05T09:02:51.513764+00:00",
+  "scope": "Phase 2A",
+  "series": {
+    "gdp_real_yoy": {
+      "status": "passed_with_warnings",
+      "rows": 34,
+      "start": "2018Q1",
+      "end": "2026Q2",
+      "clean_start": "2018Q1",
+      "clean_end": "2026Q2",
+      "clean_count": 34,
+      "missing_periods": [],
+      "quality_flags": {},
+      "negative_raw_count": 0,
+      "warnings": [
+        "Historical first-release dates unavailable; retrieved vintages are not first-release history.",
+        "2018+ national-accounts series was revised for non-observed economy; recent years may be preliminary.",
+        "Published quarterly convention retained; no standalone-quarter reconstruction from reported growth rates."
+      ],
+      "registry_verified_start": "2018-Q1",
+      "registry_verified_end": "2026-Q2",
+      "annual_reconciliation": []
+    },
+    "industrial_production": {
+      "status": "passed_with_warnings",
+      "rows": 91,
+      "start": "2019-01",
+      "end": "2026-07",
+      "clean_start": "2020-01",
+      "clean_end": "2026-07",
+      "clean_count": 79,
+      "missing_periods": [],
+      "quality_flags": {
+        "missing_growth_input": 12,
+        "extreme_log_change": 2
+      },
+      "negative_raw_count": 0,
+      "warnings": [
+        "Historical first-release dates unavailable; retrieved vintages are not first-release history.",
+        "Current-price activity; not a physical-volume measure. Sensitivity: deflate with PPI or substitute physical-volume index."
+      ],
+      "registry_verified_start": "2019-M01",
+      "registry_verified_end": "2026-M07",
+      "annual_reconciliation": [
+        {
+          "year": 2019,
+          "monthly_sum": 322535.8,
+          "december_ytd": 322535.8,
+          "passed": true
+        },
+        {
+          "year": 2020,
+          "monthly_sum": 368740.2,
+          "december_ytd": 368740.2,
+          "passed": true
+        },
+        {
+          "year": 2021,
+          "monthly_sum": 456056.1,
+          "december_ytd": 456056.1,
+          "passed": true
+        },
+        {
+          "year": 2022,
+          "monthly_sum": 553265.0,
+          "december_ytd": 553265.0,
+          "passed": true
+        },
+        {
+          "year": 2023,
+          "monthly_sum": 658991.7,
+          "december_ytd": 658991.7,
+          "passed": true
+        },
+        {
+          "year": 2024,
+          "monthly_sum": 885818.9,
+          "december_ytd": 885818.9,
+          "passed": true
+        },
+        {
+          "year": 2025,
+          "monthly_sum": 1101130.8,
+          "december_ytd": 1101130.8,
+          "passed": true
+        }
+      ]
+    },
+    "usd_uzs": {
+      "status": "passed_with_warnings",
+      "rows": 1,
+      "start": "2026-09",
+      "end": "2026-09",
+      "clean_start": null,
+      "clean_end": null,
+      "clean_count": 0,
+      "missing_periods": [],
+      "quality_flags": {
+        "partial_month": 1,
+        "missing_growth_input": 1
+      },
+      "negative_raw_count": 0,
+      "warnings": [
+        "Historical first-release dates unavailable; retrieved vintages are not first-release history.",
+        "2017 FX liberalization is a major structural break, though it predates most V1 real-activity series.",
+        "Coverage starts after registry verified start: 2026-09 > 2013-01"
+      ],
+      "registry_verified_start": "2013-M01",
+      "registry_verified_end": "current",
+      "annual_reconciliation": []
+    }
+  },
+  "failures": {},
+  "offline": true,
+  "refresh": false,
+  "registry_version": "V1.1",
+  "registry_verification_date": "2026-09-29",
+  "registry_sha256": "e719e8970b20b4a25acf04c7dc822ecab1ba91af6acf2145990cb67d94986f8d",
+  "registry_count": 29,
+  "fx_request_range": {
+    "start": "2026-09-29",
+    "end": "2026-09-29"
+  },
+  "usd_uzs_daily": {
+    "status": "passed_with_warnings",
+    "rows": 1,
+    "start": "2026-09-29",
+    "end": "2026-09-29",
+    "clean_start": "2026-09-29",
+    "clean_end": "2026-09-29",
+    "clean_count": 1,
+    "missing_periods": [],
+    "quality_flags": {},
+    "negative_raw_count": 0,
+    "warnings": [
+      "Historical first-release dates unavailable; retrieved vintages are not first-release history.",
+      "2017 FX liberalization is a major structural break, though it predates most V1 real-activity series.",
+      "Coverage starts after registry verified start: 2026-09 > 2013-01",
+      "Calendar-day gaps are reported, not filled; official activation dates only."
+    ],
+    "registry_verified_start": "2013-M01",
+    "registry_verified_end": "current",
+    "annual_reconciliation": []
+  },
+  "revision_records": 0,
+  "master_columns": [
+    "date",
+    "ind_prod_yoy_log",
+    "usd_uzs_mom_dlog"
+  ],
+  "master_rows": 93,
+  "quarterly_rows": 34,
+  "status": "passed_with_warnings"
+}

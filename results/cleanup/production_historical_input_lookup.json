@@ -1,0 +1,28 @@
+{
+  "monthly_master_hash": [],
+  "quarterly_master_hash": [],
+  "registry_hash": [
+    "registry/uzbekistan_nowcasting_v1.2_registry.xlsx",
+    "results/phase6c/t_7c6c1a15/test_failure7410c952/registry/uzbekistan_nowcasting_v1.2_registry.xlsx",
+    "results/phase6c/t_7c6c1a15/test_offlinedfd406df/registry/uzbekistan_nowcasting_v1.2_registry.xlsx",
+    "results/phase6c/t_7c6c1a15/test_phase2b0fb1ee0b/registry/uzbekistan_nowcasting_v1.2_registry.xlsx",
+    "results/phase6c/t_7c6c1a15/test_run_pha8f307c1b/registry/uzbekistan_nowcasting_v1.2_registry.xlsx",
+    "results/phase6c/t_7c6c1a15/test_run_phaf333b161/registry/uzbekistan_nowcasting_v1.2_registry.xlsx",
+    "results/phase6c/test_workspace_8bf0cf203e164ebc9310756b93d90db7/test_failure_does_not_publish_092fb198/registry/uzbekistan_nowcasting_v1.2_registry.xlsx",
+    "results/phase6c/test_workspace_8bf0cf203e164ebc9310756b93d90db7/test_offline_build_replay_deteaae82a02/registry/uzbekistan_nowcasting_v1.2_registry.xlsx",
+    "results/phase6c/test_workspace_8bf0cf203e164ebc9310756b93d90db7/test_phase2b_offline_build_rep84e7c4bf/registry/uzbekistan_nowcasting_v1.2_registry.xlsx",
+    "results/phase6c/test_workspace_8bf0cf203e164ebc9310756b93d90db7/test_run_phase_4a1_excludes_hoe826b321/registry/uzbekistan_nowcasting_v1.2_registry.xlsx",
+    "results/phase6c/test_workspace_8bf0cf203e164ebc9310756b93d90db7/test_run_phase_4a1_records_fin03d5a6f3/registry/uzbekistan_nowcasting_v1.2_registry.xlsx",
+    "results/phase6d/code_archive/0659713cea0fea42c3823a3be26dd116ba15f2b292f269ba5f7e1c7b99abbb33",
+    "results/phase6d/t_3e3b240c/test_failure88528142/registry/uzbekistan_nowcasting_v1.2_registry.xlsx",
+    "results/phase6d/t_3e3b240c/test_offline7ec1a361/registry/uzbekistan_nowcasting_v1.2_registry.xlsx",
+    "results/phase6d/t_3e3b240c/test_phase2b943f19ac/registry/uzbekistan_nowcasting_v1.2_registry.xlsx",
+    "results/phase6d/t_3e3b240c/test_run_pha4ea965b3/registry/uzbekistan_nowcasting_v1.2_registry.xlsx",
+    "results/phase6d/t_3e3b240c/test_run_phaa0a0127c/registry/uzbekistan_nowcasting_v1.2_registry.xlsx",
+    "results/phase6d/t_fae9a1d5/test_failure44d7b3aa/registry/uzbekistan_nowcasting_v1.2_registry.xlsx",
+    "results/phase6d/t_fae9a1d5/test_offlinef1a4d8cd/registry/uzbekistan_nowcasting_v1.2_registry.xlsx",
+    "results/phase6d/t_fae9a1d5/test_phase2b46e17376/registry/uzbekistan_nowcasting_v1.2_registry.xlsx",
+    "results/phase6d/t_fae9a1d5/test_run_pha9bfe03fa/registry/uzbekistan_nowcasting_v1.2_registry.xlsx",
+    "results/phase6d/t_fae9a1d5/test_run_phacec32b0f/registry/uzbekistan_nowcasting_v1.2_registry.xlsx"
+  ]
+}

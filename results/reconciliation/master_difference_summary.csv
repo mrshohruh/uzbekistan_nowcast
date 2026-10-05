@@ -1,0 +1,3 @@
+dataset,difference_type,n_rows_old,n_rows_current,new_rows,changed_existing_rows,removed_rows,schema_changed,economic_values_changed,assessment
+monthly,LATER_PIPELINE_REBUILD; HISTORICAL_VINTAGE_UNAVAILABLE,,802,,,,,,Current master reconstructs exactly from October 2 processed observations with verified raw checksums. Old/current observation deltas cannot be determined without the old bytes.
+quarterly,LATER_PIPELINE_REBUILD; HISTORICAL_VINTAGE_UNAVAILABLE,,34,,,,,,Current master reconstructs exactly from October 2 processed observations with verified raw checksums. Old/current observation deltas cannot be determined without the old bytes.

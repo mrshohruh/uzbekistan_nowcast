@@ -1,0 +1,148 @@
+{
+  "status": "RESEARCH_COMPLETE_WITH_DOCUMENTED_LIMITATIONS",
+  "recommendation": "RESEARCH_ONLY",
+  "protected": {
+    "protected_files": 882,
+    "changed": [],
+    "protected_artifacts_changed": false
+  },
+  "inputs": {
+    "data/master/v1_monthly.parquet": "30bed04601df4010d0cf995892c8b4ac3cf211a46f61e2c8f5772e00fac30d04",
+    "data/master/gdp_quarterly.parquet": "196a8c980895163efc5fd9a25dca93523b1b25719057149a21637a2925457b51",
+    "registry/uzbekistan_nowcasting_v1.2_registry.xlsx": "0659713cea0fea42c3823a3be26dd116ba15f2b292f269ba5f7e1c7b99abbb33",
+    "results/research/phase6b2/phase6b2_gdp_revision_history.csv": "a8bfd82f117a1c24cfe9edf4bf66cfac4d81a93f60d556c243173c7ba8c6a62a",
+    "data/research/phase6a2/cbu_midas_monthly_panel.csv": "5e94e50cbc95fdb22ec51c539711c9ab3b68a18b9321a47cd03b968a21f94bd7",
+    "results/research/phase6a2/phase6a2_provenance.csv": "e4ceef35d0bdfe33e43dde8c1a820647fa8acc4dd018188e94fba7262ebf2a9f",
+    "results/research/phase6b2/phase6b2_gdp_vintage_registry.csv": "8f5dd2231cf622fc8ef46fb0b48fd1ceaf1abc89aad5d05f8729800cd79d8a6e",
+    "results/research/phase6b2/phase6b2_forecasts.csv": "b5aff83963e5c2f367352135f16a0355adb3faef997bfc87509671373b88d843"
+  },
+  "development_diagnostics_added_after_freeze_without_reselection": [
+    "same_core_short_history",
+    "exclude_both_FX"
+  ],
+  "selection_freeze_unchanged": true,
+  "estimation_policy": {
+    "maxiter": 500,
+    "EM_relative_likelihood_tolerance": 1e-05,
+    "maximum_transition_spectral_radius": 0.9999,
+    "minimum_monthly_history": 36,
+    "minimum_observations_per_predictor": 12,
+    "missing_measurements": "Kalman likelihood; not imputed observations"
+  },
+  "outputs": {
+    "phase6c_block_ablation.csv": "c794f66b618f49139eea8d9e35ee08d0249689e1e5428e458fe94e3df626e4c1",
+    "phase6c_block_definition.csv": "5d4a27ddf63338346b57c118257d1843f2b42aec953b284edaad8bd2f1f49d43",
+    "phase6c_combination_metrics.csv": "16aa728c50d4e8c1f6f8e371230bf0f5e6b3a433f2db05452f8a29dbf02dca11",
+    "phase6c_data_coverage.csv": "3370a8fc1c2fbe7cb03eb7857de55dee75f1493b39cd0def0ab2c1d6a5390fa7",
+    "phase6c_development_metrics.csv": "73a034c96d4a50deb6e604df801762e3142637e4463e439655dba3ae1109cadb",
+    "phase6c_DFM0_identity_audit.csv": "2ccdff0b1d8a6dec78877408ac7361e55a9882a6dda35852a1f63aefcd46a267",
+    "phase6c_error_correlations.csv": "e02ccb89d66e8cc6d2090e2c235ab09520899cd586294907cc145e306849240e",
+    "phase6c_factor_block_contributions.csv": "e6e9612a60d91ab5f5ec1fdcf840f8c34ad1eeffa664c389b01b6f97ff8ba5ab",
+    "phase6c_factor_correlations.csv": "c36048176a3b32350c00760e9e15174dba5c1a53d3ba4ec505431c78f4453c65",
+    "phase6c_factor_diagnostics.csv": "49419840240d0f9be91e0446b892a745fc2f1d039d37ce54ed690a9c729dd56b",
+    "phase6c_factor_GDP_relations.csv": "5adab4e533baa6548bc2a848a408f514935a885de7bfe85772af3ae9cba4b3da",
+    "phase6c_factor_information_criteria.csv": "ca08dd1662a0579c5f3b9d1b39c0e1f385135ecc21e4c1e07b3ad56d5c2d4de1",
+    "phase6c_factor_loadings.csv": "42117995aad99070c266859fce35526fd08f2c9306a98457dd7934cd0b89ada0",
+    "phase6c_factor_recursive_stability.csv": "f7f8d251e5859ded893b345537f9f4816f421a52d45c444f456ff85abbbf426e",
+    "phase6c_factor_selection.csv": "3dd778fe3ef70ba8ac15f0b4d61d3bcadd141c401e5e2b7a5358eba8bacbcb13",
+    "phase6c_factor_series.csv": "28c51ed123b50ad47942f20df1d8e430d30dd8963025af1b84af784443ab56f2",
+    "phase6c_factor_variance.csv": "fa56a73d181f748b16798301f5c726c3fc585859fc8d62af5575e90f8f7a6f19",
+    "phase6c_factor_variance_explained.csv": "8798a1a20d75fbaeab6394b23e4e53fe0667394a10f819c1b49a5e0dd86b1809",
+    "phase6c_forecasts.csv": "dffb76f1642bb95f5f823cf0501a86f99d78bbb9a4266d8658e951e72e6943f3",
+    "phase6c_GDP_training_vintage_usage.csv": "8a65d166688b9447db5c69069ee9b1419b5509e3360295b79bfaf35f9500225d",
+    "phase6c_holdout_metrics.csv": "85e4124b5e2ab4788fbc00a70ba82272919d74d3a55704ddf304b1d70ea50669",
+    "phase6c_horizon_metrics.csv": "84f690f6be6efe16992c4752327b00ca4af0e224270ae9d6ceafb4ee75541bb0",
+    "phase6c_information_set_audit.csv": "7f48fb2c4edf00b37981e81991ae9b221574fcd261bd5cc376df182b23ebfc3c",
+    "phase6c_leave_one_quarter_out.csv": "b3e806154d6f839cfac47b0fa5472f3ddbaf5653a37d1f83236c9374f3aa5bb6",
+    "phase6c_matched_metrics.csv": "ee7bbba3c933e1b738b589180bac7512f641fe1e83ad0ac3f72806f8158774da",
+    "phase6c_model_definitions.csv": "9d1fffe66ade9aa66e65789d3d849391d23547946d7516d5461a0cd5571b4908",
+    "phase6c_predictor_audit.csv": "2f21f3e6ceb070a37635db72113c04fe0237f1c81a6adda332d02a9f88ce4f03",
+    "phase6c_predictor_correlations.csv": "d5f2070ac4e0cbd1117de73d9a46c3a66fea73cc80acbea2dcde92e5addb3d8b",
+    "phase6c_quarter_level_errors.csv": "d171817b4857a733c37a23a3aa05c866e4eb6ffb7c26fd3375d473c785663a1d",
+    "phase6c_recovered_source_integrity.csv": "c744b75a60815a9f1c565184ef02a8ee6c18bc8924daff201876d8eb282eda7f",
+    "phase6c_research_monthly_panel.csv": "d081833dacab5040731468c4b498e2ba6c3b0e0bb7eaffec5c2664bc2b73f1e2",
+    "phase6c_revision_correlations.csv": "11d6dff5e8ef9eeb5465b4bd4de6c1bc7ee7654624ab4fc952c58a00ea4235ce",
+    "phase6c_robustness.csv": "040c349a9a18f67edcc6030bbc66cc145764add0e047cf378af534629407c0e4",
+    "phase6c_scree_diagnostics.csv": "13bfd715ffbe7ce2f47a1a5035282e8a77b6ae9f94b9483e50eea3def8e23a45",
+    "phase6c_sequential_matched_metrics.csv": "bb20e4223c11ddac21542c450093d9197f90f5e9d06884f79d0b345e7ac7e9b4",
+    "phase6c_standardization.csv": "a1b0b2198a59841c9d2b96bd4ae17b816bd38f2bc5ec8877450c92aa7d0e3868",
+    "phase6c_top_factor_loadings.csv": "d0d51ccf183831acf5c737b3dbc86f92c57db3e21e300fd53b58fe91771c49a7",
+    "phase6c_transformations.csv": "1d50bb718241db679951207db367e88ddeb1726e01df181cb9d291c1a9682a6c"
+  },
+  "tests": {
+    "tests": 341,
+    "passed": 341,
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "exit_code": 0,
+    "components": [
+      {
+        "tests": 261,
+        "errors": 0,
+        "failures": 0,
+        "skipped": 0,
+        "passed": 261,
+        "scope": "repository",
+        "source": "phase6c_all_tests.xml; repository testcases only",
+        "exit_code": 0
+      },
+      {
+        "tests": 20,
+        "errors": 0,
+        "failures": 0,
+        "skipped": 0,
+        "passed": 20,
+        "exit_code": 0,
+        "scope": "new",
+        "Windows_temp_factory": "inherited ACL; test assertions unchanged"
+      },
+      {
+        "tests": 17,
+        "errors": 0,
+        "failures": 0,
+        "skipped": 0,
+        "passed": 17,
+        "exit_code": 0,
+        "scope": "phase6b",
+        "Windows_temp_factory": "inherited ACL; test assertions unchanged"
+      },
+      {
+        "tests": 23,
+        "errors": 0,
+        "failures": 0,
+        "skipped": 0,
+        "passed": 23,
+        "exit_code": 0,
+        "scope": "phase6b1",
+        "Windows_temp_factory": "inherited ACL; test assertions unchanged"
+      },
+      {
+        "tests": 20,
+        "errors": 0,
+        "failures": 0,
+        "skipped": 0,
+        "passed": 20,
+        "exit_code": 0,
+        "scope": "phase6b2",
+        "Windows_temp_factory": "inherited ACL; test assertions unchanged"
+      }
+    ]
+  },
+  "determinism": {
+    "target_quarter": "2025Q2",
+    "horizon": "H3",
+    "lag_mode": "standard",
+    "maximum_factor_difference": 1.8207657603852567e-14,
+    "maximum_forecast_difference": 1.7763568394002505e-15,
+    "tolerance": 1e-08,
+    "deterministic": true,
+    "protected": {
+      "protected_files": 882,
+      "changed": [],
+      "protected_artifacts_changed": false
+    },
+    "holdout_reevaluated": false,
+    "selection_freeze_sha256": "ca4306295de247316d142e07a284a84f0f6cdfad4d7b2e0c14900819afbab552"
+  }
+}

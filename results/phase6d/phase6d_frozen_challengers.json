@@ -1,0 +1,173 @@
+{
+  "challengers": {
+    "AR1": {
+      "model": "AR1",
+      "order": 1
+    },
+    "AR2": {
+      "model": "AR2",
+      "order": 2
+    },
+    "COMBO_50_50": {
+      "components": [
+        "PHASE6C_DFM",
+        "UMIDAS_USD"
+      ],
+      "model": "COMBO_50_50",
+      "weights": {
+        "dfm": 0.5,
+        "umidas": 0.5
+      }
+    },
+    "COMBO_DEV_WEIGHT": {
+      "components": [
+        "PHASE6C_DFM",
+        "UMIDAS_USD"
+      ],
+      "model": "COMBO_DEV_WEIGHT",
+      "weights": {
+        "dfm": 0.5438822544881572,
+        "umidas": 0.4561177455118428
+      }
+    },
+    "PHASE6C_DFM": {
+      "GDP_boundary": "Phase6B2 strict documented vintage accessor; no unknown-value fallback",
+      "aggregation": "mean",
+      "bridge": "B",
+      "factor_specification": {
+        "balanced": true,
+        "factors": 1,
+        "fields": [
+          "industrial_production",
+          "ppi",
+          "usd_uzs",
+          "rub_uzs",
+          "gold_price",
+          "m2",
+          "fx_reserves_ex_gold",
+          "pos_turnover"
+        ],
+        "name": "DFM-4_R1_P2",
+        "order": 2,
+        "start": "2019-01-31",
+        "winsor": false
+      },
+      "likelihood": {
+        "estimator": "DynamicFactorMQ_EM",
+        "idiosyncratic_ar1": false,
+        "maxiter": 500,
+        "tolerance": 1e-05
+      },
+      "model": "PHASE6C_DFM",
+      "source_model": "DFM-4_R1_P2__BRIDGE_B_mean",
+      "standardization": "masked_training_mean_sample_std_before_target_quarter",
+      "transformations": {
+        "fx_reserves_ex_gold": {
+          "clean_model_field": "fx_reserves_exgold_yoy_log",
+          "metadata_basis": "REGISTRY_V1.2_FROZEN_MASTER",
+          "transformation": "Use EOP stock; model transform = 100*ln(level_t/level_t-12). Preserve raw USD level."
+        },
+        "gold_price": {
+          "clean_model_field": "gold_price_mom_dlog",
+          "metadata_basis": "REGISTRY_V1.2_FROZEN_MASTER",
+          "transformation": "Use published monthly price; model transform = 100*\u0394ln(price). Optionally use YoY log change in robustness."
+        },
+        "industrial_production": {
+          "clean_model_field": "ind_prod_yoy_log",
+          "metadata_basis": "APPROVED_PHASE6A2_RESEARCH_RECOVERY; canonical master/registry unchanged",
+          "transformation": "Published real activity growth percent (index minus 100); same convention as frozen Phase6B; research-only deviation from nominal-flow registry clean field"
+        },
+        "m2": {
+          "clean_model_field": "m2_yoy_log",
+          "metadata_basis": "REGISTRY_V1.2_FROZEN_MASTER",
+          "transformation": "Use EOP level; model transform = 100*ln(level_t/level_t-12)."
+        },
+        "pos_turnover": {
+          "clean_model_field": "pos_turnover_yoy_log",
+          "metadata_basis": "APPROVED_PHASE6A2_RESEARCH_RECOVERY; canonical master/registry unchanged",
+          "transformation": "Use Total row. De-cumulate YTD within calendar year; then 100*ln(monthly_flow_t/monthly_flow_t-12)."
+        },
+        "ppi": {
+          "clean_model_field": "ppi_mom_log",
+          "metadata_basis": "REGISTRY_V1.2_FROZEN_MASTER",
+          "transformation": "Monthly producer-price inflation = 100*ln(index/100)."
+        },
+        "rub_uzs": {
+          "clean_model_field": "rub_uzs_mom_dlog",
+          "metadata_basis": "REGISTRY_V1.2_FROZEN_MASTER",
+          "transformation": "Normalize Rate/Nominal; monthly mean; model transform = 100*\u0394ln(monthly_mean)."
+        },
+        "usd_uzs": {
+          "clean_model_field": "usd_uzs_mom_dlog",
+          "metadata_basis": "REGISTRY_V1.2_FROZEN_MASTER",
+          "transformation": "Normalize Rate/Nominal; aggregate daily observations to monthly mean; model transform = 100*\u0394ln(monthly_mean). Positive = UZS depreciation."
+        }
+      }
+    },
+    "PRODUCTION_ENSEMBLE": {
+      "components": {
+        "AR2": 0.5,
+        "UMIDAS_USD": 0.5
+      },
+      "model": "PRODUCTION_ENSEMBLE",
+      "shadow_reproduction_only": true
+    },
+    "UMIDAS_USD": {
+      "field": "usd_uzs_mom_dlog",
+      "minimum_effective_training": 15,
+      "model": "UMIDAS_USD",
+      "monthly_lags": 3,
+      "polynomial_order": null,
+      "source_model": "umidas_usd_uzs_mom_dlog",
+      "with_gdp_lag": true
+    }
+  },
+  "code_hashes": {
+    "scripts/research/phase6b2/run.py": "12ec133c34069d8d828134553070d4951f4c6c0106099047d8221f59c086999f",
+    "scripts/research/phase6b2/vintages.py": "f25d195715001db703de6c18041096c3b56960f7f833370fa8ad592e67cb33e8",
+    "scripts/research/phase6c/kernel.py": "7302a0faa8fb7075bc75be043b8438f7957bd609e19a67352d44668ea75f35f7",
+    "src/uznowcast/models/benchmarks.py": "ada2f22e69c8c920d065431d75dc0343ea92da0e9121f518b1b89a5e45ed5f9a",
+    "src/uznowcast/models/data.py": "5084a2bae25f9c2ef71caacf60c45af165ff0624b209b4774c6b865ad6fd943e",
+    "src/uznowcast/models/midas.py": "bfcf9608cce432eff8bab134dd4f4dadc3bb5fa4172c125f4d15d82ef4f7d21d",
+    "src/uznowcast/registry.py": "4ec23ef75882282c2bbe156a7eb4cf51ce829aa656679df61fb3c0504c1a5cd1",
+    "src/uznowcast/shadow/storage.py": "cbdbdf91130dd2a9142dce18e587e7a81cbfe92074414d3e821a336e4cfa4398"
+  },
+  "frozen_at_utc": "2026-10-05T06:21:21.448612+00:00",
+  "phase6c_actual_freeze_timestamp": "2026-10-05T04:53:59.254423+00:00",
+  "phase6c_historical_specification_hash": "1d89b89be1931661eee540af309086aae4a76b6be713e75a5e910d19514aade9",
+  "phase6c_retrospective_selection_cutoff": "2025-07-30",
+  "source_artifact_hashes": {
+    "results/phase6c/phase6c_combination_metrics.csv": "16aa728c50d4e8c1f6f8e371230bf0f5e6b3a433f2db05452f8a29dbf02dca11",
+    "results/phase6c/phase6c_determinism_checks.json": "08d809731ffdc02bac1c0c06e1685a1d87f87ee66af14fef772a64a568a80759",
+    "results/phase6c/phase6c_forecasts.csv": "dffb76f1642bb95f5f823cf0501a86f99d78bbb9a4266d8658e951e72e6943f3",
+    "results/phase6c/phase6c_model_definitions.csv": "9d1fffe66ade9aa66e65789d3d849391d23547946d7516d5461a0cd5571b4908",
+    "results/phase6c/phase6c_predictor_audit.csv": "2f21f3e6ceb070a37635db72113c04fe0237f1c81a6adda332d02a9f88ce4f03",
+    "results/phase6c/phase6c_protocol.json": "212751eb49fbf27adc86f8cb351e9345f0d783b87e0a49f3337276172dde5892",
+    "results/phase6c/phase6c_research_monthly_panel.csv": "d081833dacab5040731468c4b498e2ba6c3b0e0bb7eaffec5c2664bc2b73f1e2",
+    "results/phase6c/phase6c_run_manifest.json": "1aa318f5ef71128c0b4ae992e361502d049db673a6b32cd950a46928ccdc0553",
+    "results/phase6c/phase6c_selection_freeze.json": "ca4306295de247316d142e07a284a84f0f6cdfad4d7b2e0c14900819afbab552",
+    "results/phase6c/phase6c_transformations.csv": "1d50bb718241db679951207db367e88ddeb1726e01df181cb9d291c1a9682a6c"
+  },
+  "specification_hashes": {
+    "AR1": "6426dc1315bba8cd29bb079926079c1284e37df2661236dad95d649e71cbe482",
+    "AR2": "ea9ad7ce8bf421d37e97ff75793d3aca28a4ce0c072d915249974edbc5f393dc",
+    "COMBO_50_50": "f9a9006e3526183cea3e9f248093892be842819ae79b2402859c42f6e5f275d2",
+    "COMBO_DEV_WEIGHT": "7f448168822e7d18890fb5dd53f5b5e0328b8709578c5734b6a009f8f05de136",
+    "PHASE6C_DFM": "7d42b9585228f2f54bd300d896674a0cd882ef4a9f9e3722940c3810df53335c",
+    "PRODUCTION_ENSEMBLE": "89ba71eae1731a1c8e4d83aa1bde79b4a0fb7d91afad6398a62916ae1eb27f76",
+    "UMIDAS_USD": "200869a4672afe9673df00f5f4be4065f1b50c4b177dab7be92450cd9f7249e0"
+  },
+  "static_specification_hashes": {
+    "registry/uzbekistan_nowcasting_v1.2_registry.xlsx": "0659713cea0fea42c3823a3be26dd116ba15f2b292f269ba5f7e1c7b99abbb33"
+  },
+  "weights": {
+    "COMBO_50_50": {
+      "dfm": 0.5,
+      "umidas": 0.5
+    },
+    "COMBO_DEV_WEIGHT": {
+      "dfm": 0.5438822544881572,
+      "umidas": 0.4561177455118428
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "artifacts": {
+    "fit.json": "fbcadb550301784dc3add195708fe1ceb2ae02f1095220fc760e95305c957092",
+    "forecasts.json": "74dbfbde48c84a696a4a5da740298c3ab2d800c67d7507f320ef77574ce1830c",
+    "inputs.json": "85f38f69d4abc96e5bc8adb5cd7a5362e1fc6f5da6e9d4f15e55c5d33127d041"
+  },
+  "code_hashes": {
+    "scripts/research/phase6b2/run.py": "12ec133c34069d8d828134553070d4951f4c6c0106099047d8221f59c086999f",
+    "scripts/research/phase6b2/vintages.py": "f25d195715001db703de6c18041096c3b56960f7f833370fa8ad592e67cb33e8",
+    "scripts/research/phase6c/kernel.py": "7302a0faa8fb7075bc75be043b8438f7957bd609e19a67352d44668ea75f35f7",
+    "scripts/research/phase6d/common.py": "f248c9ce39b026a969bb955ce92b859b4f1acea7dd938544a69cbbad434d7739",
+    "scripts/research/phase6d/evaluation.py": "1c61c19c7893a7fb34fe947a59c6e9969dd655a9280faaf3033f6758c4792d38",
+    "scripts/research/phase6d/frozen.py": "55e92694f997322323d177f1102ddea9b43649d899be2796ce52cdc8dda50cf1",
+    "scripts/research/phase6d/inputs.py": "6065df893c6b740a42dc2399dd4ce04b79754f389f712d637b51b41d45bcc346",
+    "scripts/research/phase6d/monitor.py": "9d88daccc9dcafe4ed9388eddfe21048b0a756f23776ace700fab8d3d9a1681b",
+    "scripts/research/phase6d/sources.py": "85dbb8a868d425b5262980f0baa8063913fb9b7eec8b8c165b32054ef48cb5a5",
+    "scripts/research/phase6d/test_phase6d.py": "766fc0003f336246656caddbeefca59368943392cdc87e9ae71f674b8ec245d7",
+    "scripts/research/phase6d/test_runner.py": "c40f44fc59220c9965de526835ecebca2b75fa3de7228f810000e0a45127bc8d",
+    "src/uznowcast/models/benchmarks.py": "ada2f22e69c8c920d065431d75dc0343ea92da0e9121f518b1b89a5e45ed5f9a",
+    "src/uznowcast/models/data.py": "5084a2bae25f9c2ef71caacf60c45af165ff0624b209b4774c6b865ad6fd943e",
+    "src/uznowcast/models/midas.py": "bfcf9608cce432eff8bab134dd4f4dadc3bb5fa4172c125f4d15d82ef4f7d21d",
+    "src/uznowcast/registry.py": "4ec23ef75882282c2bbe156a7eb4cf51ce829aa656679df61fb3c0504c1a5cd1",
+    "src/uznowcast/shadow/storage.py": "cbdbdf91130dd2a9142dce18e587e7a81cbfe92074414d3e821a336e4cfa4398"
+  },
+  "input_data_hash": "88c47b6567cbe1bed9abe77b2b72d476637fcb8653048e6c76656875676466c4",
+  "snapshot_id": "d1a9e5c4426f706b2007d26299921f2b5c788ac67bea615d577627d737664614",
+  "timestamp": "2026-10-05T06:28:16.244132+00:00"
+}

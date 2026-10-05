@@ -1,0 +1,465 @@
+{
+  "run_id": "e9fd47bc467d4adc807368c03c0da48f",
+  "started_at": "2026-10-05T04:55:16.012036+00:00",
+  "scope": "Phase 2B",
+  "series": {
+    "gdp_real_yoy": {
+      "status": "passed_with_warnings",
+      "rows": 34,
+      "start": "2018Q1",
+      "end": "2026Q2",
+      "clean_start": "2018Q1",
+      "clean_end": "2026Q2",
+      "clean_count": 34,
+      "missing_periods": [],
+      "quality_flags": {},
+      "negative_raw_count": 0,
+      "warnings": [
+        "Historical first-release dates unavailable; retrieved vintages are not first-release history.",
+        "2018+ national-accounts series was revised for non-observed economy; recent years may be preliminary.",
+        "Published quarterly convention retained; no standalone-quarter reconstruction from reported growth rates."
+      ],
+      "registry_verified_start": "2018-Q1",
+      "registry_verified_end": "2026-Q2",
+      "annual_reconciliation": []
+    },
+    "industrial_production": {
+      "status": "passed_with_warnings",
+      "rows": 91,
+      "start": "2019-01",
+      "end": "2026-07",
+      "clean_start": "2020-01",
+      "clean_end": "2026-07",
+      "clean_count": 79,
+      "missing_periods": [],
+      "quality_flags": {
+        "missing_growth_input": 12,
+        "extreme_log_change": 2
+      },
+      "negative_raw_count": 0,
+      "warnings": [
+        "Historical first-release dates unavailable; retrieved vintages are not first-release history.",
+        "Current-price activity; not a physical-volume measure. Sensitivity: deflate with PPI or substitute physical-volume index."
+      ],
+      "registry_verified_start": "2019-M01",
+      "registry_verified_end": "2026-M07",
+      "annual_reconciliation": [
+        {
+          "year": 2019,
+          "monthly_sum": 322535.8,
+          "december_ytd": 322535.8,
+          "passed": true
+        },
+        {
+          "year": 2020,
+          "monthly_sum": 368740.2,
+          "december_ytd": 368740.2,
+          "passed": true
+        },
+        {
+          "year": 2021,
+          "monthly_sum": 456056.1,
+          "december_ytd": 456056.1,
+          "passed": true
+        },
+        {
+          "year": 2022,
+          "monthly_sum": 553265.0,
+          "december_ytd": 553265.0,
+          "passed": true
+        },
+        {
+          "year": 2023,
+          "monthly_sum": 658991.7,
+          "december_ytd": 658991.7,
+          "passed": true
+        },
+        {
+          "year": 2024,
+          "monthly_sum": 885818.9,
+          "december_ytd": 885818.9,
+          "passed": true
+        },
+        {
+          "year": 2025,
+          "monthly_sum": 1101130.8,
+          "december_ytd": 1101130.8,
+          "passed": true
+        }
+      ]
+    },
+    "construction": {
+      "status": "passed_with_warnings",
+      "rows": 68,
+      "start": "2021-01",
+      "end": "2026-08",
+      "clean_start": "2022-01",
+      "clean_end": "2026-08",
+      "clean_count": 56,
+      "missing_periods": [],
+      "quality_flags": {
+        "missing_growth_input": 12,
+        "extreme_log_change": 7,
+        "extreme_monthly_increment": 5
+      },
+      "negative_raw_count": 0,
+      "warnings": [
+        "Historical first-release dates unavailable; retrieved vintages are not first-release history.",
+        "Shorter history than target; current-price turnover-style measure."
+      ],
+      "registry_verified_start": "2021-M01",
+      "registry_verified_end": "2026-M08",
+      "annual_reconciliation": [
+        {
+          "year": 2021,
+          "monthly_sum": 107492.7,
+          "december_ytd": 107492.7,
+          "passed": true
+        },
+        {
+          "year": 2022,
+          "monthly_sum": 130790.9,
+          "december_ytd": 130790.9,
+          "passed": true
+        },
+        {
+          "year": 2023,
+          "monthly_sum": 150792.6,
+          "december_ytd": 150792.6,
+          "passed": true
+        },
+        {
+          "year": 2024,
+          "monthly_sum": 233832.9,
+          "december_ytd": 233832.9,
+          "passed": true
+        },
+        {
+          "year": 2025,
+          "monthly_sum": 313887.8,
+          "december_ytd": 313887.8,
+          "passed": true
+        }
+      ]
+    },
+    "cpi_headline": {
+      "status": "passed_with_warnings",
+      "rows": 68,
+      "start": "2021-01",
+      "end": "2026-08",
+      "clean_start": "2021-01",
+      "clean_end": "2026-08",
+      "clean_count": 68,
+      "missing_periods": [],
+      "quality_flags": {},
+      "negative_raw_count": 0,
+      "warnings": [
+        "Historical first-release dates unavailable; retrieved vintages are not first-release history.",
+        "COICOP-2018 from 2021; CPI aggregation/formula methodology changed from 2026."
+      ],
+      "registry_verified_start": "2021-M01",
+      "registry_verified_end": "2026-M08",
+      "annual_reconciliation": []
+    },
+    "exports_total": {
+      "status": "passed_with_warnings",
+      "rows": 68,
+      "start": "2021-01",
+      "end": "2026-08",
+      "clean_start": "2022-01",
+      "clean_end": "2026-08",
+      "clean_count": 56,
+      "missing_periods": [],
+      "quality_flags": {
+        "extreme_log_change": 17,
+        "missing_growth_input": 12
+      },
+      "negative_raw_count": 0,
+      "warnings": [
+        "Historical first-release dates unavailable; retrieved vintages are not first-release history.",
+        "Contains lumpy gold/precious-metal exports; separate gold proxy below."
+      ],
+      "registry_verified_start": "2021-M01",
+      "registry_verified_end": "2026-M08",
+      "annual_reconciliation": [
+        {
+          "year": 2021,
+          "monthly_sum": 16662.8,
+          "december_ytd": 16662.8,
+          "passed": true
+        },
+        {
+          "year": 2022,
+          "monthly_sum": 19732.6,
+          "december_ytd": 19732.6,
+          "passed": true
+        },
+        {
+          "year": 2023,
+          "monthly_sum": 24869.5,
+          "december_ytd": 24869.5,
+          "passed": true
+        },
+        {
+          "year": 2024,
+          "monthly_sum": 27270.1,
+          "december_ytd": 27270.1,
+          "passed": true
+        },
+        {
+          "year": 2025,
+          "monthly_sum": 34247.9,
+          "december_ytd": 34247.9,
+          "passed": true
+        }
+      ]
+    },
+    "imports_total": {
+      "status": "passed_with_warnings",
+      "rows": 68,
+      "start": "2021-01",
+      "end": "2026-08",
+      "clean_start": "2022-01",
+      "clean_end": "2026-08",
+      "clean_count": 56,
+      "missing_periods": [],
+      "quality_flags": {
+        "missing_growth_input": 12,
+        "extreme_log_change": 1
+      },
+      "negative_raw_count": 0,
+      "warnings": [
+        "Historical first-release dates unavailable; retrieved vintages are not first-release history.",
+        "Nominal USD flow; exchange-rate and commodity-price effects remain in V1."
+      ],
+      "registry_verified_start": "2021-M01",
+      "registry_verified_end": "2026-M08",
+      "annual_reconciliation": [
+        {
+          "year": 2021,
+          "monthly_sum": 25507.7,
+          "december_ytd": 25507.7,
+          "passed": true
+        },
+        {
+          "year": 2022,
+          "monthly_sum": 30767.8,
+          "december_ytd": 30767.8,
+          "passed": true
+        },
+        {
+          "year": 2023,
+          "monthly_sum": 38659.1,
+          "december_ytd": 38659.1,
+          "passed": true
+        },
+        {
+          "year": 2024,
+          "monthly_sum": 39968.3,
+          "december_ytd": 39968.3,
+          "passed": true
+        },
+        {
+          "year": 2025,
+          "monthly_sum": 48515.6,
+          "december_ytd": 48515.6,
+          "passed": true
+        }
+      ]
+    },
+    "usd_uzs": {
+      "status": "passed_with_warnings",
+      "rows": 1,
+      "start": "2026-09",
+      "end": "2026-09",
+      "clean_start": null,
+      "clean_end": null,
+      "clean_count": 0,
+      "missing_periods": [],
+      "quality_flags": {
+        "partial_month": 1,
+        "missing_growth_input": 1
+      },
+      "negative_raw_count": 0,
+      "warnings": [
+        "Historical first-release dates unavailable; retrieved vintages are not first-release history.",
+        "2017 FX liberalization is a major structural break, though it predates most V1 real-activity series.",
+        "Coverage starts after registry verified start: 2026-09 > 2013-01"
+      ],
+      "registry_verified_start": "2013-M01",
+      "registry_verified_end": "current",
+      "annual_reconciliation": []
+    },
+    "m2": {
+      "status": "passed_with_warnings",
+      "rows": 164,
+      "start": "2013-01",
+      "end": "2026-08",
+      "clean_start": "2014-01",
+      "clean_end": "2026-08",
+      "clean_count": 152,
+      "missing_periods": [],
+      "quality_flags": {
+        "missing_growth_input": 12
+      },
+      "negative_raw_count": 0,
+      "warnings": [
+        "Historical first-release dates unavailable; retrieved vintages are not first-release history.",
+        "Use DCS row for long/current history; open-data 4-009-0021 is an alternate M2 family and may have different archive depth."
+      ],
+      "registry_verified_start": "2013-M01",
+      "registry_verified_end": "2026-M08",
+      "annual_reconciliation": []
+    }
+  },
+  "failures": {},
+  "offline": true,
+  "refresh": false,
+  "registry_version": "V1.1",
+  "registry_verification_date": "2026-09-29",
+  "registry_sha256": "e719e8970b20b4a25acf04c7dc822ecab1ba91af6acf2145990cb67d94986f8d",
+  "registry_count": 29,
+  "fx_request_range": {
+    "start": "2026-09-29",
+    "end": "2026-09-29"
+  },
+  "usd_uzs_daily": {
+    "status": "passed_with_warnings",
+    "rows": 1,
+    "start": "2026-09-29",
+    "end": "2026-09-29",
+    "clean_start": "2026-09-29",
+    "clean_end": "2026-09-29",
+    "clean_count": 1,
+    "missing_periods": [],
+    "quality_flags": {},
+    "negative_raw_count": 0,
+    "warnings": [
+      "Historical first-release dates unavailable; retrieved vintages are not first-release history.",
+      "2017 FX liberalization is a major structural break, though it predates most V1 real-activity series.",
+      "Coverage starts after registry verified start: 2026-09 > 2013-01",
+      "Calendar-day gaps are reported, not filled; official activation dates only."
+    ],
+    "registry_verified_start": "2013-M01",
+    "registry_verified_end": "current",
+    "annual_reconciliation": []
+  },
+  "revision_records": 0,
+  "master_columns": [
+    "date",
+    "ind_prod_yoy_log",
+    "construction_yoy_log",
+    "cpi_headline_mom_log",
+    "exports_total_yoy_log",
+    "imports_total_yoy_log",
+    "usd_uzs_mom_dlog",
+    "m2_yoy_log",
+    "usd_uzs_is_complete",
+    "usd_uzs_quality_flag"
+  ],
+  "master_rows": 165,
+  "quarterly_rows": 34,
+  "alignment": {
+    "earliest_all_predictors": null,
+    "latest_complete_all_predictors": null,
+    "complete_monthly_rows": 0,
+    "missing_by_variable": {
+      "ind_prod_yoy_log": 86,
+      "construction_yoy_log": 109,
+      "cpi_headline_mom_log": 97,
+      "exports_total_yoy_log": 109,
+      "imports_total_yoy_log": 109,
+      "usd_uzs_mom_dlog": 165,
+      "m2_yoy_log": 13
+    },
+    "ragged_edge": [
+      {
+        "date": "2026-04-30",
+        "available": [
+          "ind_prod_yoy_log",
+          "construction_yoy_log",
+          "cpi_headline_mom_log",
+          "exports_total_yoy_log",
+          "imports_total_yoy_log",
+          "m2_yoy_log"
+        ]
+      },
+      {
+        "date": "2026-05-31",
+        "available": [
+          "ind_prod_yoy_log",
+          "construction_yoy_log",
+          "cpi_headline_mom_log",
+          "exports_total_yoy_log",
+          "imports_total_yoy_log",
+          "m2_yoy_log"
+        ]
+      },
+      {
+        "date": "2026-06-30",
+        "available": [
+          "ind_prod_yoy_log",
+          "construction_yoy_log",
+          "cpi_headline_mom_log",
+          "exports_total_yoy_log",
+          "imports_total_yoy_log",
+          "m2_yoy_log"
+        ]
+      },
+      {
+        "date": "2026-07-31",
+        "available": [
+          "ind_prod_yoy_log",
+          "construction_yoy_log",
+          "cpi_headline_mom_log",
+          "exports_total_yoy_log",
+          "imports_total_yoy_log",
+          "m2_yoy_log"
+        ]
+      },
+      {
+        "date": "2026-08-31",
+        "available": [
+          "construction_yoy_log",
+          "cpi_headline_mom_log",
+          "exports_total_yoy_log",
+          "imports_total_yoy_log",
+          "m2_yoy_log"
+        ]
+      },
+      {
+        "date": "2026-09-30",
+        "available": []
+      }
+    ]
+  },
+  "industrial_outliers": [
+    {
+      "reference_month": "2024-09",
+      "raw_ytd": 629171.5,
+      "previous_month_raw_ytd": 505790.5,
+      "monthly_flow": 123381.0,
+      "lag_12_month": "2023-09",
+      "lag_12_raw_ytd": 459919.7,
+      "lag_12_previous_month_raw_ytd": 400618.4,
+      "lag_12_monthly_flow": 59301.29999999999,
+      "calculated_growth": 73.26459005982659,
+      "quality_flag": "extreme_log_change",
+      "diagnosis": "genuine published source-flow spike; lag flow is consistent with adjacent months, so this is not a denominator base effect; positive inputs and exact calendar de-cumulation rule out parser/de-cumulation failure; no raw-revision evidence and no sustained structural break in adjacent months"
+    },
+    {
+      "reference_month": "2026-07",
+      "raw_ytd": 795447.4,
+      "previous_month_raw_ytd": 637205.9,
+      "monthly_flow": 158241.5,
+      "lag_12_month": "2025-07",
+      "lag_12_raw_ytd": 575601.4,
+      "lag_12_previous_month_raw_ytd": 488532.3,
+      "lag_12_monthly_flow": 87069.10000000003,
+      "calculated_growth": 59.742029082521775,
+      "quality_flag": "extreme_log_change",
+      "diagnosis": "genuine published source-flow spike; lag flow is consistent with adjacent months, so this is not a denominator base effect; positive inputs and exact calendar de-cumulation rule out parser/de-cumulation failure; no raw-revision evidence and no sustained structural break in adjacent months"
+    }
+  ],
+  "status": "passed_with_warnings"
+}

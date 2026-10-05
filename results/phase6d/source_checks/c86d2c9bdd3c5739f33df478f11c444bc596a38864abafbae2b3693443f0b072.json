@@ -1,0 +1,8 @@
+{
+  "checksum": "c37f3bcdaa2c34d941454056b571251203ddfdf15c20358f6baebe121ee4a142",
+  "content_type": "application/json",
+  "http_status": 200,
+  "raw_file_path": "results\\phase6d\\source_checks\\c37f3bcdaa2c34d941454056b571251203ddfdf15c20358f6baebe121ee4a142.payload",
+  "retrieved_at": "2026-10-05T06:18:09.632848+00:00",
+  "source_url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3698.json"
+}

@@ -1,0 +1,42 @@
+"""Derived scoring views never modify forecast records."""
+import pandas as pd
+import numpy as np
+from common import OUT, ledger_rows, save, records
+from sources import realization_registry
+
+METRIC_COLUMNS=['model','horizon','operational_stage','n_forecasts','n_target_quarters','rmse','mae','bias','target_definition']
+
+
+def evaluate(out=OUT):
+    ledger=pd.DataFrame(ledger_rows(out))
+    realized=realization_registry(out)
+    save('realization_registry',realized,out)
+    scored=[]
+    withdrawn={r['snapshot_id'] for r in records(out/'withdrawal_records')}
+    for r in ledger.to_dict('records'):
+        if r['snapshot_id'] in withdrawn:
+            continue
+        match=realized.loc[realized.target_quarter.eq(r['target_quarter'])]
+        if match.empty or r['forecast'] is None or not r['prospective_eligible']:
+            continue
+        actual=match.iloc[0]
+        # A same-day date-only release does not establish pre-publication ordering.
+        if pd.Timestamp(r['run_timestamp_utc']).tz_convert('Asia/Tashkent').date()>=pd.Timestamp(actual.first_release_date).date():
+            continue
+        error=float(actual.first_release_value)-r['forecast']
+        scored.append(dict(r,realization_available=True,realization_first_release=actual.first_release_value,
+                           forecast_error=error,absolute_error=abs(error),squared_error=error**2))
+    view=pd.DataFrame(scored,columns=list(ledger.columns))
+    if len(view):
+        view=view.sort_values('run_timestamp_utc').drop_duplicates(['target_quarter','model','horizon','operational_stage'])
+    save('scored_forecasts',view,out)
+    metrics=[]
+    if len(view):
+        for keys,g in view.groupby(['model','horizon','operational_stage']):
+            metrics.append(dict(zip(['model','horizon','operational_stage'],keys),n_forecasts=len(g),
+                n_target_quarters=g.target_quarter.nunique(),rmse=float(np.sqrt(g.squared_error.mean())),
+                mae=float(g.absolute_error.mean()),bias=float(g.forecast_error.mean()),target_definition='VERIFIED_FIRST_RELEASE'))
+    save('prospective_metrics',pd.DataFrame(metrics,columns=METRIC_COLUMNS),out)
+    n=view.target_quarter.nunique() if len(view) else 0
+    stage=['INITIALIZED','EARLY_EVIDENCE','INSUFFICIENT_EVIDENCE','PRELIMINARY_REVIEW','GOVERNANCE_REVIEW_ELIGIBLE'][min(n,4)]
+    return view,stage,n

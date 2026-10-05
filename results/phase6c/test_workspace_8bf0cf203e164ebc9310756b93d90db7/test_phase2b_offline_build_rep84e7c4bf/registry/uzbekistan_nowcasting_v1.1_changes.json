@@ -1,0 +1,42 @@
+{
+  "old_registry": "registry/uzbekistan_nowcasting_v1_registry.xlsx",
+  "archived_v1_0": "registry/archive/uzbekistan_nowcasting_v1_registry_v1.0.xlsx",
+  "active_v1_1": "registry/uzbekistan_nowcasting_v1.1_registry.xlsx",
+  "v1_0_sha256": "efe0f1c577afacfca47b5294437434038e4be5172e059c5f6a4046d4b2f78b73",
+  "archived_v1_0_sha256": "efe0f1c577afacfca47b5294437434038e4be5172e059c5f6a4046d4b2f78b73",
+  "v1_1_sha256": "e719e8970b20b4a25acf04c7dc822ecab1ba91af6acf2145990cb67d94986f8d",
+  "verification_date": "2026-09-29",
+  "approved_changes": [
+    {
+      "variable_key": "construction",
+      "field": "Verified end",
+      "old_value": "2026-M07",
+      "new_value": "2026-M08"
+    },
+    {
+      "variable_key": "construction",
+      "field": "Lag basis / release convention",
+      "old_value": "Jul-2026 source updated 2026-08-27",
+      "new_value": "Aug-2026 source updated 2026-09-28"
+    },
+    {
+      "variable_key": "cpi_headline",
+      "field": "Row / field selector",
+      "old_value": "Composite index",
+      "new_value": "Code=1; Klassifikator_en=Cumulative index"
+    },
+    {
+      "variable_key": "m2",
+      "field": "Machine/download URL",
+      "old_value": "https://cbu.uz/upload/open_data/0020/4-009-0020_eng.json",
+      "new_value": "https://cbu.uz/sdmx/public/DCS_Uzbekistan_Online.xlsx"
+    }
+  ],
+  "changed_cells": [
+    "README!B3",
+    "V1 Registry!H13",
+    "V1 Registry!J25",
+    "V1 Registry!M10",
+    "V1 Registry!R10"
+  ]
+}

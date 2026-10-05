@@ -1,0 +1,38 @@
+{
+  "rows": [
+    {
+      "absolute_error": null,
+      "as_of_date": null,
+      "bridge": null,
+      "canonical_horizon_eligible": null,
+      "code_hash": null,
+      "combination_weight_dfm": null,
+      "combination_weight_umidas": null,
+      "factor_ar_order": null,
+      "factor_count": null,
+      "failure_reason": null,
+      "forecast": 8.0,
+      "forecast_error": null,
+      "forecast_status": null,
+      "horizon": "H3",
+      "information_cutoff": null,
+      "input_data_hash": null,
+      "latest_available_gdp_quarter": null,
+      "latest_available_gdp_value": null,
+      "latest_predictor_month": null,
+      "model": "AR1",
+      "nominal_horizon_date": null,
+      "operational_stage": "POST_H3_LATE_INITIALIZATION",
+      "prospective_eligible": true,
+      "realization_available": false,
+      "realization_first_release": null,
+      "run_id": null,
+      "run_timestamp_utc": "2026-10-06T06:00:00+00:00",
+      "snapshot_id": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "specification_hash": null,
+      "squared_error": null,
+      "target_quarter": "2026Q3"
+    }
+  ],
+  "sequence": 1
+}

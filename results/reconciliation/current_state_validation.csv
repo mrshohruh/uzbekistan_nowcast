@@ -1,0 +1,9 @@
+check,passed,details
+monthly_processed_reconstruction,True,"Exact values, dtypes, schema and row order"
+quarterly_processed_reconstruction,True,"Exact values, dtypes, schema and row order"
+raw_provenance,True,590 provenance groups; 3823 raw files; failures=0
+registry_matches_saved_release,True,0659713cea0fea42c3823a3be26dd116ba15f2b292f269ba5f7e1c7b99abbb33
+recorded_model_code_and_configuration,True,18 recorded source/config entries
+current_forecasts_reproduce,True,"{""ar1"": 8.037443796835966, ""ar2"": 7.333857441688032, ""umidas_usd_uzs_mom_dlog"": 7.979937793462349, ""ensemble_ar2_umidas_usd"": 7.65689761757519}"
+historical_H2_numeric_reproduction,True,Numeric consistency on current inputs does not prove historical input recovery
+phase6d_seven_forecasts,True,"Saved inputs, GDP vintages and timestamp; no ledger writes"

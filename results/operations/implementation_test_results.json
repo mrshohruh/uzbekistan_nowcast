@@ -1,0 +1,18 @@
+{
+  "tests": 422,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "passed": 422,
+  "failed": 0,
+  "scopes": [
+    "operations_operations_tests.xml",
+    "operations_phase6a2_tests.xml",
+    "operations_phase6b1_tests.xml",
+    "operations_phase6b2_tests.xml",
+    "operations_phase6b_tests.xml",
+    "operations_phase6c_tests.xml",
+    "operations_phase6d_tests.xml",
+    "operations_repository_tests.xml"
+  ]
+}

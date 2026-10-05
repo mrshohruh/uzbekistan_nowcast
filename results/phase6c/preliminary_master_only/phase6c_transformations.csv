@@ -1,0 +1,29 @@
+variable,clean_model_field,transformation,metadata_basis
+industrial_production,ind_prod_yoy_log,De-cumulate within calendar year; then 100*ln(monthly_flow_t/monthly_flow_t-12). Flag non-positive flows.,REGISTRY_V1.2_FROZEN_MASTER
+manufacturing,manufacturing_yoy_log,De-cumulate within calendar year; then 100*ln(monthly_flow_t/monthly_flow_t-12).,REGISTRY_V1.2_FROZEN_MASTER
+mining,mining_yoy_log,De-cumulate within calendar year; then 100*ln(monthly_flow_t/monthly_flow_t-12).,REGISTRY_V1.2_FROZEN_MASTER
+electricity_gas,utilities_yoy_log,De-cumulate within calendar year; then 100*ln(monthly_flow_t/monthly_flow_t-12).,REGISTRY_V1.2_FROZEN_MASTER
+construction,construction_yoy_log,De-cumulate within calendar year; then 100*ln(monthly_flow_t/monthly_flow_t-12).,REGISTRY_V1.2_FROZEN_MASTER
+retail_trade,retail_yoy_log,De-cumulate within calendar year; then 100*ln(monthly_flow_t/monthly_flow_t-12).,REGISTRY_V1.2_FROZEN_MASTER
+wholesale_trade,wholesale_yoy_log,De-cumulate within calendar year; then 100*ln(monthly_flow_t/monthly_flow_t-12).,REGISTRY_V1.2_FROZEN_MASTER
+cpi_headline,cpi_headline_mom_log,Monthly inflation = 100*ln(index/100); retain raw index in raw layer.,REGISTRY_V1.2_FROZEN_MASTER
+cpi_food,cpi_food_mom_log,Monthly inflation = 100*ln(index/100).,REGISTRY_V1.2_FROZEN_MASTER
+cpi_services,cpi_services_mom_log,Monthly inflation = 100*ln(index/100).,REGISTRY_V1.2_FROZEN_MASTER
+ppi,ppi_mom_log,Monthly producer-price inflation = 100*ln(index/100).,REGISTRY_V1.2_FROZEN_MASTER
+exports_total,exports_total_yoy_log,De-cumulate within calendar year to monthly USD flow; then 100*ln(flow_t/flow_t-12).,REGISTRY_V1.2_FROZEN_MASTER
+exports_non_gold,exports_non_gold_yoy_log,De-cumulate both YTD series first; non_gold_monthly = total_exports_monthly - gold_proxy_monthly; then YoY log growth where positive.,REGISTRY_V1.2_FROZEN_MASTER
+imports_total,imports_total_yoy_log,De-cumulate within calendar year to monthly USD flow; then 100*ln(flow_t/flow_t-12).,REGISTRY_V1.2_FROZEN_MASTER
+gold_exports_proxy,gold_exports_proxy_usd_m,De-cumulate within year. Use monthly USD level or asinh(level); optional YoY change. Preserve zeros/lumps.,REGISTRY_V1.2_FROZEN_MASTER
+usd_uzs,usd_uzs_mom_dlog,Normalize Rate/Nominal; aggregate daily observations to monthly mean; model transform = 100*Δln(monthly_mean). Positive = UZS depreciation.,REGISTRY_V1.2_FROZEN_MASTER
+rub_uzs,rub_uzs_mom_dlog,Normalize Rate/Nominal; monthly mean; model transform = 100*Δln(monthly_mean).,REGISTRY_V1.2_FROZEN_MASTER
+gold_price,gold_price_mom_dlog,Use published monthly price; model transform = 100*Δln(price). Optionally use YoY log change in robustness.,REGISTRY_V1.2_FROZEN_MASTER
+russia_ipi,russia_ipi_yoy_pct,"Prefer published YoY industrial-production index; convert to growth = index - 100. If raw level index is used, compute YoY log change.",REGISTRY_V1.2_FROZEN_MASTER
+m2,m2_yoy_log,Use EOP level; model transform = 100*ln(level_t/level_t-12).,REGISTRY_V1.2_FROZEN_MASTER
+household_deposits,hh_deposits_yoy_log,Map as-of-first-day to prior month-end; model transform = 100*ln(level_t/level_t-12) once 12-month history exists.,REGISTRY_V1.2_FROZEN_MASTER
+corporate_deposits,corp_deposits_yoy_log,Map as-of-first-day to prior month-end; 100*ln(level_t/level_t-12).,REGISTRY_V1.2_FROZEN_MASTER
+household_credit,hh_credit_yoy_log,Map as-of-first-day to prior month-end; 100*ln(level_t/level_t-12).,REGISTRY_V1.2_FROZEN_MASTER
+corporate_credit,corp_credit_yoy_log,Map as-of-first-day to prior month-end; 100*ln(level_t/level_t-12).,REGISTRY_V1.2_FROZEN_MASTER
+fx_reserves_ex_gold,fx_reserves_exgold_yoy_log,Use EOP stock; model transform = 100*ln(level_t/level_t-12). Preserve raw USD level.,REGISTRY_V1.2_FROZEN_MASTER
+pos_turnover,pos_turnover_yoy_log,Use Total row. De-cumulate YTD within calendar year; then 100*ln(monthly_flow_t/monthly_flow_t-12).,REGISTRY_V1.2_FROZEN_MASTER
+instant_payments,instant_payments_yoy_log,Aggregate Total amount; convert UZS to billion UZS; 100*ln(flow_t/flow_t-12) after 12 months. Keep transaction count as optional auxiliary.,REGISTRY_V1.2_FROZEN_MASTER
+interbank_payments,interbank_payments_yoy_log,Extract total transaction amount; convert to billion UZS; model transform = 100*ln(flow_t/flow_t-12).,REGISTRY_V1.2_FROZEN_MASTER

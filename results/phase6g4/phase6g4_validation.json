@@ -1,0 +1,9 @@
+{
+  "automatic_promotion": false,
+  "deterministic_artifacts": 23,
+  "errors": 0,
+  "failures": 0,
+  "identical_rerun": true,
+  "protected_files": 905,
+  "tests": 7
+}

@@ -1,0 +1,17 @@
+signal_a,signal_b,correlation,start,end,N,frequency,target_vintage
+nominal_m2,nominal_m2,1,2014Q1,2026Q3,51,quarterly; available-month mean,current revised; descriptive only
+nominal_m2,cpi,-0.00478981900792666,2022Q1,2026Q3,19,quarterly; available-month mean,current revised; descriptive only
+nominal_m2,real_m2,0.97132258551614026,2022Q1,2026Q3,19,quarterly; available-month mean,current revised; descriptive only
+nominal_m2,real_gdp,0.28493695039435368,2018Q1,2026Q2,34,quarterly; available-month mean,current revised; descriptive only
+cpi,nominal_m2,-0.00478981900792666,2022Q1,2026Q3,19,quarterly; available-month mean,current revised; descriptive only
+cpi,cpi,1,2022Q1,2026Q3,19,quarterly; available-month mean,current revised; descriptive only
+cpi,real_m2,-0.24241523586070923,2022Q1,2026Q3,19,quarterly; available-month mean,current revised; descriptive only
+cpi,real_gdp,-0.74908673042590568,2022Q1,2026Q2,18,quarterly; available-month mean,current revised; descriptive only
+real_m2,nominal_m2,0.97132258551614026,2022Q1,2026Q3,19,quarterly; available-month mean,current revised; descriptive only
+real_m2,cpi,-0.24241523586070923,2022Q1,2026Q3,19,quarterly; available-month mean,current revised; descriptive only
+real_m2,real_m2,0.99999999999999989,2022Q1,2026Q3,19,quarterly; available-month mean,current revised; descriptive only
+real_m2,real_gdp,0.3442957212202763,2022Q1,2026Q2,18,quarterly; available-month mean,current revised; descriptive only
+real_gdp,nominal_m2,0.28493695039435368,2018Q1,2026Q2,34,quarterly; available-month mean,current revised; descriptive only
+real_gdp,cpi,-0.74908673042590557,2022Q1,2026Q2,18,quarterly; available-month mean,current revised; descriptive only
+real_gdp,real_m2,0.3442957212202763,2022Q1,2026Q2,18,quarterly; available-month mean,current revised; descriptive only
+real_gdp,real_gdp,1,2018Q1,2026Q2,34,quarterly; available-month mean,current revised; descriptive only

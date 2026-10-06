@@ -1,0 +1,23 @@
+{
+  "automatic_promotion": false,
+  "classification": "PHASE6G5_RETAIN_M0",
+  "deterministic_artifacts": 30,
+  "errors": 0,
+  "exit_code": 1,
+  "failures": 2,
+  "historical_predictor_vintages_verified": false,
+  "identical_rerun": true,
+  "legacy_snapshot_failures": [
+    "scripts.research.phase6b2.test_vintages::test_protected_artifacts_unchanged",
+    "scripts.research.phase6c.test_phase6c::test_protected_inventory_and_saved_metrics"
+  ],
+  "note": "Two old phase inventories differ from newer repository state. Current phase preservation checks pass; failures are not suppressed.",
+  "passed": 245,
+  "phase6g5_dedicated_tests_passed": 14,
+  "production_unchanged": true,
+  "protected_files": 943,
+  "required_outputs": 14,
+  "skipped": 0,
+  "tests": 247,
+  "validation_status": "PASSED_WITH_LEGACY_SNAPSHOT_FAILURES"
+}

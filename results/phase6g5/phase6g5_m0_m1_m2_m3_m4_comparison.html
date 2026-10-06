@@ -1,0 +1,3804 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Phase 6G.5 model selection</title><style>
+:root{--ink:#172940;--muted:#69788b;--green:#087f72;--red:#ba5464;--line:#e2e8ee}*{box-sizing:border-box}body{margin:0;background:#f3f6f9;color:var(--ink);font:15px/1.55 system-ui,-apple-system,Segoe UI,sans-serif}main{max-width:1280px;margin:auto;padding:36px 32px 70px}header{display:flex;justify-content:space-between;align-items:center;margin-bottom:26px}.wordmark{font-weight:700;letter-spacing:.1em;font-size:13px;text-transform:uppercase}.date{color:var(--muted);font-size:13px}h1{font-size:30px;letter-spacing:-.03em;margin:0}h2{font-size:21px;letter-spacing:-.02em;margin:0 0 8px}h3{font-size:16px;margin:12px 0}p{margin:8px 0 16px}.hero{background:linear-gradient(120deg,#142e48,#1b4b5d);color:#fff;border-radius:22px;padding:38px;display:grid;grid-template-columns:1.2fr 1fr;gap:25px}.eyebrow{text-transform:uppercase;letter-spacing:.12em;font-size:12px;color:#b7d5dc}.headline{font-size:88px;line-height:1.2;letter-spacing:-.055em;font-weight:650;margin:8px 0}.headline small{font-size:40px}.badge{display:inline-block;padding:6px 11px;border:1px solid #7696a3;border-radius:20px;font-size:11px;color:#e2ecf0}.herometa{align-self:center;border-left:1px solid #537281;padding-left:32px}.herometa strong{display:block;margin-bottom:14px;font-size:16px}.herometa span{font-size:12px;color:#b7d5dc}section{background:#fff;border:1px solid var(--line);border-radius:18px;margin-top:22px;padding:28px}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:18px 0}.cards>div{background:#f4f7f9;border-radius:12px;padding:18px;color:var(--muted);font-size:13px}.cards b{display:block;font-size:29px;color:var(--ink);font-weight:650}.cards .accent{background:#e4f3ef}.formula{font-size:16px;font-weight:600;color:var(--green)}.note{font-size:12px;color:var(--muted)}.two{display:grid;grid-template-columns:1fr 1fr;gap:22px}.two>section{min-width:0}.scroll{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:12px}th{color:var(--muted);font-size:11px;text-align:left;font-weight:600}td,th{padding:12px 10px;border-bottom:1px solid var(--line)}td{font-variant-numeric:tabular-nums}tr.primary{background:#e4f3ef;font-weight:600}.bars{margin:20px 0}.barrow{display:grid;grid-template-columns:190px 1fr 75px;align-items:center;gap:12px;padding:9px 0;font-size:12px}.track{height:22px;position:relative;background:linear-gradient(to right,transparent calc(50% - .5px),#ccd8e0 50%,transparent calc(50% + .5px))}.track i{position:absolute;top:3px;height:16px;border-radius:3px}i.positive{background:var(--green)}i.negative{background:var(--red)}b.positive{color:var(--green)}b.negative{color:var(--red)}b.neutral{color:var(--muted)}.loadingrow{display:grid;grid-template-columns:190px 1fr 52px;gap:12px;align-items:center;font-size:12px;margin:14px 0}.loadingrow>div{height:12px;background:#f1f5f8;border-radius:3px}.loadingrow i{display:block;background:#6579b6;height:12px;border-radius:3px}svg{width:100%;height:auto}.axis{font:12px system-ui;fill:#69788b}select{padding:6px;border:1px solid var(--line);border-radius:6px;color:var(--ink)}.legend{display:flex;gap:20px;flex-wrap:wrap;font-size:12px}.legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px}details{margin-top:15px}summary{cursor:pointer;color:var(--green);font-size:13px}footer{font-size:12px;color:var(--muted);margin-top:24px}@media(max-width:850px){main{padding:20px 14px}.hero,.two{grid-template-columns:1fr}.herometa{border-left:0;padding:0}.headline{font-size:70px}.cards{grid-template-columns:1fr}.barrow,.loadingrow{grid-template-columns:140px 1fr 60px}header{display:block}section{padding:20px}}
+</style></head><body><main><header><div class="wordmark">Uzbekistan / research model selection</div><div class="date">Phase 6G.5 · 2026Q3 · Production unchanged</div></header><h1>M2 / CPI: incremental forecasting value</h1><section><h2>Executive summary</h2><p>Retain the unchanged M0. CPI-only has the best common-span RMSE, but this advantage disappears against the unchanged full-history M0 on exactly the same scoring origins. Only six quarters (18 horizon forecasts), four post-development quarters, and unverified historical predictor value vintages are available. No challenger establishes sufficient incremental out-of-sample value for promotion.</p></section><section><h2>Evaluation contract</h2><p>All five models share the frozen target, origins, STRICT GDP vintage gate, predictor availability rules, training-only scaling, one DynamicFactorMQ factor, AR(2), one-sided filtering, and bridge B. STRICT_COMMON_SPAN refits all models on identical monthly training dates. NATIVE_MATCHED_ORIGINS preserves each legitimate estimation history on identical scoring origins; M0 remains the actual benchmark. FULL_AVAILABLE is reported separately and cannot establish superiority. Bias = actual minus forecast. The current information set is the archived Phase6E cutoff, not a fresh October 6 download. COMMON current M0 fails the unchanged convergence gate; its missing estimate and missing differences stay null. The five current comparison estimates use native training histories and the same archived current information set.</p></section><section><h2>Model comparison scorecard</h2><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>model</th>
+      <th>specification</th>
+      <th>common_sample_pooled_rmse</th>
+      <th>full_available_rmse</th>
+      <th>full_available_n</th>
+      <th>native_matched_rmse</th>
+      <th>post_development_rmse</th>
+      <th>mae</th>
+      <th>bias</th>
+      <th>n_matched_origins</th>
+      <th>n_independent_quarters</th>
+      <th>H1_rmse</th>
+      <th>H2_rmse</th>
+      <th>H3_rmse</th>
+      <th>within_quarter_revision_std</th>
+      <th>nowcast_2026q3</th>
+      <th>forecast_stability</th>
+      <th>factor_interpretability</th>
+      <th>m2_cpi_redundancy_assessment</th>
+      <th>decision</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Current M0</td>
+      <td>Current M0</td>
+      <td>1.1184</td>
+      <td>0.4875</td>
+      <td>44</td>
+      <td>0.6334</td>
+      <td>1.1326</td>
+      <td>1.0539</td>
+      <td>1.0539</td>
+      <td>18</td>
+      <td>6</td>
+      <td>1.1089</td>
+      <td>1.1187</td>
+      <td>1.1276</td>
+      <td>0.0325</td>
+      <td>8.3012</td>
+      <td>See error dispersion and horizon revisions; only six scored quarters</td>
+      <td>One-sided common factor; signs aligned to M0; descriptive units</td>
+      <td>Low CPI pairwise correlation; real money = nominal money minus inflation exactly</td>
+      <td>RETAIN_M0</td>
+    </tr>
+    <tr>
+      <td>CPI only</td>
+      <td>CPI only</td>
+      <td>0.9233</td>
+      <td>0.9233</td>
+      <td>18</td>
+      <td>0.9233</td>
+      <td>0.9528</td>
+      <td>0.8674</td>
+      <td>0.8674</td>
+      <td>18</td>
+      <td>6</td>
+      <td>0.9751</td>
+      <td>0.9347</td>
+      <td>0.8562</td>
+      <td>0.1247</td>
+      <td>8.2159</td>
+      <td>See error dispersion and horizon revisions; only six scored quarters</td>
+      <td>One-sided common factor; signs aligned to M0; descriptive units</td>
+      <td>Low CPI pairwise correlation; real money = nominal money minus inflation exactly</td>
+      <td>REJECT</td>
+    </tr>
+    <tr>
+      <td>Nominal M2 + CPI</td>
+      <td>Nominal M2 + CPI</td>
+      <td>0.9538</td>
+      <td>0.9538</td>
+      <td>18</td>
+      <td>0.9538</td>
+      <td>0.9736</td>
+      <td>0.9007</td>
+      <td>0.9007</td>
+      <td>18</td>
+      <td>6</td>
+      <td>0.9975</td>
+      <td>0.9627</td>
+      <td>0.8986</td>
+      <td>0.1239</td>
+      <td>8.2126</td>
+      <td>See error dispersion and horizon revisions; only six scored quarters</td>
+      <td>One-sided common factor; signs aligned to M0; descriptive units</td>
+      <td>Low CPI pairwise correlation; real money = nominal money minus inflation exactly</td>
+      <td>REJECT</td>
+    </tr>
+    <tr>
+      <td>Real M2 + CPI</td>
+      <td>Real M2 + CPI</td>
+      <td>0.9608</td>
+      <td>0.9608</td>
+      <td>18</td>
+      <td>0.9608</td>
+      <td>0.9922</td>
+      <td>0.8797</td>
+      <td>0.8797</td>
+      <td>18</td>
+      <td>6</td>
+      <td>0.9838</td>
+      <td>0.9642</td>
+      <td>0.9338</td>
+      <td>0.0589</td>
+      <td>8.2185</td>
+      <td>See error dispersion and horizon revisions; only six scored quarters</td>
+      <td>One-sided common factor; signs aligned to M0; descriptive units</td>
+      <td>Low CPI pairwise correlation; real money = nominal money minus inflation exactly</td>
+      <td>REJECT</td>
+    </tr>
+    <tr>
+      <td>Real M2 only</td>
+      <td>Real M2 only</td>
+      <td>1.0901</td>
+      <td>1.0901</td>
+      <td>18</td>
+      <td>1.0901</td>
+      <td>1.0739</td>
+      <td>1.0178</td>
+      <td>1.0178</td>
+      <td>18</td>
+      <td>6</td>
+      <td>1.0788</td>
+      <td>1.0883</td>
+      <td>1.1029</td>
+      <td>0.0404</td>
+      <td>8.1664</td>
+      <td>See error dispersion and horizon revisions; only six scored quarters</td>
+      <td>One-sided common factor; signs aligned to M0; descriptive units</td>
+      <td>Low CPI pairwise correlation; real money = nominal money minus inflation exactly</td>
+      <td>REJECT</td>
+    </tr>
+  </tbody>
+</table></div></section><section><h2>H1/H2/H3 RMSE comparison</h2><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>model</th>
+      <th>label</th>
+      <th>sample</th>
+      <th>horizon</th>
+      <th>n</th>
+      <th>rmse</th>
+      <th>mae</th>
+      <th>bias</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Current M0</td>
+      <td>Current M0</td>
+      <td>FULL_AVAILABLE</td>
+      <td>H1</td>
+      <td>14</td>
+      <td>0.5049</td>
+      <td>0.4235</td>
+      <td>0.3972</td>
+    </tr>
+    <tr>
+      <td>Current M0</td>
+      <td>Current M0</td>
+      <td>FULL_AVAILABLE</td>
+      <td>H2</td>
+      <td>15</td>
+      <td>0.4823</td>
+      <td>0.4131</td>
+      <td>0.3800</td>
+    </tr>
+    <tr>
+      <td>Current M0</td>
+      <td>Current M0</td>
+      <td>FULL_AVAILABLE</td>
+      <td>H3</td>
+      <td>15</td>
+      <td>0.4761</td>
+      <td>0.3967</td>
+      <td>0.3568</td>
+    </tr>
+    <tr>
+      <td>Current M0</td>
+      <td>Current M0</td>
+      <td>FULL_AVAILABLE</td>
+      <td>POOLED</td>
+      <td>44</td>
+      <td>0.4875</td>
+      <td>0.4108</td>
+      <td>0.3776</td>
+    </tr>
+    <tr>
+      <td>Current M0</td>
+      <td>Current M0</td>
+      <td>STRICT_COMMON_SPAN</td>
+      <td>H1</td>
+      <td>6</td>
+      <td>1.1089</td>
+      <td>1.0408</td>
+      <td>1.0408</td>
+    </tr>
+    <tr>
+      <td>Current M0</td>
+      <td>Current M0</td>
+      <td>STRICT_COMMON_SPAN</td>
+      <td>H2</td>
+      <td>6</td>
+      <td>1.1187</td>
+      <td>1.0552</td>
+      <td>1.0552</td>
+    </tr>
+    <tr>
+      <td>Current M0</td>
+      <td>Current M0</td>
+      <td>STRICT_COMMON_SPAN</td>
+      <td>H3</td>
+      <td>6</td>
+      <td>1.1276</td>
+      <td>1.0657</td>
+      <td>1.0657</td>
+    </tr>
+    <tr>
+      <td>Current M0</td>
+      <td>Current M0</td>
+      <td>STRICT_COMMON_SPAN</td>
+      <td>POOLED</td>
+      <td>18</td>
+      <td>1.1184</td>
+      <td>1.0539</td>
+      <td>1.0539</td>
+    </tr>
+    <tr>
+      <td>Current M0</td>
+      <td>Current M0</td>
+      <td>NATIVE_MATCHED_ORIGINS</td>
+      <td>H1</td>
+      <td>6</td>
+      <td>0.6438</td>
+      <td>0.5433</td>
+      <td>0.5433</td>
+    </tr>
+    <tr>
+      <td>Current M0</td>
+      <td>Current M0</td>
+      <td>NATIVE_MATCHED_ORIGINS</td>
+      <td>H2</td>
+      <td>6</td>
+      <td>0.6290</td>
+      <td>0.5372</td>
+      <td>0.5372</td>
+    </tr>
+    <tr>
+      <td>Current M0</td>
+      <td>Current M0</td>
+      <td>NATIVE_MATCHED_ORIGINS</td>
+      <td>H3</td>
+      <td>6</td>
+      <td>0.6271</td>
+      <td>0.5304</td>
+      <td>0.5304</td>
+    </tr>
+    <tr>
+      <td>Current M0</td>
+      <td>Current M0</td>
+      <td>NATIVE_MATCHED_ORIGINS</td>
+      <td>POOLED</td>
+      <td>18</td>
+      <td>0.6334</td>
+      <td>0.5370</td>
+      <td>0.5370</td>
+    </tr>
+    <tr>
+      <td>CPI only</td>
+      <td>CPI only</td>
+      <td>FULL_AVAILABLE</td>
+      <td>H1</td>
+      <td>6</td>
+      <td>0.9751</td>
+      <td>0.9319</td>
+      <td>0.9319</td>
+    </tr>
+    <tr>
+      <td>CPI only</td>
+      <td>CPI only</td>
+      <td>FULL_AVAILABLE</td>
+      <td>H2</td>
+      <td>6</td>
+      <td>0.9347</td>
+      <td>0.8908</td>
+      <td>0.8908</td>
+    </tr>
+    <tr>
+      <td>CPI only</td>
+      <td>CPI only</td>
+      <td>FULL_AVAILABLE</td>
+      <td>H3</td>
+      <td>6</td>
+      <td>0.8562</td>
+      <td>0.7796</td>
+      <td>0.7796</td>
+    </tr>
+    <tr>
+      <td>CPI only</td>
+      <td>CPI only</td>
+      <td>FULL_AVAILABLE</td>
+      <td>POOLED</td>
+      <td>18</td>
+      <td>0.9233</td>
+      <td>0.8674</td>
+      <td>0.8674</td>
+    </tr>
+    <tr>
+      <td>CPI only</td>
+      <td>CPI only</td>
+      <td>STRICT_COMMON_SPAN</td>
+      <td>H1</td>
+      <td>6</td>
+      <td>0.9751</td>
+      <td>0.9319</td>
+      <td>0.9319</td>
+    </tr>
+    <tr>
+      <td>CPI only</td>
+      <td>CPI only</td>
+      <td>STRICT_COMMON_SPAN</td>
+      <td>H2</td>
+      <td>6</td>
+      <td>0.9347</td>
+      <td>0.8908</td>
+      <td>0.8908</td>
+    </tr>
+    <tr>
+      <td>CPI only</td>
+      <td>CPI only</td>
+      <td>STRICT_COMMON_SPAN</td>
+      <td>H3</td>
+      <td>6</td>
+      <td>0.8562</td>
+      <td>0.7796</td>
+      <td>0.7796</td>
+    </tr>
+    <tr>
+      <td>CPI only</td>
+      <td>CPI only</td>
+      <td>STRICT_COMMON_SPAN</td>
+      <td>POOLED</td>
+      <td>18</td>
+      <td>0.9233</td>
+      <td>0.8674</td>
+      <td>0.8674</td>
+    </tr>
+    <tr>
+      <td>CPI only</td>
+      <td>CPI only</td>
+      <td>NATIVE_MATCHED_ORIGINS</td>
+      <td>H1</td>
+      <td>6</td>
+      <td>0.9751</td>
+      <td>0.9319</td>
+      <td>0.9319</td>
+    </tr>
+    <tr>
+      <td>CPI only</td>
+      <td>CPI only</td>
+      <td>NATIVE_MATCHED_ORIGINS</td>
+      <td>H2</td>
+      <td>6</td>
+      <td>0.9347</td>
+      <td>0.8908</td>
+      <td>0.8908</td>
+    </tr>
+    <tr>
+      <td>CPI only</td>
+      <td>CPI only</td>
+      <td>NATIVE_MATCHED_ORIGINS</td>
+      <td>H3</td>
+      <td>6</td>
+      <td>0.8562</td>
+      <td>0.7796</td>
+      <td>0.7796</td>
+    </tr>
+    <tr>
+      <td>CPI only</td>
+      <td>CPI only</td>
+      <td>NATIVE_MATCHED_ORIGINS</td>
+      <td>POOLED</td>
+      <td>18</td>
+      <td>0.9233</td>
+      <td>0.8674</td>
+      <td>0.8674</td>
+    </tr>
+    <tr>
+      <td>Nominal M2 + CPI</td>
+      <td>Nominal M2 + CPI</td>
+      <td>FULL_AVAILABLE</td>
+      <td>H1</td>
+      <td>6</td>
+      <td>0.9975</td>
+      <td>0.9572</td>
+      <td>0.9572</td>
+    </tr>
+    <tr>
+      <td>Nominal M2 + CPI</td>
+      <td>Nominal M2 + CPI</td>
+      <td>FULL_AVAILABLE</td>
+      <td>H2</td>
+      <td>6</td>
+      <td>0.9627</td>
+      <td>0.9203</td>
+      <td>0.9203</td>
+    </tr>
+    <tr>
+      <td>Nominal M2 + CPI</td>
+      <td>Nominal M2 + CPI</td>
+      <td>FULL_AVAILABLE</td>
+      <td>H3</td>
+      <td>6</td>
+      <td>0.8986</td>
+      <td>0.8247</td>
+      <td>0.8247</td>
+    </tr>
+    <tr>
+      <td>Nominal M2 + CPI</td>
+      <td>Nominal M2 + CPI</td>
+      <td>FULL_AVAILABLE</td>
+      <td>POOLED</td>
+      <td>18</td>
+      <td>0.9538</td>
+      <td>0.9007</td>
+      <td>0.9007</td>
+    </tr>
+    <tr>
+      <td>Nominal M2 + CPI</td>
+      <td>Nominal M2 + CPI</td>
+      <td>STRICT_COMMON_SPAN</td>
+      <td>H1</td>
+      <td>6</td>
+      <td>0.9975</td>
+      <td>0.9572</td>
+      <td>0.9572</td>
+    </tr>
+    <tr>
+      <td>Nominal M2 + CPI</td>
+      <td>Nominal M2 + CPI</td>
+      <td>STRICT_COMMON_SPAN</td>
+      <td>H2</td>
+      <td>6</td>
+      <td>0.9627</td>
+      <td>0.9203</td>
+      <td>0.9203</td>
+    </tr>
+    <tr>
+      <td>Nominal M2 + CPI</td>
+      <td>Nominal M2 + CPI</td>
+      <td>STRICT_COMMON_SPAN</td>
+      <td>H3</td>
+      <td>6</td>
+      <td>0.8986</td>
+      <td>0.8247</td>
+      <td>0.8247</td>
+    </tr>
+    <tr>
+      <td>Nominal M2 + CPI</td>
+      <td>Nominal M2 + CPI</td>
+      <td>STRICT_COMMON_SPAN</td>
+      <td>POOLED</td>
+      <td>18</td>
+      <td>0.9538</td>
+      <td>0.9007</td>
+      <td>0.9007</td>
+    </tr>
+    <tr>
+      <td>Nominal M2 + CPI</td>
+      <td>Nominal M2 + CPI</td>
+      <td>NATIVE_MATCHED_ORIGINS</td>
+      <td>H1</td>
+      <td>6</td>
+      <td>0.9975</td>
+      <td>0.9572</td>
+      <td>0.9572</td>
+    </tr>
+    <tr>
+      <td>Nominal M2 + CPI</td>
+      <td>Nominal M2 + CPI</td>
+      <td>NATIVE_MATCHED_ORIGINS</td>
+      <td>H2</td>
+      <td>6</td>
+      <td>0.9627</td>
+      <td>0.9203</td>
+      <td>0.9203</td>
+    </tr>
+    <tr>
+      <td>Nominal M2 + CPI</td>
+      <td>Nominal M2 + CPI</td>
+      <td>NATIVE_MATCHED_ORIGINS</td>
+      <td>H3</td>
+      <td>6</td>
+      <td>0.8986</td>
+      <td>0.8247</td>
+      <td>0.8247</td>
+    </tr>
+    <tr>
+      <td>Nominal M2 + CPI</td>
+      <td>Nominal M2 + CPI</td>
+      <td>NATIVE_MATCHED_ORIGINS</td>
+      <td>POOLED</td>
+      <td>18</td>
+      <td>0.9538</td>
+      <td>0.9007</td>
+      <td>0.9007</td>
+    </tr>
+    <tr>
+      <td>Real M2 + CPI</td>
+      <td>Real M2 + CPI</td>
+      <td>FULL_AVAILABLE</td>
+      <td>H1</td>
+      <td>6</td>
+      <td>0.9838</td>
+      <td>0.8998</td>
+      <td>0.8998</td>
+    </tr>
+    <tr>
+      <td>Real M2 + CPI</td>
+      <td>Real M2 + CPI</td>
+      <td>FULL_AVAILABLE</td>
+      <td>H2</td>
+      <td>6</td>
+      <td>0.9642</td>
+      <td>0.8855</td>
+      <td>0.8855</td>
+    </tr>
+    <tr>
+      <td>Real M2 + CPI</td>
+      <td>Real M2 + CPI</td>
+      <td>FULL_AVAILABLE</td>
+      <td>H3</td>
+      <td>6</td>
+      <td>0.9338</td>
+      <td>0.8537</td>
+      <td>0.8537</td>
+    </tr>
+    <tr>
+      <td>Real M2 + CPI</td>
+      <td>Real M2 + CPI</td>
+      <td>FULL_AVAILABLE</td>
+      <td>POOLED</td>
+      <td>18</td>
+      <td>0.9608</td>
+      <td>0.8797</td>
+      <td>0.8797</td>
+    </tr>
+    <tr>
+      <td>Real M2 + CPI</td>
+      <td>Real M2 + CPI</td>
+      <td>STRICT_COMMON_SPAN</td>
+      <td>H1</td>
+      <td>6</td>
+      <td>0.9838</td>
+      <td>0.8998</td>
+      <td>0.8998</td>
+    </tr>
+    <tr>
+      <td>Real M2 + CPI</td>
+      <td>Real M2 + CPI</td>
+      <td>STRICT_COMMON_SPAN</td>
+      <td>H2</td>
+      <td>6</td>
+      <td>0.9642</td>
+      <td>0.8855</td>
+      <td>0.8855</td>
+    </tr>
+    <tr>
+      <td>Real M2 + CPI</td>
+      <td>Real M2 + CPI</td>
+      <td>STRICT_COMMON_SPAN</td>
+      <td>H3</td>
+      <td>6</td>
+      <td>0.9338</td>
+      <td>0.8537</td>
+      <td>0.8537</td>
+    </tr>
+    <tr>
+      <td>Real M2 + CPI</td>
+      <td>Real M2 + CPI</td>
+      <td>STRICT_COMMON_SPAN</td>
+      <td>POOLED</td>
+      <td>18</td>
+      <td>0.9608</td>
+      <td>0.8797</td>
+      <td>0.8797</td>
+    </tr>
+    <tr>
+      <td>Real M2 + CPI</td>
+      <td>Real M2 + CPI</td>
+      <td>NATIVE_MATCHED_ORIGINS</td>
+      <td>H1</td>
+      <td>6</td>
+      <td>0.9838</td>
+      <td>0.8998</td>
+      <td>0.8998</td>
+    </tr>
+    <tr>
+      <td>Real M2 + CPI</td>
+      <td>Real M2 + CPI</td>
+      <td>NATIVE_MATCHED_ORIGINS</td>
+      <td>H2</td>
+      <td>6</td>
+      <td>0.9642</td>
+      <td>0.8855</td>
+      <td>0.8855</td>
+    </tr>
+    <tr>
+      <td>Real M2 + CPI</td>
+      <td>Real M2 + CPI</td>
+      <td>NATIVE_MATCHED_ORIGINS</td>
+      <td>H3</td>
+      <td>6</td>
+      <td>0.9338</td>
+      <td>0.8537</td>
+      <td>0.8537</td>
+    </tr>
+    <tr>
+      <td>Real M2 + CPI</td>
+      <td>Real M2 + CPI</td>
+      <td>NATIVE_MATCHED_ORIGINS</td>
+      <td>POOLED</td>
+      <td>18</td>
+      <td>0.9608</td>
+      <td>0.8797</td>
+      <td>0.8797</td>
+    </tr>
+    <tr>
+      <td>Real M2 only</td>
+      <td>Real M2 only</td>
+      <td>FULL_AVAILABLE</td>
+      <td>H1</td>
+      <td>6</td>
+      <td>1.0788</td>
+      <td>1.0048</td>
+      <td>1.0048</td>
+    </tr>
+    <tr>
+      <td>Real M2 only</td>
+      <td>Real M2 only</td>
+      <td>FULL_AVAILABLE</td>
+      <td>H2</td>
+      <td>6</td>
+      <td>1.0883</td>
+      <td>1.0187</td>
+      <td>1.0187</td>
+    </tr>
+    <tr>
+      <td>Real M2 only</td>
+      <td>Real M2 only</td>
+      <td>FULL_AVAILABLE</td>
+      <td>H3</td>
+      <td>6</td>
+      <td>1.1029</td>
+      <td>1.0298</td>
+      <td>1.0298</td>
+    </tr>
+    <tr>
+      <td>Real M2 only</td>
+      <td>Real M2 only</td>
+      <td>FULL_AVAILABLE</td>
+      <td>POOLED</td>
+      <td>18</td>
+      <td>1.0901</td>
+      <td>1.0178</td>
+      <td>1.0178</td>
+    </tr>
+    <tr>
+      <td>Real M2 only</td>
+      <td>Real M2 only</td>
+      <td>STRICT_COMMON_SPAN</td>
+      <td>H1</td>
+      <td>6</td>
+      <td>1.0788</td>
+      <td>1.0048</td>
+      <td>1.0048</td>
+    </tr>
+    <tr>
+      <td>Real M2 only</td>
+      <td>Real M2 only</td>
+      <td>STRICT_COMMON_SPAN</td>
+      <td>H2</td>
+      <td>6</td>
+      <td>1.0883</td>
+      <td>1.0187</td>
+      <td>1.0187</td>
+    </tr>
+    <tr>
+      <td>Real M2 only</td>
+      <td>Real M2 only</td>
+      <td>STRICT_COMMON_SPAN</td>
+      <td>H3</td>
+      <td>6</td>
+      <td>1.1029</td>
+      <td>1.0298</td>
+      <td>1.0298</td>
+    </tr>
+    <tr>
+      <td>Real M2 only</td>
+      <td>Real M2 only</td>
+      <td>STRICT_COMMON_SPAN</td>
+      <td>POOLED</td>
+      <td>18</td>
+      <td>1.0901</td>
+      <td>1.0178</td>
+      <td>1.0178</td>
+    </tr>
+    <tr>
+      <td>Real M2 only</td>
+      <td>Real M2 only</td>
+      <td>NATIVE_MATCHED_ORIGINS</td>
+      <td>H1</td>
+      <td>6</td>
+      <td>1.0788</td>
+      <td>1.0048</td>
+      <td>1.0048</td>
+    </tr>
+    <tr>
+      <td>Real M2 only</td>
+      <td>Real M2 only</td>
+      <td>NATIVE_MATCHED_ORIGINS</td>
+      <td>H2</td>
+      <td>6</td>
+      <td>1.0883</td>
+      <td>1.0187</td>
+      <td>1.0187</td>
+    </tr>
+    <tr>
+      <td>Real M2 only</td>
+      <td>Real M2 only</td>
+      <td>NATIVE_MATCHED_ORIGINS</td>
+      <td>H3</td>
+      <td>6</td>
+      <td>1.1029</td>
+      <td>1.0298</td>
+      <td>1.0298</td>
+    </tr>
+    <tr>
+      <td>Real M2 only</td>
+      <td>Real M2 only</td>
+      <td>NATIVE_MATCHED_ORIGINS</td>
+      <td>POOLED</td>
+      <td>18</td>
+      <td>1.0901</td>
+      <td>1.0178</td>
+      <td>1.0178</td>
+    </tr>
+  </tbody>
+</table></div></section><section><h2>Common-sample RMSE comparison</h2><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>model</th>
+      <th>specification</th>
+      <th>common_sample_pooled_rmse</th>
+      <th>full_available_rmse</th>
+      <th>full_available_n</th>
+      <th>native_matched_rmse</th>
+      <th>post_development_rmse</th>
+      <th>mae</th>
+      <th>bias</th>
+      <th>n_matched_origins</th>
+      <th>n_independent_quarters</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Current M0</td>
+      <td>Current M0</td>
+      <td>1.1184</td>
+      <td>0.4875</td>
+      <td>44</td>
+      <td>0.6334</td>
+      <td>1.1326</td>
+      <td>1.0539</td>
+      <td>1.0539</td>
+      <td>18</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>CPI only</td>
+      <td>CPI only</td>
+      <td>0.9233</td>
+      <td>0.9233</td>
+      <td>18</td>
+      <td>0.9233</td>
+      <td>0.9528</td>
+      <td>0.8674</td>
+      <td>0.8674</td>
+      <td>18</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>Nominal M2 + CPI</td>
+      <td>Nominal M2 + CPI</td>
+      <td>0.9538</td>
+      <td>0.9538</td>
+      <td>18</td>
+      <td>0.9538</td>
+      <td>0.9736</td>
+      <td>0.9007</td>
+      <td>0.9007</td>
+      <td>18</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>Real M2 + CPI</td>
+      <td>Real M2 + CPI</td>
+      <td>0.9608</td>
+      <td>0.9608</td>
+      <td>18</td>
+      <td>0.9608</td>
+      <td>0.9922</td>
+      <td>0.8797</td>
+      <td>0.8797</td>
+      <td>18</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>Real M2 only</td>
+      <td>Real M2 only</td>
+      <td>1.0901</td>
+      <td>1.0901</td>
+      <td>18</td>
+      <td>1.0901</td>
+      <td>1.0739</td>
+      <td>1.0178</td>
+      <td>1.0178</td>
+      <td>18</td>
+      <td>6</td>
+    </tr>
+  </tbody>
+</table></div></section><section><h2>Current 2026Q3 nowcasts</h2><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>sample</th>
+      <th>model</th>
+      <th>target_quarter</th>
+      <th>horizon</th>
+      <th>forecast_origin</th>
+      <th>nowcast_2026q3</th>
+      <th>information_cutoff</th>
+      <th>stage_cutoff</th>
+      <th>latest_m2</th>
+      <th>latest_cpi</th>
+      <th>latest_real_m2</th>
+      <th>status</th>
+      <th>difference_vs_M0</th>
+      <th>label</th>
+      <th>factor_signal</th>
+      <th>factor_signal_unit</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>NATIVE</td>
+      <td>Current M0</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>8.3012</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>2026-09-30 00:00:00</td>
+      <td>2026-08</td>
+      <td>Unavailable</td>
+      <td>2026-08</td>
+      <td>RESEARCH_ONLY</td>
+      <td>0.0000</td>
+      <td>Current M0</td>
+      <td>1.3640</td>
+      <td>training-factor standard deviations; descriptive, not GDP pp</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>CPI only</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>8.2159</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>2026-09-30 00:00:00</td>
+      <td>Unavailable</td>
+      <td>2026-08</td>
+      <td>2026-08</td>
+      <td>RESEARCH_ONLY</td>
+      <td>-0.0852</td>
+      <td>CPI only</td>
+      <td>-1.8837</td>
+      <td>training-factor standard deviations; descriptive, not GDP pp</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Nominal M2 + CPI</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>8.2126</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>2026-09-30 00:00:00</td>
+      <td>2026-08</td>
+      <td>2026-08</td>
+      <td>2026-08</td>
+      <td>RESEARCH_ONLY</td>
+      <td>-0.0886</td>
+      <td>Nominal M2 + CPI</td>
+      <td>-1.8806</td>
+      <td>training-factor standard deviations; descriptive, not GDP pp</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Real M2 + CPI</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>8.2185</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>2026-09-30 00:00:00</td>
+      <td>2026-08</td>
+      <td>2026-08</td>
+      <td>2026-08</td>
+      <td>RESEARCH_ONLY</td>
+      <td>-0.0826</td>
+      <td>Real M2 + CPI</td>
+      <td>-1.8867</td>
+      <td>training-factor standard deviations; descriptive, not GDP pp</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Real M2 only</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>8.1664</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>2026-09-30 00:00:00</td>
+      <td>2026-08</td>
+      <td>2026-08</td>
+      <td>2026-08</td>
+      <td>RESEARCH_ONLY</td>
+      <td>-0.1347</td>
+      <td>Real M2 only</td>
+      <td>1.3063</td>
+      <td>training-factor standard deviations; descriptive, not GDP pp</td>
+    </tr>
+    <tr>
+      <td>COMMON</td>
+      <td>CPI only</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>8.2159</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>2026-09-30 00:00:00</td>
+      <td>Unavailable</td>
+      <td>2026-08</td>
+      <td>2026-08</td>
+      <td>RESEARCH_ONLY</td>
+      <td>Unavailable</td>
+      <td>CPI only</td>
+      <td>-1.8837</td>
+      <td>training-factor standard deviations; descriptive, not GDP pp</td>
+    </tr>
+    <tr>
+      <td>COMMON</td>
+      <td>Nominal M2 + CPI</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>8.2126</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>2026-09-30 00:00:00</td>
+      <td>2026-08</td>
+      <td>2026-08</td>
+      <td>2026-08</td>
+      <td>RESEARCH_ONLY</td>
+      <td>Unavailable</td>
+      <td>Nominal M2 + CPI</td>
+      <td>-1.8806</td>
+      <td>training-factor standard deviations; descriptive, not GDP pp</td>
+    </tr>
+    <tr>
+      <td>COMMON</td>
+      <td>Real M2 + CPI</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>8.2185</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>2026-09-30 00:00:00</td>
+      <td>2026-08</td>
+      <td>2026-08</td>
+      <td>2026-08</td>
+      <td>RESEARCH_ONLY</td>
+      <td>Unavailable</td>
+      <td>Real M2 + CPI</td>
+      <td>-1.8867</td>
+      <td>training-factor standard deviations; descriptive, not GDP pp</td>
+    </tr>
+    <tr>
+      <td>COMMON</td>
+      <td>Real M2 only</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>8.1664</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>2026-09-30 00:00:00</td>
+      <td>2026-08</td>
+      <td>2026-08</td>
+      <td>2026-08</td>
+      <td>RESEARCH_ONLY</td>
+      <td>Unavailable</td>
+      <td>Real M2 only</td>
+      <td>1.3063</td>
+      <td>training-factor standard deviations; descriptive, not GDP pp</td>
+    </tr>
+  </tbody>
+</table></div></section><section><h2>M2/CPI correlation diagnostics</h2><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>variable_a</th>
+      <th>variable_b</th>
+      <th>N</th>
+      <th>start</th>
+      <th>end</th>
+      <th>pearson</th>
+      <th>spearman</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>nominal_m2</td>
+      <td>cpi</td>
+      <td>56</td>
+      <td>2022-01-31 00:00:00</td>
+      <td>2026-08-31 00:00:00</td>
+      <td>0.0411</td>
+      <td>-0.0312</td>
+    </tr>
+    <tr>
+      <td>nominal_m2</td>
+      <td>real_m2</td>
+      <td>56</td>
+      <td>2022-01-31 00:00:00</td>
+      <td>2026-08-31 00:00:00</td>
+      <td>0.9717</td>
+      <td>0.9531</td>
+    </tr>
+    <tr>
+      <td>cpi</td>
+      <td>real_m2</td>
+      <td>56</td>
+      <td>2022-01-31 00:00:00</td>
+      <td>2026-08-31 00:00:00</td>
+      <td>-0.1962</td>
+      <td>-0.2552</td>
+    </tr>
+  </tbody>
+</table></div></section><section><h2>VIF diagnostics</h2><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>specification</th>
+      <th>variable</th>
+      <th>N</th>
+      <th>vif</th>
+      <th>diagnostic_only</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>nominal_m2 + cpi</td>
+      <td>nominal_m2</td>
+      <td>56</td>
+      <td>1.0017</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>nominal_m2 + cpi</td>
+      <td>cpi</td>
+      <td>56</td>
+      <td>1.0017</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>real_m2 + cpi</td>
+      <td>real_m2</td>
+      <td>56</td>
+      <td>1.0401</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>real_m2 + cpi</td>
+      <td>cpi</td>
+      <td>56</td>
+      <td>1.0401</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>nominal_m2 + real_m2</td>
+      <td>nominal_m2</td>
+      <td>56</td>
+      <td>17.9026</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>nominal_m2 + real_m2</td>
+      <td>real_m2</td>
+      <td>56</td>
+      <td>17.9026</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>nominal_m2 + cpi + real_m2</td>
+      <td>nominal_m2</td>
+      <td>56</td>
+      <td>inf</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>nominal_m2 + cpi + real_m2</td>
+      <td>cpi</td>
+      <td>56</td>
+      <td>inf</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>nominal_m2 + cpi + real_m2</td>
+      <td>real_m2</td>
+      <td>56</td>
+      <td>inf</td>
+      <td>True</td>
+    </tr>
+  </tbody>
+</table></div></section><section><h2>DFM factor signals — descriptive standardized units</h2><p><strong>Standardized factor units are descriptive. They are NOT percentage-point GDP contributions. Positive values pull the aligned factor upward; negative values pull it downward.</strong></p><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>sample</th>
+      <th>model</th>
+      <th>target_quarter</th>
+      <th>horizon</th>
+      <th>forecast_origin</th>
+      <th>variable</th>
+      <th>months</th>
+      <th>descriptive_signal</th>
+      <th>interpretation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>NATIVE</td>
+      <td>Current M0</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>industrial_production</td>
+      <td>1</td>
+      <td>0.0502</td>
+      <td>loading times quarterly mean z; not additive GDP contribution</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Current M0</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>ppi</td>
+      <td>2</td>
+      <td>0.0312</td>
+      <td>loading times quarterly mean z; not additive GDP contribution</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Current M0</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>usd_uzs</td>
+      <td>3</td>
+      <td>0.1514</td>
+      <td>loading times quarterly mean z; not additive GDP contribution</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Current M0</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>rub_uzs</td>
+      <td>3</td>
+      <td>-0.0350</td>
+      <td>loading times quarterly mean z; not additive GDP contribution</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Current M0</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>gold_price</td>
+      <td>2</td>
+      <td>0.0035</td>
+      <td>loading times quarterly mean z; not additive GDP contribution</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Current M0</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>m2</td>
+      <td>2</td>
+      <td>0.7261</td>
+      <td>loading times quarterly mean z; not additive GDP contribution</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Current M0</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>fx_reserves_ex_gold</td>
+      <td>2</td>
+      <td>-0.0797</td>
+      <td>loading times quarterly mean z; not additive GDP contribution</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Current M0</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>pos_turnover</td>
+      <td>0</td>
+      <td>Unavailable</td>
+      <td>loading times quarterly mean z; not additive GDP contribution</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>CPI only</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>industrial_production</td>
+      <td>1</td>
+      <td>-0.1337</td>
+      <td>loading times quarterly mean z; not additive GDP contribution</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>CPI only</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>ppi</td>
+      <td>2</td>
+      <td>-0.0203</td>
+      <td>loading times quarterly mean z; not additive GDP contribution</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>CPI only</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>usd_uzs</td>
+      <td>3</td>
+      <td>-0.0694</td>
+      <td>loading times quarterly mean z; not additive GDP contribution</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>CPI only</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>rub_uzs</td>
+      <td>3</td>
+      <td>0.0147</td>
+      <td>loading times quarterly mean z; not additive GDP contribution</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>CPI only</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>gold_price</td>
+      <td>2</td>
+      <td>-0.0055</td>
+      <td>loading times quarterly mean z; not additive GDP contribution</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>CPI only</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>fx_reserves_ex_gold</td>
+      <td>2</td>
+      <td>0.0224</td>
+      <td>loading times quarterly mean z; not additive GDP contribution</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>CPI only</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>pos_turnover</td>
+      <td>0</td>
+      <td>Unavailable</td>
+      <td>loading times quarterly mean z; not additive GDP contribution</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>CPI only</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>cpi</td>
+      <td>2</td>
+      <td>-1.1765</td>
+      <td>loading times quarterly mean z; not additive GDP contribution</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Nominal M2 + CPI</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>industrial_production</td>
+      <td>1</td>
+      <td>-0.1295</td>
+      <td>loading times quarterly mean z; not additive GDP contribution</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Nominal M2 + CPI</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>ppi</td>
+      <td>2</td>
+      <td>-0.0194</td>
+      <td>loading times quarterly mean z; not additive GDP contribution</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Nominal M2 + CPI</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>usd_uzs</td>
+      <td>3</td>
+      <td>-0.0667</td>
+      <td>loading times quarterly mean z; not additive GDP contribution</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Nominal M2 + CPI</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>rub_uzs</td>
+      <td>3</td>
+      <td>0.0140</td>
+      <td>loading times quarterly mean z; not additive GDP contribution</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Nominal M2 + CPI</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>gold_price</td>
+      <td>2</td>
+      <td>-0.0053</td>
+      <td>loading times quarterly mean z; not additive GDP contribution</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Nominal M2 + CPI</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>m2</td>
+      <td>2</td>
+      <td>0.0652</td>
+      <td>loading times quarterly mean z; not additive GDP contribution</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Nominal M2 + CPI</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>fx_reserves_ex_gold</td>
+      <td>2</td>
+      <td>0.0210</td>
+      <td>loading times quarterly mean z; not additive GDP contribution</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Nominal M2 + CPI</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>pos_turnover</td>
+      <td>0</td>
+      <td>Unavailable</td>
+      <td>loading times quarterly mean z; not additive GDP contribution</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Nominal M2 + CPI</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>cpi</td>
+      <td>2</td>
+      <td>-1.1381</td>
+      <td>loading times quarterly mean z; not additive GDP contribution</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Real M2 + CPI</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>industrial_production</td>
+      <td>1</td>
+      <td>-0.1191</td>
+      <td>loading times quarterly mean z; not additive GDP contribution</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Real M2 + CPI</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>ppi</td>
+      <td>2</td>
+      <td>-0.0182</td>
+      <td>loading times quarterly mean z; not additive GDP contribution</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Real M2 + CPI</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>usd_uzs</td>
+      <td>3</td>
+      <td>-0.0623</td>
+      <td>loading times quarterly mean z; not additive GDP contribution</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Real M2 + CPI</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>rub_uzs</td>
+      <td>3</td>
+      <td>0.0132</td>
+      <td>loading times quarterly mean z; not additive GDP contribution</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Real M2 + CPI</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>gold_price</td>
+      <td>2</td>
+      <td>-0.0049</td>
+      <td>loading times quarterly mean z; not additive GDP contribution</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Real M2 + CPI</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>m2</td>
+      <td>2</td>
+      <td>-0.0922</td>
+      <td>loading times quarterly mean z; not additive GDP contribution</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Real M2 + CPI</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>fx_reserves_ex_gold</td>
+      <td>2</td>
+      <td>0.0208</td>
+      <td>loading times quarterly mean z; not additive GDP contribution</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Real M2 + CPI</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>pos_turnover</td>
+      <td>0</td>
+      <td>Unavailable</td>
+      <td>loading times quarterly mean z; not additive GDP contribution</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Real M2 + CPI</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>cpi</td>
+      <td>2</td>
+      <td>-1.0493</td>
+      <td>loading times quarterly mean z; not additive GDP contribution</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Real M2 only</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>industrial_production</td>
+      <td>1</td>
+      <td>-0.0407</td>
+      <td>loading times quarterly mean z; not additive GDP contribution</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Real M2 only</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>ppi</td>
+      <td>2</td>
+      <td>0.0685</td>
+      <td>loading times quarterly mean z; not additive GDP contribution</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Real M2 only</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>usd_uzs</td>
+      <td>3</td>
+      <td>0.1875</td>
+      <td>loading times quarterly mean z; not additive GDP contribution</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Real M2 only</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>rub_uzs</td>
+      <td>3</td>
+      <td>-0.0601</td>
+      <td>loading times quarterly mean z; not additive GDP contribution</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Real M2 only</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>gold_price</td>
+      <td>2</td>
+      <td>-0.0015</td>
+      <td>loading times quarterly mean z; not additive GDP contribution</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Real M2 only</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>m2</td>
+      <td>2</td>
+      <td>0.7989</td>
+      <td>loading times quarterly mean z; not additive GDP contribution</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Real M2 only</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>fx_reserves_ex_gold</td>
+      <td>2</td>
+      <td>-0.3147</td>
+      <td>loading times quarterly mean z; not additive GDP contribution</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Real M2 only</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>pos_turnover</td>
+      <td>0</td>
+      <td>Unavailable</td>
+      <td>loading times quarterly mean z; not additive GDP contribution</td>
+    </tr>
+  </tbody>
+</table></div></section><section><h2>Factor-loading comparison</h2><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>sample</th>
+      <th>model</th>
+      <th>target_quarter</th>
+      <th>horizon</th>
+      <th>forecast_origin</th>
+      <th>current</th>
+      <th>variable</th>
+      <th>factor</th>
+      <th>loading</th>
+      <th>abs_loading</th>
+      <th>rank</th>
+      <th>loading_sign</th>
+      <th>correlation_with_factor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>NATIVE</td>
+      <td>Current M0</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>True</td>
+      <td>industrial_production</td>
+      <td>1</td>
+      <td>0.0779</td>
+      <td>0.0779</td>
+      <td>4</td>
+      <td>1</td>
+      <td>0.1354</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Current M0</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>True</td>
+      <td>ppi</td>
+      <td>1</td>
+      <td>-0.0415</td>
+      <td>0.0415</td>
+      <td>6</td>
+      <td>-1</td>
+      <td>-0.0770</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Current M0</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>True</td>
+      <td>usd_uzs</td>
+      <td>1</td>
+      <td>-0.1658</td>
+      <td>0.1658</td>
+      <td>3</td>
+      <td>-1</td>
+      <td>-0.3106</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Current M0</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>True</td>
+      <td>rub_uzs</td>
+      <td>1</td>
+      <td>0.0369</td>
+      <td>0.0369</td>
+      <td>7</td>
+      <td>1</td>
+      <td>0.0795</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Current M0</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>True</td>
+      <td>gold_price</td>
+      <td>1</td>
+      <td>0.0163</td>
+      <td>0.0163</td>
+      <td>8</td>
+      <td>1</td>
+      <td>0.0277</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Current M0</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>True</td>
+      <td>m2</td>
+      <td>1</td>
+      <td>0.5198</td>
+      <td>0.5198</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0.9960</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Current M0</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>True</td>
+      <td>fx_reserves_ex_gold</td>
+      <td>1</td>
+      <td>0.0580</td>
+      <td>0.0580</td>
+      <td>5</td>
+      <td>1</td>
+      <td>0.1016</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Current M0</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>True</td>
+      <td>pos_turnover</td>
+      <td>1</td>
+      <td>0.3355</td>
+      <td>0.3355</td>
+      <td>2</td>
+      <td>1</td>
+      <td>0.6277</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>CPI only</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>True</td>
+      <td>industrial_production</td>
+      <td>1</td>
+      <td>-0.2988</td>
+      <td>0.2988</td>
+      <td>3</td>
+      <td>-1</td>
+      <td>-0.4744</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>CPI only</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>True</td>
+      <td>ppi</td>
+      <td>1</td>
+      <td>0.0227</td>
+      <td>0.0227</td>
+      <td>6</td>
+      <td>1</td>
+      <td>0.0327</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>CPI only</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>True</td>
+      <td>usd_uzs</td>
+      <td>1</td>
+      <td>0.0857</td>
+      <td>0.0857</td>
+      <td>4</td>
+      <td>1</td>
+      <td>0.1331</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>CPI only</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>True</td>
+      <td>rub_uzs</td>
+      <td>1</td>
+      <td>-0.0192</td>
+      <td>0.0192</td>
+      <td>8</td>
+      <td>-1</td>
+      <td>-0.0429</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>CPI only</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>True</td>
+      <td>gold_price</td>
+      <td>1</td>
+      <td>-0.0410</td>
+      <td>0.0410</td>
+      <td>5</td>
+      <td>-1</td>
+      <td>-0.0682</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>CPI only</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>True</td>
+      <td>fx_reserves_ex_gold</td>
+      <td>1</td>
+      <td>-0.0211</td>
+      <td>0.0211</td>
+      <td>7</td>
+      <td>-1</td>
+      <td>-0.0306</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>CPI only</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>True</td>
+      <td>pos_turnover</td>
+      <td>1</td>
+      <td>0.3872</td>
+      <td>0.3872</td>
+      <td>2</td>
+      <td>1</td>
+      <td>0.6245</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>CPI only</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>True</td>
+      <td>cpi</td>
+      <td>1</td>
+      <td>0.6258</td>
+      <td>0.6258</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0.9981</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Nominal M2 + CPI</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>True</td>
+      <td>industrial_production</td>
+      <td>1</td>
+      <td>-0.2896</td>
+      <td>0.2896</td>
+      <td>3</td>
+      <td>-1</td>
+      <td>-0.4752</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Nominal M2 + CPI</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>True</td>
+      <td>ppi</td>
+      <td>1</td>
+      <td>0.0218</td>
+      <td>0.0218</td>
+      <td>7</td>
+      <td>1</td>
+      <td>0.0323</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Nominal M2 + CPI</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>True</td>
+      <td>usd_uzs</td>
+      <td>1</td>
+      <td>0.0823</td>
+      <td>0.0823</td>
+      <td>4</td>
+      <td>1</td>
+      <td>0.1321</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Nominal M2 + CPI</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>True</td>
+      <td>rub_uzs</td>
+      <td>1</td>
+      <td>-0.0183</td>
+      <td>0.0183</td>
+      <td>9</td>
+      <td>-1</td>
+      <td>-0.0426</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Nominal M2 + CPI</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>True</td>
+      <td>gold_price</td>
+      <td>1</td>
+      <td>-0.0396</td>
+      <td>0.0396</td>
+      <td>6</td>
+      <td>-1</td>
+      <td>-0.0682</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Nominal M2 + CPI</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>True</td>
+      <td>m2</td>
+      <td>1</td>
+      <td>0.0695</td>
+      <td>0.0695</td>
+      <td>5</td>
+      <td>1</td>
+      <td>0.1135</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Nominal M2 + CPI</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>True</td>
+      <td>fx_reserves_ex_gold</td>
+      <td>1</td>
+      <td>-0.0197</td>
+      <td>0.0197</td>
+      <td>8</td>
+      <td>-1</td>
+      <td>-0.0296</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Nominal M2 + CPI</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>True</td>
+      <td>pos_turnover</td>
+      <td>1</td>
+      <td>0.3747</td>
+      <td>0.3747</td>
+      <td>2</td>
+      <td>1</td>
+      <td>0.6247</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Nominal M2 + CPI</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>True</td>
+      <td>cpi</td>
+      <td>1</td>
+      <td>0.6054</td>
+      <td>0.6054</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0.9980</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Real M2 + CPI</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>True</td>
+      <td>industrial_production</td>
+      <td>1</td>
+      <td>-0.2662</td>
+      <td>0.2662</td>
+      <td>3</td>
+      <td>-1</td>
+      <td>-0.4740</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Real M2 + CPI</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>True</td>
+      <td>ppi</td>
+      <td>1</td>
+      <td>0.0205</td>
+      <td>0.0205</td>
+      <td>7</td>
+      <td>1</td>
+      <td>0.0330</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Real M2 + CPI</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>True</td>
+      <td>usd_uzs</td>
+      <td>1</td>
+      <td>0.0769</td>
+      <td>0.0769</td>
+      <td>4</td>
+      <td>1</td>
+      <td>0.1340</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Real M2 + CPI</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>True</td>
+      <td>rub_uzs</td>
+      <td>1</td>
+      <td>-0.0174</td>
+      <td>0.0174</td>
+      <td>9</td>
+      <td>-1</td>
+      <td>-0.0434</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Real M2 + CPI</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>True</td>
+      <td>gold_price</td>
+      <td>1</td>
+      <td>-0.0364</td>
+      <td>0.0364</td>
+      <td>6</td>
+      <td>-1</td>
+      <td>-0.0681</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Real M2 + CPI</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>True</td>
+      <td>real_m2</td>
+      <td>1</td>
+      <td>-0.0673</td>
+      <td>0.0673</td>
+      <td>5</td>
+      <td>-1</td>
+      <td>-0.1214</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Real M2 + CPI</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>True</td>
+      <td>fx_reserves_ex_gold</td>
+      <td>1</td>
+      <td>-0.0195</td>
+      <td>0.0195</td>
+      <td>8</td>
+      <td>-1</td>
+      <td>-0.0319</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Real M2 + CPI</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>True</td>
+      <td>pos_turnover</td>
+      <td>1</td>
+      <td>0.3457</td>
+      <td>0.3457</td>
+      <td>2</td>
+      <td>1</td>
+      <td>0.6247</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Real M2 + CPI</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>True</td>
+      <td>cpi</td>
+      <td>1</td>
+      <td>0.5581</td>
+      <td>0.5581</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0.9980</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Real M2 only</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>True</td>
+      <td>industrial_production</td>
+      <td>1</td>
+      <td>-0.0910</td>
+      <td>0.0910</td>
+      <td>5</td>
+      <td>-1</td>
+      <td>-0.1721</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Real M2 only</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>True</td>
+      <td>ppi</td>
+      <td>1</td>
+      <td>-0.0769</td>
+      <td>0.0769</td>
+      <td>7</td>
+      <td>-1</td>
+      <td>-0.1297</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Real M2 only</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>True</td>
+      <td>usd_uzs</td>
+      <td>1</td>
+      <td>-0.2314</td>
+      <td>0.2314</td>
+      <td>4</td>
+      <td>-1</td>
+      <td>-0.3940</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Real M2 only</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>True</td>
+      <td>rub_uzs</td>
+      <td>1</td>
+      <td>0.0788</td>
+      <td>0.0788</td>
+      <td>6</td>
+      <td>1</td>
+      <td>0.1449</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Real M2 only</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>True</td>
+      <td>gold_price</td>
+      <td>1</td>
+      <td>-0.0110</td>
+      <td>0.0110</td>
+      <td>8</td>
+      <td>-1</td>
+      <td>-0.0277</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Real M2 only</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>True</td>
+      <td>real_m2</td>
+      <td>1</td>
+      <td>0.5834</td>
+      <td>0.5834</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0.9954</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Real M2 only</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>True</td>
+      <td>fx_reserves_ex_gold</td>
+      <td>1</td>
+      <td>0.2957</td>
+      <td>0.2957</td>
+      <td>2</td>
+      <td>1</td>
+      <td>0.4780</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>Real M2 only</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>2026-10-05 16:54:48.927036</td>
+      <td>True</td>
+      <td>pos_turnover</td>
+      <td>1</td>
+      <td>0.2469</td>
+      <td>0.2469</td>
+      <td>3</td>
+      <td>1</td>
+      <td>0.4840</td>
+    </tr>
+  </tbody>
+</table></div></section><section><h2>Factor path correlations</h2><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>sample</th>
+      <th>target_quarter</th>
+      <th>horizon</th>
+      <th>current</th>
+      <th>model_a</th>
+      <th>model_b</th>
+      <th>N</th>
+      <th>correlation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>NATIVE</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>True</td>
+      <td>M0_CURRENT_M2</td>
+      <td>M1_CPI_ONLY</td>
+      <td>57</td>
+      <td>0.0296</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>True</td>
+      <td>M0_CURRENT_M2</td>
+      <td>M2_NOMINAL_M2_PLUS_CPI</td>
+      <td>57</td>
+      <td>0.0320</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>True</td>
+      <td>M0_CURRENT_M2</td>
+      <td>M3_REAL_M2_PLUS_CPI</td>
+      <td>57</td>
+      <td>0.0273</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>True</td>
+      <td>M0_CURRENT_M2</td>
+      <td>M4_REAL_M2_ONLY</td>
+      <td>57</td>
+      <td>0.9718</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>True</td>
+      <td>M1_CPI_ONLY</td>
+      <td>M2_NOMINAL_M2_PLUS_CPI</td>
+      <td>57</td>
+      <td>1.0000</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>True</td>
+      <td>M1_CPI_ONLY</td>
+      <td>M3_REAL_M2_PLUS_CPI</td>
+      <td>57</td>
+      <td>1.0000</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>True</td>
+      <td>M1_CPI_ONLY</td>
+      <td>M4_REAL_M2_ONLY</td>
+      <td>57</td>
+      <td>-0.2052</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>True</td>
+      <td>M2_NOMINAL_M2_PLUS_CPI</td>
+      <td>M3_REAL_M2_PLUS_CPI</td>
+      <td>57</td>
+      <td>1.0000</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>True</td>
+      <td>M2_NOMINAL_M2_PLUS_CPI</td>
+      <td>M4_REAL_M2_ONLY</td>
+      <td>57</td>
+      <td>-0.2028</td>
+    </tr>
+    <tr>
+      <td>NATIVE</td>
+      <td>2026Q3</td>
+      <td>H3</td>
+      <td>True</td>
+      <td>M3_REAL_M2_PLUS_CPI</td>
+      <td>M4_REAL_M2_ONLY</td>
+      <td>57</td>
+      <td>-0.2075</td>
+    </tr>
+  </tbody>
+</table></div></section><section><h2>Factor and bridge fit</h2><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>model</th>
+      <th>matched_fits</th>
+      <th>mean_factor_variance_explained</th>
+      <th>mean_bridge_fit_rmse</th>
+      <th>mean_bridge_r2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Current M0</td>
+      <td>18</td>
+      <td>0.2361</td>
+      <td>0.6436</td>
+      <td>0.2505</td>
+    </tr>
+    <tr>
+      <td>CPI only</td>
+      <td>18</td>
+      <td>0.2262</td>
+      <td>0.6167</td>
+      <td>0.2984</td>
+    </tr>
+    <tr>
+      <td>Nominal M2 + CPI</td>
+      <td>18</td>
+      <td>0.2535</td>
+      <td>0.6175</td>
+      <td>0.2975</td>
+    </tr>
+    <tr>
+      <td>Real M2 + CPI</td>
+      <td>18</td>
+      <td>0.2463</td>
+      <td>0.6358</td>
+      <td>0.2649</td>
+    </tr>
+    <tr>
+      <td>Real M2 only</td>
+      <td>18</td>
+      <td>0.2398</td>
+      <td>0.6406</td>
+      <td>0.2552</td>
+    </tr>
+  </tbody>
+</table></div></section><section><h2>Incremental information / ablation</h2><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>comparison</th>
+      <th>before</th>
+      <th>after</th>
+      <th>delta_common_sample_pooled_rmse</th>
+      <th>delta_mae</th>
+      <th>delta_bias</th>
+      <th>delta_mean_factor_variance_explained</th>
+      <th>delta_mean_bridge_fit_rmse</th>
+      <th>delta_mean_bridge_r2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CPI conditional on nominal M2</td>
+      <td>M0_CURRENT_M2</td>
+      <td>M2_NOMINAL_M2_PLUS_CPI</td>
+      <td>-0.1646</td>
+      <td>-0.1532</td>
+      <td>-0.1532</td>
+      <td>0.0174</td>
+      <td>-0.0261</td>
+      <td>0.0470</td>
+    </tr>
+    <tr>
+      <td>CPI conditional on real M2</td>
+      <td>M4_REAL_M2_ONLY</td>
+      <td>M3_REAL_M2_PLUS_CPI</td>
+      <td>-0.1292</td>
+      <td>-0.1381</td>
+      <td>-0.1381</td>
+      <td>0.0065</td>
+      <td>-0.0048</td>
+      <td>0.0097</td>
+    </tr>
+    <tr>
+      <td>nominal M2 conditional on CPI</td>
+      <td>M1_CPI_ONLY</td>
+      <td>M2_NOMINAL_M2_PLUS_CPI</td>
+      <td>0.0305</td>
+      <td>0.0333</td>
+      <td>0.0333</td>
+      <td>0.0273</td>
+      <td>0.0009</td>
+      <td>-0.0009</td>
+    </tr>
+    <tr>
+      <td>real M2 conditional on CPI</td>
+      <td>M1_CPI_ONLY</td>
+      <td>M3_REAL_M2_PLUS_CPI</td>
+      <td>0.0375</td>
+      <td>0.0123</td>
+      <td>0.0123</td>
+      <td>0.0201</td>
+      <td>0.0191</td>
+      <td>-0.0335</td>
+    </tr>
+  </tbody>
+</table></div></section><section><h2>Information-content interpretation</h2><p>CPI is not largely duplicated by nominal M2: their Pearson correlation is about 0.041; nominal and real M2 are highly correlated (about 0.972). Adding nominal M2 to CPI raises common-span RMSE by 0.0305 pp (3.30%); adding real M2 raises it by 0.0375 pp (4.06%). Adding CPI to nominal or real M2 improves common-span performance, but does not beat the unchanged native M0 on matched origins. The current native CPI-containing factor paths correlate above 0.9999 with one another, but only about 0.03 with native M0 over overlapping months. Real-M2-only correlates about 0.972 with M0. CPI therefore materially changes the estimated common factor; adding money to CPI contributes little extra factor-path variation. These native comparisons also reflect estimation-history differences; COMMON path correlations are saved separately. This is evidence of changed factor structure, not demonstrated incremental GDP forecasting value. REJECT means reject promotion on this evidence, not permanently exclude a variable. Every challenger improves all three horizons against common-span M0, but none beats the unchanged native benchmark. Only six scored quarters limit robustness; the best short-span model has 3.8 times the M0 short-span horizon-revision volatility.</p></section><section><h2>Rolling 24-month correlations</h2><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>date</th>
+      <th>variable_a</th>
+      <th>variable_b</th>
+      <th>pearson_24m</th>
+      <th>spearman_24m</th>
+      <th>window_months</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2025-09-30 00:00:00</td>
+      <td>nominal_m2</td>
+      <td>cpi</td>
+      <td>0.4148</td>
+      <td>0.2348</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>2025-10-31 00:00:00</td>
+      <td>nominal_m2</td>
+      <td>cpi</td>
+      <td>0.3348</td>
+      <td>0.1861</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>2025-11-30 00:00:00</td>
+      <td>nominal_m2</td>
+      <td>cpi</td>
+      <td>0.2024</td>
+      <td>0.0383</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>2025-12-31 00:00:00</td>
+      <td>nominal_m2</td>
+      <td>cpi</td>
+      <td>0.0515</td>
+      <td>-0.1113</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>2026-01-31 00:00:00</td>
+      <td>nominal_m2</td>
+      <td>cpi</td>
+      <td>-0.1376</td>
+      <td>-0.2896</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>2026-02-28 00:00:00</td>
+      <td>nominal_m2</td>
+      <td>cpi</td>
+      <td>-0.3135</td>
+      <td>-0.4530</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>2026-03-31 00:00:00</td>
+      <td>nominal_m2</td>
+      <td>cpi</td>
+      <td>-0.5220</td>
+      <td>-0.6096</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>2026-04-30 00:00:00</td>
+      <td>nominal_m2</td>
+      <td>cpi</td>
+      <td>-0.7421</td>
+      <td>-0.7374</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>2026-05-31 00:00:00</td>
+      <td>nominal_m2</td>
+      <td>cpi</td>
+      <td>-0.7335</td>
+      <td>-0.7322</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>2026-06-30 00:00:00</td>
+      <td>nominal_m2</td>
+      <td>cpi</td>
+      <td>-0.7207</td>
+      <td>-0.7183</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>2026-07-31 00:00:00</td>
+      <td>nominal_m2</td>
+      <td>cpi</td>
+      <td>-0.7166</td>
+      <td>-0.7009</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>2026-08-31 00:00:00</td>
+      <td>nominal_m2</td>
+      <td>cpi</td>
+      <td>-0.7091</td>
+      <td>-0.6730</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>2025-09-30 00:00:00</td>
+      <td>nominal_m2</td>
+      <td>real_m2</td>
+      <td>0.9921</td>
+      <td>0.9522</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>2025-10-31 00:00:00</td>
+      <td>nominal_m2</td>
+      <td>real_m2</td>
+      <td>0.9898</td>
+      <td>0.9252</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>2025-11-30 00:00:00</td>
+      <td>nominal_m2</td>
+      <td>real_m2</td>
+      <td>0.9854</td>
+      <td>0.9235</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>2025-12-31 00:00:00</td>
+      <td>nominal_m2</td>
+      <td>real_m2</td>
+      <td>0.9811</td>
+      <td>0.9235</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>2026-01-31 00:00:00</td>
+      <td>nominal_m2</td>
+      <td>real_m2</td>
+      <td>0.9775</td>
+      <td>0.9235</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>2026-02-28 00:00:00</td>
+      <td>nominal_m2</td>
+      <td>real_m2</td>
+      <td>0.9758</td>
+      <td>0.9235</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>2026-03-31 00:00:00</td>
+      <td>nominal_m2</td>
+      <td>real_m2</td>
+      <td>0.9787</td>
+      <td>0.9235</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>2026-04-30 00:00:00</td>
+      <td>nominal_m2</td>
+      <td>real_m2</td>
+      <td>0.9841</td>
+      <td>0.9226</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>2026-05-31 00:00:00</td>
+      <td>nominal_m2</td>
+      <td>real_m2</td>
+      <td>0.9791</td>
+      <td>0.9200</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>2026-06-30 00:00:00</td>
+      <td>nominal_m2</td>
+      <td>real_m2</td>
+      <td>0.9755</td>
+      <td>0.9174</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>2026-07-31 00:00:00</td>
+      <td>nominal_m2</td>
+      <td>real_m2</td>
+      <td>0.9736</td>
+      <td>0.9139</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>2026-08-31 00:00:00</td>
+      <td>nominal_m2</td>
+      <td>real_m2</td>
+      <td>0.9630</td>
+      <td>0.9139</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>2025-09-30 00:00:00</td>
+      <td>cpi</td>
+      <td>real_m2</td>
+      <td>0.2972</td>
+      <td>0.1017</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>2025-10-31 00:00:00</td>
+      <td>cpi</td>
+      <td>real_m2</td>
+      <td>0.1968</td>
+      <td>-0.0087</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>2025-11-30 00:00:00</td>
+      <td>cpi</td>
+      <td>real_m2</td>
+      <td>0.0330</td>
+      <td>-0.1539</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>2025-12-31 00:00:00</td>
+      <td>cpi</td>
+      <td>real_m2</td>
+      <td>-0.1427</td>
+      <td>-0.2870</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>2026-01-31 00:00:00</td>
+      <td>cpi</td>
+      <td>real_m2</td>
+      <td>-0.3434</td>
+      <td>-0.4539</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>2026-02-28 00:00:00</td>
+      <td>cpi</td>
+      <td>real_m2</td>
+      <td>-0.5135</td>
+      <td>-0.6061</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>2026-03-31 00:00:00</td>
+      <td>cpi</td>
+      <td>real_m2</td>
+      <td>-0.6858</td>
+      <td>-0.7557</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>2026-04-30 00:00:00</td>
+      <td>cpi</td>
+      <td>real_m2</td>
+      <td>-0.8494</td>
+      <td>-0.8748</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>2026-05-31 00:00:00</td>
+      <td>cpi</td>
+      <td>real_m2</td>
+      <td>-0.8565</td>
+      <td>-0.8757</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>2026-06-30 00:00:00</td>
+      <td>cpi</td>
+      <td>real_m2</td>
+      <td>-0.8555</td>
+      <td>-0.8678</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>2026-07-31 00:00:00</td>
+      <td>cpi</td>
+      <td>real_m2</td>
+      <td>-0.8570</td>
+      <td>-0.8600</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>2026-08-31 00:00:00</td>
+      <td>cpi</td>
+      <td>real_m2</td>
+      <td>-0.8729</td>
+      <td>-0.8348</td>
+      <td>24</td>
+    </tr>
+  </tbody>
+</table></div></section><section><h2>Forecast stability</h2><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>model</th>
+      <th>error_std</th>
+      <th>max_abs_error</th>
+      <th>within_quarter_revision_std</th>
+      <th>within_quarter_mean_abs_revision</th>
+      <th>quarter_to_quarter_forecast_change_std</th>
+      <th>quarter_to_quarter_change_n</th>
+      <th>quarters_beating_m0</th>
+      <th>share_quarters_beating_m0</th>
+      <th>m0_win_comparison</th>
+      <th>quarters_beating_umidas</th>
+      <th>share_quarters_beating_umidas</th>
+      <th>umidas_quarters</th>
+      <th>pre_development_rmse</th>
+      <th>post_development_rmse</th>
+      <th>worst_H1_absolute_error</th>
+      <th>worst_H2_absolute_error</th>
+      <th>worst_H3_absolute_error</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Current M0</td>
+      <td>0.3852</td>
+      <td>1.6289</td>
+      <td>0.0325</td>
+      <td>0.0229</td>
+      <td>0.3247</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0.0000</td>
+      <td>COMMON refit M0; native benchmark performance reported separately</td>
+      <td>0</td>
+      <td>0.0000</td>
+      <td>6</td>
+      <td>1.0895</td>
+      <td>1.1326</td>
+      <td>1.6289</td>
+      <td>1.6006</td>
+      <td>1.5979</td>
+    </tr>
+    <tr>
+      <td>CPI only</td>
+      <td>0.3256</td>
+      <td>1.4285</td>
+      <td>0.1247</td>
+      <td>0.0954</td>
+      <td>0.2609</td>
+      <td>15</td>
+      <td>5</td>
+      <td>0.8333</td>
+      <td>COMMON refit M0; native benchmark performance reported separately</td>
+      <td>1</td>
+      <td>0.1667</td>
+      <td>6</td>
+      <td>0.8614</td>
+      <td>0.9528</td>
+      <td>1.4285</td>
+      <td>1.3696</td>
+      <td>1.3420</td>
+    </tr>
+    <tr>
+      <td>Nominal M2 + CPI</td>
+      <td>0.3229</td>
+      <td>1.4441</td>
+      <td>0.1239</td>
+      <td>0.0886</td>
+      <td>0.2628</td>
+      <td>15</td>
+      <td>5</td>
+      <td>0.8333</td>
+      <td>COMMON refit M0; native benchmark performance reported separately</td>
+      <td>1</td>
+      <td>0.1667</td>
+      <td>6</td>
+      <td>0.9130</td>
+      <td>0.9736</td>
+      <td>1.4441</td>
+      <td>1.3880</td>
+      <td>1.3611</td>
+    </tr>
+    <tr>
+      <td>Real M2 + CPI</td>
+      <td>0.3976</td>
+      <td>1.5664</td>
+      <td>0.0589</td>
+      <td>0.0484</td>
+      <td>0.3742</td>
+      <td>15</td>
+      <td>6</td>
+      <td>1.0000</td>
+      <td>COMMON refit M0; native benchmark performance reported separately</td>
+      <td>1</td>
+      <td>0.1667</td>
+      <td>6</td>
+      <td>0.8948</td>
+      <td>0.9922</td>
+      <td>1.5664</td>
+      <td>1.5247</td>
+      <td>1.5248</td>
+    </tr>
+    <tr>
+      <td>Real M2 only</td>
+      <td>0.4017</td>
+      <td>1.5538</td>
+      <td>0.0404</td>
+      <td>0.0297</td>
+      <td>0.3274</td>
+      <td>15</td>
+      <td>3</td>
+      <td>0.5000</td>
+      <td>COMMON refit M0; native benchmark performance reported separately</td>
+      <td>0</td>
+      <td>0.0000</td>
+      <td>6</td>
+      <td>1.1217</td>
+      <td>1.0739</td>
+      <td>1.5538</td>
+      <td>1.5096</td>
+      <td>1.5109</td>
+    </tr>
+  </tbody>
+</table></div></section><section><h2>Selection robustness flags</h2><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>model</th>
+      <th>horizons_improving_vs_common_m0</th>
+      <th>one_horizon_only</th>
+      <th>few_quarters</th>
+      <th>shorter_estimation_history_than_native_m0</th>
+      <th>revision_volatility_more_than_twice_m0</th>
+      <th>beats_unchanged_m0_on_matched_origins</th>
+      <th>common_span_rmse_improvement_pct</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Current M0</td>
+      <td>0</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>CPI only</td>
+      <td>3</td>
+      <td>False</td>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>17.4449</td>
+    </tr>
+    <tr>
+      <td>Nominal M2 + CPI</td>
+      <td>3</td>
+      <td>False</td>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>14.7176</td>
+    </tr>
+    <tr>
+      <td>Real M2 + CPI</td>
+      <td>3</td>
+      <td>False</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>14.0919</td>
+    </tr>
+    <tr>
+      <td>Real M2 only</td>
+      <td>3</td>
+      <td>False</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>2.5361</td>
+    </tr>
+  </tbody>
+</table></div></section><section><h2>Historical matched forecasts</h2><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>target_quarter</th>
+      <th>horizon</th>
+      <th>sample</th>
+      <th>model</th>
+      <th>forecast_origin</th>
+      <th>actual</th>
+      <th>prediction</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2025Q1</td>
+      <td>H1</td>
+      <td>COMMON</td>
+      <td>Current M0</td>
+      <td>2025-01-31 00:00:00</td>
+      <td>6.8000</td>
+      <td>5.9622</td>
+    </tr>
+    <tr>
+      <td>2025Q1</td>
+      <td>H1</td>
+      <td>COMMON</td>
+      <td>CPI only</td>
+      <td>2025-01-31 00:00:00</td>
+      <td>6.8000</td>
+      <td>6.2134</td>
+    </tr>
+    <tr>
+      <td>2025Q1</td>
+      <td>H1</td>
+      <td>COMMON</td>
+      <td>Nominal M2 + CPI</td>
+      <td>2025-01-31 00:00:00</td>
+      <td>6.8000</td>
+      <td>6.1705</td>
+    </tr>
+    <tr>
+      <td>2025Q1</td>
+      <td>H1</td>
+      <td>COMMON</td>
+      <td>Real M2 + CPI</td>
+      <td>2025-01-31 00:00:00</td>
+      <td>6.8000</td>
+      <td>6.1904</td>
+    </tr>
+    <tr>
+      <td>2025Q1</td>
+      <td>H1</td>
+      <td>COMMON</td>
+      <td>Real M2 only</td>
+      <td>2025-01-31 00:00:00</td>
+      <td>6.8000</td>
+      <td>5.9304</td>
+    </tr>
+    <tr>
+      <td>2025Q1</td>
+      <td>H2</td>
+      <td>COMMON</td>
+      <td>Current M0</td>
+      <td>2025-02-28 00:00:00</td>
+      <td>6.8000</td>
+      <td>5.9190</td>
+    </tr>
+    <tr>
+      <td>2025Q1</td>
+      <td>H2</td>
+      <td>COMMON</td>
+      <td>CPI only</td>
+      <td>2025-02-28 00:00:00</td>
+      <td>6.8000</td>
+      <td>6.1642</td>
+    </tr>
+    <tr>
+      <td>2025Q1</td>
+      <td>H2</td>
+      <td>COMMON</td>
+      <td>Nominal M2 + CPI</td>
+      <td>2025-02-28 00:00:00</td>
+      <td>6.8000</td>
+      <td>6.1234</td>
+    </tr>
+    <tr>
+      <td>2025Q1</td>
+      <td>H2</td>
+      <td>COMMON</td>
+      <td>Real M2 + CPI</td>
+      <td>2025-02-28 00:00:00</td>
+      <td>6.8000</td>
+      <td>6.1404</td>
+    </tr>
+    <tr>
+      <td>2025Q1</td>
+      <td>H2</td>
+      <td>COMMON</td>
+      <td>Real M2 only</td>
+      <td>2025-02-28 00:00:00</td>
+      <td>6.8000</td>
+      <td>5.8791</td>
+    </tr>
+    <tr>
+      <td>2025Q1</td>
+      <td>H3</td>
+      <td>COMMON</td>
+      <td>Current M0</td>
+      <td>2025-03-31 00:00:00</td>
+      <td>6.8000</td>
+      <td>5.8414</td>
+    </tr>
+    <tr>
+      <td>2025Q1</td>
+      <td>H3</td>
+      <td>COMMON</td>
+      <td>CPI only</td>
+      <td>2025-03-31 00:00:00</td>
+      <td>6.8000</td>
+      <td>6.1308</td>
+    </tr>
+    <tr>
+      <td>2025Q1</td>
+      <td>H3</td>
+      <td>COMMON</td>
+      <td>Nominal M2 + CPI</td>
+      <td>2025-03-31 00:00:00</td>
+      <td>6.8000</td>
+      <td>6.0726</td>
+    </tr>
+    <tr>
+      <td>2025Q1</td>
+      <td>H3</td>
+      <td>COMMON</td>
+      <td>Real M2 + CPI</td>
+      <td>2025-03-31 00:00:00</td>
+      <td>6.8000</td>
+      <td>6.0936</td>
+    </tr>
+    <tr>
+      <td>2025Q1</td>
+      <td>H3</td>
+      <td>COMMON</td>
+      <td>Real M2 only</td>
+      <td>2025-03-31 00:00:00</td>
+      <td>6.8000</td>
+      <td>5.7911</td>
+    </tr>
+    <tr>
+      <td>2025Q2</td>
+      <td>H1</td>
+      <td>COMMON</td>
+      <td>Current M0</td>
+      <td>2025-04-30 00:00:00</td>
+      <td>7.2000</td>
+      <td>5.9865</td>
+    </tr>
+    <tr>
+      <td>2025Q2</td>
+      <td>H1</td>
+      <td>COMMON</td>
+      <td>CPI only</td>
+      <td>2025-04-30 00:00:00</td>
+      <td>7.2000</td>
+      <td>6.0625</td>
+    </tr>
+    <tr>
+      <td>2025Q2</td>
+      <td>H1</td>
+      <td>COMMON</td>
+      <td>Nominal M2 + CPI</td>
+      <td>2025-04-30 00:00:00</td>
+      <td>7.2000</td>
+      <td>6.0325</td>
+    </tr>
+    <tr>
+      <td>2025Q2</td>
+      <td>H1</td>
+      <td>COMMON</td>
+      <td>Real M2 + CPI</td>
+      <td>2025-04-30 00:00:00</td>
+      <td>7.2000</td>
+      <td>6.0419</td>
+    </tr>
+    <tr>
+      <td>2025Q2</td>
+      <td>H1</td>
+      <td>COMMON</td>
+      <td>Real M2 only</td>
+      <td>2025-04-30 00:00:00</td>
+      <td>7.2000</td>
+      <td>5.9753</td>
+    </tr>
+    <tr>
+      <td>2025Q2</td>
+      <td>H2</td>
+      <td>COMMON</td>
+      <td>Current M0</td>
+      <td>2025-05-31 00:00:00</td>
+      <td>7.2000</td>
+      <td>5.9224</td>
+    </tr>
+    <tr>
+      <td>2025Q2</td>
+      <td>H2</td>
+      <td>COMMON</td>
+      <td>CPI only</td>
+      <td>2025-05-31 00:00:00</td>
+      <td>7.2000</td>
+      <td>6.1296</td>
+    </tr>
+    <tr>
+      <td>2025Q2</td>
+      <td>H2</td>
+      <td>COMMON</td>
+      <td>Nominal M2 + CPI</td>
+      <td>2025-05-31 00:00:00</td>
+      <td>7.2000</td>
+      <td>6.0739</td>
+    </tr>
+    <tr>
+      <td>2025Q2</td>
+      <td>H2</td>
+      <td>COMMON</td>
+      <td>Real M2 + CPI</td>
+      <td>2025-05-31 00:00:00</td>
+      <td>7.2000</td>
+      <td>6.0921</td>
+    </tr>
+    <tr>
+      <td>2025Q2</td>
+      <td>H2</td>
+      <td>COMMON</td>
+      <td>Real M2 only</td>
+      <td>2025-05-31 00:00:00</td>
+      <td>7.2000</td>
+      <td>5.9025</td>
+    </tr>
+    <tr>
+      <td>2025Q2</td>
+      <td>H3</td>
+      <td>COMMON</td>
+      <td>Current M0</td>
+      <td>2025-06-30 00:00:00</td>
+      <td>7.2000</td>
+      <td>5.9271</td>
+    </tr>
+    <tr>
+      <td>2025Q2</td>
+      <td>H3</td>
+      <td>COMMON</td>
+      <td>CPI only</td>
+      <td>2025-06-30 00:00:00</td>
+      <td>7.2000</td>
+      <td>6.2967</td>
+    </tr>
+    <tr>
+      <td>2025Q2</td>
+      <td>H3</td>
+      <td>COMMON</td>
+      <td>Nominal M2 + CPI</td>
+      <td>2025-06-30 00:00:00</td>
+      <td>7.2000</td>
+      <td>6.2062</td>
+    </tr>
+    <tr>
+      <td>2025Q2</td>
+      <td>H3</td>
+      <td>COMMON</td>
+      <td>Real M2 + CPI</td>
+      <td>2025-06-30 00:00:00</td>
+      <td>7.2000</td>
+      <td>6.2359</td>
+    </tr>
+    <tr>
+      <td>2025Q2</td>
+      <td>H3</td>
+      <td>COMMON</td>
+      <td>Real M2 only</td>
+      <td>2025-06-30 00:00:00</td>
+      <td>7.2000</td>
+      <td>5.8793</td>
+    </tr>
+    <tr>
+      <td>2025Q3</td>
+      <td>H1</td>
+      <td>COMMON</td>
+      <td>Current M0</td>
+      <td>2025-07-31 00:00:00</td>
+      <td>7.6000</td>
+      <td>6.3549</td>
+    </tr>
+    <tr>
+      <td>2025Q3</td>
+      <td>H1</td>
+      <td>COMMON</td>
+      <td>CPI only</td>
+      <td>2025-07-31 00:00:00</td>
+      <td>7.6000</td>
+      <td>6.6176</td>
+    </tr>
+    <tr>
+      <td>2025Q3</td>
+      <td>H1</td>
+      <td>COMMON</td>
+      <td>Nominal M2 + CPI</td>
+      <td>2025-07-31 00:00:00</td>
+      <td>7.6000</td>
+      <td>6.6055</td>
+    </tr>
+    <tr>
+      <td>2025Q3</td>
+      <td>H1</td>
+      <td>COMMON</td>
+      <td>Real M2 + CPI</td>
+      <td>2025-07-31 00:00:00</td>
+      <td>7.6000</td>
+      <td>6.6155</td>
+    </tr>
+    <tr>
+      <td>2025Q3</td>
+      <td>H1</td>
+      <td>COMMON</td>
+      <td>Real M2 only</td>
+      <td>2025-07-31 00:00:00</td>
+      <td>7.6000</td>
+      <td>6.3562</td>
+    </tr>
+    <tr>
+      <td>2025Q3</td>
+      <td>H2</td>
+      <td>COMMON</td>
+      <td>Current M0</td>
+      <td>2025-08-31 00:00:00</td>
+      <td>7.6000</td>
+      <td>6.3650</td>
+    </tr>
+    <tr>
+      <td>2025Q3</td>
+      <td>H2</td>
+      <td>COMMON</td>
+      <td>CPI only</td>
+      <td>2025-08-31 00:00:00</td>
+      <td>7.6000</td>
+      <td>6.5847</td>
+    </tr>
+    <tr>
+      <td>2025Q3</td>
+      <td>H2</td>
+      <td>COMMON</td>
+      <td>Nominal M2 + CPI</td>
+      <td>2025-08-31 00:00:00</td>
+      <td>7.6000</td>
+      <td>6.5693</td>
+    </tr>
+    <tr>
+      <td>2025Q3</td>
+      <td>H2</td>
+      <td>COMMON</td>
+      <td>Real M2 + CPI</td>
+      <td>2025-08-31 00:00:00</td>
+      <td>7.6000</td>
+      <td>6.5770</td>
+    </tr>
+    <tr>
+      <td>2025Q3</td>
+      <td>H2</td>
+      <td>COMMON</td>
+      <td>Real M2 only</td>
+      <td>2025-08-31 00:00:00</td>
+      <td>7.6000</td>
+      <td>6.3636</td>
+    </tr>
+    <tr>
+      <td>2025Q3</td>
+      <td>H3</td>
+      <td>COMMON</td>
+      <td>Current M0</td>
+      <td>2025-09-30 00:00:00</td>
+      <td>7.6000</td>
+      <td>6.3681</td>
+    </tr>
+    <tr>
+      <td>2025Q3</td>
+      <td>H3</td>
+      <td>COMMON</td>
+      <td>CPI only</td>
+      <td>2025-09-30 00:00:00</td>
+      <td>7.6000</td>
+      <td>6.6171</td>
+    </tr>
+    <tr>
+      <td>2025Q3</td>
+      <td>H3</td>
+      <td>COMMON</td>
+      <td>Nominal M2 + CPI</td>
+      <td>2025-09-30 00:00:00</td>
+      <td>7.6000</td>
+      <td>6.5823</td>
+    </tr>
+    <tr>
+      <td>2025Q3</td>
+      <td>H3</td>
+      <td>COMMON</td>
+      <td>Real M2 + CPI</td>
+      <td>2025-09-30 00:00:00</td>
+      <td>7.6000</td>
+      <td>6.5941</td>
+    </tr>
+    <tr>
+      <td>2025Q3</td>
+      <td>H3</td>
+      <td>COMMON</td>
+      <td>Real M2 only</td>
+      <td>2025-09-30 00:00:00</td>
+      <td>7.6000</td>
+      <td>6.3659</td>
+    </tr>
+    <tr>
+      <td>2025Q4</td>
+      <td>H1</td>
+      <td>COMMON</td>
+      <td>Current M0</td>
+      <td>2025-10-31 00:00:00</td>
+      <td>7.7000</td>
+      <td>6.7855</td>
+    </tr>
+    <tr>
+      <td>2025Q4</td>
+      <td>H1</td>
+      <td>COMMON</td>
+      <td>CPI only</td>
+      <td>2025-10-31 00:00:00</td>
+      <td>7.7000</td>
+      <td>6.9807</td>
+    </tr>
+    <tr>
+      <td>2025Q4</td>
+      <td>H1</td>
+      <td>COMMON</td>
+      <td>Nominal M2 + CPI</td>
+      <td>2025-10-31 00:00:00</td>
+      <td>7.7000</td>
+      <td>6.9372</td>
+    </tr>
+    <tr>
+      <td>2025Q4</td>
+      <td>H1</td>
+      <td>COMMON</td>
+      <td>Real M2 + CPI</td>
+      <td>2025-10-31 00:00:00</td>
+      <td>7.7000</td>
+      <td>6.9499</td>
+    </tr>
+    <tr>
+      <td>2025Q4</td>
+      <td>H1</td>
+      <td>COMMON</td>
+      <td>Real M2 only</td>
+      <td>2025-10-31 00:00:00</td>
+      <td>7.7000</td>
+      <td>6.8875</td>
+    </tr>
+    <tr>
+      <td>2025Q4</td>
+      <td>H2</td>
+      <td>COMMON</td>
+      <td>Current M0</td>
+      <td>2025-11-30 00:00:00</td>
+      <td>7.7000</td>
+      <td>6.7869</td>
+    </tr>
+    <tr>
+      <td>2025Q4</td>
+      <td>H2</td>
+      <td>COMMON</td>
+      <td>CPI only</td>
+      <td>2025-11-30 00:00:00</td>
+      <td>7.7000</td>
+      <td>7.0763</td>
+    </tr>
+    <tr>
+      <td>2025Q4</td>
+      <td>H2</td>
+      <td>COMMON</td>
+      <td>Nominal M2 + CPI</td>
+      <td>2025-11-30 00:00:00</td>
+      <td>7.7000</td>
+      <td>7.0345</td>
+    </tr>
+    <tr>
+      <td>2025Q4</td>
+      <td>H2</td>
+      <td>COMMON</td>
+      <td>Real M2 + CPI</td>
+      <td>2025-11-30 00:00:00</td>
+      <td>7.7000</td>
+      <td>7.0491</td>
+    </tr>
+    <tr>
+      <td>2025Q4</td>
+      <td>H2</td>
+      <td>COMMON</td>
+      <td>Real M2 only</td>
+      <td>2025-11-30 00:00:00</td>
+      <td>7.7000</td>
+      <td>6.8929</td>
+    </tr>
+    <tr>
+      <td>2025Q4</td>
+      <td>H3</td>
+      <td>COMMON</td>
+      <td>Current M0</td>
+      <td>2025-12-31 00:00:00</td>
+      <td>7.7000</td>
+      <td>6.7787</td>
+    </tr>
+    <tr>
+      <td>2025Q4</td>
+      <td>H3</td>
+      <td>COMMON</td>
+      <td>CPI only</td>
+      <td>2025-12-31 00:00:00</td>
+      <td>7.7000</td>
+      <td>7.1317</td>
+    </tr>
+    <tr>
+      <td>2025Q4</td>
+      <td>H3</td>
+      <td>COMMON</td>
+      <td>Nominal M2 + CPI</td>
+      <td>2025-12-31 00:00:00</td>
+      <td>7.7000</td>
+      <td>7.0758</td>
+    </tr>
+    <tr>
+      <td>2025Q4</td>
+      <td>H3</td>
+      <td>COMMON</td>
+      <td>Real M2 + CPI</td>
+      <td>2025-12-31 00:00:00</td>
+      <td>7.7000</td>
+      <td>7.0939</td>
+    </tr>
+    <tr>
+      <td>2025Q4</td>
+      <td>H3</td>
+      <td>COMMON</td>
+      <td>Real M2 only</td>
+      <td>2025-12-31 00:00:00</td>
+      <td>7.7000</td>
+      <td>6.9017</td>
+    </tr>
+    <tr>
+      <td>2026Q1</td>
+      <td>H1</td>
+      <td>COMMON</td>
+      <td>Current M0</td>
+      <td>2026-01-31 00:00:00</td>
+      <td>8.7000</td>
+      <td>7.0711</td>
+    </tr>
+    <tr>
+      <td>2026Q1</td>
+      <td>H1</td>
+      <td>COMMON</td>
+      <td>CPI only</td>
+      <td>2026-01-31 00:00:00</td>
+      <td>8.7000</td>
+      <td>7.2715</td>
+    </tr>
+    <tr>
+      <td>2026Q1</td>
+      <td>H1</td>
+      <td>COMMON</td>
+      <td>Nominal M2 + CPI</td>
+      <td>2026-01-31 00:00:00</td>
+      <td>8.7000</td>
+      <td>7.2559</td>
+    </tr>
+    <tr>
+      <td>2026Q1</td>
+      <td>H1</td>
+      <td>COMMON</td>
+      <td>Real M2 + CPI</td>
+      <td>2026-01-31 00:00:00</td>
+      <td>8.7000</td>
+      <td>7.1336</td>
+    </tr>
+    <tr>
+      <td>2026Q1</td>
+      <td>H1</td>
+      <td>COMMON</td>
+      <td>Real M2 only</td>
+      <td>2026-01-31 00:00:00</td>
+      <td>8.7000</td>
+      <td>7.1462</td>
+    </tr>
+    <tr>
+      <td>2026Q1</td>
+      <td>H2</td>
+      <td>COMMON</td>
+      <td>Current M0</td>
+      <td>2026-02-28 00:00:00</td>
+      <td>8.7000</td>
+      <td>7.0994</td>
+    </tr>
+    <tr>
+      <td>2026Q1</td>
+      <td>H2</td>
+      <td>COMMON</td>
+      <td>CPI only</td>
+      <td>2026-02-28 00:00:00</td>
+      <td>8.7000</td>
+      <td>7.3304</td>
+    </tr>
+    <tr>
+      <td>2026Q1</td>
+      <td>H2</td>
+      <td>COMMON</td>
+      <td>Nominal M2 + CPI</td>
+      <td>2026-02-28 00:00:00</td>
+      <td>8.7000</td>
+      <td>7.3120</td>
+    </tr>
+    <tr>
+      <td>2026Q1</td>
+      <td>H2</td>
+      <td>COMMON</td>
+      <td>Real M2 + CPI</td>
+      <td>2026-02-28 00:00:00</td>
+      <td>8.7000</td>
+      <td>7.1753</td>
+    </tr>
+    <tr>
+      <td>2026Q1</td>
+      <td>H2</td>
+      <td>COMMON</td>
+      <td>Real M2 only</td>
+      <td>2026-02-28 00:00:00</td>
+      <td>8.7000</td>
+      <td>7.1904</td>
+    </tr>
+    <tr>
+      <td>2026Q1</td>
+      <td>H3</td>
+      <td>COMMON</td>
+      <td>Current M0</td>
+      <td>2026-03-31 00:00:00</td>
+      <td>8.7000</td>
+      <td>7.1021</td>
+    </tr>
+    <tr>
+      <td>2026Q1</td>
+      <td>H3</td>
+      <td>COMMON</td>
+      <td>CPI only</td>
+      <td>2026-03-31 00:00:00</td>
+      <td>8.7000</td>
+      <td>7.3580</td>
+    </tr>
+    <tr>
+      <td>2026Q1</td>
+      <td>H3</td>
+      <td>COMMON</td>
+      <td>Nominal M2 + CPI</td>
+      <td>2026-03-31 00:00:00</td>
+      <td>8.7000</td>
+      <td>7.3389</td>
+    </tr>
+    <tr>
+      <td>2026Q1</td>
+      <td>H3</td>
+      <td>COMMON</td>
+      <td>Real M2 + CPI</td>
+      <td>2026-03-31 00:00:00</td>
+      <td>8.7000</td>
+      <td>7.1752</td>
+    </tr>
+    <tr>
+      <td>2026Q1</td>
+      <td>H3</td>
+      <td>COMMON</td>
+      <td>Real M2 only</td>
+      <td>2026-03-31 00:00:00</td>
+      <td>8.7000</td>
+      <td>7.1891</td>
+    </tr>
+    <tr>
+      <td>2026Q2</td>
+      <td>H1</td>
+      <td>COMMON</td>
+      <td>Current M0</td>
+      <td>2026-04-30 00:00:00</td>
+      <td>8.5000</td>
+      <td>8.0953</td>
+    </tr>
+    <tr>
+      <td>2026Q2</td>
+      <td>H1</td>
+      <td>COMMON</td>
+      <td>CPI only</td>
+      <td>2026-04-30 00:00:00</td>
+      <td>8.5000</td>
+      <td>7.7629</td>
+    </tr>
+    <tr>
+      <td>2026Q2</td>
+      <td>H1</td>
+      <td>COMMON</td>
+      <td>Nominal M2 + CPI</td>
+      <td>2026-04-30 00:00:00</td>
+      <td>8.5000</td>
+      <td>7.7554</td>
+    </tr>
+    <tr>
+      <td>2026Q2</td>
+      <td>H1</td>
+      <td>COMMON</td>
+      <td>Real M2 + CPI</td>
+      <td>2026-04-30 00:00:00</td>
+      <td>8.5000</td>
+      <td>8.1700</td>
+    </tr>
+    <tr>
+      <td>2026Q2</td>
+      <td>H1</td>
+      <td>COMMON</td>
+      <td>Real M2 only</td>
+      <td>2026-04-30 00:00:00</td>
+      <td>8.5000</td>
+      <td>8.1756</td>
+    </tr>
+    <tr>
+      <td>2026Q2</td>
+      <td>H2</td>
+      <td>COMMON</td>
+      <td>Current M0</td>
+      <td>2026-05-31 00:00:00</td>
+      <td>8.5000</td>
+      <td>8.0760</td>
+    </tr>
+    <tr>
+      <td>2026Q2</td>
+      <td>H2</td>
+      <td>COMMON</td>
+      <td>CPI only</td>
+      <td>2026-05-31 00:00:00</td>
+      <td>8.5000</td>
+      <td>7.8702</td>
+    </tr>
+    <tr>
+      <td>2026Q2</td>
+      <td>H2</td>
+      <td>COMMON</td>
+      <td>Nominal M2 + CPI</td>
+      <td>2026-05-31 00:00:00</td>
+      <td>8.5000</td>
+      <td>7.8648</td>
+    </tr>
+    <tr>
+      <td>2026Q2</td>
+      <td>H2</td>
+      <td>COMMON</td>
+      <td>Real M2 + CPI</td>
+      <td>2026-05-31 00:00:00</td>
+      <td>8.5000</td>
+      <td>8.1532</td>
+    </tr>
+    <tr>
+      <td>2026Q2</td>
+      <td>H2</td>
+      <td>COMMON</td>
+      <td>Real M2 only</td>
+      <td>2026-05-31 00:00:00</td>
+      <td>8.5000</td>
+      <td>8.1592</td>
+    </tr>
+    <tr>
+      <td>2026Q2</td>
+      <td>H3</td>
+      <td>COMMON</td>
+      <td>Current M0</td>
+      <td>2026-06-30 00:00:00</td>
+      <td>8.5000</td>
+      <td>8.0882</td>
+    </tr>
+    <tr>
+      <td>2026Q2</td>
+      <td>H3</td>
+      <td>COMMON</td>
+      <td>CPI only</td>
+      <td>2026-06-30 00:00:00</td>
+      <td>8.5000</td>
+      <td>8.2881</td>
+    </tr>
+    <tr>
+      <td>2026Q2</td>
+      <td>H3</td>
+      <td>COMMON</td>
+      <td>Nominal M2 + CPI</td>
+      <td>2026-06-30 00:00:00</td>
+      <td>8.5000</td>
+      <td>8.2759</td>
+    </tr>
+    <tr>
+      <td>2026Q2</td>
+      <td>H3</td>
+      <td>COMMON</td>
+      <td>Real M2 + CPI</td>
+      <td>2026-06-30 00:00:00</td>
+      <td>8.5000</td>
+      <td>8.1848</td>
+    </tr>
+    <tr>
+      <td>2026Q2</td>
+      <td>H3</td>
+      <td>COMMON</td>
+      <td>Real M2 only</td>
+      <td>2026-06-30 00:00:00</td>
+      <td>8.5000</td>
+      <td>8.1943</td>
+    </tr>
+  </tbody>
+</table></div></section><section><h2>Interpretation and limitations</h2><p>VIF is descriptive only and is not an automatic rejection criterion in a factor model. Correlation does not imply a multicollinearity problem in a DFM; high correlation does not prove a variable must be removed. The three-way VIF is infinite because real M2 YoY = nominal M2 YoY minus CPI YoY exactly; no tested model contains all three. Factor variance explained is the mean training squared correlation with the filtered factor, a descriptive projection measure, not a PCA eigenvalue or structural GDP contribution. GDP bridge fit is descriptive; in-sample R² does not determine selection. Loading signs are arbitrary and aligned within each origin. Within-quarter revisions compare H1/H2/H3 for the same target; quarter-to-quarter forecast changes also reflect different GDP targets and are not same-target revisions. The inherited post-development sample has already been inspected. Formal independent holdout evidence is unavailable. No release dates or vintage values were invented.</p></section><section><h2>Testing and preservation</h2><p>Full relevant suite: 245 passed, 2 failed, 0 errors. All 14 dedicated Phase6G.5 checks pass. The two legacy failures are Phase6B.2 test_protected_artifacts_unchanged and Phase6C test_protected_inventory_and_saved_metrics: their older inventory hashes differ from the newer repository state. The flagged current dashboard, master data, and processed gold payload match the task-start hashes. All 943 current protected files are unchanged. Full estimator reruns reproduce the scientific artifacts exactly. See phase6g5_tests.xml, phase6g5_test_results.json and phase6g5_validation.json for explicit status.</p></section><section><h2>Final recommendation</h2><p>Retain the unchanged M0. CPI-only has the best common-span RMSE, but this advantage disappears against the unchanged full-history M0 on exactly the same scoring origins. Only six quarters (18 horizon forecasts), four post-development quarters, and unverified historical predictor value vintages are available. No challenger establishes sufficient incremental out-of-sample value for promotion.</p></section><section><h2>H1 common-span RMSE · percentage points</h2><svg viewBox="0 0 740 245" role="img" aria-label="H1 RMSE comparison"><text x="5" y="42" class="axis">Current M0</text><rect x="200" y="26" width="373.91" height="23" rx="4" fill="#087f72"><title>1.108932 pp RMSE</title></rect><text x="583.91" y="42" class="axis">1.109</text><text x="5" y="82" class="axis">CPI only</text><rect x="200" y="66" width="328.77" height="23" rx="4" fill="#087f72"><title>0.975059 pp RMSE</title></rect><text x="538.77" y="82" class="axis">0.975</text><text x="5" y="122" class="axis">Nominal M2 + CPI</text><rect x="200" y="106" width="336.34" height="23" rx="4" fill="#087f72"><title>0.997505 pp RMSE</title></rect><text x="546.34" y="122" class="axis">0.998</text><text x="5" y="162" class="axis">Real M2 + CPI</text><rect x="200" y="146" width="331.72" height="23" rx="4" fill="#087f72"><title>0.983812 pp RMSE</title></rect><text x="541.72" y="162" class="axis">0.984</text><text x="5" y="202" class="axis">Real M2 only</text><rect x="200" y="186" width="363.75" height="23" rx="4" fill="#087f72"><title>1.078804 pp RMSE</title></rect><text x="573.75" y="202" class="axis">1.079</text></svg></section><section><h2>H2 common-span RMSE · percentage points</h2><svg viewBox="0 0 740 245" role="img" aria-label="H2 RMSE comparison"><text x="5" y="42" class="axis">Current M0</text><rect x="200" y="26" width="373.91" height="23" rx="4" fill="#087f72"><title>1.118711 pp RMSE</title></rect><text x="583.91" y="42" class="axis">1.119</text><text x="5" y="82" class="axis">CPI only</text><rect x="200" y="66" width="312.42" height="23" rx="4" fill="#087f72"><title>0.934722 pp RMSE</title></rect><text x="522.42" y="82" class="axis">0.935</text><text x="5" y="122" class="axis">Nominal M2 + CPI</text><rect x="200" y="106" width="321.78" height="23" rx="4" fill="#087f72"><title>0.962727 pp RMSE</title></rect><text x="531.78" y="122" class="axis">0.963</text><text x="5" y="162" class="axis">Real M2 + CPI</text><rect x="200" y="146" width="322.27" height="23" rx="4" fill="#087f72"><title>0.964187 pp RMSE</title></rect><text x="532.27" y="162" class="axis">0.964</text><text x="5" y="202" class="axis">Real M2 only</text><rect x="200" y="186" width="363.76" height="23" rx="4" fill="#087f72"><title>1.088328 pp RMSE</title></rect><text x="573.76" y="202" class="axis">1.088</text></svg></section><section><h2>H3 common-span RMSE · percentage points</h2><svg viewBox="0 0 740 245" role="img" aria-label="H3 RMSE comparison"><text x="5" y="42" class="axis">Current M0</text><rect x="200" y="26" width="373.91" height="23" rx="4" fill="#087f72"><title>1.127570 pp RMSE</title></rect><text x="583.91" y="42" class="axis">1.128</text><text x="5" y="82" class="axis">CPI only</text><rect x="200" y="66" width="283.93" height="23" rx="4" fill="#087f72"><title>0.856225 pp RMSE</title></rect><text x="493.93" y="82" class="axis">0.856</text><text x="5" y="122" class="axis">Nominal M2 + CPI</text><rect x="200" y="106" width="297.98" height="23" rx="4" fill="#087f72"><title>0.898601 pp RMSE</title></rect><text x="507.98" y="122" class="axis">0.899</text><text x="5" y="162" class="axis">Real M2 + CPI</text><rect x="200" y="146" width="309.66" height="23" rx="4" fill="#087f72"><title>0.933807 pp RMSE</title></rect><text x="519.66" y="162" class="axis">0.934</text><text x="5" y="202" class="axis">Real M2 only</text><rect x="200" y="186" width="365.74" height="23" rx="4" fill="#087f72"><title>1.102929 pp RMSE</title></rect><text x="575.74" y="202" class="axis">1.103</text></svg></section><section><h2>POOLED common-span RMSE · percentage points</h2><svg viewBox="0 0 740 245" role="img" aria-label="POOLED RMSE comparison"><text x="5" y="42" class="axis">Current M0</text><rect x="200" y="26" width="373.91" height="23" rx="4" fill="#087f72"><title>1.118430 pp RMSE</title></rect><text x="583.91" y="42" class="axis">1.118</text><text x="5" y="82" class="axis">CPI only</text><rect x="200" y="66" width="308.68" height="23" rx="4" fill="#087f72"><title>0.923321 pp RMSE</title></rect><text x="518.68" y="82" class="axis">0.923</text><text x="5" y="122" class="axis">Nominal M2 + CPI</text><rect x="200" y="106" width="318.88" height="23" rx="4" fill="#087f72"><title>0.953824 pp RMSE</title></rect><text x="528.88" y="122" class="axis">0.954</text><text x="5" y="162" class="axis">Real M2 + CPI</text><rect x="200" y="146" width="321.22" height="23" rx="4" fill="#087f72"><title>0.960822 pp RMSE</title></rect><text x="531.22" y="162" class="axis">0.961</text><text x="5" y="202" class="axis">Real M2 only</text><rect x="200" y="186" width="364.43" height="23" rx="4" fill="#087f72"><title>1.090065 pp RMSE</title></rect><text x="574.43" y="202" class="axis">1.090</text></svg></section><footer>PHASE6G5_RETAIN_M0 · No automatic production promotion.</footer></main></body></html>

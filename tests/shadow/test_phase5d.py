@@ -39,7 +39,15 @@ def test_reject_cannot_enter_even_with_best_rmse():
 
 def test_production_and_freeze_remain_identical():
     seal=p.load(ROOT/p.OUT/'phase5d_freeze_manifest.json')
-    p.verify(ROOT,seal['protected_hashes'])
+    protected=dict(seal['protected_hashes'])
+    pointer='dashboard/current/uzbekistan_nowcast.html'
+    if (ROOT/'results/operations/current_production.json').exists():
+        expected=protected.pop(pointer)
+        assert file_hash(ROOT/'results/phase6e/legacy_current_dashboard.html')==expected
+        active=p.load(ROOT/'results/operations/current_production.json')
+        assert file_hash(ROOT/pointer)==file_hash(ROOT/active['dashboard'])
+        assert p.load(ROOT/active['policy'])['status']=='PHASE6E_PROMOTED'
+    p.verify(ROOT,protected)
     p.verify(ROOT,seal['frozen_hashes'])
     cohort=p.load(ROOT/p.OUT/'phase5d_frozen_challenger_cohort.json')
     assert cohort['production']['weights']=={'ar2':0.5,'umidas_usd_uzs_mom_dlog':0.5}

@@ -1,0 +1,26 @@
+{
+  "corrected_failure": "Mixed fractional-second timestamps in test date parser; fixed with explicit pandas mixed-format parsing",
+  "distinct_tests_validated": 134,
+  "existing_tests_passed": 123,
+  "identical_numerical_csvs": 16,
+  "phase6f_tests_passed": 11,
+  "protected_artifacts": 609,
+  "protected_unchanged": true,
+  "scopes": [
+    {
+      "errors": 0,
+      "failures": 1,
+      "file": "phase6f_test_results.xml",
+      "skipped": 1,
+      "tests": 134
+    },
+    {
+      "errors": 0,
+      "failures": 0,
+      "file": "phase6f_corrected_test_results.xml",
+      "skipped": 0,
+      "tests": 11
+    }
+  ],
+  "unresolved_failures": 0
+}

@@ -1,0 +1,63 @@
+{
+  "run_id": "update_20261005_112835_80cecfb9",
+  "timestamp": "2026-10-05T11:28:35.202458+00:00",
+  "cutoff_utc": "2026-10-05T11:34:17.985820+00:00",
+  "mode": "CHECK_ONLY",
+  "status": "UPDATE_SUCCESS_WITH_WARNINGS",
+  "target_quarter": "2026Q3",
+  "horizon": "H3",
+  "operational_stage": "POST_H3_LATE_INITIALIZATION",
+  "information_fingerprint": "77a61ac7c0236e0ea1687d856db2ef57d740aa87282081184932e6e2dd993f7f",
+  "snapshot_appended": false,
+  "duplicate_snapshot": null,
+  "snapshot_reason": "DRY_RUN_NO_APPEND",
+  "master_monthly_changed": false,
+  "master_quarterly_changed": false,
+  "candidate_master_changes": {
+    "monthly": true,
+    "quarterly": false
+  },
+  "promoted_hashes": {},
+  "source_states": {
+    "industrial_production": "UPDATED",
+    "ppi": "UNCHANGED",
+    "usd_uzs": "PARTIAL_CURRENT_MONTH",
+    "rub_uzs": "PARTIAL_CURRENT_MONTH",
+    "gold_price": "UPDATED",
+    "m2": "UNCHANGED",
+    "fx_reserves_ex_gold": "UNCHANGED",
+    "pos_turnover": "UNCHANGED",
+    "gdp_real_yoy": "UNCHANGED"
+  },
+  "new_observations": 1,
+  "historical_revisions": 4,
+  "rejected_observations": 0,
+  "GDP_detected_unverified": false,
+  "GDP_realization_verified": false,
+  "forecasts_scored": false,
+  "governance": "INITIALIZED",
+  "warnings": [
+    "POS scope after December 2024 withheld; never filled",
+    "Candidate changes validated only; dry/check mode promoted nothing"
+  ],
+  "protected_artifacts_changed_unexpectedly": false,
+  "protected_files_checked": 242,
+  "tests": {
+    "tests": 436,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": 436,
+    "failed": 0,
+    "scopes": [
+      "operations_operations_tests.xml",
+      "operations_phase6a2_tests.xml",
+      "operations_phase6b1_tests.xml",
+      "operations_phase6b2_tests.xml",
+      "operations_phase6b_tests.xml",
+      "operations_phase6c_tests.xml",
+      "operations_phase6d_tests.xml",
+      "operations_repository_tests.xml"
+    ]
+  }
+}

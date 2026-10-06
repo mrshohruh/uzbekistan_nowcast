@@ -1,0 +1,41 @@
+{
+  "checked": 16,
+  "evidence_class": "AVAILABILITY_AWARE_PSEUDO_REAL_TIME; REVISION_VALUE_LEAKAGE_UNRESOLVED",
+  "first": {
+    "phase6g_current_nowcasts.csv": "b06345ba051d829e0fae894850f55f4e01918e04a3308904c76458bdc3a8f992",
+    "phase6g_dfm_diagnostics.csv": "1083bd73bc62d67e4899d8db1e6d2f8b3dd7f69b1e95cc4874e1b87d2c3a9eb8",
+    "phase6g_error_correlations.csv": "41f1f0d0c7eca9e67deae210a7d9b61f9961427599750bbeff178eca73a5f4f6",
+    "phase6g_factor_loadings.csv": "986e2f9b6d3355e6a0554c948dbfa38fec34c01a0b8e74d529d9ab1a8525d79f",
+    "phase6g_horizon_metrics.csv": "8fa0505b2e42f426816027fea311da65386f698b734623d8d48cb6daaa7a52f6",
+    "phase6g_leave_one_quarter_out.csv": "91ca04aac807dad9017ad6799f631afacdcf3ff5edbb041876695ed96fd2ee4d",
+    "phase6g_model_comparison.csv": "78e2fff3e2193c41f77dee6006ec2b622fd913db81bdf48b2792d3d4586e6e36",
+    "phase6g_origin_eligibility.csv": "e452275b23f1b24183fd0cfc69ca8b339cfb60cee90a18434c8d46b29a86441c",
+    "phase6g_origin_level_errors.csv": "bf6ac530dc882048669aa0e27b552b355015f18f90a00a8591dbf024ca57b0b7",
+    "phase6g_origin_level_forecasts.csv": "0c7348124686dcb8d51e6ed135ba0dab07a32a7d67275c44bd5ed79ffcd00291",
+    "phase6g_predictor_availability.csv": "c13f6bb9d69688635934d031f654c32951692ea8ba25650ded7727d9c91e4d10",
+    "phase6g_reproduction_check.csv": "3315fbf3f4e1d8e8cdf7e23f50e3aaee97361c660e322144fed381dfe3613fb2",
+    "phase6g_revision_stability.csv": "e30a124c6bc5da5d40a692e07cb12d7256779c7103bd25574493f31cecc2da0f",
+    "phase6g_statistical_diagnostics.csv": "c8d5afdbe4d2f5e8c122f3406ed642ec00a38e0062fa8512377a02ca2badcee1",
+    "phase6g_weight_sensitivity.csv": "a5e8f2668724f0ff8ac4dad10764b45a7d70f5af2381e4a74d7fc3273ee9f2b2",
+    "phase6g_win_rates.csv": "18f7ee4adfb4e2a0528f7c89cfb7e05cce7eca9dc8f2d8c333390139268794a0"
+  },
+  "identical_csv_hashes": true,
+  "second": {
+    "phase6g_current_nowcasts.csv": "b06345ba051d829e0fae894850f55f4e01918e04a3308904c76458bdc3a8f992",
+    "phase6g_dfm_diagnostics.csv": "1083bd73bc62d67e4899d8db1e6d2f8b3dd7f69b1e95cc4874e1b87d2c3a9eb8",
+    "phase6g_error_correlations.csv": "41f1f0d0c7eca9e67deae210a7d9b61f9961427599750bbeff178eca73a5f4f6",
+    "phase6g_factor_loadings.csv": "986e2f9b6d3355e6a0554c948dbfa38fec34c01a0b8e74d529d9ab1a8525d79f",
+    "phase6g_horizon_metrics.csv": "8fa0505b2e42f426816027fea311da65386f698b734623d8d48cb6daaa7a52f6",
+    "phase6g_leave_one_quarter_out.csv": "91ca04aac807dad9017ad6799f631afacdcf3ff5edbb041876695ed96fd2ee4d",
+    "phase6g_model_comparison.csv": "78e2fff3e2193c41f77dee6006ec2b622fd913db81bdf48b2792d3d4586e6e36",
+    "phase6g_origin_eligibility.csv": "e452275b23f1b24183fd0cfc69ca8b339cfb60cee90a18434c8d46b29a86441c",
+    "phase6g_origin_level_errors.csv": "bf6ac530dc882048669aa0e27b552b355015f18f90a00a8591dbf024ca57b0b7",
+    "phase6g_origin_level_forecasts.csv": "0c7348124686dcb8d51e6ed135ba0dab07a32a7d67275c44bd5ed79ffcd00291",
+    "phase6g_predictor_availability.csv": "c13f6bb9d69688635934d031f654c32951692ea8ba25650ded7727d9c91e4d10",
+    "phase6g_reproduction_check.csv": "3315fbf3f4e1d8e8cdf7e23f50e3aaee97361c660e322144fed381dfe3613fb2",
+    "phase6g_revision_stability.csv": "e30a124c6bc5da5d40a692e07cb12d7256779c7103bd25574493f31cecc2da0f",
+    "phase6g_statistical_diagnostics.csv": "c8d5afdbe4d2f5e8c122f3406ed642ec00a38e0062fa8512377a02ca2badcee1",
+    "phase6g_weight_sensitivity.csv": "a5e8f2668724f0ff8ac4dad10764b45a7d70f5af2381e4a74d7fc3273ee9f2b2",
+    "phase6g_win_rates.csv": "18f7ee4adfb4e2a0528f7c89cfb7e05cce7eca9dc8f2d8c333390139268794a0"
+  }
+}

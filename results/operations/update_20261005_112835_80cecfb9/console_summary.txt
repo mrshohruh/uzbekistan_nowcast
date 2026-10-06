@@ -1,0 +1,41 @@
+AUTOMATED NOWCAST UPDATE COMPLETE
+Run ID: update_20261005_112835_80cecfb9
+Timestamp: 2026-10-05T11:28:35.202458+00:00
+Target quarter: 2026Q3
+Operational horizon: H3 (POST_H3_LATE_INITIALIZATION)
+Information cutoff: 2026-10-05T11:34:17.985820+00:00
+Sources checked: 9
+Sources updated: 2
+Sources unchanged: 5
+Sources failed: 0
+New observations: 1
+Historical revisions: 4
+Rejected observations: 0
+Master monthly changed: NO
+Master quarterly changed: NO
+Latest industrial_production: 2026-07
+Latest ppi: 2026-08
+Latest usd_uzs: 2026-09
+Latest rub_uzs: 2026-09
+Latest gold_price: 2026-08
+Latest m2: 2026-08
+Latest fx_reserves_ex_gold: 2026-08
+Latest pos_turnover: 2024-12
+Latest gdp_real_yoy: 2026Q2
+AR1: None
+AR2: None
+UMIDAS_USD: None
+PRODUCTION_ENSEMBLE: None
+PHASE6C_DFM: None
+COMBO_50_50: None
+COMBO_DEV_WEIGHT: None
+Forecast snapshot appended: NO
+Reason: DRY_RUN_NO_APPEND
+GDP realization available: NO
+GDP realization verified: NO
+Forecasts scored: NO
+Governance status: INITIALIZED
+Protected artifacts changed unexpectedly: NO
+Tests passed: 436
+Tests failed: 0
+FINAL STATUS: UPDATE_SUCCESS_WITH_WARNINGS

@@ -1,0 +1,10 @@
+variable,source,retrieval_timestamp,source_reference,http_status,raw_file,sha256,latest_observation,status
+industrial_production,SIAT,,https://siat.stat.uz/data/590/?lang=en,,,c3c2b301375d0b8b60f036e3a2592de3cfeb7683af046680af37d6345d892bb4,2026-08,CACHED_DATA_ONLY_NO_NEW_RETRIEVAL
+ppi,SIAT,,https://siat.stat.uz/data/1581/?lang=en,,,9aa0b18f2ef0183ec98df69a247e7bb8b3cf472b0090e6debbed28e36b06f190,2026-08,CACHED_DATA_ONLY_NO_NEW_RETRIEVAL
+usd_uzs,CBU,,https://cbu.uz/en/arkhiv-kursov-valyut/,,,a675dc7e56987c6df8532739b71fd69aa42755a252f3b7796b6c37249e0a8cef,2026-10,CACHED_DATA_ONLY_NO_NEW_RETRIEVAL
+rub_uzs,CBU,,https://cbu.uz/en/arkhiv-kursov-valyut/,,,eb814a94c00c3f1b5694b0d4d71345f9d2971ed09faebb9d7ad69c9beb0a4c49,2026-10,CACHED_DATA_ONLY_NO_NEW_RETRIEVAL
+gold_price,World Bank Pink Sheet,,https://www.worldbank.org/en/research/commodity-markets,,,60e5c143c9b6a907221ba99ca2ea0ef96cc85e928646a64652dcf4d63c4a722e,2026-09,CACHED_DATA_ONLY_NO_NEW_RETRIEVAL
+m2,CBU,,https://cbu.uz/en/statistics/e-gdds/data/111578/,,,9f46065eb8dd59c60666d7404c6628525404d7aaedfc2fbf3765297ec00a161c,2026-08,CACHED_DATA_ONLY_NO_NEW_RETRIEVAL
+fx_reserves_ex_gold,CBU,,https://cbu.uz/en/statistics/e-gdds/data/111574/,,,4590c12b779f15a977beff00ed159cdd235800c249e497629a55918bf9883659,2026-08,CACHED_DATA_ONLY_NO_NEW_RETRIEVAL
+pos_turnover,CBU,,https://cbu.uz/en/statistics/paysistem/,,,8758c970f6fe1cd640dac561d62447b9df1002c9a0ccd5b5c4ed419d375c2f91,2026-06,CACHED_DATA_ONLY_NO_NEW_RETRIEVAL
+gdp_real_yoy,SIAT,,https://siat.stat.uz/data/3698/?lang=en,,,967512d5c5c52e9a1a717a11565f3016b60c5e37e7295090359efa4d3a851023,2026Q2,CACHED_DATA_ONLY_NO_NEW_RETRIEVAL

@@ -1,0 +1,2 @@
+variable,period,old_value,new_value,change_type,absolute_change,relative_change,accepted,reason
+gold_price,2026-09,,-2.1077527144239383,NEW_OBSERVATION,,,True,Validated source observation

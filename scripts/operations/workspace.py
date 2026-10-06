@@ -19,6 +19,18 @@ def seed(root,staged):
     staged.mkdir(parents=True,exist_ok=False)
     frozen=read(root/'results/phase6d/phase6d_protected_start.json')
     for rel,expected in frozen.items():
+        if rel=='dashboard/current/uzbekistan_nowcast.html' and sha(root/rel)!=expected:
+            # Phase 6E deliberately promotes the operational dashboard pointer.
+            # Frozen workers still receive the original, hash-verified V1 file.
+            legacy=root/'results/phase6e/legacy_current_dashboard.html'
+            policy=root/'results/phase6e/phase6e_production_policy.json'
+            manifest=root/'results/phase6e/phase6e_run_manifest.json'
+            if (not legacy.exists() or sha(legacy)!=expected or not policy.exists() or not manifest.exists()
+                    or read(policy).get('status')!='PHASE6E_PROMOTED'
+                    or read(manifest).get('dashboard_sha256')!=sha(root/rel)):
+                raise ValueError('Unverified production V2 dashboard pointer')
+            target=staged/rel;target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(legacy,target)
+            continue
         if sha(root/rel)!=expected:raise ValueError('Pre-existing protected-artifact mismatch: '+rel)
         copy_file(root,staged,rel)
     for directory in ['src','scripts/operations','scripts/research/phase6b2','scripts/research/phase6c','scripts/research/phase6d','config','registry']:

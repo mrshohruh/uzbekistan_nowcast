@@ -1,0 +1,2 @@
+variable,source,frequency,unit,transformation,first_observation,last_observation,publication_lag,release_date_available,historical_vintage_available,missing_count,notes
+m2,https://cbu.uz/sdmx/public/DCS_Uzbekistan_Online.xlsx,M,percent log YoY,100*ln(level_t/level_t-12),2019-01-31 00:00:00,2026-08-31 00:00:00,25,snapshot update only,False,1,"Publication lag 25 days; M0 economic lag zero; historical revised-snapshot pseudo-real-time, not vintage-real-time"

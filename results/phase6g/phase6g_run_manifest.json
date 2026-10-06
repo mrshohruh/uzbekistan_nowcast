@@ -1,0 +1,115 @@
+{
+  "code_hashes": {
+    "__init__.py": "11b5d3b7a5282d24c8d077f9b7336b1a3050f0fcdb181ab8eafcfe5ae978642d",
+    "analysis.py": "7c202c72c05892f73db360f0c6ffad19710d0481d4c2eafab511242e291b43ba",
+    "finalize.py": "0d6ac561b453577d5b476ab5bfcf21c1ccd6f8846c4c6697086160a2f0b4fafa",
+    "report.py": "927e9acff655df3b1ea747ef9b3f715fdd5fdc9002bc8643c8ad1698fe6cd934",
+    "run.py": "d430f91453c3bf3af1d9851d0ef7aabfa1d6bae7913cb562b3ce0bdb56ced7b1",
+    "test_phase6g.py": "0924d6dea94cc2e9712f7041a2f5cb37c2584ecb7e2376b30306080ef62fb5f0",
+    "tests.py": "d27265edf4f478fd47cce45ce9020b95010863aacf7b46010217f47b9cad2c2f",
+    "verify.py": "d893d3e115a9ff7ae70de62195840f3934bbf063158fdf9fbdaa9721f258f5c2"
+  },
+  "common_origin_count": 44,
+  "current_cutoff": "2026-10-05 16:54:48.927036",
+  "evidence_class": "AVAILABILITY_AWARE_PSEUDO_REAL_TIME; HISTORICAL_PREDICTOR_VALUE_VINTAGES_UNVERIFIED",
+  "historical_origin_candidates": 90,
+  "historical_value_vintages_verified": false,
+  "input_hashes": {
+    "data\\master\\gdp_quarterly.parquet": "196a8c980895163efc5fd9a25dca93523b1b25719057149a21637a2925457b51",
+    "data\\master\\v1_monthly.parquet": "4bcc1e487ac33cf3fb9cc94c42bb8e91bdf66a36917c7e4a7b5159ca554f9ad6",
+    "registry\\uzbekistan_nowcasting_v1.2_registry.xlsx": "0659713cea0fea42c3823a3be26dd116ba15f2b292f269ba5f7e1c7b99abbb33",
+    "results\\phase6c\\phase6c_research_monthly_panel.csv": "d081833dacab5040731468c4b498e2ba6c3b0e0bb7eaffec5c2664bc2b73f1e2",
+    "results\\phase6d\\snapshots\\d1a9e5c4426f706b2007d26299921f2b5c788ac67bea615d577627d737664614\\inputs.json": "85f38f69d4abc96e5bc8adb5cd7a5362e1fc6f5da6e9d4f15e55c5d33127d041",
+    "results\\phase6e\\phase6e_matched_forecasts.csv": "3f055e3d2e054900b297bd0667e689c010074800aa4626019a5aa96745d32b86",
+    "results\\phase6f\\phase6f_current_nowcasts.csv": "88ecd9b073f45264d6c49b51925dca33b1e212059516395b18462637f1a168f1",
+    "results\\phase6f\\phase6f_quarter_level_forecasts.csv": "f62b79234b33106f4ca11f0f0e0f26a09f3bf3138d856329d0c11699e79a7410",
+    "results\\research\\phase6b2\\phase6b2_gdp_revision_history.csv": "a8bfd82f117a1c24cfe9edf4bf66cfac4d81a93f60d556c243173c7ba8c6a62a",
+    "results\\research\\phase6b2\\phase6b2_gdp_vintage_registry.csv": "8f5dd2231cf622fc8ef46fb0b48fd1ceaf1abc89aad5d05f8729800cd79d8a6e"
+  },
+  "model_definition": {
+    "FDI_included": false,
+    "bridge": "intercept + factor_quarter_mean + GDP(q-1)",
+    "economic_lags": [
+      0,
+      1,
+      2
+    ],
+    "factor_ar_order": 2,
+    "factor_count": 1,
+    "m2_publication_lag_days": 25,
+    "m2_transform": "100*ln(level_t/level_t-12)",
+    "predictors": [
+      "industrial_production",
+      "ppi",
+      "usd_uzs",
+      "rub_uzs",
+      "gold_price",
+      "m2",
+      "fx_reserves_ex_gold",
+      "pos_turnover"
+    ],
+    "weights": [
+      0.5,
+      0.5
+    ]
+  },
+  "outputs": {
+    "phase6g_current_nowcasts.csv": "b06345ba051d829e0fae894850f55f4e01918e04a3308904c76458bdc3a8f992",
+    "phase6g_dfm_diagnostics.csv": "1083bd73bc62d67e4899d8db1e6d2f8b3dd7f69b1e95cc4874e1b87d2c3a9eb8",
+    "phase6g_error_correlations.csv": "41f1f0d0c7eca9e67deae210a7d9b61f9961427599750bbeff178eca73a5f4f6",
+    "phase6g_factor_loadings.csv": "986e2f9b6d3355e6a0554c948dbfa38fec34c01a0b8e74d529d9ab1a8525d79f",
+    "phase6g_horizon_metrics.csv": "8fa0505b2e42f426816027fea311da65386f698b734623d8d48cb6daaa7a52f6",
+    "phase6g_leave_one_quarter_out.csv": "91ca04aac807dad9017ad6799f631afacdcf3ff5edbb041876695ed96fd2ee4d",
+    "phase6g_model_comparison.csv": "78e2fff3e2193c41f77dee6006ec2b622fd913db81bdf48b2792d3d4586e6e36",
+    "phase6g_origin_eligibility.csv": "e452275b23f1b24183fd0cfc69ca8b339cfb60cee90a18434c8d46b29a86441c",
+    "phase6g_origin_level_errors.csv": "bf6ac530dc882048669aa0e27b552b355015f18f90a00a8591dbf024ca57b0b7",
+    "phase6g_origin_level_forecasts.csv": "0c7348124686dcb8d51e6ed135ba0dab07a32a7d67275c44bd5ed79ffcd00291",
+    "phase6g_predictor_availability.csv": "c13f6bb9d69688635934d031f654c32951692ea8ba25650ded7727d9c91e4d10",
+    "phase6g_reproduction_check.csv": "3315fbf3f4e1d8e8cdf7e23f50e3aaee97361c660e322144fed381dfe3613fb2",
+    "phase6g_revision_stability.csv": "e30a124c6bc5da5d40a692e07cb12d7256779c7103bd25574493f31cecc2da0f",
+    "phase6g_statistical_diagnostics.csv": "c8d5afdbe4d2f5e8c122f3406ed642ec00a38e0062fa8512377a02ca2badcee1",
+    "phase6g_weight_sensitivity.csv": "a5e8f2668724f0ff8ac4dad10764b45a7d70f5af2381e4a74d7fc3273ee9f2b2",
+    "phase6g_win_rates.csv": "18f7ee4adfb4e2a0528f7c89cfb7e05cce7eca9dc8f2d8c333390139268794a0"
+  },
+  "primary_holdout_origins": 12,
+  "production_modified": false,
+  "protected_artifacts": 643,
+  "protected_hashes_unchanged": true,
+  "python": "3.12.10",
+  "report_checksum": "c7d7105b7fb50b24ea38efe3beac58c092d04bbdc7c67009fdf4655328b687b0",
+  "research_only": true,
+  "status": "PHASE6G_INCONCLUSIVE",
+  "validation": {
+    "deterministic_rerun_status": "IDENTICAL_NUMERICAL_CSV_CHECKSUMS",
+    "errors": 0,
+    "evidence_class": "AVAILABILITY_AWARE_PSEUDO_REAL_TIME; REVISION_VALUE_LEAKAGE_UNRESOLVED",
+    "failures": 0,
+    "historical_M2_value_vintages_verified": false,
+    "numerical_csvs": 16,
+    "passed": 157,
+    "protected_artifact_hash_status": "UNCHANGED",
+    "protected_artifacts": 643,
+    "scopes": [
+      {
+        "errors": 0,
+        "exit_code": 0,
+        "failures": 0,
+        "passed": 134,
+        "scope": "existing",
+        "skipped": 0,
+        "tests": 134
+      },
+      {
+        "errors": 0,
+        "exit_code": 0,
+        "failures": 0,
+        "passed": 23,
+        "scope": "new",
+        "skipped": 0,
+        "tests": 23
+      }
+    ],
+    "skipped": 0,
+    "tests": 157
+  }
+}

@@ -7,5 +7,9 @@ if not exist ".venv\Scripts\python.exe" (
 )
 set PYTHONUTF8=1
 set PYTHONDONTWRITEBYTECODE=1
-".venv\Scripts\python.exe" "scripts\operations\run_update.py" %*
+if exist "results\operations\current_production.json" (
+  ".venv\Scripts\python.exe" -m scripts.phase6e.update %*
+) else (
+  ".venv\Scripts\python.exe" "scripts\operations\run_update.py" %*
+)
 exit /b %errorlevel%

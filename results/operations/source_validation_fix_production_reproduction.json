@@ -1,0 +1,38 @@
+[
+  {
+    "target_quarter": "2026Q3",
+    "horizon": "H3",
+    "model": "ar1",
+    "forecast": 8.037443796835966,
+    "as_of_date": "2026-10-05",
+    "information_cutoff": "2026-10-05T11:40:02.750033+00:00",
+    "status": "CURRENT_STATE_REPRODUCTION"
+  },
+  {
+    "target_quarter": "2026Q3",
+    "horizon": "H3",
+    "model": "ar2",
+    "forecast": 7.333857441688032,
+    "as_of_date": "2026-10-05",
+    "information_cutoff": "2026-10-05T11:40:02.750033+00:00",
+    "status": "CURRENT_STATE_REPRODUCTION"
+  },
+  {
+    "target_quarter": "2026Q3",
+    "horizon": "H3",
+    "model": "umidas_usd_uzs_mom_dlog",
+    "forecast": 7.979937793462349,
+    "as_of_date": "2026-10-05",
+    "information_cutoff": "2026-10-05T11:40:02.750033+00:00",
+    "status": "CURRENT_STATE_REPRODUCTION"
+  },
+  {
+    "target_quarter": "2026Q3",
+    "horizon": "H3",
+    "model": "ensemble_ar2_umidas_usd",
+    "forecast": 7.65689761757519,
+    "as_of_date": "2026-10-05",
+    "information_cutoff": "2026-10-05T11:40:02.750033+00:00",
+    "status": "CURRENT_STATE_REPRODUCTION"
+  }
+]

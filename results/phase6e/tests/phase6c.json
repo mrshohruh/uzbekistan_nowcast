@@ -1,0 +1,9 @@
+{
+  "tests": 20,
+  "failures": 1,
+  "errors": 0,
+  "skipped": 0,
+  "scope": "phase6c",
+  "passed": 19,
+  "exit_code": 1
+}

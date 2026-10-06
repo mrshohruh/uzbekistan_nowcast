@@ -1,0 +1,69 @@
+{
+  "run_id": "update_20261005_114925_44219a53",
+  "timestamp": "2026-10-05T11:49:25.545522+00:00",
+  "cutoff_utc": "2026-10-05T11:54:48.927036+00:00",
+  "mode": "LIVE",
+  "status": "UPDATE_SUCCESS_WITH_WARNINGS",
+  "target_quarter": "2026Q3",
+  "horizon": "H3",
+  "operational_stage": "POST_H3_LATE_INITIALIZATION",
+  "information_fingerprint": "4682b245f25db4ae87b43e80444f62b85e29533b53a3a8038ffb7c90191386e0",
+  "snapshot_appended": false,
+  "duplicate_snapshot": "d1a9e5c4426f706b2007d26299921f2b5c788ac67bea615d577627d737664614",
+  "snapshot_reason": "DUPLICATE_INFORMATION_SET",
+  "master_monthly_changed": true,
+  "master_quarterly_changed": false,
+  "candidate_master_changes": {
+    "monthly": true,
+    "quarterly": false
+  },
+  "promoted_hashes": {
+    "data/processed/gold_price.parquet": "60e5c143c9b6a907221ba99ca2ea0ef96cc85e928646a64652dcf4d63c4a722e",
+    "metadata/observations_long.parquet": "4fa63c5afc2ade1bec80e0b722e48a0ee273f7ccb9546c15cf03943d97736d5a",
+    "metadata/vintages.parquet": "560393971e6be750429b22ddaf46afa5dcb7792be737450b62c6174aa7403e58",
+    "metadata/download_log.parquet": "153272c14a84b08c5500239ba3495d5e90ccac223ae266087e0d89eea3311fe6",
+    "data/master/v1_monthly.parquet": "4bcc1e487ac33cf3fb9cc94c42bb8e91bdf66a36917c7e4a7b5159ca554f9ad6",
+    "data/master/v1_monthly.xlsx": "d31315ab31785991a52d107cb63a831e235a4694f8b8d6688d26f56e35b4e4f9"
+  },
+  "source_states": {
+    "industrial_production": "UNCHANGED",
+    "ppi": "UNCHANGED",
+    "usd_uzs": "PARTIAL_CURRENT_MONTH",
+    "rub_uzs": "PARTIAL_CURRENT_MONTH",
+    "gold_price": "UPDATED",
+    "m2": "UNCHANGED",
+    "fx_reserves_ex_gold": "UNCHANGED",
+    "pos_turnover": "UNCHANGED",
+    "gdp_real_yoy": "UNCHANGED"
+  },
+  "new_observations": 1,
+  "historical_revisions": 0,
+  "rejected_observations": 0,
+  "GDP_detected_unverified": false,
+  "GDP_realization_verified": false,
+  "forecasts_scored": false,
+  "governance": "INITIALIZED",
+  "warnings": [
+    "POS scope after December 2024 withheld; never filled"
+  ],
+  "protected_artifacts_changed_unexpectedly": false,
+  "protected_files_checked": 242,
+  "tests": {
+    "tests": 436,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": 436,
+    "failed": 0,
+    "scopes": [
+      "operations_operations_tests.xml",
+      "operations_phase6a2_tests.xml",
+      "operations_phase6b1_tests.xml",
+      "operations_phase6b2_tests.xml",
+      "operations_phase6b_tests.xml",
+      "operations_phase6c_tests.xml",
+      "operations_phase6d_tests.xml",
+      "operations_repository_tests.xml"
+    ]
+  }
+}

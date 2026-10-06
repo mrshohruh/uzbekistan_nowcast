@@ -1,0 +1,20 @@
+{
+  "automatic_promotion": false,
+  "checks": {
+    "EXTENDED_COMMON_every_quarter_exclusion_improves": false,
+    "EXTENDED_COMMON_no_horizon_worsens": false,
+    "EXTENDED_COMMON_pooled_improvement": -0.02187752604481369,
+    "EXTENDED_COMMON_revision_ratio": 0.9917951536451275,
+    "EXTENDED_COMMON_win_rate_pct": 43.18181818181818,
+    "ORIGINAL_HOLDOUT_COMMON_every_quarter_exclusion_improves": true,
+    "ORIGINAL_HOLDOUT_COMMON_no_horizon_worsens": true,
+    "ORIGINAL_HOLDOUT_COMMON_pooled_improvement": 0.024247463127905933,
+    "ORIGINAL_HOLDOUT_COMMON_revision_ratio": 1.032080548194033,
+    "ORIGINAL_HOLDOUT_COMMON_win_rate_pct": 75.0
+  },
+  "classification": "PHASE6G_INCONCLUSIVE",
+  "evidence_class": "AVAILABILITY_AWARE_PSEUDO_REAL_TIME; HISTORICAL_PREDICTOR_VALUE_VINTAGES_UNVERIFIED",
+  "historical_M2_value_vintages_verified": false,
+  "reason": "Controlled fixed-weight ensemble comparison; extended earlier origins overlap model development and are retrospective robustness evidence, not independent validation.",
+  "recommendation": "KEEP_PHASE6E_PRODUCTION"
+}

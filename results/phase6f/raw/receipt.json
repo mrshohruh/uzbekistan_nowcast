@@ -1,0 +1,13 @@
+{
+  "source_url": "https://cbu.uz/sdmx/public/BOP_Analytical_Uzbekistan.xlsx",
+  "retrieved_at": "2026-10-06T04:23:42.992700+00:00",
+  "checksum": "47b9e9ba6748d61811357e225737ce587b8fcb531a3126ed288e49bf69c123df",
+  "http_status": 200,
+  "raw_file": "results\\phase6f\\raw\\47b9e9ba6748d61811357e225737ce587b8fcb531a3126ed288e49bf69c123df.xlsx",
+  "parser_version": "phase6f-1",
+  "schema_fingerprint": "25b32f6a08e21a977186be2164c376674f367517a3e82761a66bd42f73b7cf9e",
+  "variable_key": "fdi_direct_investment_liabilities_research",
+  "provider": "CBU",
+  "source_release_date": null,
+  "source_page_update_date": "2026-09-29 11:21 Asia/Tashkent (observed on web page; snapshot update, not historical releases)"
+}

@@ -342,3 +342,114 @@ def test_reporting_failure_rollback_restores_old_data_and_removes_new_snapshot(t
     result=promote(root,stage,['master','new-snapshot'],'test',{'master':sha(root/'master'),'new-snapshot':None})
     rollback_completed(root,'test',result)
     assert (root/'master').read_bytes()==b'old' and not (root/'new-snapshot').exists()
+
+
+# Phase 6D.1A: separate identities and completed-month source eligibility.
+def industry_fixture():
+    from scripts.operations.acquisition import real_industry_contract
+    from uznowcast.registry import load_registry
+    row,contract=real_industry_contract(ROOT,load_registry(ROOT/'registry/uzbekistan_nowcasting_v1.2_registry.xlsx'))
+    receipts=read(ROOT/'results/research/phase6a2/phase6a2_fetch_log.json')
+    descriptor=next(r for r in receipts if '/sdmx/577/table/download/' in r['source_url'])
+    payload=next(r for r in receipts if 'sdmx_data_577.json' in r['source_url'])
+    return row,contract,descriptor,payload
+
+
+def industry_client(descriptor,payload,alter=None):
+    from types import SimpleNamespace
+    def get(row,url,**kwargs):
+        receipt=descriptor if '/table/download/' in url else payload
+        obj=read(ROOT/receipt['raw_file_path'])
+        if alter:alter(obj)
+        return obj,dict(receipt,provider='SIAT',variable_key='industrial_production',parser_version='operations-test',schema_fingerprint='fixture',status='downloaded')
+    return SimpleNamespace(get=get)
+
+
+def test_siat_table_and_internal_indicator_identity_are_separate():
+    row,contract,_,_=industry_fixture()
+    assert contract['table_id']=='577' and contract['indicator_code']=='1.02.01.0004'
+    assert row['native_indicator_dataset_id']==contract['indicator_code']
+    assert '/sdmx/577/' in row['machine_download_url']
+
+
+def test_correct_siat577_matches_all_approved_real_history():
+    from scripts.operations.acquisition import approved_real_industry
+    row,contract,d,p=industry_fixture()
+    candidate=approved_real_industry(industry_client(d,p),row,contract)
+    old=pd.read_csv(ROOT/'results/research/phase6a2/phase6a2_provenance.csv',float_precision='round_trip')
+    old=old.loc[old.variable_key.eq('industrial_production')&old.selected_for_panel.eq(True)]
+    overlap=old.merge(candidate,on='reference_period',suffixes=('_old','_new'),validate='one_to_one')
+    assert len(overlap)==len(candidate)==92 and candidate.reference_period.max()=='2026-08'
+    assert np.array_equal(overlap.raw_value_old,overlap.raw_value_new)
+    assert np.allclose(overlap.clean_value_old,overlap.clean_value_new,rtol=0,atol=1e-12)
+    assert (candidate.clean_value==candidate.raw_value-100).all()
+    retained,changes,valid=compare('industrial_production_approved_real',old,candidate,pd.Timestamp('2026-10-05T11:00Z'))
+    assert valid and retained.equals(old) and all(c['change_type']=='UNCHANGED' for c in changes)
+
+
+@pytest.mark.parametrize('wrong',['indicator','descriptor','url','unit','frequency','name'])
+def test_real_industry_rejects_wrong_identity_or_schema(wrong):
+    from scripts.operations.acquisition import approved_real_industry
+    row,contract,d,p=industry_fixture()
+    if wrong=='url':row['machine_download_url']=row['machine_download_url'].replace('/577/','/590/')
+    def alter(obj):
+        if isinstance(obj,dict) and wrong=='descriptor':obj['file']=obj['file'].replace('_577','_590')
+        if isinstance(obj,list):
+            field={'indicator':'Indicator identification number (code)','unit':'Unit of measurement','frequency':'Periodicity','name':'Indicator name'}.get(wrong)
+            for m in obj[0]['metadata']:
+                if m.get('name_en')==field:m['value_en']='WRONG'
+    with pytest.raises(ValueError):approved_real_industry(industry_client(d,p,alter),row,contract)
+
+
+@pytest.mark.parametrize('variable',['usd_uzs','rub_uzs'])
+@pytest.mark.parametrize('existing_partial',[True,False])
+def test_october_fx_is_not_revision_or_completed_observation(variable,existing_partial):
+    old=frame(('2026-08','2026-09'),(100.,110.),(1.,2.))
+    new=frame(('2026-08','2026-09','2026-10'),(100.,110.,112.),(1.,2.,np.nan))
+    new.loc[2,'quality_flag']='partial_month';new['is_complete_month']=[True,True,False]
+    if existing_partial:
+        old=new.copy();old.loc[2,'raw_value']=111.
+    retained,changes,valid=compare(variable,old,new,pd.Timestamp('2026-10-05T11:00Z'))
+    assert valid and retained.equals(old)
+    assert changes[-1]['change_type']=='PARTIAL_CURRENT_MONTH' and not changes[-1]['accepted']
+    assert retained.loc[retained.reference_period.eq('2026-09'),'clean_value'].iloc[0]==2.
+    assert not any(c['accepted'] for c in changes)
+
+
+def test_september_gold_new_observation_and_frozen_mask():
+    from uznowcast.parsers.external import parse_world_bank_gold
+    from uznowcast.transforms.growth import log_growth
+    from uznowcast.registry import load_registry
+    from uznowcast.models.data import load_dataset,information_cutoff_for_variable
+    receipt=pd.read_csv(ROOT/'results/operations/update_20261005_105427_7eadf567/source_receipts.csv')
+    receipt=receipt.loc[receipt.variable.eq('gold_price')&receipt.source_reference.str.endswith('.xlsx')].iloc[0]
+    assert receipt.source_reference.startswith('https://thedocs.worldbank.org/')
+    assert sha(ROOT/receipt.raw_file)==receipt.sha256
+    row=load_registry(ROOT/'registry/uzbekistan_nowcasting_v1.2_registry.xlsx').rows['gold_price']
+    new,release=parse_world_bank_gold((ROOT/receipt.raw_file).read_bytes(),row)
+    new=log_growth(new,'raw_value',1,50.)
+    new['retrieved_at']=receipt.retrieval_timestamp;new['source_release_date']=release
+    old=pd.read_parquet(ROOT/'data/processed/gold_price.parquet')
+    retained,changes,valid=compare('gold_price',old,new,pd.Timestamp('2026-10-05T11:00Z'))
+    sept=next(c for c in changes if c['period']=='2026-09')
+    assert valid and sept['change_type']=='NEW_OBSERVATION' and sept['accepted']
+    assert sept['new_value']==pytest.approx(-2.1077527144239383,abs=1e-12)
+    assert not new.reference_period.duplicated().any()
+    prices=new.set_index('reference_period').raw_value
+    assert sept['new_value']==pytest.approx(100*np.log(prices['2026-09']/prices['2026-08']))
+    lag=load_dataset(ROOT).release_lag_days
+    assert information_cutoff_for_variable(pd.Timestamp('2026-09-30'),'gold_price',lag,'standard')<pd.Timestamp('2026-09-30')
+    from scripts.operations.shadow_worker import common
+    kernel=common.kernel()
+    spec=kernel.Spec('DFM-4_R1_P2',common.FIELDS,1,2,'2019-01-31',True,False)
+    panel=pd.DataFrame(1.,index=pd.date_range('2019-01-31','2026-09-30',freq='ME'),columns=common.FIELDS)
+    panel.loc['2026-09-30','gold_price']=sept['new_value']
+    masked,_=kernel.mask(panel,spec,'2026Q3','H3',lag,'standard')
+    assert pd.isna(masked.loc['2026-09-30','gold_price'])
+    assert masked.loc['2026-08-31','gold_price']==panel.loc['2026-08-31','gold_price']
+
+
+def test_source_fix_preserves_original_masters_snapshots_and_ledger():
+    baseline=read(ROOT/'results/operations/source_validation_fix_before.json')
+    verify(ROOT,baseline['protected_hashes'])
+    verify(ROOT,baseline['current_data_hashes'])

@@ -1,0 +1,90 @@
+{
+  "rule_codes": [
+    "DECUM_YTD",
+    "MOM_INDEX_LOG",
+    "FLOW_YOY_LOG",
+    "STOCK_YOY_LOG",
+    "FX_DAILY_TO_MONTHLY",
+    "GDP_TARGET",
+    "NON_GOLD_DERIVE",
+    "PAYMENT_AGG",
+    "RELEASE_GATING"
+  ],
+  "rule_text": {
+    "DECUM_YTD": "If month=Jan: monthly_flow=YTD_t. Else: monthly_flow=YTD_t - YTD_{t-1}, only when both observations are in the same calendar year.",
+    "MOM_INDEX_LOG": "monthly_pct = 100*ln(index_t/100), where published monthly index has previous month=100.",
+    "FLOW_YOY_LOG": "growth_t = 100*[ln(flow_t)-ln(flow_t-12)].",
+    "STOCK_YOY_LOG": "growth_t = 100*[ln(stock_t)-ln(stock_t-12)].",
+    "FX_DAILY_TO_MONTHLY": "normalized_daily = Rate/Nominal. monthly_mean = arithmetic mean of official daily observations. change_t=100*Δln(monthly_mean).",
+    "GDP_TARGET": "gdp_growth_pct = published_index - 100. Retain quarterly frequency.",
+    "NON_GOLD_DERIVE": "First de-cumulate total exports and gold proxy separately; then non_gold = total_monthly - gold_proxy_monthly.",
+    "PAYMENT_AGG": "Extract official Total row and total transaction amount; convert UZS to billion UZS before growth transform.",
+    "RELEASE_GATING": "available_date = actual official release/update date captured by scraper. A value can enter a historical nowcast only when nowcast_date >= available_date."
+  },
+  "transformations": {
+    "Keep quarterly; transform published index to growth rate = value - 100. Never interpolate to monthly.": [
+      "GDP_TARGET"
+    ],
+    "De-cumulate within calendar year; then 100*ln(monthly_flow_t/monthly_flow_t-12). Flag non-positive flows.": [
+      "DECUM_YTD",
+      "FLOW_YOY_LOG"
+    ],
+    "De-cumulate within calendar year; then 100*ln(monthly_flow_t/monthly_flow_t-12).": [
+      "DECUM_YTD",
+      "FLOW_YOY_LOG"
+    ],
+    "Monthly inflation = 100*ln(index/100); retain raw index in raw layer.": [
+      "MOM_INDEX_LOG"
+    ],
+    "Monthly inflation = 100*ln(index/100).": [
+      "MOM_INDEX_LOG"
+    ],
+    "Monthly producer-price inflation = 100*ln(index/100).": [
+      "MOM_INDEX_LOG"
+    ],
+    "De-cumulate within calendar year to monthly USD flow; then 100*ln(flow_t/flow_t-12).": [
+      "DECUM_YTD",
+      "FLOW_YOY_LOG"
+    ],
+    "De-cumulate both YTD series first; non_gold_monthly = total_exports_monthly - gold_proxy_monthly; then YoY log growth where positive.": [
+      "DECUM_YTD",
+      "NON_GOLD_DERIVE",
+      "FLOW_YOY_LOG"
+    ],
+    "De-cumulate within year. Use monthly USD level or asinh(level); optional YoY change. Preserve zeros/lumps.": [
+      "DECUM_YTD"
+    ],
+    "Normalize Rate/Nominal; aggregate daily observations to monthly mean; model transform = 100*Δln(monthly_mean). Positive = UZS depreciation.": [
+      "FX_DAILY_TO_MONTHLY"
+    ],
+    "Normalize Rate/Nominal; monthly mean; model transform = 100*Δln(monthly_mean).": [
+      "FX_DAILY_TO_MONTHLY"
+    ],
+    "Use published monthly price; model transform = 100*Δln(price). Optionally use YoY log change in robustness.": [],
+    "Prefer published YoY industrial-production index; convert to growth = index - 100. If raw level index is used, compute YoY log change.": [],
+    "Use EOP level; model transform = 100*ln(level_t/level_t-12).": [
+      "STOCK_YOY_LOG"
+    ],
+    "Map as-of-first-day to prior month-end; model transform = 100*ln(level_t/level_t-12) once 12-month history exists.": [
+      "STOCK_YOY_LOG"
+    ],
+    "Map as-of-first-day to prior month-end; 100*ln(level_t/level_t-12).": [
+      "STOCK_YOY_LOG"
+    ],
+    "Use EOP stock; model transform = 100*ln(level_t/level_t-12). Preserve raw USD level.": [
+      "STOCK_YOY_LOG"
+    ],
+    "Use Total row. De-cumulate YTD within calendar year; then 100*ln(monthly_flow_t/monthly_flow_t-12).": [
+      "DECUM_YTD",
+      "FLOW_YOY_LOG"
+    ],
+    "Aggregate Total amount; convert UZS to billion UZS; 100*ln(flow_t/flow_t-12) after 12 months. Keep transaction count as optional auxiliary.": [
+      "PAYMENT_AGG",
+      "FLOW_YOY_LOG"
+    ],
+    "Extract total transaction amount; convert to billion UZS; model transform = 100*ln(flow_t/flow_t-12).": [
+      "PAYMENT_AGG",
+      "FLOW_YOY_LOG"
+    ]
+  }
+}

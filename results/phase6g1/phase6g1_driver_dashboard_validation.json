@@ -1,0 +1,36 @@
+{
+  "M2": {
+    "decomposition_type": "loading-based descriptive",
+    "direction": "positive",
+    "display_name": "Broad money \u00b7 M2 (2-month lag)",
+    "interpretation": "Supporting factor signal",
+    "latest_factor_cell_period": "2026-09",
+    "latest_period": "2026-07",
+    "latest_value": 31.937271538575374,
+    "loading": 0.5406721435477865,
+    "loading_share_pct": 47.019632336906135,
+    "model": "D2",
+    "normalized_share_pct": 78.92731016261305,
+    "quarter_mean_z": 1.510563779246705,
+    "quarter_months_available": 3,
+    "signal": 0.8167197564909614,
+    "transformation": "100*ln(M2_t/M2_t-12)"
+  },
+  "deterministic_dashboard_and_CSV_hashes": true,
+  "nowcasts": {
+    "D0": 8.301152885464585,
+    "D2": 8.413700638995717,
+    "E0": 8.180901340616275,
+    "E2": 8.237175217381841,
+    "U_MIDAS": 8.060649795767965
+  },
+  "outputs": {
+    "dashboard\\phase6g1_m2_lag_driver_dashboard.html": "6ca1dd354b810fdc75a9810f6bb7a9dd7c5c709a987df6aa9cfc88e107117049",
+    "results\\phase6g1\\phase6g1_d0_vs_d2_driver_comparison.csv": "9c18cffd3d2d0b303876c9403e35c099b0344d2ebf83130cf61ee9f47647e667",
+    "results\\phase6g1\\phase6g1_d2_current_drivers.csv": "61fd7c96246a27cb2ec5a16fafbc7ff4acfeab3b35754ca8b383efeb822b8166"
+  },
+  "production_unchanged": true,
+  "protected_files_unchanged": 720,
+  "research_only": true,
+  "tests_passed": 9
+}

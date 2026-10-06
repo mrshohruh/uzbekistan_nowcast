@@ -39,6 +39,20 @@ the existing acquisition code, with per-run copies under
 stored data. Offline receipts explicitly say that no new retrieval took place.
 Read `operations.log` and `update_failure.json` for failures.
 
+The approved real industrial adapter validates SIAT table `577` through its
+descriptor URL and resolved payload URL, and separately validates internal
+indicator code `1.02.01.0004`, name, Percent unit, monthly frequency and the exact
+national selector. It retains the frozen published index-minus-100 convention.
+Identical raw indices with CSV serialization differences within two raw-index
+ULPs retain the approved old transformed values; a changed raw index remains a
+revision candidate. Evidence is in `results/operations/source_validation_fix_report.md`.
+
+Current-month USD/UZS and RUB/UZS candidates are `PARTIAL_CURRENT_MONTH`, with
+`accepted=False`. Their daily payloads are archived, but incomplete monthly
+means and missing transformed changes do not count as historical revisions or
+replace completed-month data. Frozen FX transformations and availability masks
+still apply. Candidate acceptance in check-only reports never means promotion.
+
 `data_changes.csv` distinguishes unchanged observations, new periods, revisions,
 source omissions, schema failures and invalid data. `revisions.csv` records
 accepted historical changes. Source omissions retain the old observations and

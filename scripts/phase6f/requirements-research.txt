@@ -1,0 +1,4 @@
+-r ../../requirements.txt
+statsmodels==0.14.6
+scipy==1.18.1
+patsy==1.0.3

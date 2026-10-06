@@ -57,7 +57,16 @@ def test_canonical_dashboard_mirrors_phase5b1_dashboard():
     source = ROOT / "dashboard" / "phase5b1_uzbekistan_nowcast.html"
     assert canonical.exists()
     assert source.exists()
-    assert _sha256(canonical) == _sha256(source)
+    pointer=ROOT/'results/operations/current_production.json'
+    if pointer.exists():
+        active=json.loads(pointer.read_text(encoding='utf8'))
+        policy=json.loads((ROOT/active['policy']).read_text(encoding='utf8'))
+        assert policy['model']=='COMBO_50_50' and policy['status']=='PHASE6E_PROMOTED'
+        assert _sha256(canonical)==_sha256(ROOT/active['dashboard'])
+        # The original Phase 5B.1 default remains byte-identical and reproducible.
+        assert _sha256(ROOT/'results/phase6e/legacy_current_dashboard.html')==_sha256(source)
+    else:
+        assert _sha256(canonical) == _sha256(source)
 
 
 def test_canonical_headline_matches_frozen_baseline():

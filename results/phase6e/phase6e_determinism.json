@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "differences": [],
+  "compared_outputs": 19,
+  "fresh_output_directory": "results/phase6e/rerun",
+  "method": "Independent fit from scratch; byte-identical generated CSV/JSON/report/dashboard"
+}

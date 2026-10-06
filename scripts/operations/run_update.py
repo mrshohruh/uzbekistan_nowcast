@@ -157,7 +157,9 @@ def run(args,root=ROOT):
                                 overlay=staged/'data/operations/shadow_observations.parquet'
                                 if overlay.exists():old=pd.read_parquet(overlay).loc[lambda f:f.variable_key.eq(key)]
                                 else:
-                                    history=pd.read_csv(root/'results/research/phase6a2/phase6a2_provenance.csv')
+                                    # Recover the archived float representation exactly;
+                                    # default CSV parsing can manufacture sub-ULP revisions.
+                                    history=pd.read_csv(root/'results/research/phase6a2/phase6a2_provenance.csv',float_precision='round_trip')
                                     old=history.loc[history.variable_key.eq(key)&history.selected_for_panel.eq(True)].copy()
                                     old['frequency']='M';old['reference_date']=pd.to_datetime(old.reference_date)
                                 rel='data/operations/shadow_observations.parquet'
@@ -174,6 +176,8 @@ def run(args,root=ROOT):
                             if not valid:
                                 states[key]='VALIDATION_FAILED';critical_invalid|=key=='usd_uzs';continue
                             accepted_periods=[r['period'] for r in rows if r['accepted']]
+                            if not accepted_periods and any(r['change_type']=='PARTIAL_CURRENT_MONTH' for r in rows):
+                                states[key]='PARTIAL_CURRENT_MONTH'
                             if accepted_periods:
                                 states[key]='UPDATED'
                                 if real:

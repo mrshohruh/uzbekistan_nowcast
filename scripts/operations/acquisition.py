@@ -3,6 +3,7 @@ from __future__ import annotations
 from datetime import datetime, timezone
 import json
 from pathlib import Path
+from urllib.parse import urlparse, parse_qs
 import shutil
 import numpy as np
 import pandas as pd
@@ -80,22 +81,54 @@ def real_industry_contract(root, registry):
         for receipt in read(logfile):
             if '/sdmx/577/table/download/' in receipt.get('source_url',''):urls.add(receipt['source_url'])
     if len(urls)!=1:raise ValueError('Approved SIAT 577 descriptor receipt not unique')
-    row=dict(registry.rows['industrial_production'],native_indicator_dataset_id='577',
+    row=dict(registry.rows['industrial_production'],native_indicator_dataset_id='1.02.01.0004',
         machine_download_url=urls.pop(),native_frequency='Monthly',raw_unit='Percent',
         row_field_selector='Code=1700 AND Klassifikator_en=Republic of Uzbekistan',rule_codes=['PUBLISHED_REAL_INDEX_MINUS_100'],
         required_transformation='Published real cumulative growth index minus 100; NOT de-cumulated',clean_model_field='industrial_production')
     contract=dict(registry_selector=row['row_field_selector'],registry_unit='Percent',code='1700',label='Republic of Uzbekistan',
-        frequency='monthly',unit='Percent',rule_codes=row['rule_codes'])
+        frequency='monthly',unit='Percent',rule_codes=row['rule_codes'],table_id='577',
+        indicator_code='1.02.01.0004',indicator_name='Index of the physical volume of industrial production (monthly)')
     return row,contract
+
+
+def approved_real_industry(client,row,contract):
+    """Check descriptor/table identity independently of the internal indicator code.
+
+    Both URLs and the metadata contract are evidenced by the Phase 6A2 archived
+    SIAT 577 descriptor/payload, not inferred from a numeric indicator code.
+    """
+    url=urlparse(row['machine_download_url'])
+    if (url.scheme!='https' or url.netloc!='api.siat.stat.uz' or
+        url.path!=f'/sdmx/{contract["table_id"]}/table/download/' or
+        parse_qs(url.query)!={'download_format':['json']}):
+        raise ValueError('Approved industrial SIAT table/descriptor identity mismatch')
+    descriptor,descriptor_meta=client.get(row,row['machine_download_url'])
+    expected=f'https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_{contract["table_id"]}.json'
+    if not isinstance(descriptor,dict) or descriptor.get('file')!=expected or not descriptor.get('updated_at'):
+        raise ValueError('Approved industrial SIAT descriptor resolved to a different table/schema')
+    release=pd.Timestamp(descriptor['updated_at']).isoformat()
+    basis='dataset_update_timestamp; not historical first release'
+    payload,meta=client.get(row,expected,source_release_date=release,source_release_basis=basis)
+    if not isinstance(payload,list) or len(payload)!=1 or not isinstance(payload[0],dict):
+        raise ValueError('Approved industrial SIAT payload schema changed')
+    names={m.get('value_en') for m in payload[0].get('metadata',[]) if m.get('name_en')=='Indicator name'}
+    if names!={contract['indicator_name']} or row['native_indicator_dataset_id']!=contract['indicator_code']:
+        raise ValueError('Approved industrial SIAT indicator name/code contract mismatch')
+    # The unchanged strict parser checks internal code, unit, frequency, national
+    # selector, dimensions, numeric values and duplicates.
+    frame=parse_siat(payload,row,contract)
+    meta=dict(meta,descriptor_raw_file_path=descriptor_meta['raw_file_path'],source_release_date=release,source_release_basis=basis)
+    frame=attach_provenance(frame,row,meta)
+    frame['siat_table_id']=contract['table_id'];frame['siat_indicator_code']=contract['indicator_code']
+    frame['clean_value']=frame.raw_value-100
+    return frame
 
 
 def acquire(key,client,registry,root,asof,*,real=False):
     row=dict(registry.rows[key]);contracts=read(root/'config/siat_contracts.json')
     if real:
         row,contract=real_industry_contract(root,registry)
-        payload,meta=siat.download(client,row)
-        frame=attach_provenance(parse_siat(payload,row,contract),row,meta)
-        frame['clean_value']=frame.raw_value-100
+        frame=approved_real_industry(client,row,contract)
     elif row['provider']=='SIAT':
         payload,meta=siat.download(client,row)
         frame=attach_provenance(parse_siat(payload,row,contracts[key]),row,meta)
@@ -152,10 +185,20 @@ def compare(variable,old,new,asof,*,gdp=False,pos=False,verified_gdp=()):
         old_value=a.clean_value if a is not None else np.nan
         new_value=b.clean_value if b is not None else np.nan
         same=b is not None and a is not None and equal(a.raw_value,b.raw_value) and equal(old_value,new_value)
+        if variable=='industrial_production_approved_real' and b is not None and a is not None and equal(a.raw_value,b.raw_value):
+            # The approved CSV's decimal serialization loses a few ULPs. Only
+            # identical published indices with an old value consistent with the
+            # frozen index-minus-100 formula qualify; retain the old bytes/value.
+            tolerance=2*np.spacing(max(abs(float(b.raw_value)),1.))
+            same=same or (equal(new_value,b.raw_value-100) and
+                          np.isclose(old_value,new_value,rtol=0,atol=tolerance))
         kind='UNCHANGED' if same else 'MISSING_IN_NEW_SOURCE' if b is None else 'REVISION' if a is not None else 'NEW_OBSERVATION'
         accepted=kind in {'REVISION','NEW_OBSERVATION'};reason='Retain old provenance' if same else 'Validated source observation'
         if b is None:accepted=False;reason='Source omission never deletes history'
-        if b is not None and not same:
+        partial_fx=(b is not None and variable in {'usd_uzs','rub_uzs'} and
+                    pd.Period(period,'M')==local.to_period('M') and
+                    local.normalize()<pd.Period(period,'M').end_time.normalize())
+        if b is not None and (not same or partial_fx):
             freq=pd.Period(period,freq=expected)
             bad=(not np.isfinite(b.raw_value) or b.raw_value<=0 or
                  freq>local.to_period(expected) or (expected=='Q' and freq.end_time.normalize()>local.normalize()))
@@ -168,6 +211,9 @@ def compare(variable,old,new,asof,*,gdp=False,pos=False,verified_gdp=()):
             extreme='extreme' in flags or (pd.notna(new_value) and abs(new_value)>50)
             if bad or extreme:
                 kind='INVALID';accepted=False;reason='FAIL: nonpositive/nonfinite, future timing or extreme change requires review';rejected=True
+            elif partial_fx or (variable in {'usd_uzs','rub_uzs'} and 'partial' in flags):
+                kind='PARTIAL_CURRENT_MONTH' if partial_fx else 'INCOMPLETE_PERIOD'
+                accepted=False;reason='Daily FX archived; incomplete monthly mean/change withheld from completed-month observations'
             elif pd.isna(new_value) and not any(word in flags for word in ['missing_growth','partial','missing_previous','missing_lag']):
                 kind='INVALID';accepted=False;reason='FAIL: unexplained missing transformed value';rejected=True
             elif gdp and period not in verified_gdp:
@@ -183,6 +229,8 @@ def compare(variable,old,new,asof,*,gdp=False,pos=False,verified_gdp=()):
         for row in changes:
             if row['accepted']:row.update(accepted=False,reason='Series withheld because another candidate observation failed validation')
         return old.copy(),changes,False
+    if not accepted_periods:
+        return old.copy(),changes,True
     merged=pd.concat([old.loc[~old.reference_period.isin(accepted_periods)],new.loc[new.reference_period.isin(accepted_periods)]],ignore_index=True)
     merged=merged.sort_values('reference_date').reset_index(drop=True)
     return merged,changes,True

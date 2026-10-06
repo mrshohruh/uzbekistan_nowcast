@@ -1,0 +1,6 @@
+{
+  "automatic_promotion": false,
+  "classification": "PHASE6F_INCONCLUSIVE",
+  "reason": "No verified historical M2/FDI value vintages; four holdout quarters; revised FDI diagnostics cannot establish genuine real-time improvement.",
+  "recommendation": "KEEP_PHASE6E_PRODUCTION"
+}

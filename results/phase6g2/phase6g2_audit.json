@@ -1,0 +1,17 @@
+{
+  "FDI_TRANSFORMATION_USED": "nominal million USD / 1000",
+  "current_transformation": "100 * (ln(M2_t) - ln(M2_t-12))",
+  "first_qoq": "2013-04-30 00:00:00",
+  "first_raw": "2013-01-31 00:00:00",
+  "first_yoy": "2014-01-31 00:00:00",
+  "historical_value_vintages_verified": false,
+  "m2_source": "https://cbu.uz/sdmx/public/DCS_Uzbekistan_Online.xlsx",
+  "matched_raw_frozen_months": 92,
+  "maximum_raw_frozen_difference": 0.0,
+  "ordering": "transformation -> source release mask -> economic lag -> balanced start -> training-only standardization",
+  "publication_lag_days": 25,
+  "raw_frequency": "M",
+  "raw_m2_missing_count": 0,
+  "raw_m2_nonpositive_count": 0,
+  "raw_unit": "billion UZS, end of period"
+}

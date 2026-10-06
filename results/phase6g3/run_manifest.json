@@ -1,0 +1,88 @@
+{
+  "attempted_historical_origins": 44,
+  "automatic_promotion": false,
+  "classification": "PHASE6G3_TARGET_DEFINITION_ISSUE_FOUND",
+  "code_hashes": {
+    "__init__.py": "e61bbbd38bae674046f717494f1b1ec40af6d96f1955a49c8fec9b5feb4d4666",
+    "audit.py": "be0a852b2b8b1290211d328d3136988493291e8090404ad6f619e4f675052dd8",
+    "diagnostics.py": "93587ed3203b07112fbc11959af3b2b51fc5749e5a06ca9c496f38b24d79d77e",
+    "experiment.py": "5d00ab675ab429633b80de75a049f1fb0b5b49a2c6e8ba03dd8188203e468b04",
+    "finalize.py": "752e8d0616ec4b940ff8f52285f020337d4ee6f1c94051397a1c8d61f9afeedc",
+    "nominal.py": "9de51e9e9575edc09f7c17e617a365d1b1f1eb22cab267c8987324e79ef54286",
+    "protection.py": "84ba2c49da4046752e40ec18ffe1ce2c5274669d3e33cff3248b93a6b2fa6a8f",
+    "report.py": "cb41cfde3a3df5fa048eed30c017235489068ccde0a72a4ab96f6f12f36cde08",
+    "run.py": "ee8f9050787b77b6cb28965c294f2606458e7a1902169060cc4f5f237c1f1e93",
+    "test_phase6g3.py": "e37076cf1976924102b43f026f242cb2b320f4cfa8bd32eff3d724aa4de2083b",
+    "tests.py": "2d2c16b52486ddc58c1d3d491fcebe8962333b7e9c691a914f778da9a2d49430",
+    "vintages.py": "f65afac45ba53b80ac0c2e47bd4f46f87ce195940068055f9062bbd2040b6d90"
+  },
+  "controls": "same factors/origins/window; both shared bridges use identical documented target-training quarters; accepted full real bridge retained separately",
+  "current_cutoff": "2026-10-05 16:54:48.927036",
+  "factor_specification": "unchanged accepted eight-predictor one-factor AR2 filtered DynamicFactorMQ; training-only standardization",
+  "failures": [
+    {
+      "current": false,
+      "error": "Insufficient identical nominal/real bridge history: 10 quarters, minimum 12",
+      "horizon": "H2",
+      "target_quarter": "2022Q3"
+    },
+    {
+      "current": false,
+      "error": "Insufficient identical nominal/real bridge history: 10 quarters, minimum 12",
+      "horizon": "H3",
+      "target_quarter": "2022Q3"
+    }
+  ],
+  "historical_nominal_archive_complete": false,
+  "inputs": {
+    "results/phase6d/snapshots/d1a9e5c4426f706b2007d26299921f2b5c788ac67bea615d577627d737664614/inputs.json": "85f38f69d4abc96e5bc8adb5cd7a5362e1fc6f5da6e9d4f15e55c5d33127d041",
+    "results/phase6g3/raw/nominal_gdp_3695_42636f52bff2.payload": "685438a4c0f61fff968152b4ada3b63a184d9b73f1e86f5c613f810fcac190b3",
+    "results/phase6g3/raw/nominal_gdp_544_ac71cbeb5654.payload": "d266eb6a62ac31499a0a4c6c60b485b5a206cf209cbe3c1c310900bc81792fbe",
+    "results/research/phase6b2/phase6b2_gdp_revision_history.csv": "a8bfd82f117a1c24cfe9edf4bf66cfac4d81a93f60d556c243173c7ba8c6a62a"
+  },
+  "matched_historical_origins": 42,
+  "nominal_publication_events": 82,
+  "outputs": {
+    "all_attempted_forecasts.csv": "8b164a0c3a6f9f401ecc7a08e385c844e497386ca4317426346464d4ad501aa8",
+    "annual_validation.csv": "41217da074931249c7aa0fc93ed955f9911e1f305629726f6482611290541314",
+    "bridge_coefficients.csv": "ce1a56c443b2df788a6ca3ca7807902ef457e6f7ea72aec218dce202be8a1038",
+    "common_sample_forecasts.csv": "9dc21a4a5df68fd02429749bc15385241130c67cb431ead7d9091511170ff4bc",
+    "current_factor_series.csv": "9353fbe3661337c9413c6d65bec2d986751614761926c91003b2daa6e9f0ec15",
+    "current_nowcasts.csv": "88f201e41313024cb40944e05c752825837bbf5799aac15e0178cf2171e64fb3",
+    "factor_loadings.csv": "d7ee67f0df0f3e3a64ee61f2f4eca873b5e355c0a3cd7de44348ccac1fc87649",
+    "gdp_target_audit.csv": "67392ab6555d30adff9a2cd9c261c45267edc60d62c95f148dbb97a5391ee7b5",
+    "horizon_metrics.csv": "5e3dd51c82efca0e2578249351592eea35b187dc35d357350755b2acad303ec4",
+    "largest_historical_misses.csv": "f1e854e7a430dda7e5524c04b42c2fc70cbcebf942c24d70149a306278588086",
+    "model_failures.csv": "d41f07b263a83d23b4cdf244b77c67578d58bc4f149bca2bc63f2558e5eb283d",
+    "nominal_cumulative_vintage_events.csv": "d2c1ad09c9a8560d81500500f3fc267cb337b2fb0fe7ae91ab5d18c4a8385e57",
+    "nominal_gdp_growth.csv": "6d4dadba6624062c362619a27c49422208eaddb35df1c1bf7b320f84c8747944",
+    "nominal_gdp_quarterly.csv": "a547cf532348a298781dc6ec3d390e7580a04d0e2145e2574893cd8bf89f6759",
+    "nominal_growth_vintage_history.csv": "7959f0d6fd48cee61c236c2984f9b3614220f736d160b7dcb7c95aae08899e0f",
+    "nominal_vintage_coverage.csv": "aeb1ffa5122b62a25580ebeb291e3efc4b2bd94ab1bba3ed46bfc7f9daf6ed61",
+    "origin_information_audit.csv": "c808dbab4919e8783219c81dd1c75a3fb30019679e63b2fc69936bc334df4879",
+    "reproduction.csv": "6d314426d07d2240331d92e16cacb8429facec53cee9e0379f35d6b97385d189",
+    "target_diagnostics.csv": "2cb9210c3139359f43fc23e75a03a09470d6b2067f36dcde78a8214097899d5c",
+    "target_model_comparison.csv": "2d1be1935183c609432890918164f1dec27bb229cbdab41d8b02166a6de17ba3",
+    "target_training_vintage_usage.csv": "076d709d608f24ab1fa892fe061ba219f5ec4ae20cb091115546f5539d5c4ced"
+  },
+  "production_unchanged": true,
+  "protected_artifacts": 1033,
+  "protected_hashes_identical": true,
+  "raw_nominal_observations": 34,
+  "research_only": true,
+  "summary_regeneration_deterministic": true,
+  "tests": {
+    "errors": 0,
+    "exit_code": 1,
+    "failures": 1,
+    "skipped": 0,
+    "tests": 179
+  },
+  "tests_new": {
+    "errors": 0,
+    "exit_code": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 7
+  }
+}

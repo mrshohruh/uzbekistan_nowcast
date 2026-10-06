@@ -1,0 +1,306 @@
+{
+  "automatic_promotion": false,
+  "classification": "PHASE6G2_NO_IMPROVEMENT",
+  "code_hashes": {
+    "__init__.py": "1f74f4167e0b59c5914bed2bc8f4324f3eb868ba5e79621bac06be089285f029",
+    "core.py": "1919bd53c7e6065628ce0c1c673616785dbd60d8aa4953acad8561a69b34de06",
+    "finalize.py": "0ea15ae096a14bd7a2b3bdd04745568445cb79bd910dc1f935f407ae674c94e1",
+    "report.py": "324884ececf80b98a1ff1e03de0dc59b78d77703354005ad9649589ec4f81874",
+    "run.py": "efa9ddfa0eb3e4614b3df226418f3fec7c104a420485b0ce70f04635baa8e71b",
+    "test_phase6g2.py": "cc96716f615ad5ae687033f953f481c61e1e5714a8ca452ce533417f01111fcd",
+    "tests.py": "ff38b95079b4338816cc4a14c14ae04e132d678325ca3cfcc9fe64dc1edbeb28"
+  },
+  "current_cutoff": "2026-10-05 16:54:48.927036",
+  "failures": [
+    {
+      "current": false,
+      "error": "nonconvergence_or_unstable_transition:{\"n_training_months\": 41, \"n_observed_cells\": 328, \"n_missing_cells\": 0, \"iterations\": 500, \"relative_likelihood_change\": 3.0126218522516992e-05, \"converged\": false, \"log_likelihood\": -399.9238176345494, \"n_states\": 2, \"warnings\": \"EM reached maximum number of iterations (500), without achieving convergence: llf=-399.94, convergence criterion=3.0126e-05 (while specified tolerance was 1e-05)\", \"estimator\": \"DynamicFactorMQ_EM_MLE\", \"factor_source\": \"FILTERED_ONE_SIDED\", \"estimation_start\": \"2019-02-28\", \"spectral_radius\": 0.8883007065200202, \"transition\": \"[[0.9001830686695798, -0.010555110692580414], [1.0, 0.0]]\", \"bic\": 870.4055045364806, \"aic\": 837.8476352690988}",
+      "horizon": "H2",
+      "model": "Q1",
+      "sample": "NATURAL",
+      "target_quarter": "2022Q3"
+    },
+    {
+      "current": false,
+      "error": "nonconvergence_or_unstable_transition:{\"n_training_months\": 40, \"n_observed_cells\": 320, \"n_missing_cells\": 0, \"iterations\": 500, \"relative_likelihood_change\": 3.167229874985096e-05, \"converged\": false, \"log_likelihood\": -389.7900951428883, \"n_states\": 2, \"warnings\": \"EM reached maximum number of iterations (500), without achieving convergence: llf=-389.8, convergence criterion=3.1672e-05 (while specified tolerance was 1e-05)\", \"estimator\": \"DynamicFactorMQ_EM_MLE\", \"factor_source\": \"FILTERED_ONE_SIDED\", \"estimation_start\": \"2019-03-31\", \"spectral_radius\": 0.8881949444344054, \"transition\": \"[[0.8991225197872751, -0.009705817183344833], [1.0, 0.0]]\", \"bic\": 849.6688999139413, \"aic\": 817.5801902857766}",
+      "horizon": "H2",
+      "model": "Q2",
+      "sample": "NATURAL",
+      "target_quarter": "2022Q3"
+    },
+    {
+      "current": false,
+      "error": "nonconvergence_or_unstable_transition:{\"n_training_months\": 40, \"n_observed_cells\": 320, \"n_missing_cells\": 0, \"iterations\": 500, \"relative_likelihood_change\": 3.167229874985096e-05, \"converged\": false, \"log_likelihood\": -389.7900951428883, \"n_states\": 2, \"warnings\": \"EM reached maximum number of iterations (500), without achieving convergence: llf=-389.8, convergence criterion=3.1672e-05 (while specified tolerance was 1e-05)\", \"estimator\": \"DynamicFactorMQ_EM_MLE\", \"factor_source\": \"FILTERED_ONE_SIDED\", \"estimation_start\": \"2019-03-31\", \"spectral_radius\": 0.8881949444344054, \"transition\": \"[[0.8991225197872751, -0.009705817183344833], [1.0, 0.0]]\", \"bic\": 849.6688999139413, \"aic\": 817.5801902857766}",
+      "horizon": "H2",
+      "model": "Q2",
+      "sample": "COMMON",
+      "target_quarter": "2022Q3"
+    },
+    {
+      "current": false,
+      "error": "nonconvergence_or_unstable_transition:{\"n_training_months\": 41, \"n_observed_cells\": 328, \"n_missing_cells\": 0, \"iterations\": 500, \"relative_likelihood_change\": 3.0126218522516992e-05, \"converged\": false, \"log_likelihood\": -399.9238176345494, \"n_states\": 2, \"warnings\": \"EM reached maximum number of iterations (500), without achieving convergence: llf=-399.94, convergence criterion=3.0126e-05 (while specified tolerance was 1e-05)\", \"estimator\": \"DynamicFactorMQ_EM_MLE\", \"factor_source\": \"FILTERED_ONE_SIDED\", \"estimation_start\": \"2019-02-28\", \"spectral_radius\": 0.8883007065200202, \"transition\": \"[[0.9001830686695798, -0.010555110692580414], [1.0, 0.0]]\", \"bic\": 870.4055045364806, \"aic\": 837.8476352690988}",
+      "horizon": "H3",
+      "model": "Q1",
+      "sample": "NATURAL",
+      "target_quarter": "2022Q3"
+    },
+    {
+      "current": false,
+      "error": "nonconvergence_or_unstable_transition:{\"n_training_months\": 40, \"n_observed_cells\": 320, \"n_missing_cells\": 0, \"iterations\": 500, \"relative_likelihood_change\": 3.167229874985096e-05, \"converged\": false, \"log_likelihood\": -389.7900951428883, \"n_states\": 2, \"warnings\": \"EM reached maximum number of iterations (500), without achieving convergence: llf=-389.8, convergence criterion=3.1672e-05 (while specified tolerance was 1e-05)\", \"estimator\": \"DynamicFactorMQ_EM_MLE\", \"factor_source\": \"FILTERED_ONE_SIDED\", \"estimation_start\": \"2019-03-31\", \"spectral_radius\": 0.8881949444344054, \"transition\": \"[[0.8991225197872751, -0.009705817183344833], [1.0, 0.0]]\", \"bic\": 849.6688999139413, \"aic\": 817.5801902857766}",
+      "horizon": "H3",
+      "model": "Q2",
+      "sample": "NATURAL",
+      "target_quarter": "2022Q3"
+    },
+    {
+      "current": false,
+      "error": "nonconvergence_or_unstable_transition:{\"n_training_months\": 40, \"n_observed_cells\": 320, \"n_missing_cells\": 0, \"iterations\": 500, \"relative_likelihood_change\": 3.167229874985096e-05, \"converged\": false, \"log_likelihood\": -389.7900951428883, \"n_states\": 2, \"warnings\": \"EM reached maximum number of iterations (500), without achieving convergence: llf=-389.8, convergence criterion=3.1672e-05 (while specified tolerance was 1e-05)\", \"estimator\": \"DynamicFactorMQ_EM_MLE\", \"factor_source\": \"FILTERED_ONE_SIDED\", \"estimation_start\": \"2019-03-31\", \"spectral_radius\": 0.8881949444344054, \"transition\": \"[[0.8991225197872751, -0.009705817183344833], [1.0, 0.0]]\", \"bic\": 849.6688999139413, \"aic\": 817.5801902857766}",
+      "horizon": "H3",
+      "model": "Q2",
+      "sample": "COMMON",
+      "target_quarter": "2022Q3"
+    },
+    {
+      "current": false,
+      "error": "nonconvergence_or_unstable_transition:{\"n_training_months\": 78, \"n_observed_cells\": 617, \"n_missing_cells\": 7, \"iterations\": 371, \"relative_likelihood_change\": 9.848730652662679e-06, \"converged\": true, \"log_likelihood\": -803.8390280158475, \"n_states\": 2, \"warnings\": \"\", \"estimator\": \"DynamicFactorMQ_EM_MLE\", \"factor_source\": \"FILTERED_ONE_SIDED\", \"estimation_start\": \"2019-01-31\", \"spectral_radius\": 1.0018497750315691, \"transition\": \"[[1.994566697805082, -1.0037029717308055], [1.0, 0.0]]\", \"bic\": 1690.4555237387972, \"aic\": 1645.678056031695}",
+      "horizon": "H1",
+      "model": "Q0",
+      "sample": "NATURAL",
+      "target_quarter": "2025Q3"
+    },
+    {
+      "current": false,
+      "error": "nonconvergence_or_unstable_transition:{\"n_training_months\": 77, \"n_observed_cells\": 609, \"n_missing_cells\": 7, \"iterations\": 374, \"relative_likelihood_change\": 9.888511492795582e-06, \"converged\": true, \"log_likelihood\": -793.3901672235877, \"n_states\": 2, \"warnings\": \"\", \"estimator\": \"DynamicFactorMQ_EM_MLE\", \"factor_source\": \"FILTERED_ONE_SIDED\", \"estimation_start\": \"2019-02-28\", \"spectral_radius\": 1.0013271114758588, \"transition\": \"[[1.9933302729472884, -1.0026559841765874], [1.0, 0.0]]\", \"bic\": 1669.3126374623953, \"aic\": 1624.7803344471754}",
+      "horizon": "H1",
+      "model": "Q1",
+      "sample": "NATURAL",
+      "target_quarter": "2025Q3"
+    },
+    {
+      "current": false,
+      "error": "nonconvergence_or_unstable_transition:{\"n_training_months\": 78, \"n_observed_cells\": 618, \"n_missing_cells\": 6, \"iterations\": 371, \"relative_likelihood_change\": 9.851754672986996e-06, \"converged\": true, \"log_likelihood\": -805.4189635125981, \"n_states\": 2, \"warnings\": \"\", \"estimator\": \"DynamicFactorMQ_EM_MLE\", \"factor_source\": \"FILTERED_ONE_SIDED\", \"estimation_start\": \"2019-01-31\", \"spectral_radius\": 1.0017150613042058, \"transition\": \"[[1.9942893180477945, -1.0034330640436881], [1.0, 0.0]]\", \"bic\": 1693.6153947322985, \"aic\": 1648.8379270251962}",
+      "horizon": "H2",
+      "model": "Q0",
+      "sample": "NATURAL",
+      "target_quarter": "2025Q3"
+    },
+    {
+      "current": false,
+      "error": "nonconvergence_or_unstable_transition:{\"n_training_months\": 77, \"n_observed_cells\": 610, \"n_missing_cells\": 6, \"iterations\": 372, \"relative_likelihood_change\": 9.920993881077168e-06, \"converged\": true, \"log_likelihood\": -794.9910666472668, \"n_states\": 2, \"warnings\": \"\", \"estimator\": \"DynamicFactorMQ_EM_MLE\", \"factor_source\": \"FILTERED_ONE_SIDED\", \"estimation_start\": \"2019-02-28\", \"spectral_radius\": 1.0011426020756813, \"transition\": \"[[1.992948249102969, -1.002286509690866], [1.0, 0.0]]\", \"bic\": 1672.5144363097536, \"aic\": 1627.9821332945337}",
+      "horizon": "H2",
+      "model": "Q1",
+      "sample": "NATURAL",
+      "target_quarter": "2025Q3"
+    },
+    {
+      "current": false,
+      "error": "nonconvergence_or_unstable_transition:{\"n_training_months\": 78, \"n_observed_cells\": 618, \"n_missing_cells\": 6, \"iterations\": 371, \"relative_likelihood_change\": 9.851754672986996e-06, \"converged\": true, \"log_likelihood\": -805.4189635125981, \"n_states\": 2, \"warnings\": \"\", \"estimator\": \"DynamicFactorMQ_EM_MLE\", \"factor_source\": \"FILTERED_ONE_SIDED\", \"estimation_start\": \"2019-01-31\", \"spectral_radius\": 1.0017150613042058, \"transition\": \"[[1.9942893180477945, -1.0034330640436881], [1.0, 0.0]]\", \"bic\": 1693.6153947322985, \"aic\": 1648.8379270251962}",
+      "horizon": "H3",
+      "model": "Q0",
+      "sample": "NATURAL",
+      "target_quarter": "2025Q3"
+    },
+    {
+      "current": false,
+      "error": "nonconvergence_or_unstable_transition:{\"n_training_months\": 77, \"n_observed_cells\": 610, \"n_missing_cells\": 6, \"iterations\": 372, \"relative_likelihood_change\": 9.920993881077168e-06, \"converged\": true, \"log_likelihood\": -794.9910666472668, \"n_states\": 2, \"warnings\": \"\", \"estimator\": \"DynamicFactorMQ_EM_MLE\", \"factor_source\": \"FILTERED_ONE_SIDED\", \"estimation_start\": \"2019-02-28\", \"spectral_radius\": 1.0011426020756813, \"transition\": \"[[1.992948249102969, -1.002286509690866], [1.0, 0.0]]\", \"bic\": 1672.5144363097536, \"aic\": 1627.9821332945337}",
+      "horizon": "H3",
+      "model": "Q1",
+      "sample": "NATURAL",
+      "target_quarter": "2025Q3"
+    },
+    {
+      "current": false,
+      "error": "nonconvergence_or_unstable_transition:{\"n_training_months\": 81, \"n_observed_cells\": 638, \"n_missing_cells\": 10, \"iterations\": 344, \"relative_likelihood_change\": 9.830162907144653e-06, \"converged\": true, \"log_likelihood\": -831.1694583496418, \"n_states\": 2, \"warnings\": \"\", \"estimator\": \"DynamicFactorMQ_EM_MLE\", \"factor_source\": \"FILTERED_ONE_SIDED\", \"estimation_start\": \"2019-01-31\", \"spectral_radius\": 1.0057491254602509, \"transition\": \"[[2.0024310750349836, -1.0115313033640596], [1.0, 0.0]]\", \"bic\": 1745.83345063806, \"aic\": 1700.3389166992836}",
+      "horizon": "H1",
+      "model": "Q0",
+      "sample": "NATURAL",
+      "target_quarter": "2025Q4"
+    },
+    {
+      "current": false,
+      "error": "nonconvergence_or_unstable_transition:{\"n_training_months\": 80, \"n_observed_cells\": 630, \"n_missing_cells\": 10, \"iterations\": 348, \"relative_likelihood_change\": 9.834137324144578e-06, \"converged\": true, \"log_likelihood\": -820.6745892681305, \"n_states\": 2, \"warnings\": \"\", \"estimator\": \"DynamicFactorMQ_EM_MLE\", \"factor_source\": \"FILTERED_ONE_SIDED\", \"estimation_start\": \"2019-02-28\", \"spectral_radius\": 1.00571399774725, \"transition\": \"[[2.0022214511378107, -1.0114606452647557], [1.0, 0.0]]\", \"bic\": 1724.6076845950647, \"aic\": 1679.349178536261}",
+      "horizon": "H1",
+      "model": "Q1",
+      "sample": "NATURAL",
+      "target_quarter": "2025Q4"
+    },
+    {
+      "current": false,
+      "error": "nonconvergence_or_unstable_transition:{\"n_training_months\": 79, \"n_observed_cells\": 622, \"n_missing_cells\": 10, \"iterations\": 366, \"relative_likelihood_change\": 9.887011680713766e-06, \"converged\": true, \"log_likelihood\": -810.9093817277479, \"n_states\": 2, \"warnings\": \"\", \"estimator\": \"DynamicFactorMQ_EM_MLE\", \"factor_source\": \"FILTERED_ONE_SIDED\", \"estimation_start\": \"2019-03-31\", \"spectral_radius\": 1.0058896344949064, \"transition\": \"[[2.0023170183046353, -1.0118139567842968], [1.0, 0.0]]\", \"bic\": 1704.8382726523694, \"aic\": 1659.8187634554959}",
+      "horizon": "H1",
+      "model": "Q0",
+      "sample": "COMMON",
+      "target_quarter": "2025Q4"
+    },
+    {
+      "current": false,
+      "error": "nonconvergence_or_unstable_transition:{\"n_training_months\": 79, \"n_observed_cells\": 622, \"n_missing_cells\": 10, \"iterations\": 364, \"relative_likelihood_change\": 9.90345397357769e-06, \"converged\": true, \"log_likelihood\": -810.9327254615898, \"n_states\": 2, \"warnings\": \"\", \"estimator\": \"DynamicFactorMQ_EM_MLE\", \"factor_source\": \"FILTERED_ONE_SIDED\", \"estimation_start\": \"2019-03-31\", \"spectral_radius\": 1.0057845952066022, \"transition\": \"[[2.0020977971961367, -1.0116026519549088], [1.0, 0.0]]\", \"bic\": 1704.8849601200532, \"aic\": 1659.8654509231797}",
+      "horizon": "H1",
+      "model": "Q1",
+      "sample": "COMMON",
+      "target_quarter": "2025Q4"
+    },
+    {
+      "current": false,
+      "error": "nonconvergence_or_unstable_transition:{\"n_training_months\": 81, \"n_observed_cells\": 639, \"n_missing_cells\": 9, \"iterations\": 343, \"relative_likelihood_change\": 9.856464580096209e-06, \"converged\": true, \"log_likelihood\": -832.735411270094, \"n_states\": 2, \"warnings\": \"\", \"estimator\": \"DynamicFactorMQ_EM_MLE\", \"factor_source\": \"FILTERED_ONE_SIDED\", \"estimation_start\": \"2019-01-31\", \"spectral_radius\": 1.0057060059925664, \"transition\": \"[[2.002339613917779, -1.0114445704895203], [1.0, 0.0]]\", \"bic\": 1748.9653564789644, \"aic\": 1703.470822540188}",
+      "horizon": "H2",
+      "model": "Q0",
+      "sample": "NATURAL",
+      "target_quarter": "2025Q4"
+    },
+    {
+      "current": false,
+      "error": "nonconvergence_or_unstable_transition:{\"n_training_months\": 80, \"n_observed_cells\": 631, \"n_missing_cells\": 9, \"iterations\": 347, \"relative_likelihood_change\": 9.828924268212496e-06, \"converged\": true, \"log_likelihood\": -822.2375334897657, \"n_states\": 2, \"warnings\": \"\", \"estimator\": \"DynamicFactorMQ_EM_MLE\", \"factor_source\": \"FILTERED_ONE_SIDED\", \"estimation_start\": \"2019-02-28\", \"spectral_radius\": 1.0056631384432457, \"transition\": \"[[2.0021137542032053, -1.0113583480235189], [1.0, 0.0]]\", \"bic\": 1727.7335730383352, \"aic\": 1682.4750669795314}",
+      "horizon": "H2",
+      "model": "Q1",
+      "sample": "NATURAL",
+      "target_quarter": "2025Q4"
+    },
+    {
+      "current": false,
+      "error": "nonconvergence_or_unstable_transition:{\"n_training_months\": 79, \"n_observed_cells\": 623, \"n_missing_cells\": 9, \"iterations\": 364, \"relative_likelihood_change\": 9.87392784071362e-06, \"converged\": true, \"log_likelihood\": -812.4659871917632, \"n_states\": 2, \"warnings\": \"\", \"estimator\": \"DynamicFactorMQ_EM_MLE\", \"factor_source\": \"FILTERED_ONE_SIDED\", \"estimation_start\": \"2019-03-31\", \"spectral_radius\": 1.0058369567152703, \"transition\": \"[[2.002205814278301, -1.0117079834942369], [1.0, 0.0]]\", \"bic\": 1707.9514835804, \"aic\": 1662.9319743835265}",
+      "horizon": "H2",
+      "model": "Q0",
+      "sample": "COMMON",
+      "target_quarter": "2025Q4"
+    },
+    {
+      "current": false,
+      "error": "nonconvergence_or_unstable_transition:{\"n_training_months\": 79, \"n_observed_cells\": 623, \"n_missing_cells\": 9, \"iterations\": 362, \"relative_likelihood_change\": 9.881556484131163e-06, \"converged\": true, \"log_likelihood\": -812.4831963523948, \"n_states\": 2, \"warnings\": \"\", \"estimator\": \"DynamicFactorMQ_EM_MLE\", \"factor_source\": \"FILTERED_ONE_SIDED\", \"estimation_start\": \"2019-03-31\", \"spectral_radius\": 1.0057273404143459, \"transition\": \"[[2.001978864563052, -1.011487483256913], [1.0, 0.0]]\", \"bic\": 1707.985901901663, \"aic\": 1662.9663927047895}",
+      "horizon": "H2",
+      "model": "Q1",
+      "sample": "COMMON",
+      "target_quarter": "2025Q4"
+    },
+    {
+      "current": false,
+      "error": "nonconvergence_or_unstable_transition:{\"n_training_months\": 81, \"n_observed_cells\": 639, \"n_missing_cells\": 9, \"iterations\": 343, \"relative_likelihood_change\": 9.856464580096209e-06, \"converged\": true, \"log_likelihood\": -832.735411270094, \"n_states\": 2, \"warnings\": \"\", \"estimator\": \"DynamicFactorMQ_EM_MLE\", \"factor_source\": \"FILTERED_ONE_SIDED\", \"estimation_start\": \"2019-01-31\", \"spectral_radius\": 1.0057060059925664, \"transition\": \"[[2.002339613917779, -1.0114445704895203], [1.0, 0.0]]\", \"bic\": 1748.9653564789644, \"aic\": 1703.470822540188}",
+      "horizon": "H3",
+      "model": "Q0",
+      "sample": "NATURAL",
+      "target_quarter": "2025Q4"
+    },
+    {
+      "current": false,
+      "error": "nonconvergence_or_unstable_transition:{\"n_training_months\": 80, \"n_observed_cells\": 631, \"n_missing_cells\": 9, \"iterations\": 347, \"relative_likelihood_change\": 9.828924268212496e-06, \"converged\": true, \"log_likelihood\": -822.2375334897657, \"n_states\": 2, \"warnings\": \"\", \"estimator\": \"DynamicFactorMQ_EM_MLE\", \"factor_source\": \"FILTERED_ONE_SIDED\", \"estimation_start\": \"2019-02-28\", \"spectral_radius\": 1.0056631384432457, \"transition\": \"[[2.0021137542032053, -1.0113583480235189], [1.0, 0.0]]\", \"bic\": 1727.7335730383352, \"aic\": 1682.4750669795314}",
+      "horizon": "H3",
+      "model": "Q1",
+      "sample": "NATURAL",
+      "target_quarter": "2025Q4"
+    },
+    {
+      "current": false,
+      "error": "nonconvergence_or_unstable_transition:{\"n_training_months\": 79, \"n_observed_cells\": 623, \"n_missing_cells\": 9, \"iterations\": 364, \"relative_likelihood_change\": 9.87392784071362e-06, \"converged\": true, \"log_likelihood\": -812.4659871917632, \"n_states\": 2, \"warnings\": \"\", \"estimator\": \"DynamicFactorMQ_EM_MLE\", \"factor_source\": \"FILTERED_ONE_SIDED\", \"estimation_start\": \"2019-03-31\", \"spectral_radius\": 1.0058369567152703, \"transition\": \"[[2.002205814278301, -1.0117079834942369], [1.0, 0.0]]\", \"bic\": 1707.9514835804, \"aic\": 1662.9319743835265}",
+      "horizon": "H3",
+      "model": "Q0",
+      "sample": "COMMON",
+      "target_quarter": "2025Q4"
+    },
+    {
+      "current": false,
+      "error": "nonconvergence_or_unstable_transition:{\"n_training_months\": 79, \"n_observed_cells\": 623, \"n_missing_cells\": 9, \"iterations\": 362, \"relative_likelihood_change\": 9.881556484131163e-06, \"converged\": true, \"log_likelihood\": -812.4831963523948, \"n_states\": 2, \"warnings\": \"\", \"estimator\": \"DynamicFactorMQ_EM_MLE\", \"factor_source\": \"FILTERED_ONE_SIDED\", \"estimation_start\": \"2019-03-31\", \"spectral_radius\": 1.0057273404143459, \"transition\": \"[[2.001978864563052, -1.011487483256913], [1.0, 0.0]]\", \"bic\": 1707.985901901663, \"aic\": 1662.9663927047895}",
+      "horizon": "H3",
+      "model": "Q1",
+      "sample": "COMMON",
+      "target_quarter": "2025Q4"
+    },
+    {
+      "current": false,
+      "error": "nonconvergence_or_unstable_transition:{\"n_training_months\": 84, \"n_observed_cells\": 659, \"n_missing_cells\": 13, \"iterations\": 318, \"relative_likelihood_change\": 9.886631691634285e-06, \"converged\": true, \"log_likelihood\": -856.5819375749387, \"n_states\": 2, \"warnings\": \"\", \"estimator\": \"DynamicFactorMQ_EM_MLE\", \"factor_source\": \"FILTERED_ONE_SIDED\", \"estimation_start\": \"2019-01-31\", \"spectral_radius\": 1.0094848892734054, \"transition\": \"[[2.0099238060336577, -1.01905974167134], [1.0, 0.0]]\", \"bic\": 1797.3493943279004, \"aic\": 1751.1638751498774}",
+      "horizon": "H1",
+      "model": "Q0",
+      "sample": "NATURAL",
+      "target_quarter": "2026Q1"
+    },
+    {
+      "current": false,
+      "error": "nonconvergence_or_unstable_transition:{\"n_training_months\": 84, \"n_observed_cells\": 660, \"n_missing_cells\": 12, \"iterations\": 320, \"relative_likelihood_change\": 9.85607997042168e-06, \"converged\": true, \"log_likelihood\": -858.0562820711211, \"n_states\": 2, \"warnings\": \"\", \"estimator\": \"DynamicFactorMQ_EM_MLE\", \"factor_source\": \"FILTERED_ONE_SIDED\", \"estimation_start\": \"2019-01-31\", \"spectral_radius\": 1.0095263371454495, \"transition\": \"[[2.010020843632121, -1.019143425390308], [1.0, 0.0]]\", \"bic\": 1800.2980833202653, \"aic\": 1754.1125641422423}",
+      "horizon": "H2",
+      "model": "Q0",
+      "sample": "NATURAL",
+      "target_quarter": "2026Q1"
+    },
+    {
+      "current": false,
+      "error": "nonconvergence_or_unstable_transition:{\"n_training_months\": 84, \"n_observed_cells\": 660, \"n_missing_cells\": 12, \"iterations\": 320, \"relative_likelihood_change\": 9.85607997042168e-06, \"converged\": true, \"log_likelihood\": -858.0562820711211, \"n_states\": 2, \"warnings\": \"\", \"estimator\": \"DynamicFactorMQ_EM_MLE\", \"factor_source\": \"FILTERED_ONE_SIDED\", \"estimation_start\": \"2019-01-31\", \"spectral_radius\": 1.0095263371454495, \"transition\": \"[[2.010020843632121, -1.019143425390308], [1.0, 0.0]]\", \"bic\": 1800.2980833202653, \"aic\": 1754.1125641422423}",
+      "horizon": "H3",
+      "model": "Q0",
+      "sample": "NATURAL",
+      "target_quarter": "2026Q1"
+    },
+    {
+      "current": false,
+      "error": "nonconvergence_or_unstable_transition:{\"n_training_months\": 87, \"n_observed_cells\": 680, \"n_missing_cells\": 16, \"iterations\": 338, \"relative_likelihood_change\": 9.89688640298272e-06, \"converged\": true, \"log_likelihood\": -891.9365408874688, \"n_states\": 2, \"warnings\": \"\", \"estimator\": \"DynamicFactorMQ_EM_MLE\", \"factor_source\": \"FILTERED_ONE_SIDED\", \"estimation_start\": \"2019-01-31\", \"spectral_radius\": 1.0029591737685817, \"transition\": \"[[1.9965407900777046, -1.0059271042465563], [1.0, 0.0]]\", \"bic\": 1868.7253360293748, \"aic\": 1821.8730817749376}",
+      "horizon": "H1",
+      "model": "Q0",
+      "sample": "NATURAL",
+      "target_quarter": "2026Q2"
+    },
+    {
+      "current": false,
+      "error": "nonconvergence_or_unstable_transition:{\"n_training_months\": 87, \"n_observed_cells\": 681, \"n_missing_cells\": 15, \"iterations\": 338, \"relative_likelihood_change\": 9.933894158133362e-06, \"converged\": true, \"log_likelihood\": -893.457921363877, \"n_states\": 2, \"warnings\": \"\", \"estimator\": \"DynamicFactorMQ_EM_MLE\", \"factor_source\": \"FILTERED_ONE_SIDED\", \"estimation_start\": \"2019-01-31\", \"spectral_radius\": 1.0030206730655034, \"transition\": \"[[1.9966487589961572, -1.0060504705967757], [1.0, 0.0]]\", \"bic\": 1871.768096982191, \"aic\": 1824.915842727754}",
+      "horizon": "H2",
+      "model": "Q0",
+      "sample": "NATURAL",
+      "target_quarter": "2026Q2"
+    },
+    {
+      "current": false,
+      "error": "nonconvergence_or_unstable_transition:{\"n_training_months\": 87, \"n_observed_cells\": 681, \"n_missing_cells\": 15, \"iterations\": 338, \"relative_likelihood_change\": 9.933894158133362e-06, \"converged\": true, \"log_likelihood\": -893.457921363877, \"n_states\": 2, \"warnings\": \"\", \"estimator\": \"DynamicFactorMQ_EM_MLE\", \"factor_source\": \"FILTERED_ONE_SIDED\", \"estimation_start\": \"2019-01-31\", \"spectral_radius\": 1.0030206730655034, \"transition\": \"[[1.9966487589961572, -1.0060504705967757], [1.0, 0.0]]\", \"bic\": 1871.768096982191, \"aic\": 1824.915842727754}",
+      "horizon": "H3",
+      "model": "Q0",
+      "sample": "NATURAL",
+      "target_quarter": "2026Q2"
+    }
+  ],
+  "forecast_origins": 44,
+  "historical_value_vintages_verified": false,
+  "inputs": {
+    "data\\processed\\m2.parquet": "9f46065eb8dd59c60666d7404c6628525404d7aaedfc2fbf3765297ec00a161c",
+    "results\\phase6c\\phase6c_research_monthly_panel.csv": "d081833dacab5040731468c4b498e2ba6c3b0e0bb7eaffec5c2664bc2b73f1e2",
+    "results\\phase6d\\snapshots\\d1a9e5c4426f706b2007d26299921f2b5c788ac67bea615d577627d737664614\\inputs.json": "85f38f69d4abc96e5bc8adb5cd7a5362e1fc6f5da6e9d4f15e55c5d33127d041",
+    "results\\phase6f\\raw\\47b9e9ba6748d61811357e225737ce587b8fcb531a3126ed288e49bf69c123df.xlsx": "47b9e9ba6748d61811357e225737ce587b8fcb531a3126ed288e49bf69c123df"
+  },
+  "outputs": {
+    "phase6g2_current_factor_series.csv": "7a826389ac61da206935e50faf891dc8880190516bad4b284dc83f9c02b011d1",
+    "phase6g2_current_nowcasts.csv": "8275ffb5d7744c67cd2cad06d87b6498fbd6b8c7009cae1ec801e00222b97a85",
+    "phase6g2_factor_loadings.csv": "8475e18846b5ab49a607568df0b3b4c9e49b6fea3a3710503c9d1a039d2a600f",
+    "phase6g2_failures.csv": "3ad76da2c55b9b56525eb35fdcfbf4198d958138792b803463925067c5f6d616",
+    "phase6g2_fdi_leave_one_quarter_out.csv": "84e383481f5a4920ddb9f50b19f8c5016da13c927857055b5e9ff157ab2862a6",
+    "phase6g2_fdi_metrics.csv": "f341d64ca854bf96d6e978098b305b01950766844a3813c79583bf82a366c191",
+    "phase6g2_fdi_repository_evidence.csv": "febe797efd4fe3d3c21efeffa787114be9011a48dd0060cea42adc3b22da3f59",
+    "phase6g2_fdi_results.csv": "0a6d022dfc5a526f7f1ff440049be3a895bd61612e117c386226478363490068",
+    "phase6g2_fdi_transformation_audit.csv": "c7d568899e92fd4fa790562b653842e0abd54e1e973c3e84ae65fcf5572ca215",
+    "phase6g2_horizon_metrics.csv": "f69b98498ee135cd60d0dabc3718524625446517cc65c7498e587e4ef119eede",
+    "phase6g2_leave_one_quarter_out.csv": "5b1abebee4261375251b9033ca8ec0dc252789bfdd082ffb85f8e95c8fcb9c0d",
+    "phase6g2_m2_diagnostics.csv": "713097b2f57cb907f91b55a089b0b20cdd1ea69aaf8742a3b4a52f52b9f49185",
+    "phase6g2_m2_month_of_year_diagnostics.csv": "ab63d959d46b75adced8e2b7c4c805c2494be0fae54c40e3c02864f8fce3bc98",
+    "phase6g2_m2_transformation_comparison.csv": "eae4594fd52ff61f19b73ba18c12ce8d1eb122c70f5d6adc54fd3432238e539b",
+    "phase6g2_model_comparison.csv": "0c087839ffc36a8ffbc0b9eab51b3ad18ad3f6daf4fe83f2ca28421b31b64362",
+    "phase6g2_origin_forecasts.csv": "ecc9f34b4e0461494cfd0cf705569045c5d7cbb314ef34518577507a65285f7a",
+    "phase6g2_reproduction.csv": "8f7bd94488d53e966cc2ff3c2e5ebf35fe2615d7a29ab25ef96268e1a5fbbaf3",
+    "phase6g2_sample_comparison.csv": "3c567315a9dc0ab12e182c6c56f4699afdfe101a99890489f4c337bb73ba53c9",
+    "phase6g2_scoring_origin_eligibility.csv": "5b39691e85fbc6e7185fa924dfd2f10cf59b02760d1a4e0e25ce1c0c6fab40e6",
+    "phase6g2_within_regime_horizon_metrics.csv": "41f3d6776b50c85b323f951187bfc9223be19ba63cb91b4fcf855ad9c232bf86"
+  },
+  "production_unchanged": true,
+  "protected_artifacts": 791,
+  "protected_hashes_identical": true,
+  "research_only": true,
+  "scored_common_origins": 30,
+  "summary_regeneration_deterministic": true,
+  "tests": {
+    "errors": 0,
+    "exit_code": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 198
+  },
+  "tests_new": {
+    "errors": 0,
+    "exit_code": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 6
+  }
+}

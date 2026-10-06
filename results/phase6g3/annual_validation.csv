@@ -1,0 +1,10 @@
+year,complete_year,standalone_sum,official_annual_gdp,passed,difference,annual_source_url,annual_checksum
+2018,True,494814.79999999999,494814.79999999999,True,0,https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_544.json,d266eb6a62ac31499a0a4c6c60b485b5a206cf209cbe3c1c310900bc81792fbe
+2019,True,620083.19999999995,620083.19999999995,True,0,https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_544.json,d266eb6a62ac31499a0a4c6c60b485b5a206cf209cbe3c1c310900bc81792fbe
+2020,True,705076.5,705076.5,True,0,https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_544.json,d266eb6a62ac31499a0a4c6c60b485b5a206cf209cbe3c1c310900bc81792fbe
+2021,True,861170.80000000005,861170.80000000005,True,0,https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_544.json,d266eb6a62ac31499a0a4c6c60b485b5a206cf209cbe3c1c310900bc81792fbe
+2022,True,1041877.9,1041877.9,True,0,https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_544.json,d266eb6a62ac31499a0a4c6c60b485b5a206cf209cbe3c1c310900bc81792fbe
+2023,True,1261806,1261806,True,0,https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_544.json,d266eb6a62ac31499a0a4c6c60b485b5a206cf209cbe3c1c310900bc81792fbe
+2024,True,1535431.7,1535431.7,True,0,https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_544.json,d266eb6a62ac31499a0a4c6c60b485b5a206cf209cbe3c1c310900bc81792fbe
+2025,True,1849650,1849650,True,0,https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_544.json,d266eb6a62ac31499a0a4c6c60b485b5a206cf209cbe3c1c310900bc81792fbe
+2026,False,,,False,,https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_544.json,d266eb6a62ac31499a0a4c6c60b485b5a206cf209cbe3c1c310900bc81792fbe

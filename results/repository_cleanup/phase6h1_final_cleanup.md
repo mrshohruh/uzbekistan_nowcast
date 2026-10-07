@@ -1,53 +1,92 @@
 # Phase 6H.1 final repository minimization
 
-Status: VALIDATION_IN_PROGRESS (fresh committed-checkout proof pending).
+**PHASE6H1_FULLY_CONSOLIDATED**
 
-## Protected checkpoint and scientific equivalence
+The current production system works from committed code and explicitly restored external data. All frozen scientific outputs match exactly. Historical phase implementations and compatibility namespaces are absent from the active runtime.
 
-Checkpoint: `fe252655d79648c8af3132f3c1d635db3bdd2253`. Its explicit selection excluded unrelated pre-existing changes. Previously missing vendored dependencies and temporary outputs were subsequently classified deliberately for this cleanup; they were not accidentally included in the checkpoint.
+## Git protection and commits
 
-The old seal was reproduced first. The independent current runtime reproduces all 17 scientific artifacts byte for byte, including current nowcast, DFM structure/loadings, U-MIDAS coefficients/contributions, historical forecasts, matched metrics, news, and dashboard. Only operational code-location/checksum metadata differs.
+- Safe Phase 6H checkpoint: `fe252655d79648c8af3132f3c1d635db3bdd2253`.
+- Production seal and historical-runtime removal: `e6a9def417a0b9c44a388a1c4e174f36ce2ac2bf`.
+- Obsolete pilot-launcher removal: `800f5e5a543a4744f0259fb2b1ac21cfb34841b5`.
+- Final code revision tested in a fresh checkout: **`73f1f1a7ff374be5500a3f7f012a6ec641605982`**.
+- The subsequent audit-only commit records this final validation; it changes no sealed runtime/configuration or scientific data.
+
+Every commit used an explicit path list. No `git add -A`, `git clean -fd`, or `git reset --hard` was used. The checkpoint excluded 721 pre-existing dirty paths; those historical vendored dependencies and synthetic workspaces were later classified deliberately and removed under this task. No unrelated pre-existing source changes were staged. Final Git status is recorded in `phase6h1/final_git_status.json`; local run/cleanup outputs remain untracked where appropriate. The fresh checkout started with no tracked changes and ended with only its generated test XML changed.
+
+## Counts and scope
+
+| Measure | Before | After |
+|---|---:|---:|
+| Maintained Python files (`src/`, `scripts/`, `tests/`, checkpoint versus validated code) | 190 | 100 |
+| Test files in those scopes (`test_*.py`) | 43 | 23 |
+| Executed retained test cases | 378 | 202 |
+| Total tracked files, checkpoint versus final audit commit | 3,391 | 805 |
+| Physical files under `data/staging/` | 9,666 | 0 |
+| Original raw archive files | 22,609 | 22,609 |
+
+Counts use the Git checkpoint for a reproducible code baseline; the preceding Phase 6H physical audit reported 189 maintained Python files before the checkpoint helper was added. Total tracked counts include the final audit evidence and exclude intentionally ignored data. The independently validated code commit contains 788 tracked files. Removed-file evidence contains **34,663 unique paths**, with categories: {'F: research-only': 149, 'G: generated/staging': 32272, 'D: historical checksum/evidence-only': 2230, 'E: compatibility-only': 12}. Generated synthetic copies account for most physical removals. No arbitrary file-count target was used.
+
+## Scientific equivalence
 
 | Output | Exact value |
 |---|---:|
-| DFM | 8.301152885464585 |
-| U-MIDAS | 8.060649795767965 |
+| M0 DFM | 8.301152885464585 |
+| USD/UZS U-MIDAS | 8.060649795767965 |
 | 50/50 final | 8.180901340616275 |
 
-No specification, coefficient, target convention, transformation, information rule, weight, or raw observation changed. The target remains published cumulative YTD real GDP YoY; GDP remains quarterly. The independent deterministic rerun and cached safe updater also reproduce these values. Prospective validation is still pending.
+The old seal was reproduced before migration. The new architecture, independent deterministic run, and two fresh-checkout builds reproduce **all 17 scientific artifacts byte for byte**: current nowcast JSON, DFM structure/loadings, U-MIDAS coefficients/contributions, historical reproduction, matched forecasts, metrics, news, freshness/drivers, and dashboard. Run manifests and policy operational code-location/checksum metadata are the only excluded comparisons. Specification hashes, coefficients, inputs, transformations, target definition, release masks, and 0.5/0.5 weights remain unchanged.
 
-## Current seal
+GDP remains quarterly and retains the published cumulative YTD real GDP YoY convention. No raw observation, release date, or retrieval timestamp was changed. Prospective validation remains pending; the original historical-vintage limitations remain documented.
 
-`config/production_seal.json` protects 81 runtime/setup/configuration files and records 63 initial replay inputs. `config/production_seal_acceptance.json` explicitly accepts the independently tested candidate. Old manifests and every candidate revision remain in Git/evidence. Text code/configuration hashes normalize CRLF to LF; scientific artifacts and immutable records preserve exact bytes through `.gitattributes`.
+## Current production seal
 
-The seal checks active policy/specification hashes and rejects code changes. Version checks enforce master, processed, recovered-data and provenance hashes, allowing successors only through successful committed transactional manifests. Staged candidate calculations remain possible before promotion. A private corruption test verifies rejection of unexplained provenance changes.
+`config/production_seal.json` protects **81 runtime/setup/configuration files** and records **63 initial replay inputs**. It covers current production/operational modules, reusable library code, registry, model/transformation definitions, bootstrap manifest, pinned requirements, package setup and batch entrypoint. `config/production_seal_acceptance.json` explicitly accepts the tested candidate.
 
-## Consolidation and removals
+The seal enforces current code/configuration hashes and active policy/specification hashes. Version checks enforce master, processed, recovered-data and provenance checksums, permitting successors only through successful committed transactional manifests. Staged candidate calculations remain possible before promotion. Tests reject code tampering, unexplained provenance changes, altered bootstrap bytes, and path traversal.
 
-Maintained Python files fell from 189 after Phase 6H to 100. The removal manifest records 34262 unique paths (34262 audit rows), covering {'F: research-only': 149, 'G: generated/staging': 31871, 'D: historical checksum/evidence-only': 2230, 'E: compatibility-only': 9}.
+Every candidate revision and earlier acceptance is retained in `phase6h1/candidate_revisions/`. Old seal evidence remains in `phase6h1/old_baseline.json` and Git. Revision 05 fixes an actual Windows bootstrap failure: equivalent `\\?\` path spellings are normalized after link resolution before containment checks. No containment or checksum check was disabled. The failed attempt and diagnostic are preserved. Text runtime hashes normalize CRLF to LF; `.gitattributes` preserves scientific artifacts and immutable records byte for byte.
 
-The phase6e compatibility namespace, historical research kernels, phase-named model/operational implementations, old shadow package, development evaluators and their tests are removed. Reusable numerical functions now live in `uznowcast.models.dfm`, `uznowcast.gdp_vintages`, `uznowcast.transforms.vintage_flows`, `uznowcast.operational.forecast`, and current operational/production modules. Content-addressed historical code objects survive solely as immutable snapshot provenance; they are neither imported nor copied as an active namespace.
+## Removed implementations and migrated functions
 
-Staging uses only an explicit sealed runtime/input projection, and the updater removes its staged project after validation. Historical pytest fixture trees and browser caches were inventoried individually, checked against required source evidence, and removed. Automatic review initially rejected a broad directory cleanup; the replacement was approved after exact file inventories, saved test constructors, unchanged-file guards, and 17 exact rerun-copy comparisons established its scope.
+Removed: `scripts/phase6e/`; research kernels under phase6a2, phase6b, phase6b1, phase6b2, phase6c and phase6d; phase4b/phase4c/phase5c model modules; phase5a/phase5b/phase5b1 implementations and old dashboards; historical shadow infrastructure; unused development evaluators; tests for removed implementations; duplicate pilot/fixture launchers; one-time registry builders; stale root state/start documents and generated logs.
 
-Root stale state/start documents, one-time registry builders, obsolete fixture/pilot replay launchers and old logs were removed; README, operations instructions, package setup, registry/specification and batch entrypoint remain current.
+Current reusable functions are:
 
-## Data and provenance
+- `uznowcast.models.dfm`: `mask`, `standardize`, `training_panel`, `estimate`, `quarterly`, `bridge`.
+- `uznowcast.gdp_vintages`: `available_gdp_vintage_as_of`, `assert_boundary` and vintage validation.
+- `uznowcast.transforms.vintage_flows`: `safe_flows`.
+- `uznowcast.operational.forecast`: release-aware datasets, target/stage detection, and existing operational forecasts.
+- `scripts.production.benchmarks`: GDP-gated benchmark calculations.
+- `scripts.operations.prospective`: current monitoring, immutable ledger/snapshot governance and evaluation.
+- `uznowcast.storage`: content-addressed immutable records.
 
-All 22,609 original raw files (2,367,280,664 bytes) remain. Fresh SHA256 hashing found 4,435 duplicate groups / 6,011 extra identical copies; none were deleted. Data/bootstrap provenance contains 9,213 explicit files. The 669 already-missing historical raw references remain documented as missing; no replacement or release date was invented.
+Historical content-addressed code objects remain solely as required snapshot provenance. They are not imported as an active namespace. Registry-driven ingestion and official FX bootstrap utilities remain supported.
 
-Fourteen official source-evidence files retain historical locations under `results/research/phase6b2/evidence/` because raw evidence is protected. This is a source-data exception, not historical runtime code. Their checksums and bootstrap entries preserve reproducibility. Existing immutable receipts retain their original paths and are resolved by the explicit relocation map.
+## Staging and generated workspace cleanup
 
-## Dependency and test verification
+The updater seeds only an explicit projection of sealed runtime/input files and necessary operational records. It removes its staged project after validation. No full historical research tree is copied into the active stage. Historical pytest roots, browser profiles, rerun copies and the migration's own failed test workspace were inventoried individually and removed. Staging now contains zero files.
 
-The actual runtime trace loaded 60 repository modules. The active dependency/path scan found no historical phase imports or references to deleted phase directories. The static dead-code audit found 40 unused-import candidates, reviewed as non-runtime historical utilities/import remnants rather than evidence that numerical implementations can safely be deleted; no obsolete phase implementation remains in active code.
+Automatic approval review initially rejected broad directory deletion. The replacement was approved only after exact file inventories, saved test constructors, unchanged-file guards, exclusion of all required evidence paths, and 17 exact rerun-copy comparisons established the generated scope. No cleanup remains blocked.
 
-The test taxonomy is recorded in `phase6h1_test_inventory.csv`: CORE_DATA, TRANSFORMS, DFM, UMIDAS, COMBINATION, INFORMATION_BOUNDARY, RAGGED_EDGE, PROVENANCE, PARSERS, END_TO_END and DETERMINISM. Current DFM determinism is tested numerically; the obsolete historical determinism-file skip was removed. The full retained suite passes: **198 passed, zero failures/errors/skips**. Fresh-checkout results are finalized below after verification.
+## Raw data and provenance
 
-## Reproduction procedure
+All **22,609 original raw files / 2,367,280,664 bytes** remain. Fresh SHA256 hashing found **4,435 duplicate groups / 6,011 extra identical copies**. None were deleted. The audit is `phase6h1/raw_duplicates_verified.json`.
 
-Install the pinned requirements and editable package as documented in README. Restore only `config/bootstrap_inputs.json` using `python -m scripts.operations.bootstrap --source-root <preserved-data-root>`. This verifies every restored file and copies no arbitrary source code or working-tree state. Then run `python -m scripts.production.run --output-dir results/diagnostics/reproduction --no-publish` and `python -X utf8 -m scripts.maintenance.validate_current`.
+The explicit bootstrap lists **9,213 data/source-evidence files**, with checksums verified on restoration. It documents **669 already-missing historical raw references** as missing; no replacement, endpoint or release date was fabricated. Fourteen official source files remain under `results/research/phase6b2/evidence/` as a protected source-evidence exception, with no historical runtime code. Original immutable receipt paths are retained and resolved through `config/provenance_relocations.json`.
 
-Fresh-checkout evidence: `phase6h1_clean_checkout_validation.json` (pending the new code commit). Full source inventories, scientific comparisons, raw duplicate groups, seal revisions, dependency scan, test XML and generated-file proofs are under `phase6h1/` and this audit directory.
+## Dependencies and tests
 
-A fresh-checkout bootstrap exposed equivalent Windows extended-path spellings. Explicit seal revision 05 normalizes their namespace after link resolution, preserving containment and SHA256 enforcement. Four focused bootstrap tests pass (normal paths, extended paths, traversal rejection, changed-source rejection). The original failed attempt and diagnostic are retained in the audit.
+The actual reconstruction trace loaded 60 repository modules. The dependency/path scan found **zero active references to deleted phase directories or imported historical kernels**. `phase6h1_runtime_dependencies.csv` classifies current runtime, data, validation, old checksum-only, compatibility, research and generated dependencies. The dead-code scan records 40 unused-import candidates for context; these are minor import/re-export candidates, not retained historical implementations.
+
+The final committed-checkout suite passes **202 tests, zero failures, errors or skips**. The taxonomy in `phase6h1_test_inventory.csv` covers CORE_DATA, TRANSFORMS, DFM, UMIDAS, COMBINATION, INFORMATION_BOUNDARY, RAGGED_EDGE, PROVENANCE, PARSERS, END_TO_END and DETERMINISM. GDP leakage, observed release/retrieval gating, missing values, transformations, current numerical models, 50/50 reconciliation, provenance, rollback and deterministic estimation remain tested. Historical implementation-snapshot tests and the obsolete determinism-file skip were removed.
+
+## Fresh-checkout verification
+
+A temporary clone of commit `73f1f1a7ff374be5500a3f7f012a6ec641605982` received a **new Python 3.12 virtual environment**. Pinned requirements were installed from downloaded official wheels, then the editable package was installed from that checkout. `pip check` passed. No existing virtual environment or working-tree source code was copied.
+
+Only `scripts.operations.bootstrap` and `config/bootstrap_inputs.json` supplied the intentionally external data. Package origins and the accepted 81-file seal were verified inside the clone without `UZNOWCAST_SEAL_MIGRATION`. Two production runs matched the old baseline exactly; all 202 tests passed; the safe/dry updater returned `NO_INFORMATION_CHANGE`, appended no snapshot, and reported no unexpected protected changes. The temporary checkout was removed after all evidence was recorded, with exact target, temporary-parent, commit and origin checks.
+
+Machine-readable proof: `phase6h1_clean_checkout_validation.json`. Logs, environment versions and final test XML are retained beside it. README documents installation, explicit data restoration, production execution and current tests. A new official download does not replace archived frozen vintages.
+
+Required deliverables: `phase6h1_removed_files.csv`, `phase6h1_runtime_dependencies.csv`, `phase6h1_seal_migration.csv`, `phase6h1_test_inventory.csv`, and `phase6h1_clean_checkout_validation.json`.

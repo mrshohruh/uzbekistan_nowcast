@@ -1,0 +1,1588 @@
+{
+  "files": [
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_collect5b9801e0/metadata/download_log.parquet",
+      "size": 2972,
+      "mtime_ns": 1791195315168092000,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_collect5b9801e0/metadata/observations_long.parquet",
+      "size": 1844,
+      "mtime_ns": 1791195315171248700,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_collect5b9801e0/metadata/vintages.parquet",
+      "size": 1723,
+      "mtime_ns": 1791195315175241400,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_collect5b9801e0/metadata/vintage_collection_latest.json",
+      "size": 1596,
+      "mtime_ns": 1791195315197793100,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_collect5b9801e0/metadata/vintage_runs/118f4b3e27c74ee3ace0b41d15d5dc52.json",
+      "size": 1596,
+      "mtime_ns": 1791195315196825200,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_collectf3720ee6/metadata/vintage_collection_latest.json",
+      "size": 1021,
+      "mtime_ns": 1791195315216074600,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_collectf3720ee6/metadata/vintage_runs/9d66c140bb464b0ca44811f7c6f4136d.json",
+      "size": 1021,
+      "mtime_ns": 1791195315215073600,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_dashboabf2c2130/dashboard/phase5a_uzbekistan_nowcast.html",
+      "size": 19553,
+      "mtime_ns": 1791195306429346300,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_dashboabf2c2130/docs/modeling/phase4c_frozen_holdout_evaluation.md",
+      "size": 6,
+      "mtime_ns": 1791195306349520300,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_dashboabf2c2130/results/phase4c_holdout_metrics.parquet",
+      "size": 3278,
+      "mtime_ns": 1791195306368497100,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_dashboabf2c2130/results/phase4c_holdout_predictions.parquet",
+      "size": 4831,
+      "mtime_ns": 1791195306361511400,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_dashboabf2c2130/results/phase4c_horizon_updates.parquet",
+      "size": 5647,
+      "mtime_ns": 1791195306366499700,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_dashboae6b29c20/dashboard/phase5a_uzbekistan_nowcast.html",
+      "size": 19553,
+      "mtime_ns": 1791195306299020400,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_dashboae6b29c20/results/phase4c_holdout_metrics.parquet",
+      "size": 3278,
+      "mtime_ns": 1791195306238254900,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_dashboae6b29c20/results/phase4c_holdout_predictions.parquet",
+      "size": 4831,
+      "mtime_ns": 1791195306229677200,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_dashboae6b29c20/results/phase4c_horizon_updates.parquet",
+      "size": 5647,
+      "mtime_ns": 1791195306233710100,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_failuree10a2ba2/config/cbu_contracts.json",
+      "size": 331,
+      "mtime_ns": 1790663080602050100,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_failuree10a2ba2/config/registry_contracts.json",
+      "size": 4224,
+      "mtime_ns": 1790660339667702700,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_failuree10a2ba2/config/settings.yaml",
+      "size": 314,
+      "mtime_ns": 1790664808162233100,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_failuree10a2ba2/config/siat_contracts.json",
+      "size": 5235,
+      "mtime_ns": 1790672680328675400,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_failuree10a2ba2/data/processed/gdp_real_yoy.parquet",
+      "size": 24137,
+      "mtime_ns": 1791195317771017200,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_failuree10a2ba2/data/processed/industrial_production.parquet",
+      "size": 27293,
+      "mtime_ns": 1791195317885687900,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_failuree10a2ba2/data/raw/cbu/usd_uzs/20261005T101517621041Z_f0b335996d194c79a9b4ae7360b67ff4.json",
+      "size": 812,
+      "mtime_ns": 1791195317626929000,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_failuree10a2ba2/data/raw/cbu/usd_uzs/20261005T101517621041Z_f0b335996d194c79a9b4ae7360b67ff4.payload",
+      "size": 318,
+      "mtime_ns": 1791195317621041200,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_failuree10a2ba2/data/raw/siat/gdp_real_yoy/20261005T101517577075Z_91405e7546454f97a17a53fbd4bc7dfd.json",
+      "size": 908,
+      "mtime_ns": 1791195317577075600,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_failuree10a2ba2/data/raw/siat/gdp_real_yoy/20261005T101517577075Z_91405e7546454f97a17a53fbd4bc7dfd.payload",
+      "size": 125,
+      "mtime_ns": 1791195317577075600,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_failuree10a2ba2/data/raw/siat/gdp_real_yoy/20261005T101517593538Z_65081b7a01d54b22b09d20c6de057f05.json",
+      "size": 807,
+      "mtime_ns": 1791195317596532500,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_failuree10a2ba2/data/raw/siat/gdp_real_yoy/20261005T101517593538Z_65081b7a01d54b22b09d20c6de057f05.payload",
+      "size": 1621,
+      "mtime_ns": 1791195317593538100,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_failuree10a2ba2/data/raw/siat/industrial_production/20261005T101517599525Z_8deded6c35964ef4b61b1a8d0dfcb32b.json",
+      "size": 924,
+      "mtime_ns": 1791195317602518100,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_failuree10a2ba2/data/raw/siat/industrial_production/20261005T101517599525Z_8deded6c35964ef4b61b1a8d0dfcb32b.payload",
+      "size": 124,
+      "mtime_ns": 1791195317600523600,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_failuree10a2ba2/data/raw/siat/industrial_production/20261005T101517605510Z_5ef0dd06025c42d39cc00aaceb3143df.json",
+      "size": 824,
+      "mtime_ns": 1791195317621041200,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_failuree10a2ba2/data/raw/siat/industrial_production/20261005T101517605510Z_5ef0dd06025c42d39cc00aaceb3143df.payload",
+      "size": 73601,
+      "mtime_ns": 1791195317605510900,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_failuree10a2ba2/logs/pipeline.log",
+      "size": 6268,
+      "mtime_ns": 1791195317904755300,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_failuree10a2ba2/metadata/download_log.parquet",
+      "size": 16360,
+      "mtime_ns": 1791195317968612900,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_failuree10a2ba2/metadata/observations_long.parquet",
+      "size": 29166,
+      "mtime_ns": 1791195317921430000,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_failuree10a2ba2/metadata/release_calendar.parquet",
+      "size": 5997,
+      "mtime_ns": 1791195317950657300,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_failuree10a2ba2/metadata/schema_log.parquet",
+      "size": 5711,
+      "mtime_ns": 1791195317979304800,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_failuree10a2ba2/metadata/validation_summary.json",
+      "size": 3359,
+      "mtime_ns": 1791195317983295400,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_failuree10a2ba2/metadata/vintages.parquet",
+      "size": 6392,
+      "mtime_ns": 1791195317938114300,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_failuree10a2ba2/metadata/runs/acd3bc005ba04b10ad4f58bf4403291a.json",
+      "size": 3359,
+      "mtime_ns": 1791195317981299700,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_failuree10a2ba2/registry/CHANGELOG.md",
+      "size": 4715,
+      "mtime_ns": 1790682197512875600,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_failuree10a2ba2/registry/uzbekistan_nowcasting_v1.1_changes.json",
+      "size": 1509,
+      "mtime_ns": 1790664834970799100,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_failuree10a2ba2/registry/uzbekistan_nowcasting_v1.1_registry.xlsx",
+      "size": 27076,
+      "mtime_ns": 1790664834905327400,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_failuree10a2ba2/registry/uzbekistan_nowcasting_v1.2_changes.json",
+      "size": 3414,
+      "mtime_ns": 1790682197522337000,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_failuree10a2ba2/registry/uzbekistan_nowcasting_v1.2_registry.xlsx",
+      "size": 27321,
+      "mtime_ns": 1790682197528835200,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_failuree10a2ba2/registry/uzbekistan_nowcasting_v1_registry.xlsx",
+      "size": 26252,
+      "mtime_ns": 1790640964000000000,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_failuree10a2ba2/registry/archive/uzbekistan_nowcasting_v1.1_registry.xlsx",
+      "size": 27076,
+      "mtime_ns": 1790682197513875300,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_failuree10a2ba2/registry/archive/uzbekistan_nowcasting_v1_registry_v1.0.xlsx",
+      "size": 26252,
+      "mtime_ns": 1790664822091504000,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_frozen_b0e7a106/cohort.json",
+      "size": 30,
+      "mtime_ns": 1791195309913125900,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_future_5beea638/data/master/gdp_quarterly.parquet",
+      "size": 10,
+      "mtime_ns": 1791195309963149400,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_future_5beea638/data/master/v1_monthly.parquet",
+      "size": 10,
+      "mtime_ns": 1791195309961518800,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_future_5beea638/metadata/observations_long.parquet",
+      "size": 10,
+      "mtime_ns": 1791195309963800800,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_future_5beea638/results/shadow/phase5d/input_snapshots/ae1608896372720b6ebb58261e0c0092c608324b0804bc99267c1753990faaa8.parquet",
+      "size": 10,
+      "mtime_ns": 1791195309972090300,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_hash_he778c684a/input.bin",
+      "size": 7,
+      "mtime_ns": 1791195306110671300,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_holdout5dd4d5f6/results/frozen_validation_definition.json",
+      "size": 2,
+      "mtime_ns": 1791195305363905700,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_holdout5dd4d5f6/results/phase4b_candidate_freeze.json",
+      "size": 2,
+      "mtime_ns": 1791195305362170800,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_holdout5dd4d5f6/results/phase4c_evaluation_protocol.json",
+      "size": 880,
+      "mtime_ns": 1791195305379182300,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_immutaba7488a2b/data/raw/cbu/usd_uzs/20261005T101528362340Z_346bf65404344b43bfebe9c90791cd36.json",
+      "size": 732,
+      "mtime_ns": 1791195328364338500,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_immutaba7488a2b/data/raw/cbu/usd_uzs/20261005T101528362340Z_346bf65404344b43bfebe9c90791cd36.payload",
+      "size": 7,
+      "mtime_ns": 1791195328368337200,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_immutaba7488a2b/data/raw/cbu/usd_uzs/20261005T101528364338Z_6d7cbff767584912b9bdd319979265a3.json",
+      "size": 732,
+      "mtime_ns": 1791195328366334500,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_immutaba7488a2b/data/raw/cbu/usd_uzs/20261005T101528364338Z_6d7cbff767584912b9bdd319979265a3.payload",
+      "size": 9,
+      "mtime_ns": 1791195328365338400,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_invalid1681393d/registry.xlsx",
+      "size": 27042,
+      "mtime_ns": 1791195330040913800,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_invalid6dce0c40/registry.xlsx",
+      "size": 27003,
+      "mtime_ns": 1791195329065003000,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_invalid8020236d/registry.xlsx",
+      "size": 27049,
+      "mtime_ns": 1791195329669766300,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_invaliddc602949/registry.xlsx",
+      "size": 27041,
+      "mtime_ns": 1791195329843901300,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_invalideec83723/registry.xlsx",
+      "size": 27052,
+      "mtime_ns": 1791195328832178300,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_invalidf940ebdf/registry.xlsx",
+      "size": 27040,
+      "mtime_ns": 1791195328665449200,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_invalidf9d310e4/registry.xlsx",
+      "size": 27048,
+      "mtime_ns": 1791195329443033100,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_ledger_b138e5d6/b781d5b060496e5ab39ce070cba21e2ed5d15697068a56f63909db568e66cf18.json",
+      "size": 11,
+      "mtime_ns": 1791195309729630200,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_ledger_b138e5d6/b781d5b060496e5ab39ce070cba21e2ed5d15697068a56f63909db568e66cf18.seal.json",
+      "size": 83,
+      "mtime_ns": 1791195309729267900,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_m2_schef12daa26/m2.xlsx",
+      "size": 127791,
+      "mtime_ns": 1791195314944626300,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_m2_schef3ca71b0/m2.xlsx",
+      "size": 127772,
+      "mtime_ns": 1791195313927515400,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_m2_scheff1d50a5/m2.xlsx",
+      "size": 127767,
+      "mtime_ns": 1791195314408158300,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_master_bc27a781/data/master/gdp_quarterly.parquet",
+      "size": 9,
+      "mtime_ns": 1791195305908129500,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_master_bc27a781/data/master/v1_monthly.parquet",
+      "size": 7,
+      "mtime_ns": 1791195305907377900,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_master_bc27a781/registry/uzbekistan_nowcasting_v1.2_registry.xlsx",
+      "size": 8,
+      "mtime_ns": 1791195305909130800,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_offline479b756d/data/raw/cbu/usd_uzs/20261005T101515546506Z_def80c16bb70468c9c26aad139005000.json",
+      "size": 728,
+      "mtime_ns": 1791195315548501500,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_offline479b756d/data/raw/cbu/usd_uzs/20261005T101515546506Z_def80c16bb70468c9c26aad139005000.payload",
+      "size": 3,
+      "mtime_ns": 1791195315560472600,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_offlinea8904900/config/cbu_contracts.json",
+      "size": 331,
+      "mtime_ns": 1790663080602050100,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_offlinea8904900/config/registry_contracts.json",
+      "size": 4224,
+      "mtime_ns": 1790660339667702700,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_offlinea8904900/config/settings.yaml",
+      "size": 314,
+      "mtime_ns": 1790664808162233100,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_offlinea8904900/config/siat_contracts.json",
+      "size": 5235,
+      "mtime_ns": 1790672680328675400,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_offlinea8904900/data/master/build_manifest.json",
+      "size": 4998,
+      "mtime_ns": 1791195317216671300,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_offlinea8904900/data/master/gdp_quarterly.parquet",
+      "size": 6195,
+      "mtime_ns": 1791195316911440700,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_offlinea8904900/data/master/gdp_quarterly.xlsx",
+      "size": 6336,
+      "mtime_ns": 1791195317056784200,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_offlinea8904900/data/master/pilot_monthly.parquet",
+      "size": 3937,
+      "mtime_ns": 1791195316879187700,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_offlinea8904900/data/master/pilot_monthly.xlsx",
+      "size": 7262,
+      "mtime_ns": 1791195316907477200,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_offlinea8904900/data/processed/gdp_real_yoy.parquet",
+      "size": 24137,
+      "mtime_ns": 1791195316623864100,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_offlinea8904900/data/processed/industrial_production.parquet",
+      "size": 27293,
+      "mtime_ns": 1791195316713644300,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_offlinea8904900/data/processed/usd_uzs.parquet",
+      "size": 19848,
+      "mtime_ns": 1791195316776495800,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_offlinea8904900/data/processed/usd_uzs_daily.parquet",
+      "size": 17354,
+      "mtime_ns": 1791195316746596400,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_offlinea8904900/data/raw/cbu/usd_uzs/20261005T101516013375Z_b2eff26e64894af8ba2fe37ffd9d711e.json",
+      "size": 812,
+      "mtime_ns": 1791195316015370100,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_offlinea8904900/data/raw/cbu/usd_uzs/20261005T101516013375Z_b2eff26e64894af8ba2fe37ffd9d711e.payload",
+      "size": 318,
+      "mtime_ns": 1791195316014371900,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_offlinea8904900/data/raw/siat/gdp_real_yoy/20261005T101515959505Z_14d79f8bc25f453481bd058878295532.json",
+      "size": 908,
+      "mtime_ns": 1791195315967485900,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_offlinea8904900/data/raw/siat/gdp_real_yoy/20261005T101515959505Z_14d79f8bc25f453481bd058878295532.payload",
+      "size": 125,
+      "mtime_ns": 1791195315963496100,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_offlinea8904900/data/raw/siat/gdp_real_yoy/20261005T101515967485Z_171b593cb86742e084513356d38d9647.json",
+      "size": 807,
+      "mtime_ns": 1791195315970478300,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_offlinea8904900/data/raw/siat/gdp_real_yoy/20261005T101515967485Z_171b593cb86742e084513356d38d9647.payload",
+      "size": 1621,
+      "mtime_ns": 1791195315968483700,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_offlinea8904900/data/raw/siat/industrial_production/20261005T101515974469Z_9b7d41a2a4a147e68c5b10e5b19c4258.json",
+      "size": 924,
+      "mtime_ns": 1791195315981466200,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_offlinea8904900/data/raw/siat/industrial_production/20261005T101515974469Z_9b7d41a2a4a147e68c5b10e5b19c4258.payload",
+      "size": 124,
+      "mtime_ns": 1791195315975468400,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_offlinea8904900/data/raw/siat/industrial_production/20261005T101515983447Z_92b01fd9141944fca07f0aa0c21cb266.json",
+      "size": 824,
+      "mtime_ns": 1791195316011380400,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_offlinea8904900/data/raw/siat/industrial_production/20261005T101515983447Z_92b01fd9141944fca07f0aa0c21cb266.payload",
+      "size": 73601,
+      "mtime_ns": 1791195315984444600,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_offlinea8904900/logs/pipeline.log",
+      "size": 11098,
+      "mtime_ns": 1791195316777500300,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_offlinea8904900/metadata/download_log.parquet",
+      "size": 16552,
+      "mtime_ns": 1791195317388669000,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_offlinea8904900/metadata/observations_long.parquet",
+      "size": 32937,
+      "mtime_ns": 1791195316831359500,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_offlinea8904900/metadata/release_calendar.parquet",
+      "size": 6057,
+      "mtime_ns": 1791195316868242400,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_offlinea8904900/metadata/schema_log.parquet",
+      "size": 5712,
+      "mtime_ns": 1791195317424579800,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_offlinea8904900/metadata/validation_summary.json",
+      "size": 5052,
+      "mtime_ns": 1791195317429569200,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_offlinea8904900/metadata/vintages.parquet",
+      "size": 6586,
+      "mtime_ns": 1791195316851226500,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_offlinea8904900/metadata/runs/11370b96ec0f4cbda80ae1686543d992.json",
+      "size": 5052,
+      "mtime_ns": 1791195316519495900,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_offlinea8904900/metadata/runs/1ec3e39775294580b4ba1c6266397662.json",
+      "size": 5052,
+      "mtime_ns": 1791195317427572600,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_offlinea8904900/registry/CHANGELOG.md",
+      "size": 4715,
+      "mtime_ns": 1790682197512875600,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_offlinea8904900/registry/uzbekistan_nowcasting_v1.1_changes.json",
+      "size": 1509,
+      "mtime_ns": 1790664834970799100,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_offlinea8904900/registry/uzbekistan_nowcasting_v1.1_registry.xlsx",
+      "size": 27076,
+      "mtime_ns": 1790664834905327400,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_offlinea8904900/registry/uzbekistan_nowcasting_v1.2_changes.json",
+      "size": 3414,
+      "mtime_ns": 1790682197522337000,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_offlinea8904900/registry/uzbekistan_nowcasting_v1.2_registry.xlsx",
+      "size": 27321,
+      "mtime_ns": 1790682197528835200,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_offlinea8904900/registry/uzbekistan_nowcasting_v1_registry.xlsx",
+      "size": 26252,
+      "mtime_ns": 1790640964000000000,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_offlinea8904900/registry/archive/uzbekistan_nowcasting_v1.1_registry.xlsx",
+      "size": 27076,
+      "mtime_ns": 1790682197513875300,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_offlinea8904900/registry/archive/uzbekistan_nowcasting_v1_registry_v1.0.xlsx",
+      "size": 26252,
+      "mtime_ns": 1790664822091504000,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_overwri8c7bb8d0/b781d5b060496e5ab39ce070cba21e2ed5d15697068a56f63909db568e66cf18.json",
+      "size": 17,
+      "mtime_ns": 1791195309715927000,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_overwri8c7bb8d0/b781d5b060496e5ab39ce070cba21e2ed5d15697068a56f63909db568e66cf18.seal.json",
+      "size": 83,
+      "mtime_ns": 1791195309718918800,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_partial7f2352b9/data/processed/usd_uzs.parquet",
+      "size": 2306,
+      "mtime_ns": 1791195306972031200,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_permane2dbe4758/data/raw/cbu/usd_uzs/20261005T101515435130Z_d132d78dc55d47f097adaa46e9821ce0.json",
+      "size": 724,
+      "mtime_ns": 1791195315437300600,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_permane2dbe4758/data/raw/cbu/usd_uzs/20261005T101515435130Z_d132d78dc55d47f097adaa46e9821ce0.payload",
+      "size": 18,
+      "mtime_ns": 1791195315436299400,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_permane83ed23ed/data/raw/cbu/usd_uzs/20261005T101515397119Z_1192d51d26bc482ba78f34c90fd6fdd5.json",
+      "size": 725,
+      "mtime_ns": 1791195315399145100,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_permane83ed23ed/data/raw/cbu/usd_uzs/20261005T101515397119Z_1192d51d26bc482ba78f34c90fd6fdd5.payload",
+      "size": 9,
+      "mtime_ns": 1791195315398143900,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_permane9b7cf558/data/raw/cbu/usd_uzs/20261005T101515467999Z_f0c843e577e94a4a9975ed42935731c2.json",
+      "size": 731,
+      "mtime_ns": 1791195315469689500,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_permane9b7cf558/data/raw/cbu/usd_uzs/20261005T101515467999Z_f0c843e577e94a4a9975ed42935731c2.payload",
+      "size": 0,
+      "mtime_ns": 1791195315468614400,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/config/cbu_contracts.json",
+      "size": 331,
+      "mtime_ns": 1790663080602050100,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/config/registry_contracts.json",
+      "size": 4224,
+      "mtime_ns": 1790660339667702700,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/config/settings.yaml",
+      "size": 314,
+      "mtime_ns": 1790664808162233100,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/config/siat_contracts.json",
+      "size": 5235,
+      "mtime_ns": 1790672680328675400,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/data/master/build_manifest.json",
+      "size": 14488,
+      "mtime_ns": 1791195328161895700,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/data/master/gdp_quarterly.parquet",
+      "size": 6195,
+      "mtime_ns": 1791195328107866200,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/data/master/gdp_quarterly.xlsx",
+      "size": 6335,
+      "mtime_ns": 1791195328137398500,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/data/master/pilot8_monthly.parquet",
+      "size": 12496,
+      "mtime_ns": 1791195328061920300,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/data/master/pilot8_monthly.xlsx",
+      "size": 16168,
+      "mtime_ns": 1791195328107866200,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/data/processed/construction.parquet",
+      "size": 26053,
+      "mtime_ns": 1791195323953965400,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/data/processed/cpi_headline.parquet",
+      "size": 25325,
+      "mtime_ns": 1791195324014244300,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/data/processed/exports_total.parquet",
+      "size": 25451,
+      "mtime_ns": 1791195324077018400,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/data/processed/gdp_real_yoy.parquet",
+      "size": 24137,
+      "mtime_ns": 1791195323778596800,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/data/processed/imports_total.parquet",
+      "size": 25459,
+      "mtime_ns": 1791195324146811100,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/data/processed/industrial_production.parquet",
+      "size": 27293,
+      "mtime_ns": 1791195323875462500,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/data/processed/m2.parquet",
+      "size": 23792,
+      "mtime_ns": 1791195327907564000,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/data/processed/usd_uzs.parquet",
+      "size": 19848,
+      "mtime_ns": 1791195324214494700,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/data/processed/usd_uzs_daily.parquet",
+      "size": 17354,
+      "mtime_ns": 1791195324181477000,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/data/raw/cbu/m2/20261005T101518172041Z_8237ac9aeb104ad48f7dad80ce0019e6.json",
+      "size": 792,
+      "mtime_ns": 1791195318187106500,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/data/raw/cbu/m2/20261005T101518172041Z_8237ac9aeb104ad48f7dad80ce0019e6.payload",
+      "size": 1081654,
+      "mtime_ns": 1791195318174040000,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/data/raw/cbu/m2/20261005T101518187106Z_2456734045234c26a58a130e37792f33.json",
+      "size": 843,
+      "mtime_ns": 1791195318187106500,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/data/raw/cbu/m2/20261005T101518187106Z_2456734045234c26a58a130e37792f33.payload",
+      "size": 147280,
+      "mtime_ns": 1791195318187106500,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/data/raw/cbu/usd_uzs/20261005T101518166056Z_fbb343be26c2433f9e6e4019736b649b.json",
+      "size": 812,
+      "mtime_ns": 1791195318170045400,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/data/raw/cbu/usd_uzs/20261005T101518166056Z_fbb343be26c2433f9e6e4019736b649b.payload",
+      "size": 318,
+      "mtime_ns": 1791195318167053800,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/data/raw/siat/construction/20261005T101518095299Z_9afef2e4917346d0b0c7e484cf736cc6.json",
+      "size": 908,
+      "mtime_ns": 1791195318098290900,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/data/raw/siat/construction/20261005T101518095299Z_9afef2e4917346d0b0c7e484cf736cc6.payload",
+      "size": 125,
+      "mtime_ns": 1791195318096295500,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/data/raw/siat/construction/20261005T101518101283Z_f2bd5bb8858d438cba76cbd2486e52e3.json",
+      "size": 808,
+      "mtime_ns": 1791195318114838000,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/data/raw/siat/construction/20261005T101518101283Z_f2bd5bb8858d438cba76cbd2486e52e3.payload",
+      "size": 47341,
+      "mtime_ns": 1791195318102284700,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/data/raw/siat/cpi_headline/20261005T101518117835Z_07fa02add5bc40dd93afdfeeea7b517b.json",
+      "size": 908,
+      "mtime_ns": 1791195318121851800,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/data/raw/siat/cpi_headline/20261005T101518117835Z_07fa02add5bc40dd93afdfeeea7b517b.payload",
+      "size": 125,
+      "mtime_ns": 1791195318118831800,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/data/raw/siat/cpi_headline/20261005T101518121851Z_765a64dfc14e4d1e9dcec97bb3a6d0f2.json",
+      "size": 808,
+      "mtime_ns": 1791195318138713600,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/data/raw/siat/cpi_headline/20261005T101518121851Z_765a64dfc14e4d1e9dcec97bb3a6d0f2.payload",
+      "size": 68269,
+      "mtime_ns": 1791195318121851800,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/data/raw/siat/exports_total/20261005T101518139711Z_18127d66348d46b68ca5f74300dc0409.json",
+      "size": 910,
+      "mtime_ns": 1791195318142703800,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/data/raw/siat/exports_total/20261005T101518139711Z_18127d66348d46b68ca5f74300dc0409.payload",
+      "size": 125,
+      "mtime_ns": 1791195318140709300,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/data/raw/siat/exports_total/20261005T101518144526Z_b6fdf4d5f48e451d9281c8166cc99815.json",
+      "size": 809,
+      "mtime_ns": 1791195318150095400,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/data/raw/siat/exports_total/20261005T101518144526Z_b6fdf4d5f48e451d9281c8166cc99815.payload",
+      "size": 26191,
+      "mtime_ns": 1791195318144526700,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/data/raw/siat/gdp_real_yoy/20261005T101518054664Z_ce18bfcfc6f2438f8f46a5b3d70ae2eb.json",
+      "size": 908,
+      "mtime_ns": 1791195318055747400,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/data/raw/siat/gdp_real_yoy/20261005T101518054664Z_ce18bfcfc6f2438f8f46a5b3d70ae2eb.payload",
+      "size": 125,
+      "mtime_ns": 1791195318055747400,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/data/raw/siat/gdp_real_yoy/20261005T101518055747Z_83d90df12960497ea41fba3c17e1d81d.json",
+      "size": 807,
+      "mtime_ns": 1791195318060831300,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/data/raw/siat/gdp_real_yoy/20261005T101518055747Z_83d90df12960497ea41fba3c17e1d81d.payload",
+      "size": 1621,
+      "mtime_ns": 1791195318055747400,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/data/raw/siat/imports_total/20261005T101518152090Z_ef9c9caa94874a9889b5928e059cbeec.json",
+      "size": 910,
+      "mtime_ns": 1791195318155083700,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/data/raw/siat/imports_total/20261005T101518152090Z_ef9c9caa94874a9889b5928e059cbeec.payload",
+      "size": 125,
+      "mtime_ns": 1791195318152090300,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/data/raw/siat/imports_total/20261005T101518156081Z_c572db7911254c7b8dc930c9baf2942e.json",
+      "size": 809,
+      "mtime_ns": 1791195318161069000,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/data/raw/siat/imports_total/20261005T101518156081Z_c572db7911254c7b8dc930c9baf2942e.payload",
+      "size": 25866,
+      "mtime_ns": 1791195318156081700,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/data/raw/siat/industrial_production/20261005T101518063824Z_e52be0205ad14cd8946b94825b9655da.json",
+      "size": 924,
+      "mtime_ns": 1791195318066816600,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/data/raw/siat/industrial_production/20261005T101518063824Z_e52be0205ad14cd8946b94825b9655da.payload",
+      "size": 124,
+      "mtime_ns": 1791195318064821900,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/data/raw/siat/industrial_production/20261005T101518068813Z_d26a4caedc6a46399a7d55a647abb4b5.json",
+      "size": 824,
+      "mtime_ns": 1791195318089218900,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/data/raw/siat/industrial_production/20261005T101518068813Z_d26a4caedc6a46399a7d55a647abb4b5.payload",
+      "size": 73601,
+      "mtime_ns": 1791195318069809900,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/logs/pipeline.log",
+      "size": 32530,
+      "mtime_ns": 1791195327907564000,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/metadata/download_log.parquet",
+      "size": 19040,
+      "mtime_ns": 1791195328174683600,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/metadata/industrial_production_outliers.parquet",
+      "size": 8867,
+      "mtime_ns": 1791195328157903100,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/metadata/observations_long.parquet",
+      "size": 47100,
+      "mtime_ns": 1791195328007876800,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/metadata/release_calendar.parquet",
+      "size": 6668,
+      "mtime_ns": 1791195328041119700,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/metadata/schema_log.parquet",
+      "size": 6775,
+      "mtime_ns": 1791195328201183300,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/metadata/validation_summary.json",
+      "size": 14542,
+      "mtime_ns": 1791195328206171200,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/metadata/vintages.parquet",
+      "size": 7434,
+      "mtime_ns": 1791195328028541900,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/metadata/runs/913efb0884474559b9a028492ba5ddbc.json",
+      "size": 14542,
+      "mtime_ns": 1791195323634217800,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/metadata/runs/eeb38b15b76a4061a166e5f26dc66c5e.json",
+      "size": 14542,
+      "mtime_ns": 1791195328204177300,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/registry/CHANGELOG.md",
+      "size": 4715,
+      "mtime_ns": 1790682197512875600,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/registry/uzbekistan_nowcasting_v1.1_changes.json",
+      "size": 1509,
+      "mtime_ns": 1790664834970799100,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/registry/uzbekistan_nowcasting_v1.1_registry.xlsx",
+      "size": 27076,
+      "mtime_ns": 1790664834905327400,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/registry/uzbekistan_nowcasting_v1.2_changes.json",
+      "size": 3414,
+      "mtime_ns": 1790682197522337000,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/registry/uzbekistan_nowcasting_v1.2_registry.xlsx",
+      "size": 27321,
+      "mtime_ns": 1790682197528835200,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/registry/uzbekistan_nowcasting_v1_registry.xlsx",
+      "size": 26252,
+      "mtime_ns": 1790640964000000000,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/registry/archive/uzbekistan_nowcasting_v1.1_registry.xlsx",
+      "size": 27076,
+      "mtime_ns": 1790682197513875300,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_phase2b644481af/registry/archive/uzbekistan_nowcasting_v1_registry_v1.0.xlsx",
+      "size": 26252,
+      "mtime_ns": 1790664822091504000,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_retry_t8832b296/data/raw/cbu/usd_uzs/20261005T101515335580Z_9b12f4a873724974a5ad15cf8d087c47.json",
+      "size": 728,
+      "mtime_ns": 1791195315337305400,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_retry_t8832b296/data/raw/cbu/usd_uzs/20261005T101515335580Z_9b12f4a873724974a5ad15cf8d087c47.payload",
+      "size": 9,
+      "mtime_ns": 1791195315336304800,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_retry_t8832b296/data/raw/cbu/usd_uzs/20261005T101515338303Z_a25d8290e4a84c5bac83e1f9d02a28ef.json",
+      "size": 728,
+      "mtime_ns": 1791195315341295800,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_retry_t8832b296/data/raw/cbu/usd_uzs/20261005T101515338303Z_a25d8290e4a84c5bac83e1f9d02a28ef.payload",
+      "size": 9,
+      "mtime_ns": 1791195315339301500,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_revisio2b172d03/results/phase4c_holdout_metrics.parquet",
+      "size": 3278,
+      "mtime_ns": 1791195306207285700,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_revisio2b172d03/results/phase4c_holdout_predictions.parquet",
+      "size": 4831,
+      "mtime_ns": 1791195306199590600,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_revisio2b172d03/results/phase4c_horizon_updates.parquet",
+      "size": 5647,
+      "mtime_ns": 1791195306203243900,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_revisio5339c399/results/phase5a_current_nowcast.json",
+      "size": 255,
+      "mtime_ns": 1791195307421939900,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_revisio5339c399/results/phase5a_run_manifest.json",
+      "size": 98,
+      "mtime_ns": 1791195307421939900,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_revisioadd2847b/metadata/observations_long.parquet",
+      "size": 7356,
+      "mtime_ns": 1791195328463991200,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_revisioadd2847b/metadata/revisions.parquet",
+      "size": 6668,
+      "mtime_ns": 1791195328408328100,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_revisioadd2847b/metadata/vintages.parquet",
+      "size": 5040,
+      "mtime_ns": 1791195328475057500,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_run_pha8d74a129/config/registry_contracts.json",
+      "size": 4224,
+      "mtime_ns": 1791195162298093100,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_run_pha8d74a129/data/master/gdp_quarterly.parquet",
+      "size": 2182,
+      "mtime_ns": 1791195162329580500,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_run_pha8d74a129/data/master/v1_monthly.parquet",
+      "size": 9782,
+      "mtime_ns": 1791195162325386400,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_run_pha8d74a129/registry/uzbekistan_nowcasting_v1.2_registry.xlsx",
+      "size": 27321,
+      "mtime_ns": 1791195162297092200,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_run_pha8d74a129/results/frozen_validation_definition.json",
+      "size": 1582,
+      "mtime_ns": 1791195256960841700,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_run_pha8d74a129/results/phase4a1_common_sample_metrics.parquet",
+      "size": 8490,
+      "mtime_ns": 1791195256928560600,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_run_pha8d74a129/results/phase4a1_evaluation_windows.parquet",
+      "size": 3271,
+      "mtime_ns": 1791195256944877900,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_run_pha8d74a129/results/phase4a1_factor_loadings.parquet",
+      "size": 11968,
+      "mtime_ns": 1791195256954882300,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_run_pha8d74a129/results/phase4a1_horizon_deltas.parquet",
+      "size": 5814,
+      "mtime_ns": 1791195256928560600,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_run_pha8d74a129/results/phase4a1_lag_mode_deltas.parquet",
+      "size": 636,
+      "mtime_ns": 1791195256928560600,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_run_pha8d74a129/results/phase4a1_matched_metrics.parquet",
+      "size": 11869,
+      "mtime_ns": 1791195256926714600,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_run_pha8d74a129/results/phase4a1_metrics.parquet",
+      "size": 8654,
+      "mtime_ns": 1791195256917642900,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_run_pha8d74a129/results/phase4a1_model_specs.json",
+      "size": 10283,
+      "mtime_ns": 1791195256957847900,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_run_pha8d74a129/results/phase4a1_predictions.parquet",
+      "size": 13918,
+      "mtime_ns": 1791195256894973600,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_run_pha8d74a129/results/phase4a1_resolved_tiers.json",
+      "size": 4554,
+      "mtime_ns": 1791195256958846500,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_run_phaa6325af2/config/registry_contracts.json",
+      "size": 4224,
+      "mtime_ns": 1791195256981239800,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_run_phaa6325af2/data/master/gdp_quarterly.parquet",
+      "size": 2182,
+      "mtime_ns": 1791195256989096300,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_run_phaa6325af2/data/master/v1_monthly.parquet",
+      "size": 5123,
+      "mtime_ns": 1791195256986070500,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/op_tests/validation_workspaces/t_f481dc2c/test_run_phaa6325af2/registry/uzbekistan_nowcasting_v1.2_registry.xlsx",
+      "size": 27321,
+      "mtime_ns": 1791195256979271500,
+      "proof": "Historical pytest validation_workspaces/t_UUID/test_*; fixtures recreate download logs and observations",
+      "target": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/phase6e/phase6e_pipeline.log",
+      "size": 5556,
+      "mtime_ns": 1791204209084426300,
+      "proof": "Generated pipeline text log; scientific outputs preserved independently",
+      "target": "results/phase6e"
+    }
+  ],
+  "targets": [
+    {
+      "path": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/phase6e"
+    }
+  ],
+  "constructor_evidence": "generated_file_plan_01.json: archived operations test harness delegates validation workspaces to cleanup_validate; each nested path test_*"
+}

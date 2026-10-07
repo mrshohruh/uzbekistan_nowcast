@@ -1,11 +1,13 @@
 {
-  "removed_files": 225,
+  "removed_files": 401,
   "targets": [
     {
-      "path": "results/op_tests/validation_workspaces"
+      "path": "results/repository_cleanup/test_tmp/5ca8d427",
+      "proof": "First Phase 6H.1 migrated-test run; exact failed temporary path recorded in current-tests diagnostic; reproducible sealed seed"
     },
     {
-      "path": "results/phase6e"
+      "path": ".phase5d_test_tmp/pytest-of-Sh.Nishonqulov",
+      "proof": "Historical pytest-owned test root; tests/shadow/test_phase5d.py and tests/conftest.py archived in checkpoint; unit tests prohibit network and construct synthetic fixtures"
     }
   ]
 }

@@ -1,8 +1,9 @@
 {
-  "tests": 198,
+  "tests": 202,
   "failures": 0,
   "errors": 0,
   "skipped": 0,
-  "passed": 198,
-  "failed": 0
+  "passed": 202,
+  "failed": 0,
+  "scope": "Fresh committed checkout; includes four bootstrap integrity cases"
 }

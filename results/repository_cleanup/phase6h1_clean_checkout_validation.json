@@ -1,4 +1,184 @@
 {
-  "status": "PENDING_NEW_COMMIT",
-  "checkpoint": "fe252655d79648c8af3132f3c1d635db3bdd2253"
+  "status": "PASS",
+  "code_commit": "73f1f1a7ff374be5500a3f7f012a6ec641605982",
+  "checkout": "C:\\Users\\Sh.Nishonqulov\\AppData\\Local\\Temp\\uzh61-e6a9def",
+  "environment": "Fresh Python 3.12 venv; pinned requirements installed from downloaded official wheels; editable package from checkout; pip check",
+  "bootstrap": "scripts.operations.bootstrap; only config/bootstrap_inputs.json files; no working-tree code copied",
+  "commands": [
+    {
+      "name": "bootstrap",
+      "args": [
+        "-m",
+        "scripts.operations.bootstrap",
+        "--source-root",
+        "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter",
+        "--target-root",
+        "C:\\Users\\Sh.Nishonqulov\\AppData\\Local\\Temp\\uzh61-e6a9def"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 47.25,
+      "log": "phase6h1_clean_bootstrap.log"
+    },
+    {
+      "name": "origins",
+      "args": [
+        "-c",
+        "from pathlib import Path; import scripts.production.models,uznowcast; from scripts.operations.seal import verify; print(scripts.production.models.__file__); print(uznowcast.__file__); print(len(verify(Path.cwd())[0]))"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 4.843000000000757,
+      "log": "phase6h1_clean_origins.log"
+    },
+    {
+      "name": "first",
+      "args": [
+        "-m",
+        "scripts.production.run",
+        "--output-dir",
+        "results/diagnostics/clean_first",
+        "--no-publish"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 25.39099999999962,
+      "log": "phase6h1_clean_first.log"
+    },
+    {
+      "name": "rerun",
+      "args": [
+        "-m",
+        "scripts.production.run",
+        "--output-dir",
+        "results/diagnostics/clean_rerun",
+        "--no-publish"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 17.70299999999952,
+      "log": "phase6h1_clean_rerun.log"
+    },
+    {
+      "name": "tests",
+      "args": [
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.maintenance.validate_current"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 59.125,
+      "log": "phase6h1_clean_tests.log"
+    },
+    {
+      "name": "safe_update",
+      "args": [
+        "-m",
+        "scripts.production.update",
+        "--run-nowcast",
+        "--dry-run",
+        "--no-network",
+        "--as-of",
+        "2026-10-05"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 11.0,
+      "log": "phase6h1_clean_safe_update.log"
+    },
+    {
+      "name": "packages",
+      "args": [
+        "-m",
+        "pip",
+        "freeze"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 2.3439999999991414,
+      "log": "phase6h1_clean_packages.log"
+    }
+  ],
+  "initial_tracked_changes": [],
+  "forecasts": {
+    "dfm_forecast": 8.301152885464585,
+    "umidas_forecast": 8.060649795767965,
+    "final_forecast": 8.180901340616275
+  },
+  "scientific_artifacts": [
+    {
+      "file": "audit.csv",
+      "exact_old_first_rerun": true
+    },
+    {
+      "file": "current_drivers.csv",
+      "exact_old_first_rerun": true
+    },
+    {
+      "file": "current_nowcast.json",
+      "exact_old_first_rerun": true
+    },
+    {
+      "file": "data_freshness.csv",
+      "exact_old_first_rerun": true
+    },
+    {
+      "file": "dfm_loadings.csv",
+      "exact_old_first_rerun": true
+    },
+    {
+      "file": "dfm_structure.json",
+      "exact_old_first_rerun": true
+    },
+    {
+      "file": "historical_reproduction.csv",
+      "exact_old_first_rerun": true
+    },
+    {
+      "file": "leave_one_quarter_out.csv",
+      "exact_old_first_rerun": true
+    },
+    {
+      "file": "matched_forecasts.csv",
+      "exact_old_first_rerun": true
+    },
+    {
+      "file": "model_comparison.csv",
+      "exact_old_first_rerun": true
+    },
+    {
+      "file": "news_decomposition.csv",
+      "exact_old_first_rerun": true
+    },
+    {
+      "file": "nowcast_revision_history.csv",
+      "exact_old_first_rerun": true
+    },
+    {
+      "file": "quarter_performance.csv",
+      "exact_old_first_rerun": true
+    },
+    {
+      "file": "r2_metrics.csv",
+      "exact_old_first_rerun": true
+    },
+    {
+      "file": "umidas_coefficients.csv",
+      "exact_old_first_rerun": true
+    },
+    {
+      "file": "umidas_contributions.csv",
+      "exact_old_first_rerun": true
+    },
+    {
+      "file": "uzbekistan_nowcast_v2.html",
+      "exact_old_first_rerun": true
+    }
+  ],
+  "tests": {
+    "tests": 202,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "tracked_changes": [
+    "results/repository_cleanup/phase6h1_current_tests.xml"
+  ],
+  "seal_accepted_without_migration_override": true,
+  "temporary_checkout_removed_after_success": true
 }

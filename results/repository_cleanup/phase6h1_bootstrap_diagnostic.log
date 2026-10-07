@@ -1,0 +1,23 @@
+REJECT '\\\\?\\C:\\Users\\Sh.Nishonqulov\\AppData\\Local\\Temp\\uzh61-e6a9def\\data\\raw\\cbu\\pos_turnover\\20260929T072736056059Z_f56fd293fc184f9fbef7912ed0d48cf5.payload' 'C:\\Users\\Sh.Nishonqulov\\AppData\\Local\\Temp\\uzh61-e6a9def'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+  File "C:\Users\Sh.Nishonqulov\AppData\Local\Temp\uzh61-e6a9def\scripts\operations\bootstrap.py", line 23, in restore
+    return sum(pool.map(copy_entry,manifest['files'].items()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sh.Nishonqulov\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py", line 619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sh.Nishonqulov\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py", line 317, in _result_or_cancel
+    return fut.result(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sh.Nishonqulov\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sh.Nishonqulov\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\Sh.Nishonqulov\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sh.Nishonqulov\AppData\Local\Temp\uzh61-e6a9def\scripts\operations\bootstrap.py", line 16, in copy_entry
+    raise ValueError('Unsafe bootstrap path: '+rel)
+ValueError: Unsafe bootstrap path: data/raw/cbu/pos_turnover/20260929T072736056059Z_f56fd293fc184f9fbef7912ed0d48cf5.payload

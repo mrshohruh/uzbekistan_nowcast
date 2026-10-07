@@ -24,7 +24,7 @@ The seal checks active policy/specification hashes and rejects code changes. Ver
 
 ## Consolidation and removals
 
-Maintained Python files fell from 189 after Phase 6H to 99. The removal manifest records 34262 unique paths (34262 audit rows), covering {'F: research-only': 149, 'G: generated/staging': 31871, 'D: historical checksum/evidence-only': 2230, 'E: compatibility-only': 9}.
+Maintained Python files fell from 189 after Phase 6H to 100. The removal manifest records 34262 unique paths (34262 audit rows), covering {'F: research-only': 149, 'G: generated/staging': 31871, 'D: historical checksum/evidence-only': 2230, 'E: compatibility-only': 9}.
 
 The phase6e compatibility namespace, historical research kernels, phase-named model/operational implementations, old shadow package, development evaluators and their tests are removed. Reusable numerical functions now live in `uznowcast.models.dfm`, `uznowcast.gdp_vintages`, `uznowcast.transforms.vintage_flows`, `uznowcast.operational.forecast`, and current operational/production modules. Content-addressed historical code objects survive solely as immutable snapshot provenance; they are neither imported nor copied as an active namespace.
 
@@ -49,3 +49,5 @@ The test taxonomy is recorded in `phase6h1_test_inventory.csv`: CORE_DATA, TRANS
 Install the pinned requirements and editable package as documented in README. Restore only `config/bootstrap_inputs.json` using `python -m scripts.operations.bootstrap --source-root <preserved-data-root>`. This verifies every restored file and copies no arbitrary source code or working-tree state. Then run `python -m scripts.production.run --output-dir results/diagnostics/reproduction --no-publish` and `python -X utf8 -m scripts.maintenance.validate_current`.
 
 Fresh-checkout evidence: `phase6h1_clean_checkout_validation.json` (pending the new code commit). Full source inventories, scientific comparisons, raw duplicate groups, seal revisions, dependency scan, test XML and generated-file proofs are under `phase6h1/` and this audit directory.
+
+A fresh-checkout bootstrap exposed equivalent Windows extended-path spellings. Explicit seal revision 05 normalizes their namespace after link resolution, preserving containment and SHA256 enforcement. Four focused bootstrap tests pass (normal paths, extended paths, traversal rejection, changed-source rejection). The original failed attempt and diagnostic are retained in the audit.

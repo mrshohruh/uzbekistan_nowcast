@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Sh.Nishonqulov\AppData\Local\Temp\uzh61-e6a9def\scripts\operations\bootstrap.py", line 29, in <module>
+    print(json.dumps({'restored_files':restore(args.source_root,args.target_root)}))
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sh.Nishonqulov\AppData\Local\Temp\uzh61-e6a9def\scripts\operations\bootstrap.py", line 23, in restore
+    return sum(pool.map(copy_entry,manifest['files'].items()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sh.Nishonqulov\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py", line 619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sh.Nishonqulov\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py", line 317, in _result_or_cancel
+    return fut.result(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sh.Nishonqulov\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sh.Nishonqulov\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\Sh.Nishonqulov\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sh.Nishonqulov\AppData\Local\Temp\uzh61-e6a9def\scripts\operations\bootstrap.py", line 16, in copy_entry
+    raise ValueError('Unsafe bootstrap path: '+rel)
+ValueError: Unsafe bootstrap path: data/raw/cbu bank-statistics archive/household_deposits/20260929T071954025477Z_d8ecdc2270e94facb0b05d95e1995e4d.payload

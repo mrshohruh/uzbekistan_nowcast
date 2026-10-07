@@ -7,12 +7,22 @@ from pathlib import Path
 import shutil
 from concurrent.futures import ThreadPoolExecutor
 
+def canonical(path: Path) -> Path:
+    """Resolve links and normalize equivalent Windows extended-path spelling."""
+    value=str(path.resolve())
+    if value.startswith('\\\\?\\UNC\\'):
+        value='\\\\'+value[8:]
+    elif value.startswith('\\\\?\\'):
+        value=value[4:]
+    return Path(value)
+
 def restore(source_root: Path, target_root: Path):
+    source_root=canonical(source_root);target_root=canonical(target_root)
     manifest=json.loads((target_root/'config/bootstrap_inputs.json').read_text(encoding='utf-8'))
     def copy_entry(entry):
         rel,expected=entry
-        source=(source_root/rel).resolve();target=(target_root/rel).resolve()
-        if not source.is_relative_to(source_root.resolve()) or not target.is_relative_to(target_root.resolve()):
+        source=canonical(source_root/rel);target=canonical(target_root/rel)
+        if not source.is_relative_to(source_root) or not target.is_relative_to(target_root):
             raise ValueError('Unsafe bootstrap path: '+rel)
         if not source.is_file() or hashlib.sha256(source.read_bytes()).hexdigest()!=expected:
             raise ValueError('Missing or changed bootstrap input: '+rel)

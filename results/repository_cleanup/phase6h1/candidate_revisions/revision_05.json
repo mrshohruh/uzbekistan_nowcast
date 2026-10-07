@@ -1,0 +1,9 @@
+{
+  "reason": "Normalize equivalent Windows extended path namespace after resolving links, before containment checks; fresh checkout exposed an intermittent extended-prefix spelling during concurrent copies. Containment and SHA256 validation remain enforced.",
+  "changed_files": [
+    "scripts/operations/bootstrap.py"
+  ],
+  "previous_seal": "accepted_before_revision_05.json",
+  "previous_acceptance": "acceptance_before_revision_05.json",
+  "candidate_sha256": "308370a1ac07644d4fa7e69f8e2a0c0b01b140ea7fb65112f62046511d94f3fa"
+}

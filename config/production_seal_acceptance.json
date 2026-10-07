@@ -1,10 +1,10 @@
 {
-  "seal_sha256": "8b3d4713cb50ef14c6ab37cc9511e269d0c61c9a63f99185dca40dede0c9778f",
-  "candidate_sha256": "58ec5c0cf55331789485734e194ff1597d56bffaef491510f9d583a0d85e7367",
+  "seal_sha256": "9f3f8163a1f6919ebe84cf1f2342f854f056ba4bcfb5ffa5d8ec10f5d2ec7760",
+  "candidate_sha256": "308370a1ac07644d4fa7e69f8e2a0c0b01b140ea7fb65112f62046511d94f3fa",
   "scientific_comparison_sha256": "e4aec1ff4a88427a4a9b41e16bb58297a2f0a054e098974c0ba415e821859769",
   "migration_checkpoint": "fe252655d79648c8af3132f3c1d635db3bdd2253",
   "scientific_equivalence": true,
   "old_seal_evidence": "results/repository_cleanup/phase6h1/old_baseline.json",
   "revision_history": "results/repository_cleanup/phase6h1/candidate_revisions",
-  "previous_acceptance": "results/repository_cleanup/phase6h1/candidate_revisions/acceptance_before_revision_04.json"
+  "previous_acceptance": "results/repository_cleanup/phase6h1/candidate_revisions/acceptance_before_revision_05.json"
 }

@@ -20,7 +20,7 @@
     "run_nowcast.bat": "1bc25319736ee7c072aad0286903fc253691c77791b790e8c48b4cf33478fd51",
     "scripts/operations/__init__.py": "6590fb15a2b277316b7e9cd54cc7169f454a954260fdd40e1a904d69b4df68d9",
     "scripts/operations/acquisition.py": "702288ed69e8bcb3f0382731c827868c912bbd7cf1f754d602774ca5537cc783",
-    "scripts/operations/bootstrap.py": "0c620a1e51119ea02e2360140669c453ef14f15f4f297751c1a42579fd9c4950",
+    "scripts/operations/bootstrap.py": "5c83d74e602a3b3c8cd818bfd0ce588e0b8691a08042301a502100ae87ed40cd",
     "scripts/operations/pos_review.py": "2bc80bcedf8348222d33e28accb279524e5081e1943aae2a6db6767926e94303",
     "scripts/operations/prospective/__init__.py": "df6c0326c9852e415acf487442666e0253c25ee85e1922f68b3a542eeea575ca",
     "scripts/operations/prospective/common.py": "4a168ea0e0426bf2a1da3cd6fcbc1ccfd7d46008ac3ed4907b0e65b713dd58a5",

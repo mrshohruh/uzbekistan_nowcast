@@ -1,0 +1,25 @@
+{
+  "status": "FAIL",
+  "code_commit": "800f5e5a543a4744f0259fb2b1ac21cfb34841b5",
+  "checkout": "C:\\Users\\Sh.Nishonqulov\\AppData\\Local\\Temp\\uzh61-e6a9def",
+  "environment": "Fresh Python 3.12 venv; pinned requirements installed from downloaded official wheels; editable package from checkout; pip check",
+  "bootstrap": "scripts.operations.bootstrap; only config/bootstrap_inputs.json files; no working-tree code copied",
+  "commands": [
+    {
+      "name": "bootstrap",
+      "args": [
+        "-m",
+        "scripts.operations.bootstrap",
+        "--source-root",
+        "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter",
+        "--target-root",
+        "C:\\Users\\Sh.Nishonqulov\\AppData\\Local\\Temp\\uzh61-e6a9def"
+      ],
+      "exit_code": 1,
+      "elapsed_seconds": 0.43800000000010186,
+      "log": "phase6h1_clean_bootstrap.log"
+    }
+  ],
+  "initial_tracked_changes": [],
+  "error": "bootstrap failed; see C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\results\\repository_cleanup\\phase6h1_clean_bootstrap.log"
+}

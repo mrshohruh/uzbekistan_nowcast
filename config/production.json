@@ -1,0 +1,11 @@
+{
+  "active_specification": "M0",
+  "active_pointer": "results/operations/current_production.json",
+  "frozen_models": "results/phase6d/phase6d_frozen_challengers.json",
+  "registry": "registry/uzbekistan_nowcasting_v1.2_registry.xlsx",
+  "monthly_master": "data/master/v1_monthly.parquet",
+  "quarterly_target": "data/master/gdp_quarterly.parquet",
+  "transactional_updater": "scripts.operations.run_update",
+  "production_builder": "scripts.production.run",
+  "production_updater": "scripts.production.update"
+}

@@ -10,7 +10,7 @@ import xml.etree.ElementTree as ET
 ROOT=Path(__file__).resolve().parents[2]
 OUT=ROOT/'results/phase6e/tests';OUT.mkdir(parents=True,exist_ok=True)
 sys.path.insert(0,str(ROOT));sys.path.insert(0,str(ROOT/'src'));sys.dont_write_bytecode=True
-SCOPES={'phase6e':['scripts/phase6e/test_phase6e.py'],'repository':['tests'],
+SCOPES={'phase6e':['tests/production/test_production.py'],'repository':['tests'],
         'operations':['scripts/operations/test_operations.py'],
         'phase6c':['scripts/research/phase6c/test_phase6c.py'],
         'phase6d':['scripts/research/phase6d/test_phase6d.py'],

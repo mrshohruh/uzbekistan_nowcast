@@ -1,0 +1,146 @@
+[
+  {
+    "path": "results/phase6f/raw/47b9e9ba6748d61811357e225737ce587b8fcb531a3126ed288e49bf69c123df.xlsx",
+    "reason": "protected, dirty, raw source, absent or symlink"
+  },
+  {
+    "path": "results/phase6f/raw/receipt.json",
+    "reason": "protected, dirty, raw source, absent or symlink"
+  },
+  {
+    "path": "results/phase6f/validation_tmp_01/test_history_is_append_only_an0/history.csv",
+    "reason": "protected, dirty, raw source, absent or symlink"
+  },
+  {
+    "path": "results/phase6f/validation_tmp_01/test_holdout_loader_records_fi0/results/frozen_validation_definition.json",
+    "reason": "protected, dirty, raw source, absent or symlink"
+  },
+  {
+    "path": "results/phase6f/validation_tmp_01/test_holdout_loader_records_fi0/results/phase4b_candidate_freeze.json",
+    "reason": "protected, dirty, raw source, absent or symlink"
+  },
+  {
+    "path": "results/phase6f/validation_tmp_01/test_holdout_loader_records_fi0/results/phase4c_evaluation_protocol.json",
+    "reason": "protected, dirty, raw source, absent or symlink"
+  },
+  {
+    "path": "results/phase6f/validation_tmp_01/test_master_fingerprint_record0/data/master/gdp_quarterly.parquet",
+    "reason": "protected, dirty, raw source, absent or symlink"
+  },
+  {
+    "path": "results/phase6f/validation_tmp_01/test_master_fingerprint_record0/data/master/v1_monthly.parquet",
+    "reason": "protected, dirty, raw source, absent or symlink"
+  },
+  {
+    "path": "results/phase6f/validation_tmp_01/test_master_fingerprint_record0/registry/uzbekistan_nowcasting_v1.2_registry.xlsx",
+    "reason": "protected, dirty, raw source, absent or symlink"
+  },
+  {
+    "path": "results/phase6f/validation_tmp_01/test_run_phase_4a1_excludes_ho0/config/registry_contracts.json",
+    "reason": "protected, dirty, raw source, absent or symlink"
+  },
+  {
+    "path": "results/phase6f/validation_tmp_01/test_run_phase_4a1_excludes_ho0/data/master/gdp_quarterly.parquet",
+    "reason": "protected, dirty, raw source, absent or symlink"
+  },
+  {
+    "path": "results/phase6f/validation_tmp_01/test_run_phase_4a1_excludes_ho0/data/master/v1_monthly.parquet",
+    "reason": "protected, dirty, raw source, absent or symlink"
+  },
+  {
+    "path": "results/phase6f/validation_tmp_01/test_run_phase_4a1_excludes_ho0/registry/uzbekistan_nowcasting_v1.2_registry.xlsx",
+    "reason": "protected, dirty, raw source, absent or symlink"
+  },
+  {
+    "path": "results/phase6f/validation_tmp_01/test_run_phase_4a1_records_fin0/config/registry_contracts.json",
+    "reason": "protected, dirty, raw source, absent or symlink"
+  },
+  {
+    "path": "results/phase6f/validation_tmp_01/test_run_phase_4a1_records_fin0/data/master/gdp_quarterly.parquet",
+    "reason": "protected, dirty, raw source, absent or symlink"
+  },
+  {
+    "path": "results/phase6f/validation_tmp_01/test_run_phase_4a1_records_fin0/data/master/v1_monthly.parquet",
+    "reason": "protected, dirty, raw source, absent or symlink"
+  },
+  {
+    "path": "results/phase6f/validation_tmp_01/test_run_phase_4a1_records_fin0/registry/uzbekistan_nowcasting_v1.2_registry.xlsx",
+    "reason": "protected, dirty, raw source, absent or symlink"
+  },
+  {
+    "path": "results/phase6f/validation_tmp_01/test_run_phase_4a1_records_fin0/results/frozen_validation_definition.json",
+    "reason": "protected, dirty, raw source, absent or symlink"
+  },
+  {
+    "path": "results/phase6f/validation_tmp_01/test_run_phase_4a1_records_fin0/results/phase4a1_common_sample_metrics.parquet",
+    "reason": "protected, dirty, raw source, absent or symlink"
+  },
+  {
+    "path": "results/phase6f/validation_tmp_01/test_run_phase_4a1_records_fin0/results/phase4a1_evaluation_windows.parquet",
+    "reason": "protected, dirty, raw source, absent or symlink"
+  },
+  {
+    "path": "results/phase6f/validation_tmp_01/test_run_phase_4a1_records_fin0/results/phase4a1_factor_loadings.parquet",
+    "reason": "protected, dirty, raw source, absent or symlink"
+  },
+  {
+    "path": "results/phase6f/validation_tmp_01/test_run_phase_4a1_records_fin0/results/phase4a1_horizon_deltas.parquet",
+    "reason": "protected, dirty, raw source, absent or symlink"
+  },
+  {
+    "path": "results/phase6f/validation_tmp_01/test_run_phase_4a1_records_fin0/results/phase4a1_lag_mode_deltas.parquet",
+    "reason": "protected, dirty, raw source, absent or symlink"
+  },
+  {
+    "path": "results/phase6f/validation_tmp_01/test_run_phase_4a1_records_fin0/results/phase4a1_matched_metrics.parquet",
+    "reason": "protected, dirty, raw source, absent or symlink"
+  },
+  {
+    "path": "results/phase6f/validation_tmp_01/test_run_phase_4a1_records_fin0/results/phase4a1_metrics.parquet",
+    "reason": "protected, dirty, raw source, absent or symlink"
+  },
+  {
+    "path": "results/phase6f/validation_tmp_01/test_run_phase_4a1_records_fin0/results/phase4a1_model_specs.json",
+    "reason": "protected, dirty, raw source, absent or symlink"
+  },
+  {
+    "path": "results/phase6f/validation_tmp_01/test_run_phase_4a1_records_fin0/results/phase4a1_predictions.parquet",
+    "reason": "protected, dirty, raw source, absent or symlink"
+  },
+  {
+    "path": "results/phase6f/validation_tmp_01/test_run_phase_4a1_records_fin0/results/phase4a1_resolved_tiers.json",
+    "reason": "protected, dirty, raw source, absent or symlink"
+  },
+  {
+    "path": "results/phase6g3/raw/nominal_gdp_3695_42636f52bff2.json",
+    "reason": "protected, dirty, raw source, absent or symlink"
+  },
+  {
+    "path": "results/phase6g3/raw/nominal_gdp_3695_42636f52bff2.payload",
+    "reason": "protected, dirty, raw source, absent or symlink"
+  },
+  {
+    "path": "results/phase6g3/raw/nominal_gdp_3695_descriptor_ff1a3011a5b3.json",
+    "reason": "protected, dirty, raw source, absent or symlink"
+  },
+  {
+    "path": "results/phase6g3/raw/nominal_gdp_3695_descriptor_ff1a3011a5b3.payload",
+    "reason": "protected, dirty, raw source, absent or symlink"
+  },
+  {
+    "path": "results/phase6g3/raw/nominal_gdp_544_ac71cbeb5654.json",
+    "reason": "protected, dirty, raw source, absent or symlink"
+  },
+  {
+    "path": "results/phase6g3/raw/nominal_gdp_544_ac71cbeb5654.payload",
+    "reason": "protected, dirty, raw source, absent or symlink"
+  },
+  {
+    "path": "results/phase6g3/raw/nominal_gdp_544_descriptor_105cf1476611.json",
+    "reason": "protected, dirty, raw source, absent or symlink"
+  },
+  {
+    "path": "results/phase6g3/raw/nominal_gdp_544_descriptor_105cf1476611.payload",
+    "reason": "protected, dirty, raw source, absent or symlink"
+  }
+]

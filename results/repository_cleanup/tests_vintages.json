@@ -1,0 +1,9 @@
+{
+  "tests": 19,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "exit_code": 0,
+  "passed": 19,
+  "historical_test_outside_current_suite": "scripts/research/phase6b2/test_vintages.py::test_protected_artifacts_unchanged"
+}

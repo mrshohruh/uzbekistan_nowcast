@@ -1,0 +1,10 @@
+{
+  "exit_code": 0,
+  "command": [
+    "-m",
+    "scripts.production.run",
+    "--output-dir",
+    "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\results\\repository_cleanup\\post_run",
+    "--no-publish"
+  ]
+}

@@ -1,6 +1,0 @@
-model,native_sample_size,common_sample_size,dropped_origins,dropped_reason
-M0_CURRENT_M2,44,18,26,See per-origin sample_comparison: insufficient training months/GDP bridge or fit failure
-M1_CPI_ONLY,18,18,26,See per-origin sample_comparison: insufficient training months/GDP bridge or fit failure
-M2_NOMINAL_M2_PLUS_CPI,18,18,26,See per-origin sample_comparison: insufficient training months/GDP bridge or fit failure
-M3_REAL_M2_PLUS_CPI,18,18,26,See per-origin sample_comparison: insufficient training months/GDP bridge or fit failure
-M4_REAL_M2_ONLY,18,18,26,See per-origin sample_comparison: insufficient training months/GDP bridge or fit failure

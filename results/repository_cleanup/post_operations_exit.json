@@ -1,0 +1,12 @@
+{
+  "exit_code": 0,
+  "command": [
+    "-m",
+    "scripts.production.update",
+    "--run-nowcast",
+    "--dry-run",
+    "--no-network",
+    "--as-of",
+    "2026-10-05"
+  ]
+}

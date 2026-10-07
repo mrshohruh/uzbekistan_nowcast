@@ -1,2 +1,0 @@
-variable,source,frequency,unit,transformation,first_observation,last_observation,publication_lag,release_date_available,historical_vintage_available,missing_count,notes
-fdi,https://cbu.uz/sdmx/public/BOP_Analytical_Uzbekistan.xlsx,Q,million USD nominal,quarterly liability flow /1000 for bridge scaling,2005Q1,2026Q2,90 and 120 days ASSUMED; not observed,False,False,0,"BPM6 Direct investment: liabilities; net incurrence of liabilities, not gross investment, not assets-minus-liabilities; no interpolation; revised snapshot. Current snapshot retrieved AFTER production cutoff."

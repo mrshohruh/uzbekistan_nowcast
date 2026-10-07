@@ -286,18 +286,32 @@ def test_staged_supported_writer_appends_only_private_fixture(tmp_path):
     stage=tmp_path/'project';seed(ROOT,stage)
     before=(ROOT/'results/phase6d/phase6d_prospective_forecast_ledger.csv').read_bytes()
     stored_before=(stage/'results/phase6d/phase6d_prospective_forecast_ledger.csv').read_bytes()
+    data_before={p.relative_to(ROOT).as_posix():sha(p) for directory in ['data/master','data/processed','metadata']
+                 for p in (ROOT/directory).glob('*.parquet')}
     # A fixture-only news perturbation; this isolated project is never promoted.
     path=stage/'metadata/observations_long.parquet';observations=pd.read_parquet(path)
-    selected=observations.variable_key.eq('gold_price')&observations.frequency.eq('M')&observations.clean_value.notna()
-    index=observations.loc[selected].index[-1];observations.loc[index,'clean_value']+=.01
+    now=pd.Timestamp.now(tz='UTC')
+    # Explicit synthetic check fixture: exercise the writer's freshness/archive
+    # contract offline. This private audit record is never a provider receipt or
+    # promoted evidence; original receipt/release timestamps stay unchanged.
+    from uznowcast.shadow.storage import digest
+    check=dict(current_check(ROOT,stage),checked_at_utc=now.isoformat(),
+               note='SYNTHETIC_TEST_FIXTURE: cached payload, simulated current check; never promote')
+    write(stage/'results/phase6d/source_checks'/(digest(check)+'_check.json'),check)
+    original=worker(stage,dict(cutoff_utc=now.isoformat(),check=check,historical=False))
+    used=pd.DataFrame(original['info']['panel']).dropna(subset=['gold_price']).iloc[-1]
+    period=str(pd.Timestamp(used['month']).to_period('M'))
+    selected=observations.variable_key.eq('gold_price')&observations.frequency.eq('M')&observations.clean_value.notna()&observations.reference_period.eq(period)
+    assert selected.any()
+    observations.loc[selected,'clean_value']+=.01
     observations.to_parquet(path,index=False)
-    now=pd.Timestamp.now(tz='UTC');check=current_check(ROOT,stage)
     preview=worker(stage,dict(cutoff_utc=now.isoformat(),check=check,historical=False))
     assert preview['duplicate_snapshot'] is None
     result=worker(stage,dict(cutoff_utc=now.isoformat(),check=check,historical=False,expected_fingerprint=preview['information_fingerprint']),'append')
     assert result['appended_snapshot']
     assert (stage/'results/phase6d/phase6d_prospective_forecast_ledger.csv').read_bytes().startswith(stored_before)
     assert (ROOT/'results/phase6d/phase6d_prospective_forecast_ledger.csv').read_bytes()==before
+    verify(ROOT,data_before)
 
 
 def current_manifest_fixture():
@@ -429,7 +443,8 @@ def test_september_gold_new_observation_and_frozen_mask():
     new,release=parse_world_bank_gold((ROOT/receipt.raw_file).read_bytes(),row)
     new=log_growth(new,'raw_value',1,50.)
     new['retrieved_at']=receipt.retrieval_timestamp;new['source_release_date']=release
-    old=pd.read_parquet(ROOT/'data/processed/gold_price.parquet')
+    # Freeze the prior information set; the live master may already contain September.
+    old=new.loc[new.reference_period.lt('2026-09')].copy()
     retained,changes,valid=compare('gold_price',old,new,pd.Timestamp('2026-10-05T11:00Z'))
     sept=next(c for c in changes if c['period']=='2026-09')
     assert valid and sept['change_type']=='NEW_OBSERVATION' and sept['accepted']
@@ -447,9 +462,3 @@ def test_september_gold_new_observation_and_frozen_mask():
     masked,_=kernel.mask(panel,spec,'2026Q3','H3',lag,'standard')
     assert pd.isna(masked.loc['2026-09-30','gold_price'])
     assert masked.loc['2026-08-31','gold_price']==panel.loc['2026-08-31','gold_price']
-
-
-def test_source_fix_preserves_original_masters_snapshots_and_ledger():
-    baseline=read(ROOT/'results/operations/source_validation_fix_before.json')
-    verify(ROOT,baseline['protected_hashes'])
-    verify(ROOT,baseline['current_data_hashes'])

@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "predictions": {
+    "dfm_forecast": {
+      "baseline_run": 8.301152885464585,
+      "post_run": 8.301152885464585,
+      "deterministic_run": 8.301152885464585
+    },
+    "umidas_forecast": {
+      "baseline_run": 8.060649795767965,
+      "post_run": 8.060649795767965,
+      "deterministic_run": 8.060649795767965
+    },
+    "combo_50_50_forecast": {
+      "baseline_run": 8.180901340616275,
+      "post_run": 8.180901340616275,
+      "deterministic_run": 8.180901340616275
+    },
+    "final_forecast": {
+      "baseline_run": 8.180901340616275,
+      "post_run": 8.180901340616275,
+      "deterministic_run": 8.180901340616275
+    }
+  },
+  "exact_rerun": true,
+  "saved_production_exact": true,
+  "transformed_data_or_frozen_code_changes": [],
+  "authoritative_output_changes": [],
+  "scientific_and_dashboard_output_differences": [],
+  "exclusions": "Run manifests contain relocated code paths/hashes; reports/logs contain operational metadata"
+}

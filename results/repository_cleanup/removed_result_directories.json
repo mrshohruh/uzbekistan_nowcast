@@ -1,0 +1,2526 @@
+[
+  {
+    "path": "results\\h6\\6c8586f8\\test_col76e62d\\metadata",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_col76e62d\\metadata\\vintage_runs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_colf70393\\metadata",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_colf70393\\metadata\\vintage_runs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_das5c4a72\\dashboard",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_das5c4a72\\results",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_dase4fe2b\\dashboard",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_dase4fe2b\\docs\\modeling",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_dase4fe2b\\results",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_fai8c6aa2\\config",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_fai8c6aa2\\data\\processed",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_fai8c6aa2\\data\\raw\\cbu\\usd_uzs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_fai8c6aa2\\data\\raw\\siat\\gdp_real_yoy",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_fai8c6aa2\\data\\raw\\siat\\industrial_production",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_fai8c6aa2\\logs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_fai8c6aa2\\metadata",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_fai8c6aa2\\metadata\\runs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_fai8c6aa2\\registry",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_fai8c6aa2\\registry\\archive",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_froa0b3c6",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_fute6c31c\\data\\master",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_fute6c31c\\metadata",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_fute6c31c\\results\\shadow\\phase5d\\input_snapshots",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_hase9b6f1",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_his939ff0",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_holf57c82\\results",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_immbbe08c\\data\\raw\\cbu\\usd_uzs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_inv692c57",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_inv758af4",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_inv84d1b1",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_invaa149c",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_invac79a1",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_inve4d584",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_invfc94b5",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_led5b9cac",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_m2_372bd0",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_m2_c3bf43",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_m2_ceea0e",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_mascc73f1\\data\\master",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_mascc73f1\\registry",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_off59e984\\config",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_off59e984\\data\\master",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_off59e984\\data\\processed",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_off59e984\\data\\raw\\cbu\\usd_uzs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_off59e984\\data\\raw\\siat\\gdp_real_yoy",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_off59e984\\data\\raw\\siat\\industrial_production",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_off59e984\\logs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_off59e984\\metadata",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_off59e984\\metadata\\runs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_off59e984\\registry",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_off59e984\\registry\\archive",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_offc4db00\\data\\raw\\cbu\\usd_uzs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_ove7b9539",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_par29226c\\data\\processed",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_per311a70\\data\\raw\\cbu\\usd_uzs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_perf5857c\\data\\raw\\cbu\\usd_uzs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_perf9705c\\data\\raw\\cbu\\usd_uzs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_pha6489c2\\config",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_pha6489c2\\data\\master",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_pha6489c2\\data\\processed",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_pha6489c2\\data\\raw\\cbu\\m2",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_pha6489c2\\data\\raw\\cbu\\usd_uzs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_pha6489c2\\data\\raw\\siat\\construction",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_pha6489c2\\data\\raw\\siat\\cpi_headline",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_pha6489c2\\data\\raw\\siat\\exports_total",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_pha6489c2\\data\\raw\\siat\\gdp_real_yoy",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_pha6489c2\\data\\raw\\siat\\imports_total",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_pha6489c2\\data\\raw\\siat\\industrial_production",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_pha6489c2\\logs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_pha6489c2\\metadata",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_pha6489c2\\metadata\\runs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_pha6489c2\\registry",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_pha6489c2\\registry\\archive",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_ret2be493\\data\\raw\\cbu\\usd_uzs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_rev008ada\\metadata",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_rev42cb84\\results",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_revc3ec6d\\results",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_run51a933\\config",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_run51a933\\data\\master",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_run51a933\\registry",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_run887081\\config",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_run887081\\data\\master",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_run887081\\registry",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\6c8586f8\\test_run887081\\results",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_con08630c\\root",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_con08630c\\stage",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_exie6245d\\data\\raw\\cbu\\usd_uzs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_exie6245d\\data\\raw\\current_updates\\test\\usd_uzs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_exie6245d\\metadata",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_httd1bd47",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_httd1bd47\\data\\raw\\cbu\\usd_uzs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_httd1bd47\\data\\raw\\current_updates\\test\\usd_uzs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_httd1bd47\\metadata",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_led5092f8",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_led5092f8\\ledger_batches",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_mod7e3bc9",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_oldebf069\\results\\phase6d\\source_checks",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_pos4472b4\\config",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_posa0ffc8\\root",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_posa0ffc8\\root\\data\\versions\\test",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_posa0ffc8\\stage",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_repd421e2\\root",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_repd421e2\\root\\data\\versions\\test",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_repd421e2\\stage",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\config",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\dashboard",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\dashboard\\current",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\data\\master",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\data\\processed",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\data\\research\\phase6a2",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\docs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\docs\\modeling",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\docs\\modeling\\phase5c",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\docs\\modeling\\phase5d",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\docs\\modeling\\phase6a",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\docs\\modeling\\phase6b",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\docs\\modeling\\phase6b1",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\docs\\modeling\\phase6b2",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\metadata",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\registry",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\registry\\archive",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\results",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\results\\archive",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\results\\challengers\\phase5c",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\results\\phase5b",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\results\\phase5b1",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\results\\phase5b2",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\results\\phase6c",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\results\\phase6c\\preliminary_master_only",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\results\\phase6d",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\results\\phase6d\\code_archive",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\results\\phase6d\\ledger_batches",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\results\\phase6d\\snapshot_seals",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\results\\phase6d\\snapshots\\b1c04f594530fcde95a273e2db06aaf2fdb1cca407dc1d3980a8ff2795f98dbf",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\results\\phase6d\\snapshots\\ba536eba42aa879ded003f522d5465a5f61a6abc819b38f0431a983d7bb3f1c1",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\results\\phase6d\\snapshots\\d1a9e5c4426f706b2007d26299921f2b5c788ac67bea615d577627d737664614",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\results\\phase6d\\source_checks",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\results\\phase6d\\target_records",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\results\\phase6d\\withdrawal_records",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\results\\production",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\results\\research\\phase6a1",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\results\\research\\phase6a2",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\results\\research\\phase6b",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\results\\research\\phase6b1",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\results\\research\\phase6b2",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\results\\research\\phase6b2\\evidence",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\results\\shadow\\phase5d",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\results\\shadow\\phase5d\\forecast_records",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\results\\shadow\\phase5d\\information_sets",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\results\\shadow\\phase5d\\source_checks",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\scripts",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\scripts\\operations",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\scripts\\research\\phase6a2",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\scripts\\research\\phase6a2\\fixtures",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\scripts\\research\\phase6b",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\scripts\\research\\phase6b1",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\scripts\\research\\phase6b2",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\scripts\\research\\phase6c",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\scripts\\research\\phase6d",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\src\\uznowcast",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\src\\uznowcast.egg-info",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\src\\uznowcast\\io",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\src\\uznowcast\\models",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\src\\uznowcast\\operational",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\src\\uznowcast\\parsers",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\src\\uznowcast\\shadow",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\src\\uznowcast\\transforms",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf4586e\\project\\src\\uznowcast\\validation",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\config",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\dashboard",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\dashboard\\current",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\data\\master",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\data\\processed",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\data\\research\\phase6a2",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\docs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\docs\\modeling",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\docs\\modeling\\phase5c",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\docs\\modeling\\phase5d",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\docs\\modeling\\phase6a",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\docs\\modeling\\phase6b",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\docs\\modeling\\phase6b1",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\docs\\modeling\\phase6b2",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\metadata",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\registry",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\registry\\archive",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\results",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\results\\archive",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\results\\challengers\\phase5c",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\results\\phase5b",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\results\\phase5b1",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\results\\phase5b2",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\results\\phase6c",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\results\\phase6c\\preliminary_master_only",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\results\\phase6d",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\results\\phase6d\\code_archive",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\results\\phase6d\\ledger_batches",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\results\\phase6d\\snapshot_seals",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\results\\phase6d\\snapshots\\b1c04f594530fcde95a273e2db06aaf2fdb1cca407dc1d3980a8ff2795f98dbf",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\results\\phase6d\\snapshots\\ba536eba42aa879ded003f522d5465a5f61a6abc819b38f0431a983d7bb3f1c1",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\results\\phase6d\\snapshots\\d1a9e5c4426f706b2007d26299921f2b5c788ac67bea615d577627d737664614",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\results\\phase6d\\source_checks",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\results\\phase6d\\target_records",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\results\\phase6d\\withdrawal_records",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\results\\production",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\results\\research\\phase6a1",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\results\\research\\phase6a2",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\results\\research\\phase6b",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\results\\research\\phase6b1",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\results\\research\\phase6b2",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\results\\research\\phase6b2\\evidence",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\results\\shadow\\phase5d",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\results\\shadow\\phase5d\\forecast_records",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\results\\shadow\\phase5d\\information_sets",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\results\\shadow\\phase5d\\source_checks",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\scripts",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\scripts\\operations",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\scripts\\research\\phase6a2",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\scripts\\research\\phase6a2\\fixtures",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\scripts\\research\\phase6b",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\scripts\\research\\phase6b1",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\scripts\\research\\phase6b2",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\scripts\\research\\phase6c",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\scripts\\research\\phase6d",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\src\\uznowcast",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\src\\uznowcast.egg-info",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\src\\uznowcast\\io",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\src\\uznowcast\\models",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\src\\uznowcast\\operational",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\src\\uznowcast\\parsers",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\src\\uznowcast\\shadow",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\src\\uznowcast\\transforms",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_staf856b6\\project\\src\\uznowcast\\validation",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_trab58a8e\\root",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_trab58a8e\\root\\data\\versions\\test",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_trab58a8e\\stage",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_tracfa5c7\\root",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_tracfa5c7\\root\\data\\versions\\test",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_tracfa5c7\\stage",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_ver4325b9",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_ver4325b9\\ledger_batches",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\71293437\\test_ver4325b9\\realization_records",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_colaeeace\\metadata",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_colaeeace\\metadata\\vintage_runs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_colfcd281\\metadata",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_colfcd281\\metadata\\vintage_runs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_das859b93\\dashboard",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_das859b93\\results",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_dasdc05ad\\dashboard",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_dasdc05ad\\docs\\modeling",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_dasdc05ad\\results",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_fai15f640\\config",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_fai15f640\\data\\processed",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_fai15f640\\data\\raw\\cbu\\usd_uzs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_fai15f640\\data\\raw\\siat\\gdp_real_yoy",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_fai15f640\\data\\raw\\siat\\industrial_production",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_fai15f640\\logs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_fai15f640\\metadata",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_fai15f640\\metadata\\runs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_fai15f640\\registry",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_fai15f640\\registry\\archive",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_frob5fb12",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_fute6b732\\data\\master",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_fute6b732\\metadata",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_fute6b732\\results\\shadow\\phase5d\\input_snapshots",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_hasd5cbd5",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_his562e1b",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_hol62d229\\results",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_imm2c1d11\\data\\raw\\cbu\\usd_uzs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_inv09565b",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_inv5193c0",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_inv7f241c",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_inv9abad3",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_invb16dba",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_invc7a7a9",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_invd874a0",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_led0dc9d0",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_m2_48f6f1",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_m2_73614a",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_m2_ae3292",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_masc1357c\\data\\master",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_masc1357c\\registry",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_off146f85\\data\\raw\\cbu\\usd_uzs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_off9c23a9\\config",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_off9c23a9\\data\\master",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_off9c23a9\\data\\processed",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_off9c23a9\\data\\raw\\cbu\\usd_uzs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_off9c23a9\\data\\raw\\siat\\gdp_real_yoy",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_off9c23a9\\data\\raw\\siat\\industrial_production",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_off9c23a9\\logs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_off9c23a9\\metadata",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_off9c23a9\\metadata\\runs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_off9c23a9\\registry",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_off9c23a9\\registry\\archive",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_ovec70a25",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_para57a5d\\data\\processed",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_per99fb62\\data\\raw\\cbu\\usd_uzs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_peraef84f\\data\\raw\\cbu\\usd_uzs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_perba467f\\data\\raw\\cbu\\usd_uzs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_pha2b1b5e\\config",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_pha2b1b5e\\data\\master",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_pha2b1b5e\\data\\processed",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_pha2b1b5e\\data\\raw\\cbu\\m2",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_pha2b1b5e\\data\\raw\\cbu\\usd_uzs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_pha2b1b5e\\data\\raw\\siat\\construction",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_pha2b1b5e\\data\\raw\\siat\\cpi_headline",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_pha2b1b5e\\data\\raw\\siat\\exports_total",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_pha2b1b5e\\data\\raw\\siat\\gdp_real_yoy",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_pha2b1b5e\\data\\raw\\siat\\imports_total",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_pha2b1b5e\\data\\raw\\siat\\industrial_production",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_pha2b1b5e\\logs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_pha2b1b5e\\metadata",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_pha2b1b5e\\metadata\\runs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_pha2b1b5e\\registry",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_pha2b1b5e\\registry\\archive",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_ret258f9d\\data\\raw\\cbu\\usd_uzs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_rev5d5915\\results",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_revdfffeb\\metadata",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_reve076ee\\results",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_run19ff2b\\config",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_run19ff2b\\data\\master",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_run19ff2b\\registry",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_run19ff2b\\results",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_run8c27b7\\config",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_run8c27b7\\data\\master",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\cb49cb3d\\test_run8c27b7\\registry",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_con4cf837\\root",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_con4cf837\\stage",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_exi6596e3\\data\\raw\\cbu\\usd_uzs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_exi6596e3\\data\\raw\\current_updates\\test\\usd_uzs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_exi6596e3\\metadata",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_htt08d6a1",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_htt08d6a1\\data\\raw\\cbu\\usd_uzs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_htt08d6a1\\data\\raw\\current_updates\\test\\usd_uzs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_htt08d6a1\\metadata",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_led1496e3",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_led1496e3\\ledger_batches",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_mod385a86",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_oldbdf797\\results\\phase6d\\source_checks",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_pos33a8e9\\root",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_pos33a8e9\\root\\data\\versions\\test",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_pos33a8e9\\stage",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_pos5f3379\\config",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_rep231274\\root",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_rep231274\\root\\data\\versions\\test",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_rep231274\\stage",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\config",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\dashboard",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\dashboard\\current",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\data\\master",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\data\\processed",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\data\\research\\phase6a2",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\docs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\docs\\modeling",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\docs\\modeling\\phase5c",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\docs\\modeling\\phase5d",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\docs\\modeling\\phase6a",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\docs\\modeling\\phase6b",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\docs\\modeling\\phase6b1",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\docs\\modeling\\phase6b2",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\metadata",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\registry",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\registry\\archive",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\results",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\results\\archive",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\results\\challengers\\phase5c",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\results\\phase5b",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\results\\phase5b1",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\results\\phase5b2",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\results\\phase6c",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\results\\phase6c\\preliminary_master_only",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\results\\phase6d",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\results\\phase6d\\code_archive",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\results\\phase6d\\ledger_batches",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\results\\phase6d\\snapshot_seals",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\results\\phase6d\\snapshots\\b1c04f594530fcde95a273e2db06aaf2fdb1cca407dc1d3980a8ff2795f98dbf",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\results\\phase6d\\snapshots\\ba536eba42aa879ded003f522d5465a5f61a6abc819b38f0431a983d7bb3f1c1",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\results\\phase6d\\snapshots\\d1a9e5c4426f706b2007d26299921f2b5c788ac67bea615d577627d737664614",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\results\\phase6d\\source_checks",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\results\\phase6d\\target_records",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\results\\phase6d\\withdrawal_records",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\results\\production",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\results\\research\\phase6a1",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\results\\research\\phase6a2",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\results\\research\\phase6b",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\results\\research\\phase6b1",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\results\\research\\phase6b2",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\results\\research\\phase6b2\\evidence",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\results\\shadow\\phase5d",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\results\\shadow\\phase5d\\forecast_records",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\results\\shadow\\phase5d\\information_sets",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\results\\shadow\\phase5d\\source_checks",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\scripts",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\scripts\\operations",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\scripts\\research\\phase6a2",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\scripts\\research\\phase6a2\\fixtures",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\scripts\\research\\phase6b",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\scripts\\research\\phase6b1",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\scripts\\research\\phase6b2",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\scripts\\research\\phase6c",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\scripts\\research\\phase6d",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\src\\uznowcast",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\src\\uznowcast.egg-info",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\src\\uznowcast\\io",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\src\\uznowcast\\models",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\src\\uznowcast\\operational",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\src\\uznowcast\\parsers",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\src\\uznowcast\\shadow",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\src\\uznowcast\\transforms",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_staa0a39c\\project\\src\\uznowcast\\validation",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\config",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\dashboard",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\dashboard\\current",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\data\\master",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\data\\processed",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\data\\research\\phase6a2",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\docs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\docs\\modeling",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\docs\\modeling\\phase5c",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\docs\\modeling\\phase5d",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\docs\\modeling\\phase6a",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\docs\\modeling\\phase6b",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\docs\\modeling\\phase6b1",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\docs\\modeling\\phase6b2",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\metadata",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\registry",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\registry\\archive",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\results",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\results\\archive",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\results\\challengers\\phase5c",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\results\\phase5b",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\results\\phase5b1",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\results\\phase5b2",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\results\\phase6c",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\results\\phase6c\\preliminary_master_only",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\results\\phase6d",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\results\\phase6d\\code_archive",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\results\\phase6d\\ledger_batches",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\results\\phase6d\\snapshot_seals",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\results\\phase6d\\snapshots\\b1c04f594530fcde95a273e2db06aaf2fdb1cca407dc1d3980a8ff2795f98dbf",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\results\\phase6d\\snapshots\\ba536eba42aa879ded003f522d5465a5f61a6abc819b38f0431a983d7bb3f1c1",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\results\\phase6d\\snapshots\\d1a9e5c4426f706b2007d26299921f2b5c788ac67bea615d577627d737664614",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\results\\phase6d\\source_checks",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\results\\phase6d\\target_records",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\results\\phase6d\\withdrawal_records",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\results\\production",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\results\\research\\phase6a1",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\results\\research\\phase6a2",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\results\\research\\phase6b",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\results\\research\\phase6b1",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\results\\research\\phase6b2",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\results\\research\\phase6b2\\evidence",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\results\\shadow\\phase5d",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\results\\shadow\\phase5d\\forecast_records",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\results\\shadow\\phase5d\\information_sets",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\results\\shadow\\phase5d\\source_checks",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\scripts",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\scripts\\operations",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\scripts\\research\\phase6a2",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\scripts\\research\\phase6a2\\fixtures",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\scripts\\research\\phase6b",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\scripts\\research\\phase6b1",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\scripts\\research\\phase6b2",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\scripts\\research\\phase6c",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\scripts\\research\\phase6d",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\src\\uznowcast",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\src\\uznowcast.egg-info",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\src\\uznowcast\\io",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\src\\uznowcast\\models",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\src\\uznowcast\\operational",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\src\\uznowcast\\parsers",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\src\\uznowcast\\shadow",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\src\\uznowcast\\transforms",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_stad47e56\\project\\src\\uznowcast\\validation",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_tra0923cb\\root",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_tra0923cb\\root\\data\\versions\\test",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_tra0923cb\\stage",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_traf85b17\\root",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_traf85b17\\root\\data\\versions\\test",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_traf85b17\\stage",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_ver812fd1",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_ver812fd1\\ledger_batches",
+    "still_exists": false
+  },
+  {
+    "path": "results\\h6\\d4dd2e88\\test_ver812fd1\\realization_records",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_col558aeb\\metadata",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_col558aeb\\metadata\\vintage_runs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_colb334fc\\metadata",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_colb334fc\\metadata\\vintage_runs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_das2e6f1f\\dashboard",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_das2e6f1f\\docs\\modeling",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_das2e6f1f\\results",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_dasfb5bfc\\dashboard",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_dasfb5bfc\\results",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_fai55c57a\\config",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_fai55c57a\\data\\processed",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_fai55c57a\\data\\raw\\cbu\\usd_uzs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_fai55c57a\\data\\raw\\siat\\gdp_real_yoy",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_fai55c57a\\data\\raw\\siat\\industrial_production",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_fai55c57a\\logs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_fai55c57a\\metadata",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_fai55c57a\\metadata\\runs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_fai55c57a\\registry",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_fai55c57a\\registry\\archive",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_frod853d5",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_futdcd59a\\data\\master",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_futdcd59a\\metadata",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_futdcd59a\\results\\shadow\\phase5d\\input_snapshots",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_has5b462e",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_hol39d49b\\results",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_imm9e78a9\\data\\raw\\cbu\\usd_uzs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_inv05d3d5",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_inv34b7cd",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_inv3e1e7d",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_inv7373e7",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_invadcd73",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_invf36a66",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_invf93fa8",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_ledf9f3da",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_m2_006cd8",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_m2_0b6724",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_m2_d342b6",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_mas32a3da\\data\\master",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_mas32a3da\\registry",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_off002a69\\data\\raw\\cbu\\usd_uzs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_off811aec\\config",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_off811aec\\data\\master",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_off811aec\\data\\processed",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_off811aec\\data\\raw\\cbu\\usd_uzs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_off811aec\\data\\raw\\siat\\gdp_real_yoy",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_off811aec\\data\\raw\\siat\\industrial_production",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_off811aec\\logs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_off811aec\\metadata",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_off811aec\\metadata\\runs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_off811aec\\registry",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_off811aec\\registry\\archive",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_ove4881ff",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_parecaa1f\\data\\processed",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_per3fc60f\\data\\raw\\cbu\\usd_uzs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_perb92e3e\\data\\raw\\cbu\\usd_uzs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_perbdec37\\data\\raw\\cbu\\usd_uzs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_pha61d89e\\config",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_pha61d89e\\data\\master",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_pha61d89e\\data\\processed",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_pha61d89e\\data\\raw\\cbu\\m2",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_pha61d89e\\data\\raw\\cbu\\usd_uzs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_pha61d89e\\data\\raw\\siat\\construction",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_pha61d89e\\data\\raw\\siat\\cpi_headline",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_pha61d89e\\data\\raw\\siat\\exports_total",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_pha61d89e\\data\\raw\\siat\\gdp_real_yoy",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_pha61d89e\\data\\raw\\siat\\imports_total",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_pha61d89e\\data\\raw\\siat\\industrial_production",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_pha61d89e\\logs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_pha61d89e\\metadata",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_pha61d89e\\metadata\\runs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_pha61d89e\\registry",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_pha61d89e\\registry\\archive",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_ret96df6f\\data\\raw\\cbu\\usd_uzs",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_rev0ff3d4\\results",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_rev49dd5f\\results",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_revd48d99\\metadata",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_run97f630\\config",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_run97f630\\data\\master",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_run97f630\\registry",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_run997911\\config",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_run997911\\data\\master",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_run997911\\registry",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6e\\t_bb92bd1d\\test_run997911\\results",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6f",
+    "still_exists": true
+  },
+  {
+    "path": "results\\phase6g",
+    "still_exists": true
+  },
+  {
+    "path": "results\\phase6g1",
+    "still_exists": true
+  },
+  {
+    "path": "results\\phase6g1\\validation_tmp_83ffb664\\test_history1ca3be9b",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6g1\\validation_tmp_83ffb664\\test_holdout4154aea0\\results",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6g1\\validation_tmp_83ffb664\\test_master_a7304961\\data\\master",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6g1\\validation_tmp_83ffb664\\test_master_a7304961\\registry",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6g1\\validation_tmp_83ffb664\\test_run_pha901f87ff\\config",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6g1\\validation_tmp_83ffb664\\test_run_pha901f87ff\\data\\master",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6g1\\validation_tmp_83ffb664\\test_run_pha901f87ff\\registry",
+    "still_exists": true
+  },
+  {
+    "path": "results\\phase6g1\\validation_tmp_83ffb664\\test_run_phaa657dae2\\config",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6g1\\validation_tmp_83ffb664\\test_run_phaa657dae2\\data\\master",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6g1\\validation_tmp_83ffb664\\test_run_phaa657dae2\\registry",
+    "still_exists": true
+  },
+  {
+    "path": "results\\phase6g1\\validation_tmp_83ffb664\\test_run_phaa657dae2\\results",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6g2",
+    "still_exists": true
+  },
+  {
+    "path": "results\\phase6g2\\validation_tmp_4bcce704\\test_history84e41d1a",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6g2\\validation_tmp_4bcce704\\test_holdoutb5ecff0a\\results",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6g2\\validation_tmp_4bcce704\\test_master_ca1a0a46\\data\\master",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6g2\\validation_tmp_4bcce704\\test_master_ca1a0a46\\registry",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6g2\\validation_tmp_4bcce704\\test_run_pha4569fa9c\\config",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6g2\\validation_tmp_4bcce704\\test_run_pha4569fa9c\\data\\master",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6g2\\validation_tmp_4bcce704\\test_run_pha4569fa9c\\registry",
+    "still_exists": true
+  },
+  {
+    "path": "results\\phase6g2\\validation_tmp_4bcce704\\test_run_pha79e8830c\\config",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6g2\\validation_tmp_4bcce704\\test_run_pha79e8830c\\data\\master",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6g2\\validation_tmp_4bcce704\\test_run_pha79e8830c\\registry",
+    "still_exists": true
+  },
+  {
+    "path": "results\\phase6g2\\validation_tmp_4bcce704\\test_run_pha79e8830c\\results",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6g3",
+    "still_exists": true
+  },
+  {
+    "path": "results\\phase6g3\\validation_tmp_282d15e2\\test_historyc03ba1ab",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6g3\\validation_tmp_282d15e2\\test_holdout2270268c\\results",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6g3\\validation_tmp_282d15e2\\test_master_3c53d7c3\\data\\master",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6g3\\validation_tmp_282d15e2\\test_master_3c53d7c3\\registry",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6g3\\validation_tmp_282d15e2\\test_run_pha128e5192\\config",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6g3\\validation_tmp_282d15e2\\test_run_pha128e5192\\data\\master",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6g3\\validation_tmp_282d15e2\\test_run_pha128e5192\\registry",
+    "still_exists": true
+  },
+  {
+    "path": "results\\phase6g3\\validation_tmp_282d15e2\\test_run_pha128e5192\\results",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6g3\\validation_tmp_282d15e2\\test_run_phac459dfab\\config",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6g3\\validation_tmp_282d15e2\\test_run_phac459dfab\\data\\master",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6g3\\validation_tmp_282d15e2\\test_run_phac459dfab\\registry",
+    "still_exists": true
+  },
+  {
+    "path": "results\\phase6g4",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6g5",
+    "still_exists": true
+  },
+  {
+    "path": "results\\phase6g5\\validation_tmp_5a5e558a\\test_historyfb9cd0dc",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6g5\\validation_tmp_5a5e558a\\test_holdout392e8af1\\results",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6g5\\validation_tmp_5a5e558a\\test_master_2e259564\\data\\master",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6g5\\validation_tmp_5a5e558a\\test_master_2e259564\\registry",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6g5\\validation_tmp_5a5e558a\\test_run_pha31e484b4\\config",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6g5\\validation_tmp_5a5e558a\\test_run_pha31e484b4\\data\\master",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6g5\\validation_tmp_5a5e558a\\test_run_pha31e484b4\\registry",
+    "still_exists": true
+  },
+  {
+    "path": "results\\phase6g5\\validation_tmp_5a5e558a\\test_run_pha31e484b4\\results",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6g5\\validation_tmp_5a5e558a\\test_run_pha5c981c46\\config",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6g5\\validation_tmp_5a5e558a\\test_run_pha5c981c46\\data\\master",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6g5\\validation_tmp_5a5e558a\\test_run_pha5c981c46\\registry",
+    "still_exists": true
+  },
+  {
+    "path": "results\\phase6g\\validation_tmp_8279b9d0\\test_history2caa04d3",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6g\\validation_tmp_8279b9d0\\test_holdout5b1bf278\\results",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6g\\validation_tmp_8279b9d0\\test_master_bb8fdaf9\\data\\master",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6g\\validation_tmp_8279b9d0\\test_master_bb8fdaf9\\registry",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6g\\validation_tmp_8279b9d0\\test_run_pha11e9a525\\config",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6g\\validation_tmp_8279b9d0\\test_run_pha11e9a525\\data\\master",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6g\\validation_tmp_8279b9d0\\test_run_pha11e9a525\\registry",
+    "still_exists": true
+  },
+  {
+    "path": "results\\phase6g\\validation_tmp_8279b9d0\\test_run_phac3c84018\\config",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6g\\validation_tmp_8279b9d0\\test_run_phac3c84018\\data\\master",
+    "still_exists": false
+  },
+  {
+    "path": "results\\phase6g\\validation_tmp_8279b9d0\\test_run_phac3c84018\\registry",
+    "still_exists": true
+  },
+  {
+    "path": "results\\phase6g\\validation_tmp_8279b9d0\\test_run_phac3c84018\\results",
+    "still_exists": false
+  }
+]

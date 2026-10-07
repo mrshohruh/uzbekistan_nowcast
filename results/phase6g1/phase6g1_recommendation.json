@@ -1,9 +1,0 @@
-{
-  "automatic_promotion": false,
-  "classification": "M2_DOMINANT_BUT_USEFUL",
-  "current_share_range": "NORMAL_RANGE",
-  "evidence_class": "AVAILABILITY_AWARE_PSEUDO_REAL_TIME; HISTORICAL_PREDICTOR_VALUE_VINTAGES_UNVERIFIED",
-  "historical_value_vintages_verified": false,
-  "reason": "Fixed-specification accuracy, subsample and ragged-edge evidence; no challenger automatically advances or replaces production",
-  "recommendation": "KEEP_CURRENT_DFM_AND_MONITOR_M2"
-}

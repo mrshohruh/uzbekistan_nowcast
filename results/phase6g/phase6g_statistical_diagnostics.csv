@@ -1,4 +1,0 @@
-sample,n_quarters,draws,seed,RMSE_difference_CI_lower,RMSE_difference_CI_upper,paired_mean_squared_loss_difference,interpretation,evidence_class
-EXTENDED_COMMON,15,2000,617,-0.014872926068710301,0.081889117051121521,0.018864377551927904,Exploratory paired quarter-cluster bootstrap; small sample/serial dependence limit inference,AVAILABILITY_AWARE_PSEUDO_REAL_TIME; HISTORICAL_PREDICTOR_VALUE_VINTAGES_UNVERIFIED
-ORIGINAL_HOLDOUT_COMMON,4,2000,617,-0.048142342285776685,0.0041802962894253726,-0.027661699497853968,Exploratory paired quarter-cluster bootstrap; small sample/serial dependence limit inference,AVAILABILITY_AWARE_PSEUDO_REAL_TIME; HISTORICAL_PREDICTOR_VALUE_VINTAGES_UNVERIFIED
-EARLIER_DEVELOPMENT_COMMON,11,2000,617,-0.0020893027875428473,0.12163319611530146,0.036311656445596099,Exploratory paired quarter-cluster bootstrap; small sample/serial dependence limit inference,AVAILABILITY_AWARE_PSEUDO_REAL_TIME; HISTORICAL_PREDICTOR_VALUE_VINTAGES_UNVERIFIED

@@ -1,6 +1,0 @@
-model,horizons_improving_vs_common_m0,one_horizon_only,few_quarters,shorter_estimation_history_than_native_m0,revision_volatility_more_than_twice_m0,beats_unchanged_m0_on_matched_origins,common_span_rmse_improvement_pct
-M0_CURRENT_M2,0,False,True,False,False,False,0
-M1_CPI_ONLY,3,False,True,True,True,False,17.444877958878514
-M2_NOMINAL_M2_PLUS_CPI,3,False,True,True,True,False,14.717565005867517
-M3_REAL_M2_PLUS_CPI,3,False,True,True,False,False,14.091911298689642
-M4_REAL_M2_ONLY,3,False,True,True,False,False,2.536132223038412

@@ -1,0 +1,12 @@
+{
+  "deterministic_numeric_csvs": 11,
+  "final_classification": "PHASE6I_KEEP_U0",
+  "new_phase6i_tests": 17,
+  "numeric_csvs_byte_identical": true,
+  "production_unchanged": true,
+  "protected_files_verified": 24843,
+  "pytest_exit_code": 0,
+  "scope": "Complete tests/ suite including new Phase6I tests",
+  "temp_path_convention": "Existing scripts.maintenance.validate_current short-path Windows fixtures",
+  "tests_passed": 219
+}

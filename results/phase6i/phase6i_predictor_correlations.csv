@@ -1,0 +1,17 @@
+variable_a,variable_b,correlation,n_months
+usd_uzs_mom_dlog,usd_uzs_mom_dlog,1,164
+usd_uzs_mom_dlog,ind_prod_yoy_log,-0.17685971607783449,80
+usd_uzs_mom_dlog,m2_yoy_log,0.20103093471643563,152
+usd_uzs_mom_dlog,retail_yoy_log,0.087219748061456076,68
+ind_prod_yoy_log,usd_uzs_mom_dlog,-0.17685971607783449,80
+ind_prod_yoy_log,ind_prod_yoy_log,1,80
+ind_prod_yoy_log,m2_yoy_log,0.29247435789252618,80
+ind_prod_yoy_log,retail_yoy_log,0.013057625272596797,68
+m2_yoy_log,usd_uzs_mom_dlog,0.20103093471643563,152
+m2_yoy_log,ind_prod_yoy_log,0.29247435789252618,80
+m2_yoy_log,m2_yoy_log,1,152
+m2_yoy_log,retail_yoy_log,-0.10574607584556002,68
+retail_yoy_log,usd_uzs_mom_dlog,0.087219748061456076,68
+retail_yoy_log,ind_prod_yoy_log,0.013057625272596797,68
+retail_yoy_log,m2_yoy_log,-0.10574607584556002,68
+retail_yoy_log,retail_yoy_log,1,68

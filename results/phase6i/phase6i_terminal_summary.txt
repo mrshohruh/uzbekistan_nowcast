@@ -1,0 +1,22 @@
+PHASE6I_KEEP_U0
+U0 usd_uzs: pooled RMSE 0.686149
+U1 usd_uzs + industrial_production: pooled RMSE 1.048734
+U2 usd_uzs + m2: pooled RMSE 0.839503
+U3 usd_uzs + retail_trade: pooled RMSE 1.170220
+U4 usd_uzs + industrial_production + m2: pooled RMSE 1.455931
+U5 usd_uzs + industrial_production + retail_trade: pooled RMSE 1.653018
+U6 usd_uzs + industrial_production + m2 + retail_trade: pooled RMSE 2.439759
+Best common-sample model: U0
+H1 winner: U1
+H2 winner: U0
+H3 winner: U0
+2026Q3 challenger nowcast (U2): 7.805608971567%
+Production remains unchanged at 8.180901340616275%. Protected artifacts: verified.
+
+Tests: 219 passed (17 new Phase 6I tests).
+Protected artifacts: 24843 verified unchanged.
+Deterministic rerun: all 11 numeric CSVs byte-identical.
+Working tree: Phase 6I additions only
+?? results/phase6i/
+?? scripts/phase6i/
+?? tests/models/test_phase6i.py

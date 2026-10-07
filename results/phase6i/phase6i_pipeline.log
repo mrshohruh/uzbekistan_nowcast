@@ -1,0 +1,28 @@
+INFO:phase6i:Reusing previously fully verified baseline; every file will be rehashed after this run
+INFO:phase6i:Evaluating 48 frozen origins; canonical registry predictor transforms
+INFO:phase6i:Protection: hashing file 0/24843: config/bootstrap_inputs.json
+INFO:phase6i:Protection: hashing file 1000/24843: data/raw/cbu/interbank_payments/20260929T074145689367Z_62871432a4af48b794350b091ad8adde.payload
+INFO:phase6i:Protection: hashing file 2000/24843: data/raw/cbu/pos_turnover/20261002T045517907410Z_4f878a1ffa7e48f0839c67009de5f5dd.payload
+INFO:phase6i:Protection: hashing file 3000/24843: data/raw/cbu/pos_turnover/20261005T113230263533Z_86edb138a9fa47efa5c37fd3f4d6e899.payload
+INFO:phase6i:Protection: hashing file 4000/24843: data/raw/cbu/pos_turnover/20261005T115445230505Z_9cdb546e917a44ebaa5fafd427e2d173.payload
+INFO:phase6i:Protection: hashing file 5000/24843: data/raw/cbu/rub_uzs/20260929T075222132939Z_d759244fb022429f83e0ca5a12c43203.payload
+INFO:phase6i:Protection: hashing file 6000/24843: data/raw/cbu/rub_uzs/20260929T080033114050Z_0137df7a329344cda3ca5da3a5f21175.payload
+INFO:phase6i:Protection: hashing file 7000/24843: data/raw/cbu/rub_uzs/20260929T081230202788Z_b83590db6ba74e449e64f9a93dcde315.payload
+INFO:phase6i:Protection: hashing file 8000/24843: data/raw/cbu/rub_uzs/20261002T054338592399Z_9727bfdd0ae34f26b0017a04d3b7326c.payload
+INFO:phase6i:Protection: hashing file 9000/24843: data/raw/cbu/rub_uzs/20261002T055353240984Z_a815e6df8da24c63a84caf3d9f8d1b85.payload
+INFO:phase6i:Protection: hashing file 10000/24843: data/raw/cbu/rub_uzs/20261002T060400670382Z_c0633cf39bab48738699de60ae4ef9c8.payload
+INFO:phase6i:Protection: hashing file 11000/24843: data/raw/cbu/rub_uzs/20261002T061506372004Z_7acb0eba54f441b7bf4a6c15375ffb28.payload
+INFO:phase6i:Protection: hashing file 12000/24843: data/raw/cbu/usd_uzs/20260929T052815924806Z_8c9dde8122b94a1caeca42db95a7e92f.json
+INFO:phase6i:Protection: hashing file 13000/24843: data/raw/cbu/usd_uzs/20260929T053608020911Z_1c51c75951264d1db4c90d23a21fc7c9.json
+INFO:phase6i:Protection: hashing file 14000/24843: data/raw/cbu/usd_uzs/20260929T054545767197Z_b683db123e764706ba29e7a006dbb39f.json
+INFO:phase6i:Protection: hashing file 15000/24843: data/raw/cbu/usd_uzs/20260929T055538707897Z_5ab8dafad66d4dee8758d6c052468488.json
+INFO:phase6i:Protection: hashing file 16000/24843: data/raw/cbu/usd_uzs/20261002T050931411998Z_8e56c4d7f8e14e7280285f837100a11c.json
+INFO:phase6i:Protection: hashing file 17000/24843: data/raw/cbu/usd_uzs/20261002T051944009147Z_bd01d7137e784fb8be6006f83fd383a2.json
+INFO:phase6i:Protection: hashing file 18000/24843: data/raw/cbu/usd_uzs/20261002T053029208536Z_05ce957f1c904046947ecee8819b5985.json
+INFO:phase6i:Protection: hashing file 19000/24843: data/raw/cbu/usd_uzs/20261005T105451626133Z_6dea3486faf74f9198047f4f4b1ba12f.json
+INFO:phase6i:Protection: hashing file 20000/24843: data/raw/current_updates/update_20261005_105427_7eadf567/pos_turnover/20261005T110017059428Z_b57d59327c334f34bcf4a8f154db09c3.json
+INFO:phase6i:Protection: hashing file 21000/24843: data/raw/current_updates/update_20261005_113447_78929bb8/pos_turnover/20261005T113718697044Z_0cdcec8b0317433fac081048277cc82d.json
+INFO:phase6i:Protection: hashing file 22000/24843: data/raw/current_updates/update_20261005_114925_44219a53/rub_uzs/20261005T115040594080Z_0437c9046bec478eaa89149787974bbb.json
+INFO:phase6i:Protection: hashing file 23000/24843: results/operations/implementation_tests/t_e8c29ca2/test_staged_a2dac686/project/results/phase4a1_horizon_deltas.csv
+INFO:phase6i:Protection: hashing file 24000/24843: results/operations/implementation_tests/validation_workspaces/t_7c08de44/test_invalid60591ae8/registry.xlsx
+INFO:phase6i:PHASE6I_KEEP_U0; protected 24843 files unchanged

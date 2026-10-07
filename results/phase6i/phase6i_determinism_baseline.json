@@ -1,0 +1,13 @@
+{
+  "phase6i_all_forecasts.csv": "68e326e1aaf21bc10d2bc9c37340aabfb8e4785b6bc3b4fa8a6791dbbfa6df54",
+  "phase6i_coefficient_stability.csv": "56d593ea8cb27a981fe3c5702884f9a039dc46cab6db16013ad1d56a9e046a3a",
+  "phase6i_coefficients.csv": "23876f56d4e6aa7d275bcbc922ab0450ba07d4ae466e0b7e97534abe029b453a",
+  "phase6i_common_sample_forecasts.csv": "7edc3a1e5ce89856ac8581b45d1433ee1b25ab09f2b236586ce6e484156cf24f",
+  "phase6i_current_nowcasts.csv": "5ccd24bd11909734b7d597de5ada6bbe118e5cf93edd56e8d93ad774980ea191",
+  "phase6i_horizon_metrics.csv": "9d2023fdf03d84e43d351c5d9d76fa03b96a11de9dc6c6009c9d1f40163dd071",
+  "phase6i_incremental_value.csv": "bfd1f9b2123675f8a3cd661628d16ba9283fe503c59ef440ee9826b33169c060",
+  "phase6i_model_comparison.csv": "1f63ea8c3a87e37eabfe3bf24916d3d9a5efdb962f647dcd226a1e4bd0ea1591",
+  "phase6i_predictor_correlations.csv": "c8d3447f4b070d871be46506204bde54ea4ea069ea7da9c89aa1ff51fcecdb43",
+  "phase6i_sample_comparison.csv": "106a11db0e34b9035360216f9d13808e11f033b83585242b3a7fef117631a61f",
+  "phase6i_u0_reproduction.csv": "4cf8c7c769cb378ed94b37b313fe09ac0d021cee0cc6232656d57d67b5d30a89"
+}

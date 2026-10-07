@@ -1,0 +1,25 @@
+AUTOMATED NOWCAST UPDATE COMPLETE
+Run ID: update_20261007_043230_7e0b8e83
+Timestamp: 2026-10-07T04:32:30.405822+00:00
+Target quarter: BLOCKED
+Operational horizon: BLOCKED ()
+Information cutoff: 
+Sources checked: 0
+Sources updated: 0
+Sources unchanged: 0
+Sources failed: 0
+New observations: 0
+Historical revisions: 0
+Rejected observations: 0
+Master monthly changed: NO
+Master quarterly changed: NO
+Forecast snapshot appended: NO
+Reason: Another operation or interrupted transaction holds data/staging/operations.lock; inspect its journal before recovery.
+GDP realization available: NO
+GDP realization verified: NO
+Forecasts scored: NO
+Governance status: BLOCKED
+Protected artifacts changed unexpectedly: NO
+Tests passed: NOT_RUN
+Tests failed: NOT_RUN
+FINAL STATUS: UPDATE_ABORTED

@@ -1,0 +1,474 @@
+ README.md                                          |   246 +-
+ dashboard/phase6g1_m0_m1_m2_comparison.html        |     8 -
+ dashboard/phase6g1_m1_driver_dashboard.html        |     8 -
+ dashboard/phase6g1_m2_lag_driver_dashboard.html    |    13 -
+ results/phase6e/tests/repository.json              |     6 +-
+ results/phase6e/tests/repository.xml               |    47 +-
+ .../phase6f/phase6f_benchmark_reconstruction.csv   |    14 -
+ results/phase6f/phase6f_bridge_coefficients.csv    |   558 -
+ results/phase6f/phase6f_coefficient_stability.csv  |    46 -
+ results/phase6f/phase6f_corrected_test_results.xml |     1 -
+ results/phase6f/phase6f_current_nowcasts.csv       |    11 -
+ results/phase6f/phase6f_data_audit.csv             |     3 -
+ results/phase6f/phase6f_determinism.json           |    40 -
+ results/phase6f/phase6f_dfm_diagnostics.csv        |   313 -
+ results/phase6f/phase6f_failures.csv               |     1 -
+ results/phase6f/phase6f_fdi_audit.csv              |     2 -
+ results/phase6f/phase6f_fdi_observations.csv       |    87 -
+ results/phase6f/phase6f_horizon_metrics.csv        |    56 -
+ results/phase6f/phase6f_leave_one_quarter_out.csv  |    45 -
+ results/phase6f/phase6f_m2_audit.csv               |     2 -
+ results/phase6f/phase6f_model_comparison.csv       |    12 -
+ results/phase6f/phase6f_origin_availability.csv    |   138 -
+ results/phase6f/phase6f_pipeline.log               |    52 -
+ results/phase6f/phase6f_protected_after.json       |   611 -
+ results/phase6f/phase6f_protected_before.json      |   611 -
+ .../phase6f/phase6f_quarter_level_forecasts.csv    |   138 -
+ results/phase6f/phase6f_recommendation.json        |     6 -
+ results/phase6f/phase6f_results.md                 |   145 -
+ results/phase6f/phase6f_robustness.csv             |    41 -
+ results/phase6f/phase6f_run_manifest.json          |    85 -
+ results/phase6f/phase6f_test_results.xml           |    33 -
+ results/phase6f/phase6f_validation_evidence.json   |    26 -
+ results/phase6g/phase6g_current_nowcasts.csv       |     8 -
+ results/phase6g/phase6g_determinism.json           |    41 -
+ results/phase6g/phase6g_dfm_diagnostics.csv        |   147 -
+ results/phase6g/phase6g_error_correlations.csv     |    37 -
+ results/phase6g/phase6g_factor_loadings.csv        |  1169 --
+ results/phase6g/phase6g_horizon_metrics.csv        |   113 -
+ results/phase6g/phase6g_leave_one_quarter_out.csv  |   241 -
+ results/phase6g/phase6g_model_comparison.csv       |    29 -
+ results/phase6g/phase6g_origin_eligibility.csv     |    91 -
+ results/phase6g/phase6g_origin_level_errors.csv    |    89 -
+ results/phase6g/phase6g_origin_level_forecasts.csv |   505 -
+ results/phase6g/phase6g_pipeline.log               |   219 -
+ results/phase6g/phase6g_predictor_availability.csv |   649 --
+ results/phase6g/phase6g_protected_after.json       |   645 --
+ results/phase6g/phase6g_protected_before.json      |   645 --
+ results/phase6g/phase6g_recommendation.json        |    20 -
+ results/phase6g/phase6g_reproduction_check.csv     |    66 -
+ results/phase6g/phase6g_reproduction_gate.json     |     6 -
+ results/phase6g/phase6g_results.md                 |   227 -
+ results/phase6g/phase6g_revision_stability.csv     |   197 -
+ results/phase6g/phase6g_run_manifest.json          |   115 -
+ .../phase6g/phase6g_statistical_diagnostics.csv    |     4 -
+ results/phase6g/phase6g_tests_existing.json        |     9 -
+ results/phase6g/phase6g_tests_existing.xml         |     1 -
+ results/phase6g/phase6g_tests_new.json             |     9 -
+ results/phase6g/phase6g_tests_new.xml              |     1 -
+ results/phase6g/phase6g_validation_evidence.json   |    33 -
+ results/phase6g/phase6g_weight_sensitivity.csv     |    37 -
+ results/phase6g/phase6g_win_rates.csv              |    25 -
+ .../test_history2caa04d3/history.csv               |     3 -
+ .../results/frozen_validation_definition.json      |     1 -
+ .../results/phase4b_candidate_freeze.json          |     1 -
+ .../results/phase4c_evaluation_protocol.json       |    35 -
+ .../data/master/gdp_quarterly.parquet              |     1 -
+ .../data/master/v1_monthly.parquet                 |     1 -
+ .../uzbekistan_nowcasting_v1.2_registry.xlsx       |     1 -
+ .../config/registry_contracts.json                 |    90 -
+ .../data/master/gdp_quarterly.parquet              |   Bin 2182 -> 0 bytes
+ .../data/master/v1_monthly.parquet                 |   Bin 5123 -> 0 bytes
+ .../uzbekistan_nowcasting_v1.2_registry.xlsx       |   Bin 27321 -> 0 bytes
+ .../config/registry_contracts.json                 |    90 -
+ .../data/master/gdp_quarterly.parquet              |   Bin 2182 -> 0 bytes
+ .../data/master/v1_monthly.parquet                 |   Bin 9782 -> 0 bytes
+ .../uzbekistan_nowcasting_v1.2_registry.xlsx       |   Bin 27321 -> 0 bytes
+ .../results/frozen_validation_definition.json      |    59 -
+ .../results/phase4a1_common_sample_metrics.parquet |   Bin 8490 -> 0 bytes
+ .../results/phase4a1_evaluation_windows.parquet    |   Bin 3271 -> 0 bytes
+ .../results/phase4a1_factor_loadings.parquet       |   Bin 11968 -> 0 bytes
+ .../results/phase4a1_horizon_deltas.parquet        |   Bin 5814 -> 0 bytes
+ .../results/phase4a1_lag_mode_deltas.parquet       |   Bin 636 -> 0 bytes
+ .../results/phase4a1_matched_metrics.parquet       |   Bin 11869 -> 0 bytes
+ .../results/phase4a1_metrics.parquet               |   Bin 8654 -> 0 bytes
+ .../results/phase4a1_model_specs.json              |   438 -
+ .../results/phase4a1_predictions.parquet           |   Bin 13918 -> 0 bytes
+ .../results/phase4a1_resolved_tiers.json           |   185 -
+ results/phase6g1/phase6g1_bridge_diagnostics.csv   |   439 -
+ .../phase6g1_current_driver_comparison.csv         |    32 -
+ results/phase6g1/phase6g1_current_nowcasts.csv     |     5 -
+ .../phase6g1_d0_vs_d2_driver_comparison.csv        |     9 -
+ results/phase6g1/phase6g1_d2_current_drivers.csv   |     9 -
+ results/phase6g1/phase6g1_determinism.json         |    62 -
+ .../phase6g1/phase6g1_dominance_distribution.csv   |     7 -
+ .../phase6g1/phase6g1_driver_dashboard_tests.xml   |     1 -
+ .../phase6g1_driver_dashboard_validation.json      |    36 -
+ results/phase6g1/phase6g1_ensemble_comparison.csv  |    17 -
+ results/phase6g1/phase6g1_factor_diagnostics.csv   |   147 -
+ results/phase6g1/phase6g1_factor_loadings.csv      |  1132 --
+ .../phase6g1/phase6g1_historical_signal_shares.csv |  1101 --
+ results/phase6g1/phase6g1_horizon_metrics.csv      |   129 -
+ .../phase6g1_industrial_production_audit.csv       |     3 -
+ .../phase6g1/phase6g1_leave_one_quarter_out.csv    |    69 -
+ results/phase6g1/phase6g1_loading_summary.csv      |    32 -
+ .../phase6g1_m0_m1_m2_driver_comparison.csv        |     9 -
+ .../phase6g1_m0_m1_m2_model_comparison.csv         |     4 -
+ results/phase6g1/phase6g1_m1_current_drivers.csv   |     9 -
+ results/phase6g1/phase6g1_m1_driver_tests.xml      |     1 -
+ .../phase6g1/phase6g1_m1_driver_validation.json    |   134 -
+ results/phase6g1/phase6g1_m2_correlations.csv      |   617 -
+ .../phase6g1/phase6g1_m2_signal_reconstruction.csv |     3 -
+ results/phase6g1/phase6g1_m2_zscores.csv           |    46 -
+ results/phase6g1/phase6g1_model_comparison.csv     |    17 -
+ results/phase6g1/phase6g1_model_failures.csv       |    35 -
+ results/phase6g1/phase6g1_origin_availability.csv  |  1132 --
+ .../phase6g1/phase6g1_origin_level_forecasts.csv   |   353 -
+ results/phase6g1/phase6g1_pipeline.log             |   450 -
+ results/phase6g1/phase6g1_pos_audit.csv            |     2 -
+ .../phase6g1_pos_denominator_sensitivity.csv       |    19 -
+ results/phase6g1/phase6g1_protected_after.json     |   682 --
+ results/phase6g1/phase6g1_protected_before.json    |   682 --
+ results/phase6g1/phase6g1_ragged_edge_analysis.csv |    46 -
+ .../phase6g1/phase6g1_ragged_edge_associations.csv |     5 -
+ results/phase6g1/phase6g1_real_m2_observations.csv |    94 -
+ results/phase6g1/phase6g1_recommendation.json      |     9 -
+ results/phase6g1/phase6g1_reproduction_check.csv   |   141 -
+ results/phase6g1/phase6g1_results.md               |   210 -
+ results/phase6g1/phase6g1_run_manifest.json        |   103 -
+ results/phase6g1/phase6g1_signal_concentration.csv |   147 -
+ results/phase6g1/phase6g1_subsample_metrics.csv    |    49 -
+ results/phase6g1/phase6g1_tests_existing.json      |     9 -
+ results/phase6g1/phase6g1_tests_existing.xml       |     1 -
+ results/phase6g1/phase6g1_tests_new.json           |     9 -
+ results/phase6g1/phase6g1_tests_new.xml            |     1 -
+ results/phase6g1/phase6g1_validation.json          |    26 -
+ .../test_history1ca3be9b/history.csv               |     3 -
+ .../results/frozen_validation_definition.json      |     1 -
+ .../results/phase4b_candidate_freeze.json          |     1 -
+ .../results/phase4c_evaluation_protocol.json       |    35 -
+ .../data/master/gdp_quarterly.parquet              |     1 -
+ .../data/master/v1_monthly.parquet                 |     1 -
+ .../uzbekistan_nowcasting_v1.2_registry.xlsx       |     1 -
+ .../config/registry_contracts.json                 |    90 -
+ .../data/master/gdp_quarterly.parquet              |   Bin 2182 -> 0 bytes
+ .../data/master/v1_monthly.parquet                 |   Bin 5123 -> 0 bytes
+ .../uzbekistan_nowcasting_v1.2_registry.xlsx       |   Bin 27321 -> 0 bytes
+ .../config/registry_contracts.json                 |    90 -
+ .../data/master/gdp_quarterly.parquet              |   Bin 2182 -> 0 bytes
+ .../data/master/v1_monthly.parquet                 |   Bin 9782 -> 0 bytes
+ .../uzbekistan_nowcasting_v1.2_registry.xlsx       |   Bin 27321 -> 0 bytes
+ .../results/frozen_validation_definition.json      |    59 -
+ .../results/phase4a1_common_sample_metrics.parquet |   Bin 8490 -> 0 bytes
+ .../results/phase4a1_evaluation_windows.parquet    |   Bin 3271 -> 0 bytes
+ .../results/phase4a1_factor_loadings.parquet       |   Bin 11968 -> 0 bytes
+ .../results/phase4a1_horizon_deltas.parquet        |   Bin 5814 -> 0 bytes
+ .../results/phase4a1_lag_mode_deltas.parquet       |   Bin 636 -> 0 bytes
+ .../results/phase4a1_matched_metrics.parquet       |   Bin 11869 -> 0 bytes
+ .../results/phase4a1_metrics.parquet               |   Bin 8654 -> 0 bytes
+ .../results/phase4a1_model_specs.json              |   438 -
+ .../results/phase4a1_predictions.parquet           |   Bin 13918 -> 0 bytes
+ .../results/phase4a1_resolved_tiers.json           |   185 -
+ results/phase6g2/phase6g2_audit.json               |    17 -
+ results/phase6g2/phase6g2_console.log              |   Bin 8384 -> 0 bytes
+ .../phase6g2/phase6g2_current_factor_series.csv    |  1099 --
+ results/phase6g2/phase6g2_current_nowcasts.csv     |    20 -
+ results/phase6g2/phase6g2_determinism.json         |     5 -
+ results/phase6g2/phase6g2_factor_loadings.csv      |  4081 -------
+ results/phase6g2/phase6g2_failures.csv             |    31 -
+ .../phase6g2_fdi_leave_one_quarter_out.csv         |    57 -
+ results/phase6g2/phase6g2_fdi_metrics.csv          |     5 -
+ .../phase6g2/phase6g2_fdi_repository_evidence.csv  |   508 -
+ results/phase6g2/phase6g2_fdi_results.csv          |   169 -
+ .../phase6g2/phase6g2_fdi_transformation_audit.csv |     2 -
+ results/phase6g2/phase6g2_final_summary.log        |   Bin 2256 -> 0 bytes
+ results/phase6g2/phase6g2_horizon_metrics.csv      |    49 -
+ results/phase6g2/phase6g2_initial_scan.log         |   Bin 1702 -> 0 bytes
+ .../phase6g2/phase6g2_leave_one_quarter_out.csv    |   181 -
+ results/phase6g2/phase6g2_m2_diagnostics.csv       |     3 -
+ .../phase6g2_m2_month_of_year_diagnostics.csv      |    25 -
+ .../phase6g2_m2_transformation_comparison.csv      |   165 -
+ results/phase6g2/phase6g2_model_comparison.csv     |    13 -
+ results/phase6g2/phase6g2_origin_forecasts.csv     |   499 -
+ results/phase6g2/phase6g2_pipeline.log             |    45 -
+ results/phase6g2/phase6g2_protected_after.json     |   793 --
+ results/phase6g2/phase6g2_protected_before.json    |   793 --
+ results/phase6g2/phase6g2_reproduction.csv         |   134 -
+ results/phase6g2/phase6g2_results.md               |   182 -
+ results/phase6g2/phase6g2_run_manifest.json        |   306 -
+ results/phase6g2/phase6g2_sample_comparison.csv    |   541 -
+ .../phase6g2_scoring_origin_eligibility.csv        |    45 -
+ results/phase6g2/phase6g2_terminal_summary.txt     |    14 -
+ results/phase6g2/phase6g2_test_collection.txt      |   Bin 1524 -> 0 bytes
+ results/phase6g2/phase6g2_tests.json               |     7 -
+ results/phase6g2/phase6g2_tests.log                |   Bin 6122 -> 0 bytes
+ results/phase6g2/phase6g2_tests.xml                |     1 -
+ results/phase6g2/phase6g2_tests_new.json           |     7 -
+ results/phase6g2/phase6g2_tests_new.log            |   Bin 164 -> 0 bytes
+ results/phase6g2/phase6g2_tests_new.xml            |     1 -
+ .../phase6g2_within_regime_horizon_metrics.csv     |    49 -
+ .../test_history84e41d1a/history.csv               |     3 -
+ .../results/frozen_validation_definition.json      |     1 -
+ .../results/phase4b_candidate_freeze.json          |     1 -
+ .../results/phase4c_evaluation_protocol.json       |    35 -
+ .../data/master/gdp_quarterly.parquet              |     1 -
+ .../data/master/v1_monthly.parquet                 |     1 -
+ .../uzbekistan_nowcasting_v1.2_registry.xlsx       |     1 -
+ .../config/registry_contracts.json                 |    90 -
+ .../data/master/gdp_quarterly.parquet              |   Bin 2182 -> 0 bytes
+ .../data/master/v1_monthly.parquet                 |   Bin 5123 -> 0 bytes
+ .../uzbekistan_nowcasting_v1.2_registry.xlsx       |   Bin 27321 -> 0 bytes
+ .../config/registry_contracts.json                 |    90 -
+ .../data/master/gdp_quarterly.parquet              |   Bin 2182 -> 0 bytes
+ .../data/master/v1_monthly.parquet                 |   Bin 9782 -> 0 bytes
+ .../uzbekistan_nowcasting_v1.2_registry.xlsx       |   Bin 27321 -> 0 bytes
+ .../results/frozen_validation_definition.json      |    59 -
+ .../results/phase4a1_common_sample_metrics.parquet |   Bin 8490 -> 0 bytes
+ .../results/phase4a1_evaluation_windows.parquet    |   Bin 3271 -> 0 bytes
+ .../results/phase4a1_factor_loadings.parquet       |   Bin 11968 -> 0 bytes
+ .../results/phase4a1_horizon_deltas.parquet        |   Bin 5814 -> 0 bytes
+ .../results/phase4a1_lag_mode_deltas.parquet       |   Bin 636 -> 0 bytes
+ .../results/phase4a1_matched_metrics.parquet       |   Bin 11869 -> 0 bytes
+ .../results/phase4a1_metrics.parquet               |   Bin 8654 -> 0 bytes
+ .../results/phase4a1_model_specs.json              |   438 -
+ .../results/phase4a1_predictions.parquet           |   Bin 13918 -> 0 bytes
+ .../results/phase4a1_resolved_tiers.json           |   185 -
+ results/phase6g3/all_attempted_forecasts.csv       |   129 -
+ results/phase6g3/annual_validation.csv             |    10 -
+ results/phase6g3/bridge_coefficients.csv           |   259 -
+ results/phase6g3/common_sample_forecasts.csv       |   127 -
+ results/phase6g3/console.log                       |   Bin 10170 -> 0 bytes
+ results/phase6g3/console_final.log                 |   Bin 8132 -> 0 bytes
+ results/phase6g3/current_factor_series.csv         |    94 -
+ results/phase6g3/current_nowcasts.csv              |     6 -
+ results/phase6g3/determinism.json                  |     5 -
+ results/phase6g3/factor_loadings.csv               |   361 -
+ results/phase6g3/gdp_lineage.json                  |    21 -
+ results/phase6g3/gdp_target_audit.csv              |    35 -
+ results/phase6g3/horizon_metrics.csv               |    13 -
+ results/phase6g3/largest_historical_misses.csv     |    16 -
+ .../legacy_phase6b2_protection_diagnostic.json     |    77 -
+ results/phase6g3/model_failures.csv                |     3 -
+ results/phase6g3/nominal_candidates.txt            |   713 --
+ .../phase6g3/nominal_cumulative_vintage_events.csv |    83 -
+ results/phase6g3/nominal_gdp_growth.csv            |    35 -
+ results/phase6g3/nominal_gdp_quarterly.csv         |    35 -
+ .../phase6g3/nominal_growth_vintage_history.csv    |   364 -
+ results/phase6g3/nominal_table_rows.txt            |  8453 --------------
+ results/phase6g3/nominal_vintage_coverage.csv      |    35 -
+ results/phase6g3/origin_information_audit.csv      |    46 -
+ results/phase6g3/pdf_gdp_blocks.txt                |  2754 -----
+ results/phase6g3/pdf_inspection.txt                |  5939 ----------
+ results/phase6g3/pdf_layout.txt                    |  2991 -----
+ results/phase6g3/phase6g3_results.md               |   136 -
+ results/phase6g3/pipeline.log                      |    90 -
+ results/phase6g3/protected_after.json              |  1035 --
+ results/phase6g3/protected_before.json             |   839 --
+ .../phase6g3/protected_supplemental_before.json    |   198 -
+ results/phase6g3/remaining_nominal_tables.txt      |   554 -
+ results/phase6g3/reproduction.csv                  |    46 -
+ results/phase6g3/run_manifest.json                 |    88 -
+ results/phase6g3/siat_3695_receipt.json            |    16 -
+ results/phase6g3/siat_544_receipt.json             |    16 -
+ results/phase6g3/target_diagnostics.csv            |    50 -
+ results/phase6g3/target_model_comparison.csv       |     4 -
+ results/phase6g3/target_training_vintage_usage.csv |   869 --
+ results/phase6g3/tests.json                        |     7 -
+ results/phase6g3/tests.log                         |   Bin 8600 -> 0 bytes
+ results/phase6g3/tests.xml                         |    15 -
+ results/phase6g3/tests_new.json                    |     7 -
+ results/phase6g3/tests_new.log                     |   Bin 164 -> 0 bytes
+ results/phase6g3/tests_new.xml                     |     1 -
+ results/phase6g3/tests_new_final.log               |   Bin 164 -> 0 bytes
+ .../test_historyc03ba1ab/history.csv               |     3 -
+ .../results/frozen_validation_definition.json      |     1 -
+ .../results/phase4b_candidate_freeze.json          |     1 -
+ .../results/phase4c_evaluation_protocol.json       |    35 -
+ .../data/master/gdp_quarterly.parquet              |     1 -
+ .../data/master/v1_monthly.parquet                 |     1 -
+ .../uzbekistan_nowcasting_v1.2_registry.xlsx       |     1 -
+ .../config/registry_contracts.json                 |    90 -
+ .../data/master/gdp_quarterly.parquet              |   Bin 2182 -> 0 bytes
+ .../data/master/v1_monthly.parquet                 |   Bin 9782 -> 0 bytes
+ .../uzbekistan_nowcasting_v1.2_registry.xlsx       |   Bin 27321 -> 0 bytes
+ .../results/frozen_validation_definition.json      |    59 -
+ .../results/phase4a1_common_sample_metrics.parquet |   Bin 8490 -> 0 bytes
+ .../results/phase4a1_evaluation_windows.parquet    |   Bin 3271 -> 0 bytes
+ .../results/phase4a1_factor_loadings.parquet       |   Bin 11968 -> 0 bytes
+ .../results/phase4a1_horizon_deltas.parquet        |   Bin 5814 -> 0 bytes
+ .../results/phase4a1_lag_mode_deltas.parquet       |   Bin 636 -> 0 bytes
+ .../results/phase4a1_matched_metrics.parquet       |   Bin 11869 -> 0 bytes
+ .../results/phase4a1_metrics.parquet               |   Bin 8654 -> 0 bytes
+ .../results/phase4a1_model_specs.json              |   438 -
+ .../results/phase4a1_predictions.parquet           |   Bin 13918 -> 0 bytes
+ .../results/phase4a1_resolved_tiers.json           |   185 -
+ .../config/registry_contracts.json                 |    90 -
+ .../data/master/gdp_quarterly.parquet              |   Bin 2182 -> 0 bytes
+ .../data/master/v1_monthly.parquet                 |   Bin 5123 -> 0 bytes
+ .../uzbekistan_nowcasting_v1.2_registry.xlsx       |   Bin 27321 -> 0 bytes
+ results/phase6g4/phase6g4_common_forecasts.csv     |    91 -
+ results/phase6g4/phase6g4_console_summary.txt      |    15 -
+ results/phase6g4/phase6g4_correlation_matrix.csv   |     5 -
+ results/phase6g4/phase6g4_current_drivers.csv      |    77 -
+ results/phase6g4/phase6g4_current_nowcasts.csv     |    10 -
+ results/phase6g4/phase6g4_determinism.json         |    30 -
+ results/phase6g4/phase6g4_dfm_diagnostics.csv      |   216 -
+ results/phase6g4/phase6g4_factor_loadings.csv      |  1797 ---
+ results/phase6g4/phase6g4_horizon_metrics.csv      |    41 -
+ results/phase6g4/phase6g4_information_audit.csv    |  1797 ---
+ .../phase6g4/phase6g4_leave_one_quarter_out.csv    |    31 -
+ results/phase6g4/phase6g4_model_comparison.csv     |     6 -
+ .../phase6g4_monthly_signal_correlations.csv       |     4 -
+ .../phase6g4_native_benchmark_common_origins.csv   |     2 -
+ results/phase6g4/phase6g4_origin_forecasts.csv     |   207 -
+ results/phase6g4/phase6g4_pipeline.log             |   179 -
+ results/phase6g4/phase6g4_protected_after.json     |   907 --
+ results/phase6g4/phase6g4_protected_before.json    |   907 --
+ results/phase6g4/phase6g4_recent_sensitivity.csv   |    27 -
+ results/phase6g4/phase6g4_reproduction.csv         |    46 -
+ results/phase6g4/phase6g4_rerun.log                |    60 -
+ results/phase6g4/phase6g4_results.md               |   230 -
+ results/phase6g4/phase6g4_run_manifest.json        |    64 -
+ results/phase6g4/phase6g4_sample_comparison.csv    |   451 -
+ results/phase6g4/phase6g4_sample_summary.csv       |     6 -
+ results/phase6g4/phase6g4_signal_correlations.csv  |    17 -
+ results/phase6g4/phase6g4_signal_diagnostics.csv   |     4 -
+ results/phase6g4/phase6g4_signals.csv              |   165 -
+ results/phase6g4/phase6g4_stability.csv            |    11 -
+ results/phase6g4/phase6g4_tests.xml                |     1 -
+ results/phase6g4/phase6g4_validation.json          |     9 -
+ results/phase6g5/phase6g5_ablation.csv             |     5 -
+ results/phase6g5/phase6g5_bridge_fit.csv           |   216 -
+ .../phase6g5/phase6g5_common_sample_forecasts.csv  |    91 -
+ results/phase6g5/phase6g5_current_drivers.csv      |    77 -
+ results/phase6g5/phase6g5_current_nowcasts.csv     |    10 -
+ results/phase6g5/phase6g5_determinism.json         |    37 -
+ results/phase6g5/phase6g5_dfm_diagnostics.csv      |   216 -
+ results/phase6g5/phase6g5_factor_correlations.csv  |   377 -
+ results/phase6g5/phase6g5_factor_loadings.csv      |  1797 ---
+ results/phase6g5/phase6g5_factor_paths.csv         | 11134 -------------------
+ results/phase6g5/phase6g5_fit_statistics.csv       |   216 -
+ results/phase6g5/phase6g5_fit_summary.csv          |     6 -
+ results/phase6g5/phase6g5_horizon_metrics.csv      |    61 -
+ results/phase6g5/phase6g5_information_audit.csv    |  1797 ---
+ results/phase6g5/phase6g5_initial.log              |   Bin 5898 -> 0 bytes
+ .../phase6g5_m0_m1_m2_m3_m4_comparison.html        |  3804 -------
+ .../phase6g5_matched_error_differences.csv         |    91 -
+ results/phase6g5/phase6g5_model_comparison.csv     |     6 -
+ results/phase6g5/phase6g5_origin_forecasts.csv     |   207 -
+ results/phase6g5/phase6g5_pipeline.log             |   180 -
+ results/phase6g5/phase6g5_protected_after.json     |   945 --
+ results/phase6g5/phase6g5_protected_before.json    |   945 --
+ results/phase6g5/phase6g5_recent_sensitivity.csv   |    27 -
+ results/phase6g5/phase6g5_regression_tests.log     |   Bin 11542 -> 0 bytes
+ results/phase6g5/phase6g5_regression_tests.xml     |   722 --
+ results/phase6g5/phase6g5_reproduction.csv         |    46 -
+ results/phase6g5/phase6g5_rerun.log                |    45 -
+ results/phase6g5/phase6g5_results.md               |   434 -
+ results/phase6g5/phase6g5_rolling_correlations.csv |   493 -
+ results/phase6g5/phase6g5_run_manifest.json        |    64 -
+ results/phase6g5/phase6g5_sample_comparison.csv    |   451 -
+ results/phase6g5/phase6g5_selection_flags.csv      |     6 -
+ results/phase6g5/phase6g5_selection_scorecard.csv  |     6 -
+ results/phase6g5/phase6g5_signal_correlations.csv  |     4 -
+ results/phase6g5/phase6g5_signals.csv              |   165 -
+ results/phase6g5/phase6g5_stability_metrics.csv    |     6 -
+ results/phase6g5/phase6g5_test_results.json        |     8 -
+ results/phase6g5/phase6g5_tests.log                |   Bin 11722 -> 0 bytes
+ results/phase6g5/phase6g5_tests.xml                |    32 -
+ results/phase6g5/phase6g5_validation.json          |    23 -
+ results/phase6g5/phase6g5_vif_diagnostics.csv      |    10 -
+ results/phase6g5/run_manifest.json                 |    71 -
+ .../test_historyfb9cd0dc/history.csv               |     3 -
+ .../results/frozen_validation_definition.json      |     1 -
+ .../results/phase4b_candidate_freeze.json          |     1 -
+ .../results/phase4c_evaluation_protocol.json       |    35 -
+ .../data/master/gdp_quarterly.parquet              |     1 -
+ .../data/master/v1_monthly.parquet                 |     1 -
+ .../uzbekistan_nowcasting_v1.2_registry.xlsx       |     1 -
+ .../config/registry_contracts.json                 |    90 -
+ .../data/master/gdp_quarterly.parquet              |   Bin 2182 -> 0 bytes
+ .../data/master/v1_monthly.parquet                 |   Bin 9782 -> 0 bytes
+ .../uzbekistan_nowcasting_v1.2_registry.xlsx       |   Bin 27321 -> 0 bytes
+ .../results/frozen_validation_definition.json      |    59 -
+ .../results/phase4a1_common_sample_metrics.parquet |   Bin 8490 -> 0 bytes
+ .../results/phase4a1_evaluation_windows.parquet    |   Bin 3271 -> 0 bytes
+ .../results/phase4a1_factor_loadings.parquet       |   Bin 11968 -> 0 bytes
+ .../results/phase4a1_horizon_deltas.parquet        |   Bin 5814 -> 0 bytes
+ .../results/phase4a1_lag_mode_deltas.parquet       |   Bin 636 -> 0 bytes
+ .../results/phase4a1_matched_metrics.parquet       |   Bin 11869 -> 0 bytes
+ .../results/phase4a1_metrics.parquet               |   Bin 8654 -> 0 bytes
+ .../results/phase4a1_model_specs.json              |   438 -
+ .../results/phase4a1_predictions.parquet           |   Bin 13918 -> 0 bytes
+ .../results/phase4a1_resolved_tiers.json           |   185 -
+ .../config/registry_contracts.json                 |    90 -
+ .../data/master/gdp_quarterly.parquet              |   Bin 2182 -> 0 bytes
+ .../data/master/v1_monthly.parquet                 |   Bin 5123 -> 0 bytes
+ .../uzbekistan_nowcasting_v1.2_registry.xlsx       |   Bin 27321 -> 0 bytes
+ scripts/operations/test_operations.py              |    29 +-
+ scripts/phase6e/dashboard.py                       |   106 +-
+ scripts/phase6e/diagnostics.py                     |   136 +-
+ scripts/phase6e/models.py                          |   111 +-
+ scripts/phase6e/run.py                             |   398 +-
+ scripts/phase6e/test_phase6e.py                    |   217 -
+ scripts/phase6e/tests.py                           |     2 +-
+ scripts/phase6e/update.py                          |    27 +-
+ scripts/phase6f/README.md                          |    17 -
+ scripts/phase6f/__init__.py                        |     1 -
+ scripts/phase6f/experiment.py                      |   407 -
+ scripts/phase6f/finalize.py                        |    66 -
+ scripts/phase6f/requirements-research.txt          |     4 -
+ scripts/phase6f/test_phase6f.py                    |    84 -
+ scripts/phase6f/verify.py                          |    18 -
+ scripts/phase6g/README.md                          |    22 -
+ scripts/phase6g/__init__.py                        |     1 -
+ scripts/phase6g/analysis.py                        |   173 -
+ scripts/phase6g/finalize.py                        |    49 -
+ scripts/phase6g/report.py                          |   101 -
+ scripts/phase6g/run.py                             |   362 -
+ scripts/phase6g/test_phase6g.py                    |   155 -
+ scripts/phase6g/tests.py                           |    35 -
+ scripts/phase6g/verify.py                          |    17 -
+ scripts/phase6g1/DRIVER_DASHBOARD.md               |    13 -
+ scripts/phase6g1/M1_DASHBOARD.md                   |    18 -
+ scripts/phase6g1/README.md                         |    15 -
+ scripts/phase6g1/__init__.py                       |     1 -
+ scripts/phase6g1/diagnostics.py                    |   113 -
+ scripts/phase6g1/driver_dashboard.py               |   141 -
+ scripts/phase6g1/finalize.py                       |    29 -
+ scripts/phase6g1/finish_m1_dashboard.py            |    38 -
+ scripts/phase6g1/m1_dashboard.py                   |   154 -
+ scripts/phase6g1/results.py                        |   183 -
+ scripts/phase6g1/run.py                            |   250 -
+ scripts/phase6g1/test_driver_dashboard.py          |    96 -
+ scripts/phase6g1/test_m1_dashboard.py              |   123 -
+ scripts/phase6g1/test_phase6g1.py                  |   112 -
+ scripts/phase6g1/tests.py                          |    26 -
+ scripts/phase6g1/verify.py                         |    12 -
+ scripts/phase6g2/README.md                         |    16 -
+ scripts/phase6g2/__init__.py                       |     1 -
+ scripts/phase6g2/core.py                           |    64 -
+ scripts/phase6g2/finalize.py                       |    91 -
+ scripts/phase6g2/report.py                         |    87 -
+ scripts/phase6g2/run.py                            |   215 -
+ scripts/phase6g2/test_phase6g2.py                  |    87 -
+ scripts/phase6g2/tests.py                          |    37 -
+ scripts/phase6g3/README.md                         |    18 -
+ scripts/phase6g3/__init__.py                       |     1 -
+ scripts/phase6g3/audit.py                          |    52 -
+ scripts/phase6g3/diagnostics.py                    |    51 -
+ scripts/phase6g3/experiment.py                     |    58 -
+ scripts/phase6g3/finalize.py                       |    49 -
+ scripts/phase6g3/nominal.py                        |    94 -
+ scripts/phase6g3/protection.py                     |    34 -
+ scripts/phase6g3/report.py                         |    68 -
+ scripts/phase6g3/run.py                            |   173 -
+ scripts/phase6g3/test_phase6g3.py                  |   101 -
+ scripts/phase6g3/tests.py                          |    35 -
+ scripts/phase6g3/vintages.py                       |   105 -
+ scripts/phase6g4/README.md                         |    16 -
+ scripts/phase6g4/__init__.py                       |     1 -
+ scripts/phase6g4/core.py                           |    47 -
+ scripts/phase6g4/report.py                         |   132 -
+ scripts/phase6g4/run.py                            |   125 -
+ scripts/phase6g4/test_phase6g4.py                  |    68 -
+ scripts/phase6g4/verify_rerun.py                   |    18 -
+ scripts/phase6g5/README.md                         |    16 -
+ scripts/phase6g5/__init__.py                       |     1 -
+ scripts/phase6g5/report.py                         |   221 -
+ scripts/phase6g5/run.py                            |   131 -
+ scripts/phase6g5/test_phase6g5.py                  |    82 -
+ scripts/phase6g5/tests.py                          |    28 -
+ scripts/phase6g5/validate.py                       |    33 -
+ scripts/phase6g5/verify_rerun.py                   |    18 -
+ 473 files changed, 143 insertions(+), 96342 deletions(-)

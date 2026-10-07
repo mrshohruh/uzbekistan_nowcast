@@ -1,0 +1,8 @@
+model,previous_forecast,current_forecast,revision,previous_information_cutoff,current_information_cutoff,attribution
+AR1,8.114253474801604,8.114253474801604,0.0,2026-10-05T06:28:16.244132+00:00,2026-10-05T18:59:59.999999+00:00,Descriptive changed inputs only; no causal decomposition
+AR2,7.457305185500719,7.4573051855007195,8.881784197001252e-16,2026-10-05T06:28:16.244132+00:00,2026-10-05T18:59:59.999999+00:00,Descriptive changed inputs only; no causal decomposition
+UMIDAS_USD,8.060649795767965,8.060649795767965,0.0,2026-10-05T06:28:16.244132+00:00,2026-10-05T18:59:59.999999+00:00,Descriptive changed inputs only; no causal decomposition
+PRODUCTION_ENSEMBLE,7.758977490634342,7.758977490634342,0.0,2026-10-05T06:28:16.244132+00:00,2026-10-05T18:59:59.999999+00:00,Descriptive changed inputs only; no causal decomposition
+PHASE6C_DFM,8.301152885464585,8.301152885464585,0.0,2026-10-05T06:28:16.244132+00:00,2026-10-05T18:59:59.999999+00:00,Descriptive changed inputs only; no causal decomposition
+COMBO_50_50,8.180901340616275,8.180901340616275,0.0,2026-10-05T06:28:16.244132+00:00,2026-10-05T18:59:59.999999+00:00,Descriptive changed inputs only; no causal decomposition
+COMBO_DEV_WEIGHT,8.19145515840353,8.19145515840353,0.0,2026-10-05T06:28:16.244132+00:00,2026-10-05T18:59:59.999999+00:00,Descriptive changed inputs only; no causal decomposition

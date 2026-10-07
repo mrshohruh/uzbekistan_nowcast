@@ -1,0 +1,64 @@
+{
+  "run_id": "update_20261007_055949_886f3a4f",
+  "timestamp": "2026-10-07T05:59:49.350861+00:00",
+  "cutoff_utc": "2026-10-05T18:59:59.999999+00:00",
+  "mode": "DRY_RUN",
+  "status": "NO_INFORMATION_CHANGE",
+  "target_quarter": "2026Q3",
+  "horizon": "H3",
+  "operational_stage": "POST_H3_LATE_INITIALIZATION",
+  "information_fingerprint": "4682b245f25db4ae87b43e80444f62b85e29533b53a3a8038ffb7c90191386e0",
+  "snapshot_appended": false,
+  "duplicate_snapshot": "d1a9e5c4426f706b2007d26299921f2b5c788ac67bea615d577627d737664614",
+  "snapshot_reason": "DUPLICATE_INFORMATION_SET",
+  "master_monthly_changed": false,
+  "master_quarterly_changed": false,
+  "candidate_master_changes": {
+    "monthly": false,
+    "quarterly": false
+  },
+  "promoted_hashes": {},
+  "source_states": {
+    "industrial_production": "CACHED_NOT_NETWORK_CHECKED",
+    "ppi": "CACHED_NOT_NETWORK_CHECKED",
+    "usd_uzs": "CACHED_NOT_NETWORK_CHECKED",
+    "rub_uzs": "CACHED_NOT_NETWORK_CHECKED",
+    "gold_price": "CACHED_NOT_NETWORK_CHECKED",
+    "m2": "CACHED_NOT_NETWORK_CHECKED",
+    "fx_reserves_ex_gold": "CACHED_NOT_NETWORK_CHECKED",
+    "pos_turnover": "CACHED_NOT_NETWORK_CHECKED",
+    "gdp_real_yoy": "CACHED_NOT_NETWORK_CHECKED"
+  },
+  "new_observations": 0,
+  "historical_revisions": 0,
+  "rejected_observations": 0,
+  "GDP_detected_unverified": false,
+  "GDP_realization_verified": false,
+  "forecasts_scored": false,
+  "governance": "INITIALIZED",
+  "warnings": [
+    "POS scope after December 2024 withheld; never filled",
+    "NO_NETWORK: provider availability and new external observations were not checked",
+    "Historical reproduction uses observed retrieval gates and never appends snapshots"
+  ],
+  "protected_artifacts_changed_unexpectedly": false,
+  "protected_files_checked": 182,
+  "tests": {
+    "tests": 436,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": 436,
+    "failed": 0,
+    "scopes": [
+      "operations_operations_tests.xml",
+      "operations_phase6a2_tests.xml",
+      "operations_phase6b1_tests.xml",
+      "operations_phase6b2_tests.xml",
+      "operations_phase6b_tests.xml",
+      "operations_phase6c_tests.xml",
+      "operations_phase6d_tests.xml",
+      "operations_repository_tests.xml"
+    ]
+  }
+}

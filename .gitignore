@@ -21,6 +21,9 @@ data/master/
 data/master_from_fixtures/
 metadata/
 logs/
-# results/ intentionally NOT gitignored: Phase 4A commits the fixture-based
-# rehearsal outputs so the framework is browsable without a live rebuild.
-# The operator's own run against the live V1.2 build re-writes them in place.
+# Generated operational and validation workspaces
+data/staging/
+data/t/
+.h61-checkout/
+data/bootstrap_bundle/
+results/repository_cleanup/test_tmp/

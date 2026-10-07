@@ -1,0 +1,270 @@
+{
+  "loaded_modules": [
+    "scripts/maintenance/trace_production.py",
+    "scripts/operations/__init__.py",
+    "scripts/operations/acquisition.py",
+    "scripts/operations/pos_review.py",
+    "scripts/operations/prospective/__init__.py",
+    "scripts/operations/prospective/common.py",
+    "scripts/operations/prospective/evaluation.py",
+    "scripts/operations/prospective/inputs.py",
+    "scripts/operations/prospective/monitor.py",
+    "scripts/operations/prospective/sealing.py",
+    "scripts/operations/prospective/sources.py",
+    "scripts/operations/run_update.py",
+    "scripts/operations/seal.py",
+    "scripts/operations/shadow_worker.py",
+    "scripts/operations/state.py",
+    "scripts/operations/workspace.py",
+    "scripts/production/__init__.py",
+    "scripts/production/benchmarks.py",
+    "scripts/production/config.py",
+    "scripts/production/dashboard.py",
+    "scripts/production/diagnostics.py",
+    "scripts/production/models.py",
+    "scripts/production/run.py",
+    "src/uznowcast/__init__.py",
+    "src/uznowcast/archive_series.py",
+    "src/uznowcast/gdp_vintages.py",
+    "src/uznowcast/io/__init__.py",
+    "src/uznowcast/io/cbu.py",
+    "src/uznowcast/io/cbu_archive.py",
+    "src/uznowcast/io/cbu_stats.py",
+    "src/uznowcast/io/external.py",
+    "src/uznowcast/io/http.py",
+    "src/uznowcast/io/siat.py",
+    "src/uznowcast/master.py",
+    "src/uznowcast/models/__init__.py",
+    "src/uznowcast/models/benchmarks.py",
+    "src/uznowcast/models/data.py",
+    "src/uznowcast/models/dfm.py",
+    "src/uznowcast/models/ensemble.py",
+    "src/uznowcast/models/midas.py",
+    "src/uznowcast/operational/__init__.py",
+    "src/uznowcast/operational/forecast.py",
+    "src/uznowcast/parsers/__init__.py",
+    "src/uznowcast/parsers/cbu.py",
+    "src/uznowcast/parsers/cbu_archive.py",
+    "src/uznowcast/parsers/cbu_stats.py",
+    "src/uznowcast/parsers/external.py",
+    "src/uznowcast/parsers/siat.py",
+    "src/uznowcast/provenance.py",
+    "src/uznowcast/registry.py",
+    "src/uznowcast/storage.py",
+    "src/uznowcast/transforms/__init__.py",
+    "src/uznowcast/transforms/decumulate.py",
+    "src/uznowcast/transforms/frequency.py",
+    "src/uznowcast/transforms/growth.py",
+    "src/uznowcast/transforms/prices.py",
+    "src/uznowcast/validation/__init__.py",
+    "src/uznowcast/validation/observations.py",
+    "src/uznowcast/validation/schema.py",
+    "src/uznowcast/vintages.py"
+  ],
+  "historical_loaded_modules": [],
+  "active_historical_path_references": [],
+  "unused_import_candidates": [
+    {
+      "file": "src/uznowcast/collect_vintage.py",
+      "import_name": "json",
+      "note": "Static candidate only; public/re-export/dynamic uses require manual interpretation"
+    },
+    {
+      "file": "src/uznowcast/reporting.py",
+      "import_name": "np",
+      "note": "Static candidate only; public/re-export/dynamic uses require manual interpretation"
+    },
+    {
+      "file": "src/uznowcast/models/data.py",
+      "import_name": "Iterable",
+      "note": "Static candidate only; public/re-export/dynamic uses require manual interpretation"
+    },
+    {
+      "file": "src/uznowcast/models/dfm.py",
+      "import_name": "quarter_start",
+      "note": "Static candidate only; public/re-export/dynamic uses require manual interpretation"
+    },
+    {
+      "file": "src/uznowcast/models/dfm.py",
+      "import_name": "quarter_end",
+      "note": "Static candidate only; public/re-export/dynamic uses require manual interpretation"
+    },
+    {
+      "file": "src/uznowcast/models/midas.py",
+      "import_name": "pd",
+      "note": "Static candidate only; public/re-export/dynamic uses require manual interpretation"
+    },
+    {
+      "file": "src/uznowcast/models/midas.py",
+      "import_name": "quarter_start",
+      "note": "Static candidate only; public/re-export/dynamic uses require manual interpretation"
+    },
+    {
+      "file": "src/uznowcast/operational/forecast.py",
+      "import_name": "datetime",
+      "note": "Static candidate only; public/re-export/dynamic uses require manual interpretation"
+    },
+    {
+      "file": "src/uznowcast/operational/forecast.py",
+      "import_name": "timezone",
+      "note": "Static candidate only; public/re-export/dynamic uses require manual interpretation"
+    },
+    {
+      "file": "src/uznowcast/operational/forecast.py",
+      "import_name": "sha256",
+      "note": "Static candidate only; public/re-export/dynamic uses require manual interpretation"
+    },
+    {
+      "file": "src/uznowcast/operational/forecast.py",
+      "import_name": "Path",
+      "note": "Static candidate only; public/re-export/dynamic uses require manual interpretation"
+    },
+    {
+      "file": "src/uznowcast/operational/forecast.py",
+      "import_name": "json",
+      "note": "Static candidate only; public/re-export/dynamic uses require manual interpretation"
+    },
+    {
+      "file": "src/uznowcast/operational/forecast.py",
+      "import_name": "subprocess",
+      "note": "Static candidate only; public/re-export/dynamic uses require manual interpretation"
+    },
+    {
+      "file": "src/uznowcast/operational/forecast.py",
+      "import_name": "load_dataset",
+      "note": "Static candidate only; public/re-export/dynamic uses require manual interpretation"
+    },
+    {
+      "file": "src/uznowcast/operational/forecast.py",
+      "import_name": "atomic_parquet",
+      "note": "Static candidate only; public/re-export/dynamic uses require manual interpretation"
+    },
+    {
+      "file": "src/uznowcast/operational/forecast.py",
+      "import_name": "save_json",
+      "note": "Static candidate only; public/re-export/dynamic uses require manual interpretation"
+    },
+    {
+      "file": "src/uznowcast/operational/forecast.py",
+      "import_name": "uuid",
+      "note": "Static candidate only; public/re-export/dynamic uses require manual interpretation"
+    },
+    {
+      "file": "src/uznowcast/operational/forecast.py",
+      "import_name": "build_information_set",
+      "note": "Static candidate only; public/re-export/dynamic uses require manual interpretation"
+    },
+    {
+      "file": "src/uznowcast/operational/forecast.py",
+      "import_name": "information_cutoff_for_variable",
+      "note": "Static candidate only; public/re-export/dynamic uses require manual interpretation"
+    },
+    {
+      "file": "src/uznowcast/operational/forecast.py",
+      "import_name": "load_dataset",
+      "note": "Static candidate only; public/re-export/dynamic uses require manual interpretation"
+    },
+    {
+      "file": "src/uznowcast/operational/forecast.py",
+      "import_name": "fit_midas",
+      "note": "Static candidate only; public/re-export/dynamic uses require manual interpretation"
+    },
+    {
+      "file": "scripts/production/dashboard.py",
+      "import_name": "json",
+      "note": "Static candidate only; public/re-export/dynamic uses require manual interpretation"
+    },
+    {
+      "file": "scripts/production/run.py",
+      "import_name": "datetime",
+      "note": "Static candidate only; public/re-export/dynamic uses require manual interpretation"
+    },
+    {
+      "file": "scripts/production/run.py",
+      "import_name": "timezone",
+      "note": "Static candidate only; public/re-export/dynamic uses require manual interpretation"
+    },
+    {
+      "file": "scripts/production/run.py",
+      "import_name": "os",
+      "note": "Static candidate only; public/re-export/dynamic uses require manual interpretation"
+    },
+    {
+      "file": "scripts/production/run.py",
+      "import_name": "subprocess",
+      "note": "Static candidate only; public/re-export/dynamic uses require manual interpretation"
+    },
+    {
+      "file": "scripts/operations/acquisition.py",
+      "import_name": "datetime",
+      "note": "Static candidate only; public/re-export/dynamic uses require manual interpretation"
+    },
+    {
+      "file": "scripts/operations/acquisition.py",
+      "import_name": "timezone",
+      "note": "Static candidate only; public/re-export/dynamic uses require manual interpretation"
+    },
+    {
+      "file": "scripts/operations/acquisition.py",
+      "import_name": "json",
+      "note": "Static candidate only; public/re-export/dynamic uses require manual interpretation"
+    },
+    {
+      "file": "scripts/operations/acquisition.py",
+      "import_name": "Path",
+      "note": "Static candidate only; public/re-export/dynamic uses require manual interpretation"
+    },
+    {
+      "file": "scripts/operations/pos_review.py",
+      "import_name": "ast",
+      "note": "Static candidate only; public/re-export/dynamic uses require manual interpretation"
+    },
+    {
+      "file": "scripts/operations/pos_review.py",
+      "import_name": "np",
+      "note": "Static candidate only; public/re-export/dynamic uses require manual interpretation"
+    },
+    {
+      "file": "scripts/operations/run_update.py",
+      "import_name": "os",
+      "note": "Static candidate only; public/re-export/dynamic uses require manual interpretation"
+    },
+    {
+      "file": "scripts/operations/shadow_worker.py",
+      "import_name": "datetime",
+      "note": "Static candidate only; public/re-export/dynamic uses require manual interpretation"
+    },
+    {
+      "file": "scripts/operations/shadow_worker.py",
+      "import_name": "timezone",
+      "note": "Static candidate only; public/re-export/dynamic uses require manual interpretation"
+    },
+    {
+      "file": "scripts/operations/shadow_worker.py",
+      "import_name": "json",
+      "note": "Static candidate only; public/re-export/dynamic uses require manual interpretation"
+    },
+    {
+      "file": "scripts/operations/workspace.py",
+      "import_name": "Path",
+      "note": "Static candidate only; public/re-export/dynamic uses require manual interpretation"
+    },
+    {
+      "file": "scripts/operations/workspace.py",
+      "import_name": "sha",
+      "note": "Static candidate only; public/re-export/dynamic uses require manual interpretation"
+    },
+    {
+      "file": "scripts/operations/prospective/common.py",
+      "import_name": "hashlib",
+      "note": "Static candidate only; public/re-export/dynamic uses require manual interpretation"
+    },
+    {
+      "file": "scripts/operations/prospective/common.py",
+      "import_name": "importlib",
+      "note": "Static candidate only; public/re-export/dynamic uses require manual interpretation"
+    }
+  ],
+  "maintained_python_files": 102,
+  "historical_phase_implementations_removed": true
+}

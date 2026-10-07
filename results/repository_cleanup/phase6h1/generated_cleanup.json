@@ -1,0 +1,11 @@
+{
+  "removed_files": 225,
+  "targets": [
+    {
+      "path": "results/op_tests/validation_workspaces"
+    },
+    {
+      "path": "results/phase6e"
+    }
+  ]
+}

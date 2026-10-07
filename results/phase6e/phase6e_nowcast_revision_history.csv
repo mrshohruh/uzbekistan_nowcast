@@ -1,2 +1,0 @@
-as_of_date,target_quarter,horizon,production_model,DFM_forecast,UMIDAS_forecast,final_forecast,input_data_fingerprint,change_from_previous
-2026-10-05T11:54:48.927036+00:00,2026Q3,H3,COMBO_50_50,8.3011528854645853,8.060649795767965,8.1809013406162752,4682b245f25db4ae87b43e80444f62b85e29533b53a3a8038ffb7c90191386e0,

@@ -1,8 +1,0 @@
-{
-  "event_kind": "FIRST_RELEASE",
-  "first_release_date": "2026-10-05",
-  "ingested_timestamp": "2026-10-06T10:00:00Z",
-  "source_url": "https://stat.uz/test",
-  "target_quarter": "2026Q3",
-  "value": 8.4
-}

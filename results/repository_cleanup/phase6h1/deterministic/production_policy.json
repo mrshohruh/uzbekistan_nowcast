@@ -1,0 +1,41 @@
+{
+  "production_version": "V2",
+  "phase": "6E",
+  "model": "COMBO_50_50",
+  "status": "PHASE6E_PROMOTED",
+  "dfm_model": "DFM-4_R1_P2__BRIDGE_B_mean",
+  "dfm_weight": 0.5,
+  "umidas_weight": 0.5,
+  "promotion_basis": "matched historical holdout superiority",
+  "prospective_validation_status": "pending",
+  "prospective_realizations_at_promotion": 0,
+  "legacy_model_preserved": true,
+  "rollback_available": true,
+  "rollback_pointer": "results/current/rollback_policy.json",
+  "legacy_model": "LEGACY_PRODUCTION_V1",
+  "legacy_entrypoint": "python -m scripts.operations.run_update --run-nowcast --no-network",
+  "update_entrypoint": "python -m scripts.production.update",
+  "best_matched_candidate": "COMBO_50_50",
+  "specification_hashes": {
+    "AR1": "6426dc1315bba8cd29bb079926079c1284e37df2661236dad95d649e71cbe482",
+    "AR2": "ea9ad7ce8bf421d37e97ff75793d3aca28a4ce0c072d915249974edbc5f393dc",
+    "COMBO_50_50": "f9a9006e3526183cea3e9f248093892be842819ae79b2402859c42f6e5f275d2",
+    "COMBO_DEV_WEIGHT": "7f448168822e7d18890fb5dd53f5b5e0328b8709578c5734b6a009f8f05de136",
+    "PHASE6C_DFM": "7d42b9585228f2f54bd300d896674a0cd882ef4a9f9e3722940c3810df53335c",
+    "PRODUCTION_ENSEMBLE": "89ba71eae1731a1c8e4d83aa1bde79b4a0fb7d91afad6398a62916ae1eb27f76",
+    "UMIDAS_USD": "200869a4672afe9673df00f5f4be4065f1b50c4b177dab7be92450cd9f7249e0"
+  },
+  "promotion_input_manifest": "results/operations/update_20261005_114925_44219a53/current_state_manifest.json",
+  "holdout_origins": 12,
+  "holdout_quarters": 4,
+  "development_weights_frozen": {
+    "dfm": 0.5438822544881572,
+    "umidas": 0.4561177455118428
+  },
+  "historical_predictor_availability": "REGISTRY_LAG_PSEUDO_REAL_TIME; incomplete historical observed release vintages",
+  "current_release_rule": "observed retrieval/release plus frozen calendar horizon mask",
+  "protocol": "Re-estimate at each permissible update; news holds old parameters fixed and reports refitting separately",
+  "promoted_at_as_of": "2026-10-05T11:54:48.927036+00:00",
+  "git_commit": "fe252655d79648c8af3132f3c1d635db3bdd2253",
+  "legacy_original_current_forecast": 7.65689761757519
+}

@@ -1,3 +1,0 @@
-path,type,why_candidate,referenced_by,last_known_phase,safe_to_archive,safe_to_delete,recommended_action
-.tmp/inspect_cbu_archives.py,scratch_script,one-off scratch inspection script,,phase2c,YES,NO,archive (kept in .tmp; already gitignored)
-.tmp/inspect_rosstat.py,scratch_script,one-off scratch inspection script,,phase2c,YES,NO,archive (kept in .tmp; already gitignored)

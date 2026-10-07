@@ -1,0 +1,81 @@
+{
+  "passed": true,
+  "scientific_outputs": [
+    {
+      "file": "audit.csv",
+      "exact": true
+    },
+    {
+      "file": "current_drivers.csv",
+      "exact": true
+    },
+    {
+      "file": "current_nowcast.json",
+      "exact": true
+    },
+    {
+      "file": "data_freshness.csv",
+      "exact": true
+    },
+    {
+      "file": "dfm_loadings.csv",
+      "exact": true
+    },
+    {
+      "file": "dfm_structure.json",
+      "exact": true
+    },
+    {
+      "file": "historical_reproduction.csv",
+      "exact": true
+    },
+    {
+      "file": "leave_one_quarter_out.csv",
+      "exact": true
+    },
+    {
+      "file": "matched_forecasts.csv",
+      "exact": true
+    },
+    {
+      "file": "model_comparison.csv",
+      "exact": true
+    },
+    {
+      "file": "news_decomposition.csv",
+      "exact": true
+    },
+    {
+      "file": "nowcast_revision_history.csv",
+      "exact": true
+    },
+    {
+      "file": "quarter_performance.csv",
+      "exact": true
+    },
+    {
+      "file": "r2_metrics.csv",
+      "exact": true
+    },
+    {
+      "file": "umidas_coefficients.csv",
+      "exact": true
+    },
+    {
+      "file": "umidas_contributions.csv",
+      "exact": true
+    },
+    {
+      "file": "uzbekistan_nowcast_v2.html",
+      "exact": true
+    }
+  ],
+  "forecasts": {
+    "dfm_forecast": 8.301152885464585,
+    "umidas_forecast": 8.060649795767965,
+    "final_forecast": 8.180901340616275
+  },
+  "exclusions": [
+    "Run manifest and policy code namespace/seal hashes only"
+  ]
+}

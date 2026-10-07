@@ -1,4 +1,0 @@
-pypdf==6.19.0
-xlrd==2.0.2
-beautifulsoup4==4.15.0
-fonttools==4.66.1

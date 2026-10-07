@@ -24,17 +24,17 @@ from uznowcast.master import build_monthly,build_quarterly
 from uznowcast.provenance import atomic_parquet,append_table
 from uznowcast.vintages import store_vintages
 from uznowcast.models.data import load_dataset,information_cutoff_for_variable
-from uznowcast.operational.phase5a import generate_nowcasts,detect_target_quarter
-from uznowcast.operational.phase5b import detect_operational_stage
-from uznowcast.shadow.storage import records
+from uznowcast.operational.forecast import generate_nowcasts,detect_target_quarter
+from uznowcast.operational.forecast import detect_operational_stage
+from uznowcast.storage import records
 
 
-SHADOW_MUTABLE={f'results/phase6d/phase6d_{name}' for name in [
+SHADOW_MUTABLE={f'results/operations/prospective/{name}' for name in [
     'run_manifest.json','data_status.csv','prospective_target_registry.csv','realization_registry.csv',
     'revision_history.csv','scored_forecasts.csv','primary_scored_forecasts.csv','prospective_metrics.csv',
     'combination_diagnostics.csv','combination_correlations.csv','research_challenger_registry.csv',
     'report.md','results.md']}
-LEDGER='results/phase6d/phase6d_prospective_forecast_ledger.csv'
+LEDGER='results/operations/prospective/prospective_forecast_ledger.csv'
 
 
 def csv(out,name,rows,columns=None):
@@ -52,7 +52,7 @@ def cutoff(args):
 
 def inventory(root,registry,asof,states=None):
     rows=[];real=real_industry_contract(root,registry)[0]
-    research=pd.read_csv(root/'results/research/phase6a2/phase6a2_provenance.csv')
+    research=pd.read_csv(root/'data/current/predictor_provenance.csv')
     for key in (*ACTIVE,'gdp_real_yoy'):
         row=real if key=='industrial_production' else registry.rows[key]
         path=root/f'data/processed/{key}.parquet';frame=pd.read_parquet(path)
@@ -104,7 +104,7 @@ def production(staged,preview,asof):
 
 
 def shadow_delta(root,preview):
-    withdrawn={read(p)['snapshot_id'] for p in (root/'results/phase6d/withdrawal_records').glob('*.json') if not p.name.endswith('.seal.json')}
+    withdrawn={read(p)['snapshot_id'] for p in (root/'results/operations/prospective/withdrawal_records').glob('*.json') if not p.name.endswith('.seal.json')}
     ledger=pd.read_csv(root/LEDGER)
     previous=ledger.loc[ledger.target_quarter.eq(preview['target']) & ~ledger.snapshot_id.isin(withdrawn)].sort_values('run_timestamp_utc').groupby('model').tail(1)
     values={r['model']:r for r in previous.to_dict('records')}
@@ -159,7 +159,7 @@ def run(args,root=ROOT):
                                 else:
                                     # Recover the archived float representation exactly;
                                     # default CSV parsing can manufacture sub-ULP revisions.
-                                    history=pd.read_csv(root/'results/research/phase6a2/phase6a2_provenance.csv',float_precision='round_trip')
+                                    history=pd.read_csv(root/'data/current/predictor_provenance.csv',float_precision='round_trip')
                                     old=history.loc[history.variable_key.eq(key)&history.selected_for_panel.eq(True)].copy()
                                     old['frequency']='M';old['reference_date']=pd.to_datetime(old.reference_date)
                                 rel='data/operations/shadow_observations.parquet'
@@ -168,7 +168,7 @@ def run(args,root=ROOT):
                             if daily is not None:
                                 daily_rel=f'data/processed/{key}_daily.parquet';source_backups[daily_rel]=(staged/daily_rel).read_bytes()
                             decision_time=asof if args.as_of else pd.Timestamp(datetime.now(timezone.utc))
-                            verified_gdp={r['target_quarter'] for r in records(root/'results/phase6d/realization_records')
+                            verified_gdp={r['target_quarter'] for r in records(root/'results/operations/prospective/realization_records')
                                 if r['event_kind']=='FIRST_RELEASE' and pd.Timestamp(r['ingested_timestamp'])<=decision_time
                                 and pd.Timestamp(r['first_release_date']).date()<decision_time.tz_convert('Asia/Tashkent').date()}
                             accepted,rows,valid=compare(label,old,new,decision_time,gdp=key=='gdp_real_yoy',pos=key=='pos_turnover',verified_gdp=verified_gdp)
@@ -257,16 +257,16 @@ def run(args,root=ROOT):
                 request=dict(cutoff_utc=asof.isoformat(),check=check,historical=False,expected_fingerprint=preview['information_fingerprint'])
                 written=worker(staged,request,'append');appended=True
                 # Existing writer must reproduce the validated preview before promotion.
-                new_rows=read(staged/'results/phase6d/snapshots'/written['appended_snapshot']/'forecasts.json')
+                new_rows=read(staged/'results/operations/prospective/snapshots'/written['appended_snapshot']/'forecasts.json')
                 for row in new_rows:
                     if row['forecast'] is None or abs(row['forecast']-preview['forecasts'][row['model']])>1e-8:raise ValueError('Staged writer/preview forecast mismatch')
                 if not (staged/LEDGER).read_bytes().startswith((root/LEDGER).read_bytes()):raise ValueError('Ledger is not append-only')
                 verify(staged,before['protected_hashes'],allowed=SHADOW_MUTABLE|{LEDGER})
-                for p in (staged/'results/phase6d').rglob('*'):
+                for p in (staged/'results/operations/prospective').rglob('*'):
                     if not p.is_file():continue
                     rel=p.relative_to(staged).as_posix()
                     if not (root/rel).exists() or sha(p)!=sha(root/rel):promotion.append(rel)
-                promotion.append('dashboard/phase6d_shadow_monitor.html')
+                promotion.append('results/diagnostics/prospective_monitor.html')
             elif not duplicate and (args.no_network or historical):
                 # Dry/reproduction runs report eligibility, never backdate or create history.
                 preview['append_note']='Meaningful information change detected; reproduction mode does not append'
@@ -300,8 +300,8 @@ def run(args,root=ROOT):
                 operations_code_hashes={p.name:sha(p) for p in (root/'scripts/operations').glob('*.py')},source_hashes={r['raw_file']:r['sha256'] for r in receipts if r.get('raw_file')},
                 model_specification_hashes=bundle['specification_hashes'],latest_observations={r['variable']:r['latest_usable_month'] for r in source_after},
                 forecasts=preview['forecasts'],production_forecasts=production_rows,information_fingerprint=preview['information_fingerprint'],
-                relationship='Successor current-state evidence to results/reconciliation/current_production_state_manifest.json; never replaces a historical release',
-                reconciliation_manifest_hash=sha(root/'results/reconciliation/current_production_state_manifest.json'),
+                relationship='Successor current-state evidence to results/operations/initial_state_manifest.json; never replaces a historical release',
+                reconciliation_manifest_hash=sha(root/'results/operations/initial_state_manifest.json'),
                 does_not_replace_historical_release=True,historical_release_reproduction=False,publication_ready=False,
                 promoted=bool(actual_promoted),candidate_only=read_only,mode=mode)
             validate_current_manifest(manifest,bundle['specification_hashes'])
@@ -312,8 +312,8 @@ def run(args,root=ROOT):
             if historical:warnings.append('Historical reproduction uses observed retrieval gates and never appends snapshots')
             status='NO_INFORMATION_CHANGE' if duplicate and not changed else 'UPDATE_SUCCESS_WITH_WARNINGS' if warnings else 'UPDATE_SUCCESS'
             if read_only and changed:status='UPDATE_SUCCESS_WITH_WARNINGS';warnings.append('Candidate changes validated only; dry/check mode promoted nothing')
-            current_realization=any(r['event_kind']=='FIRST_RELEASE' and r['target_quarter']==preview['target'] for r in records(root/'results/phase6d/realization_records'))
-            scoring_changed=appended and (staged/'results/phase6d/phase6d_scored_forecasts.csv').exists() and sha(staged/'results/phase6d/phase6d_scored_forecasts.csv')!=before['protected_hashes'].get('results/phase6d/phase6d_scored_forecasts.csv')
+            current_realization=any(r['event_kind']=='FIRST_RELEASE' and r['target_quarter']==preview['target'] for r in records(root/'results/operations/prospective/realization_records'))
+            scoring_changed=appended and (staged/'results/operations/prospective/scored_forecasts.csv').exists() and sha(staged/'results/operations/prospective/scored_forecasts.csv')!=before['protected_hashes'].get('results/operations/prospective/scored_forecasts.csv')
             result=dict(run_id=run_id,timestamp=stamp.isoformat(),cutoff_utc=asof.isoformat(),mode=mode,status=status,
                 target_quarter=preview['target'],horizon=preview['horizon'],operational_stage=preview['stage'],information_fingerprint=preview['information_fingerprint'],
                 snapshot_appended=appended,duplicate_snapshot=preview['duplicate_snapshot'],snapshot_reason='DUPLICATE_INFORMATION_SET' if duplicate else 'DRY_RUN_NO_APPEND' if read_only else 'MEANINGFUL_INFORMATION_CHANGE' if appended else 'DATA_ONLY_NO_APPEND',
@@ -323,7 +323,7 @@ def run(args,root=ROOT):
                 rejected_observations=sum(r['change_type']=='INVALID' for r in changes),
                 GDP_detected_unverified=any('GDP_VALUE_DETECTED_UNVERIFIED' in r['reason'] for r in changes),
                 GDP_realization_verified=current_realization,forecasts_scored=scoring_changed,
-                governance=read(staged/'results/phase6d/phase6d_run_manifest.json').get('governance','INITIALIZED'),warnings=warnings,
+                governance=read(staged/'results/operations/prospective/run_manifest.json').get('governance','INITIALIZED'),warnings=warnings,
                 protected_artifacts_changed_unexpectedly=False,protected_files_checked=len(before['protected_hashes']),tests=read(root/'results/operations/implementation_test_results.json') if (root/'results/operations/implementation_test_results.json').exists() else None)
             write(out/'run_manifest.json',result)
             report(out,result,preview,production_rows,source_after,delta)
@@ -341,6 +341,11 @@ def run(args,root=ROOT):
         write(out/'run_manifest.json',dict(**failure,protected_artifacts_changed_unexpectedly=frozen_changed))
         (out/'update_report.md').write_text('# Update aborted\n\n'+str(exc)+'\n\nRaw source evidence is retained. Inspect any transaction journal before retrying.\n',encoding='utf-8')
     finally:
+        # The staged project contains reproducible runtime projections only.
+        if staged.exists():
+            if not staged.resolve().is_relative_to((root/'data/staging').resolve()):raise ValueError('Unsafe staging cleanup')
+            shutil.rmtree(staged)
+            if not any(staged.parent.iterdir()):staged.parent.rmdir()
         # Even an early failure leaves named, machine-readable reports; empty is not success.
         defaults={'source_status_before.csv':None,'source_status_after.csv':None,'source_receipts.csv':RECEIPT_COLUMNS,
           'data_changes.csv':CHANGE_COLUMNS,'revisions.csv':['variable','period','old_value','new_value','source','retrieval_timestamp','revision_reason_if_available'],

@@ -1,0 +1,14 @@
+{
+  "reason": "Seal the explicit external-data bootstrap, pinned dependencies, package setup and current batch entrypoint; normalize batch line endings",
+  "changed_or_added_files": [
+    "scripts/operations/bootstrap.py",
+    "config/bootstrap_inputs.json",
+    "run_nowcast.bat",
+    "requirements.txt",
+    "requirements-models.txt",
+    "pyproject.toml",
+    "scripts/operations/seal.py"
+  ],
+  "previous_candidate": "candidate_03.json",
+  "new_candidate_sha256": "3f47b46020437664ba7f3f16cdcc4965522fc48b615c93ea402ff81798299ad3"
+}

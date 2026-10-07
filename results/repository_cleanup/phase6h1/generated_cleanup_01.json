@@ -1,0 +1,233 @@
+{
+  "removed_files": 20601,
+  "targets": [
+    {
+      "path": "results/op_tests/o_01573f51",
+      "proof": "scripts/operations/run_tests.py creates disposable pytest roots o_UUID"
+    },
+    {
+      "path": "results/op_tests/o_0629045f",
+      "proof": "scripts/operations/run_tests.py creates disposable pytest roots o_UUID"
+    },
+    {
+      "path": "results/op_tests/o_2019561f",
+      "proof": "scripts/operations/run_tests.py creates disposable pytest roots o_UUID"
+    },
+    {
+      "path": "results/op_tests/o_66e82892",
+      "proof": "scripts/operations/run_tests.py creates disposable pytest roots o_UUID"
+    },
+    {
+      "path": "results/op_tests/o_75cddcb0",
+      "proof": "scripts/operations/run_tests.py creates disposable pytest roots o_UUID"
+    },
+    {
+      "path": "results/op_tests/o_e6b3ef4f",
+      "proof": "scripts/operations/run_tests.py creates disposable pytest roots o_UUID"
+    },
+    {
+      "path": "results/op_tests/o_ec2e6ee9",
+      "proof": "scripts/operations/run_tests.py creates disposable pytest roots o_UUID"
+    },
+    {
+      "path": "results/phase6e/t_0ee7779a",
+      "proof": "scripts/phase6e/tests.py creates disposable pytest roots t_UUID"
+    },
+    {
+      "path": "results/phase6e/t_1d77f2ef",
+      "proof": "scripts/phase6e/tests.py creates disposable pytest roots t_UUID"
+    },
+    {
+      "path": "results/phase6e/t_1f420152",
+      "proof": "scripts/phase6e/tests.py creates disposable pytest roots t_UUID"
+    },
+    {
+      "path": "results/phase6e/t_403ffdd5",
+      "proof": "scripts/phase6e/tests.py creates disposable pytest roots t_UUID"
+    },
+    {
+      "path": "results/phase6e/t_42fa8e69",
+      "proof": "scripts/phase6e/tests.py creates disposable pytest roots t_UUID"
+    },
+    {
+      "path": "results/phase6e/t_6bdaeb6f",
+      "proof": "scripts/phase6e/tests.py creates disposable pytest roots t_UUID"
+    },
+    {
+      "path": "results/phase6e/t_71d678ff",
+      "proof": "scripts/phase6e/tests.py creates disposable pytest roots t_UUID"
+    },
+    {
+      "path": "results/phase6e/t_744119cf",
+      "proof": "scripts/phase6e/tests.py creates disposable pytest roots t_UUID"
+    },
+    {
+      "path": "results/phase6e/t_7b1a5e5b",
+      "proof": "scripts/phase6e/tests.py creates disposable pytest roots t_UUID"
+    },
+    {
+      "path": "results/phase6e/t_7b447a51",
+      "proof": "scripts/phase6e/tests.py creates disposable pytest roots t_UUID"
+    },
+    {
+      "path": "results/phase6e/t_949f88a2",
+      "proof": "scripts/phase6e/tests.py creates disposable pytest roots t_UUID"
+    },
+    {
+      "path": "results/phase6e/t_96af65ef",
+      "proof": "scripts/phase6e/tests.py creates disposable pytest roots t_UUID"
+    },
+    {
+      "path": "results/phase6e/t_aa130d61",
+      "proof": "scripts/phase6e/tests.py creates disposable pytest roots t_UUID"
+    },
+    {
+      "path": "results/phase6e/t_b3971913",
+      "proof": "scripts/phase6e/tests.py creates disposable pytest roots t_UUID"
+    },
+    {
+      "path": "results/phase6e/t_bcd9151a",
+      "proof": "scripts/phase6e/tests.py creates disposable pytest roots t_UUID"
+    },
+    {
+      "path": "results/phase6e/t_e7b484b7",
+      "proof": "scripts/phase6e/tests.py creates disposable pytest roots t_UUID"
+    },
+    {
+      "path": "results/phase6e/t_eeaa53a7",
+      "proof": "scripts/phase6e/tests.py creates disposable pytest roots t_UUID"
+    },
+    {
+      "path": "results/phase6e/t_f3234747",
+      "proof": "scripts/phase6e/tests.py creates disposable pytest roots t_UUID"
+    },
+    {
+      "path": "results/phase6e/t_fe166605",
+      "proof": "scripts/phase6e/tests.py creates disposable pytest roots t_UUID"
+    },
+    {
+      "path": "results/phase6e/t_ffefd07a",
+      "proof": "scripts/phase6e/tests.py creates disposable pytest roots t_UUID"
+    },
+    {
+      "path": "results/phase6d/t_00bf293e",
+      "proof": "Historical pytest workspace; nested test functions and fixture outputs"
+    },
+    {
+      "path": "results/phase6d/t_060fb718",
+      "proof": "Historical pytest workspace; nested test functions and fixture outputs"
+    },
+    {
+      "path": "results/phase6d/t_3e3b240c",
+      "proof": "Historical pytest workspace; nested test functions and fixture outputs"
+    },
+    {
+      "path": "results/phase6d/t_432bd56c",
+      "proof": "Historical pytest workspace; nested test functions and fixture outputs"
+    },
+    {
+      "path": "results/phase6d/t_903ee5c4",
+      "proof": "Historical pytest workspace; nested test functions and fixture outputs"
+    },
+    {
+      "path": "results/phase6d/t_9f2d4028",
+      "proof": "Historical pytest workspace; nested test functions and fixture outputs"
+    },
+    {
+      "path": "results/phase6d/t_fae9a1d5",
+      "proof": "Historical pytest workspace; nested test functions and fixture outputs"
+    },
+    {
+      "path": "results/phase6d/t_ff6277df",
+      "proof": "Historical pytest workspace; nested test functions and fixture outputs"
+    },
+    {
+      "path": "results/phase6c/t_27ad51a0",
+      "proof": "Historical pytest workspace; nested test functions and fixture outputs"
+    },
+    {
+      "path": "results/phase6c/t_46e6bbf9",
+      "proof": "Historical pytest workspace; nested test functions and fixture outputs"
+    },
+    {
+      "path": "results/phase6c/t_50dedbe6",
+      "proof": "Historical pytest workspace; nested test functions and fixture outputs"
+    },
+    {
+      "path": "results/phase6c/t_5a571517",
+      "proof": "Historical pytest workspace; nested test functions and fixture outputs"
+    },
+    {
+      "path": "results/phase6c/t_7c6c1a15",
+      "proof": "Historical pytest workspace; nested test functions and fixture outputs"
+    },
+    {
+      "path": "results/phase6c/t_8c319e71",
+      "proof": "Historical pytest workspace; nested test functions and fixture outputs"
+    },
+    {
+      "path": "results/phase6c/t_c4f1f12e",
+      "proof": "Historical pytest workspace; nested test functions and fixture outputs"
+    },
+    {
+      "path": "results/phase6c/test_workspace_8bf0cf203e164ebc9310756b93d90db7",
+      "proof": "Historical pytest collection workspaces"
+    },
+    {
+      "path": "results/phase6c/test_workspace_dfd4a7426a2a464b99cc36f2ffb8f4c3",
+      "proof": "Historical pytest collection workspaces"
+    },
+    {
+      "path": "results/phase6c/pytest-cache-files-6pmifj01",
+      "proof": "pytest cache"
+    },
+    {
+      "path": "results/phase6c/pytest-cache-files-9cwgs6gb",
+      "proof": "pytest cache"
+    },
+    {
+      "path": "results/phase6c/pytest-cache-files-b8v14r2k",
+      "proof": "pytest cache"
+    },
+    {
+      "path": "results/phase6c/pytest-cache-files-w5569raz",
+      "proof": "pytest cache"
+    },
+    {
+      "path": "data/t/2fe44b26",
+      "proof": "Current validate_current temporary test roots"
+    },
+    {
+      "path": "results/phase6e/tests",
+      "proof": "Historical pytest reports; constructor saved in audit"
+    },
+    {
+      "path": "results/phase6e/browser_profile",
+      "proof": "Chromium temporary screenshot profile; Last Version/Crashpad cache markers"
+    },
+    {
+      "path": "results/phase6e/rerun",
+      "proof": "Deterministic rerun artifacts; compare scientific files with old_baseline"
+    },
+    {
+      "path": "results/phase6c/repository_test_tmp",
+      "proof": "Historical pytest workspace"
+    },
+    {
+      "path": "results/phase6f/test_tmp",
+      "proof": "Historical pytest workspace"
+    },
+    {
+      "path": "results/phase6g5/pytest_tmp_final",
+      "proof": "Historical pytest workspace"
+    },
+    {
+      "path": "results/reconciliation/validation_workspaces",
+      "proof": "Historical pytest collection workspaces"
+    },
+    {
+      "path": "results/research/phase6b2/test_tmp_models",
+      "proof": "Historical pytest models workspace"
+    }
+  ]
+}

@@ -44,12 +44,8 @@ def reviewed_pos(root,row,asof):
                 clean_model_field=row['clean_model_field'],quality_flag='',is_preliminary=None))
     frame=pd.DataFrame(rows).sort_values('reference_period')
     if frame.reference_period.duplicated().any():raise ValueError('Ambiguous reviewed POS periods')
-    # Execute the existing pure transformation verbatim, without running the old research builder.
-    source_path=root/'scripts/research/phase6a2/build.py'
-    node=next(n for n in ast.parse(source_path.read_text(encoding='utf-8')).body if isinstance(n,ast.FunctionDef) and n.name=='safe_flows')
-    namespace={'pd':pd,'np':np}
-    exec(compile(ast.Module(body=[node],type_ignores=[]),str(source_path),'exec'),namespace)
-    flow,yoy,_,decisions=namespace['safe_flows'](frame)
+    from uznowcast.transforms.vintage_flows import safe_flows
+    flow,yoy,_,decisions=safe_flows(frame)
     index=pd.PeriodIndex(frame.reference_period,freq='M')
     frame['monthly_flow']=flow.reindex(index).to_numpy();frame['clean_value']=yoy.reindex(index).to_numpy()
     frame.loc[frame.clean_value.isna(),'quality_flag']='missing_growth_input;reviewed_same_vintage_POS'

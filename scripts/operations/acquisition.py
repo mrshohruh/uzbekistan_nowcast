@@ -76,13 +76,9 @@ class OperationsDownloader(Downloader):
 
 def real_industry_contract(root, registry):
     """Pin the already-approved SIAT 577 descriptor from actual archived receipts."""
-    urls=set()
-    for logfile in (root/'results/research/phase6a2').glob('phase6a2_fetch_log*.json'):
-        for receipt in read(logfile):
-            if '/sdmx/577/table/download/' in receipt.get('source_url',''):urls.add(receipt['source_url'])
-    if len(urls)!=1:raise ValueError('Approved SIAT 577 descriptor receipt not unique')
+    approved_url=read(root/'config/industry_source.json')['approved_descriptor_url']
     row=dict(registry.rows['industrial_production'],native_indicator_dataset_id='1.02.01.0004',
-        machine_download_url=urls.pop(),native_frequency='Monthly',raw_unit='Percent',
+        machine_download_url=approved_url,native_frequency='Monthly',raw_unit='Percent',
         row_field_selector='Code=1700 AND Klassifikator_en=Republic of Uzbekistan',rule_codes=['PUBLISHED_REAL_INDEX_MINUS_100'],
         required_transformation='Published real cumulative growth index minus 100; NOT de-cumulated',clean_model_field='industrial_production')
     contract=dict(registry_selector=row['row_field_selector'],registry_unit='Percent',code='1700',label='Republic of Uzbekistan',

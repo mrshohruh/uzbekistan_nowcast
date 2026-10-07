@@ -1,0 +1,22 @@
+[
+  {
+    "source_url": "https://api.siat.stat.uz/sdmx/577/table/download/?download_format=json",
+    "response_url": "https://api.siat.stat.uz/sdmx/577/table/download/?download_format=json",
+    "retrieved_at": "2026-10-02T07:03:10.584604+00:00",
+    "http_status": 200,
+    "content_type": "application/json",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/siat_577/20261002T070310584604Z_25e1a1659bf0.json",
+    "checksum": "d8fb22cfc34d61e496278802cd1970e2c01536e20d01eba9293eb07e714e8d7d"
+  },
+  {
+    "source_url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_577.json",
+    "response_url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_577.json",
+    "retrieved_at": "2026-10-02T07:03:12.139096+00:00",
+    "http_status": 200,
+    "content_type": "application/json",
+    "reused_existing_raw": false,
+    "raw_file_path": "data/raw/research/phase6a2/siat_577/20261002T070312139096Z_c50ca4e3894a.json",
+    "checksum": "ebb3a4ba569a44d726cf7790a616bbcb8e7965f2c775c276165b38e42e13f25c"
+  }
+]

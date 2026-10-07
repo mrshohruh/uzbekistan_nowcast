@@ -1,0 +1,10 @@
+{
+  "reason": "Correct Windows default-codepage corruption introduced during source relocation; restore original UTF-8 report text. No numerical changes.",
+  "changed_files": [
+    "scripts/operations/prospective/monitor.py",
+    "scripts/production/dashboard.py",
+    "scripts/production/run.py"
+  ],
+  "previous_candidate": "candidate_01.json",
+  "new_candidate_sha256": "106ce4841deaa6483a3c89c3600c9be1aa65b89ee4eaa095b7e159e1db3d41b0"
+}

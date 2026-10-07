@@ -1,0 +1,9 @@
+{
+  "reason": "Enforce initial processed/provenance/recovered-data checksums or successful transactional successor hashes at version-check boundaries; staged candidate calculations remain possible before promotion",
+  "changed_files": [
+    "scripts/operations/state.py"
+  ],
+  "previous_seal": "accepted_before_revision_04.json",
+  "previous_acceptance": "acceptance_before_revision_04.json",
+  "new_candidate_sha256": "58ec5c0cf55331789485734e194ff1597d56bffaef491510f9d583a0d85e7367"
+}

@@ -1,6 +1,6 @@
 {
-  "policy": "results/phase6e/phase6e_production_policy.json",
-  "nowcast": "results/phase6e/phase6e_current_nowcast.json",
+  "policy": "results/current/production_policy.json",
+  "nowcast": "results/current/current_nowcast.json",
   "dashboard": "dashboard/uzbekistan_nowcast_v2.html",
-  "rollback": "results/phase5b/phase5b_production_policy.json"
+  "rollback": "results/current/rollback_policy.json"
 }

@@ -1,9 +1,0 @@
-{
-  "phase6b_forecasts.csv": "abe15cce5354e2176d8dd0b16004406418882c3500b5a199db641fda86203879",
-  "phase6b_factor_loadings.csv": "50bc4710ad1e855374021d8e9e7ead5c705ff72bf509667aeabbf89d65651ffa",
-  "phase6b_factor_series.csv": "768623040a434d29f55d5bdb7c95ff95e6791d14a127839b3c367d266b85e113",
-  "phase6b_pca_diagnostics.csv": "50dffe02c04685653dbe78735a7c77c6ff3c7026564e9ed3982674225af0f43b",
-  "phase6b_common_origin_metrics.csv": "3a4654b78737a71b5502feb11a34fbcc5768addfdd4c974f779689e1e47379a1",
-  "phase6b_benchmark_comparison.csv": "128d634cc54f535ac72c2accbe9e8379c94111b282bbe1e401ba44da307f157b",
-  "phase6b_services_break_diagnostics.csv": "fc95b3c39376a8e8456540a40366cbcc88e2a8dcd9130c0b236991b898d2efe2"
-}

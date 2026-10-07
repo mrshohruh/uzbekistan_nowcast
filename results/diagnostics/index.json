@@ -1,9 +1,9 @@
 {
-  "model_comparison": "results/phase6e/phase6e_model_comparison.csv",
-  "drivers": "results/phase6e/phase6e_current_drivers.csv",
-  "loadings": "results/phase6e/phase6e_dfm_loadings.csv",
-  "factor_structure": "results/phase6e/phase6e_dfm_structure.json",
-  "umidas_contributions": "results/phase6e/phase6e_umidas_contributions.csv",
-  "news": "results/phase6e/phase6e_news_decomposition.csv",
-  "validation": "results/repository_cleanup/production_comparison.json"
+  "model_comparison": "results/current/model_comparison.csv",
+  "drivers": "results/current/current_drivers.csv",
+  "loadings": "results/current/dfm_loadings.csv",
+  "factor_structure": "results/current/dfm_structure.json",
+  "umidas_contributions": "results/current/umidas_contributions.csv",
+  "news": "results/current/news_decomposition.csv",
+  "validation": "results/repository_cleanup/phase6h1/scientific_comparison.json"
 }

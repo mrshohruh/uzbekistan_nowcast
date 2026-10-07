@@ -1,6 +1,0 @@
-registry: registry/uzbekistan_nowcasting_v1.1_registry.xlsx
-request_delay_seconds: 0.2
-extreme_log_change_threshold: 50.0
-extreme_flow_ratio_threshold: 3.0
-# FX defaults to the registry Verified start through the current local date.
-# Explicit --fx-start/--fx-end CLI overrides are recorded in the build manifest.

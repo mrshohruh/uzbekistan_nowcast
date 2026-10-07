@@ -1,5 +1,0 @@
-# Phase 6B.2 evidence parsers; model environment remains the frozen Phase 6B stack.
-beautifulsoup4==4.14.3
-pypdf==6.1.1
-soupsieve==2.10
-typing-extensions==4.16.0

@@ -1,7 +1,0 @@
-{
-  "checksum_mismatches": 0,
-  "composite_reference_policy": "JSON path and checksum lists verified as sets; original provenance preserved",
-  "missing_files": 0,
-  "reference_groups": 264,
-  "unique_files_checked": 3346
-}

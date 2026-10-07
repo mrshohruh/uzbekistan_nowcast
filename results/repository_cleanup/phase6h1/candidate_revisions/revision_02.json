@@ -1,0 +1,8 @@
+{
+  "reason": "Normalize immutable Windows receipt paths for relocation; enforce active scientific policy/specification against the current seal",
+  "changed_files": [
+    "scripts/operations/seal.py"
+  ],
+  "previous_candidate": "candidate_02.json",
+  "new_candidate_sha256": "b17b44f52bb7ae8eace6c7f50da1d4558ac5b2379919ffb3a7e656b30fed6b43"
+}

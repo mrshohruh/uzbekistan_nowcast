@@ -20,7 +20,7 @@ U-MIDAS uses three monthly USD/UZS log changes, an intercept, and lagged GDP, wi
 - `tests/`: ingestion, transformations, information boundaries, model calculations, rollback/regression and current production tests.
 - `scripts/maintenance/`: inventory, consolidation audit and production-freeze validation.
 
-Some kernels under `scripts/research/phase6{b2,c,d}/` and historical results remain required by the frozen checksum contracts. Their names do not imply that they are disposable. Compatibility entry points under `scripts/phase6e/` delegate to the production implementation. The cleanup report explains the remaining dependencies. Historical rejected Phase 6F/6G experiments are recoverable from Git; raw source archives and untracked important files are retained.
+The current seal is `config/production_seal.json`, with an explicit acceptance record. Historical kernels and compatibility namespaces are recovered from Git history. Immutable snapshot receipts retain their original paths; `config/provenance_relocations.json` resolves their archived locations without rewriting evidence.
 
 ## Install
 
@@ -33,7 +33,13 @@ python -m venv .venv
 .venv/Scripts/python.exe -m pip install -e . --no-deps
 ```
 
-On Linux/macOS use `.venv/bin/python`. Run commands from the repository root so the `scripts` package is importable. A clean checkout requires bootstrapping the official source data: generated masters, raw archives and metadata are intentionally ignored by Git. Frozen historical replay additionally requires the preserved vintage artifacts listed in the baseline; a checkout alone does not contain all local data.
+On Linux/macOS use `.venv/bin/python`. Run commands from the repository root so the `scripts` package is importable. A clean checkout requires the explicitly listed external data in `config/bootstrap_inputs.json`. Keep a source data repository or bundle with that relative file layout; restore only the listed checksum-verified inputs:
+
+```powershell
+.venv/Scripts/python.exe -m scripts.operations.bootstrap --source-root C:/path/to/preserved-data
+```
+
+This restores intentionally ignored masters, processed observations, metadata and referenced raw evidence. It never copies source code or arbitrary working-tree files. Missing historical source references remain documented as missing. New official downloads use the registry-driven `python -m uznowcast.cli build` pipeline; a fresh download is not a substitute for frozen vintages.
 
 ## Update and run
 
@@ -60,18 +66,13 @@ The source update preserves raw receipts, revisions and vintages, validates stag
 ## Tests and freeze verification
 
 ```powershell
-.venv/Scripts/python.exe -m scripts.maintenance.validate_freeze tests --scope repository
-.venv/Scripts/python.exe -m scripts.maintenance.validate_freeze tests --scope operations
-.venv/Scripts/python.exe -m scripts.maintenance.validate_freeze tests --scope dfm
-.venv/Scripts/python.exe -m scripts.maintenance.validate_freeze tests --scope vintages
+.venv/Scripts/python.exe -X utf8 -m scripts.maintenance.validate_current
 ```
 
-The runner uses UTF-8 on Windows and short temporary workspace paths. Unit tests prohibit network requests. Separate processes isolate the historical bare-module imports. The retained model tests also protect the supported legacy rollback path.
+Tests cover ingestion, transformations, information boundaries, current DFM/U-MIDAS, the accepted seal and transactional operations. The runner uses short Windows temporary paths. Tests prohibit network requests.
 
 ## Outputs
 
-`results/current/index.json` locates the authoritative nowcast, policy and dashboard; `results/diagnostics/index.json` locates model comparisons, factor/driver diagnostics and validation evidence. These are indexes, not copied datasets. Original paths stay stable because immutable snapshots and operational seals reference them.
+`results/current/index.json` locates the authoritative nowcast, policy and dashboard. Scientific diagnostics reside in `results/current/`, and `results/diagnostics/` holds historical validation inputs and optional reproductions. The active dashboard is `dashboard/current/uzbekistan_nowcast.html`; the active nowcast is `results/current/current_nowcast.json`. Operational ledgers, snapshots and receipts reside under `results/operations/`. GDP remains in the quarterly target table.
 
-The active dashboard is `dashboard/current/uzbekistan_nowcast.html`; the active V2 nowcast is `results/phase6e/phase6e_current_nowcast.json`. `results/production/current_nowcast.json` is the preserved legacy V1 release, not the current V2 headline. Processed observations and masters live under `data/processed/` and `data/master/`; provenance lives under `metadata/`.
-
-See `results/repository_cleanup/phase6h_repository_cleanup.md` for the baseline, removals, migrations, remaining frozen dependencies, exact reproduction checks and limitations. Scientific source data must never be removed merely because they are ignored or untracked.
+See `results/repository_cleanup/phase6h1_final_cleanup.md` for the checkpoint, seal migration, exact scientific comparison, removals and clean-checkout validation.

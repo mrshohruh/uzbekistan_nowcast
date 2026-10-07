@@ -1,7 +1,7 @@
 {
   "active_pointer": "results/operations/current_production.json",
-  "nowcast": "results/phase6e/phase6e_current_nowcast.json",
-  "policy": "results/phase6e/phase6e_production_policy.json",
+  "nowcast": "results/current/current_nowcast.json",
+  "policy": "results/current/production_policy.json",
   "dashboard": "dashboard/current/uzbekistan_nowcast.html",
-  "note": "Authoritative files retain their sealed historical paths; this index does not duplicate outputs."
+  "note": "Current authoritative paths; historical immutable receipts resolve through config/provenance_relocations.json."
 }

@@ -1,0 +1,14 @@
+# Preserve immutable evidence and numerical artifacts byte for byte.
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.toml text eol=lf
+*.txt text eol=lf
+*.bat text eol=crlf
+data/** -text
+metadata/** -text
+results/** -text
+dashboard/** -text
+registry/** -text

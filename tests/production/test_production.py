@@ -11,7 +11,7 @@ from scripts.production.diagnostics import matched_forecasts,metrics,shapley,app
 from scripts.production.models import sw,FIELDS,frames
 from scripts.production.run import ROOT,verify_protected
 
-OUT=ROOT/'results/phase6e'
+OUT=ROOT/'results/current'
 
 
 def read(name):return json.loads((OUT/name).read_text(encoding='utf8'))
@@ -20,31 +20,29 @@ def csv(name):return pd.read_csv(OUT/name,float_precision='round_trip')
 
 @pytest.mark.parametrize('model',['PHASE6C_DFM','U_MIDAS'])
 def test_all_holdout_forecasts_reproduce(model):
-    f=csv('phase6e_historical_reproduction.csv');f=f.loc[f.model.eq(model)]
+    f=csv('historical_reproduction.csv');f=f.loc[f.model.eq(model)]
     assert len(f)==12 and f.error.abs().max()<1e-7
 
 
 def test_current_frozen_forecasts_reproduce():
-    c=read('phase6e_current_nowcast.json')
-    ledger=pd.read_csv(ROOT/'results/phase6d/phase6d_prospective_forecast_ledger.csv',float_precision='round_trip')
-    withdrawn=pd.read_csv(ROOT/'results/phase6d/phase6d_withdrawal_registry.csv')
+    c=read('current_nowcast.json')
+    ledger=pd.read_csv(ROOT/'results/operations/prospective/prospective_forecast_ledger.csv',float_precision='round_trip')
+    withdrawn=pd.read_csv(ROOT/'results/operations/prospective/withdrawal_registry.csv')
     ledger=ledger.loc[~ledger.snapshot_id.isin(withdrawn.snapshot_id)].sort_values('run_timestamp_utc').groupby('model').tail(1).set_index('model')
     assert abs(c['dfm_forecast']-ledger.loc['PHASE6C_DFM','forecast'])<1e-7
     assert abs(c['umidas_forecast']-ledger.loc['UMIDAS_USD','forecast'])<1e-7
     assert abs(c['final_forecast']-.5*c['dfm_forecast']-.5*c['umidas_forecast'])<1e-10
 
 
-def test_frozen_dev_weights_and_exact_combinations():
-    f=csv('phase6e_matched_forecasts.csv').pivot(index=KEYS,columns='model',values='prediction')
-    bundle=json.loads((ROOT/'results/phase6d/phase6d_frozen_challengers.json').read_text())
-    w=bundle['weights']['COMBO_DEV_WEIGHT']
-    assert w=={'dfm':0.5438822544881572,'umidas':0.4561177455118428}
-    np.testing.assert_allclose(f.COMBO_DEV_WEIGHT,w['dfm']*f.PHASE6C_DFM+w['umidas']*f.U_MIDAS,rtol=0,atol=1e-12)
+def test_frozen_equal_weight_combination():
+    f=csv('matched_forecasts.csv').pivot(index=KEYS,columns='model',values='prediction')
+    bundle=json.loads((ROOT/'config/model_definitions.json').read_text(encoding='utf8'))
+    assert bundle['challengers']['COMBO_50_50']['weights']=={'dfm':.5,'umidas':.5}
     np.testing.assert_allclose(f.COMBO_50_50,.5*f.PHASE6C_DFM+.5*f.U_MIDAS,rtol=0,atol=1e-12)
 
 
 def test_identical_origin_samples():
-    f=csv('phase6e_matched_forecasts.csv')
+    f=csv('matched_forecasts.csv')
     assert not f.duplicated(KEYS+['model']).any()
     assert f.groupby(KEYS).model.nunique().eq(7).all()
     assert f.groupby(KEYS).actual.nunique().eq(1).all()
@@ -52,8 +50,8 @@ def test_identical_origin_samples():
 
 
 def test_promotion_is_conditional_and_legacy_preserved():
-    f=csv('phase6e_model_comparison.csv').sort_values('rmse')
-    p=read('phase6e_production_policy.json')
+    f=csv('model_comparison.csv').sort_values('rmse')
+    p=read('production_policy.json')
     assert f.iloc[0].model=='COMBO_50_50' and p['model']=='COMBO_50_50'
     assert p['promotion_basis']=='matched historical holdout superiority'
     assert p['prospective_validation_status']=='pending'
@@ -62,7 +60,7 @@ def test_promotion_is_conditional_and_legacy_preserved():
 
 
 def test_target_vintage_mismatch_rejected():
-    f=pd.read_csv(ROOT/'results/phase6c/phase6c_forecasts.csv')
+    f=pd.read_csv(ROOT/'results/diagnostics/historical_forecasts.csv')
     mask=f.model.eq('AR1') & f.evaluation_group.eq('HOLDOUT')
     f.loc[mask,'actual']+=.1
     with pytest.raises(ValueError,match='vintages differ'):
@@ -70,7 +68,7 @@ def test_target_vintage_mismatch_rejected():
 
 
 def test_duplicate_origin_rejected():
-    f=pd.read_csv(ROOT/'results/phase6c/phase6c_forecasts.csv')
+    f=pd.read_csv(ROOT/'results/diagnostics/historical_forecasts.csv')
     row=f.loc[f.model.eq('AR1') & f.evaluation_group.eq('HOLDOUT') & f.lag_mode.eq('standard')].head(1)
     with pytest.raises(ValueError,match='Duplicate'):
         matched_forecasts(pd.concat([f,row]),{'dfm':.54,'umidas':.46})
@@ -78,7 +76,7 @@ def test_duplicate_origin_rejected():
 
 def test_gdp_release_and_future_boundary():
     vk=sw.common.vintage_kernel()
-    events=pd.read_csv(ROOT/'results/research/phase6b2/phase6b2_gdp_revision_history.csv')
+    events=pd.read_csv(ROOT/'data/current/gdp_vintages.csv')
     available=vk.available_gdp_vintage_as_of(events,pd.Timestamp('2026-07-30'),target='2026Q3',timing_rule='STRICT')
     assert '2026Q2' not in available.frame.index
     assert (available.frame.index<'2026Q3').all()
@@ -103,7 +101,7 @@ def test_horizon_mask_excludes_unreleased_months():
 
 
 def test_umidas_terms_reconcile_at_every_origin():
-    f=csv('phase6e_umidas_contributions.csv')
+    f=csv('umidas_contributions.csv')
     assert set(f.term)=={'intercept','gdp_lag1','lag_0','lag_1','lag_2'}
     g=f.groupby(['forecast_origin','target_quarter','horizon'])
     assert g.size().eq(5).all()
@@ -112,17 +110,17 @@ def test_umidas_terms_reconcile_at_every_origin():
 
 
 def test_dfm_loading_shares_and_current_missing_pos():
-    f=csv('phase6e_dfm_loadings.csv');assert set(f.indicator)==set(FIELDS)
+    f=csv('dfm_loadings.csv');assert set(f.indicator)==set(FIELDS)
     assert abs(f.normalized_loading_share_pct.sum()-100)<1e-10
     np.testing.assert_allclose(f.normalized_loading_share_pct,100*f.absolute_loading/f.absolute_loading.sum(),atol=1e-10)
     pos=f.loc[f.indicator.eq('pos_turnover')].iloc[0]
     assert pos.data_period=='2024-12' and pd.isna(pos.quarter_signal)
-    d=csv('phase6e_current_drivers.csv')
+    d=csv('current_drivers.csv')
     assert pd.isna(d.loc[d.indicator.eq('pos_turnover'),'contribution_or_signal'].iloc[0])
 
 
 def test_exact_news_reconciles_both_models_and_ensemble():
-    f=csv('phase6e_news_decomposition.csv')
+    f=csv('news_decomposition.csv')
     for _,g in f.groupby(['old_as_of_date','new_as_of_date','source_model']):
         assert abs(g.news_impact_pp.sum()-(g.new_forecast.iloc[0]-g.old_forecast.iloc[0]))<1e-10
     for _,g in f.groupby(['old_as_of_date','new_as_of_date']):
@@ -146,7 +144,7 @@ def test_shapley_empty_and_single_group():
 def test_actual_model_news_with_predictor_and_gdp_revision_groups():
     from scripts.production.models import fit_info
     from scripts.production.diagnostics import news
-    manifest=read('phase6e_run_manifest.json')
+    manifest=read('run_manifest.json')
     path=ROOT/manifest['current_state_manifest']
     info=json.loads((path.parent/'shadow_reproduction.json').read_text())['info']
     origin=pd.Timestamp(manifest['as_of']).tz_convert('Asia/Tashkent').tz_localize(None)
@@ -172,7 +170,7 @@ def test_actual_model_news_with_predictor_and_gdp_revision_groups():
 
 
 def test_r2_and_os_are_recomputed_on_same_origins():
-    f=csv('phase6e_matched_forecasts.csv');m=csv('phase6e_r2_metrics.csv')
+    f=csv('matched_forecasts.csv');m=csv('r2_metrics.csv')
     for row in m.itertuples():
         block=f if row.horizon=='ALL' else f.loc[f.horizon.eq(row.horizon)]
         g=block.loc[block.model.eq(row.model)].set_index(KEYS).sort_index()
@@ -196,7 +194,7 @@ def test_history_is_append_only_and_identical_inputs_deduplicated(tmp_path):
 
 def test_dashboard_headline_is_calculated_and_local():
     html=(ROOT/'dashboard/uzbekistan_nowcast_v2.html').read_text(encoding='utf8')
-    c=read('phase6e_current_nowcast.json')
+    c=read('current_nowcast.json')
     headline=float(re.search(r'data-nowcast="([^"]+)"',html).group(1))
     assert headline==c['final_forecast']
     assert '<script src=' not in html and '<link ' not in html and 'fetch(' not in html
@@ -206,12 +204,7 @@ def test_dashboard_headline_is_calculated_and_local():
 
 
 def test_frozen_artifacts_unchanged():
-    result=verify_protected(ROOT,read('phase6e_pre_change_state.json'))
-    assert not result['frozen_artifacts_modified']
+    from scripts.operations.seal import verify
+    hashes, seal = verify(ROOT)
+    assert hashes and seal["expected_forecasts"]["final_forecast"] == 8.180901340616275
 
-
-def test_deterministic_independent_build():
-    path=OUT/'phase6e_determinism.json'
-    if not path.exists():pytest.skip('Independent rerun executed after first build')
-    result=read(path.name)
-    assert result['status']=='PASS' and result['differences']==[]

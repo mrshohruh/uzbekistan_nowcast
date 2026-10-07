@@ -1,0 +1,144 @@
+{
+  "archive": {
+    "files": 0,
+    "examples": [],
+    "errors": []
+  },
+  "challengers": {
+    "files": 0,
+    "examples": [],
+    "errors": []
+  },
+  "cleanup": {
+    "files": 0,
+    "examples": [],
+    "errors": []
+  },
+  "op_tests": {
+    "files": 15720,
+    "examples": [
+      "results/op_tests/o_01573f51/test_concurr39f68891/root/a",
+      "results/op_tests/o_01573f51/test_concurr39f68891/stage/a",
+      "results/op_tests/o_01573f51/test_existind54834a9/data/raw/cbu/usd_uzs/20261005T112555577018Z_2ede6d65b1ca48378df34d6a7a3075ef.json",
+      "results/op_tests/o_01573f51/test_existind54834a9/data/raw/cbu/usd_uzs/20261005T112555577018Z_2ede6d65b1ca48378df34d6a7a3075ef.payload"
+    ],
+    "errors": []
+  },
+  "phase5b": {
+    "files": 0,
+    "examples": [],
+    "errors": []
+  },
+  "phase5b1": {
+    "files": 0,
+    "examples": [],
+    "errors": []
+  },
+  "phase5b2": {
+    "files": 0,
+    "examples": [],
+    "errors": []
+  },
+  "phase6c": {
+    "files": 11,
+    "examples": [
+      "results/phase6c/test_workspace_8bf0cf203e164ebc9310756b93d90db7/test_collect_vintage_always_re9237f4b3/metadata/vintage_collection_latest.json",
+      "results/phase6c/test_workspace_8bf0cf203e164ebc9310756b93d90db7/test_collect_vintage_always_re9237f4b3/metadata/vintage_runs/9dabf621e7cf423981f1effb5e594292.json",
+      "results/phase6c/test_workspace_8bf0cf203e164ebc9310756b93d90db7/test_collect_vintage_produces_cff54fa6/metadata/download_log.parquet",
+      "results/phase6c/test_workspace_8bf0cf203e164ebc9310756b93d90db7/test_collect_vintage_produces_cff54fa6/metadata/observations_long.parquet"
+    ],
+    "errors": [
+      "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\results\\\\phase6c\\\\pytest-cache-files-6pmifj01'",
+      "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\results\\\\phase6c\\\\pytest-cache-files-9cwgs6gb'",
+      "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\results\\\\phase6c\\\\pytest-cache-files-b8v14r2k'",
+      "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\results\\\\phase6c\\\\pytest-cache-files-w5569raz'",
+      "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\results\\\\phase6c\\\\repository_test_tmp'"
+    ]
+  },
+  "phase6d": {
+    "files": 76,
+    "examples": [
+      "results/phase6d/t_3e3b240c/test_collect3fccc0b1/metadata/vintage_collection_latest.json",
+      "results/phase6d/t_3e3b240c/test_collect3fccc0b1/metadata/vintage_runs/ebc3a460fb5b47669c8c12fa35056cac.json",
+      "results/phase6d/t_3e3b240c/test_collect74809c1d/metadata/download_log.parquet",
+      "results/phase6d/t_3e3b240c/test_collect74809c1d/metadata/observations_long.parquet"
+    ],
+    "errors": []
+  },
+  "phase6e": {
+    "files": 4128,
+    "examples": [
+      "results/phase6e/phase6e_pipeline.log",
+      "results/phase6e/browser_profile/CrashpadMetrics-active.pma",
+      "results/phase6e/browser_profile/CrashpadMetrics.pma",
+      "results/phase6e/browser_profile/Last Version"
+    ],
+    "errors": []
+  },
+  "phase6f": {
+    "files": 0,
+    "examples": [],
+    "errors": [
+      "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\results\\\\phase6f\\\\test_tmp'"
+    ]
+  },
+  "phase6g": {
+    "files": 0,
+    "examples": [],
+    "errors": []
+  },
+  "phase6g1": {
+    "files": 0,
+    "examples": [],
+    "errors": []
+  },
+  "phase6g2": {
+    "files": 0,
+    "examples": [],
+    "errors": []
+  },
+  "phase6g3": {
+    "files": 0,
+    "examples": [],
+    "errors": []
+  },
+  "phase6g5": {
+    "files": 0,
+    "examples": [],
+    "errors": [
+      "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\results\\\\phase6g5\\\\pytest_tmp_final'"
+    ]
+  },
+  "production": {
+    "files": 0,
+    "examples": [],
+    "errors": []
+  },
+  "reconciliation": {
+    "files": 38,
+    "examples": [
+      "results/reconciliation/validation_workspaces/t_5ebcab01/test_collect4a92f8b7/metadata/download_log.parquet",
+      "results/reconciliation/validation_workspaces/t_5ebcab01/test_collect4a92f8b7/metadata/observations_long.parquet",
+      "results/reconciliation/validation_workspaces/t_5ebcab01/test_collect4a92f8b7/metadata/vintages.parquet",
+      "results/reconciliation/validation_workspaces/t_5ebcab01/test_collect4a92f8b7/metadata/vintage_collection_latest.json"
+    ],
+    "errors": []
+  },
+  "research": {
+    "files": 14,
+    "examples": [
+      "results/research/phase6b2/evidence/0ba6374371d3051c3750.pdf",
+      "results/research/phase6b2/evidence/117bcee322cfaef39629.pdf",
+      "results/research/phase6b2/evidence/40213b344e8ab0cb19e6.pdf",
+      "results/research/phase6b2/evidence/458e2f05d55dc5fdc11c.pdf"
+    ],
+    "errors": [
+      "[WinError 5] Access is denied: 'C:\\\\Users\\\\Sh.Nishonqulov\\\\Desktop\\\\uzbekistan_nowcast_codex_starter\\\\results\\\\research\\\\phase6b2\\\\test_tmp_models'"
+    ]
+  },
+  "shadow": {
+    "files": 0,
+    "examples": [],
+    "errors": []
+  }
+}

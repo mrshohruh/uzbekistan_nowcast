@@ -1,5 +1,0 @@
-model,input_keys,input_status_map,model_input_green_count,model_input_amber_count,model_input_red_count,model_input_data_not_all_green
-ar1,gdp_real_yoy,"{""gdp_real_yoy"": ""GREEN""}",1,0,0,False
-ar2,gdp_real_yoy,"{""gdp_real_yoy"": ""GREEN""}",1,0,0,False
-umidas_usd_uzs_mom_dlog,gdp_real_yoy|usd_uzs,"{""gdp_real_yoy"": ""GREEN"", ""usd_uzs"": ""AMBER""}",1,1,0,True
-ensemble_ar2_umidas_usd,gdp_real_yoy|usd_uzs,"{""gdp_real_yoy"": ""GREEN"", ""usd_uzs"": ""AMBER""}",1,1,0,True

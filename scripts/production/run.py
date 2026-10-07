@@ -1,4 +1,4 @@
-"""Run with .venv/Scripts/python.exe -m scripts.phase6e.run (no network required)."""
+"""Run with .venv/Scripts/python.exe -m scripts.production.run (no network required)."""
 from __future__ import annotations
 import argparse
 from datetime import datetime, timezone
@@ -25,7 +25,7 @@ LOG=logging.getLogger('phase6e')
 
 
 def csv(out,name,frame):
-    pd.DataFrame(frame).to_csv(out/f'phase6e_{name}.csv',index=False,float_format='%.17g')
+    pd.DataFrame(frame).to_csv(out/f'{name}.csv',index=False,float_format='%.17g')
 
 
 def direction(value):
@@ -50,7 +50,7 @@ def verify_protected(root,before):
     # Current inputs and supported Phase 6D operational views can evolve through
     # the existing transactional updater. Immutable snapshots remain protected.
     from scripts.operations.run_update import SHADOW_MUTABLE, LEDGER
-    allowed.update(SHADOW_MUTABLE | {LEDGER,'dashboard/phase6d_shadow_monitor.html'})
+    allowed.update(SHADOW_MUTABLE | {LEDGER,'results/diagnostics/prospective_monitor.html'})
     dynamic=('data/master/','metadata/')
     changed=[p for p,h in before['hashes'].items() if p not in allowed and not p.startswith(dynamic) and
              (not (root/p).is_file() or sha(root/p)!=h)]
@@ -60,25 +60,14 @@ def verify_protected(root,before):
 
 
 def baseline(root):
-    """Capture starting evidence once; current input identity is checked every run."""
-    path=root/'results/phase6e/phase6e_pre_change_state.json'
-    if path.exists():return read(path)
-    hashes={}
-    for base in ['results','scripts/research','dashboard','data/master','metadata','src','config','registry']:
-        for parent,dirs,files in os.walk(root/base):
-            dirs[:]=[d for d in dirs if not d.startswith(('t_','test_','_pytest','__pycache__','.pytest','_vendor','op_tests','phase6e','implementation_tests'))]
-            for name in files:
-                p=Path(parent)/name
-                if p.is_file():hashes[p.relative_to(root).as_posix()]=sha(p)
-    before=dict(hashes=hashes,git_status=subprocess.check_output(['git','status','--porcelain'],cwd=root,text=True),
-                git_commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=root,text=True).strip())
-    write(path,before);return before
+    paths,_=model_lock(root)
+    return dict(hashes=paths,git_commit=read(root/'config/production_seal.json')['migration_checkpoint'])
 
 
 def historical_reproduction(root,f,out):
     dataset=load_dataset(root)
-    panel=pd.read_csv(root/'results/phase6c/phase6c_research_monthly_panel.csv',index_col='date',parse_dates=True,float_precision='round_trip')
-    events=pd.read_csv(root/'results/research/phase6b2/phase6b2_gdp_revision_history.csv')
+    panel=pd.read_csv(root/'data/current/historical_panel.csv',index_col='date',parse_dates=True,float_precision='round_trip')
+    events=pd.read_csv(root/'data/current/gdp_vintages.csv')
     vk=sw.common.vintage_kernel()
     rows=[];terms=[]
     for keys,block in f.groupby(['target_quarter','horizon']):
@@ -139,14 +128,14 @@ def interpret(root,fit,info,origin,bundle):
 
 
 def snapshot_news(root,info,origin,fit,bundle):
-    ledger=pd.read_csv(root/'results/phase6d/phase6d_prospective_forecast_ledger.csv',float_precision='round_trip')
-    withdrawals=pd.read_csv(root/'results/phase6d/phase6d_withdrawal_registry.csv')
+    ledger=pd.read_csv(root/'results/operations/prospective/prospective_forecast_ledger.csv',float_precision='round_trip')
+    withdrawals=pd.read_csv(root/'results/operations/prospective/withdrawal_registry.csv')
     snapshots=ledger.loc[ledger.model.eq('COMBO_50_50') & ledger.target_quarter.eq(info['target']) &
                          ~ledger.snapshot_id.isin(withdrawals.snapshot_id)].sort_values('run_timestamp_utc')
     entries=[]
     for row in snapshots.to_dict('records'):
         if pd.Timestamp(row['information_cutoff'])>pd.Timestamp(origin).tz_localize('Asia/Tashkent').tz_convert('UTC'):continue
-        path=root/'results/phase6d/snapshots'/row['snapshot_id']
+        path=root/'results/operations/prospective/snapshots'/row['snapshot_id']
         saved=read(path/'inputs.json')
         if 'benchmark_monthly' not in saved:continue
         timestamp=pd.Timestamp(row['information_cutoff']).tz_convert('Asia/Tashkent').tz_localize(None)
@@ -165,8 +154,8 @@ def snapshot_news(root,info,origin,fit,bundle):
 
 
 def build(root=ROOT,out=None,publish=True):
-    out=Path(out) if out else root/'results/phase6e';out.mkdir(parents=True,exist_ok=True)
-    handler=logging.FileHandler(out/'phase6e_pipeline.log',encoding='utf8');LOG.addHandler(handler);LOG.setLevel(logging.INFO)
+    out=Path(out) if out else root/'results/current';out.mkdir(parents=True,exist_ok=True)
+    handler=logging.FileHandler(out/'pipeline.log',encoding='utf8');LOG.addHandler(handler);LOG.setLevel(logging.INFO)
     try:
         configuration(root)
         paths,bundle=model_lock(root)
@@ -186,13 +175,13 @@ def build(root=ROOT,out=None,publish=True):
         fit=fit_info(info,root,origin)
         for key,value in [('PHASE6C_DFM',fit['dfm']),('UMIDAS_USD',fit['umidas']),('COMBO_50_50',fit['final'])]:
             if abs(value-preview['forecasts'][key])>=1e-10:raise ValueError('Actual model reconstruction failed: '+key)
-        ledger=pd.read_csv(root/'results/phase6d/phase6d_prospective_forecast_ledger.csv',float_precision='round_trip')
+        ledger=pd.read_csv(root/'results/operations/prospective/prospective_forecast_ledger.csv',float_precision='round_trip')
         frozen=ledger.loc[ledger.snapshot_id.eq(preview['duplicate_snapshot'])]
         if len(frozen):
             for row in frozen.to_dict('records'):
                 if row['forecast_status']!='FAILED' and abs(preview['forecasts'][row['model']]-row['forecast'])>1e-7:
                     raise ValueError('Frozen current reproduction materially differs: '+row['model'])
-        forecasts=pd.read_csv(root/'results/phase6c/phase6c_forecasts.csv',float_precision='round_trip')
+        forecasts=pd.read_csv(root/'results/diagnostics/historical_forecasts.csv',float_precision='round_trip')
         weights=bundle['weights']['COMBO_DEV_WEIGHT']
         matched=matched_forecasts(forecasts,weights)
         if len(matched)!=12*7:raise ValueError('Expected complete 12-origin, seven-model holdout comparison')
@@ -203,7 +192,7 @@ def build(root=ROOT,out=None,publish=True):
         status='PHASE6E_PROMOTED' if promote else 'PHASE6E_PROMOTION_BLOCKED'
         historical_terms=historical_reproduction(root,matched,out)
         # Development and holdout U-MIDAS designs are extracted at every frozen successful origin.
-        dataset=load_dataset(root);events=pd.read_csv(root/'results/research/phase6b2/phase6b2_gdp_revision_history.csv')
+        dataset=load_dataset(root);events=pd.read_csv(root/'data/current/gdp_vintages.csv')
         from dataclasses import replace
         for row in forecasts.loc[forecasts.model.eq('UMIDAS_USD') & forecasts.prediction.notna() & forecasts.evaluation_group.eq('DEVELOPMENT')].to_dict('records'):
             if row['lag_mode']!='standard' or row['timing_rule']!='STRICT':continue
@@ -244,9 +233,9 @@ def build(root=ROOT,out=None,publish=True):
                     status=status,dfm_model=SPEC_NAME,dfm_weight=.5,umidas_weight=.5,
                     promotion_basis='matched historical holdout superiority',prospective_validation_status='pending',
                     prospective_realizations_at_promotion=0,legacy_model_preserved=True,rollback_available=True,
-                    rollback_pointer='results/phase5b/phase5b_production_policy.json',legacy_model='LEGACY_PRODUCTION_V1',
+                    rollback_pointer='results/current/rollback_policy.json',legacy_model='LEGACY_PRODUCTION_V1',
                     legacy_entrypoint='python -m scripts.operations.run_update --run-nowcast --no-network',
-                    update_entrypoint='python -m scripts.phase6e.update',best_matched_candidate=best,
+                    update_entrypoint='python -m scripts.production.update',best_matched_candidate=best,
                     specification_hashes=bundle['specification_hashes'],promotion_input_manifest=manifest_path.relative_to(root).as_posix(),
                     holdout_origins=12,holdout_quarters=4,development_weights_frozen=weights,
                     historical_predictor_availability='REGISTRY_LAG_PSEUDO_REAL_TIME; incomplete historical observed release vintages',
@@ -273,11 +262,11 @@ def build(root=ROOT,out=None,publish=True):
                                   'Only four holdout quarters; equal and development weights perform nearly identically'])
         current['target_convention']='Published cumulative year-to-date real GDP YoY percent; volume index minus 100'
         # Respect any registered prospective outcomes; never overwrite evidence with a fixed claim.
-        realized=pd.read_csv(root/'results/phase6d/phase6d_realization_registry.csv')
+        realized=pd.read_csv(root/'results/operations/prospective/realization_registry.csv')
         n=realized.target_quarter.nunique() if len(realized) else 0
         policy['prospective_realizations_at_promotion']=n;current['prospective_realizations']=n
-        write(out/'phase6e_production_policy.json',policy);write(out/'phase6e_current_nowcast.json',current)
-        write(out/'phase6e_dfm_structure.json',sw.common.safe(dict(factor_ar_coefficients={k:v for k,v in fit['dfit']['parameters'].items() if k.startswith('L')},
+        write(out/'production_policy.json',policy);write(out/'current_nowcast.json',current)
+        write(out/'dfm_structure.json',sw.common.safe(dict(factor_ar_coefficients={k:v for k,v in fit['dfit']['parameters'].items() if k.startswith('L')},
                   bridge_coefficients=dict(zip(['intercept','factor_mean','gdp_lag1'],fit['dfit']['bridge_coef'])),
                   factor_states=fit['dfit']['factors'].reset_index().to_dict('records'),diagnostics=fit['dfit']['diagnostics'])))
         freshness=pd.DataFrame(preview['data_status']);freshness['status']=freshness.apply(lambda r:'MISSING' if pd.isna(r.latest_usable_month) else 'LAGGED' if r.months_stale>0 else 'PARTIAL' if r.missing_recent else 'CURRENT',axis=1)
@@ -288,7 +277,7 @@ def build(root=ROOT,out=None,publish=True):
                   release_update_date=gd.publication_date,status='CURRENT',latest_observation=fit['available'].frame.index[-1],
                   warning='Published quarterly YTD real GDP growth; remains quarterly')])],ignore_index=True)
         csv(out,'data_freshness',freshness)
-        history,appended=append_history(out/'phase6e_nowcast_revision_history.csv',dict(as_of_date=now.isoformat(),target_quarter=info['target'],horizon=info['horizon'],
+        history,appended=append_history(out/'nowcast_revision_history.csv',dict(as_of_date=now.isoformat(),target_quarter=info['target'],horizon=info['horizon'],
                     production_model=policy['model'],DFM_forecast=fit['dfm'],UMIDAS_forecast=fit['umidas'],final_forecast=current['final_forecast'],
                     input_data_fingerprint=preview['information_fingerprint'],change_from_previous=None))
         from scripts.production.dashboard import render
@@ -304,12 +293,12 @@ def build(root=ROOT,out=None,publish=True):
             if not backup.exists():backup.write_bytes(pointer.read_bytes())
             if promote:
                 pointer.write_text(html,encoding='utf8')
-                write(root/'results/operations/current_production.json',dict(policy='results/phase6e/phase6e_production_policy.json',
-                      nowcast='results/phase6e/phase6e_current_nowcast.json',dashboard='dashboard/uzbekistan_nowcast_v2.html',rollback=policy['rollback_pointer']))
+                write(root/'results/operations/current_production.json',dict(policy='results/current/production_policy.json',
+                      nowcast='results/current/current_nowcast.json',dashboard='dashboard/uzbekistan_nowcast_v2.html',rollback=policy['rollback_pointer']))
         report(current,policy,comparison,drivers,news_frame,scores,protected,out)
-        outputs={p.name:sha(p) for p in out.glob('phase6e_*') if p.suffix in {'.csv','.json','.md'} and p.name not in
-                 {'phase6e_run_manifest.json','phase6e_pre_change_state.json','phase6e_test_results.json','phase6e_determinism.json'}}
-        write(out/'phase6e_run_manifest.json',dict(status=status,current_state_manifest=manifest_path.relative_to(root).as_posix(),
+        outputs={p.name:sha(p) for p in out.glob('*') if p.suffix in {'.csv','.json','.md'} and p.name not in
+                 {'run_manifest.json','pre_change_state.json','test_results.json','determinism.json'}}
+        write(out/'run_manifest.json',dict(status=status,current_state_manifest=manifest_path.relative_to(root).as_posix(),
               information_fingerprint=preview['information_fingerprint'],as_of=now.isoformat(),git_commit=before['git_commit'],
               protected=protected,input_hashes=paths,current_input_hashes=per_run_inputs,outputs=outputs,dashboard_sha256=sha(dashboard),
               code_hashes={p.relative_to(root).as_posix():sha(p) for p in (root/'scripts/production').glob('*.py')}))
@@ -320,7 +309,7 @@ def build(root=ROOT,out=None,publish=True):
 
 
 def report(current,policy,comparison,drivers,news_frame,scores,protected,out):
-    validation_path=ROOT/'results/phase6e/phase6e_test_results.json'
+    validation_path=ROOT/'results/current/test_results.json'
     validation=read(validation_path) if validation_path.exists() else None
     validation_text=(f"Tests: {validation['passed']} passed; {validation['failures']+validation['errors']} failed; {validation['skipped']} skipped. "
                      "The remaining legacy failures and pre-Phase-6E evidence are documented in validation_evidence.json.") if validation else 'Validation is recorded after the first build.'
@@ -371,20 +360,20 @@ R² and R²_OS versus AR(1) use exactly matched origins at H1/H2/H3 and pooled; 
 
 ## Operations and rollback
 
-Run `python -m scripts.phase6e.run` to reproduce the latest committed information set without network calls.
-Run `python -m scripts.phase6e.update` to refresh official sources using the existing transactional pipeline, then rebuild V2.
+Run `python -m scripts.production.run` to reproduce the latest committed information set without network calls.
+Run `python -m scripts.production.update` to refresh official sources using the existing transactional pipeline, then rebuild V2.
 Legacy model, policy, entry point and dashboards remain available. Rollback pointer: {policy['rollback_pointer']}.
 The legacy recipe comparison uses the common STRICT documented GDP information set. Its current forecast is therefore distinct from the original
 operational master-based legacy result ({legacy}); that original result and its pipeline remain preserved.
 The default current dashboard is V2 after successful promotion. A byte-preserved legacy current dashboard is stored alongside these results.
 The append-only revision ledger suppresses repeated fingerprints and identical nowcasts.
 
-Frozen artifacts modified: NO; {protected['checked']} protected paths checked. Existing dirty repository state is preserved in phase6e_pre_change_state.json.
-Tests and second-run verification are recorded in phase6e_test_results.json and phase6e_determinism.json after validation.
+Frozen artifacts modified: NO; {protected['checked']} protected paths checked. Existing dirty repository state is preserved in pre_change_state.json.
+Tests and second-run verification are recorded in test_results.json and determinism.json after validation.
 {validation_text}
 The dashboard was also rendered from its local file in headless Chrome; dashboard_preview.png records the visual check.
 '''
-    (out/'phase6e_results.md').write_text(text,encoding='utf8')
+    (out/'results.md').write_text(text,encoding='utf8')
 
 
 def main():

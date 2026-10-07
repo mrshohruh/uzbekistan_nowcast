@@ -12,10 +12,7 @@ ROOT=Path(__file__).resolve().parents[2]
 sys.dont_write_bytecode=True
 sys.path.insert(0,str(ROOT))
 sys.path.insert(0,str(ROOT/'src'))
-sys.path.insert(0,str(ROOT/'scripts/research/phase6d'))
-import common
-import inputs as input_module
-import monitor
+from scripts.operations.prospective import common, inputs as input_module, monitor
 from uznowcast.models.data import information_cutoff_for_variable
 from scripts.operations.state import read, write, sha
 
@@ -55,14 +52,14 @@ def fingerprint(info,bundle,stage):
 
 
 def prepare(now,check,calculate=True):
-    bundle=read(common.OUT/'phase6d_frozen_challengers.json')
+    bundle=read(ROOT/'config/model_definitions.json')
     target=monitor.select_target(check['latest_quarter'],now)
     horizon,nominal,stage,on_time=monitor.context(target,now)
     origin=now.tz_convert('Asia/Tashkent').tz_localize(None)
     panel,dataset,provenance=adapted_inputs(now)
     cutoff=information_cutoff_for_variable(nominal,'usd_uzs',dataset.release_lag_days,'standard')
     dataset.monthly.loc[dataset.monthly.index>cutoff,'usd_uzs_mom_dlog']=np.nan
-    events=pd.read_csv(ROOT/'results/research/phase6b2/phase6b2_gdp_revision_history.csv')
+    events=pd.read_csv(ROOT/'data/current/gdp_vintages.csv')
     events=events.loc[pd.to_datetime(events.retrieved_at,utc=True).le(now)]
     for r in common.records(common.OUT/'realization_records'):
         if pd.Timestamp(r['ingested_timestamp'])>now:continue

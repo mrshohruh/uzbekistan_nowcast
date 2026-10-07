@@ -29,22 +29,17 @@ def write(path, value):
 
 
 def model_lock(root):
-    bundle = read(root/'results/phase6d/phase6d_frozen_challengers.json')
-    paths = {**bundle['code_hashes'], **bundle['source_artifact_hashes'], **bundle['static_specification_hashes']}
-    paths['results/phase6d/phase6d_frozen_challengers.json'] = sha(root/'results/phase6d/phase6d_frozen_challengers.json')
-    inventory = pd.read_csv(root/'results/phase5b1/phase5b1_code_hash_inventory.csv')
-    for row in inventory.to_dict('records'):
-        if row['file_path'].startswith(('src/', 'config/')):
-            paths[row['file_path']] = row['sha256']
-    for rel, expected in paths.items():
-        if sha(root/rel) != expected:
-            raise ValueError('Frozen code/specification mismatch: '+rel)
+    from scripts.operations.seal import verify
+    paths,seal=verify(root)
+    bundle=read(root/'config/model_definitions.json')
+    bundle['code_hashes']={p:h for p,h in paths.items() if p.endswith('.py')}
+    bundle['static_specification_hashes']={'registry/uzbekistan_nowcasting_v1.2_registry.xlsx':sha(root/'registry/uzbekistan_nowcasting_v1.2_registry.xlsx')}
     return paths, bundle
 
 
 def protected(root):
     paths, _ = model_lock(root)
-    for directory in ['results/production', 'results/phase5b1', 'results/phase6c', 'results/phase6d']:
+    for directory in ['results/current', 'results/operations/prospective']:
         for parent, dirs, files in os.walk(root/directory):
             dirs[:] = [d for d in dirs if not d.startswith(('t_', 'test_', '_pytest', '__pycache__', '.pytest'))]
             for name in files:
@@ -61,8 +56,8 @@ def verify(root, expected, allowed=()):
 def preflight(root):
     frozen, bundle = model_lock(root)
     paths=['registry/uzbekistan_nowcasting_v1.2_registry.xlsx','data/master/v1_monthly.parquet','data/master/gdp_quarterly.parquet',
-           'results/phase6d/phase6d_prospective_forecast_ledger.csv','results/phase6d/phase6d_realization_registry.csv',
-           'results/phase6d/phase6d_withdrawal_registry.csv']
+           'results/operations/prospective/prospective_forecast_ledger.csv','results/operations/prospective/realization_registry.csv',
+           'results/operations/prospective/withdrawal_registry.csv']
     current={p.relative_to(root).as_posix():sha(p) for directory in ['data/master','data/processed','metadata','data/operations']
              for p in (root/directory).glob('*') if p.is_file() and p.suffix in {'.parquet','.xlsx'}}
     return dict(timestamp=datetime.now(timezone.utc).isoformat(),current_data_hashes=current,
@@ -163,7 +158,21 @@ def verify_current_version(root):
     if candidates:
         state=max(candidates,key=lambda s:s['timestamp_utc']);expected=state['master_hashes']
     else:
-        previous=read(root/'results/reconciliation/current_production_state_manifest.json')
+        previous=read(root/'results/operations/initial_state_manifest.json')
         expected=dict(monthly=previous['input_hashes']['monthly_master_hash'],quarterly=previous['input_hashes']['quarterly_master_hash'])
     for kind,name in [('monthly','v1_monthly'),('quarterly','gdp_quarterly')]:
         if sha(root/f'data/master/{name}.parquet')!=expected[kind]:raise ValueError('Unrecognized current master version: '+kind+'; reconcile before operations')
+
+    seal_path=root/'config/production_seal.json'
+    if seal_path.exists():
+        initial=read(seal_path)['initial_input_hashes']
+        inputs={p:h for p,h in initial.items() if p.startswith(('data/master/','data/processed/','data/operations/','data/current/','metadata/'))}
+        relocations=read(root/'config/provenance_relocations.json')
+        # Only committed, successful transaction manifests authorize successors.
+        for successor in sorted(candidates,key=lambda s:s['timestamp_utc']):
+            for path,h in successor.get('promoted_hashes',{}).items():
+                relative=path.replace('\\','/')
+                relative=relocations.get(relative,relative)
+                if relative in inputs:inputs[relative]=h
+        changed=[p for p,h in inputs.items() if not (root/p).is_file() or sha(root/p)!=h]
+        if changed:raise ValueError('Unrecognized current input version: '+', '.join(changed)+'; reconcile before operations')

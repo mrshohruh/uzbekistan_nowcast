@@ -24,13 +24,13 @@ The seal checks active policy/specification hashes and rejects code changes. Ver
 
 ## Consolidation and removals
 
-Maintained Python files fell from 189 after Phase 6H to 102. The removal manifest records 34259 unique paths (34259 audit rows), covering {'F: research-only': 149, 'G: generated/staging': 31871, 'D: historical checksum/evidence-only': 2230, 'E: compatibility-only': 9}.
+Maintained Python files fell from 189 after Phase 6H to 99. The removal manifest records 34262 unique paths (34262 audit rows), covering {'F: research-only': 149, 'G: generated/staging': 31871, 'D: historical checksum/evidence-only': 2230, 'E: compatibility-only': 9}.
 
 The phase6e compatibility namespace, historical research kernels, phase-named model/operational implementations, old shadow package, development evaluators and their tests are removed. Reusable numerical functions now live in `uznowcast.models.dfm`, `uznowcast.gdp_vintages`, `uznowcast.transforms.vintage_flows`, `uznowcast.operational.forecast`, and current operational/production modules. Content-addressed historical code objects survive solely as immutable snapshot provenance; they are neither imported nor copied as an active namespace.
 
 Staging uses only an explicit sealed runtime/input projection, and the updater removes its staged project after validation. Historical pytest fixture trees and browser caches were inventoried individually, checked against required source evidence, and removed. Automatic review initially rejected a broad directory cleanup; the replacement was approved after exact file inventories, saved test constructors, unchanged-file guards, and 17 exact rerun-copy comparisons established its scope.
 
-Root stale state/start documents, one-time registry builders and old logs were removed; README, operations instructions, package setup, registry/specification and batch entrypoint remain current.
+Root stale state/start documents, one-time registry builders, obsolete fixture/pilot replay launchers and old logs were removed; README, operations instructions, package setup, registry/specification and batch entrypoint remain current.
 
 ## Data and provenance
 

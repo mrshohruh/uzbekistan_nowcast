@@ -27,3 +27,6 @@ data/t/
 .h61-checkout/
 data/bootstrap_bundle/
 results/repository_cleanup/test_tmp/
+
+# Raw source-check payloads are restored by the explicit bootstrap manifest.
+results/operations/prospective/source_checks/*.payload

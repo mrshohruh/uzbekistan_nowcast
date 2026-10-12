@@ -1,0 +1,70 @@
+{
+  "checks": [
+    {
+      "tab": "model_comparison",
+      "nonempty": true
+    },
+    {
+      "tab": "horizon_metrics",
+      "nonempty": true
+    },
+    {
+      "tab": "historical_predictions",
+      "nonempty": true
+    },
+    {
+      "tab": "candidate_history",
+      "nonempty": true
+    },
+    {
+      "tab": "correlations",
+      "nonempty": true
+    },
+    {
+      "tab": "factor_loadings",
+      "nonempty": true
+    },
+    {
+      "tab": "factor_signals",
+      "nonempty": true
+    },
+    {
+      "tab": "factor_stability",
+      "nonempty": true
+    },
+    {
+      "tab": "robustness",
+      "nonempty": true
+    },
+    {
+      "tab": "sample_controls",
+      "nonempty": true
+    },
+    {
+      "tab": "current_nowcasts",
+      "nonempty": true
+    },
+    {
+      "tab": "predictor_inventory",
+      "nonempty": true
+    },
+    {
+      "tab": "data_audit",
+      "nonempty": true
+    },
+    {
+      "tab": "passports",
+      "nonempty": true
+    },
+    {
+      "tab": "summary",
+      "nonempty": true
+    }
+  ],
+  "candidate": "R1",
+  "horizon": "H2",
+  "svg_count": 1,
+  "table": true,
+  "exit_code": 0,
+  "passed": true
+}

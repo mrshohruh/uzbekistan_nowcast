@@ -1,0 +1,38 @@
+{
+  "pytest_exit_code": 0,
+  "deterministic_refits": [
+    {
+      "indicator": "retail_trade",
+      "prediction_equal": true,
+      "factors_equal": true,
+      "loadings_equal": true,
+      "status": "DETERMINISTIC_ESTIMABLE"
+    },
+    {
+      "indicator": "construction",
+      "prediction_equal": true,
+      "factors_equal": true,
+      "loadings_equal": true,
+      "status": "DETERMINISTIC_NON_ESTIMABLE",
+      "reason": "nonconvergence_or_unstable_transition:{\"n_training_months\": 54, \"n_observed_cells\": 468, \"n_missing_cells\": 18, \"iterations\": 500, \"relative_likelihood_change\": 1.5426684083857965e-05, \"converged\": false, \"log_likelihood\": -603.4183316151771, \"n_states\": 2, \"warnings\": \"EM reached maximum number of iterations (500), without achieving convergence: llf=-603.43, convergence criterion=1.5427e-05 (while specified tolerance was 1e-05)\", \"estimator\": \"DynamicFactorMQ_EM_MLE\", \"factor_source\": \"FILTERED_ONE_SIDED\", \"estimation_start\": \"2022-01-31\", \"spectral_radius\": 0.7535649864261742, \"transition\": \"[[0.9499187251918227, -0.14796530248766449], [1.0, 0.0]]\", \"bic\": 1290.605328208204, \"aic\": 1248.8366632303541}"
+    },
+    {
+      "indicator": "imports_total",
+      "prediction_equal": true,
+      "factors_equal": true,
+      "loadings_equal": true,
+      "status": "DETERMINISTIC_NON_ESTIMABLE",
+      "reason": "nonconvergence_or_unstable_transition:{\"n_training_months\": 54, \"n_observed_cells\": 468, \"n_missing_cells\": 18, \"iterations\": 500, \"relative_likelihood_change\": 1.5444559334478815e-05, \"converged\": false, \"log_likelihood\": -606.3026394002065, \"n_states\": 2, \"warnings\": \"EM reached maximum number of iterations (500), without achieving convergence: llf=-606.31, convergence criterion=1.5445e-05 (while specified tolerance was 1e-05)\", \"estimator\": \"DynamicFactorMQ_EM_MLE\", \"factor_source\": \"FILTERED_ONE_SIDED\", \"estimation_start\": \"2022-01-31\", \"spectral_radius\": 0.751729633691964, \"transition\": \"[[0.951941995758473, -0.15050556559685974], [1.0, 0.0]]\", \"bic\": 1296.3739437782629, \"aic\": 1254.605278800413}"
+    },
+    {
+      "indicator": "retail_cpi_approx",
+      "prediction_equal": true,
+      "factors_equal": true,
+      "loadings_equal": true,
+      "status": "DETERMINISTIC_NON_ESTIMABLE",
+      "reason": "nonconvergence_or_unstable_transition:{\"n_training_months\": 55, \"n_observed_cells\": 477, \"n_missing_cells\": 18, \"iterations\": 500, \"relative_likelihood_change\": 1.4618184528430745e-05, \"converged\": false, \"log_likelihood\": -616.3717872904336, \"n_states\": 2, \"warnings\": \"EM reached maximum number of iterations (500), without achieving convergence: llf=-616.38, convergence criterion=1.4618e-05 (while specified tolerance was 1e-05)\", \"estimator\": \"DynamicFactorMQ_EM_MLE\", \"factor_source\": \"FILTERED_ONE_SIDED\", \"estimation_start\": \"2021-12-31\", \"spectral_radius\": 0.7721392401676744, \"transition\": \"[[0.925945536252306, -0.11875987659179177], [1.0, 0.0]]\", \"bic\": 1316.8975714707492, \"aic\": 1274.7435745808673}"
+    }
+  ],
+  "protected_files_changed": [],
+  "protected_files_unchanged": true
+}

@@ -1,0 +1,5 @@
+indicator,n,linear_slope_per_month,trend_correlation,seasonal_mean_range,units
+radiance,152,0.0033381008038036748,0.8513937408167578,0.12578075661538463,original unverified measurement units; descriptive only
+NDVI,152,3.040566707160349e-05,0.04313122765978357,0.09072308784615385,original unverified measurement units; descriptive only
+EVI,152,2.5565288979899695e-05,0.04456063384129672,0.07146049861538462,original unverified measurement units; descriptive only
+NO2,99,2.7657018074148166e-08,0.19601352542205258,9.684504624537117e-06,original unverified measurement units; descriptive only

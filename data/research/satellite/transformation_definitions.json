@@ -1,0 +1,10 @@
+{
+  "NTL_YOY": "100 ln(radiance_t/radiance_t-12), positive pairs only",
+  "NO2_YOY": "100 ln(NO2_t/NO2_t-12), positive pairs only",
+  "NDVI_YOY_DIFF": "NDVI_t-NDVI_t-12",
+  "EVI_YOY_DIFF": "EVI_t-EVI_t-12",
+  "NTL_SEASONAL_DIFF": "radiance_t-radiance_t-12",
+  "seasonal_anomaly": "level minus expanding same-calendar-month mean of strictly earlier years, >=3 prior measurements",
+  "availability": "reference month end plus lag calendar months; hypothetical, not observed publication",
+  "winsorization": "R3 only: training-window 1%/99% satellite thresholds"
+}

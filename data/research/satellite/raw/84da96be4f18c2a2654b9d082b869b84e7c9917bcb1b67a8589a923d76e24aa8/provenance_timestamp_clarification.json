@@ -1,0 +1,6 @@
+{
+  "supersedes_sha256": "2956b58203cb19b38fd2684035ba04c914d8ce91944a5e695f925444560e7b33",
+  "clarification": "The original archived_at field records provenance-document creation time, not the first creation time of the byte archive. It must not be used as source publication or first retrieval time.",
+  "provenance_recorded_at": "2026-10-12T06:11:31.784759+00:00",
+  "source_release_date": null
+}

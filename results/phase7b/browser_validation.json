@@ -1,0 +1,11 @@
+{
+  "model": "S3",
+  "horizon": "H2",
+  "scenario": "ASSUMED_LAG_3M",
+  "svg_count": 10,
+  "current_contains_S3": true,
+  "comparison_contains_S3": true,
+  "exit_code": 0,
+  "screenshot": true,
+  "passed": true
+}

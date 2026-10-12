@@ -1,0 +1,263 @@
+INFO:phase7b:Verified data: {'radiance': 152, 'NDVI': 152, 'EVI': 152, 'NO2': 99}; historical origins 45
+INFO:phase7b:Completed 2024Q1 H1 REVISED_DATA_EXPLORATORY
+INFO:phase7b:Completed 2024Q1 H1 ASSUMED_LAG_1M
+INFO:phase7b:Completed 2024Q1 H1 ASSUMED_LAG_2M
+INFO:phase7b:Completed 2024Q1 H1 ASSUMED_LAG_3M
+INFO:phase7b:Completed 2024Q1 H2 REVISED_DATA_EXPLORATORY
+INFO:phase7b:Completed 2024Q1 H2 ASSUMED_LAG_1M
+INFO:phase7b:Completed 2024Q1 H2 ASSUMED_LAG_2M
+INFO:phase7b:Completed 2024Q1 H2 ASSUMED_LAG_3M
+INFO:phase7b:Completed 2024Q1 H3 REVISED_DATA_EXPLORATORY
+INFO:phase7b:Completed 2024Q1 H3 ASSUMED_LAG_1M
+INFO:phase7b:Completed 2024Q1 H3 ASSUMED_LAG_2M
+INFO:phase7b:Completed 2024Q1 H3 ASSUMED_LAG_3M
+INFO:phase7b:Completed 2024Q2 H1 REVISED_DATA_EXPLORATORY
+INFO:phase7b:Completed 2024Q2 H1 ASSUMED_LAG_1M
+INFO:phase7b:Completed 2024Q2 H1 ASSUMED_LAG_2M
+INFO:phase7b:Completed 2024Q2 H1 ASSUMED_LAG_3M
+INFO:phase7b:Completed 2024Q2 H2 REVISED_DATA_EXPLORATORY
+INFO:phase7b:Completed 2024Q2 H2 ASSUMED_LAG_1M
+INFO:phase7b:Completed 2024Q2 H2 ASSUMED_LAG_2M
+INFO:phase7b:Completed 2024Q2 H2 ASSUMED_LAG_3M
+INFO:phase7b:Completed 2024Q2 H3 REVISED_DATA_EXPLORATORY
+INFO:phase7b:Completed 2024Q2 H3 ASSUMED_LAG_1M
+INFO:phase7b:Completed 2024Q2 H3 ASSUMED_LAG_2M
+INFO:phase7b:Completed 2024Q2 H3 ASSUMED_LAG_3M
+INFO:phase7b:Completed 2024Q3 H1 REVISED_DATA_EXPLORATORY
+INFO:phase7b:Completed 2024Q3 H1 ASSUMED_LAG_1M
+INFO:phase7b:Completed 2024Q3 H1 ASSUMED_LAG_2M
+INFO:phase7b:Completed 2024Q3 H1 ASSUMED_LAG_3M
+INFO:phase7b:Completed 2024Q3 H2 REVISED_DATA_EXPLORATORY
+INFO:phase7b:Completed 2024Q3 H2 ASSUMED_LAG_1M
+INFO:phase7b:Completed 2024Q3 H2 ASSUMED_LAG_2M
+INFO:phase7b:Completed 2024Q3 H2 ASSUMED_LAG_3M
+INFO:phase7b:Completed 2024Q3 H3 REVISED_DATA_EXPLORATORY
+INFO:phase7b:Completed 2024Q3 H3 ASSUMED_LAG_1M
+INFO:phase7b:Completed 2024Q3 H3 ASSUMED_LAG_2M
+INFO:phase7b:Completed 2024Q3 H3 ASSUMED_LAG_3M
+INFO:phase7b:Completed 2024Q4 H1 REVISED_DATA_EXPLORATORY
+INFO:phase7b:Completed 2024Q4 H1 ASSUMED_LAG_1M
+INFO:phase7b:Completed 2024Q4 H1 ASSUMED_LAG_2M
+INFO:phase7b:Completed 2024Q4 H1 ASSUMED_LAG_3M
+INFO:phase7b:Completed 2024Q4 H2 REVISED_DATA_EXPLORATORY
+INFO:phase7b:Completed 2024Q4 H2 ASSUMED_LAG_1M
+INFO:phase7b:Completed 2024Q4 H2 ASSUMED_LAG_2M
+INFO:phase7b:Completed 2024Q4 H2 ASSUMED_LAG_3M
+INFO:phase7b:Completed 2024Q4 H3 REVISED_DATA_EXPLORATORY
+INFO:phase7b:Completed 2024Q4 H3 ASSUMED_LAG_1M
+INFO:phase7b:Completed 2024Q4 H3 ASSUMED_LAG_2M
+INFO:phase7b:Completed 2024Q4 H3 ASSUMED_LAG_3M
+INFO:phase7b:Completed 2025Q1 H1 REVISED_DATA_EXPLORATORY
+INFO:phase7b:Completed 2025Q1 H1 ASSUMED_LAG_1M
+INFO:phase7b:Completed 2025Q1 H1 ASSUMED_LAG_2M
+INFO:phase7b:Completed 2025Q1 H1 ASSUMED_LAG_3M
+INFO:phase7b:Completed 2025Q1 H2 REVISED_DATA_EXPLORATORY
+INFO:phase7b:Completed 2025Q1 H2 ASSUMED_LAG_1M
+INFO:phase7b:Completed 2025Q1 H2 ASSUMED_LAG_2M
+INFO:phase7b:Completed 2025Q1 H2 ASSUMED_LAG_3M
+INFO:phase7b:Completed 2025Q1 H3 REVISED_DATA_EXPLORATORY
+INFO:phase7b:Completed 2025Q1 H3 ASSUMED_LAG_1M
+INFO:phase7b:Completed 2025Q1 H3 ASSUMED_LAG_2M
+INFO:phase7b:Completed 2025Q1 H3 ASSUMED_LAG_3M
+INFO:phase7b:Completed 2025Q2 H1 REVISED_DATA_EXPLORATORY
+INFO:phase7b:Completed 2025Q2 H1 ASSUMED_LAG_1M
+INFO:phase7b:Completed 2025Q2 H1 ASSUMED_LAG_2M
+INFO:phase7b:Completed 2025Q2 H1 ASSUMED_LAG_3M
+INFO:phase7b:Completed 2025Q2 H2 REVISED_DATA_EXPLORATORY
+INFO:phase7b:Completed 2025Q2 H2 ASSUMED_LAG_1M
+INFO:phase7b:Completed 2025Q2 H2 ASSUMED_LAG_2M
+INFO:phase7b:Completed 2025Q2 H2 ASSUMED_LAG_3M
+INFO:phase7b:Completed 2025Q2 H3 REVISED_DATA_EXPLORATORY
+INFO:phase7b:Completed 2025Q2 H3 ASSUMED_LAG_1M
+INFO:phase7b:Completed 2025Q2 H3 ASSUMED_LAG_2M
+INFO:phase7b:Completed 2025Q2 H3 ASSUMED_LAG_3M
+INFO:phase7b:Completed 2025Q3 H1 REVISED_DATA_EXPLORATORY
+INFO:phase7b:Completed 2025Q3 H1 ASSUMED_LAG_1M
+INFO:phase7b:Completed 2025Q3 H1 ASSUMED_LAG_2M
+INFO:phase7b:Completed 2025Q3 H1 ASSUMED_LAG_3M
+INFO:phase7b:Completed 2025Q3 H2 REVISED_DATA_EXPLORATORY
+INFO:phase7b:Completed 2025Q3 H2 ASSUMED_LAG_1M
+INFO:phase7b:Completed 2025Q3 H2 ASSUMED_LAG_2M
+INFO:phase7b:Completed 2025Q3 H2 ASSUMED_LAG_3M
+INFO:phase7b:Completed 2025Q3 H3 REVISED_DATA_EXPLORATORY
+INFO:phase7b:Completed 2025Q3 H3 ASSUMED_LAG_1M
+INFO:phase7b:Completed 2025Q3 H3 ASSUMED_LAG_2M
+INFO:phase7b:Completed 2025Q3 H3 ASSUMED_LAG_3M
+INFO:phase7b:Completed 2025Q4 H1 REVISED_DATA_EXPLORATORY
+INFO:phase7b:Completed 2025Q4 H1 ASSUMED_LAG_1M
+INFO:phase7b:Completed 2025Q4 H1 ASSUMED_LAG_2M
+INFO:phase7b:Completed 2025Q4 H1 ASSUMED_LAG_3M
+INFO:phase7b:Completed 2025Q4 H2 REVISED_DATA_EXPLORATORY
+INFO:phase7b:Completed 2025Q4 H2 ASSUMED_LAG_1M
+INFO:phase7b:Completed 2025Q4 H2 ASSUMED_LAG_2M
+INFO:phase7b:Completed 2025Q4 H2 ASSUMED_LAG_3M
+INFO:phase7b:Completed 2025Q4 H3 REVISED_DATA_EXPLORATORY
+INFO:phase7b:Completed 2025Q4 H3 ASSUMED_LAG_1M
+INFO:phase7b:Completed 2025Q4 H3 ASSUMED_LAG_2M
+INFO:phase7b:Completed 2025Q4 H3 ASSUMED_LAG_3M
+INFO:phase7b:Completed 2026Q1 H1 REVISED_DATA_EXPLORATORY
+INFO:phase7b:Completed 2026Q1 H1 ASSUMED_LAG_1M
+INFO:phase7b:Completed 2026Q1 H1 ASSUMED_LAG_2M
+INFO:phase7b:2026Q1 H1 ASSUMED_LAG_3M S5: nonconvergence_or_unstable_transition:{"n_training_months": 79, "n_observed_cells": 773, "n_missing_
+INFO:phase7b:Completed 2026Q1 H1 ASSUMED_LAG_3M
+INFO:phase7b:Completed 2026Q1 H2 REVISED_DATA_EXPLORATORY
+INFO:phase7b:Completed 2026Q1 H2 ASSUMED_LAG_1M
+INFO:phase7b:Completed 2026Q1 H2 ASSUMED_LAG_2M
+INFO:phase7b:2026Q1 H2 ASSUMED_LAG_3M S5: nonconvergence_or_unstable_transition:{"n_training_months": 79, "n_observed_cells": 776, "n_missing_
+INFO:phase7b:Completed 2026Q1 H2 ASSUMED_LAG_3M
+INFO:phase7b:Completed 2026Q1 H3 REVISED_DATA_EXPLORATORY
+INFO:phase7b:Completed 2026Q1 H3 ASSUMED_LAG_1M
+INFO:phase7b:Completed 2026Q1 H3 ASSUMED_LAG_2M
+INFO:phase7b:Completed 2026Q1 H3 ASSUMED_LAG_3M
+INFO:phase7b:Completed 2026Q2 H1 REVISED_DATA_EXPLORATORY
+INFO:phase7b:Completed 2026Q2 H1 ASSUMED_LAG_1M
+INFO:phase7b:Completed 2026Q2 H1 ASSUMED_LAG_2M
+INFO:phase7b:Completed 2026Q2 H1 ASSUMED_LAG_3M
+INFO:phase7b:Completed 2026Q2 H2 REVISED_DATA_EXPLORATORY
+INFO:phase7b:Completed 2026Q2 H2 ASSUMED_LAG_1M
+INFO:phase7b:Completed 2026Q2 H2 ASSUMED_LAG_2M
+INFO:phase7b:Completed 2026Q2 H2 ASSUMED_LAG_3M
+INFO:phase7b:Completed 2026Q2 H3 REVISED_DATA_EXPLORATORY
+INFO:phase7b:Completed 2026Q2 H3 ASSUMED_LAG_1M
+INFO:phase7b:Completed 2026Q2 H3 ASSUMED_LAG_2M
+INFO:phase7b:Completed 2026Q2 H3 ASSUMED_LAG_3M
+INFO:phase7b:2022Q3 H1 REVISED_DATA_EXPLORATORY R2: nonconvergence_or_unstable_transition:{"n_training_months": 42, "n_observed_cells": 377, "n_missing_
+INFO:phase7b:Completed 2022Q3 H1 REVISED_DATA_EXPLORATORY
+INFO:phase7b:Completed 2022Q3 H1 ASSUMED_LAG_1M
+INFO:phase7b:Completed 2022Q3 H1 ASSUMED_LAG_2M
+INFO:phase7b:Completed 2022Q3 H1 ASSUMED_LAG_3M
+INFO:phase7b:2022Q3 H2 REVISED_DATA_EXPLORATORY R2: nonconvergence_or_unstable_transition:{"n_training_months": 42, "n_observed_cells": 378, "n_missing_
+INFO:phase7b:Completed 2022Q3 H2 REVISED_DATA_EXPLORATORY
+INFO:phase7b:Completed 2022Q3 H2 ASSUMED_LAG_1M
+INFO:phase7b:Completed 2022Q3 H2 ASSUMED_LAG_2M
+INFO:phase7b:Completed 2022Q3 H2 ASSUMED_LAG_3M
+INFO:phase7b:2022Q3 H3 REVISED_DATA_EXPLORATORY R2: nonconvergence_or_unstable_transition:{"n_training_months": 42, "n_observed_cells": 378, "n_missing_
+INFO:phase7b:Completed 2022Q3 H3 REVISED_DATA_EXPLORATORY
+INFO:phase7b:Completed 2022Q3 H3 ASSUMED_LAG_1M
+INFO:phase7b:Completed 2022Q3 H3 ASSUMED_LAG_2M
+INFO:phase7b:Completed 2022Q3 H3 ASSUMED_LAG_3M
+INFO:phase7b:2023Q1 H1 REVISED_DATA_EXPLORATORY S3: nonconvergence_or_unstable_transition:{"n_training_months": 43, "n_observed_cells": 386, "n_missing_
+INFO:phase7b:2023Q1 H1 REVISED_DATA_EXPLORATORY S5: Independent S1/S3 not estimable
+INFO:phase7b:Completed 2023Q1 H1 REVISED_DATA_EXPLORATORY
+INFO:phase7b:2023Q1 H1 ASSUMED_LAG_1M S3: nonconvergence_or_unstable_transition:{"n_training_months": 43, "n_observed_cells": 386, "n_missing_
+INFO:phase7b:2023Q1 H1 ASSUMED_LAG_1M S5: Independent S1/S3 not estimable
+INFO:phase7b:Completed 2023Q1 H1 ASSUMED_LAG_1M
+INFO:phase7b:2023Q1 H1 ASSUMED_LAG_2M S3: nonconvergence_or_unstable_transition:{"n_training_months": 43, "n_observed_cells": 385, "n_missing_
+INFO:phase7b:2023Q1 H1 ASSUMED_LAG_2M S5: Independent S1/S3 not estimable
+INFO:phase7b:Completed 2023Q1 H1 ASSUMED_LAG_2M
+INFO:phase7b:2023Q1 H1 ASSUMED_LAG_3M S3: nonconvergence_or_unstable_transition:{"n_training_months": 43, "n_observed_cells": 384, "n_missing_
+INFO:phase7b:2023Q1 H1 ASSUMED_LAG_3M S5: Independent S1/S3 not estimable
+INFO:phase7b:Completed 2023Q1 H1 ASSUMED_LAG_3M
+INFO:phase7b:2023Q1 H2 REVISED_DATA_EXPLORATORY S3: nonconvergence_or_unstable_transition:{"n_training_months": 43, "n_observed_cells": 387, "n_missing_
+INFO:phase7b:2023Q1 H2 REVISED_DATA_EXPLORATORY S5: Independent S1/S3 not estimable
+INFO:phase7b:Completed 2023Q1 H2 REVISED_DATA_EXPLORATORY
+INFO:phase7b:2023Q1 H2 ASSUMED_LAG_1M S3: nonconvergence_or_unstable_transition:{"n_training_months": 43, "n_observed_cells": 387, "n_missing_
+INFO:phase7b:2023Q1 H2 ASSUMED_LAG_1M S5: Independent S1/S3 not estimable
+INFO:phase7b:Completed 2023Q1 H2 ASSUMED_LAG_1M
+INFO:phase7b:2023Q1 H2 ASSUMED_LAG_2M S3: nonconvergence_or_unstable_transition:{"n_training_months": 43, "n_observed_cells": 387, "n_missing_
+INFO:phase7b:2023Q1 H2 ASSUMED_LAG_2M S5: Independent S1/S3 not estimable
+INFO:phase7b:Completed 2023Q1 H2 ASSUMED_LAG_2M
+INFO:phase7b:2023Q1 H2 ASSUMED_LAG_3M S3: nonconvergence_or_unstable_transition:{"n_training_months": 43, "n_observed_cells": 386, "n_missing_
+INFO:phase7b:2023Q1 H2 ASSUMED_LAG_3M S5: Independent S1/S3 not estimable
+INFO:phase7b:Completed 2023Q1 H2 ASSUMED_LAG_3M
+INFO:phase7b:2023Q1 H3 REVISED_DATA_EXPLORATORY S3: nonconvergence_or_unstable_transition:{"n_training_months": 43, "n_observed_cells": 387, "n_missing_
+INFO:phase7b:2023Q1 H3 REVISED_DATA_EXPLORATORY S5: Independent S1/S3 not estimable
+INFO:phase7b:Completed 2023Q1 H3 REVISED_DATA_EXPLORATORY
+INFO:phase7b:2023Q1 H3 ASSUMED_LAG_1M S3: nonconvergence_or_unstable_transition:{"n_training_months": 43, "n_observed_cells": 387, "n_missing_
+INFO:phase7b:2023Q1 H3 ASSUMED_LAG_1M S5: Independent S1/S3 not estimable
+INFO:phase7b:Completed 2023Q1 H3 ASSUMED_LAG_1M
+INFO:phase7b:2023Q1 H3 ASSUMED_LAG_2M S3: nonconvergence_or_unstable_transition:{"n_training_months": 43, "n_observed_cells": 387, "n_missing_
+INFO:phase7b:2023Q1 H3 ASSUMED_LAG_2M S5: Independent S1/S3 not estimable
+INFO:phase7b:Completed 2023Q1 H3 ASSUMED_LAG_2M
+INFO:phase7b:2023Q1 H3 ASSUMED_LAG_3M S3: nonconvergence_or_unstable_transition:{"n_training_months": 43, "n_observed_cells": 387, "n_missing_
+INFO:phase7b:2023Q1 H3 ASSUMED_LAG_3M S5: Independent S1/S3 not estimable
+INFO:phase7b:Completed 2023Q1 H3 ASSUMED_LAG_3M
+INFO:phase7b:2023Q2 H1 REVISED_DATA_EXPLORATORY S3: nonconvergence_or_unstable_transition:{"n_training_months": 46, "n_observed_cells": 413, "n_missing_
+INFO:phase7b:2023Q2 H1 REVISED_DATA_EXPLORATORY S5: Independent S1/S3 not estimable
+INFO:phase7b:Completed 2023Q2 H1 REVISED_DATA_EXPLORATORY
+INFO:phase7b:2023Q2 H1 ASSUMED_LAG_1M S3: nonconvergence_or_unstable_transition:{"n_training_months": 46, "n_observed_cells": 413, "n_missing_
+INFO:phase7b:2023Q2 H1 ASSUMED_LAG_1M S5: Independent S1/S3 not estimable
+INFO:phase7b:Completed 2023Q2 H1 ASSUMED_LAG_1M
+INFO:phase7b:2023Q2 H1 ASSUMED_LAG_2M S3: nonconvergence_or_unstable_transition:{"n_training_months": 46, "n_observed_cells": 412, "n_missing_
+INFO:phase7b:2023Q2 H1 ASSUMED_LAG_2M S5: Independent S1/S3 not estimable
+INFO:phase7b:Completed 2023Q2 H1 ASSUMED_LAG_2M
+INFO:phase7b:2023Q2 H1 ASSUMED_LAG_3M S3: nonconvergence_or_unstable_transition:{"n_training_months": 46, "n_observed_cells": 411, "n_missing_
+INFO:phase7b:2023Q2 H1 ASSUMED_LAG_3M S5: Independent S1/S3 not estimable
+INFO:phase7b:Completed 2023Q2 H1 ASSUMED_LAG_3M
+INFO:phase7b:2023Q2 H2 REVISED_DATA_EXPLORATORY S3: nonconvergence_or_unstable_transition:{"n_training_months": 46, "n_observed_cells": 414, "n_missing_
+INFO:phase7b:2023Q2 H2 REVISED_DATA_EXPLORATORY S5: Independent S1/S3 not estimable
+INFO:phase7b:Completed 2023Q2 H2 REVISED_DATA_EXPLORATORY
+INFO:phase7b:2023Q2 H2 ASSUMED_LAG_1M S3: nonconvergence_or_unstable_transition:{"n_training_months": 46, "n_observed_cells": 414, "n_missing_
+INFO:phase7b:2023Q2 H2 ASSUMED_LAG_1M S5: Independent S1/S3 not estimable
+INFO:phase7b:Completed 2023Q2 H2 ASSUMED_LAG_1M
+INFO:phase7b:2023Q2 H2 ASSUMED_LAG_2M S3: nonconvergence_or_unstable_transition:{"n_training_months": 46, "n_observed_cells": 414, "n_missing_
+INFO:phase7b:2023Q2 H2 ASSUMED_LAG_2M S5: Independent S1/S3 not estimable
+INFO:phase7b:Completed 2023Q2 H2 ASSUMED_LAG_2M
+INFO:phase7b:2023Q2 H2 ASSUMED_LAG_3M S3: nonconvergence_or_unstable_transition:{"n_training_months": 46, "n_observed_cells": 413, "n_missing_
+INFO:phase7b:2023Q2 H2 ASSUMED_LAG_3M S5: Independent S1/S3 not estimable
+INFO:phase7b:Completed 2023Q2 H2 ASSUMED_LAG_3M
+INFO:phase7b:2023Q2 H3 REVISED_DATA_EXPLORATORY S3: nonconvergence_or_unstable_transition:{"n_training_months": 46, "n_observed_cells": 414, "n_missing_
+INFO:phase7b:2023Q2 H3 REVISED_DATA_EXPLORATORY S5: Independent S1/S3 not estimable
+INFO:phase7b:Completed 2023Q2 H3 REVISED_DATA_EXPLORATORY
+INFO:phase7b:2023Q2 H3 ASSUMED_LAG_1M S3: nonconvergence_or_unstable_transition:{"n_training_months": 46, "n_observed_cells": 414, "n_missing_
+INFO:phase7b:2023Q2 H3 ASSUMED_LAG_1M S5: Independent S1/S3 not estimable
+INFO:phase7b:Completed 2023Q2 H3 ASSUMED_LAG_1M
+INFO:phase7b:2023Q2 H3 ASSUMED_LAG_2M S3: nonconvergence_or_unstable_transition:{"n_training_months": 46, "n_observed_cells": 414, "n_missing_
+INFO:phase7b:2023Q2 H3 ASSUMED_LAG_2M S5: Independent S1/S3 not estimable
+INFO:phase7b:Completed 2023Q2 H3 ASSUMED_LAG_2M
+INFO:phase7b:2023Q2 H3 ASSUMED_LAG_3M S3: nonconvergence_or_unstable_transition:{"n_training_months": 46, "n_observed_cells": 414, "n_missing_
+INFO:phase7b:2023Q2 H3 ASSUMED_LAG_3M S5: Independent S1/S3 not estimable
+INFO:phase7b:Completed 2023Q2 H3 ASSUMED_LAG_3M
+INFO:phase7b:2023Q3 H1 REVISED_DATA_EXPLORATORY S3: nonconvergence_or_unstable_transition:{"n_training_months": 49, "n_observed_cells": 440, "n_missing_
+INFO:phase7b:2023Q3 H1 REVISED_DATA_EXPLORATORY S5: Independent S1/S3 not estimable
+INFO:phase7b:Completed 2023Q3 H1 REVISED_DATA_EXPLORATORY
+INFO:phase7b:2023Q3 H1 ASSUMED_LAG_1M S3: nonconvergence_or_unstable_transition:{"n_training_months": 49, "n_observed_cells": 440, "n_missing_
+INFO:phase7b:2023Q3 H1 ASSUMED_LAG_1M S5: Independent S1/S3 not estimable
+INFO:phase7b:Completed 2023Q3 H1 ASSUMED_LAG_1M
+INFO:phase7b:2023Q3 H1 ASSUMED_LAG_2M S3: nonconvergence_or_unstable_transition:{"n_training_months": 49, "n_observed_cells": 439, "n_missing_
+INFO:phase7b:2023Q3 H1 ASSUMED_LAG_2M S5: Independent S1/S3 not estimable
+INFO:phase7b:Completed 2023Q3 H1 ASSUMED_LAG_2M
+INFO:phase7b:2023Q3 H1 ASSUMED_LAG_3M S3: nonconvergence_or_unstable_transition:{"n_training_months": 49, "n_observed_cells": 438, "n_missing_
+INFO:phase7b:2023Q3 H1 ASSUMED_LAG_3M S5: Independent S1/S3 not estimable
+INFO:phase7b:Completed 2023Q3 H1 ASSUMED_LAG_3M
+INFO:phase7b:2023Q3 H2 REVISED_DATA_EXPLORATORY S3: nonconvergence_or_unstable_transition:{"n_training_months": 49, "n_observed_cells": 441, "n_missing_
+INFO:phase7b:2023Q3 H2 REVISED_DATA_EXPLORATORY S5: Independent S1/S3 not estimable
+INFO:phase7b:Completed 2023Q3 H2 REVISED_DATA_EXPLORATORY
+INFO:phase7b:2023Q3 H2 ASSUMED_LAG_1M S3: nonconvergence_or_unstable_transition:{"n_training_months": 49, "n_observed_cells": 441, "n_missing_
+INFO:phase7b:2023Q3 H2 ASSUMED_LAG_1M S5: Independent S1/S3 not estimable
+INFO:phase7b:Completed 2023Q3 H2 ASSUMED_LAG_1M
+INFO:phase7b:2023Q3 H2 ASSUMED_LAG_2M S3: nonconvergence_or_unstable_transition:{"n_training_months": 49, "n_observed_cells": 441, "n_missing_
+INFO:phase7b:2023Q3 H2 ASSUMED_LAG_2M S5: Independent S1/S3 not estimable
+INFO:phase7b:Completed 2023Q3 H2 ASSUMED_LAG_2M
+INFO:phase7b:2023Q3 H2 ASSUMED_LAG_3M S3: nonconvergence_or_unstable_transition:{"n_training_months": 49, "n_observed_cells": 440, "n_missing_
+INFO:phase7b:2023Q3 H2 ASSUMED_LAG_3M S5: Independent S1/S3 not estimable
+INFO:phase7b:Completed 2023Q3 H2 ASSUMED_LAG_3M
+INFO:phase7b:2023Q3 H3 REVISED_DATA_EXPLORATORY S3: nonconvergence_or_unstable_transition:{"n_training_months": 49, "n_observed_cells": 441, "n_missing_
+INFO:phase7b:2023Q3 H3 REVISED_DATA_EXPLORATORY S5: Independent S1/S3 not estimable
+INFO:phase7b:Completed 2023Q3 H3 REVISED_DATA_EXPLORATORY
+INFO:phase7b:2023Q3 H3 ASSUMED_LAG_1M S3: nonconvergence_or_unstable_transition:{"n_training_months": 49, "n_observed_cells": 441, "n_missing_
+INFO:phase7b:2023Q3 H3 ASSUMED_LAG_1M S5: Independent S1/S3 not estimable
+INFO:phase7b:Completed 2023Q3 H3 ASSUMED_LAG_1M
+INFO:phase7b:2023Q3 H3 ASSUMED_LAG_2M S3: nonconvergence_or_unstable_transition:{"n_training_months": 49, "n_observed_cells": 441, "n_missing_
+INFO:phase7b:2023Q3 H3 ASSUMED_LAG_2M S5: Independent S1/S3 not estimable
+INFO:phase7b:Completed 2023Q3 H3 ASSUMED_LAG_2M
+INFO:phase7b:2023Q3 H3 ASSUMED_LAG_3M S3: nonconvergence_or_unstable_transition:{"n_training_months": 49, "n_observed_cells": 441, "n_missing_
+INFO:phase7b:2023Q3 H3 ASSUMED_LAG_3M S5: Independent S1/S3 not estimable
+INFO:phase7b:Completed 2023Q3 H3 ASSUMED_LAG_3M
+INFO:phase7b:Completed 2023Q4 H1 REVISED_DATA_EXPLORATORY
+INFO:phase7b:Completed 2023Q4 H1 ASSUMED_LAG_1M
+INFO:phase7b:Completed 2023Q4 H1 ASSUMED_LAG_2M
+INFO:phase7b:Completed 2023Q4 H1 ASSUMED_LAG_3M
+INFO:phase7b:Completed 2023Q4 H2 REVISED_DATA_EXPLORATORY
+INFO:phase7b:Completed 2023Q4 H2 ASSUMED_LAG_1M
+INFO:phase7b:Completed 2023Q4 H2 ASSUMED_LAG_2M
+INFO:phase7b:Completed 2023Q4 H2 ASSUMED_LAG_3M
+INFO:phase7b:Completed 2023Q4 H3 REVISED_DATA_EXPLORATORY
+INFO:phase7b:Completed 2023Q4 H3 ASSUMED_LAG_1M
+INFO:phase7b:Completed 2023Q4 H3 ASSUMED_LAG_2M
+INFO:phase7b:Completed 2023Q4 H3 ASSUMED_LAG_3M
+INFO:phase7b:Completed 2026Q3 H3 REVISED_DATA_EXPLORATORY
+INFO:phase7b:Completed 2026Q3 H3 ASSUMED_LAG_1M
+INFO:phase7b:Completed 2026Q3 H3 ASSUMED_LAG_2M
+INFO:phase7b:Completed 2026Q3 H3 ASSUMED_LAG_3M
+INFO:phase7b:Verifying protected files after experiment

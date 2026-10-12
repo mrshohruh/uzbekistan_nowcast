@@ -1,0 +1,250 @@
+1. PHASE7B_SATELLITE_INCONCLUSIVE
+2. Satellite quality: 152 months 2014-01 to 2026-08; NO2 99 from 2018-06; NDVI/EVI r=0.976620; radiance jump December 2014 and 2016-2017 shift; SOURCE_METADATA_UNVERIFIED.
+3. Model comparison:
+                scenario comparison  sample model  n_origins  n_quarters     rmse      mae     bias  r_squared  oos_r_squared_ar1 first_quarter last_quarter
+REVISED_DATA_EXPLORATORY         S1 MATCHED    M0         45          15 0.484283 0.408579 0.376063   0.756532           0.171116        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S1 MATCHED    S1         45          15 0.518763 0.425969 0.326779   0.720629           0.048884        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S2 MATCHED    M0         45          15 0.484283 0.408579 0.376063   0.756532           0.171116        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S2 MATCHED    S2         45          15 0.477047 0.399694 0.366697   0.763753           0.195701        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S3 MATCHED    M0         36          12 0.519197 0.441001 0.438886   0.673913           0.213956        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S3 MATCHED    S3         36          12 0.542715 0.459451 0.452454   0.643702           0.141133        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S4 MATCHED    M0         45          15 0.484283 0.408579 0.376063   0.756532           0.171116        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S4 MATCHED    S4         45          15 0.475254 0.394502 0.355701   0.765526           0.201736        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S5 MATCHED    M0         36          12 0.519197 0.441001 0.438886   0.673913           0.213956        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S5 MATCHED    S5         36          12 0.605879 0.485253 0.463874   0.555940          -0.070420        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S6 MATCHED    M0         45          15 0.484283 0.408579 0.376063   0.756532           0.171116        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S6 MATCHED    S6         45          15 0.475015 0.398065 0.364625   0.765761           0.202538        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         R1 MATCHED    M0         45          15 0.484283 0.408579 0.376063   0.756532           0.171116        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         R1 MATCHED    R1         45          15 0.477621 0.398665 0.361466   0.763184           0.193764        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         R2 MATCHED    M0         42          14 0.497267 0.423139 0.390112   0.744123           0.109517        2023Q1       2026Q2
+REVISED_DATA_EXPLORATORY         R2 MATCHED    R2         42          14 0.514663 0.438133 0.403576   0.725906           0.046121        2023Q1       2026Q2
+REVISED_DATA_EXPLORATORY         R3 MATCHED    M0         45          15 0.484283 0.408579 0.376063   0.756532           0.171116        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         R3 MATCHED    R3         45          15 0.518785 0.425945 0.328782   0.720605           0.048805        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C1 MATCHED    C0         45          15 0.415602 0.327206 0.235699   0.820692           0.389549        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C1 MATCHED    C1         45          15 0.436004 0.345895 0.211057   0.802656           0.328144        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C2 MATCHED    C0         45          15 0.415602 0.327206 0.235699   0.820692           0.389549        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C2 MATCHED    C2         45          15 0.411301 0.321072 0.231015   0.824385           0.402120        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C3 MATCHED    C0         36          12 0.440612 0.348153 0.280692   0.765154           0.433896        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C3 MATCHED    C3         36          12 0.452945 0.363896 0.287475   0.751823           0.401762        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C4 MATCHED    C0         45          15 0.415602 0.327206 0.235699   0.820692           0.389549        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C4 MATCHED    C4         45          15 0.412838 0.324187 0.225518   0.823069           0.397642        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C5 MATCHED    C0         36          12 0.440612 0.348153 0.280692   0.765154           0.433896        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C5 MATCHED    C5         36          12 0.488029 0.383442 0.293186   0.711889           0.305499        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C6 MATCHED    C0         45          15 0.415602 0.327206 0.235699   0.820692           0.389549        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C6 MATCHED    C6         45          15 0.410755 0.321058 0.229979   0.824850           0.403705        2022Q3       2026Q2
+4. Best exploratory DFM: {'scenario': 'REVISED_DATA_EXPLORATORY', 'model': 'S6', 'delta_rmse': -0.009268060729583028, 'n_quarters': 15, 'n_origins': 45}
+5. Best exploratory combination: {'scenario': 'REVISED_DATA_EXPLORATORY', 'model': 'C6', 'delta_rmse': -0.004847149656996563, 'n_quarters': 15, 'n_origins': 45}
+6. Primary strict-common sample: 36 origins / 12 quarters; pairwise best S6/C6 sample 45 origins / 15 quarters.
+7. H1/H2/H3:
+                scenario comparison model horizon  n_origins  n_quarters     rmse      mae     bias  r_squared  oos_r_squared_ar1 first_quarter last_quarter
+REVISED_DATA_EXPLORATORY         S1    M0      H1         15          15 0.494240 0.415904 0.391361   0.746418           0.136682        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S1    M0      H2         15          15 0.482322 0.413124 0.379993   0.758500           0.177816        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S1    M0      H3         15          15 0.476113 0.396710 0.356835   0.764678           0.198849        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S1    S1      H1         15          15 0.595973 0.479811 0.276874   0.631280          -0.255302        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S1    S1      H2         15          15 0.474535 0.393463 0.358750   0.766235           0.204149        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S1    S1      H3         15          15 0.476423 0.404631 0.344714   0.764371           0.197804        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S2    M0      H1         15          15 0.494240 0.415904 0.391361   0.746418           0.136682        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S2    M0      H2         15          15 0.482322 0.413124 0.379993   0.758500           0.177816        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S2    M0      H3         15          15 0.476113 0.396710 0.356835   0.764678           0.198849        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S2    S2      H1         15          15 0.484657 0.403956 0.378282   0.756156           0.169837        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S2    S2      H2         15          15 0.475140 0.404554 0.371002   0.765639           0.202120        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S2    S2      H3         15          15 0.471245 0.390571 0.350805   0.769465           0.215146        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S3    M0      H1         12          12 0.529735 0.453852 0.453852   0.660542           0.181725        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S3    M0      H2         12          12 0.517018 0.445537 0.445537   0.676644           0.220540        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S3    M0      H3         12          12 0.510657 0.423614 0.417271   0.684552           0.239603        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S3    S3      H1         12          12 0.555033 0.467671 0.467671   0.627345           0.101704        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S3    S3      H2         12          12 0.538112 0.459006 0.459006   0.649720           0.155639        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S3    S3      H3         12          12 0.534782 0.451677 0.430684   0.654042           0.166057        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S4    M0      H1         15          15 0.494240 0.415904 0.391361   0.746418           0.136682        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S4    M0      H2         15          15 0.482322 0.413124 0.379993   0.758500           0.177816        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S4    M0      H3         15          15 0.476113 0.396710 0.356835   0.764678           0.198849        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S4    S4      H1         15          15 0.481641 0.395892 0.371088   0.759181           0.180135        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S4    S4      H2         15          15 0.470544 0.387894 0.354517   0.770151           0.217481        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S4    S4      H3         15          15 0.473508 0.399719 0.341499   0.767246           0.207592        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S5    M0      H1         12          12 0.529735 0.453852 0.453852   0.660542           0.181725        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S5    M0      H2         12          12 0.517018 0.445537 0.445537   0.676644           0.220540        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S5    M0      H3         12          12 0.510657 0.423614 0.417271   0.684552           0.239603        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S5    S5      H1         12          12 0.610569 0.482527 0.478754   0.549039          -0.087055        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S5    S5      H2         12          12 0.612021 0.486237 0.469280   0.546892          -0.092232        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S5    S5      H3         12          12 0.594898 0.486994 0.443588   0.571890          -0.031971        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S6    M0      H1         15          15 0.494240 0.415904 0.391361   0.746418           0.136682        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S6    M0      H2         15          15 0.482322 0.413124 0.379993   0.758500           0.177816        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S6    M0      H3         15          15 0.476113 0.396710 0.356835   0.764678           0.198849        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S6    S6      H1         15          15 0.482046 0.401661 0.375867   0.758776           0.178756        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S6    S6      H2         15          15 0.473208 0.402669 0.368964   0.767540           0.208593        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         S6    S6      H3         15          15 0.469706 0.389864 0.349044   0.770969           0.220266        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         R1    M0      H1         15          15 0.494240 0.415904 0.391361   0.746418           0.136682        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         R1    M0      H2         15          15 0.482322 0.413124 0.379993   0.758500           0.177816        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         R1    M0      H3         15          15 0.476113 0.396710 0.356835   0.764678           0.198849        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         R1    R1      H1         15          15 0.482590 0.399370 0.376413   0.758232           0.176903        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         R1    R1      H2         15          15 0.474499 0.393764 0.361383   0.766270           0.204271        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         R1    R1      H3         15          15 0.475735 0.402860 0.346600   0.765051           0.200119        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         R2    M0      H1         14          14 0.504859 0.423510 0.397213   0.736250           0.082118        2023Q1       2026Q2
+REVISED_DATA_EXPLORATORY         R2    M0      H2         14          14 0.494134 0.423579 0.388082   0.747336           0.120700        2023Q1       2026Q2
+REVISED_DATA_EXPLORATORY         R2    M0      H3         14          14 0.492718 0.422328 0.385042   0.748782           0.125732        2023Q1       2026Q2
+REVISED_DATA_EXPLORATORY         R2    R2      H1         14          14 0.533819 0.452104 0.424489   0.705123          -0.026207        2023Q1       2026Q2
+REVISED_DATA_EXPLORATORY         R2    R2      H2         14          14 0.507546 0.433807 0.396786   0.733435           0.072322        2023Q1       2026Q2
+REVISED_DATA_EXPLORATORY         R2    R2      H3         14          14 0.502065 0.428488 0.389454   0.739160           0.092247        2023Q1       2026Q2
+REVISED_DATA_EXPLORATORY         R3    M0      H1         15          15 0.494240 0.415904 0.391361   0.746418           0.136682        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         R3    M0      H2         15          15 0.482322 0.413124 0.379993   0.758500           0.177816        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         R3    M0      H3         15          15 0.476113 0.396710 0.356835   0.764678           0.198849        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         R3    R3      H1         15          15 0.596944 0.480230 0.276171   0.630078          -0.259394        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         R3    R3      H2         15          15 0.474572 0.395830 0.363039   0.766198           0.204025        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         R3    R3      H3         15          15 0.475240 0.401776 0.347136   0.765540           0.201784        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C1    C0      H1         15          15 0.465939 0.377163 0.292258   0.774627           0.232721        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C1    C0      H2         15          15 0.460713 0.352299 0.290871   0.779654           0.249836        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C1    C0      H3         15          15 0.298027 0.252157 0.123966   0.907795           0.686089        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C1    C1      H1         15          15 0.517462 0.429063 0.235014   0.722029           0.053650        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C1    C1      H2         15          15 0.460345 0.352727 0.280250   0.780007           0.251036        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C1    C1      H3         15          15 0.301023 0.255894 0.117906   0.905932           0.679746        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C2    C0      H1         15          15 0.465939 0.377163 0.292258   0.774627           0.232721        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C2    C0      H2         15          15 0.460713 0.352299 0.290871   0.779654           0.249836        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C2    C0      H3         15          15 0.298027 0.252157 0.123966   0.907795           0.686089        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C2    C2      H1         15          15 0.459097 0.368154 0.285718   0.781197           0.255089        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C2    C2      H2         15          15 0.458307 0.347085 0.286376   0.781950           0.257652        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C2    C2      H3         15          15 0.294431 0.247976 0.120952   0.910006           0.693618        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C3    C0      H1         12          12 0.493151 0.402925 0.343105   0.705809           0.290845        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C3    C0      H2         12          12 0.495603 0.384755 0.348575   0.702876           0.283774        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C3    C0      H3         12          12 0.305938 0.256778 0.150396   0.886776           0.727071        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C3    C3      H1         12          12 0.508406 0.425627 0.350015   0.687326           0.246291        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C3    C3      H2         12          12 0.502109 0.391633 0.355309   0.695024           0.264845        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C3    C3      H3         12          12 0.323864 0.274429 0.157102   0.873120           0.694151        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C4    C0      H1         15          15 0.465939 0.377163 0.292258   0.774627           0.232721        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C4    C0      H2         15          15 0.460713 0.352299 0.290871   0.779654           0.249836        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C4    C0      H3         15          15 0.298027 0.252157 0.123966   0.907795           0.686089        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C4    C4      H1         15          15 0.460493 0.372067 0.282121   0.779865           0.250552        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C4    C4      H2         15          15 0.458711 0.348129 0.278133   0.781565           0.256343        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C4    C4      H3         15          15 0.298054 0.252366 0.116298   0.907778           0.686033        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C5    C0      H1         12          12 0.493151 0.402925 0.343105   0.705809           0.290845        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C5    C0      H2         12          12 0.495603 0.384755 0.348575   0.702876           0.283774        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C5    C0      H3         12          12 0.305938 0.256778 0.150396   0.886776           0.727071        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C5    C5      H1         12          12 0.540472 0.442653 0.355556   0.646641           0.148218        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C5    C5      H2         12          12 0.546108 0.417843 0.360446   0.639233           0.130360        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C5    C5      H3         12          12 0.352381 0.289829 0.163555   0.849792           0.637918        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C6    C0      H1         15          15 0.465939 0.377163 0.292258   0.774627           0.232721        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C6    C0      H2         15          15 0.460713 0.352299 0.290871   0.779654           0.249836        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C6    C0      H3         15          15 0.298027 0.252157 0.123966   0.907795           0.686089        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C6    C6      H1         15          15 0.458626 0.368747 0.284511   0.781646           0.256617        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C6    C6      H2         15          15 0.457622 0.346490 0.285357   0.782601           0.259868        2022Q3       2026Q2
+REVISED_DATA_EXPLORATORY         C6    C6      H3         15          15 0.293944 0.247935 0.120071   0.910304           0.694631        2022Q3       2026Q2
+8. Reporting lag sensitivity:
+                scenario model  delta_rmse  n_quarters  n_origins
+          ASSUMED_LAG_1M    C1    0.014965          15         45
+          ASSUMED_LAG_1M    C2   -0.004650          15         45
+          ASSUMED_LAG_1M    C3    0.012577          12         36
+          ASSUMED_LAG_1M    C4   -0.003748          15         45
+          ASSUMED_LAG_1M    C5    0.046988          12         36
+          ASSUMED_LAG_1M    C6   -0.005141          15         45
+          ASSUMED_LAG_1M    S1    0.021848          15         45
+          ASSUMED_LAG_1M    S2   -0.008108          15         45
+          ASSUMED_LAG_1M    S3    0.023734          12         36
+          ASSUMED_LAG_1M    S4   -0.007749          15         45
+          ASSUMED_LAG_1M    S5    0.087827          12         36
+          ASSUMED_LAG_1M    S6   -0.009986          15         45
+          ASSUMED_LAG_2M    C1    0.014144          15         45
+          ASSUMED_LAG_2M    C2   -0.004782          15         45
+          ASSUMED_LAG_2M    C3    0.013084          12         36
+          ASSUMED_LAG_2M    C4   -0.004671          15         45
+          ASSUMED_LAG_2M    C5    0.043352          12         36
+          ASSUMED_LAG_2M    C6   -0.005216          15         45
+          ASSUMED_LAG_2M    S1    0.021561          15         45
+          ASSUMED_LAG_2M    S2   -0.008068          15         45
+          ASSUMED_LAG_2M    S3    0.023712          12         36
+          ASSUMED_LAG_2M    S4   -0.007155          15         45
+          ASSUMED_LAG_2M    S5    0.081544          12         36
+          ASSUMED_LAG_2M    S6   -0.010163          15         45
+          ASSUMED_LAG_3M    C1   -0.002920          15         45
+          ASSUMED_LAG_3M    C2   -0.003431          15         45
+          ASSUMED_LAG_3M    C3    0.013689          12         36
+          ASSUMED_LAG_3M    C4   -0.003733          15         45
+          ASSUMED_LAG_3M    C5    0.026872          12         34
+          ASSUMED_LAG_3M    C6    0.012026          15         45
+          ASSUMED_LAG_3M    S1   -0.005681          15         45
+          ASSUMED_LAG_3M    S2   -0.005380          15         45
+          ASSUMED_LAG_3M    S3    0.023864          12         36
+          ASSUMED_LAG_3M    S4   -0.004999          15         45
+          ASSUMED_LAG_3M    S5    0.050932          12         34
+          ASSUMED_LAG_3M    S6    0.018016          15         45
+REVISED_DATA_EXPLORATORY    C1    0.020402          15         45
+REVISED_DATA_EXPLORATORY    C2   -0.004301          15         45
+REVISED_DATA_EXPLORATORY    C3    0.012333          12         36
+REVISED_DATA_EXPLORATORY    C4   -0.002764          15         45
+REVISED_DATA_EXPLORATORY    C5    0.047416          12         36
+REVISED_DATA_EXPLORATORY    C6   -0.004847          15         45
+REVISED_DATA_EXPLORATORY    R1   -0.006662          15         45
+REVISED_DATA_EXPLORATORY    R2    0.017397          14         42
+REVISED_DATA_EXPLORATORY    R3    0.034502          15         45
+REVISED_DATA_EXPLORATORY    S1    0.034480          15         45
+REVISED_DATA_EXPLORATORY    S2   -0.007236          15         45
+REVISED_DATA_EXPLORATORY    S3    0.023518          12         36
+REVISED_DATA_EXPLORATORY    S4   -0.009029          15         45
+REVISED_DATA_EXPLORATORY    S5    0.086682          12         36
+REVISED_DATA_EXPLORATORY    S6   -0.009268          15         45
+9. Research-only current nowcasts:
+model                 scenario  prediction  failure
+   M0 REVISED_DATA_EXPLORATORY    8.301153      NaN
+   U0 REVISED_DATA_EXPLORATORY    8.060650      NaN
+   C0 REVISED_DATA_EXPLORATORY    8.180901      NaN
+   S1 REVISED_DATA_EXPLORATORY    8.303192      NaN
+   C1 REVISED_DATA_EXPLORATORY    8.181921      NaN
+   S2 REVISED_DATA_EXPLORATORY    8.300477      NaN
+   C2 REVISED_DATA_EXPLORATORY    8.180563      NaN
+   S3 REVISED_DATA_EXPLORATORY    8.314607      NaN
+   C3 REVISED_DATA_EXPLORATORY    8.187628      NaN
+   S4 REVISED_DATA_EXPLORATORY    8.302387      NaN
+   C4 REVISED_DATA_EXPLORATORY    8.181519      NaN
+   S5 REVISED_DATA_EXPLORATORY    8.317020      NaN
+   C5 REVISED_DATA_EXPLORATORY    8.188835      NaN
+   S6 REVISED_DATA_EXPLORATORY    8.300763      NaN
+   C6 REVISED_DATA_EXPLORATORY    8.180706      NaN
+   R1 REVISED_DATA_EXPLORATORY    8.302890      NaN
+   R2 REVISED_DATA_EXPLORATORY    8.300328      NaN
+   R3 REVISED_DATA_EXPLORATORY    8.303300      NaN
+   M0           ASSUMED_LAG_1M    8.301153      NaN
+   U0           ASSUMED_LAG_1M    8.060650      NaN
+   C0           ASSUMED_LAG_1M    8.180901      NaN
+   S1           ASSUMED_LAG_1M    8.303192      NaN
+   C1           ASSUMED_LAG_1M    8.181921      NaN
+   S2           ASSUMED_LAG_1M    8.300477      NaN
+   C2           ASSUMED_LAG_1M    8.180563      NaN
+   S3           ASSUMED_LAG_1M    8.314607      NaN
+   C3           ASSUMED_LAG_1M    8.187628      NaN
+   S4           ASSUMED_LAG_1M    8.302387      NaN
+   C4           ASSUMED_LAG_1M    8.181519      NaN
+   S5           ASSUMED_LAG_1M    8.317020      NaN
+   C5           ASSUMED_LAG_1M    8.188835      NaN
+   M0           ASSUMED_LAG_2M    8.301153      NaN
+   U0           ASSUMED_LAG_2M    8.060650      NaN
+   C0           ASSUMED_LAG_2M    8.180901      NaN
+   S1           ASSUMED_LAG_2M    8.302136      NaN
+   C1           ASSUMED_LAG_2M    8.181393      NaN
+   S2           ASSUMED_LAG_2M    8.299651      NaN
+   C2           ASSUMED_LAG_2M    8.180150      NaN
+   S3           ASSUMED_LAG_2M    8.314486      NaN
+   C3           ASSUMED_LAG_2M    8.187568      NaN
+   S4           ASSUMED_LAG_2M    8.300506      NaN
+   C4           ASSUMED_LAG_2M    8.180578      NaN
+   S5           ASSUMED_LAG_2M    8.315664      NaN
+   C5           ASSUMED_LAG_2M    8.188157      NaN
+   M0           ASSUMED_LAG_3M    8.301153      NaN
+   U0           ASSUMED_LAG_3M    8.060650      NaN
+   C0           ASSUMED_LAG_3M    8.180901      NaN
+   S1           ASSUMED_LAG_3M    8.301287      NaN
+   C1           ASSUMED_LAG_3M    8.180968      NaN
+   S2           ASSUMED_LAG_3M    8.299092      NaN
+   C2           ASSUMED_LAG_3M    8.179871      NaN
+   S3           ASSUMED_LAG_3M    8.314614      NaN
+   C3           ASSUMED_LAG_3M    8.187632      NaN
+   S4           ASSUMED_LAG_3M    8.299098      NaN
+   C4           ASSUMED_LAG_3M    8.179874      NaN
+   S5           ASSUMED_LAG_3M    8.314787      NaN
+   C5           ASSUMED_LAG_3M    8.187719      NaN
+   S6           ASSUMED_LAG_1M    8.300763      NaN
+   C6           ASSUMED_LAG_1M    8.180706      NaN
+   S6           ASSUMED_LAG_2M    8.300077      NaN
+   C6           ASSUMED_LAG_2M    8.180363      NaN
+   S6           ASSUMED_LAG_3M    8.299598      NaN
+   C6           ASSUMED_LAG_3M    8.180124      NaN
+10. Dashboard: C:\Users\Sh.Nishonqulov\Desktop\uzbekistan_nowcast_codex_starter\results\phase7b\phase7b_satellite_comparison.html
+Report: C:\Users\Sh.Nishonqulov\Desktop\uzbekistan_nowcast_codex_starter\results\phase7b\phase7b_results.md
+11. 78 tests passed; headless browser controls passed; deterministic independent S1 refits passed; 24,929 protected files unchanged. Frozen production remains exactly 8.180901340616275%. NO PROMOTION.

@@ -1,0 +1,26 @@
+{
+  "snapshot": "d1a9e5c4426f706b2007d26299921f2b5c788ac67bea615d577627d737664614",
+  "origin": "2026-10-05 11:28:16.244132",
+  "checks": {
+    "dfm": {
+      "recomputed": 8.301152885464585,
+      "frozen": 8.301152885464585,
+      "error": 0.0,
+      "exact_float_equal": true
+    },
+    "umidas": {
+      "recomputed": 8.060649795767965,
+      "frozen": 8.060649795767965,
+      "error": 0.0,
+      "exact_float_equal": true
+    },
+    "final": {
+      "recomputed": 8.180901340616275,
+      "frozen": 8.180901340616275,
+      "error": 0.0,
+      "exact_float_equal": true
+    }
+  },
+  "tolerance": 1e-12,
+  "passed": true
+}

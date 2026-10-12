@@ -1,0 +1,50 @@
+PHASE7A_INSUFFICIENT_DATA
+Coverage: 3/93 monthly; 10 annual separately; no challenger estimated
+model  forecast                      status data_cutoff latest_electricity target
+   M0  8.301153 FROZEN_PRODUCTION_REFERENCE  2026-10-05            2026-08 2026Q3
+   U0  8.060650 FROZEN_PRODUCTION_REFERENCE  2026-10-05            2026-08 2026Q3
+   C0  8.180901 FROZEN_PRODUCTION_REFERENCE  2026-10-05            2026-08 2026Q3
+   E1       NaN RESEARCH_ONLY_NOT_ESTIMABLE  2026-10-05            2026-08 2026Q3
+   C1       NaN RESEARCH_ONLY_NOT_ESTIMABLE  2026-10-05            2026-08 2026Q3
+Protected files unchanged: 1951
+C:\Users\Sh.Nishonqulov\Desktop\uzbekistan_nowcast_codex_starter\data\research\electricity\electricity_consumption_monthly.csv
+C:\Users\Sh.Nishonqulov\Desktop\uzbekistan_nowcast_codex_starter\data\research\electricity\electricity_subscriber_consumption_annual.csv
+C:\Users\Sh.Nishonqulov\Desktop\uzbekistan_nowcast_codex_starter\data\research\electricity\electricity_transformed_monthly.csv
+C:\Users\Sh.Nishonqulov\Desktop\uzbekistan_nowcast_codex_starter\results\phase7a\electricity_data_audit.csv
+C:\Users\Sh.Nishonqulov\Desktop\uzbekistan_nowcast_codex_starter\results\phase7a\electricity_data_coverage.csv
+C:\Users\Sh.Nishonqulov\Desktop\uzbekistan_nowcast_codex_starter\results\phase7a\electricity_release_evidence.csv
+C:\Users\Sh.Nishonqulov\Desktop\uzbekistan_nowcast_codex_starter\results\phase7a\electricity_separate_candidates.csv
+C:\Users\Sh.Nishonqulov\Desktop\uzbekistan_nowcast_codex_starter\results\phase7a\phase7a_current_nowcasts.csv
+C:\Users\Sh.Nishonqulov\Desktop\uzbekistan_nowcast_codex_starter\results\phase7a\phase7a_electricity_comparison.html
+C:\Users\Sh.Nishonqulov\Desktop\uzbekistan_nowcast_codex_starter\results\phase7a\phase7a_factor_loadings.csv
+C:\Users\Sh.Nishonqulov\Desktop\uzbekistan_nowcast_codex_starter\results\phase7a\phase7a_factor_signals.csv
+C:\Users\Sh.Nishonqulov\Desktop\uzbekistan_nowcast_codex_starter\results\phase7a\phase7a_horizon_metrics.csv
+C:\Users\Sh.Nishonqulov\Desktop\uzbekistan_nowcast_codex_starter\results\phase7a\phase7a_model_comparison.csv
+C:\Users\Sh.Nishonqulov\Desktop\uzbekistan_nowcast_codex_starter\results\phase7a\source_registry.csv
+C:\Users\Sh.Nishonqulov\Desktop\uzbekistan_nowcast_codex_starter\results\phase7a\phase7a_results.md
+C:\Users\Sh.Nishonqulov\Desktop\uzbekistan_nowcast_codex_starter\results\phase7a\run_manifest.json
+PHASE7A_INSUFFICIENT_DATA
+Coverage: 3/93 monthly; 10 annual separately; no challenger estimated
+model  forecast                      status data_cutoff latest_electricity target
+   M0  8.301153 FROZEN_PRODUCTION_REFERENCE  2026-10-05            2026-08 2026Q3
+   U0  8.060650 FROZEN_PRODUCTION_REFERENCE  2026-10-05            2026-08 2026Q3
+   C0  8.180901 FROZEN_PRODUCTION_REFERENCE  2026-10-05            2026-08 2026Q3
+   E1       NaN RESEARCH_ONLY_NOT_ESTIMABLE  2026-10-05            2026-08 2026Q3
+   C1       NaN RESEARCH_ONLY_NOT_ESTIMABLE  2026-10-05            2026-08 2026Q3
+Protected files unchanged: 1951
+C:\Users\Sh.Nishonqulov\Desktop\uzbekistan_nowcast_codex_starter\data\research\electricity\electricity_consumption_monthly.csv
+C:\Users\Sh.Nishonqulov\Desktop\uzbekistan_nowcast_codex_starter\data\research\electricity\electricity_subscriber_consumption_annual.csv
+C:\Users\Sh.Nishonqulov\Desktop\uzbekistan_nowcast_codex_starter\data\research\electricity\electricity_transformed_monthly.csv
+C:\Users\Sh.Nishonqulov\Desktop\uzbekistan_nowcast_codex_starter\results\phase7a\electricity_data_audit.csv
+C:\Users\Sh.Nishonqulov\Desktop\uzbekistan_nowcast_codex_starter\results\phase7a\electricity_data_coverage.csv
+C:\Users\Sh.Nishonqulov\Desktop\uzbekistan_nowcast_codex_starter\results\phase7a\electricity_release_evidence.csv
+C:\Users\Sh.Nishonqulov\Desktop\uzbekistan_nowcast_codex_starter\results\phase7a\electricity_separate_candidates.csv
+C:\Users\Sh.Nishonqulov\Desktop\uzbekistan_nowcast_codex_starter\results\phase7a\phase7a_current_nowcasts.csv
+C:\Users\Sh.Nishonqulov\Desktop\uzbekistan_nowcast_codex_starter\results\phase7a\phase7a_electricity_comparison.html
+C:\Users\Sh.Nishonqulov\Desktop\uzbekistan_nowcast_codex_starter\results\phase7a\phase7a_factor_loadings.csv
+C:\Users\Sh.Nishonqulov\Desktop\uzbekistan_nowcast_codex_starter\results\phase7a\phase7a_factor_signals.csv
+C:\Users\Sh.Nishonqulov\Desktop\uzbekistan_nowcast_codex_starter\results\phase7a\phase7a_horizon_metrics.csv
+C:\Users\Sh.Nishonqulov\Desktop\uzbekistan_nowcast_codex_starter\results\phase7a\phase7a_model_comparison.csv
+C:\Users\Sh.Nishonqulov\Desktop\uzbekistan_nowcast_codex_starter\results\phase7a\source_registry.csv
+C:\Users\Sh.Nishonqulov\Desktop\uzbekistan_nowcast_codex_starter\results\phase7a\phase7a_results.md
+C:\Users\Sh.Nishonqulov\Desktop\uzbekistan_nowcast_codex_starter\results\phase7a\run_manifest.json

@@ -1,0 +1,13 @@
+check,status,detail
+coverage,FAIL,3 observed / 93 target months; 90 missing; June-August 2026 only
+continuity,FAIL,Three consecutive months; history before June 2026 unavailable for this definition
+definition,WARNING,"Subscriber consumption, delivery, household billing, system consumption and generation remain separate"
+growth,NOT_ESTIMABLE,Zero verified year-ago pairs; monthly changes descriptive only
+negative,PASS,All three observed consumption levels positive
+annual_sum,NOT_ESTIMABLE,No complete monthly year; SIAT annual totals cannot validate partial system series
+publication_delay,WARNING,"Observed page-heading delays: [9, 19, 28] days; not proof of first release"
+revisions,WARNING,VINTAGE_UNVERIFIED; pages retrieved now can have been edited
+forecast_origins,FAIL,Zero historical matched challenger origins; no verified YoY input
+cumulative_compatibility,WARNING,August YTD difference 8500 GWh versus directly reported 8400 GWh; rounded values not silently reconciled
+structural_break,WARNING,Jan-Mar delivery is not demonstrated equivalent to Apr-Aug system consumption
+operational_suitability,FAIL,Insufficient history and boundary/vintage documentation

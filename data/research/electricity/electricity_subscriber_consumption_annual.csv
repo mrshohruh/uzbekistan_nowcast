@@ -1,0 +1,11 @@
+year,electricity_consumption_gwh,measurement_definition,period_type,source_update_date,quality_flag,source_url,retrieval_date
+2016,45058.7,Volume of electricity consumption by subscribers,annual,2026-09-02,VINTAGE_UNVERIFIED,https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_2684.json,2026-10-12T04:58:10.452751+00:00
+2017,46746.4,Volume of electricity consumption by subscribers,annual,2026-09-02,VINTAGE_UNVERIFIED,https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_2684.json,2026-10-12T04:58:10.452751+00:00
+2018,60744.7,Volume of electricity consumption by subscribers,annual,2026-09-02,VINTAGE_UNVERIFIED,https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_2684.json,2026-10-12T04:58:10.452751+00:00
+2019,54174.7,Volume of electricity consumption by subscribers,annual,2026-09-02,VINTAGE_UNVERIFIED,https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_2684.json,2026-10-12T04:58:10.452751+00:00
+2020,53839.9,Volume of electricity consumption by subscribers,annual,2026-09-02,VINTAGE_UNVERIFIED,https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_2684.json,2026-10-12T04:58:10.452751+00:00
+2021,56268.8,Volume of electricity consumption by subscribers,annual,2026-09-02,VINTAGE_UNVERIFIED,https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_2684.json,2026-10-12T04:58:10.452751+00:00
+2022,59109.2,Volume of electricity consumption by subscribers,annual,2026-09-02,VINTAGE_UNVERIFIED,https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_2684.json,2026-10-12T04:58:10.452751+00:00
+2023,62836.3,Volume of electricity consumption by subscribers,annual,2026-09-02,VINTAGE_UNVERIFIED,https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_2684.json,2026-10-12T04:58:10.452751+00:00
+2024,65490.5,Volume of electricity consumption by subscribers,annual,2026-09-02,VINTAGE_UNVERIFIED,https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_2684.json,2026-10-12T04:58:10.452751+00:00
+2025,63746.0,Volume of electricity consumption by subscribers,annual,2026-09-02,VINTAGE_UNVERIFIED,https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_2684.json,2026-10-12T04:58:10.452751+00:00

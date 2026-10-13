@@ -1,0 +1,18 @@
+{
+  "run_id": "collect_20261012_122304_6c4952e8",
+  "variable_key": "pos_turnover",
+  "provider": "CBU",
+  "source_id": "4-009-0047",
+  "source_url": "https://cbu.uz/upload/statistics/paymentsystems/2018/jan/3_Information%20about%20issued%20banking%20cards.pdf",
+  "response_url": "https://cbu.uz/upload/statistics/paymentsystems/2018/jan/3_Information%20about%20issued%20banking%20cards.pdf",
+  "retrieved_at": "2026-10-12T12:27:08.745925+00:00",
+  "source_release_date": "2019-06-22T17:28:00+05:00",
+  "source_release_basis": "official archive article update timestamp",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "raw_file_path": "data/raw/cbu/pos_turnover/20261012T122708746931Z_e3d67de8ee4a4b819ff01138ea64c763.payload",
+  "checksum": "a6d11cf5cb1515b13056058f3e2e290e42f13c496afcaeda461f1ffc84f9cc3f",
+  "schema_fingerprint": "57d2abf6501d41f8f70a6d8184609b5c290f62c9bb6ed73b1db8fe86031a8faf",
+  "parser_version": "0.1.0",
+  "rows_raw": null
+}

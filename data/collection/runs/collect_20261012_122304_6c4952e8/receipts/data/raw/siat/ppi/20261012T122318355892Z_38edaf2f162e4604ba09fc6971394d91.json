@@ -1,0 +1,18 @@
+{
+  "run_id": "collect_20261012_122304_6c4952e8",
+  "variable_key": "ppi",
+  "provider": "SIAT",
+  "source_id": "1.11.02.0001",
+  "source_url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1581.json",
+  "response_url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1581.json",
+  "retrieved_at": "2026-10-12T12:23:18.355892+00:00",
+  "source_release_date": "2026-09-15T18:57:19.462631+05:00",
+  "source_release_basis": "dataset_update_timestamp; not historical first release",
+  "http_status": 200,
+  "content_type": "application/json",
+  "raw_file_path": "data/raw/siat/ppi/20261012T122318355892Z_38edaf2f162e4604ba09fc6971394d91.payload",
+  "checksum": "6585b6cf2f233b5cd53a359fe3e90c440588e5a94d0c697cebb8dafe77de0510",
+  "schema_fingerprint": "00c41f717bc7678d14ceef8d091ce1d6b1805c1135a8d292cdd49d4ea3899d39",
+  "parser_version": "0.1.0",
+  "rows_raw": 16
+}

@@ -1,0 +1,18 @@
+{
+  "run_id": "collect_20261012_122304_6c4952e8",
+  "variable_key": "rub_uzs",
+  "provider": "CBU",
+  "source_id": "4-009-0009 + official FX JSON archive",
+  "source_url": "https://cbu.uz/uz/arkhiv-kursov-valyut/json/RUB/2026-09-06/",
+  "response_url": "https://cbu.uz/uz/arkhiv-kursov-valyut/json/RUB/2026-09-06/",
+  "retrieved_at": "2026-10-12T12:24:06.823496+00:00",
+  "source_release_date": null,
+  "source_release_basis": null,
+  "http_status": 200,
+  "content_type": "application/json",
+  "raw_file_path": "data/raw/cbu/rub_uzs/20261012T122406823496Z_82743f65d35e400db7243143949fec64.payload",
+  "checksum": "83870aee9fb73c7cab6d322250553f68f653a9d45625f2976669e17abfe60606",
+  "schema_fingerprint": "41e1c17a9353a3b3a42ae66108a3bc20da78e1f0548276b87d8b69370094e0fa",
+  "parser_version": "0.1.0",
+  "rows_raw": 1
+}

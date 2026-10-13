@@ -1,0 +1,10 @@
+variable_key,reachability,download,parser,validation,admission,state,retained_previous,candidate_latest,approved_latest,daily_changes,error_type,error,limitation
+industrial_production,LIVE_NOT_TESTED,ARCHIVED_RECEIPT,PARSE_OK,passed_with_warnings,RETAINED_OR_WITHHELD,UNCHANGED,True,2026-08,2026-08,,,,
+ppi,LIVE_NOT_TESTED,ARCHIVED_RECEIPT,PARSE_OK,passed_with_warnings,RETAINED_OR_WITHHELD,UNCHANGED,True,2026-08,2026-08,,,,
+usd_uzs,LIVE_NOT_TESTED,ARCHIVED_RECEIPT,PARSE_OK,passed_with_warnings,RETAINED_OR_WITHHELD,UPDATED,True,2026-10,2026-09,1.0,,,
+rub_uzs,LIVE_NOT_TESTED,ARCHIVED_RECEIPT,PARSE_OK,passed_with_warnings,RETAINED_OR_WITHHELD,UPDATED,True,2026-10,2026-09,1.0,,,
+gold_price,LIVE_NOT_TESTED,ARCHIVED_RECEIPT,PARSE_OK,passed_with_warnings,RETAINED_OR_WITHHELD,UNCHANGED,True,2026-09,2026-09,,,,
+m2,LIVE_NOT_TESTED,ARCHIVED_RECEIPT,PARSE_OK,passed_with_warnings,RETAINED_OR_WITHHELD,UNCHANGED,True,2026-08,2026-08,,,,
+fx_reserves_ex_gold,LIVE_NOT_TESTED,ARCHIVED_RECEIPT,PARSE_OK,passed_with_warnings,RETAINED_OR_WITHHELD,UNCHANGED,True,2026-08,2026-08,,,,
+pos_turnover,LIVE_NOT_TESTED,ARCHIVED_RECEIPT,PARSE_OK,passed_with_warnings,RETAINED_PREVIOUS,VALIDATION_FAILED,True,2025-09,,,SourceError,Candidate validation/admission failed; see observation_decisions.csv,
+gdp_real_yoy,LIVE_NOT_TESTED,ARCHIVED_RECEIPT,PARSE_OK,passed_with_warnings,RETAINED_OR_WITHHELD,UNCHANGED,True,2026Q2,2026Q2,,,,Unverified new GDP periods withheld; observed update is not first release

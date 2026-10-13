@@ -1,0 +1,18 @@
+{
+  "run_id": "collect_20261012_122304_6c4952e8",
+  "variable_key": "industrial_production",
+  "provider": "SIAT",
+  "source_id": "1.02.01.0004",
+  "source_url": "https://api.siat.stat.uz/sdmx/577/table/download/?download_format=json",
+  "response_url": "https://api.siat.stat.uz/sdmx/577/table/download/?download_format=json",
+  "retrieved_at": "2026-10-12T12:23:15.147518+00:00",
+  "source_release_date": "2026-09-29T13:49:55.205903+05:00",
+  "source_release_basis": "dataset_update_timestamp; not historical first release",
+  "http_status": 200,
+  "content_type": "application/json",
+  "raw_file_path": "data/raw/siat/industrial_production/20261012T122315147518Z_308f9a130b984f23995047f2da48af7a.payload",
+  "checksum": "d8fb22cfc34d61e496278802cd1970e2c01536e20d01eba9293eb07e714e8d7d",
+  "schema_fingerprint": "df3192cb48e21fc37a69126ee5780017b7b7ebdde9ed7195d57e5a49e708a7aa",
+  "parser_version": "0.1.0",
+  "rows_raw": null
+}

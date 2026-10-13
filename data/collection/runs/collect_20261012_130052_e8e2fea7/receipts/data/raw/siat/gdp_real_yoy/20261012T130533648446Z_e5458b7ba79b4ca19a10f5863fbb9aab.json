@@ -1,0 +1,18 @@
+{
+  "run_id": "collect_20261012_130052_e8e2fea7",
+  "variable_key": "gdp_real_yoy",
+  "provider": "SIAT",
+  "source_id": "1.01.01.0059",
+  "source_url": "https://api.siat.stat.uz/sdmx/3698/table/download/?download_format=json",
+  "response_url": "https://api.siat.stat.uz/sdmx/3698/table/download/?download_format=json",
+  "retrieved_at": "2026-10-12T13:05:33.648446+00:00",
+  "source_release_date": "2026-07-31T10:54:09.201997+05:00",
+  "source_release_basis": "dataset_update_timestamp; not historical first release",
+  "http_status": 200,
+  "content_type": "application/json",
+  "raw_file_path": "data/raw/siat/gdp_real_yoy/20261012T130533648446Z_e5458b7ba79b4ca19a10f5863fbb9aab.payload",
+  "checksum": "462077faa0b02499833e8bd839c89d25e0ad64b8c00275373419ba328b6fc709",
+  "schema_fingerprint": "df3192cb48e21fc37a69126ee5780017b7b7ebdde9ed7195d57e5a49e708a7aa",
+  "parser_version": "0.1.0",
+  "rows_raw": null
+}

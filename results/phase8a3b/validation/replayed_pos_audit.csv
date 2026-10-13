@@ -1,0 +1,57 @@
+article_url,status,error_type,error,reference_period
+https://cbu.uz/en/statistics/paysistem/117941/,ARTICLE_FAILED,ValueError,Archive as-of/reporting date not found,
+https://cbu.uz/en/statistics/paysistem/121687/,ARTICLE_FAILED,ValueError,Archive as-of/reporting date not found,
+https://cbu.uz/en/statistics/paysistem/134678/,ARTICLE_FAILED,ValueError,CBU archive article has no source file: https://cbu.uz/en/statistics/paysistem/134678/,
+https://cbu.uz/en/statistics/paysistem/1762689/,ARTICLE_FAILED,ValueError,POS exact amount column matched 0 columns,
+https://cbu.uz/en/statistics/paysistem/2050976/,ARTICLE_FAILED,ValueError,POS exact amount column matched 0 columns,
+https://cbu.uz/en/statistics/paysistem/262451/,ARTICLE_FAILED,ValueError,POS Total row lacks the amount column,
+https://cbu.uz/en/statistics/paysistem/265587/,ARTICLE_FAILED,ValueError,POS Total row lacks the amount column,
+https://cbu.uz/en/statistics/paysistem/2990195/,ARTICLE_FAILED,ValueError,POS exact amount column matched 0 columns,
+https://cbu.uz/en/statistics/paysistem/3318961/,ARTICLE_FAILED,ValueError,POS amount is not an unambiguous numeric value,
+https://cbu.uz/en/statistics/paysistem/336554/,ARTICLE_FAILED,ValueError,POS as-of date and reporting range disagree,
+https://cbu.uz/en/statistics/paysistem/3465043/,ARTICLE_FAILED,ValueError,POS exact amount column matched 0 columns,
+https://cbu.uz/en/statistics/paysistem/3618604/,ARTICLE_FAILED,ValueError,POS exact amount column matched 0 columns,
+https://cbu.uz/en/statistics/paysistem/3744584/,ARTICLE_FAILED,ValueError,POS exact amount column matched 0 columns,
+https://cbu.uz/en/statistics/paysistem/3874158/,ARTICLE_FAILED,ValueError,"POS no unique supported, unit-verified page/XLSX extraction",
+https://cbu.uz/en/statistics/paysistem/3966843/,ARTICLE_FAILED,ValueError,POS exact amount column matched 0 columns,
+https://cbu.uz/en/statistics/paysistem/4174657/,ARTICLE_FAILED,ValueError,POS exact amount column matched 0 columns,
+https://cbu.uz/en/statistics/paysistem/4334752/,ARTICLE_FAILED,ValueError,"POS no unique supported, unit-verified page/XLSX extraction",
+https://cbu.uz/en/statistics/paysistem/4652027/,ARTICLE_FAILED,ValueError,"POS no unique supported, unit-verified page/XLSX extraction",
+https://cbu.uz/en/statistics/paysistem/4660551/,ARTICLE_FAILED,ValueError,"POS no unique supported, unit-verified page/XLSX extraction",
+https://cbu.uz/en/statistics/paysistem/546473/,ARTICLE_FAILED,ValueError,Archive as-of/reporting date not found,
+https://cbu.uz/en/statistics/paysistem/565510/,ARTICLE_FAILED,ValueError,Archive as-of/reporting date not found,
+https://cbu.uz/en/statistics/paysistem/639000/,ARTICLE_FAILED,ValueError,POS workbook/page period mismatch,
+https://cbu.uz/en/statistics/paysistem/71767/,ARTICLE_FAILED,ValueError,Archive as-of/reporting date not found,
+https://cbu.uz/en/statistics/paysistem/71770/,ARTICLE_FAILED,SourceError,HTTP 404: https://cbu.uz/upload/statistics/paymentsystems/feb/3/BC-ATM-TERM-TURNOVER%20Eng.pdf,
+https://cbu.uz/en/statistics/paysistem/71774/,ARTICLE_FAILED,SourceError,HTTP 404: https://cbu.uz/upload/statistics/paymentsystems/mar/3/BC_POS_ATM_TURNOVER%2001.03.eng.pdf,
+https://cbu.uz/en/statistics/paysistem/71778/,ARTICLE_FAILED,SourceError,HTTP 404: https://cbu.uz/upload/statistics/paymentsystems/apr/3/BC_POS_ATM_TURNOVER%20ENG%2001.04.18.pdf,
+https://cbu.uz/en/statistics/paysistem/71782/,ARTICLE_FAILED,SourceError,HTTP 404: https://cbu.uz/upload/statistics/paymentsystems/may/3/BC_POS_ATM_TURNOVER_ENG.pdf,
+https://cbu.uz/en/statistics/paysistem/71786/,ARTICLE_FAILED,SourceError,HTTP 404: https://cbu.uz/upload/statistics/paymentsystems/jun/3/BC_POS_ATM_TURNOVER_енг.pdf,
+https://cbu.uz/en/statistics/paysistem/71790/,ARTICLE_FAILED,SourceError,HTTP 404: https://cbu.uz/upload/statistics/paymentsystems/july/BC_POS_ATM_TURNOVER_eng.pdf,
+https://cbu.uz/en/statistics/paysistem/71794/,ARTICLE_FAILED,SourceError,http://cbu.uz/upload/statistics/paymentsystems/july/BC_POS_ATM_TURNOVER_eng.pdf,
+https://cbu.uz/en/statistics/paysistem/71798/,ARTICLE_FAILED,SourceError,HTTP 404: https://cbu.uz/upload/statistics/paymentsystems/oct/BC_POS_ATM_TURNOVER%2001.10_eng.pdf,
+https://cbu.uz/en/statistics/paysistem/71802/,ARTICLE_FAILED,SourceError,HTTP 404: https://cbu.uz/upload/statistics/paymentsystems/nov/BC_POS_ATM_TURNOVER%2001.11.xls,
+https://cbu.uz/en/statistics/paysistem/71806/,ARTICLE_FAILED,SourceError,HTTP 404: https://cbu.uz/upload/statistics/paymentsystems/dec/BC_POS_ATM_TURNOVER%2001.12.pdf,
+https://cbu.uz/en/statistics/paysistem/71810/,ARTICLE_FAILED,ValueError,Archive as-of/reporting date not found,
+https://cbu.uz/en/statistics/paysistem/71814/,ARTICLE_FAILED,ValueError,Archive as-of/reporting date not found,
+https://cbu.uz/en/statistics/paysistem/71818/,ARTICLE_FAILED,ValueError,Archive as-of/reporting date not found,
+https://cbu.uz/en/statistics/paysistem/75293/,ARTICLE_FAILED,ValueError,Archive as-of/reporting date not found,
+https://cbu.uz/en/statistics/paysistem/75297/,ARTICLE_FAILED,ValueError,Archive as-of/reporting date not found,
+https://cbu.uz/en/statistics/paysistem/75301/,ARTICLE_FAILED,ValueError,Archive as-of/reporting date not found,
+https://cbu.uz/en/statistics/paysistem/75694/,ARTICLE_FAILED,ValueError,Archive as-of/reporting date not found,
+https://cbu.uz/en/statistics/paysistem/75850/,ARTICLE_FAILED,ValueError,Archive as-of/reporting date not found,
+https://cbu.uz/en/statistics/paysistem/76068/,ARTICLE_FAILED,ValueError,Archive as-of/reporting date not found,
+https://cbu.uz/en/statistics/paysistem/77090/,ARTICLE_FAILED,ValueError,Archive as-of/reporting date not found,
+https://cbu.uz/en/statistics/paysistem/87759/,ARTICLE_FAILED,ValueError,Archive as-of/reporting date not found,
+,MISSING_PERIOD,,,2020-07
+,MISSING_PERIOD,,,2020-10
+,MISSING_PERIOD,,,2021-02
+,MISSING_PERIOD,,,2021-07
+,MISSING_PERIOD,,,2021-10
+,MISSING_PERIOD,,,2022-03
+,MISSING_PERIOD,,,2022-04
+,MISSING_PERIOD,,,2022-09
+,MISSING_PERIOD,,,2023-05
+,MISSING_PERIOD,,,2023-06
+,MISSING_PERIOD,,,2024-06
+,MISSING_PERIOD,,,2024-11

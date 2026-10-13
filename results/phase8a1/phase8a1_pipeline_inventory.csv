@@ -1,0 +1,127 @@
+path,classification,entry_point,upstream_dependencies,storage_destination,notes
+run_nowcast.bat,production launcher,run_nowcast.bat [flags],.venv/Scripts/python.exe; scripts.production.update,results/operations; results/current,"Sets root cwd, UTF-8 and no bytecode; existing wrapper includes publication."
+scripts/production/update.py,production entry point,python -m scripts.production.update,scripts.operations.run_update -> scripts.production.run,data/master; results/current; dashboard,--run-nowcast skips acquisition; --update-data still invokes production builder; separate subprocess/lock boundary.
+scripts/operations/run_update.py,production collection core,python -m scripts.operations.run_update --update-data,ACTIVE eight + GDP; registry v1.2; staging; validation; shadow worker,data/raw/current_updates/<run_id>; data/staging/<run_id>; data/processed; metadata; data/master; data/versions; results/operations/<run_id>,"Check-only writes lock, staging, reports and raw evidence; not invoked in audit."
+scripts/operations/acquisition.py,production source adapter,acquire; compare; OperationsDownloader,registry; io/parsers/transforms; download_log,raw receipts; candidate observations; real industry overlay,Also acquires nominal industry; GDP/POS/partial-FX admission gates.
+scripts/production/run.py,production builder,python -m scripts.production.run,committed manifest; frozen models; GDP vintage records,results/current; dashboard,"Not run, including --no-publish, because new scientific artifacts forbidden."
+config/bootstrap_inputs.json,source/config/provenance contract,,,,production.json pins v1.2; settings.yaml defaults v1.1. bootstrap_inputs contains external historical requirements; no source credentials found.
+config/cbu_contracts.json,source/config/provenance contract,,,,production.json pins v1.2; settings.yaml defaults v1.1. bootstrap_inputs contains external historical requirements; no source credentials found.
+config/industry_source.json,source/config/provenance contract,,,,production.json pins v1.2; settings.yaml defaults v1.1. bootstrap_inputs contains external historical requirements; no source credentials found.
+config/model_definitions.json,source/config/provenance contract,,,,production.json pins v1.2; settings.yaml defaults v1.1. bootstrap_inputs contains external historical requirements; no source credentials found.
+config/production.json,source/config/provenance contract,,,,production.json pins v1.2; settings.yaml defaults v1.1. bootstrap_inputs contains external historical requirements; no source credentials found.
+config/production_seal.json,source/config/provenance contract,,,,production.json pins v1.2; settings.yaml defaults v1.1. bootstrap_inputs contains external historical requirements; no source credentials found.
+config/production_seal_acceptance.json,source/config/provenance contract,,,,production.json pins v1.2; settings.yaml defaults v1.1. bootstrap_inputs contains external historical requirements; no source credentials found.
+config/provenance_relocations.json,source/config/provenance contract,,,,production.json pins v1.2; settings.yaml defaults v1.1. bootstrap_inputs contains external historical requirements; no source credentials found.
+config/registry_contracts.json,source/config/provenance contract,,,,production.json pins v1.2; settings.yaml defaults v1.1. bootstrap_inputs contains external historical requirements; no source credentials found.
+config/settings.yaml,source/config/provenance contract,,,,production.json pins v1.2; settings.yaml defaults v1.1. bootstrap_inputs contains external historical requirements; no source credentials found.
+config/siat_contracts.json,source/config/provenance contract,,,,production.json pins v1.2; settings.yaml defaults v1.1. bootstrap_inputs contains external historical requirements; no source credentials found.
+registry/uzbekistan_nowcasting_v1.1_registry.xlsx,legacy/bootstrap registry,load_registry (headers row 4),,,
+registry/uzbekistan_nowcasting_v1.2_registry.xlsx,active registry,load_registry (headers row 4),,,
+registry/uzbekistan_nowcasting_v1_registry.xlsx,legacy/bootstrap registry,load_registry (headers row 4),,,
+src/uznowcast/io/__init__.py,shared ingestion/validation utility,,registry and strict provider contracts,raw archives or canonical observations through orchestrator,
+src/uznowcast/io/cbu.py,shared ingestion/validation utility,,registry and strict provider contracts,raw archives or canonical observations through orchestrator,
+src/uznowcast/io/cbu_archive.py,shared ingestion/validation utility,,registry and strict provider contracts,raw archives or canonical observations through orchestrator,
+src/uznowcast/io/cbu_stats.py,shared ingestion/validation utility,,registry and strict provider contracts,raw archives or canonical observations through orchestrator,
+src/uznowcast/io/external.py,shared ingestion/validation utility,,registry and strict provider contracts,raw archives or canonical observations through orchestrator,
+src/uznowcast/io/http.py,shared ingestion/validation utility,,registry and strict provider contracts,raw archives or canonical observations through orchestrator,
+src/uznowcast/io/siat.py,shared ingestion/validation utility,,registry and strict provider contracts,raw archives or canonical observations through orchestrator,
+src/uznowcast/parsers/__init__.py,shared ingestion/validation utility,,registry and strict provider contracts,raw archives or canonical observations through orchestrator,
+src/uznowcast/parsers/cbu.py,shared ingestion/validation utility,,registry and strict provider contracts,raw archives or canonical observations through orchestrator,
+src/uznowcast/parsers/cbu_archive.py,shared ingestion/validation utility,,registry and strict provider contracts,raw archives or canonical observations through orchestrator,
+src/uznowcast/parsers/cbu_stats.py,shared ingestion/validation utility,,registry and strict provider contracts,raw archives or canonical observations through orchestrator,
+src/uznowcast/parsers/external.py,shared ingestion/validation utility,,registry and strict provider contracts,raw archives or canonical observations through orchestrator,
+src/uznowcast/parsers/siat.py,shared ingestion/validation utility,,registry and strict provider contracts,raw archives or canonical observations through orchestrator,
+src/uznowcast/transforms/__init__.py,shared ingestion/validation utility,,registry and strict provider contracts,raw archives or canonical observations through orchestrator,
+src/uznowcast/transforms/decumulate.py,shared ingestion/validation utility,,registry and strict provider contracts,raw archives or canonical observations through orchestrator,
+src/uznowcast/transforms/derived.py,shared ingestion/validation utility,,registry and strict provider contracts,raw archives or canonical observations through orchestrator,
+src/uznowcast/transforms/frequency.py,shared ingestion/validation utility,,registry and strict provider contracts,raw archives or canonical observations through orchestrator,
+src/uznowcast/transforms/growth.py,shared ingestion/validation utility,,registry and strict provider contracts,raw archives or canonical observations through orchestrator,
+src/uznowcast/transforms/prices.py,shared ingestion/validation utility,,registry and strict provider contracts,raw archives or canonical observations through orchestrator,
+src/uznowcast/transforms/vintage_flows.py,shared ingestion/validation utility,,registry and strict provider contracts,raw archives or canonical observations through orchestrator,
+src/uznowcast/validation/__init__.py,shared ingestion/validation utility,,registry and strict provider contracts,raw archives or canonical observations through orchestrator,
+src/uznowcast/validation/observations.py,shared ingestion/validation utility,,registry and strict provider contracts,raw archives or canonical observations through orchestrator,
+src/uznowcast/validation/schema.py,shared ingestion/validation utility,,registry and strict provider contracts,raw archives or canonical observations through orchestrator,
+src/uznowcast/registry.py,production dependency,,,data/raw; processed; master; metadata,Broad CLI build/collect-vintage is not a transaction-safe production-only schedule replacement.
+src/uznowcast/pipeline.py,broad V1/bootstrap collector,,,data/raw; processed; master; metadata,Broad CLI build/collect-vintage is not a transaction-safe production-only schedule replacement.
+src/uznowcast/collect_vintage.py,broad V1/bootstrap collector,,,data/raw; processed; master; metadata,Broad CLI build/collect-vintage is not a transaction-safe production-only schedule replacement.
+src/uznowcast/cli.py,broad V1/bootstrap collector,,,data/raw; processed; master; metadata,Broad CLI build/collect-vintage is not a transaction-safe production-only schedule replacement.
+src/uznowcast/provenance.py,production dependency,,,data/raw; processed; master; metadata,Broad CLI build/collect-vintage is not a transaction-safe production-only schedule replacement.
+src/uznowcast/vintages.py,production dependency,,,data/raw; processed; master; metadata,Broad CLI build/collect-vintage is not a transaction-safe production-only schedule replacement.
+src/uznowcast/master.py,production dependency,,,data/raw; processed; master; metadata,Broad CLI build/collect-vintage is not a transaction-safe production-only schedule replacement.
+src/uznowcast/archive_series.py,production dependency,,,data/raw; processed; master; metadata,Broad CLI build/collect-vintage is not a transaction-safe production-only schedule replacement.
+src/uznowcast/storage.py,production dependency,,,data/raw; processed; master; metadata,Broad CLI build/collect-vintage is not a transaction-safe production-only schedule replacement.
+src/uznowcast/gdp_vintages.py,production dependency,,,data/raw; processed; master; metadata,Broad CLI build/collect-vintage is not a transaction-safe production-only schedule replacement.
+src/uznowcast/models/data.py,production dependency,,,data/raw; processed; master; metadata,Broad CLI build/collect-vintage is not a transaction-safe production-only schedule replacement.
+scripts/operations/__init__.py,operations dependency,,,staging; journals; results/operations/prospective,Legacy AR2/USD ensemble is shadow-only. POS review config optional and absent.
+scripts/operations/bootstrap.py,operations dependency,canonical; restore,,staging; journals; results/operations/prospective,Legacy AR2/USD ensemble is shadow-only. POS review config optional and absent.
+scripts/operations/pos_review.py,operations dependency,reviewed_pos,,staging; journals; results/operations/prospective,Legacy AR2/USD ensemble is shadow-only. POS review config optional and absent.
+scripts/operations/prospective/__init__.py,operations dependency,,,staging; journals; results/operations/prospective,Legacy AR2/USD ensemble is shadow-only. POS review config optional and absent.
+scripts/operations/prospective/common.py,operations dependency,kernel; vintage_kernel; benchmark_kernel; safe; write_json; save; protection; verify_hashes; csv_bytes; ledger_rows; append_ledger; verify_snapshots,,staging; journals; results/operations/prospective,Legacy AR2/USD ensemble is shadow-only. POS review config optional and absent.
+scripts/operations/prospective/evaluation.py,operations dependency,evaluate,,staging; journals; results/operations/prospective,Legacy AR2/USD ensemble is shadow-only. POS review config optional and absent.
+scripts/operations/prospective/inputs.py,operations dependency,eligible; inputs; status,,staging; journals; results/operations/prospective,Legacy AR2/USD ensemble is shadow-only. POS review config optional and absent.
+scripts/operations/prospective/monitor.py,operations dependency,context; select_target; calculate; run,,staging; journals; results/operations/prospective,Legacy AR2/USD ensemble is shadow-only. POS review config optional and absent.
+scripts/operations/prospective/sealing.py,operations dependency,initialize,,staging; journals; results/operations/prospective,Legacy AR2/USD ensemble is shadow-only. POS review config optional and absent.
+scripts/operations/prospective/sources.py,operations dependency,official; download; check_current; validate_check; register_realization; realization_registry,,staging; journals; results/operations/prospective,Legacy AR2/USD ensemble is shadow-only. POS review config optional and absent.
+scripts/operations/seal.py,operations dependency,content_hash; verify; resolve_provenance,,staging; journals; results/operations/prospective,Legacy AR2/USD ensemble is shadow-only. POS review config optional and absent.
+scripts/operations/shadow_worker.py,operations dependency,adapted_inputs; fingerprint; prepare; main,,staging; journals; results/operations/prospective,Legacy AR2/USD ensemble is shadow-only. POS review config optional and absent.
+scripts/operations/state.py,operations dependency,sha; read; write; model_lock; protected; verify; preflight; operational_lock; promote; rollback_completed; pending_transactions; validate_current_manifest; verify_current_version,,staging; journals; results/operations/prospective,Legacy AR2/USD ensemble is shadow-only. POS review config optional and absent.
+scripts/operations/workspace.py,operations dependency,copy_file; seed; worker; current_check,,staging; journals; results/operations/prospective,Legacy AR2/USD ensemble is shadow-only. POS review config optional and absent.
+scripts/production/__init__.py,production dependency,,frozen configuration and saved inputs,,
+scripts/production/benchmarks.py,production dependency,,frozen configuration and saved inputs,,
+scripts/production/config.py,production dependency,,frozen configuration and saved inputs,,
+scripts/production/dashboard.py,production dependency,,frozen configuration and saved inputs,,
+scripts/production/diagnostics.py,production dependency,,frozen configuration and saved inputs,,
+scripts/production/models.py,production dependency,,frozen configuration and saved inputs,,
+scripts/download_fx_history.py,historical collection utility,python -m scripts.download_fx_history,,raw/processed daily FX,
+scripts/phase7a/__init__.py,research/historical or maintenance-only,,,,Not active economic collection; Phase7 electricity/satellite/coverage research. Maintenance runner writes existing reports.
+scripts/phase7a/collect.py,research/historical or maintenance-only,,,,Not active economic collection; Phase7 electricity/satellite/coverage research. Maintenance runner writes existing reports.
+scripts/phase7a/dashboard.py,research/historical or maintenance-only,,,,Not active economic collection; Phase7 electricity/satellite/coverage research. Maintenance runner writes existing reports.
+scripts/phase7a/data.py,research/historical or maintenance-only,,,,Not active economic collection; Phase7 electricity/satellite/coverage research. Maintenance runner writes existing reports.
+scripts/phase7a/run.py,research/historical or maintenance-only,,,,Not active economic collection; Phase7 electricity/satellite/coverage research. Maintenance runner writes existing reports.
+scripts/phase7a/test_runner.py,research/historical or maintenance-only,,,,Not active economic collection; Phase7 electricity/satellite/coverage research. Maintenance runner writes existing reports.
+scripts/phase7a/verify.py,research/historical or maintenance-only,,,,Not active economic collection; Phase7 electricity/satellite/coverage research. Maintenance runner writes existing reports.
+scripts/phase7b/browser_check.py,research/historical or maintenance-only,,,,Not active economic collection; Phase7 electricity/satellite/coverage research. Maintenance runner writes existing reports.
+scripts/phase7b/data.py,research/historical or maintenance-only,,,,Not active economic collection; Phase7 electricity/satellite/coverage research. Maintenance runner writes existing reports.
+scripts/phase7b/determinism.py,research/historical or maintenance-only,,,,Not active economic collection; Phase7 electricity/satellite/coverage research. Maintenance runner writes existing reports.
+scripts/phase7b/evi_sensitivity.py,research/historical or maintenance-only,,,,Not active economic collection; Phase7 electricity/satellite/coverage research. Maintenance runner writes existing reports.
+scripts/phase7b/finalize.py,research/historical or maintenance-only,,,,Not active economic collection; Phase7 electricity/satellite/coverage research. Maintenance runner writes existing reports.
+scripts/phase7b/models.py,research/historical or maintenance-only,,,,Not active economic collection; Phase7 electricity/satellite/coverage research. Maintenance runner writes existing reports.
+scripts/phase7b/refresh.py,research/historical or maintenance-only,,,,Not active economic collection; Phase7 electricity/satellite/coverage research. Maintenance runner writes existing reports.
+scripts/phase7b/report.py,research/historical or maintenance-only,,,,Not active economic collection; Phase7 electricity/satellite/coverage research. Maintenance runner writes existing reports.
+scripts/phase7b/run.py,research/historical or maintenance-only,,,,Not active economic collection; Phase7 electricity/satellite/coverage research. Maintenance runner writes existing reports.
+scripts/phase7b/sample_control.py,research/historical or maintenance-only,,,,Not active economic collection; Phase7 electricity/satellite/coverage research. Maintenance runner writes existing reports.
+scripts/phase7b/test_runner.py,research/historical or maintenance-only,,,,Not active economic collection; Phase7 electricity/satellite/coverage research. Maintenance runner writes existing reports.
+scripts/phase7c/__init__.py,research/historical or maintenance-only,,,,Not active economic collection; Phase7 electricity/satellite/coverage research. Maintenance runner writes existing reports.
+scripts/phase7c/browser_check.py,research/historical or maintenance-only,,,,Not active economic collection; Phase7 electricity/satellite/coverage research. Maintenance runner writes existing reports.
+scripts/phase7c/data.py,research/historical or maintenance-only,,,,Not active economic collection; Phase7 electricity/satellite/coverage research. Maintenance runner writes existing reports.
+scripts/phase7c/finalize.py,research/historical or maintenance-only,,,,Not active economic collection; Phase7 electricity/satellite/coverage research. Maintenance runner writes existing reports.
+scripts/phase7c/models.py,research/historical or maintenance-only,,,,Not active economic collection; Phase7 electricity/satellite/coverage research. Maintenance runner writes existing reports.
+scripts/phase7c/report.py,research/historical or maintenance-only,,,,Not active economic collection; Phase7 electricity/satellite/coverage research. Maintenance runner writes existing reports.
+scripts/phase7c/run.py,research/historical or maintenance-only,,,,Not active economic collection; Phase7 electricity/satellite/coverage research. Maintenance runner writes existing reports.
+scripts/phase7c/test_runner.py,research/historical or maintenance-only,,,,Not active economic collection; Phase7 electricity/satellite/coverage research. Maintenance runner writes existing reports.
+scripts/phase7c/validate.py,research/historical or maintenance-only,,,,Not active economic collection; Phase7 electricity/satellite/coverage research. Maintenance runner writes existing reports.
+scripts/phase6i/__init__.py,research/historical or maintenance-only,,,,Not active economic collection; Phase7 electricity/satellite/coverage research. Maintenance runner writes existing reports.
+scripts/phase6i/models.py,research/historical or maintenance-only,,,,Not active economic collection; Phase7 electricity/satellite/coverage research. Maintenance runner writes existing reports.
+scripts/phase6i/report.py,research/historical or maintenance-only,,,,Not active economic collection; Phase7 electricity/satellite/coverage research. Maintenance runner writes existing reports.
+scripts/phase6i/run.py,research/historical or maintenance-only,,,,Not active economic collection; Phase7 electricity/satellite/coverage research. Maintenance runner writes existing reports.
+scripts/phase6i/validate.py,research/historical or maintenance-only,,,,Not active economic collection; Phase7 electricity/satellite/coverage research. Maintenance runner writes existing reports.
+scripts/reconciliation/reconcile.py,research/historical or maintenance-only,,,,Not active economic collection; Phase7 electricity/satellite/coverage research. Maintenance runner writes existing reports.
+scripts/reconciliation/test_reconciliation.py,research/historical or maintenance-only,,,,Not active economic collection; Phase7 electricity/satellite/coverage research. Maintenance runner writes existing reports.
+scripts/maintenance/compare_migration.py,research/historical or maintenance-only,,,,Not active economic collection; Phase7 electricity/satellite/coverage research. Maintenance runner writes existing reports.
+scripts/maintenance/finalize_repository.py,research/historical or maintenance-only,,,,Not active economic collection; Phase7 electricity/satellite/coverage research. Maintenance runner writes existing reports.
+scripts/maintenance/remove_generated.py,research/historical or maintenance-only,,,,Not active economic collection; Phase7 electricity/satellite/coverage research. Maintenance runner writes existing reports.
+scripts/maintenance/trace_production.py,research/historical or maintenance-only,,,,Not active economic collection; Phase7 electricity/satellite/coverage research. Maintenance runner writes existing reports.
+scripts/maintenance/validate_current.py,research/historical or maintenance-only,,,,Not active economic collection; Phase7 electricity/satellite/coverage research. Maintenance runner writes existing reports.
+data/raw,storage,,,data/raw,timestamp/UUID provider receipts; current_updates; recovery research; no older archives changed
+data/processed,storage,,,data/processed,<key>.parquet and USD/RUB daily snapshots
+data/master,storage,,,data/master,v1_monthly.parquet/.xlsx; gdp_quarterly.parquet/.xlsx; older pilot outputs
+data/current,storage,,,data/current,recovered_monthly.csv; predictor_provenance.csv; historical_panel.csv; gdp_vintages.csv
+data/operations/shadow_observations.parquet,storage,,,data/operations/shadow_observations.parquet,future approved-real/POS overlay; file absent locally
+data/staging,storage,,,data/staging,operations.lock and isolated projects
+data/versions,storage,,,data/versions,original files plus transaction.json journals
+metadata,storage,,,metadata,"observations_long, vintages, revisions, download_log, schema_log, release_calendar, validation_summary and runs"
+results/operations,storage,,,results/operations,update manifests/receipts/changes; prospective snapshot inputs/forecasts; realization records; append-only ledger
+results/current,storage,,,results/current,frozen nowcast/policy/manifest/data_freshness scientific artifacts
+dashboard,storage,,,dashboard,production v2 and current HTML
+archive,storage,,,archive,protected historical/compatibility material; not enumerated; relocations manifest describes old receipts
+registry/uzbekistan_nowcasting_v1.2_registry.xlsx::inactive rows,inactive production indicators,,"construction, corporate_credit, corporate_deposits, cpi_food, cpi_headline, cpi_services, electricity_gas, exports_non_gold, exports_total, gold_exports_proxy, household_credit, household_deposits, imports_total, instant_payments, interbank_payments, manufacturing, mining, retail_trade, russia_ipi, wholesale_trade",,No automation readiness claim for inactive series.

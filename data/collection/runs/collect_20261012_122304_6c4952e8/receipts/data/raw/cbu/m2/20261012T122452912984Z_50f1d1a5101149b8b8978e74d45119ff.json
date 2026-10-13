@@ -1,0 +1,18 @@
+{
+  "run_id": "collect_20261012_122304_6c4952e8",
+  "variable_key": "m2",
+  "provider": "CBU",
+  "source_id": "4-009-0020 (DCS); alternate 4-009-0021",
+  "source_url": "https://cbu.uz/sdmx/public/DCS_Uzbekistan_Online.xlsx",
+  "response_url": "https://cbu.uz/sdmx/public/DCS_Uzbekistan_Online.xlsx",
+  "retrieved_at": "2026-10-12T12:24:52.912984+00:00",
+  "source_release_date": "2026-09-25T09:40:00+05:00",
+  "source_release_basis": "official CBU page update timestamp",
+  "http_status": 200,
+  "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "raw_file_path": "data/raw/cbu/m2/20261012T122452912984Z_50f1d1a5101149b8b8978e74d45119ff.payload",
+  "checksum": "4f5af75fb0bab1d01c4d87789f0d1f5b40ced2d1eeb9d6f0584fedcb182e3e0b",
+  "schema_fingerprint": "147fbd8a9e5372bcf3aa3a58bfc555ae9cabdbd58f9f6c3d015f31f6f1ed3954",
+  "parser_version": "0.1.0",
+  "rows_raw": null
+}

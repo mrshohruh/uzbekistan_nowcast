@@ -1,0 +1,78 @@
+variable,period,old_value,new_value,change_type,absolute_change,relative_change,accepted,reason
+pos_turnover,2018-12,,,MISSING_IN_NEW_SOURCE,,,False,Source omission never deletes history
+pos_turnover,2019-01,,,MISSING_IN_NEW_SOURCE,,,False,Source omission never deletes history
+pos_turnover,2019-02,,,MISSING_IN_NEW_SOURCE,,,False,Source omission never deletes history
+pos_turnover,2019-04,,,MISSING_IN_NEW_SOURCE,,,False,Source omission never deletes history
+pos_turnover,2019-05,,,MISSING_IN_NEW_SOURCE,,,False,Source omission never deletes history
+pos_turnover,2019-06,,,MISSING_IN_NEW_SOURCE,,,False,Source omission never deletes history
+pos_turnover,2019-07,,,MISSING_IN_NEW_SOURCE,,,False,Source omission never deletes history
+pos_turnover,2019-08,,,MISSING_IN_NEW_SOURCE,,,False,Source omission never deletes history
+pos_turnover,2019-09,,,MISSING_IN_NEW_SOURCE,,,False,Source omission never deletes history
+pos_turnover,2019-10,,,MISSING_IN_NEW_SOURCE,,,False,Source omission never deletes history
+pos_turnover,2019-11,,,MISSING_IN_NEW_SOURCE,,,False,Source omission never deletes history
+pos_turnover,2019-12,,,MISSING_IN_NEW_SOURCE,,,False,Source omission never deletes history
+pos_turnover,2020-01,24.825442054427782,,MISSING_IN_NEW_SOURCE,,,False,Source omission never deletes history
+pos_turnover,2020-03,,,MISSING_IN_NEW_SOURCE,,,False,Source omission never deletes history
+pos_turnover,2020-04,,,MISSING_IN_NEW_SOURCE,,,False,Source omission never deletes history
+pos_turnover,2020-05,6.230627128267052,,MISSING_IN_NEW_SOURCE,,,False,Source omission never deletes history
+pos_turnover,2020-06,17.532196255008436,,REVISION,,,False,Series withheld because another candidate observation failed validation
+pos_turnover,2020-08,,,REVISION,,,False,Series withheld because another candidate observation failed validation
+pos_turnover,2020-09,14.959979362070719,,REVISION,,,False,Series withheld because another candidate observation failed validation
+pos_turnover,2020-11,,,REVISION,,,False,Series withheld because another candidate observation failed validation
+pos_turnover,2020-12,24.28449332584144,,REVISION,,,False,Series withheld because another candidate observation failed validation
+pos_turnover,2021-01,12.589167445609917,,REVISION,,,False,Series withheld because another candidate observation failed validation
+pos_turnover,2021-03,,,REVISION,,,False,Series withheld because another candidate observation failed validation
+pos_turnover,2021-04,48.36675807717192,,REVISION,,,False,Series withheld because another candidate observation failed validation
+pos_turnover,2021-05,28.28698315969227,,REVISION,,,False,Series withheld because another candidate observation failed validation
+pos_turnover,2021-06,23.13939033255714,,REVISION,,,False,Series withheld because another candidate observation failed validation
+pos_turnover,2021-07,,,MISSING_IN_NEW_SOURCE,,,False,Source omission never deletes history
+pos_turnover,2021-08,,,REVISION,,,False,Series withheld because another candidate observation failed validation
+pos_turnover,2021-09,22.049483349857013,22.049484589526003,REVISION,1.2396689896831958e-06,5.6222133190764073e-08,False,Series withheld because another candidate observation failed validation
+pos_turnover,2021-10,,,MISSING_IN_NEW_SOURCE,,,False,Source omission never deletes history
+pos_turnover,2021-11,,,REVISION,,,False,Series withheld because another candidate observation failed validation
+pos_turnover,2021-12,32.68921143783512,32.689203621136365,REVISION,-7.816698754936624e-06,-2.391216677037803e-07,False,Series withheld because another candidate observation failed validation
+pos_turnover,2022-01,39.29353055603251,39.29353722096245,REVISION,6.6649299412802065e-06,1.6961901480896525e-07,False,Series withheld because another candidate observation failed validation
+pos_turnover,2022-02,,,REVISION,,,False,Series withheld because another candidate observation failed validation
+pos_turnover,2022-03,,,MISSING_IN_NEW_SOURCE,,,False,Source omission never deletes history
+pos_turnover,2022-05,,,REVISION,,,False,Series withheld because another candidate observation failed validation
+pos_turnover,2022-06,51.781824018077316,51.78182046890676,INVALID,-3.549170557448633e-06,-6.854085627052455e-08,False,"FAIL: nonpositive/nonfinite, future timing or extreme change requires review"
+pos_turnover,2022-07,49.47374567616016,,REVISION,,,False,Series withheld because another candidate observation failed validation
+pos_turnover,2022-08,58.76004718667929,,REVISION,,,False,Series withheld because another candidate observation failed validation
+pos_turnover,2022-10,,,NEW_OBSERVATION,,,False,Series withheld because another candidate observation failed validation
+pos_turnover,2022-11,,,NEW_OBSERVATION,,,False,Series withheld because another candidate observation failed validation
+pos_turnover,2022-12,,47.84358774445323,NEW_OBSERVATION,,,False,Series withheld because another candidate observation failed validation
+pos_turnover,2023-01,,52.42464600958563,INVALID,,,False,"FAIL: nonpositive/nonfinite, future timing or extreme change requires review"
+pos_turnover,2023-02,,49.62399471892134,NEW_OBSERVATION,,,False,Series withheld because another candidate observation failed validation
+pos_turnover,2023-03,,,NEW_OBSERVATION,,,False,Series withheld because another candidate observation failed validation
+pos_turnover,2023-04,,,NEW_OBSERVATION,,,False,Series withheld because another candidate observation failed validation
+pos_turnover,2023-07,,,NEW_OBSERVATION,,,False,Series withheld because another candidate observation failed validation
+pos_turnover,2023-08,,34.268443561347084,NEW_OBSERVATION,,,False,Series withheld because another candidate observation failed validation
+pos_turnover,2023-09,,,NEW_OBSERVATION,,,False,Series withheld because another candidate observation failed validation
+pos_turnover,2023-10,,,NEW_OBSERVATION,,,False,Series withheld because another candidate observation failed validation
+pos_turnover,2023-11,,25.06146946035024,NEW_OBSERVATION,,,False,Series withheld because another candidate observation failed validation
+pos_turnover,2023-12,,31.81665762840602,NEW_OBSERVATION,,,False,Series withheld because another candidate observation failed validation
+pos_turnover,2024-01,,34.31503696196394,NEW_OBSERVATION,,,False,Series withheld because another candidate observation failed validation
+pos_turnover,2024-02,,31.34157959681687,NEW_OBSERVATION,,,False,Series withheld because another candidate observation failed validation
+pos_turnover,2024-03,,25.363113911244994,NEW_OBSERVATION,,,False,Series withheld because another candidate observation failed validation
+pos_turnover,2024-04,,42.97304273787468,NEW_OBSERVATION,,,False,Series withheld because another candidate observation failed validation
+pos_turnover,2024-05,,,NEW_OBSERVATION,,,False,Series withheld because another candidate observation failed validation
+pos_turnover,2024-07,,,NEW_OBSERVATION,,,False,Series withheld because another candidate observation failed validation
+pos_turnover,2024-08,,12.918465371285848,REVISION,,,False,Series withheld because another candidate observation failed validation
+pos_turnover,2024-09,,25.58298357398634,REVISION,,,False,Series withheld because another candidate observation failed validation
+pos_turnover,2024-10,,24.59287072991394,REVISION,,,False,Series withheld because another candidate observation failed validation
+pos_turnover,2024-12,,,REVISION,,,False,Series withheld because another candidate observation failed validation
+pos_turnover,2025-01,,,MISSING_IN_NEW_SOURCE,,,False,Source omission never deletes history
+pos_turnover,2025-02,,,MISSING_IN_NEW_SOURCE,,,False,Source omission never deletes history
+pos_turnover,2025-03,,,MISSING_IN_NEW_SOURCE,,,False,Source omission never deletes history
+pos_turnover,2025-04,,,MISSING_IN_NEW_SOURCE,,,False,Source omission never deletes history
+pos_turnover,2025-05,,,MISSING_IN_NEW_SOURCE,,,False,Source omission never deletes history
+pos_turnover,2025-06,,,MISSING_IN_NEW_SOURCE,,,False,Source omission never deletes history
+pos_turnover,2025-07,,,MISSING_IN_NEW_SOURCE,,,False,Source omission never deletes history
+pos_turnover,2025-08,,,MISSING_IN_NEW_SOURCE,,,False,Source omission never deletes history
+pos_turnover,2025-09,33.07371631547795,,MISSING_IN_NEW_SOURCE,,,False,Source omission never deletes history
+pos_turnover,2025-11,,,MISSING_IN_NEW_SOURCE,,,False,Source omission never deletes history
+pos_turnover,2026-01,22.957516219549845,,MISSING_IN_NEW_SOURCE,,,False,Source omission never deletes history
+pos_turnover,2026-02,32.72028805638385,,MISSING_IN_NEW_SOURCE,,,False,Source omission never deletes history
+pos_turnover,2026-03,35.01934951388641,,MISSING_IN_NEW_SOURCE,,,False,Source omission never deletes history
+pos_turnover,2026-05,,,MISSING_IN_NEW_SOURCE,,,False,Source omission never deletes history
+pos_turnover,2026-06,58.62177883622657,,MISSING_IN_NEW_SOURCE,,,False,Source omission never deletes history

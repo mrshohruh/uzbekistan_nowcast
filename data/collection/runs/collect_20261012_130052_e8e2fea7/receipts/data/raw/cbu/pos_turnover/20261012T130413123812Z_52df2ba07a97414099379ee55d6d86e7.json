@@ -1,0 +1,18 @@
+{
+  "run_id": "collect_20261012_130052_e8e2fea7",
+  "variable_key": "pos_turnover",
+  "provider": "CBU",
+  "source_id": "4-009-0047",
+  "source_url": "https://cbu.uz/upload/medialibrary/467/ptk9mzip3aobq0swh268g3wvghsqhyep/BC_POS_ATM_TURNOVER-01.08.2026-eng.xls",
+  "response_url": "https://cbu.uz/upload/medialibrary/467/ptk9mzip3aobq0swh268g3wvghsqhyep/BC_POS_ATM_TURNOVER-01.08.2026-eng.xls",
+  "retrieved_at": "2026-10-12T13:04:13.123812+00:00",
+  "source_release_date": "2026-08-11T10:51:00+05:00",
+  "source_release_basis": "official archive article update timestamp",
+  "http_status": 200,
+  "content_type": "application/vnd.ms-excel",
+  "raw_file_path": "data/raw/cbu/pos_turnover/20261012T130413123812Z_52df2ba07a97414099379ee55d6d86e7.payload",
+  "checksum": "dc87b09641c7766504a0ddae8f194877e9ad6469930c35d6c80a684a659f0cfd",
+  "schema_fingerprint": "3cf218b55b5c307356ccc036b88b184527d59fd173fbc85c8b1ad43f1c81cfb9",
+  "parser_version": "0.1.0",
+  "rows_raw": null
+}

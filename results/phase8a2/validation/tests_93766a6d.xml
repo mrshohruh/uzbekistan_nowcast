@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="3" skipped="0" tests="5" time="34.904" timestamp="2026-10-12T16:38:00.884352+05:00" hostname="B38"><testcase classname="tests.collection.test_collection" name="test_no_new_observations_does_not_publish" time="6.070" /><testcase classname="tests.collection.test_collection" name="test_daily_fx_without_complete_month_is_retained[usd_uzs]" time="8.230"><failure message="AssertionError: assert 'COLLECTION_ABORTED' == 'COLLECTION_COMMITTED'&#10;  &#10;  - COLLECTION_COMMITTED&#10;  ?            ^ ^^^^&#10;  + COLLECTION_ABORTED&#10;  ?            ^^ ^">isolated = WindowsPath('C:/Users/Sh.Nishonqulov/Desktop/uzbekistan_nowcast_codex_starter/.tmp/a2_701907/t_3fc86f8/r')
+key = 'usd_uzs'
+
+    @pytest.mark.parametrize('key', ['usd_uzs', 'rub_uzs'])
+    def test_daily_fx_without_complete_month_is_retained(isolated, key):
+        def fetch(k, client, registry, root, working, asof):
+            if k != key:
+                return old_candidate(k, client, registry, root, working, asof)
+            old = pd.read_parquet(working / f'data/processed/{key}_daily.parquet')
+            row = registry.rows[key]
+            new = parse_fx([dict(Ccy=key.split('_')[0].upper(), Date='02.10.2026', Rate='12000', Nominal='1')],
+                           currency=key.split('_')[0].upper())
+            new = attach_provenance(new, row, dict(source_url='https://cbu.uz/synthetic-test-only',
+                         retrieved_at='2026-10-12T07:00:00Z', raw_file_path='test-only', checksum='test-only', schema_fingerprint='test-only'))
+            daily = pd.concat([old, new], ignore_index=True).sort_values('reference_date')
+            monthly = fx_monthly(daily, '2013-01-01', '2026-10-12')
+            # Keep frozen completed months exactly to isolate partial-month persistence.
+            candidate = old_candidate(k, client, registry, root, working, asof)
+            partial = monthly.loc[monthly.reference_period.eq('2026-10')]
+            candidate = pd.concat([candidate.loc[~candidate.reference_period.eq('2026-10')], partial], ignore_index=True)
+            candidate.attrs['daily'] = daily
+            return candidate
+        result = run(isolated, fetch, commit=True)
+        version = snapshot(result, isolated)
+&gt;       assert result['status'] == 'COLLECTION_COMMITTED'
+E       AssertionError: assert 'COLLECTION_ABORTED' == 'COLLECTION_COMMITTED'
+E         
+E         - COLLECTION_COMMITTED
+E         ?            ^ ^^^^
+E         + COLLECTION_ABORTED
+E         ?            ^^ ^
+
+tests\collection\test_collection.py:169: AssertionError</failure></testcase><testcase classname="tests.collection.test_collection" name="test_daily_fx_without_complete_month_is_retained[rub_uzs]" time="9.042"><failure message="AssertionError: assert 'COLLECTION_DEGRADED' == 'COLLECTION_COMMITTED'&#10;  &#10;  - COLLECTION_COMMITTED&#10;  + COLLECTION_DEGRADED">isolated = WindowsPath('C:/Users/Sh.Nishonqulov/Desktop/uzbekistan_nowcast_codex_starter/.tmp/a2_701907/t_0c87e32/r')
+key = 'rub_uzs'
+
+    @pytest.mark.parametrize('key', ['usd_uzs', 'rub_uzs'])
+    def test_daily_fx_without_complete_month_is_retained(isolated, key):
+        def fetch(k, client, registry, root, working, asof):
+            if k != key:
+                return old_candidate(k, client, registry, root, working, asof)
+            old = pd.read_parquet(working / f'data/processed/{key}_daily.parquet')
+            row = registry.rows[key]
+            new = parse_fx([dict(Ccy=key.split('_')[0].upper(), Date='02.10.2026', Rate='12000', Nominal='1')],
+                           currency=key.split('_')[0].upper())
+            new = attach_provenance(new, row, dict(source_url='https://cbu.uz/synthetic-test-only',
+                         retrieved_at='2026-10-12T07:00:00Z', raw_file_path='test-only', checksum='test-only', schema_fingerprint='test-only'))
+            daily = pd.concat([old, new], ignore_index=True).sort_values('reference_date')
+            monthly = fx_monthly(daily, '2013-01-01', '2026-10-12')
+            # Keep frozen completed months exactly to isolate partial-month persistence.
+            candidate = old_candidate(k, client, registry, root, working, asof)
+            partial = monthly.loc[monthly.reference_period.eq('2026-10')]
+            candidate = pd.concat([candidate.loc[~candidate.reference_period.eq('2026-10')], partial], ignore_index=True)
+            candidate.attrs['daily'] = daily
+            return candidate
+        result = run(isolated, fetch, commit=True)
+        version = snapshot(result, isolated)
+&gt;       assert result['status'] == 'COLLECTION_COMMITTED'
+E       AssertionError: assert 'COLLECTION_DEGRADED' == 'COLLECTION_COMMITTED'
+E         
+E         - COLLECTION_COMMITTED
+E         + COLLECTION_DEGRADED
+
+tests\collection\test_collection.py:169: AssertionError</failure></testcase><testcase classname="tests.collection.test_collection" name="test_claimed_pos_scope_does_not_extend_eligibility" time="5.169"><failure message="AssertionError: assert np.False_&#10; +  where np.False_ = any()&#10; +    where any = 0       False\n1       False\n2       False\n3       False\n4       False\n        ...  \n1746    False\n1747    False\n1748    False\n1749    False\n1750    False\nName: reason, Length: 1751, dtype: bool.any&#10; +      where 0       False\n1       False\n2       False\n3       False\n4       False\n        ...  \n1746    False\n1747    False\n1748    False\n1749    False\n1750    False\nName: reason, Length: 1751, dtype: bool = contains('SCOPE_VERIFICATION_REQUIRED')&#10; +        where contains = &lt;pandas.core.strings.accessor.StringMethods object at 0x000002040D554920&gt;.contains&#10; +          where &lt;pandas.core.strings.accessor.StringMethods object at 0x000002040D554920&gt; = 0       Retain old provenance\n1       Retain old provenance\n2       Retain old provenance\n3       Retain old provenanc...etain old provenance\n1749    Retain old provenance\n1750    Retain old provenance\nName: reason, Length: 1751, dtype: str.str&#10; +            where 0       Retain old provenance\n1       Retain old provenance\n2       Retain old provenance\n3       Retain old provenanc...etain old provenance\n1749    Retain old provenance\n1750    Retain old provenance\nName: reason, Length: 1751, dtype: str =                                  variable  ...           variable_key\n0     industrial_production_approved_real  ...  ...           gdp_real_yoy\n1750                         gdp_real_yoy  ...           gdp_real_yoy\n\n[1751 rows x 10 columns].reason">isolated = WindowsPath('C:/Users/Sh.Nishonqulov/Desktop/uzbekistan_nowcast_codex_starter/.tmp/a2_701907/t_b283dbe/r')
+
+    def test_claimed_pos_scope_does_not_extend_eligibility(isolated):
+        def fetch(k, *args):
+            f = old_candidate(k, *args)
+            if k == 'pos_turnover':
+                f['scope_verified'] = True
+                f.loc[f.reference_period.gt('2024-12'), 'clean_value'] += .1
+                f['retrieved_at'] = f['vintage_date'] = '2026-10-12T07:00:00Z'
+            return f
+        result = run(isolated, fetch)
+        recovery = pd.read_parquet(snapshot(result, isolated) / 'data/recovery/pos_turnover.parquet')
+        assert recovery.reference_period.max() == '2024-12'
+        decisions = pd.read_csv(isolated / 'data/collection/runs' / result['run_id'] / 'observation_decisions.csv')
+&gt;       assert decisions.reason.str.contains('SCOPE_VERIFICATION_REQUIRED').any()
+E       AssertionError: assert np.False_
+E        +  where np.False_ = any()
+E        +    where any = 0       False\n1       False\n2       False\n3       False\n4       False\n        ...  \n1746    False\n1747    False\n1748    False\n1749    False\n1750    False\nName: reason, Length: 1751, dtype: bool.any
+E        +      where 0       False\n1       False\n2       False\n3       False\n4       False\n        ...  \n1746    False\n1747    False\n1748    False\n1749    False\n1750    False\nName: reason, Length: 1751, dtype: bool = contains('SCOPE_VERIFICATION_REQUIRED')
+E        +        where contains = &lt;pandas.core.strings.accessor.StringMethods object at 0x000002040D554920&gt;.contains
+E        +          where &lt;pandas.core.strings.accessor.StringMethods object at 0x000002040D554920&gt; = 0       Retain old provenance\n1       Retain old provenance\n2       Retain old provenance\n3       Retain old provenanc...etain old provenance\n1749    Retain old provenance\n1750    Retain old provenance\nName: reason, Length: 1751, dtype: str.str
+E        +            where 0       Retain old provenance\n1       Retain old provenance\n2       Retain old provenance\n3       Retain old provenanc...etain old provenance\n1749    Retain old provenance\n1750    Retain old provenance\nName: reason, Length: 1751, dtype: str =                                  variable  ...           variable_key\n0     industrial_production_approved_real  ...  ...           gdp_real_yoy\n1750                         gdp_real_yoy  ...           gdp_real_yoy\n\n[1751 rows x 10 columns].reason
+
+tests\collection\test_collection.py:249: AssertionError</failure></testcase><testcase classname="tests.collection.test_collection" name="test_real_industry_version_has_separate_provenance" time="5.246" /></testsuite></testsuites>

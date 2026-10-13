@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="oz" data-site-dir="/uzc/">
+<head><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><title>404 Not Found - Ўзбекистон Республикаси Марказий банки</title><link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png"><link rel="icon" type="image/svg+xml" sizes="120x120" href="/favicons/favicon-120x120.svg"><link rel="icon" type="image/png" sizes="96x96" href="/favicons/favicon-96x96.png"><link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png"><link rel="manifest" href="/favicons/site.webmanifest"><meta name="msapplication-TileColor" content="#ffc700"><meta name="theme-color" content="#ffc700"><meta name="msapplication-config" content="/favicons/browserconfig.xml"><meta name="format-detection" content="telephone=no"><meta name="format-detection" content="date=no"><meta name="format-detection" content="address=no"><meta name="format-detection" content="email=no"><meta name="format-detection" content="telephone=no,date=no,address=no,email=no,url=no"><link href="/bitrix/templates/main/css/jquery.reject-1.1.0.min.css" type="text/css" rel="stylesheet" data-skip-moving="true">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="robots" content="index, follow" />
+<script data-skip-moving="true">(function(w, d, n) {var cl = "bx-core";var ht = d.documentElement;var htc = ht ? ht.className : undefined;if (htc === undefined || htc.indexOf(cl) !== -1){return;}var ua = n.userAgent;if (/(iPad;)|(iPhone;)/i.test(ua)){cl += " bx-ios";}else if (/Windows/i.test(ua)){cl += ' bx-win';}else if (/Macintosh/i.test(ua)){cl += " bx-mac";}else if (/Linux/i.test(ua) && !/Android/i.test(ua)){cl += " bx-linux";}else if (/Android/i.test(ua)){cl += " bx-android";}cl += (/(ipad|iphone|android|mobile|touch)/i.test(ua) ? " bx-touch" : " bx-no-touch");cl += w.devicePixelRatio && w.devicePixelRatio >= 2? " bx-retina": " bx-no-retina";if (/Safari/i.test(ua) && !/Chrome/i.test(ua)){cl += " bx-safari";}else if (/AppleWebKit/.test(ua)){cl += " bx-chrome";}else if (/Opera/.test(ua)){cl += " bx-opera";}else if (/Firefox/.test(ua)){cl += " bx-firefox";}ht.className = htc ? htc + " " + cl : cl;})(window, document, navigator);</script>
+
+
+<link href="/bitrix/js/ui/design-tokens/dist/ui.design-tokens.min.css?172977453223463" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/js/ui/fonts/opensans/ui.font.opensans.min.css?16778425832320" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/js/main/popup/dist/main.popup.bundle.min.css?178490225222500" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/js/altasib.errorsend/css/window.css?1694603798910" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/cache/css/d2/main/page_ac37da8b1a357d7af75e160ab7914206/page_ac37da8b1a357d7af75e160ab7914206_v1.css?1791540228333" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/cache/css/d2/main/template_31b1d3c5f75e0a0171c98e7a59084a27/template_31b1d3c5f75e0a0171c98e7a59084a27_v1.css?1791540228786210" type="text/css" rel="stylesheet" data-template-style="true"/>
+
+
+<script type="extension/settings" data-extension="main.baseline">{"collectData":false,"helpUrl":"https:\/\/helpdesk.bitrix24.com\/open\/code_27229654\/","helpCode":"redirect=detail\u0026code=27229654"}</script>
+
+
+
+
+
+
+<script type="extension/settings" data-extension="ui.a11y">{"restoreLostFocus":false,"useFocusTrapInDialogs":false}</script>
+
+
+
+</head>
+<body class="lang-oz is-inner">
+<div id="panel"></div>
+<div class="page">
+    <noindex>
+    <div class="special-settings" style="z-index: 2000">
+        <div class="special-settings-wrapper clearfix">
+            <div class="a-fontsize">
+                Шрифт ўлчами:
+                <a class="a-fontsize-small" data-set="fs-small" href="#" title="Кичик шрифт ўлчами">A</a>
+                <a class="a-fontsize-normal a-current" href="#" data-set="fs-normal" title="Оддий шрифт ўлчами">A</a>
+                <a class="a-fontsize-big" data-set="fs-big" href="#" title="Катта шрифт ўлчами">A</a>
+            </div>
+            <div class="a-scale">
+                Масштаб:
+                <a class="a-scale-small" data-set="scale-small" href="#" title="Кичик масштаб 80%">A</a>
+                <a class="a-scale-normal a-current" href="#" data-set="scale-normal" title="Оддий масштаб 100%">A</a>
+                <a class="a-scale-big" data-set="scale-big" href="#" title="Катта масштаб 120%">A</a>
+                <a class="a-scale-large" data-set="scale-large" href="#" title="Катта масштаб 140%">A</a>
+            </div>
+            <div class="a-colors">
+                Ранг:
+                <a class="a-color1 a-current" data-set="color1" href="#" title="Оқ фонга қора">A</a>
+                <a class="a-color2" data-set="color2" href="#" title="Қора фонга сариқ">A</a>
+                <a class="a-color3" data-set="color3" href="#" title="_">A</a>
+                <a class="a-color4" data-set="color4" href="#" title="_">A</a>
+            </div>
+            <div class="a-images">
+                Расмлар:
+                <a class="a-images-on a-current" data-set="imageson" href="#" title="Ёқиш">Ёқиш</a>
+                <a class="a-images-off" data-set="imagesoff" href="#" title="Ўчириш">Ўчириш</a>
+            </div>
+            <div class="norm-version">
+                <a href="#" id="normalversion" data-set="normalversion" title="Сайтнинг тўлиқ версияси">Сайтнинг тўлиқ версияси</a>
+            </div>
+        </div>
+        <div class="clr"></div>
+    </div>
+</noindex>    
+    <div class="page__top">
+        <header class="header">
+    <div class="header__inner">
+
+        <div class="header__link">
+            <div class="container">
+                <div class="header__row">
+                    <div class="header__link_col">
+                        <a class="visually_impaired" href="#" id="specialversion" title="Заиф кўрувчилар учун" rel="nofollow">
+                            <i></i>
+                            <span>Заиф кўрувчилар учун</span>
+                        </a>
+                        <a class="header__link_icon btn-gspeech" href="#" title="Овозли олиб бориш" data-toggle="modal" data-target="#myModalSpeech" rel="nofollow">
+                            <i>
+                                <svg class="ico_svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <use xlink:href="/bitrix/templates/main/img/sprite_icons.svg#icon__sound" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                                </svg>
+                            </i>
+                        </a>
+                        <a class="header__link_icon btn-open-adaptive" id="btn-open-adaptive" href="#" title="Мобил талқин" rel="nofollow">
+                            <i>
+                                <svg class="ico_svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <use xlink:href="/bitrix/templates/main/img/sprite_icons.svg#icon__smartphone" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                                </svg>
+                            </i>
+                        </a>
+                        <a class="header__link_text" href="http://uforum.uz/forumdisplay.php?f=641" title="Форум">
+                            <i>
+                                <svg class="ico_svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <use xlink:href="/bitrix/templates/main/img/sprite_icons.svg#icon__message_square" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                                </svg>
+                            </i>
+                            <span>Форум</span>
+                        </a>
+                        <a class="header__link_text" href="/uzc/services/online-reception/" title="Виртуал қабулхона">
+                            <i>
+                                <svg class="ico_svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <use xlink:href="/bitrix/templates/main/img/sprite_icons.svg#icon__briefcase" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                                </svg>
+                            </i>
+                            <span>Виртуал қабулхона</span>
+                        </a>
+                        <a class="header__link_text" href="/uzc/contacts/" title="Биз билан боғланиш">
+                            <i>
+                                <svg class="ico_svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <use xlink:href="/bitrix/templates/main/img/sprite_icons.svg#icon__map_pin" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                                </svg>
+                            </i>
+                            <span>Биз билан боғланиш</span>
+                        </a>
+                        <a class="header__link_text header__link_homepage" href="/uzc/arkhiv-kursov-valyut/" title="Валюта курслари">
+                            <i>
+                                <svg class="ico_svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <use xlink:href="/bitrix/templates/main/img/sprite_icons.svg#icon__signal_cellular" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                                </svg>
+                            </i>
+                            <span>Валюта курслари</span>
+                        </a>
+                    </div>
+                    <div class="header__link_col">
+                        <div class="header__lng js-lang-menu">
+    <a href="/uz/" data-lang="uz">O’zbekcha</a>
+    <a href="/oz/" data-lang="oz">Ўзбекча</a>
+    <a href="/ru/" data-lang="ru">На русском</a>
+    <a href="/en/" data-lang="en">In english</a>
+</div>                                            </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header__base">
+            <div class="container">
+                <div class="header__row">
+
+                    <a class="header__toggle header__base_toggle nav_toggle"><span></span></a>
+                    <a class="header__logo" href="/uzc/">
+                        <img src="/bitrix/templates/main/img/logo-oz.svg" class="img_fluid" alt="">
+                    </a>
+                    <div class="header_search">
+                        <div class="header_search__button">
+                            <i>
+                                <svg class="ico_svg" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <use xlink:href="/bitrix/templates/main/img/sprite_icons.svg#icon__search" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                                </svg>
+                            </i>
+                        </div>
+                        
+<div class="header_search__input">
+        <form action="/uzc/search/index.php">
+        <input class="form-control" type="text" name="q" maxlength="50"  placeholder="Сайтдан қидирув..." autocomplete="off">
+    </form>
+</div>
+
+                    </div>
+
+                                                        </div>
+            </div>
+        </div>
+
+        <div class="header__nav" data-spy="affix" data-offset-top="200" data-offset-bottom="200">
+            <div class="container megamenu-container-etalon"></div>
+            <div class="container">
+                <div class="header__nav_wrap megamenu">
+                    <a href="#" class="header__toggle nav_toggle"><span></span></a>
+
+                    <ul class="header__nav_menu"><li class="menu-else menu-else-hidden dropdown-reverse"><a href="#">...</a></li></ul>                    <div class="header_search">
+                        <div class="header_search__button">
+                            <i>
+                                <svg class="ico_svg" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <use xlink:href="/bitrix/templates/main/img/sprite_icons.svg#icon__search" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                                </svg>
+                            </i>
+                        </div>
+                                                
+<div class="header_search__input">
+        <form action="/uzc/search/index.php">
+        <input class="form-control" type="text" name="q" maxlength="50"  placeholder="Сайтдан қидирув..." autocomplete="off">
+    </form>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>        <div class="navigation">
+    <div class="navigation__scroll">
+        <div class="container">
+            <div class="navigation__header">
+                <div class="navigation__header_logo">
+                    <img src="/bitrix/templates/main/img/logo-oz.svg" class="img_fluid" alt="">
+                </div>
+
+                <a href="#" class="navigation__header_close nav_toggle"></a>
+                <div class="navigation__header_search">
+                    <div class="header_search">
+                        <div class="header_search__button">
+                            <i>
+                                <svg class="ico_svg" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <use xlink:href="/bitrix/templates/main/img/sprite_icons.svg#icon__search" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                                </svg>
+                            </i>
+                        </div>
+                        <div class="header_search__input">
+                                                        
+<form action="/uzc/search/index.php">
+    <input class="form-control" type="text" name="q" maxlength="50"  placeholder="Сайтдан қидирув..." autocomplete="off">
+</form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navigation__top">
+                <div class="navigation__top_lng">
+    <a class="navigation__top_lng_item" href="/uz/" data-lang="uz">O’zbekcha</a>
+    <a class="navigation__top_lng_item" href="/oz/" data-lang="oz">Ўзбекча</a>
+    <a class="navigation__top_lng_item" href="/ru/" data-lang="ru">На русском</a>
+    <a class="navigation__top_lng_item" href="/en/" data-lang="en">In english</a>
+</div>
+                <div class="navigation__top_auth">
+                    <div class="navigation__mobile_auth__wrap">
+                                            </div>
+                </div>
+            </div>
+
+                        <div class="navigation__bottom">
+                <a class="navigation__bottom_item" href="/uzc/contacts/">
+                    <i>
+                        <svg class="ico_svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <use xlink:href="/bitrix/templates/main/img/sprite_icons.svg#icon__map_pin" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                        </svg>
+                    </i>
+                    <span>Биз билан боғланиш</span>
+                </a>
+                <a class="navigation__bottom_item" href="/uzc/services/online-reception/">
+                    <i>
+                        <svg class="ico_svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <use xlink:href="/bitrix/templates/main/img/sprite_icons.svg#icon__briefcase" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                        </svg>
+                    </i>
+                    <span>Виртуал қабулхона</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>            </div><!-- .page__top -->
+
+    
+
+    <section class="main">
+        <div class="container">
+                        <div class="main__row">
+                                            <div class="main__content js-content-block">
+                
+                    <div class="main__top">
+                        <nav aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item active" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb" aria-current="page"><span itemprop="title" title="Главная">Главная</span></li></ol></nav>                                                                                                                                                <a href="#" class="main_rss hide-xs-only" style="display: none;">
+                            <i><svg class="ico_svg" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg"><use xlink:href="/bitrix/templates/main/img/sprite_icons.svg#icon__rss" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></i>
+                            <span>RSS бўйича обуна бўлмоқ</span>
+                        </a>
+                    </div>
+                    <h1 class="heading_border ">404 Not Found</h1>
+                                                                                                                
+                                                                
+                </div><!-- .main__content -->
+
+                <div class="main__sidebar">
+
+                    <aside class="sidebar">
+
+                        
+                                                                                <div class="exchange_box">
+    <div class="sidebar_exchange">
+        <div class="sidebar_exchange__header">
+            <div class="sidebar_exchange__header_title">Валюта курслари</div>
+            <div class="sidebar_exchange__header_calendar">
+                <div class="input_calendar">
+                    <input type="text" class="form-control" name="date" value="12.10.2026">
+                    <i><svg class="ico_svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><use xlink:href="/bitrix/templates/main/img/sprite_icons.svg#icon__calendar" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></i>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar_exchange__content">
+            <div class="sidebar_exchange__item"><div class="sidebar_exchange__item_flag"><svg class="ico_svg" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><use xlink:href="/bitrix/templates/main/img/symbol_defs.svg#icon-currency-USD" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></div><div class="sidebar_exchange__item_content"><div class="sidebar_exchange__item_value"><strong>USD</strong> = 11899.09</div><div class="sidebar_exchange__item_shift color_green">+1.19</div></div><div class="sidebar_exchange__item_chart"><img src="/bitrix/templates/main/img/svg/icon__chart_up.svg" class="img_fluid" alt=""></div></div><div class="sidebar_exchange__item"><div class="sidebar_exchange__item_flag"><svg class="ico_svg" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><use xlink:href="/bitrix/templates/main/img/symbol_defs.svg#icon-currency-EUR" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></div><div class="sidebar_exchange__item_content"><div class="sidebar_exchange__item_value"><strong>EUR</strong> = 13298.42</div><div class="sidebar_exchange__item_shift color_red">-37.94</div></div><div class="sidebar_exchange__item_chart"><img src="/bitrix/templates/main/img/svg/icon__chart_down.svg" class="img_fluid" alt=""></div></div><div class="sidebar_exchange__item"><div class="sidebar_exchange__item_flag"><svg class="ico_svg" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><use xlink:href="/bitrix/templates/main/img/symbol_defs.svg#icon-currency-RUB" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></div><div class="sidebar_exchange__item_content"><div class="sidebar_exchange__item_value"><strong>RUB</strong> = 141.53</div><div class="sidebar_exchange__item_shift color_green">+1.35</div></div><div class="sidebar_exchange__item_chart"><img src="/bitrix/templates/main/img/svg/icon__chart_up.svg" class="img_fluid" alt=""></div></div><div class="sidebar_exchange__item"><div class="sidebar_exchange__item_flag"><svg class="ico_svg" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><use xlink:href="/bitrix/templates/main/img/symbol_defs.svg#icon-currency-GBP" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></div><div class="sidebar_exchange__item_content"><div class="sidebar_exchange__item_value"><strong>GBP</strong> = 15743.69</div><div class="sidebar_exchange__item_shift color_green">+6.34</div></div><div class="sidebar_exchange__item_chart"><img src="/bitrix/templates/main/img/svg/icon__chart_up.svg" class="img_fluid" alt=""></div></div><div class="sidebar_exchange__item"><div class="sidebar_exchange__item_flag"><svg class="ico_svg" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><use xlink:href="/bitrix/templates/main/img/symbol_defs.svg#icon-currency-JPY" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></div><div class="sidebar_exchange__item_content"><div class="sidebar_exchange__item_value"><strong>JPY</strong> = 75.03</div><div class="sidebar_exchange__item_shift color_red">-0.15</div></div><div class="sidebar_exchange__item_chart"><img src="/bitrix/templates/main/img/svg/icon__chart_down.svg" class="img_fluid" alt=""></div></div><div class="sidebar_exchange__item"><div class="sidebar_exchange__item_flag"><svg class="ico_svg" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><use xlink:href="/bitrix/templates/main/img/symbol_defs.svg#icon-currency-CHF" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></div><div class="sidebar_exchange__item_content"><div class="sidebar_exchange__item_value"><strong>CHF</strong> = 14282.91</div><div class="sidebar_exchange__item_shift color_red">-32.94</div></div><div class="sidebar_exchange__item_chart"><img src="/bitrix/templates/main/img/svg/icon__chart_down.svg" class="img_fluid" alt=""></div></div><div class="sidebar_exchange__item"><div class="sidebar_exchange__item_flag"><svg class="ico_svg" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><use xlink:href="/bitrix/templates/main/img/symbol_defs.svg#icon-currency-CNY" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></div><div class="sidebar_exchange__item_content"><div class="sidebar_exchange__item_value"><strong>CNY</strong> = 1777.89</div><div class="sidebar_exchange__item_shift color_green">+0.01</div></div><div class="sidebar_exchange__item_chart"><img src="/bitrix/templates/main/img/svg/icon__chart_up.svg" class="img_fluid" alt=""></div></div>            <div class="sidebar_exchange__actions">
+                <div class="sidebar_exchange__actions_item">
+                    <a href="#" class="btn btn-outline-primary btn-xs btn_icon_right btn_convert_toggle">
+                        <i><svg class="ico_svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><use xlink:href="/bitrix/templates/main/img/sprite_icons.svg#icon__refresh" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></i>
+                        <span>Конвертер</span>
+                    </a>
+                </div>
+                <div class="sidebar_exchange__actions_item">
+                    <a href="/uzc/arkhiv-kursov-valyut/" class="btn btn-outline-primary btn-xs btn_icon_right">
+                        <i><svg class="ico_svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><use xlink:href="/bitrix/templates/main/img/sprite_icons.svg#icon__inbox" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></i>
+                        <span>Курслар архиви</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Converter -->
+    <div class="converter calc-rates converter_sidebar">
+        <div class="converter__header"><span>Конвертер</span></div>
+        <div class="converter__main">
+            <div class="converter__meta">
+                <div class="converter__meta_elem">
+                    <div class="converter__invert js-convert-change-rates">
+                        <i><svg class="ico_svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><use xlink:href="/bitrix/templates/main/img/sprite_icons.svg#icon__refresh" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></i>
+                    </div>
+                </div>
+                <div class="converter__meta_elem">
+                    <div class="converter__symbol">
+                        <i><svg class="ico_svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><use xlink:href="/bitrix/templates/main/img/sprite_icons.svg#icon__summ" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></i>
+                    </div>
+                </div>
+            </div>
+            <div class="converter__content">
+                <div class="converter__content_elem">
+                    <div class="converter__data_value">
+                        <input type="text" class="form-control calc-rates-input force-numeric-only" name="curr_data" value="1" maxlength="16" autocomplete="off" placeholder="1000">
+                    </div>
+                </div>
+                <div class="converter__content_elem calc-rates-results">
+                    <div class="converter__amount calc-rates-result">0</div>
+                </div>
+            </div>
+            <div class="converter__data">
+                <div class="converter__data_elem converter__data_one">
+                    <div class="curr">
+                        <input type="hidden" name="curr" class="curr__value" value="">
+                        <div class="curr__header">
+                            <div class="curr__header_value">
+                                <div class="curr__item">
+                                    <div class="curr__item_icon"><svg class="ico_svg" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><use xlink:href="/bitrix/templates/main/img/symbol_defs.svg#icon-currency-USD" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></div>
+                                    <div class="curr__item_name">--</div>
+                                    <div class="curr__item_code"></div>
+                                </div>
+                            </div>
+                            <div class="curr__header_arrow"><svg class="ico_svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><use xlink:href="/bitrix/templates/main/img/sprite_icons.svg#icon__angle_down" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></div>
+                        </div>
+                        <div class="curr__content">
+                            <div class="curr__content_scroll calc-rates-list">
+                                <div class="curr__content_item item-button" data-value="USD"><div class="curr__item"><div class="curr__item_icon"><svg class="ico_svg" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><use xlink:href="/bitrix/templates/main/img/symbol_defs.svg#icon-currency-USD" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></div><div class="curr__item_name"> USD </div><div class="curr__item_code"></div></div></div><div class="curr__content_item item-button" data-value="EUR"><div class="curr__item"><div class="curr__item_icon"><svg class="ico_svg" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><use xlink:href="/bitrix/templates/main/img/symbol_defs.svg#icon-currency-EUR" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></div><div class="curr__item_name"> EUR </div><div class="curr__item_code"></div></div></div><div class="curr__content_item item-button" data-value="RUB"><div class="curr__item"><div class="curr__item_icon"><svg class="ico_svg" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><use xlink:href="/bitrix/templates/main/img/symbol_defs.svg#icon-currency-RUB" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></div><div class="curr__item_name"> RUB </div><div class="curr__item_code"></div></div></div><div class="curr__content_item item-button" data-value="GBP"><div class="curr__item"><div class="curr__item_icon"><svg class="ico_svg" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><use xlink:href="/bitrix/templates/main/img/symbol_defs.svg#icon-currency-GBP" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></div><div class="curr__item_name"> GBP </div><div class="curr__item_code"></div></div></div><div class="curr__content_item item-button" data-value="JPY"><div class="curr__item"><div class="curr__item_icon"><svg class="ico_svg" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><use xlink:href="/bitrix/templates/main/img/symbol_defs.svg#icon-currency-JPY" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></div><div class="curr__item_name"> JPY </div><div class="curr__item_code"></div></div></div><div class="curr__content_item item-button" data-value="CHF"><div class="curr__item"><div class="curr__item_icon"><svg class="ico_svg" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><use xlink:href="/bitrix/templates/main/img/symbol_defs.svg#icon-currency-CHF" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></div><div class="curr__item_name"> CHF </div><div class="curr__item_code"></div></div></div><div class="curr__content_item item-button" data-value="CNY"><div class="curr__item"><div class="curr__item_icon"><svg class="ico_svg" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><use xlink:href="/bitrix/templates/main/img/symbol_defs.svg#icon-currency-CNY" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></div><div class="curr__item_name"> CNY </div><div class="curr__item_code"></div></div></div><div class="curr__content_item item-button selected-to" data-value="UZS"><div class="curr__item"><div class="curr__item_icon"><svg class="ico_svg" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><use xlink:href="/bitrix/templates/main/img/symbol_defs.svg#icon-currency-UZS" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></div><div class="curr__item_name"> UZS </div><div class="curr__item_code"></div></div></div>                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="converter__data_elem converter__data_two">
+                    <div class="converter__result">
+                        <i><svg class="ico_svg" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><use xlink:href="/bitrix/templates/main/img/symbol_defs.svg#icon-currency-UZS" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></i>
+                        <span class="calc-rates-result-currency">UZS</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="converter__bottom">
+            <div class="converter__bottom_item">
+                <a href="#" class="btn btn-outline-primary btn-xs btn_icon_right btn_convert_toggle">
+                    <i><svg class="ico_svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><use xlink:href="/bitrix/templates/main/img/sprite_icons.svg#icon__trending" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></i>
+                    <span>Валюта курслари</span>
+                </a>
+            </div>
+            <div class="converter__bottom_item">
+                <a href="/uzc/arkhiv-kursov-valyut/" class="btn btn-outline-primary btn-xs btn_icon_right">
+                    <i><svg class="ico_svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><use xlink:href="/bitrix/templates/main/img/sprite_icons.svg#icon__inbox" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></i>
+                    <span>Курслар архиви</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.calc-rates-list .item-button.selected-to { display: none; }
+</style>
+
+                            <div class="sidebar__divider"></div>
+                        
+                                                
+                        <div class="sidebar__divider"></div>
+
+                    </aside>
+
+                </div><!-- .main__sidebar -->
+                                        </div><!-- .main__row -->
+                                    </div><!-- .container -->
+            </section><!-- .main -->
+
+
+    
+            <section class="rate"><div class="container"><div class="rate__row"><div class="rate__line"><div class="rate__item"><div class="rate__item_flag"><svg class="ico_svg" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><use xlink:href="/bitrix/templates/main/img/symbol_defs.svg#icon-currency-USD" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></div><div class="rate__item_content"><div class="rate__item_value"><strong>USD</strong> = 11899.09</div><div class="rate__item_shift color_green">+1.19</div></div><div class="rate__item_chart"><img src="/bitrix/templates/main/img/svg/icon__chart_up.svg" class="img_fluid" alt=""></div></div><div class="rate__item"><div class="rate__item_flag"><svg class="ico_svg" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><use xlink:href="/bitrix/templates/main/img/symbol_defs.svg#icon-currency-EUR" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></div><div class="rate__item_content"><div class="rate__item_value"><strong>EUR</strong> = 13298.42</div><div class="rate__item_shift color_red">-37.94</div></div><div class="rate__item_chart"><img src="/bitrix/templates/main/img/svg/icon__chart_down.svg" class="img_fluid" alt=""></div></div><div class="rate__item"><div class="rate__item_flag"><svg class="ico_svg" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><use xlink:href="/bitrix/templates/main/img/symbol_defs.svg#icon-currency-RUB" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></div><div class="rate__item_content"><div class="rate__item_value"><strong>RUB</strong> = 141.53</div><div class="rate__item_shift color_green">+1.35</div></div><div class="rate__item_chart"><img src="/bitrix/templates/main/img/svg/icon__chart_up.svg" class="img_fluid" alt=""></div></div><div class="rate__item"><div class="rate__item_flag"><svg class="ico_svg" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><use xlink:href="/bitrix/templates/main/img/symbol_defs.svg#icon-currency-GBP" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></div><div class="rate__item_content"><div class="rate__item_value"><strong>GBP</strong> = 15743.69</div><div class="rate__item_shift color_green">+6.34</div></div><div class="rate__item_chart"><img src="/bitrix/templates/main/img/svg/icon__chart_up.svg" class="img_fluid" alt=""></div></div><div class="rate__item"><div class="rate__item_flag"><svg class="ico_svg" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><use xlink:href="/bitrix/templates/main/img/symbol_defs.svg#icon-currency-JPY" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></div><div class="rate__item_content"><div class="rate__item_value"><strong>JPY</strong> = 75.03</div><div class="rate__item_shift color_red">-0.15</div></div><div class="rate__item_chart"><img src="/bitrix/templates/main/img/svg/icon__chart_down.svg" class="img_fluid" alt=""></div></div><div class="rate__item hide-lg-only"><div class="rate__item_flag"><svg class="ico_svg" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><use xlink:href="/bitrix/templates/main/img/symbol_defs.svg#icon-currency-CHF" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></div><div class="rate__item_content"><div class="rate__item_value"><strong>CHF</strong> = 14282.91</div><div class="rate__item_shift color_red">-32.94</div></div><div class="rate__item_chart"><img src="/bitrix/templates/main/img/svg/icon__chart_down.svg" class="img_fluid" alt=""></div></div><div class="rate__item hide-lg-only hide-xl-only"><div class="rate__item_flag"><svg class="ico_svg" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><use xlink:href="/bitrix/templates/main/img/symbol_defs.svg#icon-currency-CNY" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></div><div class="rate__item_content"><div class="rate__item_value"><strong>CNY</strong> = 1777.89</div><div class="rate__item_shift color_green">+0.01</div></div><div class="rate__item_chart"><img src="/bitrix/templates/main/img/svg/icon__chart_up.svg" class="img_fluid" alt=""></div></div></div><a href="/uzc/arkhiv-kursov-valyut/" class="rate__button"><span>Барча валюталар</span><i><svg class="ico_svg" viewBox="0 0 14 8" xmlns="http://www.w3.org/2000/svg"><use xlink:href="/bitrix/templates/main/img/sprite_icons.svg#icon__chevron_down" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></i></a></div></div></section>    
+        
+        
+
+    <footer class="footer">
+
+    <div class="footer__top">
+        <div class="container">
+            <div class="footer__row">
+                <div class="footer__group footer__group_contact">
+                    <div class="footer__logo">
+                        <img src="/bitrix/templates/main/img/logo-footer-oz.svg" class="img_fluid" alt="">
+                    </div>
+                    <div class="footer__copy">
+                        © 2005–2026                     </div>
+                    <div class="footer__group_title">
+                        <span>МБ контактлари</span>
+                        <i>
+                            <svg class="ico_svg" viewBox="0 0 14 8" xmlns="http://www.w3.org/2000/svg">
+                                <use xlink:href="/bitrix/templates/main/img/sprite_icons.svg#icon__chevron_down" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                            </svg>
+                        </i>
+                    </div>
+                    <div class="footer__group_content">
+                                                                    </div>
+                </div>
+                <div class="footer__group">
+                    <div class="footer__group_title">
+                        <span>Электрон ҳукумат</span>
+                        <i>
+                            <svg class="ico_svg" viewBox="0 0 14 8" xmlns="http://www.w3.org/2000/svg">
+                                <use xlink:href="/bitrix/templates/main/img/sprite_icons.svg#icon__chevron_down" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                            </svg>
+                        </i>
+                    </div>
+                    <div class="footer__group_content">
+                                            </div>
+                    <div class="footer__error_wrap">
+                        <a class="footer__error btn-find-error" href="#" data-title="Матнда хатоликни кўрдингизми?" data-content="Сичқонча билан белгиланг ва босинг CTRL + ENTER">
+                            <i>
+                                <svg class="ico_svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <use xlink:href="/bitrix/templates/main/img/sprite_icons.svg#icon__error_outline" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                                </svg>
+                            </i>
+                            <span>Матнда хатоликни кўрдингизми?</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__info">
+                    <div class="footer__info_box">
+                        <div class="footer__info_icon">
+                            <img src="/bitrix/templates/main/img/svg/icon__refresh.svg" class="img_fluid" alt="">
+                        </div>
+                        <div class="footer__info_text">
+                            <span class="text-uppercase">Охирги янгиланиш:</span>
+<span id="pc-lmd">
+    <!--'start_frame_cache_pc-lmd'-->        12.10.2026, 17:55&nbsp;(GMT+5)
+    <!--'end_frame_cache_pc-lmd'--></span>                        </div>
+                    </div>
+                    <div class="footer__info_box">
+                        <div class="footer__info_icon">
+                            <img src="/bitrix/templates/main/img/svg/icon__users.svg" class="img_fluid" alt="">
+                        </div>
+                        <div class="footer__info_text">
+                            <span class="text-uppercase">Ҳозир сайтда:</span>
+<span id="pc-auo">
+    <!--'start_frame_cache_pc-auo'-->        <span>рўйҳатдан ўтганлар - 0</span>
+        <span>меҳмонлар - 8</span>
+    <!--'end_frame_cache_pc-auo'--></span>                        </div>
+                    </div>
+                    <div id="js-counters" class="footer__ext">
+                                            </div>
+                </div>
+                <div class="footer__group footer__group_subscribe">
+                                            <div>
+    <div class="footer__group_title">
+        <span>Хабардор бўлинг </span>
+        <i>
+            <svg class="ico_svg" viewBox="0 0 14 8" xmlns="http://www.w3.org/2000/svg">
+                <use xlink:href="/bitrix/templates/main/img/sprite_icons.svg#icon__chevron_down" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+            </svg>
+        </i>
+    </div>
+    <div class="footer__group_content">
+        <div class="subscribe">
+            <div class="subscribe__title">Сиз янгилаб туриш рукнига обуна бўлиш орқали янгиликлардан хабардор бўлишингиз мумкин:</div>
+            <div class="subscribe__form">
+                <form role="form" method="post" action="/uzc/subscribe/">
+                    <div class="input-group">
+                        <input name="SENDER_SUBSCRIBE_EMAIL" type="email" class="form-control" placeholder=" E-MAILингизни киритинг" aria-label="" aria-describedby="subscribe_button" value="">
+                        <div class="input-group-append">
+                            <button class="sender-btn btn btn-outline-primary btn-sm" id="bx_subscribe_btn_7ZgwGV">Обуна бўлиш</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>                                                                                                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer__bottom">
+        <div class="container">
+            <div class="footer__bottom_row">
+                <div class="footer__bottom_left">
+                                    </div>
+                <div class="footer__bottom_copy">
+                    © 2005–2026<br/>
+                                    </div>
+                <div class="footer__ext">
+                                    </div>
+                <div class="footer__bottom_right">
+
+                    <a href="https://pixelcraft.uz" title="pixelcraft.uz" class="footer__bottom_logo">
+                        <img src="/bitrix/templates/main/img/dev_logo.svg" class="img_fluid" alt="www.pixelcraft.uz">
+                    </a>
+                    <div class="footer__bottom_text">
+                        <a href="https://pixelcraft.uz" title="pixelcraft.uz" class="footer__bottom_dev">Сайт яратувчиси Pixelcraft®</a>
+                        <div class="footer__bottom_engine"><a href="https://1c-bitrix.ru">Сайт 1C-Битриксда ишлайди</a></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+</div><!-- .page -->
+
+
+<div id="pc-back-top" style="display: block;"><a href="#top"><span class="fa fa-chevron-up"></span></a></div>
+
+
+
+<script>
+    var PORTAL_MESS = {};
+    PORTAL_MESS["TEST_VERSION_1"] = "Сайт тест режимида ишлайди";
+PORTAL_MESS["TEST_VERSION_2"] = "#URL_START#Алоқа формаси#URL_END# орқали юборилади шархлар ва таклифлар";
+PORTAL_MESS["TEST_VERSION_3"] = "Сайт ески версияси бу манзилда #SITE# жойлашган";
+PORTAL_MESS["SUM"] = "сўм";
+PORTAL_MESS["TIYIN"] = "тийин";
+PORTAL_MESS["CALC_WAIT"] = "ҳисоблаш... кутиш...";
+PORTAL_MESS["OB_TEXT_1"] = "Сиз, ески браузердан фойдаланаётганлигингизни биласизми?";
+PORTAL_MESS["OB_TEXT_2"] = "Сизнинг браузерингиз жуда ески ва мазкур сайтни нотўғри акс еттириши мумкин. Сиз ўзингизга исталган замонавийроқ браузерни ўрнатишингиз мумкин";
+PORTAL_MESS["OB_TEXT_3"] = "Оддийгина, ўзингиз ёқтирган браузер тугмачасини босинг ва уни кўчириб олиш саҳифасига ўтасиз";
+PORTAL_MESS["OB_TEXT_4"] = "Ушбу ойнани ёпиш орқали Сиз браузерингиз ескилигига розилик билдирасиз ва замонавийроқ браузерни кўчириб олиш истагингизни тасдиқлайсиз";
+PORTAL_MESS["OB_TEXT_5"] = "Ушбу ойна ёпилсин";
+PORTAL_MESS["SHOW_ON_MAP"] = "Харитада кўрсатиш";
+PORTAL_MESS["STAT_COMPLETE"] = "Якунланганлар";
+PORTAL_MESS["STAT_RECEIVED"] = "Келиб тушганлар";
+PORTAL_MESS["USD"] = "USD";
+PORTAL_MESS["USDEUR"] = "USD";
+PORTAL_MESS["EUR"] = "EURO";
+PORTAL_MESS["UZS"] = "сўм";
+</script>
+<script>function ip_alert(text){}</script><script>if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess==='object'){for(let i in mess) {BX.message[i]=mess[i];} return true;}};</script>
+<script>(window.BX||top.BX).message({"pull_server_enabled":"N","pull_config_timestamp":0,"shared_worker_allowed":"Y","pull_guest_mode":"N","pull_guest_user_id":0,"pull_worker_mtime":1746191694});(window.BX||top.BX).message({"PULL_OLD_REVISION":"This page must be reloaded to ensure proper site functioning and to continue work."});</script>
+<script>(window.BX||top.BX).message({"MAIN_BASELINE_BROWSER_OUTDATED":"Your browser is out of date. Update your browser for a better user experience.","MAIN_BASELINE_CLOSE":"Close","MAIN_BASELINE_DETAILS":"Learn more"});</script><script src="/bitrix/js/main/baseline/dist/baseline.bundle.min.js?17849022454439"></script><script>(window.BX||top.BX).message({"JS_CORE_LOADING":"Загрузка...","JS_CORE_WINDOW_CLOSE":"Ёпиш","JS_CORE_WINDOW_EXPAND":"Развернуть","JS_CORE_WINDOW_NARROW":"Свернуть в окно","JS_CORE_WINDOW_SAVE":"Сохранить","JS_CORE_WINDOW_CANCEL":"Бекор қилиш","JS_CORE_H":"ч","JS_CORE_M":"м","JS_CORE_S":"с","JS_CORE_NO_DATA":"- Маълумот йўқ -","JSADM_AI_HIDE_EXTRA":"Скрыть лишние","JSADM_AI_ALL_NOTIF":"Показать все","JSADM_AUTH_REQ":"Требуется авторизация!","JS_CORE_WINDOW_AUTH":"Кириш","JS_CORE_IMAGE_FULL":"Full size","JS_CORE_WINDOW_CONTINUE":"Continue"});</script><script src="/bitrix/js/main/core/core.min.js?1784902252181429"></script><script>BX.Runtime.registerExtension({"name":"main.core","namespace":"BX","loaded":true});</script>
+<script>BX.setJSList(["\/bitrix\/js\/main\/core\/core_ajax.js","\/bitrix\/js\/main\/core\/core_promise.js","\/bitrix\/js\/main\/polyfill\/promise\/js\/promise.js","\/bitrix\/js\/main\/loadext\/loadext.js","\/bitrix\/js\/main\/loadext\/extension.js","\/bitrix\/js\/main\/polyfill\/promise\/js\/promise.js","\/bitrix\/js\/main\/polyfill\/find\/js\/find.js","\/bitrix\/js\/main\/polyfill\/includes\/js\/includes.js","\/bitrix\/js\/main\/polyfill\/matches\/js\/matches.js","\/bitrix\/js\/ui\/polyfill\/closest\/js\/closest.js","\/bitrix\/js\/main\/polyfill\/fill\/main.polyfill.fill.js","\/bitrix\/js\/main\/polyfill\/find\/js\/find.js","\/bitrix\/js\/main\/polyfill\/matches\/js\/matches.js","\/bitrix\/js\/main\/polyfill\/core\/dist\/polyfill.bundle.js","\/bitrix\/js\/main\/core\/core.js","\/bitrix\/js\/main\/polyfill\/intersectionobserver\/js\/intersectionobserver.js","\/bitrix\/js\/main\/lazyload\/dist\/lazyload.bundle.js","\/bitrix\/js\/main\/polyfill\/core\/dist\/polyfill.bundle.js","\/bitrix\/js\/main\/parambag\/dist\/parambag.bundle.js"]);
+</script>
+<script>BX.Runtime.registerExtension({"name":"ui.a11y","namespace":"BX.UI.Accessibility","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"ui.design-tokens","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"ui.fonts.opensans","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"main.popup","namespace":"BX.Main","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"popup","namespace":"window","loaded":true});</script>
+<script>(window.BX||top.BX).message({"LANGUAGE_ID":"oz","FORMAT_DATE":"DD.MM.YYYY","FORMAT_DATETIME":"DD.MM.YYYY HH:MI:SS","COOKIE_PREFIX":"BITRIX_SM","SERVER_TZ_OFFSET":"18000","UTF_MODE":"Y","SITE_ID":"d2","SITE_DIR":"\/uzc\/","USER_ID":"","SERVER_TIME":1791810287,"USER_TZ_OFFSET":0,"USER_TZ_AUTO":"Y","bitrix_sessid":"c03bf44abd16600c68c89f0c7c1d8540"});</script><script src="/bitrix/js/pull/protobuf/protobuf.js?1659956399274055"></script>
+<script src="/bitrix/js/pull/protobuf/model.min.js?165995639914190"></script>
+<script src="/bitrix/js/main/core/core_promise.min.js?17695159922494"></script>
+<script src="/bitrix/js/rest/client/rest.client.min.js?15823123748529"></script>
+<script src="/bitrix/js/pull/client/pull.client.min.js?174619169849849"></script>
+<script src="/bitrix/js/ui/a11y/dist/a11y.bundle.min.js?178490224231192"></script>
+<script src="/bitrix/js/main/popup/dist/main.popup.bundle.min.js?178490225271647"></script>
+<script>BX.setJSList(["\/bitrix\/templates\/main\/js2\/vendor\/jquery.min.js","\/bitrix\/templates\/main\/js\/jquery.reject-1.1.0.min.js","\/bitrix\/templates\/.default\/components\/bitrix\/menu\/.top\/js\/jquery.responsive.menu.min.js","\/bitrix\/templates\/.default\/components\/bitrix\/menu\/.top\/js\/script.js","\/bitrix\/templates\/.default\/components\/bitrix\/menu\/.side\/js\/script.js","\/bitrix\/templates\/main\/js\/jquery.forcenumericonly-0.0.1.min.js","\/bitrix\/templates\/main\/js\/jquery.maskMoney.min.js","\/bitrix\/templates\/.default\/components\/bitrix\/news.list\/.cb_inner_rates\/js\/script.js","\/bitrix\/components\/pixelcraft\/cb.backtotop\/templates\/.default\/js\/script.js","\/bitrix\/templates\/main\/js2\/vendor\/popper.min.js","\/bitrix\/templates\/main\/js2\/vendor\/jquery.cookie.js","\/bitrix\/templates\/main\/js2\/vendor\/bootstrap-4.3.1-dist\/js\/bootstrap.min.js","\/bitrix\/templates\/main\/js2\/vendor\/jquery.fancybox\/jquery.fancybox.min.js","\/bitrix\/templates\/main\/js2\/vendor\/jquery.selectric\/jquery.selectric.js","\/bitrix\/templates\/main\/js2\/vendor\/jquery.mCustomScrollbar\/jquery.mCustomScrollbar.concat.min.js","\/bitrix\/templates\/main\/js2\/vendor\/svg4everybody.legacy.min.js","\/bitrix\/templates\/main\/js2\/vendor\/swiper\/js\/swiper.min.js","\/bitrix\/templates\/main\/js2\/vendor\/aos\/aos.js","\/bitrix\/templates\/main\/js2\/vendor\/gijgo\/js\/gijgo.min.js","\/bitrix\/templates\/main\/js2\/vendor\/spectrum\/spectrum.js","\/bitrix\/templates\/main\/js2\/vendor\/owlcarousel\/owl.carousel.min.js","\/bitrix\/templates\/main\/js2\/vendor\/gijgo\/js\/messages\/messages.ru-ru.min.js","\/bitrix\/templates\/main\/js2\/vendor\/tilt.jquery.min.js","\/bitrix\/templates\/main\/js2\/vendor\/lazyload.js","\/bitrix\/templates\/main\/js2\/vendor\/moment.min.js","\/bitrix\/templates\/main\/js2\/vendor\/moment\/locales.min.js","\/bitrix\/templates\/main\/js2\/vendor\/masonry.pkgd.min.js","\/bitrix\/templates\/main\/js2\/vendor\/chart.js\/Chart.min.js","\/bitrix\/templates\/main\/js2\/vendor\/special_version\/js\/special.min.js","\/bitrix\/templates\/main\/js2\/vendor\/mixitup.min.js","\/bitrix\/templates\/main\/js2\/vendor\/daterangepicker\/daterangepicker.min.js","\/bitrix\/templates\/main\/js2\/vendor\/datetimepicker\/jquery.datetimepicker.full.min.js","\/bitrix\/templates\/main\/js2\/main.js","\/bitrix\/templates\/main\/js\/affix.js","\/bitrix\/templates\/main\/js\/jquery.form-3.0.3.min.js","\/bitrix\/templates\/main\/js\/common.js","\/bitrix\/templates\/main\/js\/common-inner.js","\/bitrix\/templates\/main\/js\/common-prev.js"]);</script>
+<script>BX.setCSSList(["\/bitrix\/components\/bitrix\/main.map\/templates\/.default\/style.css","\/bitrix\/templates\/main\/css\/font-awesome.min.css","\/bitrix\/templates\/main\/images\/sprites\/icons.min.css","\/bitrix\/templates\/.default\/components\/bitrix\/menu\/.top\/style.css","\/bitrix\/templates\/main\/styles.css","\/bitrix\/templates\/main\/template_styles.css","\/bitrix\/components\/pixelcraft\/document\/templates\/.default\/style.css","\/bitrix\/templates\/main\/css2\/bootstrap.css","\/bitrix\/templates\/main\/js2\/vendor\/gijgo\/css\/gijgo.min.css","\/bitrix\/templates\/main\/js2\/vendor\/aos\/aos.css","\/bitrix\/templates\/main\/js2\/vendor\/chart.js\/Chart.min.css","\/bitrix\/templates\/main\/js2\/vendor\/spectrum\/spectrum.css","\/bitrix\/templates\/main\/js2\/vendor\/owlcarousel\/assets\/owl.carousel.min.css","\/bitrix\/templates\/main\/js2\/vendor\/datetimepicker\/jquery.datetimepicker.min.css","\/bitrix\/templates\/main\/js2\/vendor\/daterangepicker\/daterangepicker.css","\/bitrix\/templates\/main\/js2\/vendor\/owlcarousel\/assets\/owl.theme.default.min.css","\/bitrix\/templates\/main\/css2\/main.css","\/bitrix\/templates\/main\/js2\/vendor\/special_version\/css\/special.min.css","\/bitrix\/templates\/main\/css2\/specialversion.css","\/bitrix\/templates\/main\/css2\/aa_scale.min.css","\/bitrix\/templates\/main\/less\/bootstrap-inner.min.css","\/bitrix\/templates\/main\/css\/_fixedTable.css","\/bitrix\/components\/pixelcraft\/cb.backtotop\/templates\/.default\/css\/style.css"]);</script>
+<script type="text/javascript">
+            var ALXerrorSendMessages={
+                'head':'Матндан топилган ҳатолик',
+                'footer':'<b>Муаллифга ҳатолик тўғрисида ҳабар бериш керакми?</b><br /><span style="font-size: 10px; color: #7d7d7d">(браузерингиз шу саҳифада қолади)</span>',
+                'comment':'Муаллиф учун мулоҳаза (заруриятда)',
+                'TitleForm':'Ҳатолик ҳақида ҳабар',
+                'ButtonSend':'Юбориш',
+                'LongText':'Сиз жуда катта ҳажмдаги матнни белгиладингиз.',
+                'LongText2':'Қайтадан уриниб кўринг.',
+                'cancel':'Бекор қилиш',
+                'senderror':'Хабар юборишда хатолик!',
+                'close':'Ёпиш',
+                'text_ok':'Сизнинг ҳабарингиз юборилди.',
+                'text_ok2':'Эътиборингиз учун раҳмат!'
+            }
+            </script>
+<script type='text/javascript' async src='/bitrix/js/altasib.errorsend/error.js'></script>
+
+
+
+<script  src="/bitrix/cache/js/d2/main/template_b1dcd3c910a6af535249fc9acfb252d3/template_b1dcd3c910a6af535249fc9acfb252d3_v1.js?17915402291309805"></script>
+
+<script>
+var arCurrencyRates = {"USD":"11899.09","EUR":"13298.42","RUB":"141.53","GBP":"15743.69","JPY":"75.03","CHF":"14282.91","CNY":"1777.89","UZS":1};
+</script>
+
+<script>
+$(function(){
+    var arDisplayCurrencies = Array('USD','EUR','RUB','GBP','JPY','KZT','UAH');
+
+    jQuery('.exchange_box input[name=date]').datetimepicker({
+        timepicker:false,
+        format:'d.m.Y',
+        inline:false,
+        scrollMonth: false,
+        scrollInput: false,
+        yearStart: '1994',
+        yearEnd: '2026',
+        maxDate:'0',
+        onSelectDate:function(ct, $input){
+            var date = $input.val();
+            $('.exchange_box .sidebar_exchange__item').remove();
+            $.ajax({
+                type: "POST",
+                url: '/common/json/',
+                data: "date="+date,
+                beforeSend: function() {
+                    //$('.table-no-layout').addClass('ajax_prl');
+                },
+                success: function(tmsg){
+                    var iCurrencyIndex = 0;
+                    $.each(tmsg, function(indexResult, result){
+                        if(arDisplayCurrencies.indexOf(result.Ccy) != -1){
+                            var str_icon = result.Diff<0?'icon__chart_down':(result.Diff>0?'icon__chart_up':'icon__chart_zero');
+                            var str_color = result.Diff<0?'color_red':(result.Diff>0?'color_green':'');
+                            var str_param = result.Diff==0?'empty':'';
+                            var str_dif = result.Diff>0?'+'+result.Diff:result.Diff;
+                            $(".sidebar_exchange__actions").before(
+                                '<div class="sidebar_exchange__item">\n' +
+                                '    <div class="sidebar_exchange__item_flag">\n' +
+                                '        <svg class="ico_svg" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">\n' +
+                                '            <use xlink:href="/bitrix/templates/main/img/symbol_defs.svg#icon-currency-'+result.Ccy+'" xmlns:xlink="http://www.w3.org/1999/xlink"></use>\n' +
+                                '        </svg>\n' +
+                                '    </div>\n' +
+                                '    <div class="sidebar_exchange__item_content">\n' +
+                                '        <div class="sidebar_exchange__item_value"><strong>'+result.Nominal+' '+result.Ccy+'</strong> = '+result.Rate+'</div>\n' +
+                                '        <div class="sidebar_exchange__item_shift '+str_color+'">'+str_dif+'</div>\n' +
+                                '    </div>\n' +
+                                '    <div class="sidebar_exchange__item_chart">\n' +
+                                '        <img src="/bitrix/templates/main/img/svg/'+str_icon+'.svg" class="img_fluid" alt="">\n' +
+                                '    </div>\n' +
+                                '</div>'
+                            );
+                            iCurrencyIndex++;
+                        }
+                    });
+                }
+            });
+        }
+    });
+});
+</script>
+
+<script>
+$(function(){
+    // Date
+    $('#date_01').datepicker({
+        locale: 'ru-ru',
+        uiLibrary: 'bootstrap4'
+    });
+
+    /* на главной убрано */
+    /*AOS.init({
+        easing: 'ease-in-out-sine',
+        disable: "mobile"
+    });*/
+
+    $('.js-tilt').tilt({
+        scale: 1.05,
+        glare: true,
+        maxGlare: .2,
+        speed: 500
+    });
+});
+</script>
+</body>
+</html>

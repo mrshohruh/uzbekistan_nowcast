@@ -1,0 +1,10 @@
+variable_key,reachability,download,parser,validation,admission,state,retained_previous,archive_failed_articles,archive_missing_periods,archive_status,candidate_latest,warning_count,missing_period_count,approved_latest,daily_changes,error_type,error,limitation
+industrial_production,REACHABLE,DOWNLOAD_OK,PARSE_OK,passed_with_warnings,RETAINED_OR_WITHHELD,UNCHANGED,True,0,0,NOT_APPLICABLE_OR_COMPLETE,2026-08,2,0,2026-08,,,,
+ppi,REACHABLE,DOWNLOAD_OK,PARSE_OK,passed_with_warnings,RETAINED_OR_WITHHELD,UNCHANGED,True,0,0,NOT_APPLICABLE_OR_COMPLETE,2026-08,2,0,2026-08,,,,
+usd_uzs,REACHABLE,DOWNLOAD_OK,PARSE_OK,passed_with_warnings,RETAINED_OR_WITHHELD,UPDATED,True,0,0,NOT_APPLICABLE_OR_COMPLETE,2026-10,2,0,2026-09,6.0,,,
+rub_uzs,REACHABLE,DOWNLOAD_OK,PARSE_OK,passed_with_warnings,RETAINED_OR_WITHHELD,UPDATED,True,0,0,NOT_APPLICABLE_OR_COMPLETE,2026-10,2,0,2026-09,6.0,,,
+gold_price,REACHABLE,DOWNLOAD_OK,PARSE_OK,passed_with_warnings,RETAINED_OR_WITHHELD,UNCHANGED,True,0,0,NOT_APPLICABLE_OR_COMPLETE,2026-09,2,0,2026-09,,,,
+m2,REACHABLE,DOWNLOAD_OK,PARSE_OK,passed_with_warnings,RETAINED_OR_WITHHELD,UNCHANGED,True,0,0,NOT_APPLICABLE_OR_COMPLETE,2026-08,2,0,2026-08,,,,
+fx_reserves_ex_gold,REACHABLE,DOWNLOAD_OK,PARSE_OK,passed_with_warnings,RETAINED_PREVIOUS,VALIDATION_FAILED,True,0,0,NOT_APPLICABLE_OR_COMPLETE,2026-09,2,0,,,SourceError,Candidate validation/admission failed; see observation_decisions.csv,
+pos_turnover,REACHABLE,DOWNLOAD_OK,PARSE_OK,passed_with_warnings,RETAINED_PREVIOUS,VALIDATION_FAILED,True,46,14,PARTIAL,2025-09,4,14,,,SourceError,Candidate validation/admission failed; see observation_decisions.csv,
+gdp_real_yoy,REACHABLE,DOWNLOAD_OK,PARSE_OK,passed_with_warnings,RETAINED_OR_WITHHELD,UNCHANGED,True,0,0,NOT_APPLICABLE_OR_COMPLETE,2026Q2,3,0,2026Q2,,,,Unverified new GDP periods withheld; observed update is not first release

@@ -1,0 +1,18 @@
+{
+  "run_id": "collect_20261012_122304_6c4952e8",
+  "variable_key": "gold_price",
+  "provider": "World Bank Pink Sheet",
+  "source_id": "World Bank Commodity Price Data (Pink Sheet): Gold",
+  "source_url": "https://www.worldbank.org/en/research/commodity-markets",
+  "response_url": "https://www.worldbank.org/en/research/commodity-markets",
+  "retrieved_at": "2026-10-12T12:24:47.689934+00:00",
+  "source_release_date": null,
+  "source_release_basis": null,
+  "http_status": 200,
+  "content_type": "text/html;charset=utf-8",
+  "raw_file_path": "data/raw/world bank pink sheet/gold_price/20261012T122447689934Z_0ff7e120ff824d638f361abffbc1067d.payload",
+  "checksum": "2d481c0a799e41f0a1cac171bb95d959184fa3f773680906d8bfec7b46293792",
+  "schema_fingerprint": "fadf4158f6018b9196db876f89c432a35d261c53323aa7109066e1ca6c81e5b7",
+  "parser_version": "0.1.0",
+  "rows_raw": null
+}

@@ -1,0 +1,18 @@
+{
+  "run_id": "collect_20261012_122304_6c4952e8",
+  "variable_key": "usd_uzs",
+  "provider": "CBU",
+  "source_id": "4-009-0009 + official FX JSON archive",
+  "source_url": "https://cbu.uz/uz/arkhiv-kursov-valyut/json/USD/2026-09-28/",
+  "response_url": "https://cbu.uz/uz/arkhiv-kursov-valyut/json/USD/2026-09-28/",
+  "retrieved_at": "2026-10-12T12:23:23.343494+00:00",
+  "source_release_date": null,
+  "source_release_basis": null,
+  "http_status": 200,
+  "content_type": "application/json",
+  "raw_file_path": "data/raw/cbu/usd_uzs/20261012T122323343494Z_3e99f78c4d004aae8ebc7d58504edb62.payload",
+  "checksum": "ba3b37d9f081bf65feb3c090dd1017bd3718b7f83f75e98c429ae17fdc05394c",
+  "schema_fingerprint": "41e1c17a9353a3b3a42ae66108a3bc20da78e1f0548276b87d8b69370094e0fa",
+  "parser_version": "0.1.0",
+  "rows_raw": 1
+}

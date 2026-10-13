@@ -1,0 +1,18 @@
+{
+  "run_id": "collect_20261012_122304_6c4952e8",
+  "variable_key": "fx_reserves_ex_gold",
+  "provider": "CBU",
+  "source_id": "4-009-0017",
+  "source_url": "https://cbu.uz/sdmx/public/IR_Uzbekistan_MCD_STA.xlsx",
+  "response_url": "https://cbu.uz/sdmx/public/IR_Uzbekistan_MCD_STA.xlsx",
+  "retrieved_at": "2026-10-12T12:24:58.973868+00:00",
+  "source_release_date": "2026-10-07T17:42:00+05:00",
+  "source_release_basis": "official CBU page update timestamp",
+  "http_status": 200,
+  "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "raw_file_path": "data/raw/cbu/fx_reserves_ex_gold/20261012T122458973868Z_57ccd20ff72d4d1abe3d94c813e1dd18.payload",
+  "checksum": "87c371bd06c2d65e89976813bcd49e4eb9de2e61f6f470757b255209b3d827b2",
+  "schema_fingerprint": "8c178d28ad28f1b240240b56559b79c29fe152dcd8c48273e60758940f6cdf95",
+  "parser_version": "0.1.0",
+  "rows_raw": null
+}

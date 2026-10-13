@@ -1,0 +1,126 @@
+{
+  "environment": {
+    "ALL_PROXY": {
+      "scheme": "http",
+      "host": "127.0.0.1",
+      "port": 9,
+      "credentials_present": false
+    },
+    "HTTPS_PROXY": {
+      "scheme": "http",
+      "host": "127.0.0.1",
+      "port": 9,
+      "credentials_present": false
+    },
+    "HTTP_PROXY": {
+      "scheme": "http",
+      "host": "127.0.0.1",
+      "port": 9,
+      "credentials_present": false
+    }
+  },
+  "no_proxy": "localhost,127.0.0.1,::1",
+  "trust_env": true,
+  "tls_verify": true,
+  "ca_bundle": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\.venv\\Lib\\site-packages\\certifi\\cacert.pem",
+  "system_trust_opt_in": false,
+  "official_hosts": {
+    "https://api.siat.stat.uz": {
+      "all": {
+        "scheme": "http",
+        "host": "127.0.0.1",
+        "port": 9,
+        "credentials_present": false
+      },
+      "git_https": {
+        "scheme": "http",
+        "host": "127.0.0.1",
+        "port": 9,
+        "credentials_present": false
+      },
+      "git_http": {
+        "scheme": "http",
+        "host": "127.0.0.1",
+        "port": 9,
+        "credentials_present": false
+      },
+      "https": {
+        "scheme": "http",
+        "host": "127.0.0.1",
+        "port": 9,
+        "credentials_present": false
+      },
+      "http": {
+        "scheme": "http",
+        "host": "127.0.0.1",
+        "port": 9,
+        "credentials_present": false
+      }
+    },
+    "https://cbu.uz": {
+      "all": {
+        "scheme": "http",
+        "host": "127.0.0.1",
+        "port": 9,
+        "credentials_present": false
+      },
+      "git_https": {
+        "scheme": "http",
+        "host": "127.0.0.1",
+        "port": 9,
+        "credentials_present": false
+      },
+      "git_http": {
+        "scheme": "http",
+        "host": "127.0.0.1",
+        "port": 9,
+        "credentials_present": false
+      },
+      "https": {
+        "scheme": "http",
+        "host": "127.0.0.1",
+        "port": 9,
+        "credentials_present": false
+      },
+      "http": {
+        "scheme": "http",
+        "host": "127.0.0.1",
+        "port": 9,
+        "credentials_present": false
+      }
+    },
+    "https://www.worldbank.org": {
+      "all": {
+        "scheme": "http",
+        "host": "127.0.0.1",
+        "port": 9,
+        "credentials_present": false
+      },
+      "git_https": {
+        "scheme": "http",
+        "host": "127.0.0.1",
+        "port": 9,
+        "credentials_present": false
+      },
+      "git_http": {
+        "scheme": "http",
+        "host": "127.0.0.1",
+        "port": 9,
+        "credentials_present": false
+      },
+      "https": {
+        "scheme": "http",
+        "host": "127.0.0.1",
+        "port": 9,
+        "credentials_present": false
+      },
+      "http": {
+        "scheme": "http",
+        "host": "127.0.0.1",
+        "port": 9,
+        "credentials_present": false
+      }
+    }
+  },
+  "configuration_changed": false
+}

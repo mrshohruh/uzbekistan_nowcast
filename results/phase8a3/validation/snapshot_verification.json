@@ -1,0 +1,13 @@
+{
+  "candidate_files": 23,
+  "mismatched": [],
+  "candidate_status": "VALIDATED",
+  "committed_snapshot": "None",
+  "journal": {
+    "status": "DRY_RUN_COMPLETE",
+    "run_id": "collect_20261012_120310_6d9477fa"
+  },
+  "writer_lock_remaining": false,
+  "live_receipts": 0,
+  "live_candidates": 0
+}

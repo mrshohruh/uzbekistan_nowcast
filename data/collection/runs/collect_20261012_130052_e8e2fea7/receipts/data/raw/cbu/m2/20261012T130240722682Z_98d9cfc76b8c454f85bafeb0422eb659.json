@@ -1,0 +1,18 @@
+{
+  "run_id": "collect_20261012_130052_e8e2fea7",
+  "variable_key": "m2",
+  "provider": "CBU",
+  "source_id": "4-009-0020 (DCS); alternate 4-009-0021",
+  "source_url": "https://cbu.uz/en/statistics/e-gdds/data/111578/",
+  "response_url": "https://cbu.uz/en/statistics/e-gdds/data/111578/",
+  "retrieved_at": "2026-10-12T13:02:40.722682+00:00",
+  "source_release_date": null,
+  "source_release_basis": null,
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "raw_file_path": "data/raw/cbu/m2/20261012T130240722682Z_98d9cfc76b8c454f85bafeb0422eb659.payload",
+  "checksum": "5a2566e42f1f7aa122b5c07e5fa1d27a669708714afbc5626601373069aaee6f",
+  "schema_fingerprint": "e569a80134eb0dfb8699065b5309f2dca801f9c98a9d23b010b554a321649a6b",
+  "parser_version": "0.1.0",
+  "rows_raw": null
+}

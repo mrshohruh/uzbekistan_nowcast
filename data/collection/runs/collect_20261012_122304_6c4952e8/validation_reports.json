@@ -1,0 +1,210 @@
+{
+  "industrial_production": {
+    "status": "passed_with_warnings",
+    "rows": 92,
+    "start": "2019-01",
+    "end": "2026-08",
+    "clean_start": "2019-01",
+    "clean_end": "2026-08",
+    "clean_count": 92,
+    "missing_periods": [],
+    "quality_flags": {},
+    "negative_raw_count": 0,
+    "warnings": [
+      "Historical first-release dates unavailable; retrieved vintages are not first-release history.",
+      "Current-price activity; not a physical-volume measure. Sensitivity: deflate with PPI or substitute physical-volume index."
+    ],
+    "registry_verified_start": "2019-M01",
+    "registry_verified_end": "2026-M07",
+    "annual_reconciliation": []
+  },
+  "ppi": {
+    "status": "passed_with_warnings",
+    "rows": 164,
+    "start": "2013-01",
+    "end": "2026-08",
+    "clean_start": "2013-01",
+    "clean_end": "2026-08",
+    "clean_count": 164,
+    "missing_periods": [],
+    "quality_flags": {},
+    "negative_raw_count": 0,
+    "warnings": [
+      "Historical first-release dates unavailable; retrieved vintages are not first-release history.",
+      "since April 2024 the scope of reporting entities has been expanded, price indices for January, February, March 2024 have been recalculated. Period labels mix Cyrillic '\u041c' (U+041C) for 2016-M01..2020-M12 with Latin 'M' elsewhere; parser normalizes to Latin without rewriting the raw payload."
+    ],
+    "registry_verified_start": "2013-M01",
+    "registry_verified_end": "2026-M08",
+    "annual_reconciliation": []
+  },
+  "usd_uzs": {
+    "status": "passed_with_warnings",
+    "rows": 166,
+    "start": "2013-01",
+    "end": "2026-10",
+    "clean_start": "2013-02",
+    "clean_end": "2026-09",
+    "clean_count": 164,
+    "missing_periods": [],
+    "quality_flags": {
+      "missing_growth_input": 1,
+      "extreme_log_change": 1,
+      "partial_month": 1
+    },
+    "negative_raw_count": 0,
+    "warnings": [
+      "Historical first-release dates unavailable; retrieved vintages are not first-release history.",
+      "2017 FX liberalization is a major structural break, though it predates most V1 real-activity series."
+    ],
+    "registry_verified_start": "2013-M01",
+    "registry_verified_end": "current",
+    "annual_reconciliation": []
+  },
+  "rub_uzs": {
+    "status": "passed_with_warnings",
+    "rows": 166,
+    "start": "2013-01",
+    "end": "2026-10",
+    "clean_start": "2013-02",
+    "clean_end": "2026-09",
+    "clean_count": 164,
+    "missing_periods": [],
+    "quality_flags": {
+      "missing_growth_input": 1,
+      "extreme_log_change": 1,
+      "partial_month": 1
+    },
+    "negative_raw_count": 0,
+    "warnings": [
+      "Historical first-release dates unavailable; retrieved vintages are not first-release history.",
+      "Captures RUB channel jointly with Russia activity; strong 2022 geopolitical break."
+    ],
+    "registry_verified_start": "2013-M01",
+    "registry_verified_end": "current",
+    "annual_reconciliation": []
+  },
+  "gold_price": {
+    "status": "passed_with_warnings",
+    "rows": 801,
+    "start": "1960-01",
+    "end": "2026-09",
+    "clean_start": "1960-02",
+    "clean_end": "2026-09",
+    "clean_count": 800,
+    "missing_periods": [],
+    "quality_flags": {
+      "missing_growth_input": 1
+    },
+    "negative_raw_count": 0,
+    "warnings": [
+      "Historical first-release dates unavailable; retrieved vintages are not first-release history.",
+      "External provider; downloader should resolve the current 'Monthly prices' workbook link each run."
+    ],
+    "registry_verified_start": "1960-M01",
+    "registry_verified_end": "2026-M09",
+    "annual_reconciliation": []
+  },
+  "m2": {
+    "status": "passed_with_warnings",
+    "rows": 164,
+    "start": "2013-01",
+    "end": "2026-08",
+    "clean_start": "2014-01",
+    "clean_end": "2026-08",
+    "clean_count": 152,
+    "missing_periods": [],
+    "quality_flags": {
+      "missing_growth_input": 12
+    },
+    "negative_raw_count": 0,
+    "warnings": [
+      "Historical first-release dates unavailable; retrieved vintages are not first-release history.",
+      "Use DCS row for long/current history; open-data 4-009-0021 is an alternate M2 family and may have different archive depth."
+    ],
+    "registry_verified_start": "2013-M01",
+    "registry_verified_end": "2026-M08",
+    "annual_reconciliation": []
+  },
+  "fx_reserves_ex_gold": {
+    "status": "passed_with_warnings",
+    "rows": 165,
+    "start": "2013-01",
+    "end": "2026-09",
+    "clean_start": "2014-01",
+    "clean_end": "2026-09",
+    "clean_count": 153,
+    "missing_periods": [],
+    "quality_flags": {
+      "missing_growth_input": 12,
+      "extreme_log_change": 1
+    },
+    "negative_raw_count": 0,
+    "warnings": [
+      "Historical first-release dates unavailable; retrieved vintages are not first-release history.",
+      "This is the foreign-currency component, not total reserves including gold."
+    ],
+    "registry_verified_start": "2013-M01",
+    "registry_verified_end": "2026-M08",
+    "annual_reconciliation": []
+  },
+  "pos_turnover": {
+    "status": "passed_with_warnings",
+    "rows": 50,
+    "start": "2020-06",
+    "end": "2025-09",
+    "clean_start": "2021-09",
+    "clean_end": "2025-09",
+    "clean_count": 21,
+    "missing_periods": [
+      "2020-07",
+      "2020-10",
+      "2021-02",
+      "2021-07",
+      "2021-10",
+      "2022-03",
+      "2022-04",
+      "2022-09",
+      "2023-05",
+      "2023-06",
+      "2023-07",
+      "2024-06",
+      "2024-07",
+      "2024-11"
+    ],
+    "quality_flags": {
+      "missing_growth_input": 29,
+      "missing_previous_month": 11,
+      "extreme_log_change": 2
+    },
+    "negative_raw_count": 0,
+    "warnings": [
+      "Historical first-release dates unavailable; retrieved vintages are not first-release history.",
+      "Open-data JSON is a current snapshot; historical build must spider monthly archive pages/XLSX files. Strong trend from cashless adoption.",
+      "Coverage starts after registry verified start: 2020-06 > 2018-01",
+      "Coverage ends before registry verified end: 2025-09 < 2026-08"
+    ],
+    "registry_verified_start": "2018-M01 (archive verified; 2017 annual also exists)",
+    "registry_verified_end": "2026-M08 release family",
+    "annual_reconciliation": []
+  },
+  "gdp_real_yoy": {
+    "status": "passed_with_warnings",
+    "rows": 34,
+    "start": "2018Q1",
+    "end": "2026Q2",
+    "clean_start": "2018Q1",
+    "clean_end": "2026Q2",
+    "clean_count": 34,
+    "missing_periods": [],
+    "quality_flags": {},
+    "negative_raw_count": 0,
+    "warnings": [
+      "Historical first-release dates unavailable; retrieved vintages are not first-release history.",
+      "2018+ national-accounts series was revised for non-observed economy; recent years may be preliminary.",
+      "Published quarterly convention retained; no standalone-quarter reconstruction from reported growth rates."
+    ],
+    "registry_verified_start": "2018-Q1",
+    "registry_verified_end": "2026-Q2",
+    "annual_reconciliation": []
+  }
+}

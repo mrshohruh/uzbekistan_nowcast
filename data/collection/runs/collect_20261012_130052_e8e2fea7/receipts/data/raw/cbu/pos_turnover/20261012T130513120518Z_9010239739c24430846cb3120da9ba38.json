@@ -1,0 +1,18 @@
+{
+  "run_id": "collect_20261012_130052_e8e2fea7",
+  "variable_key": "pos_turnover",
+  "provider": "CBU",
+  "source_id": "4-009-0047",
+  "source_url": "https://cbu.uz/en/statistics/paysistem/75297/",
+  "response_url": "https://cbu.uz/en/statistics/paysistem/75297/",
+  "retrieved_at": "2026-10-12T13:05:13.120518+00:00",
+  "source_release_date": null,
+  "source_release_basis": null,
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "raw_file_path": "data/raw/cbu/pos_turnover/20261012T130513120518Z_9010239739c24430846cb3120da9ba38.payload",
+  "checksum": "7af7ed33cf22fa161f4efd277633ceb7a407dcdeb5459de227cc022268d6adbb",
+  "schema_fingerprint": "a7e724cfdbe2cf1a3d57a26a4408cf6fa0c8005d3d5cb4c3ddfed1165206606f",
+  "parser_version": "0.1.0",
+  "rows_raw": null
+}

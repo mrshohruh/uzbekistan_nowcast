@@ -1,0 +1,133 @@
+{
+  "run_id": "collect_20261012_114326_f376e852",
+  "started_at_utc": "2026-10-12T11:43:26.798106+00:00",
+  "local_time": "2026-10-12T16:43:26.798106+05:00",
+  "cutoff_utc": "2026-10-05T18:59:59.999999+00:00",
+  "mode": "DRY_RUN",
+  "production_promoted": false,
+  "forecasts_calculated": false,
+  "scheduled_days": [
+    1,
+    11,
+    21
+  ],
+  "timezone": "Asia/Tashkent",
+  "source_status": [
+    {
+      "variable_key": "industrial_production",
+      "reachability": "LIVE_NOT_TESTED",
+      "download": "ARCHIVED_RECEIPT",
+      "parser": "PARSE_OK",
+      "validation": "passed_with_warnings",
+      "admission": "RETAINED_OR_WITHHELD",
+      "state": "UNCHANGED",
+      "retained_previous": true,
+      "candidate_latest": "2026-08",
+      "approved_latest": "2026-08"
+    },
+    {
+      "variable_key": "ppi",
+      "reachability": "LIVE_NOT_TESTED",
+      "download": "ARCHIVED_RECEIPT",
+      "parser": "PARSE_OK",
+      "validation": "passed_with_warnings",
+      "admission": "RETAINED_OR_WITHHELD",
+      "state": "UNCHANGED",
+      "retained_previous": true,
+      "candidate_latest": "2026-08",
+      "approved_latest": "2026-08"
+    },
+    {
+      "variable_key": "usd_uzs",
+      "reachability": "LIVE_NOT_TESTED",
+      "download": "ARCHIVED_RECEIPT",
+      "parser": "PARSE_OK",
+      "validation": "passed_with_warnings",
+      "admission": "RETAINED_OR_WITHHELD",
+      "state": "UPDATED",
+      "retained_previous": true,
+      "candidate_latest": "2026-10",
+      "daily_changes": 1,
+      "approved_latest": "2026-09"
+    },
+    {
+      "variable_key": "rub_uzs",
+      "reachability": "LIVE_NOT_TESTED",
+      "download": "ARCHIVED_RECEIPT",
+      "parser": "PARSE_OK",
+      "validation": "passed_with_warnings",
+      "admission": "RETAINED_OR_WITHHELD",
+      "state": "UPDATED",
+      "retained_previous": true,
+      "candidate_latest": "2026-10",
+      "daily_changes": 1,
+      "approved_latest": "2026-09"
+    },
+    {
+      "variable_key": "gold_price",
+      "reachability": "LIVE_NOT_TESTED",
+      "download": "ARCHIVED_RECEIPT",
+      "parser": "PARSE_OK",
+      "validation": "passed_with_warnings",
+      "admission": "RETAINED_OR_WITHHELD",
+      "state": "UNCHANGED",
+      "retained_previous": true,
+      "candidate_latest": "2026-09",
+      "approved_latest": "2026-09"
+    },
+    {
+      "variable_key": "m2",
+      "reachability": "LIVE_NOT_TESTED",
+      "download": "ARCHIVED_RECEIPT",
+      "parser": "PARSE_OK",
+      "validation": "passed_with_warnings",
+      "admission": "RETAINED_OR_WITHHELD",
+      "state": "UNCHANGED",
+      "retained_previous": true,
+      "candidate_latest": "2026-08",
+      "approved_latest": "2026-08"
+    },
+    {
+      "variable_key": "fx_reserves_ex_gold",
+      "reachability": "LIVE_NOT_TESTED",
+      "download": "ARCHIVED_RECEIPT",
+      "parser": "PARSE_OK",
+      "validation": "passed_with_warnings",
+      "admission": "RETAINED_OR_WITHHELD",
+      "state": "UNCHANGED",
+      "retained_previous": true,
+      "candidate_latest": "2026-08",
+      "approved_latest": "2026-08"
+    },
+    {
+      "variable_key": "pos_turnover",
+      "reachability": "LIVE_NOT_TESTED",
+      "download": "ARCHIVED_RECEIPT",
+      "parser": "PARSE_OK",
+      "validation": "passed_with_warnings",
+      "admission": "RETAINED_PREVIOUS",
+      "state": "VALIDATION_FAILED",
+      "retained_previous": true,
+      "candidate_latest": "2025-09",
+      "error_type": "SourceError",
+      "error": "Candidate validation/admission failed; see observation_decisions.csv"
+    },
+    {
+      "variable_key": "gdp_real_yoy",
+      "reachability": "LIVE_NOT_TESTED",
+      "download": "ARCHIVED_RECEIPT",
+      "parser": "PARSE_OK",
+      "validation": "passed_with_warnings",
+      "admission": "RETAINED_OR_WITHHELD",
+      "state": "UNCHANGED",
+      "retained_previous": true,
+      "candidate_latest": "2026Q2",
+      "approved_latest": "2026Q2",
+      "limitation": "Unverified new GDP periods withheld; observed update is not first release"
+    }
+  ],
+  "status": "COLLECTION_DEGRADED",
+  "information_changed": true,
+  "exit_code": 2,
+  "finished_at_utc": "2026-10-12T11:44:05.610807+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "original_files_checked": 1961,
+  "changed_existing_files": [],
+  "accepted_seal_runtime_files": 81,
+  "accepted_seal_verification": "PASS",
+  "current_version_verification": "PASS",
+  "target_quarter": "2026Q3",
+  "final_forecast": 8.180901340616275,
+  "weights": {
+    "dfm": 0.5,
+    "umidas": 0.5
+  },
+  "new_forecast_generated": false,
+  "live_production_promoted": false,
+  "task_scheduler_installed": false
+}

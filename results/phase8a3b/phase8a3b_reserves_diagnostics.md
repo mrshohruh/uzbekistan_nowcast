@@ -1,0 +1,11 @@
+# Reserves diagnosis
+
+Examined user-run `data/collection/runs/collect_20261012_122304_6c4952e8`: run manifest, source status, validation reports, decisions and immutable receipts. Source-reported HTTP 200, DOWNLOAD_OK and PARSE_OK are evidence from that Windows run; this phase performed checksum-verified replay only.
+
+Root cause: the existing scientific admission rule, not a demonstrated technical defect. September 2026 foreign-currency reserves are **5,932.59 million USD, end of period**; September 2025 is **10,182.70**. `100*ln(5932.59/10182.70) = -54.02293220066543`, flagged extreme_log_change. `compare` rejects a changed candidate carrying an extreme flag or an absolute transformed value above 50. The September decision is INVALID, accepted=False. General series validation passed_with_warnings; the source status VALIDATION_FAILED represents the stricter admission failure, not a failed workbook parse.
+
+The workbook retains Dataset, its exact international-reserves title, explicit million-USD unit, exact foreign-currency component row and contiguous monthly headers. September aligns with 2026-09-30. There are no duplicate periods or unexplained scale conversions. All 164 previous raw observations match the accepted history exactly. August 2026 is 6,635.43; the September MoM level fall is approximately 10.59%, while the admission trigger is YoY log growth. This is an evidenced large source-published movement; this exercise cannot establish whether the provider considers it erroneous. There is no basis to alter its value or override its threshold.
+
+Official workbook: `https://cbu.uz/sdmx/public/IR_Uzbekistan_MCD_STA.xlsx`; SHA256 `87c371bd06c2d65e89976813bcd49e4eb9de2e61f6f470757b255209b3d827b2`. Retrieved 2026-10-12T12:24:58.973868Z. Observed page update 2026-10-07T17:42:00+05:00 is an update timestamp, not an inferred first release. Receipt paths and preserved input evidence hashes are under `validation/`.
+
+No reserves code, values, thresholds or admission rules changed. Replaying the real receipt reproduces the refusal and returns the accepted history unchanged. September remains withheld pending source/economic review through an explicitly authorized process. Evidence: `reserves_summary.json`, `reserves_candidates.csv`, `reserves_decisions.csv` in validation.

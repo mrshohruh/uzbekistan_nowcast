@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="8" skipped="0" tests="29" time="115.621" timestamp="2026-10-12T16:35:49.260935+05:00" hostname="B38"><testcase classname="tests.collection.test_collection" name="test_no_new_observations_does_not_publish" time="8.383"><failure message="AssertionError: assert ('COLLECTION_DEGRADED' == 'NO_INFORMATION_CHANGE'&#10;  &#10;  - NO_INFORMATION_CHANGE&#10;  + COLLECTION_DEGRADED)">isolated = WindowsPath('C:/Users/Sh.Nishonqulov/Desktop/uzbekistan_nowcast_codex_starter/.tmp/a2_88c66c/t_96f7d35/r')
+
+    def test_no_new_observations_does_not_publish(isolated):
+        before = sha(isolated / 'data/master/v1_monthly.parquet')
+        result = run(isolated, commit=True)
+&gt;       assert result['status'] == 'NO_INFORMATION_CHANGE' and result['exit_code'] == 0
+E       AssertionError: assert ('COLLECTION_DEGRADED' == 'NO_INFORMATION_CHANGE'
+E         
+E         - NO_INFORMATION_CHANGE
+E         + COLLECTION_DEGRADED)
+
+tests\collection\test_collection.py:88: AssertionError</failure></testcase><testcase classname="tests.collection.test_collection" name="test_new_valid_observation_commits_only_collection_version" time="6.236"><failure message="AssertionError: assert 'COLLECTION_DEGRADED' == 'COLLECTION_COMMITTED'&#10;  &#10;  - COLLECTION_COMMITTED&#10;  + COLLECTION_DEGRADED">isolated = WindowsPath('C:/Users/Sh.Nishonqulov/Desktop/uzbekistan_nowcast_codex_starter/.tmp/a2_88c66c/t_7620542/r')
+
+    def test_new_valid_observation_commits_only_collection_version(isolated):
+        before = sha(isolated / 'data/master/v1_monthly.parquet')
+        result = run(isolated, updated('m2'), commit=True)
+&gt;       assert result['status'] == 'COLLECTION_COMMITTED'
+E       AssertionError: assert 'COLLECTION_DEGRADED' == 'COLLECTION_COMMITTED'
+E         
+E         - COLLECTION_COMMITTED
+E         + COLLECTION_DEGRADED
+
+tests\collection\test_collection.py:97: AssertionError</failure></testcase><testcase classname="tests.collection.test_collection" name="test_historical_revision_retains_both_vintages" time="9.717" /><testcase classname="tests.collection.test_collection" name="test_unavailable_sources_retain_prior_values[failed0]" time="6.464" /><testcase classname="tests.collection.test_collection" name="test_unavailable_sources_retain_prior_values[failed1]" time="6.010" /><testcase classname="tests.collection.test_collection" name="test_invalid_source_data_never_enters_master[duplicate]" time="5.185" /><testcase classname="tests.collection.test_collection" name="test_invalid_source_data_never_enters_master[unit]" time="5.085" /><testcase classname="tests.collection.test_collection" name="test_invalid_source_data_never_enters_master[frequency]" time="4.239" /><testcase classname="tests.collection.test_collection" name="test_invalid_source_data_never_enters_master[invalid]" time="4.466" /><testcase classname="tests.collection.test_collection" name="test_daily_fx_without_complete_month_is_retained[usd_uzs]" time="9.474"><failure message="AssertionError: assert 'COLLECTION_ABORTED' == 'COLLECTION_COMMITTED'&#10;  &#10;  - COLLECTION_COMMITTED&#10;  ?            ^ ^^^^&#10;  + COLLECTION_ABORTED&#10;  ?            ^^ ^">isolated = WindowsPath('C:/Users/Sh.Nishonqulov/Desktop/uzbekistan_nowcast_codex_starter/.tmp/a2_88c66c/t_36192ae/r')
+key = 'usd_uzs'
+
+    @pytest.mark.parametrize('key', ['usd_uzs', 'rub_uzs'])
+    def test_daily_fx_without_complete_month_is_retained(isolated, key):
+        def fetch(k, client, registry, root, working, asof):
+            if k != key:
+                return old_candidate(k, client, registry, root, working, asof)
+            old = pd.read_parquet(working / f'data/processed/{key}_daily.parquet')
+            row = registry.rows[key]
+            new = parse_fx([dict(Ccy=key.split('_')[0].upper(), Date='02.10.2026', Rate='12000', Nominal='1')],
+                           currency=key.split('_')[0].upper())
+            new = attach_provenance(new, row, dict(source_url='https://cbu.uz/synthetic-test-only',
+                         retrieved_at='2026-10-12T07:00:00Z', raw_file_path='test-only', checksum='test-only', schema_fingerprint='test-only'))
+            daily = pd.concat([old, new], ignore_index=True).sort_values('reference_date')
+            monthly = fx_monthly(daily, '2013-01-01', '2026-10-12')
+            # Keep frozen completed months exactly to isolate partial-month persistence.
+            candidate = old_candidate(k, client, registry, root, working, asof)
+            partial = monthly.loc[monthly.reference_period.eq('2026-10')]
+            candidate = pd.concat([candidate.loc[~candidate.reference_period.eq('2026-10')], partial], ignore_index=True)
+            candidate.attrs['daily'] = daily
+            return candidate
+        result = run(isolated, fetch, commit=True)
+        version = snapshot(result, isolated)
+&gt;       assert result['status'] == 'COLLECTION_COMMITTED'
+E       AssertionError: assert 'COLLECTION_ABORTED' == 'COLLECTION_COMMITTED'
+E         
+E         - COLLECTION_COMMITTED
+E         ?            ^ ^^^^
+E         + COLLECTION_ABORTED
+E         ?            ^^ ^
+
+tests\collection\test_collection.py:169: AssertionError</failure></testcase><testcase classname="tests.collection.test_collection" name="test_daily_fx_without_complete_month_is_retained[rub_uzs]" time="8.335"><failure message="AssertionError: assert 'COLLECTION_DEGRADED' == 'COLLECTION_COMMITTED'&#10;  &#10;  - COLLECTION_COMMITTED&#10;  + COLLECTION_DEGRADED">isolated = WindowsPath('C:/Users/Sh.Nishonqulov/Desktop/uzbekistan_nowcast_codex_starter/.tmp/a2_88c66c/t_b05fdac/r')
+key = 'rub_uzs'
+
+    @pytest.mark.parametrize('key', ['usd_uzs', 'rub_uzs'])
+    def test_daily_fx_without_complete_month_is_retained(isolated, key):
+        def fetch(k, client, registry, root, working, asof):
+            if k != key:
+                return old_candidate(k, client, registry, root, working, asof)
+            old = pd.read_parquet(working / f'data/processed/{key}_daily.parquet')
+            row = registry.rows[key]
+            new = parse_fx([dict(Ccy=key.split('_')[0].upper(), Date='02.10.2026', Rate='12000', Nominal='1')],
+                           currency=key.split('_')[0].upper())
+            new = attach_provenance(new, row, dict(source_url='https://cbu.uz/synthetic-test-only',
+                         retrieved_at='2026-10-12T07:00:00Z', raw_file_path='test-only', checksum='test-only', schema_fingerprint='test-only'))
+            daily = pd.concat([old, new], ignore_index=True).sort_values('reference_date')
+            monthly = fx_monthly(daily, '2013-01-01', '2026-10-12')
+            # Keep frozen completed months exactly to isolate partial-month persistence.
+            candidate = old_candidate(k, client, registry, root, working, asof)
+            partial = monthly.loc[monthly.reference_period.eq('2026-10')]
+            candidate = pd.concat([candidate.loc[~candidate.reference_period.eq('2026-10')], partial], ignore_index=True)
+            candidate.attrs['daily'] = daily
+            return candidate
+        result = run(isolated, fetch, commit=True)
+        version = snapshot(result, isolated)
+&gt;       assert result['status'] == 'COLLECTION_COMMITTED'
+E       AssertionError: assert 'COLLECTION_DEGRADED' == 'COLLECTION_COMMITTED'
+E         
+E         - COLLECTION_COMMITTED
+E         + COLLECTION_DEGRADED
+
+tests\collection\test_collection.py:169: AssertionError</failure></testcase><testcase classname="tests.collection.test_collection" name="test_incomplete_pos_archive_is_degraded_with_errors" time="4.614" /><testcase classname="tests.collection.test_collection" name="test_identical_repeat_keeps_pointer_and_observation_identity" time="10.236"><failure message="AssertionError: assert 'COLLECTION_DEGRADED' == 'NO_INFORMATION_CHANGE'&#10;  &#10;  - NO_INFORMATION_CHANGE&#10;  + COLLECTION_DEGRADED">isolated = WindowsPath('C:/Users/Sh.Nishonqulov/Desktop/uzbekistan_nowcast_codex_starter/.tmp/a2_88c66c/t_c279d01/r')
+
+    def test_identical_repeat_keeps_pointer_and_observation_identity(isolated):
+        first = run(isolated, updated('m2'), commit=True)
+        pointer = (isolated / 'data/collection/current.json').read_bytes()
+        second = run(isolated, commit=True)
+&gt;       assert second['status'] == 'NO_INFORMATION_CHANGE'
+E       AssertionError: assert 'COLLECTION_DEGRADED' == 'NO_INFORMATION_CHANGE'
+E         
+E         - NO_INFORMATION_CHANGE
+E         + COLLECTION_DEGRADED
+
+tests\collection\test_collection.py:195: AssertionError</failure></testcase><testcase classname="tests.collection.test_collection" name="test_interrupted_run_blocks_then_recovers_without_promotion" time="5.131"><failure message="AssertionError: assert 'COLLECTION_DEGRADED' == 'NO_INFORMATION_CHANGE'&#10;  &#10;  - NO_INFORMATION_CHANGE&#10;  + COLLECTION_DEGRADED">isolated = WindowsPath('C:/Users/Sh.Nishonqulov/Desktop/uzbekistan_nowcast_codex_starter/.tmp/a2_88c66c/t_21005c8/r')
+
+    def test_interrupted_run_blocks_then_recovers_without_promotion(isolated):
+        store = isolated / 'data/collection'
+        write(store / 'runs/crashed/journal.json', dict(status='COLLECTING', run_id='crashed'))
+        blocked = run(isolated)
+        assert blocked['status'] == 'COLLECTION_BLOCKED'
+        with operational_lock(isolated):
+            assert versions.recover(store, 'crashed') == 'ABORTED_RECOVERED'
+&gt;       assert run(isolated)['status'] == 'NO_INFORMATION_CHANGE'
+E       AssertionError: assert 'COLLECTION_DEGRADED' == 'NO_INFORMATION_CHANGE'
+E         
+E         - NO_INFORMATION_CHANGE
+E         + COLLECTION_DEGRADED
+
+tests\collection\test_collection.py:208: AssertionError</failure></testcase><testcase classname="tests.collection.test_collection" name="test_concurrent_collection_is_excluded" time="0.060" /><testcase classname="tests.collection.test_collection" name="test_gdp_without_first_release_remains_withheld" time="5.679" /><testcase classname="tests.collection.test_collection" name="test_claimed_pos_scope_does_not_extend_eligibility" time="5.839"><failure message="AssertionError: assert np.False_&#10; +  where np.False_ = any()&#10; +    where any = 0       False\n1       False\n2       False\n3       False\n4       False\n        ...  \n1654    False\n1655    False\n1656    False\n1657    False\n1658    False\nName: reason, Length: 1659, dtype: bool.any&#10; +      where 0       False\n1       False\n2       False\n3       False\n4       False\n        ...  \n1654    False\n1655    False\n1656    False\n1657    False\n1658    False\nName: reason, Length: 1659, dtype: bool = contains('SCOPE_VERIFICATION_REQUIRED')&#10; +        where contains = &lt;pandas.core.strings.accessor.StringMethods object at 0x00000290AC0F8320&gt;.contains&#10; +          where &lt;pandas.core.strings.accessor.StringMethods object at 0x00000290AC0F8320&gt; = 0       Retain old provenance\n1       Retain old provenance\n2       Retain old provenance\n3       Retain old provenanc...etain old provenance\n1657    Retain old provenance\n1658    Retain old provenance\nName: reason, Length: 1659, dtype: str.str&#10; +            where 0       Retain old provenance\n1       Retain old provenance\n2       Retain old provenance\n3       Retain old provenanc...etain old provenance\n1657    Retain old provenance\n1658    Retain old provenance\nName: reason, Length: 1659, dtype: str =           variable   period  ...                 reason  variable_key\n0              ppi  2013-01  ...  Retain old pro...rovenance  gdp_real_yoy\n1658  gdp_real_yoy   2026Q2  ...  Retain old provenance  gdp_real_yoy\n\n[1659 rows x 10 columns].reason">isolated = WindowsPath('C:/Users/Sh.Nishonqulov/Desktop/uzbekistan_nowcast_codex_starter/.tmp/a2_88c66c/t_9957954/r')
+
+    def test_claimed_pos_scope_does_not_extend_eligibility(isolated):
+        def fetch(k, *args):
+            f = old_candidate(k, *args)
+            if k == 'pos_turnover':
+                f['scope_verified'] = True
+                f.loc[f.reference_period.gt('2024-12'), 'clean_value'] += .1
+                f['retrieved_at'] = f['vintage_date'] = '2026-10-12T07:00:00Z'
+            return f
+        result = run(isolated, fetch)
+        recovery = pd.read_parquet(snapshot(result, isolated) / 'data/recovery/pos_turnover.parquet')
+        assert recovery.reference_period.max() == '2024-12'
+        decisions = pd.read_csv(isolated / 'data/collection/runs' / result['run_id'] / 'observation_decisions.csv')
+&gt;       assert decisions.reason.str.contains('SCOPE_VERIFICATION_REQUIRED').any()
+E       AssertionError: assert np.False_
+E        +  where np.False_ = any()
+E        +    where any = 0       False\n1       False\n2       False\n3       False\n4       False\n        ...  \n1654    False\n1655    False\n1656    False\n1657    False\n1658    False\nName: reason, Length: 1659, dtype: bool.any
+E        +      where 0       False\n1       False\n2       False\n3       False\n4       False\n        ...  \n1654    False\n1655    False\n1656    False\n1657    False\n1658    False\nName: reason, Length: 1659, dtype: bool = contains('SCOPE_VERIFICATION_REQUIRED')
+E        +        where contains = &lt;pandas.core.strings.accessor.StringMethods object at 0x00000290AC0F8320&gt;.contains
+E        +          where &lt;pandas.core.strings.accessor.StringMethods object at 0x00000290AC0F8320&gt; = 0       Retain old provenance\n1       Retain old provenance\n2       Retain old provenance\n3       Retain old provenanc...etain old provenance\n1657    Retain old provenance\n1658    Retain old provenance\nName: reason, Length: 1659, dtype: str.str
+E        +            where 0       Retain old provenance\n1       Retain old provenance\n2       Retain old provenance\n3       Retain old provenanc...etain old provenance\n1657    Retain old provenance\n1658    Retain old provenance\nName: reason, Length: 1659, dtype: str =           variable   period  ...                 reason  variable_key\n0              ppi  2013-01  ...  Retain old pro...rovenance  gdp_real_yoy\n1658  gdp_real_yoy   2026Q2  ...  Retain old provenance  gdp_real_yoy\n\n[1659 rows x 10 columns].reason
+
+tests\collection\test_collection.py:249: AssertionError</failure></testcase><testcase classname="tests.collection.test_collection" name="test_real_industry_version_has_separate_provenance" time="6.896"><failure message="FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\.tmp\\a2_88c66c\\t_ee77e68\\r\\data\\collection\\runs\\collect_20261012_113736_2ba7b0d2\\stage\\metadata\\recovery_observations_long.parquet'">isolated = WindowsPath('C:/Users/Sh.Nishonqulov/Desktop/uzbekistan_nowcast_codex_starter/.tmp/a2_88c66c/t_ee77e68/r')
+
+    def test_real_industry_version_has_separate_provenance(isolated):
+        def fetch(k, *args):
+            f = old_candidate(k, *args)
+            if k == 'industrial_production':
+                row = f.iloc[-1].copy()
+                row['reference_period'] = '2026-09'
+                row['reference_date'] = pd.Timestamp('2026-09-30')
+                row['raw_value'], row['clean_value'] = 108., 8.
+                row['retrieved_at'] = row['vintage_date'] = '2026-10-12T07:00:00Z'
+                row['source_release_date'] = None
+                f = pd.concat([f, row.to_frame().T], ignore_index=True).astype({'raw_value': float, 'clean_value': float, 'reference_date': 'datetime64[ns]'})
+            return f
+        result = run(isolated, fetch, commit=True)
+        version = snapshot(result, isolated)
+        assert sha(version / 'data/processed/industrial_production.parquet') == sha(isolated / 'data/processed/industrial_production.parquet')
+&gt;       f = pd.read_parquet(version / 'metadata/recovery_observations_long.parquet')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\collection\test_collection.py:267: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\pandas\io\parquet.py:671: in read_parquet
+    return impl.read(
+.venv\Lib\site-packages\pandas\io\parquet.py:253: in read
+    path_or_handle, handles, filesystem = _get_path_or_handle(
+.venv\Lib\site-packages\pandas\io\parquet.py:141: in _get_path_or_handle
+    handles = get_handle(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path_or_buf = 'C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\.tmp\\a2_88c66c\\t_ee77e68\\r\\data\\collection\\runs\\collect_20261012_113736_2ba7b0d2\\stage\\metadata\\recovery_observations_long.parquet'
+mode = 'rb', encoding = 'utf-8', compression = None, memory_map = False
+is_text = False, errors = 'strict', storage_options = None
+
+    def get_handle(
+        path_or_buf: FilePath | BaseBuffer,
+        mode: str,
+        *,
+        encoding: str | None = None,
+        compression: CompressionOptions | None = None,
+        memory_map: bool = False,
+        is_text: bool = True,
+        errors: str | None = None,
+        storage_options: StorageOptions | None = None,
+    ) -&gt; IOHandles[str] | IOHandles[bytes]:
+        """
+        Get file handle for given path/buffer and mode.
+    
+        Parameters
+        ----------
+        path_or_buf : str or file handle
+            File path or object.
+        mode : str
+            Mode to open path_or_buf with.
+        encoding : str or None
+            Encoding to use.
+        compression : str or dict, default 'infer'
+            For on-the-fly compression of the output data. If 'infer' and 'path_or_buf'
+            is path-like, then detect compression from the following extensions: '.gz',
+            '.bz2', '.zip', '.xz', '.zst', '.tar', '.tar.gz', '.tar.xz' or '.tar.bz2'
+            (otherwise no compression).
+            Set to ``None`` for no compression.
+            Can also be a dict with key ``'method'`` set
+            to one of {``'zip'``, ``'gzip'``, ``'bz2'``, ``'zstd'``, ``'xz'``, ``'tar'``}
+            and other key-value pairs are forwarded to
+            ``zipfile.ZipFile``, ``gzip.GzipFile``,
+            ``bz2.BZ2File``, ``zstandard.ZstdCompressor``, ``lzma.LZMAFile`` or
+            ``tarfile.TarFile``, respectively.
+            As an example, the following could be passed for faster compression and to
+            create a reproducible gzip archive:
+            ``compression={'method': 'gzip', 'compresslevel': 1, 'mtime': 1}``.
+    
+               May be a dict with key 'method' as compression mode
+               and other keys as compression options if compression
+               mode is 'zip'.
+    
+               Passing compression options as keys in dict is
+               supported for compression modes 'gzip', 'bz2', 'zstd' and 'zip'.
+    
+        memory_map : bool, default False
+            See parsers._parser_params for more information. Only used by read_csv.
+        is_text : bool, default True
+            Whether the type of the content passed to the file/buffer is string or
+            bytes. This is not the same as `"b" not in mode`. If a string content is
+            passed to a binary file/buffer, a wrapper is inserted.
+        errors : str, default 'strict'
+            Specifies how encoding and decoding errors are to be handled.
+            See the errors argument for :func:`open` for a full list
+            of options.
+        storage_options: StorageOptions = None
+            Passed to _get_filepath_or_buffer
+    
+        Returns the dataclass IOHandles
+        """
+        # Windows does not default to utf-8. Set to utf-8 for a consistent behavior
+        encoding = encoding or "utf-8"
+    
+        errors = errors or "strict"
+    
+        # read_csv does not know whether the buffer is opened in binary/text mode
+        if _is_binary_mode(path_or_buf, mode) and "b" not in mode:
+            mode += "b"
+    
+        # validate encoding and errors
+        codecs.lookup(encoding)
+        if isinstance(errors, str):
+            codecs.lookup_error(errors)
+    
+        # open URLs
+        ioargs = _get_filepath_or_buffer(
+            path_or_buf,
+            encoding=encoding,
+            compression=compression,
+            mode=mode,
+            storage_options=storage_options,
+        )
+    
+        handle = ioargs.filepath_or_buffer
+        handles: list[BaseBuffer]
+    
+        # memory mapping needs to be the first step
+        # only used for read_csv
+        handle, memory_map, handles = _maybe_memory_map(handle, memory_map)
+    
+        is_path = isinstance(handle, str)
+        compression_args = dict(ioargs.compression)
+        compression = compression_args.pop("method")
+    
+        # Only for write methods
+        if "r" not in mode and is_path:
+            check_parent_directory(str(handle))
+    
+        if compression:
+            if compression != "zstd":
+                # compression libraries do not like an explicit text-mode
+                ioargs.mode = ioargs.mode.replace("t", "")
+            elif compression == "zstd" and "b" not in ioargs.mode:
+                # python-zstandard defaults to text mode, but we always expect
+                # compression libraries to use binary mode.
+                ioargs.mode += "b"
+    
+            # GZ Compression
+            if compression == "gzip":
+                if isinstance(handle, str):
+                    # error: Incompatible types in assignment (expression has type
+                    # "GzipFile", variable has type "Union[str, BaseBuffer]")
+                    handle = gzip.GzipFile(  # type: ignore[assignment]
+                        filename=handle,
+                        mode=ioargs.mode,
+                        **compression_args,
+                    )
+                else:
+                    handle = gzip.GzipFile(
+                        # No overload variant of "GzipFile" matches argument types
+                        # "Union[str, BaseBuffer]", "str", "Dict[str, Any]"
+                        fileobj=handle,  # type: ignore[call-overload]
+                        mode=ioargs.mode,
+                        **compression_args,
+                    )
+    
+            # BZ Compression
+            elif compression == "bz2":
+                import bz2
+    
+                # Overload of "BZ2File" to handle pickle protocol 5
+                # "Union[str, BaseBuffer]", "str", "Dict[str, Any]"
+                handle = bz2.BZ2File(  # type: ignore[call-overload]
+                    handle,
+                    mode=ioargs.mode,
+                    **compression_args,
+                )
+    
+            # ZIP Compression
+            elif compression == "zip":
+                # error: Argument 1 to "_BytesZipFile" has incompatible type
+                # "Union[str, BaseBuffer]"; expected "Union[Union[str, PathLike[str]],
+                # ReadBuffer[bytes], WriteBuffer[bytes]]"
+                handle = _BytesZipFile(
+                    handle,  # type: ignore[arg-type]
+                    ioargs.mode,
+                    **compression_args,
+                )
+                if handle.buffer.mode == "r":
+                    handles.append(handle)
+                    zip_names = handle.buffer.namelist()
+                    if len(zip_names) == 1:
+                        handle = handle.buffer.open(zip_names.pop())
+                    elif not zip_names:
+                        raise ValueError(f"Zero files found in ZIP file {path_or_buf}")
+                    else:
+                        raise ValueError(
+                            "Multiple files found in ZIP file. "
+                            f"Only one file per ZIP: {zip_names}"
+                        )
+    
+            # TAR Encoding
+            elif compression == "tar":
+                compression_args.setdefault("mode", ioargs.mode)
+                if isinstance(handle, str):
+                    handle = _BytesTarFile(name=handle, **compression_args)
+                else:
+                    # error: Argument "fileobj" to "_BytesTarFile" has incompatible
+                    # type "BaseBuffer"; expected "Union[ReadBuffer[bytes],
+                    # WriteBuffer[bytes], None]"
+                    handle = _BytesTarFile(
+                        fileobj=handle,  # type: ignore[arg-type]
+                        **compression_args,
+                    )
+                assert isinstance(handle, _BytesTarFile)
+                if "r" in handle.buffer.mode:
+                    handles.append(handle)
+                    files = handle.buffer.getnames()
+                    if len(files) == 1:
+                        file = handle.buffer.extractfile(files[0])
+                        assert file is not None
+                        handle = file
+                    elif not files:
+                        raise ValueError(f"Zero files found in TAR archive {path_or_buf}")
+                    else:
+                        raise ValueError(
+                            "Multiple files found in TAR archive. "
+                            f"Only one file per TAR archive: {files}"
+                        )
+    
+            # XZ Compression
+            elif compression == "xz":
+                # error: Argument 1 to "LZMAFile" has incompatible type "Union[str,
+                # BaseBuffer]"; expected "Optional[Union[Union[str, bytes, PathLike[str],
+                # PathLike[bytes]], IO[bytes]], None]"
+                import lzma
+    
+                handle = lzma.LZMAFile(
+                    handle,  # type: ignore[arg-type]
+                    ioargs.mode,
+                    **compression_args,
+                )
+    
+            # Zstd Compression
+            elif compression == "zstd":
+                zstd = import_optional_dependency("zstandard")
+                if "r" in ioargs.mode:
+                    open_args = {"dctx": zstd.ZstdDecompressor(**compression_args)}
+                else:
+                    open_args = {"cctx": zstd.ZstdCompressor(**compression_args)}
+                handle = zstd.open(
+                    handle,
+                    mode=ioargs.mode,
+                    **open_args,
+                )
+    
+            # Unrecognized Compression
+            else:
+                msg = f"Unrecognized compression type: {compression}"
+                raise ValueError(msg)
+    
+            assert not isinstance(handle, str)
+            handles.append(handle)
+    
+        elif isinstance(handle, str):
+            # Check whether the filename is to be opened in binary mode.
+            # Binary mode does not support 'encoding' and 'newline'.
+            if ioargs.encoding and "b" not in ioargs.mode:
+                # Encoding
+                handle = open(
+                    handle,
+                    ioargs.mode,
+                    encoding=ioargs.encoding,
+                    errors=errors,
+                    newline="",
+                )
+            else:
+                # Binary mode
+&gt;               handle = open(handle, ioargs.mode)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^
+E               FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\.tmp\\a2_88c66c\\t_ee77e68\\r\\data\\collection\\runs\\collect_20261012_113736_2ba7b0d2\\stage\\metadata\\recovery_observations_long.parquet'
+
+.venv\Lib\site-packages\pandas\io\common.py:939: FileNotFoundError</failure></testcase><testcase classname="tests.collection.test_collection" name="test_official_apreily_receipts_parse_period_units_and_total" time="0.123" /><testcase classname="tests.collection.test_collection" name="test_pos_rejects_changed_unit_numeric_or_year[F3-Amount in billion UZS]" time="0.308" /><testcase classname="tests.collection.test_collection" name="test_pos_rejects_changed_unit_numeric_or_year[F39-bad]" time="0.299" /><testcase classname="tests.collection.test_collection" name="test_pos_rejects_changed_unit_numeric_or_year[B1-Information as of April 1, 2024]" time="0.421" /><testcase classname="tests.collection.test_collection" name="test_pos_period_crosscheck_and_unknown_month" time="0.006" /><testcase classname="tests.collection.test_collection" name="test_reader_keeps_old_version_on_pointer_failure" time="0.077" /><testcase classname="tests.collection.test_collection" name="test_reader_rejects_corrupted_version" time="0.043" /><testcase classname="tests.collection.test_collection" name="test_permanent_transport_errors_not_retried[exception0-TLS_ERROR]" time="0.048" /><testcase classname="tests.collection.test_collection" name="test_permanent_transport_errors_not_retried[exception1-NETWORK_ENVIRONMENT_ERROR]" time="0.074" /><testcase classname="tests.collection.test_collection" name="test_temporary_http_retries_archive_every_response" time="0.060" /><testcase classname="tests.collection.test_collection" name="test_temporary_network_retries_are_bounded" time="0.117" /></testsuite></testsuites>

@@ -1,0 +1,18 @@
+{
+  "run_id": "collect_20261012_130052_e8e2fea7",
+  "variable_key": "pos_turnover",
+  "provider": "CBU",
+  "source_id": "4-009-0047",
+  "source_url": "https://cbu.uz/upload/medialibrary/0b1/inglish.xlsx",
+  "response_url": "https://cbu.uz/upload/medialibrary/0b1/inglish.xlsx",
+  "retrieved_at": "2026-10-12T13:04:06.733113+00:00",
+  "source_release_date": "2020-11-12T10:48:00+05:00",
+  "source_release_basis": "official archive article update timestamp",
+  "http_status": 200,
+  "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "raw_file_path": "data/raw/cbu/pos_turnover/20261012T130406733113Z_30914b9b74f84c7a93f44d82b32cf33b.payload",
+  "checksum": "3e25c2f6b186507d54ed9c65b425bddf4bdfdb46f5e49dcea752c9f15bc67899",
+  "schema_fingerprint": "efbe89bb9f06ed86a21d01c0cf416f16694e584929be448df6367d39992df4cb",
+  "parser_version": "0.1.0",
+  "rows_raw": null
+}

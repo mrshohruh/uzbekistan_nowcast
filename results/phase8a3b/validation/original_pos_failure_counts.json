@@ -1,0 +1,21 @@
+{
+  "Archive as-of/reporting date not found": 16,
+  "POS exact amount column matched 0 columns": 8,
+  "POS no unique supported, unit-verified page/XLSX extraction": 4,
+  "Unknown official month spelling: 'avgust'": 2,
+  "list index out of range": 2,
+  "CBU archive article has no source file: https://cbu.uz/en/statistics/paysistem/134678/": 1,
+  "POS amount is not an unambiguous numeric value": 1,
+  "POS as-of date and reporting range disagree": 1,
+  "POS workbook/page period mismatch": 1,
+  "HTTP 404: https://cbu.uz/upload/statistics/paymentsystems/feb/3/BC-ATM-TERM-TURNOVER%20Eng.pdf": 1,
+  "HTTP 404: https://cbu.uz/upload/statistics/paymentsystems/mar/3/BC_POS_ATM_TURNOVER%2001.03.eng.pdf": 1,
+  "HTTP 404: https://cbu.uz/upload/statistics/paymentsystems/apr/3/BC_POS_ATM_TURNOVER%20ENG%2001.04.18.pdf": 1,
+  "HTTP 404: https://cbu.uz/upload/statistics/paymentsystems/may/3/BC_POS_ATM_TURNOVER_ENG.pdf": 1,
+  "HTTP 404: https://cbu.uz/upload/statistics/paymentsystems/jun/3/BC_POS_ATM_TURNOVER_\u0435\u043d\u0433.pdf": 1,
+  "HTTP 404: https://cbu.uz/upload/statistics/paymentsystems/july/BC_POS_ATM_TURNOVER_eng.pdf": 1,
+  "Unexpected provider URL: http://cbu.uz/upload/statistics/paymentsystems/july/BC_POS_ATM_TURNOVER_eng.pdf": 1,
+  "HTTP 404: https://cbu.uz/upload/statistics/paymentsystems/oct/BC_POS_ATM_TURNOVER%2001.10_eng.pdf": 1,
+  "HTTP 404: https://cbu.uz/upload/statistics/paymentsystems/nov/BC_POS_ATM_TURNOVER%2001.11.xls": 1,
+  "HTTP 404: https://cbu.uz/upload/statistics/paymentsystems/dec/BC_POS_ATM_TURNOVER%2001.12.pdf": 1
+}

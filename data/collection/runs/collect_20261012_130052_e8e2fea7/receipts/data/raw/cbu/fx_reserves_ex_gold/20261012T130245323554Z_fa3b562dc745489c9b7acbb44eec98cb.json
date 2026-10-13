@@ -1,0 +1,18 @@
+{
+  "run_id": "collect_20261012_130052_e8e2fea7",
+  "variable_key": "fx_reserves_ex_gold",
+  "provider": "CBU",
+  "source_id": "4-009-0017",
+  "source_url": "https://cbu.uz/en/statistics/e-gdds/data/111574/",
+  "response_url": "https://cbu.uz/en/statistics/e-gdds/data/111574/",
+  "retrieved_at": "2026-10-12T13:02:45.323554+00:00",
+  "source_release_date": null,
+  "source_release_basis": null,
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "raw_file_path": "data/raw/cbu/fx_reserves_ex_gold/20261012T130245323554Z_fa3b562dc745489c9b7acbb44eec98cb.payload",
+  "checksum": "16e64ed1bac981609604daf121fcfcd0adf9379064faa75b48486e7fc9c54e59",
+  "schema_fingerprint": "e9b5557fd411c2c2d93bbba743e3690aeb39835b18ab9e2f82acd0806817e616",
+  "parser_version": "0.1.0",
+  "rows_raw": null
+}

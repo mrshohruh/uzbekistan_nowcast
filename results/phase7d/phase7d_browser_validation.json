@@ -1,0 +1,446 @@
+{
+  "checks": [
+    {
+      "model": "M0",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "M0",
+      "tab": "GDP & errors",
+      "nonempty": true
+    },
+    {
+      "model": "M0",
+      "tab": "Factors & signals",
+      "nonempty": true
+    },
+    {
+      "model": "M0",
+      "tab": "96 predictors",
+      "nonempty": true
+    },
+    {
+      "model": "M0",
+      "tab": "Transformation audit",
+      "nonempty": true
+    },
+    {
+      "model": "M0",
+      "tab": "Forecast origins",
+      "nonempty": true
+    },
+    {
+      "model": "M0",
+      "tab": "Robustness",
+      "nonempty": true
+    },
+    {
+      "model": "M0",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "U0",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "U0",
+      "tab": "GDP & errors",
+      "nonempty": true
+    },
+    {
+      "model": "U0",
+      "tab": "Factors & signals",
+      "nonempty": true
+    },
+    {
+      "model": "U0",
+      "tab": "96 predictors",
+      "nonempty": true
+    },
+    {
+      "model": "U0",
+      "tab": "Transformation audit",
+      "nonempty": true
+    },
+    {
+      "model": "U0",
+      "tab": "Forecast origins",
+      "nonempty": true
+    },
+    {
+      "model": "U0",
+      "tab": "Robustness",
+      "nonempty": true
+    },
+    {
+      "model": "U0",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "COMBO_50_50",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "COMBO_50_50",
+      "tab": "GDP & errors",
+      "nonempty": true
+    },
+    {
+      "model": "COMBO_50_50",
+      "tab": "Factors & signals",
+      "nonempty": true
+    },
+    {
+      "model": "COMBO_50_50",
+      "tab": "96 predictors",
+      "nonempty": true
+    },
+    {
+      "model": "COMBO_50_50",
+      "tab": "Transformation audit",
+      "nonempty": true
+    },
+    {
+      "model": "COMBO_50_50",
+      "tab": "Forecast origins",
+      "nonempty": true
+    },
+    {
+      "model": "COMBO_50_50",
+      "tab": "Robustness",
+      "nonempty": true
+    },
+    {
+      "model": "COMBO_50_50",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "AR1",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "AR1",
+      "tab": "GDP & errors",
+      "nonempty": true
+    },
+    {
+      "model": "AR1",
+      "tab": "Factors & signals",
+      "nonempty": true
+    },
+    {
+      "model": "AR1",
+      "tab": "96 predictors",
+      "nonempty": true
+    },
+    {
+      "model": "AR1",
+      "tab": "Transformation audit",
+      "nonempty": true
+    },
+    {
+      "model": "AR1",
+      "tab": "Forecast origins",
+      "nonempty": true
+    },
+    {
+      "model": "AR1",
+      "tab": "Robustness",
+      "nonempty": true
+    },
+    {
+      "model": "AR1",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "AR2",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "AR2",
+      "tab": "GDP & errors",
+      "nonempty": true
+    },
+    {
+      "model": "AR2",
+      "tab": "Factors & signals",
+      "nonempty": true
+    },
+    {
+      "model": "AR2",
+      "tab": "96 predictors",
+      "nonempty": true
+    },
+    {
+      "model": "AR2",
+      "tab": "Transformation audit",
+      "nonempty": true
+    },
+    {
+      "model": "AR2",
+      "tab": "Forecast origins",
+      "nonempty": true
+    },
+    {
+      "model": "AR2",
+      "tab": "Robustness",
+      "nonempty": true
+    },
+    {
+      "model": "AR2",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "DFM_ALL_1F",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "DFM_ALL_1F",
+      "tab": "GDP & errors",
+      "nonempty": true
+    },
+    {
+      "model": "DFM_ALL_1F",
+      "tab": "Factors & signals",
+      "nonempty": true
+    },
+    {
+      "model": "DFM_ALL_1F",
+      "tab": "96 predictors",
+      "nonempty": true
+    },
+    {
+      "model": "DFM_ALL_1F",
+      "tab": "Transformation audit",
+      "nonempty": true
+    },
+    {
+      "model": "DFM_ALL_1F",
+      "tab": "Forecast origins",
+      "nonempty": true
+    },
+    {
+      "model": "DFM_ALL_1F",
+      "tab": "Robustness",
+      "nonempty": true
+    },
+    {
+      "model": "DFM_ALL_1F",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "DFM_ALL_2F",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "DFM_ALL_2F",
+      "tab": "GDP & errors",
+      "nonempty": true
+    },
+    {
+      "model": "DFM_ALL_2F",
+      "tab": "Factors & signals",
+      "nonempty": true
+    },
+    {
+      "model": "DFM_ALL_2F",
+      "tab": "96 predictors",
+      "nonempty": true
+    },
+    {
+      "model": "DFM_ALL_2F",
+      "tab": "Transformation audit",
+      "nonempty": true
+    },
+    {
+      "model": "DFM_ALL_2F",
+      "tab": "Forecast origins",
+      "nonempty": true
+    },
+    {
+      "model": "DFM_ALL_2F",
+      "tab": "Robustness",
+      "nonempty": true
+    },
+    {
+      "model": "DFM_ALL_2F",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "DFM_ALL_3F",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "DFM_ALL_3F",
+      "tab": "GDP & errors",
+      "nonempty": true
+    },
+    {
+      "model": "DFM_ALL_3F",
+      "tab": "Factors & signals",
+      "nonempty": true
+    },
+    {
+      "model": "DFM_ALL_3F",
+      "tab": "96 predictors",
+      "nonempty": true
+    },
+    {
+      "model": "DFM_ALL_3F",
+      "tab": "Transformation audit",
+      "nonempty": true
+    },
+    {
+      "model": "DFM_ALL_3F",
+      "tab": "Forecast origins",
+      "nonempty": true
+    },
+    {
+      "model": "DFM_ALL_3F",
+      "tab": "Robustness",
+      "nonempty": true
+    },
+    {
+      "model": "DFM_ALL_3F",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "DFM_ALL_GROUPED",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "DFM_ALL_GROUPED",
+      "tab": "GDP & errors",
+      "nonempty": true
+    },
+    {
+      "model": "DFM_ALL_GROUPED",
+      "tab": "Factors & signals",
+      "nonempty": true
+    },
+    {
+      "model": "DFM_ALL_GROUPED",
+      "tab": "96 predictors",
+      "nonempty": true
+    },
+    {
+      "model": "DFM_ALL_GROUPED",
+      "tab": "Transformation audit",
+      "nonempty": true
+    },
+    {
+      "model": "DFM_ALL_GROUPED",
+      "tab": "Forecast origins",
+      "nonempty": true
+    },
+    {
+      "model": "DFM_ALL_GROUPED",
+      "tab": "Robustness",
+      "nonempty": true
+    },
+    {
+      "model": "DFM_ALL_GROUPED",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "sample": "MATCHED_ALL",
+      "horizon": "ALL",
+      "metric_count": 9,
+      "kpis": true
+    },
+    {
+      "sample": "MATCHED_ALL",
+      "horizon": "H1",
+      "metric_count": 9,
+      "kpis": true
+    },
+    {
+      "sample": "MATCHED_ALL",
+      "horizon": "H2",
+      "metric_count": 9,
+      "kpis": true
+    },
+    {
+      "sample": "MATCHED_ALL",
+      "horizon": "H3",
+      "metric_count": 9,
+      "kpis": true
+    },
+    {
+      "sample": "MATCHED_DEVELOPMENT",
+      "horizon": "ALL",
+      "metric_count": 9,
+      "kpis": true
+    },
+    {
+      "sample": "MATCHED_DEVELOPMENT",
+      "horizon": "H1",
+      "metric_count": 9,
+      "kpis": true
+    },
+    {
+      "sample": "MATCHED_DEVELOPMENT",
+      "horizon": "H2",
+      "metric_count": 9,
+      "kpis": true
+    },
+    {
+      "sample": "MATCHED_DEVELOPMENT",
+      "horizon": "H3",
+      "metric_count": 9,
+      "kpis": true
+    },
+    {
+      "sample": "MATCHED_HOLDOUT",
+      "horizon": "ALL",
+      "metric_count": 9,
+      "kpis": true
+    },
+    {
+      "sample": "MATCHED_HOLDOUT",
+      "horizon": "H1",
+      "metric_count": 9,
+      "kpis": true
+    },
+    {
+      "sample": "MATCHED_HOLDOUT",
+      "horizon": "H2",
+      "metric_count": 9,
+      "kpis": true
+    },
+    {
+      "sample": "MATCHED_HOLDOUT",
+      "horizon": "H3",
+      "metric_count": 9,
+      "kpis": true
+    }
+  ],
+  "fullInventory": 96,
+  "searchCount": 16,
+  "auditCount": 8613,
+  "firstModel": "COMBO_50_50",
+  "svgCount": 2,
+  "errors": [],
+  "modelOptions": 9,
+  "embeddedForecasts": 480,
+  "exit_code": 0,
+  "passed": true
+}

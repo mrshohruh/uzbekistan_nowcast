@@ -1,0 +1,97 @@
+original_label,frequency,group,first_observation,last_observation,raw_observations,usable_observations,missing_raw,missing_transformed,late_start,status
+Industrial production — Industrial production (billion UZS) [M],M,industry,2019-01,2026-08,92,80,1,13,False,INCLUDED
+Industrial production — Mining and quarrying (billion UZS) [M],M,industry,2019-01,2026-08,92,80,1,13,False,INCLUDED
+Industrial production — Manufacturing industry (billion UZS) [M],M,industry,2019-01,2026-08,92,80,1,13,False,INCLUDED
+"Industrial production — Electricity, gas, steam and air conditioning (billion UZS) [M]",M,industry,2019-01,2026-08,92,80,1,13,False,INCLUDED
+"Industrial production — Water supply; sewerage, waste collection and disposal (billion UZS) [M]",M,industry,2019-01,2026-08,92,80,1,13,False,INCLUDED
+Industrial production — Manufacturing of food products (billion UZS) [M],M,industry,2019-01,2026-08,92,80,1,13,False,INCLUDED
+Industrial production — Manufacture of beverages (billion UZS) [M],M,industry,2019-01,2026-08,92,80,1,13,False,INCLUDED
+Industrial production — Manufacture of tobacco products (billion UZS) [M],M,industry,2019-01,2026-08,92,80,1,13,False,INCLUDED
+Industrial production — Manufacture of textiles (billion UZS) [M],M,industry,2019-01,2026-08,92,80,1,13,False,INCLUDED
+Industrial production — Manufacture of wearing apparel (billion UZS) [M],M,industry,2019-01,2026-08,92,80,1,13,False,INCLUDED
+Industrial production — Manufacture of leather and related products (billion UZS) [M],M,industry,2019-01,2026-08,92,80,1,13,False,INCLUDED
+"Industrial production — Manufacture of wooden and cork products, (except furniture), products made of straw and plaiting materials (billion UZS) [M]",M,industry,2019-01,2026-08,92,76,1,17,False,INCLUDED
+Industrial production — Manufacture of paper and paper products (billion UZS) [M],M,industry,2019-01,2026-08,92,80,1,13,False,INCLUDED
+Industrial production — Printing and Playback of Recorded Materials (billion UZS) [M],M,industry,2019-01,2026-08,92,80,1,13,False,INCLUDED
+Industrial production — Manufacture of chemical products (billion UZS) [M],M,industry,2019-01,2026-08,92,80,1,13,False,INCLUDED
+Industrial production — Manufacture of coke and refined petroleum products (billion UZS) [M],M,industry,2019-01,2026-08,92,80,1,13,False,INCLUDED
+Industrial production — Manufacture of basic pharmaceutical products and preparations (billion UZS) [M],M,industry,2019-01,2026-08,92,80,1,13,False,INCLUDED
+Industrial production — Manufacture of rubber and plastic products (billion UZS) [M],M,industry,2019-01,2026-08,92,78,1,15,False,INCLUDED
+Industrial production — Manufacture of other non-metallic mineral products (billion UZS) [M],M,industry,2019-01,2026-08,92,80,1,13,False,INCLUDED
+Industrial production — Metallurgical industry (billion UZS) [M],M,industry,2019-01,2026-08,92,80,1,13,False,INCLUDED
+"Industrial production — Manufacture of fabricated metal products, except machinery and equipment (billion UZS) [M]",M,industry,2019-01,2026-08,92,74,1,19,False,INCLUDED
+"Industrial production — Manufacture of computers, electronic and optical products (billion UZS) [M]",M,industry,2019-01,2026-08,92,78,1,15,False,INCLUDED
+Industrial production — Manufacture of electrical equipment (billion UZS) [M],M,industry,2019-01,2026-08,92,78,1,15,False,INCLUDED
+"Industrial production — Manafacture of machinery and equipment,not elsewhere classified (billion UZS) [M]",M,industry,2019-01,2026-08,92,79,1,14,False,INCLUDED
+"Industrial production — Manufacture of motor vehicles, trailers and semi-trailers (billion UZS) [M]",M,industry,2019-01,2026-08,92,80,1,13,False,INCLUDED
+Industrial production — Manufacture of other transport equipment (billion UZS) [M],M,industry,2019-01,2026-08,92,78,1,15,False,INCLUDED
+Industrial production — Furniture manufacture (billion UZS) [M],M,industry,2019-01,2026-08,92,78,1,15,False,INCLUDED
+Industrial production — Manufacture of other finished products (billion UZS) [M],M,industry,2019-01,2026-08,92,80,1,13,False,INCLUDED
+Industrial production — Repair and installation of machinery and equipment (billion UZS) [M],M,industry,2019-01,2026-08,92,80,1,13,False,INCLUDED
+Construction works (billion UZS) [M],M,domestic_demand,2021-01,2026-08,68,56,25,37,False,INCLUDED
+Retail trade volume (million UZS) [M],M,domestic_demand,2020-01,2026-08,80,68,13,25,False,INCLUDED
+Wholesale trade volume (million UZS) [M],M,domestic_demand,2020-01,2026-08,80,65,13,28,False,INCLUDED
+"CPI — Cumulative index (index, %) [M]",M,consumer_prices,2021-01,2026-09,69,69,24,24,False,INCLUDED
+"CPI — Food products (index, %) [M]",M,consumer_prices,2021-01,2026-09,69,69,24,24,False,INCLUDED
+"CPI — Non-food products (index, %) [M]",M,consumer_prices,2021-01,2026-09,69,69,24,24,False,INCLUDED
+"CPI — Services (index, %) [M]",M,consumer_prices,2021-01,2026-09,69,69,24,24,False,INCLUDED
+"CPI — Food and non-alcoholic drinks (index, %) [M]",M,consumer_prices,2021-01,2026-09,69,69,24,24,False,INCLUDED
+"CPI — Alcoholic drinks, tobacco products (index, %) [M]",M,consumer_prices,2021-01,2026-09,69,69,24,24,False,INCLUDED
+"CPI — Clothes and footwear (index, %) [M]",M,consumer_prices,2021-01,2026-09,69,69,24,24,False,INCLUDED
+"CPI — Housing services, water, electricity, gas and other fuels (index, %) [M]",M,consumer_prices,2021-01,2026-09,69,69,24,24,False,INCLUDED
+"CPI — Household items, appliances and routine home maintenance (index, %) [M]",M,consumer_prices,2021-01,2026-09,69,69,24,24,False,INCLUDED
+"CPI — Health care (index, %) [M]",M,consumer_prices,2021-01,2026-09,69,69,24,24,False,INCLUDED
+"CPI — Transport (index, %) [M]",M,consumer_prices,2021-01,2026-09,69,69,24,24,False,INCLUDED
+"CPI — Information and communication (index, %) [M]",M,consumer_prices,2021-01,2026-09,69,69,24,24,False,INCLUDED
+"CPI — Recreation, sports and culture (index, %) [M]",M,consumer_prices,2021-01,2026-09,69,69,24,24,False,INCLUDED
+"CPI — Services in the field of education (index, %) [M]",M,consumer_prices,2021-01,2026-09,69,69,24,24,False,INCLUDED
+"CPI — Restaurants and hotel services (index, %) [M]",M,consumer_prices,2021-01,2026-09,69,69,24,24,False,INCLUDED
+"CPI — Insurance and financial services (index, %) [M]",M,consumer_prices,2021-01,2026-09,69,69,24,24,False,INCLUDED
+"CPI — Household goods and services, social protection and miscellaneous goods and services (index, %) [M]",M,consumer_prices,2021-01,2026-09,69,69,24,24,False,INCLUDED
+"PPI — Composite index (index, %) [M]",M,producer_prices,2019-01,2026-08,92,92,1,1,False,INCLUDED
+"PPI — Mining and quarrying (index, %) [M]",M,producer_prices,2019-01,2026-08,92,92,1,1,False,INCLUDED
+"PPI — Manufacturing industry (index, %) [M]",M,producer_prices,2019-01,2026-08,92,92,1,1,False,INCLUDED
+"PPI — Electricity, gas, steam and air conditioning (index, %) [M]",M,producer_prices,2019-01,2026-08,92,92,1,1,False,INCLUDED
+"PPI — Water supply; sewerage, waste collection and disposal (index, %) [M]",M,producer_prices,2019-01,2026-08,92,92,1,1,False,INCLUDED
+"PPI — Manufacturing of food products (index, %) [M]",M,producer_prices,2019-01,2026-08,92,92,1,1,False,INCLUDED
+"PPI — Manufacture of beverages (index, %) [M]",M,producer_prices,2019-01,2026-08,92,92,1,1,False,INCLUDED
+"PPI — Manufacture of textiles (index, %) [M]",M,producer_prices,2019-01,2026-08,92,92,1,1,False,INCLUDED
+"PPI — Manufacture of chemical products (index, %) [M]",M,producer_prices,2019-01,2026-08,92,92,1,1,False,INCLUDED
+"PPI — Manufacture of coke and refined petroleum products (index, %) [M]",M,producer_prices,2019-01,2026-08,92,92,1,1,False,INCLUDED
+"PPI — Manufacture of other non-metallic mineral products (index, %) [M]",M,producer_prices,2019-01,2026-08,92,92,1,1,False,INCLUDED
+"PPI — Metallurgical industry (index, %) [M]",M,producer_prices,2019-01,2026-08,92,92,1,1,False,INCLUDED
+"PPI — Manufacture of fabricated metal products, except machinery and equipment (index, %) [M]",M,producer_prices,2019-01,2026-08,92,92,1,1,False,INCLUDED
+"PPI — Manufacture of electrical equipment (index, %) [M]",M,producer_prices,2019-01,2026-08,92,92,1,1,False,INCLUDED
+"PPI — Manufacture of motor vehicles, trailers and semi-trailers (index, %) [M]",M,producer_prices,2019-01,2026-08,92,92,1,1,False,INCLUDED
+"PPI — Mining of metal ores (index, %) [M]",M,producer_prices,2019-01,2026-08,92,80,1,13,False,INCLUDED
+Export volume (million USD) [M],M,external_trade,2021-01,2026-08,68,56,25,37,False,INCLUDED
+Import volume (million USD) [M],M,external_trade,2021-01,2026-08,68,56,25,37,False,INCLUDED
+Gold (USD/troy oz) [M],M,financial,2019-01,2026-09,93,92,0,1,False,INCLUDED
+M2 — Broad money liabilities (billion UZS) [M],M,financial,2019-01,2026-08,92,80,1,13,False,INCLUDED
+International reserves — Foreign currency reserves (in convertible foreign currencies) (million USD) [M],M,financial,2019-01,2026-09,93,92,0,1,False,INCLUDED
+International reserves — Gold (million USD) [M],M,financial,2019-01,2026-09,93,92,0,1,False,INCLUDED
+Rendered market services — Trade (% of previous year) [M],M,services,2024-01,2026-08,32,32,61,61,True,INCLUDED_SHORT_HISTORY
+Rendered market services — Information and communication (% of previous year) [M],M,services,2024-01,2026-08,32,32,61,61,True,INCLUDED_SHORT_HISTORY
+Rendered market services — Transport activities (% of previous year) [M],M,services,2024-01,2026-08,32,32,61,61,True,INCLUDED_SHORT_HISTORY
+Rendered market services — of which: motor transport (% of previous year) [M],M,services,2024-01,2026-08,32,32,61,61,True,INCLUDED_SHORT_HISTORY
+Rendered market services — Accommodation and food service activities (% of previous year) [M],M,services,2024-01,2026-08,32,32,61,61,True,INCLUDED_SHORT_HISTORY
+Rendered market services — Financial activities (% of previous year) [M],M,services,2024-01,2026-08,32,32,61,61,True,INCLUDED_SHORT_HISTORY
+Rendered market services — Real estate activities (% of previous year) [M],M,services,2024-01,2026-08,32,32,61,61,True,INCLUDED_SHORT_HISTORY
+"Rendered market services — Architectural and engineering activities, technical testing and analysis (% of previous year) [M]",M,services,2024-01,2026-08,32,32,61,61,True,INCLUDED_SHORT_HISTORY
+Rendered market services — Renting and leasing (% of previous year) [M],M,services,2024-01,2026-08,32,32,61,61,True,INCLUDED_SHORT_HISTORY
+Rendered market services — Education (% of previous year) [M],M,services,2024-01,2026-08,32,32,61,61,True,INCLUDED_SHORT_HISTORY
+Rendered market services — Human health activities (% of previous year) [M],M,services,2024-01,2026-08,32,32,61,61,True,INCLUDED_SHORT_HISTORY
+Rendered market services — Repair of computers and household goods (% of previous year) [M],M,services,2024-01,2026-08,32,32,61,61,True,INCLUDED_SHORT_HISTORY
+Rendered market services — Personal (% of previous year) [M],M,services,2024-01,2026-08,32,32,61,61,True,INCLUDED_SHORT_HISTORY
+Rendered market services — Other services (% of previous year) [M],M,services,2024-01,2026-08,32,32,61,61,True,INCLUDED_SHORT_HISTORY
+Small business entities (units) [M],M,enterprises,2022-01,2026-08,56,44,37,49,False,INCLUDED
+Operating enterprises (units) [M],M,enterprises,2022-01,2026-09,57,45,36,48,False,INCLUDED
+Interest rates — Time deposits of individuals (annual %) [M],M,financial,2019-01,2026-08,92,92,1,1,False,INCLUDED
+Interest rates — Time deposits of legal entities (annual %) [M],M,financial,2019-01,2026-08,92,92,1,1,False,INCLUDED
+Interest rates — Loans extended to individuals (annual %) [M],M,financial,2019-01,2026-08,92,92,1,1,False,INCLUDED
+Interest rates — Loans extended to legal entities (annual %) [M],M,financial,2019-01,2026-08,92,92,1,1,False,INCLUDED
+"Remittance — Secondary income, credits (million USD) ",Q,external_income,2019Q1,2026Q2,30,26,0,4,False,INCLUDED_SHORT_HISTORY
+Average Nominal Wages (UZS) ,Q,wages,2019Q1,2026Q2,30,26,0,4,False,INCLUDED_SHORT_HISTORY
+Investments in fixed assets (%) ,Q,investment,2020Q1,2026Q2,26,26,4,4,False,INCLUDED_SHORT_HISTORY
+Investment financed through FDI (million UZS),Q,investment,2021Q1,2026Q2,22,18,8,12,False,INCLUDED_SHORT_HISTORY
+Total income of the population (billion UZS),Q,household_income,2020Q1,2026Q2,26,22,4,8,False,INCLUDED_SHORT_HISTORY

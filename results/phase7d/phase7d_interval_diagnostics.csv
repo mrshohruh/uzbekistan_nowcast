@@ -1,0 +1,11 @@
+model,n_interval_forecasts,n_quarters,empirical_coverage,interpretation
+AR1,24,8,0.875,"Illustrative prequential past-error bands; finite sample, overlap and revisions prevent calibrated nominal claims"
+AR2,24,8,0.875,"Illustrative prequential past-error bands; finite sample, overlap and revisions prevent calibrated nominal claims"
+COMBO_50_50,21,7,0.90476190476190477,"Illustrative prequential past-error bands; finite sample, overlap and revisions prevent calibrated nominal claims"
+DFM_ALL_1F,24,8,0.91666666666666663,"Illustrative prequential past-error bands; finite sample, overlap and revisions prevent calibrated nominal claims"
+DFM_ALL_2F,24,8,0.95833333333333337,"Illustrative prequential past-error bands; finite sample, overlap and revisions prevent calibrated nominal claims"
+DFM_ALL_3F,24,8,0.95833333333333337,"Illustrative prequential past-error bands; finite sample, overlap and revisions prevent calibrated nominal claims"
+DFM_ALL_GROUPED,24,8,0.91666666666666663,"Illustrative prequential past-error bands; finite sample, overlap and revisions prevent calibrated nominal claims"
+HISTORICAL_MEAN,24,8,0.375,"Illustrative prequential past-error bands; finite sample, overlap and revisions prevent calibrated nominal claims"
+M0,21,7,0.8571428571428571,"Illustrative prequential past-error bands; finite sample, overlap and revisions prevent calibrated nominal claims"
+U0,24,8,0.875,"Illustrative prequential past-error bands; finite sample, overlap and revisions prevent calibrated nominal claims"

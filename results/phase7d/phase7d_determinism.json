@@ -1,0 +1,78 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "target_quarter": "2024Q3",
+      "horizon": "H1",
+      "origin": "2024-07-31",
+      "model": "DFM_ALL_1F",
+      "recalculated": 6.203343301374385,
+      "saved": 6.203343301374385,
+      "difference": 0.0
+    },
+    {
+      "target_quarter": "2024Q3",
+      "horizon": "H1",
+      "origin": "2024-07-31",
+      "model": "DFM_ALL_2F",
+      "recalculated": 6.190240335243219,
+      "saved": 6.190240335243219,
+      "difference": 0.0
+    },
+    {
+      "target_quarter": "2024Q3",
+      "horizon": "H1",
+      "origin": "2024-07-31",
+      "model": "DFM_ALL_3F",
+      "recalculated": 5.975441832184483,
+      "saved": 5.975441832184483,
+      "difference": 0.0
+    },
+    {
+      "target_quarter": "2024Q3",
+      "horizon": "H1",
+      "origin": "2024-07-31",
+      "model": "DFM_ALL_GROUPED",
+      "recalculated": 6.204431608348538,
+      "saved": 6.204431608348538,
+      "difference": 0.0
+    },
+    {
+      "target_quarter": "2026Q3",
+      "horizon": "H3",
+      "origin": "2026-10-05",
+      "model": "DFM_ALL_1F",
+      "recalculated": 7.861777510668224,
+      "saved": 7.861777510668224,
+      "difference": 0.0
+    },
+    {
+      "target_quarter": "2026Q3",
+      "horizon": "H3",
+      "origin": "2026-10-05",
+      "model": "DFM_ALL_2F",
+      "recalculated": 8.15345693859896,
+      "saved": 8.15345693859896,
+      "difference": 0.0
+    },
+    {
+      "target_quarter": "2026Q3",
+      "horizon": "H3",
+      "origin": "2026-10-05",
+      "model": "DFM_ALL_3F",
+      "recalculated": 7.855512358616841,
+      "saved": 7.855512358616841,
+      "difference": 0.0
+    },
+    {
+      "target_quarter": "2026Q3",
+      "horizon": "H3",
+      "origin": "2026-10-05",
+      "model": "DFM_ALL_GROUPED",
+      "recalculated": 7.885688700872962,
+      "saved": 7.885688700872962,
+      "difference": 0.0
+    }
+  ],
+  "tolerance": 1e-12
+}

@@ -1,0 +1,23 @@
+{
+  "tests": 307,
+  "passed": 307,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "full_suite": {
+    "tests": 306,
+    "passed": 303,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 3
+  },
+  "final_phase7d": {
+    "tests": 19,
+    "passed": 19,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "scope": "Full existing suite followed by final Phase 7D tests; identical test IDs reconciled using latest result",
+  "passed_all": true
+}

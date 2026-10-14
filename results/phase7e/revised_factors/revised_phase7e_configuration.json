@@ -1,0 +1,31 @@
+{
+  "exclusions": {
+    "Industrial production \u2014 Industrial production (billion UZS) [M]": [
+      "F1",
+      "Aggregate overlaps industrial components; deliberately excluded."
+    ],
+    "CPI \u2014 Cumulative index (index, %) [M]": [
+      "F5",
+      "Headline overlaps retained CPI categories; deliberately excluded."
+    ],
+    "PPI \u2014 Composite index (index, %) [M]": [
+      "F5",
+      "Composite overlaps retained PPI categories; deliberately excluded."
+    ]
+  },
+  "full_monthly_count": 88,
+  "core_monthly_count": 15,
+  "unchanged_factor_numbers": [
+    "F1",
+    "F2",
+    "F3",
+    "F4",
+    "F5"
+  ],
+  "f5_positive_sign_anchor": "Retained M2 \u2014 Broad money in both full and core",
+  "anchor_effect": "Orientation only; sign-invariant ridge predictions. No new indicator.",
+  "settings": "All original transformations, thresholds, penalties, weighting formula, dynamics, bridge, origins and windows unchanged.",
+  "predictor_release_date_policy": "Existing assumed-lag research gate; observed predictor releases and historical vintages unavailable.",
+  "authentic_real_time_validated": false,
+  "production_promotion_allowed": false
+}

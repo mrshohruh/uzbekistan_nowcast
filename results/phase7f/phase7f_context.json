@@ -1,0 +1,20 @@
+{
+  "target": "2026Q3",
+  "cutoff": "2026-10-05",
+  "training_end": "2026-06-30",
+  "production_forecast": 8.180901340616275,
+  "workbook_sha256": "8d41008ac0650ff4f15825179c95d02a102521ef086952005bf0891514fc4a36",
+  "monthly_predictors": 91,
+  "quarterly_predictors": 5,
+  "production_mask_origin": "2026-09-30",
+  "production_information_class": "EXISTING_RELEASE_GATED_FROZEN_TRANSFORMED_PANEL",
+  "research_information_class": "PSEUDO_REAL_TIME_NOT_VINTAGE_VERIFIED",
+  "common_strict_months": 9,
+  "common_calendar_start": "2024-01-31",
+  "common_calendar_end": "2024-12-31",
+  "common_calendar_months": 12,
+  "missing_data_policy": "OBSERVED_BALANCED_SUBPANELS_NO_IMPUTATION",
+  "minimum_formal_months": 12,
+  "main_kmax_rule": "min(10, floor(min(N,T)/2), numerical_rank-1)",
+  "canonical_normalization": "existing origin training mean/sample std, existing measurement weights, retained-row demeaning"
+}

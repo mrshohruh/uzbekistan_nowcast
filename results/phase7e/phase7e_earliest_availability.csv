@@ -1,0 +1,11 @@
+kind,name,earliest_technical_origin,reason,earliest_target
+BLOCK,F1,2021-01-31,"12 co-observed months, >=two indicators each with >=12 released training observations",
+BLOCK,F2,2025-01-31,"12 co-observed months, >=two indicators each with >=12 released training observations",
+BLOCK,F3,2022-01-31,"12 co-observed months, >=two indicators each with >=12 released training observations",
+BLOCK,F4,2020-04-30,"12 co-observed months, >=two indicators each with >=12 released training observations",
+BLOCK,F5,2020-01-31,"12 co-observed months, >=two indicators each with >=12 released training observations",
+GDP_BRIDGE,E1,2025-01-31,"All required blocks identifiable, four real quarterly factor signals per block, 12 released GDP training rows",2025Q1
+GDP_BRIDGE,E2,2025-01-31,"All required blocks identifiable, four real quarterly factor signals per block, 12 released GDP training rows",2025Q1
+GDP_BRIDGE,E3,2025-01-31,"All required blocks identifiable, four real quarterly factor signals per block, 12 released GDP training rows",2025Q1
+GDP_BRIDGE,E4,2025-01-31,"All required blocks identifiable, four real quarterly factor signals per block, 12 released GDP training rows",2025Q1
+GDP_BRIDGE,ECONOMIC_CORE,2025-01-31,"All required blocks identifiable, four real quarterly factor signals per block, 12 released GDP training rows",2025Q1

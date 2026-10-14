@@ -1,0 +1,30 @@
+{
+  "workbook_sha256": "8d41008ac0650ff4f15825179c95d02a102521ef086952005bf0891514fc4a36",
+  "cutoff": "2026-10-05",
+  "target_quarter": "2026Q3",
+  "information_class": "PSEUDO_REAL_TIME_NOT_VINTAGE_VERIFIED",
+  "authentic_real_time_validated": false,
+  "production_model": "COMBO_50_50",
+  "production_forecast": 8.180901340616275,
+  "promotion_allowed": false,
+  "origin_count": 88,
+  "matched_origin_count": 18,
+  "original_successes_reproduced": 95,
+  "original_reproduction_max_error": 0.0,
+  "max_decomposition_error": 2.6645352591003757e-15,
+  "failed_revised_forecasts": 345,
+  "current_failures": 0,
+  "code_sha256": {
+    "scripts\\phase7e\\models.py": "ae6310ca3d4f7c433950bc822f1d54cc2447947fde4640e46dde4920afbcd831",
+    "scripts\\phase7e\\revised_factors\\configuration.py": "1418f596270873aade827458e5d80815f7cebc0b070d3eccd3a07390fd5332a0",
+    "scripts\\phase7e\\revised_factors\\finish.py": "d36224c2bc440489e5fbe9d6ec4ca563878ce62a3554b86330d8eafb17f41c66",
+    "scripts\\phase7e\\revised_factors\\report.py": "d2fd5412468e020d6d723bd4361f35018d3de4ad0908871237816809d6cf8c20",
+    "scripts\\phase7e\\revised_factors\\run.py": "abf9d671e604ff2e74a6ec7a65a247a23fc248661b4515d161a4af21e1170aa3",
+    "scripts\\phase7e\\revised_factors\\test_revised.py": "341e0f7c202075dbdc3a05283cab587efddcc8da8e9404cba69bbae65056f919",
+    "scripts\\phase7e\\revised_factors\\validate.py": "27a27789a91209df9a388c1db0b6e502b6d0d88237c90beab5d02dddaee58736",
+    "scripts\\phase7e\\revised_factors\\__init__.py": "b88a530b37d8248795eee9680a1c0c66bef50cf995532000db9ce61182e13882"
+  },
+  "run_timestamp_utc": "2026-10-14T05:08:45.455853+00:00",
+  "validation_status": true,
+  "dashboard_sha256": "77c84103f1e13658f4c4639d57f21a98d85856bf5a50bf60ae5f328ad7716708"
+}

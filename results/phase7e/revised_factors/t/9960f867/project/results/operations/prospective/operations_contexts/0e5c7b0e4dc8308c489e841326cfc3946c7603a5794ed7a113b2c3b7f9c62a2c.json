@@ -1,0 +1,17 @@
+{
+  "adapter_hashes": {
+    "__init__.py": "ae9689f47136b313d3e4650260debad3b65c9a3ee4e4049954595cd6c03012c5",
+    "acquisition.py": "6d50a2b8c8ecc535f2cddbbee374abedfcf4331774f51a2852be5f0dcf80cfc4",
+    "bootstrap.py": "6ad4618f81a61de86a785f04b8a76c2a9fd6c0e1054aae6146524eef551575d5",
+    "pos_review.py": "824c3d66d2354c3249c0e343d6944b75f27203741847207c34a5dfc5d4f7d608",
+    "run_update.py": "373ab3b5dcd47dad0995278ad2dffb1d7aebf37df00b0ac084c96debcbdf7031",
+    "seal.py": "3b86914019964e6e4f9e6e0eec88252ac53d02daa9555b192e81c754b1ace441",
+    "shadow_worker.py": "518ff892846b226fcbc52740edab7d43697a568a4b0798507b239f0c92d12698",
+    "state.py": "37547d09197817bfc8be2bd3381cecdb7e3e3a13ae46af59d9bea15b61b5fd65",
+    "workspace.py": "4925b2ec22c62c65768b5912c6d9684ee2006a22aeb35db555175bd9273ad420"
+  },
+  "information_fingerprint": "7944353ec46c9f16485b5977bb4068f2163b5c9cc2819210bf534849026aa8f4",
+  "model_specifications_unchanged": true,
+  "overlay_sha256": null,
+  "snapshot_id": "0e5c7b0e4dc8308c489e841326cfc3946c7603a5794ed7a113b2c3b7f9c62a2c"
+}

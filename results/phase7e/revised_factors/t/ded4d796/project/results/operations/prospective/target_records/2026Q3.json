@@ -1,0 +1,9 @@
+{
+  "first_horizon": "H3",
+  "first_prospective_snapshot": "2026-10-05T06:21:22.383004+00:00",
+  "first_stage": "POST_H3_LATE_INITIALIZATION",
+  "latest_known_gdp_at_entry": "2026Q2",
+  "phase6c_freeze": "2026-10-05T04:53:59.254423+00:00",
+  "reason": "Next quarter after live official latest published GDP; actual freeze and run timestamp retained",
+  "target_quarter": "2026Q3"
+}

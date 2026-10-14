@@ -1,0 +1,45 @@
+{
+  "production_preservation": true,
+  "protected_file_count": 26645,
+  "grouping_monthly_count": 91,
+  "grouping_quarterly_count": 5,
+  "monthly_groups": {
+    "F5": 38,
+    "F1": 29,
+    "F2": 14,
+    "F3": 5,
+    "F4": 5
+  },
+  "exact_decomposition_max_error": 1.7763568394002505e-15,
+  "numerical_nonconverged_count": 0,
+  "tests_status": "PASSED",
+  "browser_status": "PASSED",
+  "tests": {
+    "tests": 329,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": 329,
+    "exit_code": 0
+  },
+  "determinism": {
+    "passed": true,
+    "full_pipeline_rerun": true,
+    "rerun_exit_code": 0,
+    "n_csv_files": 22,
+    "changed_numerical_files": [],
+    "dashboard_byte_identical": true,
+    "original_pipeline_html_byte_identical": false,
+    "reporting_replay_byte_identical": true,
+    "reporting_replay_sha256": "d391479338ab3dd02662b4e4e78e2daac1ca2cf8067b6101d340a6d3f29c0217",
+    "scope": "Complete numerical pipeline replay plus current-version HTML reporting replay after table-sorting update"
+  },
+  "passed": true,
+  "browser_checks": {
+    "passed": true,
+    "model_tab_sample_checks": 52,
+    "sorted_tables": 11,
+    "external_resource_requests": 0,
+    "javascript_errors": []
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "checks": [
+    {
+      "model": "E1",
+      "tab": "Executive overview",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "tab": "Economic factors",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "tab": "GDP decomposition",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "tab": "Forecast accuracy",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "tab": "Model comparison",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "tab": "Data quality",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "tab": "Executive overview",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "tab": "Economic factors",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "tab": "GDP decomposition",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "tab": "Forecast accuracy",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "tab": "Model comparison",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "tab": "Data quality",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "tab": "Executive overview",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "tab": "Economic factors",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "tab": "GDP decomposition",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "tab": "Forecast accuracy",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "tab": "Model comparison",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "tab": "Data quality",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "tab": "Executive overview",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "tab": "Economic factors",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "tab": "GDP decomposition",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "tab": "Forecast accuracy",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "tab": "Model comparison",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "tab": "Data quality",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "tab": "Executive overview",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "tab": "Economic factors",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "tab": "GDP decomposition",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "tab": "Forecast accuracy",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "tab": "Model comparison",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "tab": "Data quality",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "sample": "MATCHED_ALL",
+      "horizon": "ALL",
+      "nonempty": true
+    },
+    {
+      "sample": "MATCHED_ALL",
+      "horizon": "H1",
+      "nonempty": true
+    },
+    {
+      "sample": "MATCHED_ALL",
+      "horizon": "H2",
+      "nonempty": true
+    },
+    {
+      "sample": "MATCHED_ALL",
+      "horizon": "H3",
+      "nonempty": true
+    },
+    {
+      "sample": "MATCHED_DEVELOPMENT",
+      "horizon": "ALL",
+      "nonempty": true
+    },
+    {
+      "sample": "MATCHED_DEVELOPMENT",
+      "horizon": "H1",
+      "nonempty": true
+    },
+    {
+      "sample": "MATCHED_DEVELOPMENT",
+      "horizon": "H2",
+      "nonempty": true
+    },
+    {
+      "sample": "MATCHED_DEVELOPMENT",
+      "horizon": "H3",
+      "nonempty": true
+    },
+    {
+      "sample": "MATCHED_HOLDOUT",
+      "horizon": "ALL",
+      "nonempty": true
+    },
+    {
+      "sample": "MATCHED_HOLDOUT",
+      "horizon": "H1",
+      "nonempty": true
+    },
+    {
+      "sample": "MATCHED_HOLDOUT",
+      "horizon": "H2",
+      "nonempty": true
+    },
+    {
+      "sample": "MATCHED_HOLDOUT",
+      "horizon": "H3",
+      "nonempty": true
+    }
+  ],
+  "inventoryCount": 96,
+  "searchCount": 17,
+  "sortedFirst": "CPI \u2014 Alcoholic drinks, tobacco products (index, %) [M]",
+  "loadingCount": 91,
+  "filteredCount": 29,
+  "reconciliation": 0,
+  "chartCount": 2,
+  "factorChartCount": 10,
+  "distributionOpened": true,
+  "sortedTables": 11,
+  "errors": [],
+  "externalResources": 0,
+  "modelOptions": 5,
+  "exit_code": 0,
+  "tested_dashboard_sha256": "d391479338ab3dd02662b4e4e78e2daac1ca2cf8067b6101d340a6d3f29c0217",
+  "passed": true
+}

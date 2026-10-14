@@ -1,0 +1,6 @@
+{
+  "policy": "results/current/production_policy.json",
+  "nowcast": "results/current/current_nowcast.json",
+  "dashboard": "dashboard/uzbekistan_nowcast_v2.html",
+  "rollback": "results/current/rollback_policy.json"
+}

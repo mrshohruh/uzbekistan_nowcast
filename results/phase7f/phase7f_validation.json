@@ -1,0 +1,50 @@
+{
+  "tests": {
+    "tests": 75,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": 75,
+    "exit_code": 0,
+    "scope": "Phase 7F scientific tests plus unchanged production configuration/DFM, Phase 7D and Phase 7E research regressions"
+  },
+  "determinism": {
+    "passed": true,
+    "full_diagnostic_pipeline_replayed": true,
+    "replay_exit_code": 0,
+    "compared_csv_files": 95,
+    "changed_csv_files": [],
+    "dashboard_byte_identical": true
+  },
+  "browser": {
+    "passed": true,
+    "model_sample_tab_checks": 756,
+    "javascript_errors": [],
+    "external_resources": 0,
+    "criterion_charts": 3,
+    "spectrum_charts": 4,
+    "sorted_tables": 9,
+    "heatmap_selector_passed": true
+  },
+  "production_forecast": 8.180901340616275,
+  "protected_artifacts_verified": true,
+  "protected_file_count": 27792,
+  "protection_scope": "All existing files at the resumed user request baseline, except bytecode/temporary paths and Phase 7F-owned outputs/code",
+  "resumption_audit": {
+    "context": "User repeated the same request on 2026-10-14 after the original 2026-10-13 capture; preserve concurrent workspace changes.",
+    "initial_to_resumed_changes": [
+      {
+        "path": "scripts/phase7e/models.py",
+        "initial_sha256": "f08c722c1591a4af7af63f0671f5a1a045ae7aa9af4ed4f8a187f9459513d911",
+        "resumed_sha256": "ae6310ca3d4f7c433950bc822f1d54cc2447947fde4640e46dde4920afbcd831"
+      }
+    ],
+    "unchanged_initial_files": 26702,
+    "phase7f_modifications_confined_to": [
+      "scripts/phase7f",
+      "results/phase7f"
+    ],
+    "affected_source_note": "Phase 7E optional configuration interface added outside this implementation; default path and frozen artifacts retained."
+  },
+  "passed": true
+}

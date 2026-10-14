@@ -1,0 +1,20 @@
+{
+  "monthly_rows": 93,
+  "quarterly_rows": 30,
+  "monthly_predictors": 91,
+  "quarterly_predictors": 5,
+  "total_predictors": 96,
+  "gdp_label": "Growth rates of Gross domestic product (production method) (as a percentage of the corresponding period of the previous year)",
+  "gdp_convention": "Published cumulative YTD real GDP YoY percent; index minus 100",
+  "gdp_master_concordance": {
+    "n_common": 30,
+    "max_absolute_difference": 0.0,
+    "validated": true
+  },
+  "duplicate_periods": 0,
+  "duplicate_labels": 0,
+  "workbook_source_metadata": "Absent: no historical releases, source URLs, exact aggregation conventions or retrieval timestamps",
+  "information_class": "PSEUDO_REAL_TIME_NOT_VINTAGE_VERIFIED",
+  "workbook_sha256": "8d41008ac0650ff4f15825179c95d02a102521ef086952005bf0891514fc4a36",
+  "source_archive": "C:\\Users\\Sh.Nishonqulov\\Desktop\\uzbekistan_nowcast_codex_starter\\results\\phase7d\\input\\8d41008ac0650ff4f15825179c95d02a102521ef086952005bf0891514fc4a36.xlsx"
+}

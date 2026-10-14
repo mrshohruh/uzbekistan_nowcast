@@ -1,0 +1,4553 @@
+{
+  "checks": [
+    {
+      "model": "PRODUCTION_DFM",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "PRODUCTION_DFM",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "PRODUCTION_DFM",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "PRODUCTION_DFM",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "PRODUCTION_DFM",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "PRODUCTION_DFM",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "PRODUCTION_DFM",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "PRODUCTION_DFM",
+      "sample": "COMMON_STRICT",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "PRODUCTION_DFM",
+      "sample": "COMMON_STRICT",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "PRODUCTION_DFM",
+      "sample": "COMMON_STRICT",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "PRODUCTION_DFM",
+      "sample": "COMMON_STRICT",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "PRODUCTION_DFM",
+      "sample": "COMMON_STRICT",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "PRODUCTION_DFM",
+      "sample": "COMMON_STRICT",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "PRODUCTION_DFM",
+      "sample": "COMMON_STRICT",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "PRODUCTION_DFM",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "PRODUCTION_DFM",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "PRODUCTION_DFM",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "PRODUCTION_DFM",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "PRODUCTION_DFM",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "PRODUCTION_DFM",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "PRODUCTION_DFM",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "PRODUCTION_DFM",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "PRODUCTION_DFM",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "PRODUCTION_DFM",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "PRODUCTION_DFM",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "PRODUCTION_DFM",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "PRODUCTION_DFM",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "PRODUCTION_DFM",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "PRODUCTION_DFM",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "PRODUCTION_DFM",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "PRODUCTION_DFM",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "PRODUCTION_DFM",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "PRODUCTION_DFM",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "PRODUCTION_DFM",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "PRODUCTION_DFM",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "PRODUCTION_DFM",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "PRODUCTION_DFM",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "PRODUCTION_DFM",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "PRODUCTION_DFM",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "PRODUCTION_DFM",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "PRODUCTION_DFM",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "PRODUCTION_DFM",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "sample": "COMMON_STRICT",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "sample": "COMMON_STRICT",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "sample": "COMMON_STRICT",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "sample": "COMMON_STRICT",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "sample": "COMMON_STRICT",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "sample": "COMMON_STRICT",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "sample": "COMMON_STRICT",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "E1",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "sample": "COMMON_STRICT",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "sample": "COMMON_STRICT",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "sample": "COMMON_STRICT",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "sample": "COMMON_STRICT",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "sample": "COMMON_STRICT",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "sample": "COMMON_STRICT",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "sample": "COMMON_STRICT",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "E2",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "sample": "COMMON_STRICT",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "sample": "COMMON_STRICT",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "sample": "COMMON_STRICT",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "sample": "COMMON_STRICT",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "sample": "COMMON_STRICT",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "sample": "COMMON_STRICT",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "sample": "COMMON_STRICT",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "E3",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "sample": "COMMON_STRICT",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "sample": "COMMON_STRICT",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "sample": "COMMON_STRICT",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "sample": "COMMON_STRICT",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "sample": "COMMON_STRICT",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "sample": "COMMON_STRICT",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "sample": "COMMON_STRICT",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "E4",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "sample": "COMMON_STRICT",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "sample": "COMMON_STRICT",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "sample": "COMMON_STRICT",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "sample": "COMMON_STRICT",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "sample": "COMMON_STRICT",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "sample": "COMMON_STRICT",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "sample": "COMMON_STRICT",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "ECONOMIC_CORE",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F1",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F1",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F1",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F1",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F1",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F1",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F1",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F1",
+      "sample": "COMMON_STRICT",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F1",
+      "sample": "COMMON_STRICT",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F1",
+      "sample": "COMMON_STRICT",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F1",
+      "sample": "COMMON_STRICT",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F1",
+      "sample": "COMMON_STRICT",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F1",
+      "sample": "COMMON_STRICT",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F1",
+      "sample": "COMMON_STRICT",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F1",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F1",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F1",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F1",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F1",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F1",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F1",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F1",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F1",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F1",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F1",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F1",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F1",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F1",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F1",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F1",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F1",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F1",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F1",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F1",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F1",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F1",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F1",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F1",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F1",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F1",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F1",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F1",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F1",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F1",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F1",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F1",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F1",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F1",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F1",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F1",
+      "sample": "COMMON_STRICT",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F1",
+      "sample": "COMMON_STRICT",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F1",
+      "sample": "COMMON_STRICT",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F1",
+      "sample": "COMMON_STRICT",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F1",
+      "sample": "COMMON_STRICT",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F1",
+      "sample": "COMMON_STRICT",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F1",
+      "sample": "COMMON_STRICT",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F1",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F1",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F1",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F1",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F1",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F1",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F1",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F1",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F1",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F1",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F1",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F1",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F1",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F1",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F1",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F1",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F1",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F1",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F1",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F1",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F1",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F1",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F1",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F1",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F1",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F1",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F1",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F1",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F2",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F2",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F2",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F2",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F2",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F2",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F2",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F2",
+      "sample": "COMMON_STRICT",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F2",
+      "sample": "COMMON_STRICT",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F2",
+      "sample": "COMMON_STRICT",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F2",
+      "sample": "COMMON_STRICT",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F2",
+      "sample": "COMMON_STRICT",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F2",
+      "sample": "COMMON_STRICT",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F2",
+      "sample": "COMMON_STRICT",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F2",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F2",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F2",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F2",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F2",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F2",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F2",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F2",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F2",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F2",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F2",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F2",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F2",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F2",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F2",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F2",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F2",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F2",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F2",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F2",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F2",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F2",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F2",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F2",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F2",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F2",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F2",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F2",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F2",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F2",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F2",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F2",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F2",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F2",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F2",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F2",
+      "sample": "COMMON_STRICT",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F2",
+      "sample": "COMMON_STRICT",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F2",
+      "sample": "COMMON_STRICT",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F2",
+      "sample": "COMMON_STRICT",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F2",
+      "sample": "COMMON_STRICT",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F2",
+      "sample": "COMMON_STRICT",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F2",
+      "sample": "COMMON_STRICT",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F2",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F2",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F2",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F2",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F2",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F2",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F2",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F2",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F2",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F2",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F2",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F2",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F2",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F2",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F2",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F2",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F2",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F2",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F2",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F2",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F2",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F2",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F2",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F2",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F2",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F2",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F2",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F2",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F3",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F3",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F3",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F3",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F3",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F3",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F3",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F3",
+      "sample": "COMMON_STRICT",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F3",
+      "sample": "COMMON_STRICT",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F3",
+      "sample": "COMMON_STRICT",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F3",
+      "sample": "COMMON_STRICT",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F3",
+      "sample": "COMMON_STRICT",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F3",
+      "sample": "COMMON_STRICT",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F3",
+      "sample": "COMMON_STRICT",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F3",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F3",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F3",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F3",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F3",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F3",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F3",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F3",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F3",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F3",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F3",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F3",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F3",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F3",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F3",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F3",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F3",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F3",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F3",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F3",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F3",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F3",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F3",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F3",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F3",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F3",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F3",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F3",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F3",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F3",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F3",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F3",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F3",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F3",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F3",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F3",
+      "sample": "COMMON_STRICT",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F3",
+      "sample": "COMMON_STRICT",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F3",
+      "sample": "COMMON_STRICT",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F3",
+      "sample": "COMMON_STRICT",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F3",
+      "sample": "COMMON_STRICT",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F3",
+      "sample": "COMMON_STRICT",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F3",
+      "sample": "COMMON_STRICT",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F3",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F3",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F3",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F3",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F3",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F3",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F3",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F3",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F3",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F3",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F3",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F3",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F3",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F3",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F3",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F3",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F3",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F3",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F3",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F3",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F3",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F3",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F3",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F3",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F3",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F3",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F3",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F3",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F4",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F4",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F4",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F4",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F4",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F4",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F4",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F4",
+      "sample": "COMMON_STRICT",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F4",
+      "sample": "COMMON_STRICT",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F4",
+      "sample": "COMMON_STRICT",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F4",
+      "sample": "COMMON_STRICT",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F4",
+      "sample": "COMMON_STRICT",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F4",
+      "sample": "COMMON_STRICT",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F4",
+      "sample": "COMMON_STRICT",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F4",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F4",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F4",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F4",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F4",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F4",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F4",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F4",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F4",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F4",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F4",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F4",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F4",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F4",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F4",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F4",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F4",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F4",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F4",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F4",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F4",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F4",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F4",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F4",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F4",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F4",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F4",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F4",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F4",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F4",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F4",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F4",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F4",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F4",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F4",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F4",
+      "sample": "COMMON_STRICT",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F4",
+      "sample": "COMMON_STRICT",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F4",
+      "sample": "COMMON_STRICT",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F4",
+      "sample": "COMMON_STRICT",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F4",
+      "sample": "COMMON_STRICT",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F4",
+      "sample": "COMMON_STRICT",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F4",
+      "sample": "COMMON_STRICT",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F4",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F4",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F4",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F4",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F4",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F4",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F4",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F4",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F4",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F4",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F4",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F4",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F4",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F4",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F4",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F4",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F4",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F4",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F4",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F4",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F4",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F4",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F4",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F4",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F4",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F4",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F4",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F4",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F5",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F5",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F5",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F5",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F5",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F5",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F5",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F5",
+      "sample": "COMMON_STRICT",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F5",
+      "sample": "COMMON_STRICT",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F5",
+      "sample": "COMMON_STRICT",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F5",
+      "sample": "COMMON_STRICT",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F5",
+      "sample": "COMMON_STRICT",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F5",
+      "sample": "COMMON_STRICT",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F5",
+      "sample": "COMMON_STRICT",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F5",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F5",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F5",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F5",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F5",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F5",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F5",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F5",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F5",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F5",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F5",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F5",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F5",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F5",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F5",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F5",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F5",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F5",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F5",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F5",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F5",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F5",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F5",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F5",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F5",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F5",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F5",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "GROUP_F5",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F5",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F5",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F5",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F5",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F5",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F5",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F5",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F5",
+      "sample": "COMMON_STRICT",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F5",
+      "sample": "COMMON_STRICT",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F5",
+      "sample": "COMMON_STRICT",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F5",
+      "sample": "COMMON_STRICT",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F5",
+      "sample": "COMMON_STRICT",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F5",
+      "sample": "COMMON_STRICT",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F5",
+      "sample": "COMMON_STRICT",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F5",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F5",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F5",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F5",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F5",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F5",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F5",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F5",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F5",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F5",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F5",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F5",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F5",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F5",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F5",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F5",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F5",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F5",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F5",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F5",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F5",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F5",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F5",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F5",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F5",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F5",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F5",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "CORE_F5",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "E3_STAGE2",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "E3_STAGE2",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "E3_STAGE2",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "E3_STAGE2",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "E3_STAGE2",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "E3_STAGE2",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "E3_STAGE2",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "E3_STAGE2",
+      "sample": "COMMON_STRICT",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "E3_STAGE2",
+      "sample": "COMMON_STRICT",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "E3_STAGE2",
+      "sample": "COMMON_STRICT",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "E3_STAGE2",
+      "sample": "COMMON_STRICT",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "E3_STAGE2",
+      "sample": "COMMON_STRICT",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "E3_STAGE2",
+      "sample": "COMMON_STRICT",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "E3_STAGE2",
+      "sample": "COMMON_STRICT",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "E3_STAGE2",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "E3_STAGE2",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "E3_STAGE2",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "E3_STAGE2",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "E3_STAGE2",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "E3_STAGE2",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "E3_STAGE2",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "E3_STAGE2",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "E3_STAGE2",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "E3_STAGE2",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "E3_STAGE2",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "E3_STAGE2",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "E3_STAGE2",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "E3_STAGE2",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "E3_STAGE2",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "E3_STAGE2",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "E3_STAGE2",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "E3_STAGE2",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "E3_STAGE2",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "E3_STAGE2",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "E3_STAGE2",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "E3_STAGE2",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "E3_STAGE2",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "E3_STAGE2",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "E3_STAGE2",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "E3_STAGE2",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "E3_STAGE2",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "E3_STAGE2",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "E3_BRIDGE",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "E3_BRIDGE",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "E3_BRIDGE",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "E3_BRIDGE",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "E3_BRIDGE",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "E3_BRIDGE",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "E3_BRIDGE",
+      "sample": "ORIGINAL_COMPLETE",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "E3_BRIDGE",
+      "sample": "COMMON_STRICT",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "E3_BRIDGE",
+      "sample": "COMMON_STRICT",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "E3_BRIDGE",
+      "sample": "COMMON_STRICT",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "E3_BRIDGE",
+      "sample": "COMMON_STRICT",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "E3_BRIDGE",
+      "sample": "COMMON_STRICT",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "E3_BRIDGE",
+      "sample": "COMMON_STRICT",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "E3_BRIDGE",
+      "sample": "COMMON_STRICT",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "E3_BRIDGE",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "E3_BRIDGE",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "E3_BRIDGE",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "E3_BRIDGE",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "E3_BRIDGE",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "E3_BRIDGE",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "E3_BRIDGE",
+      "sample": "COMMON_CALENDAR_SUBSET",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "E3_BRIDGE",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "E3_BRIDGE",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "E3_BRIDGE",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "E3_BRIDGE",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "E3_BRIDGE",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "E3_BRIDGE",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "E3_BRIDGE",
+      "sample": "LONG_HISTORY_RECTANGLE",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "E3_BRIDGE",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "E3_BRIDGE",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "E3_BRIDGE",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "E3_BRIDGE",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "E3_BRIDGE",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "E3_BRIDGE",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "E3_BRIDGE",
+      "sample": "UNWEIGHTED_ORIGINAL",
+      "tab": "Methodology",
+      "nonempty": true
+    },
+    {
+      "model": "E3_BRIDGE",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Overview",
+      "nonempty": true
+    },
+    {
+      "model": "E3_BRIDGE",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Bai\u2013Ng criteria",
+      "nonempty": true
+    },
+    {
+      "model": "E3_BRIDGE",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Spectrum & ratios",
+      "nonempty": true
+    },
+    {
+      "model": "E3_BRIDGE",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Economic groups",
+      "nonempty": true
+    },
+    {
+      "model": "E3_BRIDGE",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Factor loadings",
+      "nonempty": true
+    },
+    {
+      "model": "E3_BRIDGE",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Coverage & sensitivity",
+      "nonempty": true
+    },
+    {
+      "model": "E3_BRIDGE",
+      "sample": "BALANCED_RESTANDARDIZED",
+      "tab": "Methodology",
+      "nonempty": true
+    }
+  ],
+  "criterionCharts": 3,
+  "spectrumCharts": 4,
+  "originalLoads": 910,
+  "searchLoads": 170,
+  "twoPCLoads": 34,
+  "heatmapCells": 34,
+  "sortedTables": 9,
+  "unavailableWarning": true,
+  "errors": [],
+  "externalResources": 0,
+  "exit_code": 0,
+  "tested_dashboard_sha256": "53155d8e8297a2704f47060c085f37ddff648cc6095a19aea7a76ce3f9e04f26",
+  "passed": true
+}

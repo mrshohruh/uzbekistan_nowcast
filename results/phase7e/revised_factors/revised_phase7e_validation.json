@@ -1,0 +1,569 @@
+{
+  "protected_artifacts_verified": true,
+  "protected_file_count": 334,
+  "original_outputs_preserved": true,
+  "production_preserved": true,
+  "production_forecast": 8.180901340616275,
+  "authentic_real_time_validated": false,
+  "tests": {
+    "tests": 351,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": 351,
+    "exit_code": 0
+  },
+  "tests_status": "PASSED_AFTER_TARGETED_RETRY",
+  "browser_status": "PASSED",
+  "browser": {
+    "checks": [
+      {
+        "model": "E1",
+        "version": "ORIGINAL",
+        "tab": "Comparison",
+        "nonempty": true
+      },
+      {
+        "model": "E1",
+        "version": "ORIGINAL",
+        "tab": "Factor composition",
+        "nonempty": true
+      },
+      {
+        "model": "E1",
+        "version": "ORIGINAL",
+        "tab": "GDP contributions",
+        "nonempty": true
+      },
+      {
+        "model": "E1",
+        "version": "ORIGINAL",
+        "tab": "Historical forecasts",
+        "nonempty": true
+      },
+      {
+        "model": "E1",
+        "version": "ORIGINAL",
+        "tab": "Horizon performance",
+        "nonempty": true
+      },
+      {
+        "model": "E1",
+        "version": "ORIGINAL",
+        "tab": "Factor loadings",
+        "nonempty": true
+      },
+      {
+        "model": "E1",
+        "version": "ORIGINAL",
+        "tab": "Methodology & failures",
+        "nonempty": true
+      },
+      {
+        "model": "E1",
+        "version": "REVISED",
+        "tab": "Comparison",
+        "nonempty": true
+      },
+      {
+        "model": "E1",
+        "version": "REVISED",
+        "tab": "Factor composition",
+        "nonempty": true
+      },
+      {
+        "model": "E1",
+        "version": "REVISED",
+        "tab": "GDP contributions",
+        "nonempty": true
+      },
+      {
+        "model": "E1",
+        "version": "REVISED",
+        "tab": "Historical forecasts",
+        "nonempty": true
+      },
+      {
+        "model": "E1",
+        "version": "REVISED",
+        "tab": "Horizon performance",
+        "nonempty": true
+      },
+      {
+        "model": "E1",
+        "version": "REVISED",
+        "tab": "Factor loadings",
+        "nonempty": true
+      },
+      {
+        "model": "E1",
+        "version": "REVISED",
+        "tab": "Methodology & failures",
+        "nonempty": true
+      },
+      {
+        "model": "E2",
+        "version": "ORIGINAL",
+        "tab": "Comparison",
+        "nonempty": true
+      },
+      {
+        "model": "E2",
+        "version": "ORIGINAL",
+        "tab": "Factor composition",
+        "nonempty": true
+      },
+      {
+        "model": "E2",
+        "version": "ORIGINAL",
+        "tab": "GDP contributions",
+        "nonempty": true
+      },
+      {
+        "model": "E2",
+        "version": "ORIGINAL",
+        "tab": "Historical forecasts",
+        "nonempty": true
+      },
+      {
+        "model": "E2",
+        "version": "ORIGINAL",
+        "tab": "Horizon performance",
+        "nonempty": true
+      },
+      {
+        "model": "E2",
+        "version": "ORIGINAL",
+        "tab": "Factor loadings",
+        "nonempty": true
+      },
+      {
+        "model": "E2",
+        "version": "ORIGINAL",
+        "tab": "Methodology & failures",
+        "nonempty": true
+      },
+      {
+        "model": "E2",
+        "version": "REVISED",
+        "tab": "Comparison",
+        "nonempty": true
+      },
+      {
+        "model": "E2",
+        "version": "REVISED",
+        "tab": "Factor composition",
+        "nonempty": true
+      },
+      {
+        "model": "E2",
+        "version": "REVISED",
+        "tab": "GDP contributions",
+        "nonempty": true
+      },
+      {
+        "model": "E2",
+        "version": "REVISED",
+        "tab": "Historical forecasts",
+        "nonempty": true
+      },
+      {
+        "model": "E2",
+        "version": "REVISED",
+        "tab": "Horizon performance",
+        "nonempty": true
+      },
+      {
+        "model": "E2",
+        "version": "REVISED",
+        "tab": "Factor loadings",
+        "nonempty": true
+      },
+      {
+        "model": "E2",
+        "version": "REVISED",
+        "tab": "Methodology & failures",
+        "nonempty": true
+      },
+      {
+        "model": "E3",
+        "version": "ORIGINAL",
+        "tab": "Comparison",
+        "nonempty": true
+      },
+      {
+        "model": "E3",
+        "version": "ORIGINAL",
+        "tab": "Factor composition",
+        "nonempty": true
+      },
+      {
+        "model": "E3",
+        "version": "ORIGINAL",
+        "tab": "GDP contributions",
+        "nonempty": true
+      },
+      {
+        "model": "E3",
+        "version": "ORIGINAL",
+        "tab": "Historical forecasts",
+        "nonempty": true
+      },
+      {
+        "model": "E3",
+        "version": "ORIGINAL",
+        "tab": "Horizon performance",
+        "nonempty": true
+      },
+      {
+        "model": "E3",
+        "version": "ORIGINAL",
+        "tab": "Factor loadings",
+        "nonempty": true
+      },
+      {
+        "model": "E3",
+        "version": "ORIGINAL",
+        "tab": "Methodology & failures",
+        "nonempty": true
+      },
+      {
+        "model": "E3",
+        "version": "REVISED",
+        "tab": "Comparison",
+        "nonempty": true
+      },
+      {
+        "model": "E3",
+        "version": "REVISED",
+        "tab": "Factor composition",
+        "nonempty": true
+      },
+      {
+        "model": "E3",
+        "version": "REVISED",
+        "tab": "GDP contributions",
+        "nonempty": true
+      },
+      {
+        "model": "E3",
+        "version": "REVISED",
+        "tab": "Historical forecasts",
+        "nonempty": true
+      },
+      {
+        "model": "E3",
+        "version": "REVISED",
+        "tab": "Horizon performance",
+        "nonempty": true
+      },
+      {
+        "model": "E3",
+        "version": "REVISED",
+        "tab": "Factor loadings",
+        "nonempty": true
+      },
+      {
+        "model": "E3",
+        "version": "REVISED",
+        "tab": "Methodology & failures",
+        "nonempty": true
+      },
+      {
+        "model": "E4",
+        "version": "ORIGINAL",
+        "tab": "Comparison",
+        "nonempty": true
+      },
+      {
+        "model": "E4",
+        "version": "ORIGINAL",
+        "tab": "Factor composition",
+        "nonempty": true
+      },
+      {
+        "model": "E4",
+        "version": "ORIGINAL",
+        "tab": "GDP contributions",
+        "nonempty": true
+      },
+      {
+        "model": "E4",
+        "version": "ORIGINAL",
+        "tab": "Historical forecasts",
+        "nonempty": true
+      },
+      {
+        "model": "E4",
+        "version": "ORIGINAL",
+        "tab": "Horizon performance",
+        "nonempty": true
+      },
+      {
+        "model": "E4",
+        "version": "ORIGINAL",
+        "tab": "Factor loadings",
+        "nonempty": true
+      },
+      {
+        "model": "E4",
+        "version": "ORIGINAL",
+        "tab": "Methodology & failures",
+        "nonempty": true
+      },
+      {
+        "model": "E4",
+        "version": "REVISED",
+        "tab": "Comparison",
+        "nonempty": true
+      },
+      {
+        "model": "E4",
+        "version": "REVISED",
+        "tab": "Factor composition",
+        "nonempty": true
+      },
+      {
+        "model": "E4",
+        "version": "REVISED",
+        "tab": "GDP contributions",
+        "nonempty": true
+      },
+      {
+        "model": "E4",
+        "version": "REVISED",
+        "tab": "Historical forecasts",
+        "nonempty": true
+      },
+      {
+        "model": "E4",
+        "version": "REVISED",
+        "tab": "Horizon performance",
+        "nonempty": true
+      },
+      {
+        "model": "E4",
+        "version": "REVISED",
+        "tab": "Factor loadings",
+        "nonempty": true
+      },
+      {
+        "model": "E4",
+        "version": "REVISED",
+        "tab": "Methodology & failures",
+        "nonempty": true
+      },
+      {
+        "model": "ECONOMIC_CORE",
+        "version": "ORIGINAL",
+        "tab": "Comparison",
+        "nonempty": true
+      },
+      {
+        "model": "ECONOMIC_CORE",
+        "version": "ORIGINAL",
+        "tab": "Factor composition",
+        "nonempty": true
+      },
+      {
+        "model": "ECONOMIC_CORE",
+        "version": "ORIGINAL",
+        "tab": "GDP contributions",
+        "nonempty": true
+      },
+      {
+        "model": "ECONOMIC_CORE",
+        "version": "ORIGINAL",
+        "tab": "Historical forecasts",
+        "nonempty": true
+      },
+      {
+        "model": "ECONOMIC_CORE",
+        "version": "ORIGINAL",
+        "tab": "Horizon performance",
+        "nonempty": true
+      },
+      {
+        "model": "ECONOMIC_CORE",
+        "version": "ORIGINAL",
+        "tab": "Factor loadings",
+        "nonempty": true
+      },
+      {
+        "model": "ECONOMIC_CORE",
+        "version": "ORIGINAL",
+        "tab": "Methodology & failures",
+        "nonempty": true
+      },
+      {
+        "model": "ECONOMIC_CORE",
+        "version": "REVISED",
+        "tab": "Comparison",
+        "nonempty": true
+      },
+      {
+        "model": "ECONOMIC_CORE",
+        "version": "REVISED",
+        "tab": "Factor composition",
+        "nonempty": true
+      },
+      {
+        "model": "ECONOMIC_CORE",
+        "version": "REVISED",
+        "tab": "GDP contributions",
+        "nonempty": true
+      },
+      {
+        "model": "ECONOMIC_CORE",
+        "version": "REVISED",
+        "tab": "Historical forecasts",
+        "nonempty": true
+      },
+      {
+        "model": "ECONOMIC_CORE",
+        "version": "REVISED",
+        "tab": "Horizon performance",
+        "nonempty": true
+      },
+      {
+        "model": "ECONOMIC_CORE",
+        "version": "REVISED",
+        "tab": "Factor loadings",
+        "nonempty": true
+      },
+      {
+        "model": "ECONOMIC_CORE",
+        "version": "REVISED",
+        "tab": "Methodology & failures",
+        "nonempty": true
+      },
+      {
+        "sample": "MATCHED_ALL",
+        "horizon": "ALL",
+        "rows": 5,
+        "nonempty": true
+      },
+      {
+        "sample": "MATCHED_ALL",
+        "horizon": "H1",
+        "rows": 5,
+        "nonempty": true
+      },
+      {
+        "sample": "MATCHED_ALL",
+        "horizon": "H2",
+        "rows": 5,
+        "nonempty": true
+      },
+      {
+        "sample": "MATCHED_ALL",
+        "horizon": "H3",
+        "rows": 5,
+        "nonempty": true
+      },
+      {
+        "sample": "MATCHED_DEVELOPMENT",
+        "horizon": "ALL",
+        "rows": 5,
+        "nonempty": true
+      },
+      {
+        "sample": "MATCHED_DEVELOPMENT",
+        "horizon": "H1",
+        "rows": 5,
+        "nonempty": true
+      },
+      {
+        "sample": "MATCHED_DEVELOPMENT",
+        "horizon": "H2",
+        "rows": 5,
+        "nonempty": true
+      },
+      {
+        "sample": "MATCHED_DEVELOPMENT",
+        "horizon": "H3",
+        "rows": 5,
+        "nonempty": true
+      },
+      {
+        "sample": "MATCHED_HOLDOUT",
+        "horizon": "ALL",
+        "rows": 5,
+        "nonempty": true
+      },
+      {
+        "sample": "MATCHED_HOLDOUT",
+        "horizon": "H1",
+        "rows": 5,
+        "nonempty": true
+      },
+      {
+        "sample": "MATCHED_HOLDOUT",
+        "horizon": "H2",
+        "rows": 5,
+        "nonempty": true
+      },
+      {
+        "sample": "MATCHED_HOLDOUT",
+        "horizon": "H3",
+        "rows": 5,
+        "nonempty": true
+      }
+    ],
+    "full": 88,
+    "excluded": 3,
+    "industry": 28,
+    "core": 15,
+    "corePrices": 0,
+    "searchCount": 16,
+    "expectedCpi": 16,
+    "historyRows": 12,
+    "historyCharts": 1,
+    "reconciliation": 0,
+    "sorts": 7,
+    "external": 0,
+    "errors": [],
+    "exit_code": 0,
+    "dashboard_sha256": "77c84103f1e13658f4c4639d57f21a98d85856bf5a50bf60ae5f328ad7716708",
+    "passed": true
+  },
+  "determinism": {
+    "passed": true,
+    "full_pipeline_replay": true,
+    "replay_exit_code": 0,
+    "changed_csv_files": [],
+    "dashboard_byte_identical": true,
+    "dashboard_reporting_replay": {
+      "passed": true,
+      "previous_sha256": "2fd8dc8553b50e6503dada09f1d2c720643d15d6624f29e69a2ae2085f62b3f6",
+      "current_sha256": "77c84103f1e13658f4c4639d57f21a98d85856bf5a50bf60ae5f328ad7716708",
+      "numerical_csvs_unchanged": true,
+      "reason": "Case-insensitive dashboard search repair; no numerical changes"
+    }
+  },
+  "passed": true,
+  "initial_tests": {
+    "tests": 351,
+    "failures": 2,
+    "errors": 0,
+    "skipped": 0,
+    "passed": 349,
+    "exit_code": 1
+  },
+  "retried_checks": {
+    "tests": 2,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "exit_code": 0,
+    "nodes": [
+      "tests/operations/test_operations.py::test_staged_worker_reproduces_without_touching_repository",
+      "tests/operations/test_operations.py::test_staged_supported_writer_appends_only_private_fixture"
+    ]
+  },
+  "validation_notes": [
+    "Initial full suite: 349 passed, two existing operation tests failed at CopyFile2 with WinError 3 because staged destinations exceeded legacy Windows path lengths.",
+    "Targeted retry uses a shorter temporary directory inside revised_factors; no production or existing test implementation was changed.",
+    "Restricted Edge launch failed on Windows IPC permissions; offline controls validated with an approved unrestricted process launch."
+  ]
+}

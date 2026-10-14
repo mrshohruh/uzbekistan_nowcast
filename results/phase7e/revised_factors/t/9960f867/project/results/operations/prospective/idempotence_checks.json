@@ -1,0 +1,6 @@
+{
+  "independent_recomputation_tolerance": 1e-08,
+  "ledger_bytes_unchanged": true,
+  "ledger_hash_after": "8089f9d674158126405d363b48f468fff0eac0fe6b9f183bb52c30a2412c6d46",
+  "ledger_hash_before": "8089f9d674158126405d363b48f468fff0eac0fe6b9f183bb52c30a2412c6d46"
+}

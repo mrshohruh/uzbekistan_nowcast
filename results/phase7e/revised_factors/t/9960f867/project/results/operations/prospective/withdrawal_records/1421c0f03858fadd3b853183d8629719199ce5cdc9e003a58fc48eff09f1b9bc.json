@@ -1,0 +1,13 @@
+{
+  "affected_models": [
+    "AR1",
+    "AR2",
+    "UMIDAS_USD",
+    "PRODUCTION_ENSEMBLE",
+    "PHASE6C_DFM",
+    "COMBO_50_50",
+    "COMBO_DEV_WEIGHT"
+  ],
+  "reason": "Initialization implementation truncated U-MIDAS pre-2019 USD history; superseded after restoring frozen benchmark history. Original rows retained; excluded from scoring.",
+  "snapshot_id": "b1c04f594530fcde95a273e2db06aaf2fdb1cca407dc1d3980a8ff2795f98dbf"
+}

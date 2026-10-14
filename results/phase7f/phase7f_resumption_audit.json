@@ -1,0 +1,16 @@
+{
+  "context": "User repeated the same request on 2026-10-14 after the original 2026-10-13 capture; preserve concurrent workspace changes.",
+  "initial_to_resumed_changes": [
+    {
+      "path": "scripts/phase7e/models.py",
+      "initial_sha256": "f08c722c1591a4af7af63f0671f5a1a045ae7aa9af4ed4f8a187f9459513d911",
+      "resumed_sha256": "ae6310ca3d4f7c433950bc822f1d54cc2447947fde4640e46dde4920afbcd831"
+    }
+  ],
+  "unchanged_initial_files": 26702,
+  "phase7f_modifications_confined_to": [
+    "scripts/phase7f",
+    "results/phase7f"
+  ],
+  "affected_source_note": "Phase 7E optional configuration interface added outside this implementation; default path and frozen artifacts retained."
+}
